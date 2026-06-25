@@ -132,6 +132,9 @@ function render(){
         <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
         <div class="g-info">
           🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
+          &nbsp;·&nbsp; ${g.platform==='Android'
+              ? `📥 安装 <b>${esc(g.installs||"—")}</b>`
+              : `⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`}
           &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
           &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
           &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>

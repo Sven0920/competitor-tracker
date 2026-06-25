@@ -125,6 +125,7 @@ def main():
                                 "custom_dev": custom_dev,
                                 "name": game.get("trackName", "未知"),
                                 "icon": game.get("artworkUrl100", ""),
+                                "ratings": game.get("userRatingCount", 0) or 0,
                                 "url": game.get("trackViewUrl", f"https://apps.apple.com/app/id{app_id}"),
                                 "release_date": game.get("releaseDate", "").split("T")[0],
                                 "size": bytes_to_mb(game.get("fileSizeBytes", 0)),
@@ -178,6 +179,7 @@ def main():
                 "platform": "iOS",
                 "name": game_data["name"],
                 "icon": game_data.get("icon", ""),
+                "ratings": game_data.get("ratings", 0),
                 "regions": game_data["regions"],
                 "size": game_data["size"],
                 "iap_info": game_data["iap_info"],
@@ -201,14 +203,16 @@ def main():
                 size = details.get("size", "因设备而异")
                 iap_info = details.get("inAppProductPrice", "无内购")
                 release_date = details.get("released", "未知日期")
+                installs = details.get("installs", "")
             except:
-                size, iap_info, release_date = "未知", "未知", "未知日期"
+                size, iap_info, release_date, installs = "未知", "未知", "未知日期", ""
             found_records.append({
                 "app_id": app_id,
                 "developer": c_dev,
                 "platform": "Android",
                 "name": base_data["name"],
                 "icon": base_data.get("icon", ""),
+                "installs": installs,
                 "regions": base_data["regions"],
                 "size": size,
                 "iap_info": iap_info,
