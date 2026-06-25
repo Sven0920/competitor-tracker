@@ -36,6 +36,7 @@
   .plat.ios{background:var(--ios)}
   .plat.android{background:var(--android)}
   .dev{font-size:12px;font-weight:600;color:var(--accent);background:#eaf3ff;padding:2px 8px;border-radius:6px}
+  .found{font-size:12px;color:var(--sub);background:var(--soft);border:1px solid var(--line);padding:2px 8px;border-radius:6px}
   .tag{font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px}
   .tag.soft{color:#fff;background:var(--soft-tag)}
   .tag.live{color:var(--android);background:#e9f6ee}
@@ -60,6 +61,13 @@
       <button data-p="Android">🤖 Android</button>
     </div>
     <select id="devSel"><option value="all">全部厂商</option></select>
+    <select id="sortSel">
+      <option value="found_desc">最近发现 ↓</option>
+      <option value="rel_desc">上架时间 ↓（新→旧）</option>
+      <option value="rel_asc">上架时间 ↑（旧→新）</option>
+      <option value="dev_az">厂商 A→Z</option>
+      <option value="name_az">游戏名 A→Z</option>
+    </select>
     <input id="search" type="search" placeholder="搜索游戏名…">
     <span class="count" id="count"></span>
   </div>
@@ -69,7 +77,16 @@
 
 <script>
 let GAMES = [];
-let filter = { plat:"all", dev:"all", q:"" };
+let filter = { plat:"all", dev:"all", q:"", sort:"found_desc" };
+
+const parseTs = s => { const t = Date.parse(s); return isNaN(t) ? null : t; };
+const SORTERS = {
+  found_desc: (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
+  rel_desc:   (a,b) => ((parseTs(b.release_date) ?? -Infinity) - (parseTs(a.release_date) ?? -Infinity)),
+  rel_asc:    (a,b) => ((parseTs(a.release_date) ?? Infinity) - (parseTs(b.release_date) ?? Infinity)),
+  dev_az:     (a,b) => (a.developer||"").localeCompare(b.developer||"") || (b.found_date||"").localeCompare(a.found_date||""),
+  name_az:    (a,b) => (a.name||"").localeCompare(b.name||""),
+};
 
 const esc = s => String(s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
@@ -94,30 +111,23 @@ function render(){
     return;
   }
 
-  // 按发现日期分组
-  const groups = {};
-  rows.forEach(g => { (groups[g.found_date || "未知"] ??= []).push(g); });
-  const dates = Object.keys(groups).sort().reverse();
+  rows = rows.slice().sort(SORTERS[filter.sort] || SORTERS.found_desc);
 
-  list.innerHTML = dates.map(d => `
-    <div class="daygroup">
-      <div class="dayhead">📅 发现于 ${esc(d)}</div>
-      ${groups[d].map(g => `
-        <div class="game">
-          <div class="g-top">
-            <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
-            <span class="dev">${esc(g.developer)}</span>
-            ${regionTag(g.regions)}
-          </div>
-          <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
-          <div class="g-info">
-            🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
-            &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
-            &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
-            &nbsp;·&nbsp; 🗓 上架 ${esc(g.release_date||"—")}
-          </div>
-        </div>
-      `).join('')}
+  list.innerHTML = rows.map(g => `
+    <div class="game">
+      <div class="g-top">
+        <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
+        <span class="dev">${esc(g.developer)}</span>
+        ${regionTag(g.regions)}
+        <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
+      </div>
+      <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
+      <div class="g-info">
+        🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
+        &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
+        &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
+        &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>
+      </div>
     </div>
   `).join('');
 }
@@ -137,6 +147,7 @@ document.getElementById('platSeg').addEventListener('click', e => {
   filter.plat = e.target.dataset.p; render();
 });
 document.getElementById('devSel').addEventListener('change', e => { filter.dev = e.target.value; render(); });
+document.getElementById('sortSel').addEventListener('change', e => { filter.sort = e.target.value; render(); });
 document.getElementById('search').addEventListener('input', e => { filter.q = e.target.value.toLowerCase().trim(); render(); });
 
 fetch('data.json?_=' + Date.now())
