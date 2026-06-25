@@ -44,6 +44,7 @@
   .tag{font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px}
   .tag.soft{color:#fff;background:var(--soft-tag)}
   .tag.live{color:var(--android);background:#e9f6ee}
+  .tag.hot{color:#fff;background:#ea580c}
   .g-name{font-size:17px;font-weight:600;margin:10px 0 6px;line-height:1.3}
   .g-name a{color:var(--ink);text-decoration:none}
   .g-name a:hover{color:var(--accent)}
@@ -67,6 +68,7 @@
     <select id="devSel"><option value="all">全部厂商</option></select>
     <select id="sortSel">
       <option value="found_desc">最近发现 ↓</option>
+      <option value="installs_desc">装机量 ↓（安卓）</option>
       <option value="rel_desc">上架时间 ↓（新→旧）</option>
       <option value="rel_asc">上架时间 ↑（旧→新）</option>
       <option value="dev_az">厂商 A→Z</option>
@@ -84,12 +86,15 @@ let GAMES = [];
 let filter = { plat:"all", dev:"all", q:"", sort:"found_desc" };
 
 const parseTs = s => { const t = Date.parse(s); return isNaN(t) ? null : t; };
+const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 10) || 0;
+const HOT = 10000;  // 安卓装机量达到此门槛标“🔥 起量快”
 const SORTERS = {
-  found_desc: (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
-  rel_desc:   (a,b) => ((parseTs(b.release_date) ?? -Infinity) - (parseTs(a.release_date) ?? -Infinity)),
-  rel_asc:    (a,b) => ((parseTs(a.release_date) ?? Infinity) - (parseTs(b.release_date) ?? Infinity)),
-  dev_az:     (a,b) => (a.developer||"").localeCompare(b.developer||"") || (b.found_date||"").localeCompare(a.found_date||""),
-  name_az:    (a,b) => (a.name||"").localeCompare(b.name||""),
+  found_desc:    (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
+  installs_desc: (a,b) => installsNum(b) - installsNum(a),
+  rel_desc:      (a,b) => ((parseTs(b.release_date) ?? -Infinity) - (parseTs(a.release_date) ?? -Infinity)),
+  rel_asc:       (a,b) => ((parseTs(a.release_date) ?? Infinity) - (parseTs(b.release_date) ?? Infinity)),
+  dev_az:        (a,b) => (a.developer||"").localeCompare(b.developer||"") || (b.found_date||"").localeCompare(a.found_date||""),
+  name_az:       (a,b) => (a.name||"").localeCompare(b.name||""),
 };
 
 const esc = s => String(s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -127,6 +132,7 @@ function render(){
           <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
           <span class="dev">${esc(g.developer)}</span>
           ${regionTag(g.regions)}
+          ${installsNum(g) >= HOT ? '<span class="tag hot">🔥 起量快</span>' : ''}
           <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
         </div>
         <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
