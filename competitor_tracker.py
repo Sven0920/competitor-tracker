@@ -12,10 +12,15 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.path.join(SCRIPT_DIR, "competitor_list.json")   # 基准库：已知游戏，用于判定“新”
 TARGETS_FILE = os.path.join(SCRIPT_DIR, "targets.csv")            # 监控名单
 DATA_FILE = os.path.join(SCRIPT_DIR, "data.json")                # 给网页看板读的发现结果
+INSTALLS_HISTORY_FILE = os.path.join(SCRIPT_DIR, "installs_history.json")  # 安卓装机量逐日快照，用于算增速
 
 # ================= 配置区 =================
-TARGET_COUNTRIES = ["us", "ph", "au", "ca", "gb"]
-KEEP_DAYS = 120   # data.json 里保留最近多少天发现的新游
+# us/ph/au/ca/gb 主力市场 + tr/br/vn/id/mx 常见软启动测试市场（更早抓到新品）
+TARGET_COUNTRIES = ["us", "ph", "au", "ca", "gb", "tr", "br", "vn", "id", "mx"]
+KEEP_DAYS = 120        # data.json 里保留最近多少天发现的新游
+SNAPSHOT_KEEP_DAYS = 35  # 装机量快照保留天数
+VELOCITY_WINDOW = 7    # 增速统计窗口（天）
+SHOTS_MAX = 4          # 每款最多存几张截图
 CN_TZ = timezone(timedelta(hours=8))
 # ==========================================
 
@@ -59,6 +64,13 @@ def save_history(history_dict):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history_dict, f, indent=4, ensure_ascii=False)
 
+def ios_genre(game):
+    # iTunes 的 genres 形如 ['Games','Casual','Puzzle']，取后面更具体的子类
+    for g in (game.get("genres") or []):
+        if g not in ("Games", "Entertainment"):
+            return g
+    return game.get("primaryGenreName", "")
+
 def bytes_to_mb(bytes_size):
     try:
         return f"{round(int(bytes_size) / (1024 * 1024), 1)} MB"
@@ -89,8 +101,60 @@ def save_data(found_records):
     data["games"] = [g for g in data["games"] if g.get("found_date", "") >= cutoff]
     data["games"].sort(key=lambda g: g.get("found_date", ""), reverse=True)
     data["updated_at"] = now_cn("%Y-%m-%d %H:%M")
+    update_velocity(data)   # 刷新安卓装机量并算增速
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+def _load_snapshots():
+    if os.path.exists(INSTALLS_HISTORY_FILE):
+        try:
+            with open(INSTALLS_HISTORY_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {}
+
+def update_velocity(data):
+    """对当前窗口内的安卓游戏逐日记录 realInstalls 快照，算出最近 VELOCITY_WINDOW 天的装机增量。"""
+    today = now_cn("%Y-%m-%d")
+    snaps = _load_snapshots()
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=SNAPSHOT_KEEP_DAYS)).strftime("%Y-%m-%d")
+    win_start = (datetime.now(timezone.utc) - timedelta(days=VELOCITY_WINDOW)).strftime("%Y-%m-%d")
+
+    for g in data["games"]:
+        if g.get("platform") != "Android":
+            continue
+        app_id = g["app_id"]
+        # 取当前 realInstalls（已有则用记录值，否则现拉一次）
+        cur = g.get("real_installs", 0) or 0
+        if not cur:
+            try:
+                d = app(app_id, lang="en", country=(g.get("regions") or ["us"])[0])
+                cur = d.get("realInstalls", 0) or 0
+                g["real_installs"] = cur
+                if not g.get("installs"):
+                    g["installs"] = d.get("installs", "")
+            except:
+                cur = 0
+        if not cur:
+            continue
+        # 记录今日快照（按日期去重）
+        series = [s for s in snaps.get(app_id, []) if s.get("d", "") >= cutoff]
+        series = [s for s in series if s.get("d") != today]
+        series.append({"d": today, "v": cur})
+        series.sort(key=lambda s: s["d"])
+        snaps[app_id] = series
+        # 增速 = 最新值 - 窗口起点之前最近一条
+        base = None
+        for s in series:
+            if s["d"] <= win_start:
+                base = s["v"]
+        if base is None and series:
+            base = series[0]["v"]   # 历史不足窗口长度时，用最早一条
+        g["velocity"] = max(0, cur - base) if base is not None else 0
+
+    with open(INSTALLS_HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(snaps, f, ensure_ascii=False)
 
 def main():
     TARGET_DEVELOPERS = fetch_target_developers()
@@ -126,6 +190,8 @@ def main():
                                 "name": game.get("trackName", "未知"),
                                 "icon": game.get("artworkUrl100", ""),
                                 "ratings": game.get("userRatingCount", 0) or 0,
+                                "genre": ios_genre(game),
+                                "shots": (game.get("screenshotUrls") or [])[:SHOTS_MAX],
                                 "url": game.get("trackViewUrl", f"https://apps.apple.com/app/id{app_id}"),
                                 "release_date": game.get("releaseDate", "").split("T")[0],
                                 "size": bytes_to_mb(game.get("fileSizeBytes", 0)),
@@ -180,6 +246,8 @@ def main():
                 "name": game_data["name"],
                 "icon": game_data.get("icon", ""),
                 "ratings": game_data.get("ratings", 0),
+                "genre": game_data.get("genre", ""),
+                "shots": game_data.get("shots", []),
                 "regions": game_data["regions"],
                 "size": game_data["size"],
                 "iap_info": game_data["iap_info"],
@@ -204,8 +272,12 @@ def main():
                 iap_info = details.get("inAppProductPrice", "无内购")
                 release_date = details.get("released", "未知日期")
                 installs = details.get("installs", "")
+                real_installs = details.get("realInstalls", 0) or 0
+                genre = details.get("genre", "")
+                shots = (details.get("screenshots") or [])[:SHOTS_MAX]
             except:
                 size, iap_info, release_date, installs = "未知", "未知", "未知日期", ""
+                real_installs, genre, shots = 0, "", []
             found_records.append({
                 "app_id": app_id,
                 "developer": c_dev,
@@ -213,6 +285,9 @@ def main():
                 "name": base_data["name"],
                 "icon": base_data.get("icon", ""),
                 "installs": installs,
+                "real_installs": real_installs,
+                "genre": genre,
+                "shots": shots,
                 "regions": base_data["regions"],
                 "size": size,
                 "iap_info": iap_info,

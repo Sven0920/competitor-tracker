@@ -24,6 +24,10 @@
 - `targets.csv` — 监控名单
 - `competitor_list.json` — 已知游戏基准库（自动维护）
 - `data.json` — 最近发现的新游（自动生成）
+- `installs_history.json` — 安卓装机量逐日快照，用于算 7 天增速（自动生成）
 - `.github/workflows/tracker.yml` — 每日定时任务
+
+## 看板功能
+图标 · 品类标签与筛选 · 安卓装机量与 7 天增速（🔥 起量快）· iOS 评分数 · 商店截图预览 · 多条件排序（最近发现/增速/装机量/上架时间/厂商/游戏名）。监控地区含 us/ph/au/ca/gb 主力市场 + tr/br/vn/id/mx 软启动测试市场。
 
 > 说明：Google Play 在云端 IP 上偶尔会限流，个别厂商某天可能漏抓；iTunes 侧稳定。

@@ -45,6 +45,12 @@
   .tag.soft{color:#fff;background:var(--soft-tag)}
   .tag.live{color:var(--android);background:#e9f6ee}
   .tag.hot{color:#fff;background:#ea580c}
+  .genre{font-size:12px;color:#6b21a8;background:#f3e8ff;padding:2px 8px;border-radius:6px}
+  .vel{color:#ea580c;font-weight:600}
+  .shotbtn{margin-top:10px;font-size:12px;color:var(--accent);background:none;border:0;cursor:pointer;padding:0}
+  .shots{display:none;gap:8px;margin-top:10px;overflow-x:auto;padding-bottom:4px}
+  .shots.open{display:flex}
+  .shots img{height:130px;border-radius:8px;border:1px solid var(--line);flex:0 0 auto}
   .g-name{font-size:17px;font-weight:600;margin:10px 0 6px;line-height:1.3}
   .g-name a{color:var(--ink);text-decoration:none}
   .g-name a:hover{color:var(--accent)}
@@ -66,8 +72,10 @@
       <button data-p="Android">🤖 Android</button>
     </div>
     <select id="devSel"><option value="all">全部厂商</option></select>
+    <select id="genreSel"><option value="all">全部品类</option></select>
     <select id="sortSel">
       <option value="found_desc">最近发现 ↓</option>
+      <option value="velocity_desc">增速 ↓（7天装机）</option>
       <option value="installs_desc">装机量 ↓（安卓）</option>
       <option value="rel_desc">上架时间 ↓（新→旧）</option>
       <option value="rel_asc">上架时间 ↑（旧→新）</option>
@@ -83,13 +91,14 @@
 
 <script>
 let GAMES = [];
-let filter = { plat:"all", dev:"all", q:"", sort:"found_desc" };
+let filter = { plat:"all", dev:"all", genre:"all", q:"", sort:"found_desc" };
 
 const parseTs = s => { const t = Date.parse(s); return isNaN(t) ? null : t; };
 const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 10) || 0;
-const HOT = 10000;  // 安卓装机量达到此门槛标“🔥 起量快”
+const HOT = 10000;  // 安卓 7 天装机增量达到此门槛标“🔥 起量快”
 const SORTERS = {
   found_desc:    (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
+  velocity_desc: (a,b) => (b.velocity||0) - (a.velocity||0),
   installs_desc: (a,b) => installsNum(b) - installsNum(a),
   rel_desc:      (a,b) => ((parseTs(b.release_date) ?? -Infinity) - (parseTs(a.release_date) ?? -Infinity)),
   rel_asc:       (a,b) => ((parseTs(a.release_date) ?? Infinity) - (parseTs(b.release_date) ?? Infinity)),
@@ -109,8 +118,9 @@ function regionTag(regions){
 function render(){
   const list = document.getElementById('list');
   let rows = GAMES.filter(g =>
-    (filter.plat==="all" || g.platform===filter.plat) &&
-    (filter.dev==="all"  || g.developer===filter.dev) &&
+    (filter.plat==="all"  || g.platform===filter.plat) &&
+    (filter.dev==="all"   || g.developer===filter.dev) &&
+    (filter.genre==="all" || (g.genre||"")===filter.genre) &&
     (!filter.q || (g.name||"").toLowerCase().includes(filter.q))
   );
   document.getElementById('count').textContent = rows.length ? rows.length + " 款" : "";
@@ -122,7 +132,10 @@ function render(){
 
   rows = rows.slice().sort(SORTERS[filter.sort] || SORTERS.found_desc);
 
-  list.innerHTML = rows.map(g => `
+  list.innerHTML = rows.map(g => {
+    const hot = (g.velocity||0) >= HOT;
+    const shots = (g.shots||[]).filter(Boolean);
+    return `
     <div class="game">
       ${g.icon
         ? `<img class="g-icon" src="${esc(g.icon)}" loading="lazy" alt="" onerror="this.outerHTML='<div class=&quot;g-icon ph&quot;>${g.platform==='iOS'?'🍎':'🤖'}</div>'">`
@@ -131,29 +144,40 @@ function render(){
         <div class="g-top">
           <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
           <span class="dev">${esc(g.developer)}</span>
+          ${g.genre ? `<span class="genre">${esc(g.genre)}</span>` : ''}
           ${regionTag(g.regions)}
-          ${installsNum(g) >= HOT ? '<span class="tag hot">🔥 起量快</span>' : ''}
+          ${hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
           <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
         </div>
         <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
         <div class="g-info">
           🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
-          &nbsp;·&nbsp; ${g.platform==='Android'
-              ? `📥 安装 <b>${esc(g.installs||"—")}</b>`
-              : `⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`}
+          ${g.platform==='Android'
+            ? `&nbsp;·&nbsp; 📥 安装 <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7天 +${(g.velocity||0).toLocaleString()}</span>` : ''}`
+            : `&nbsp;·&nbsp; ⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`}
           &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
           &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
           &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>
         </div>
+        ${shots.length ? `<button class="shotbtn" onclick="this.nextElementSibling.classList.toggle('open')">🖼 截图 (${shots.length})</button>
+        <div class="shots">${shots.map(s=>`<img loading="lazy" src="${esc(s)}" alt="">`).join('')}</div>` : ''}
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 }
 
 function buildDevOptions(){
   const devs = [...new Set(GAMES.map(g=>g.developer))].sort();
   const sel = document.getElementById('devSel');
   devs.forEach(d => {
+    const o = document.createElement('option'); o.value=d; o.textContent=d; sel.appendChild(o);
+  });
+}
+
+function buildGenreOptions(){
+  const genres = [...new Set(GAMES.map(g=>g.genre).filter(Boolean))].sort();
+  const sel = document.getElementById('genreSel');
+  genres.forEach(d => {
     const o = document.createElement('option'); o.value=d; o.textContent=d; sel.appendChild(o);
   });
 }
@@ -165,6 +189,7 @@ document.getElementById('platSeg').addEventListener('click', e => {
   filter.plat = e.target.dataset.p; render();
 });
 document.getElementById('devSel').addEventListener('change', e => { filter.dev = e.target.value; render(); });
+document.getElementById('genreSel').addEventListener('change', e => { filter.genre = e.target.value; render(); });
 document.getElementById('sortSel').addEventListener('change', e => { filter.sort = e.target.value; render(); });
 document.getElementById('search').addEventListener('input', e => { filter.q = e.target.value.toLowerCase().trim(); render(); });
 
@@ -175,6 +200,7 @@ fetch('data.json?_=' + Date.now())
     document.getElementById('meta').textContent =
       `共监控中 · 最近 120 天发现 ${GAMES.length} 款新游 · 数据更新于 ${data.updated_at || "—"}（每天自动）`;
     buildDevOptions();
+    buildGenreOptions();
     render();
   })
   .catch(() => {
