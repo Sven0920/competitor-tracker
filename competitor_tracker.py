@@ -124,6 +124,7 @@ def main():
                             scanned_ios_games[app_id] = {
                                 "custom_dev": custom_dev,
                                 "name": game.get("trackName", "未知"),
+                                "icon": game.get("artworkUrl100", ""),
                                 "url": game.get("trackViewUrl", f"https://apps.apple.com/app/id{app_id}"),
                                 "release_date": game.get("releaseDate", "").split("T")[0],
                                 "size": bytes_to_mb(game.get("fileSizeBytes", 0)),
@@ -153,6 +154,7 @@ def main():
                             scanned_android_games[app_id] = {
                                 "custom_dev": custom_dev,
                                 "name": game.get("title", "未知"),
+                                "icon": game.get("icon", ""),
                                 "url": f"https://play.google.com/store/apps/details?id={app_id}",
                                 "regions": set()
                             }
@@ -175,6 +177,7 @@ def main():
                 "developer": c_dev,
                 "platform": "iOS",
                 "name": game_data["name"],
+                "icon": game_data.get("icon", ""),
                 "regions": game_data["regions"],
                 "size": game_data["size"],
                 "iap_info": game_data["iap_info"],
@@ -194,6 +197,7 @@ def main():
             try:
                 details = app(app_id, lang='en', country=base_data["regions"][0])
                 base_data["name"] = details.get("title", base_data["name"])
+                base_data["icon"] = details.get("icon", base_data.get("icon", ""))
                 size = details.get("size", "因设备而异")
                 iap_info = details.get("inAppProductPrice", "无内购")
                 release_date = details.get("released", "未知日期")
@@ -204,6 +208,7 @@ def main():
                 "developer": c_dev,
                 "platform": "Android",
                 "name": base_data["name"],
+                "icon": base_data.get("icon", ""),
                 "regions": base_data["regions"],
                 "size": size,
                 "iap_info": iap_info,

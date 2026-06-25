@@ -30,7 +30,11 @@
   .game{
     background:var(--card);border:1px solid var(--line);border-radius:14px;
     padding:16px 18px;margin-bottom:10px;box-shadow:0 1px 2px rgba(0,0,0,.03);
+    display:flex;gap:14px;align-items:flex-start;
   }
+  .g-icon{width:56px;height:56px;border-radius:14px;flex:0 0 56px;object-fit:cover;background:var(--soft);border:1px solid var(--line)}
+  .g-icon.ph{display:flex;align-items:center;justify-content:center;font-size:26px}
+  .g-body{flex:1;min-width:0}
   .g-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .plat{font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;color:#fff}
   .plat.ios{background:var(--ios)}
@@ -115,18 +119,23 @@ function render(){
 
   list.innerHTML = rows.map(g => `
     <div class="game">
-      <div class="g-top">
-        <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
-        <span class="dev">${esc(g.developer)}</span>
-        ${regionTag(g.regions)}
-        <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
-      </div>
-      <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
-      <div class="g-info">
-        🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
-        &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
-        &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
-        &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>
+      ${g.icon
+        ? `<img class="g-icon" src="${esc(g.icon)}" loading="lazy" alt="" onerror="this.outerHTML='<div class=&quot;g-icon ph&quot;>${g.platform==='iOS'?'🍎':'🤖'}</div>'">`
+        : `<div class="g-icon ph">${g.platform==='iOS'?'🍎':'🤖'}</div>`}
+      <div class="g-body">
+        <div class="g-top">
+          <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
+          <span class="dev">${esc(g.developer)}</span>
+          ${regionTag(g.regions)}
+          <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
+        </div>
+        <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
+        <div class="g-info">
+          🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
+          &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
+          &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
+          &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>
+        </div>
       </div>
     </div>
   `).join('');
