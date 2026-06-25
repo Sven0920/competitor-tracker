@@ -14925,12 +14925,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.vitastudio.mahjongassociation": {
         "name": "Vita Sort",
         "regions": [
@@ -16041,6 +16035,12 @@
             "gb",
             "ph",
             "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
         ]
     }
 }
