@@ -1,0 +1,37 @@
+name: Daily Competitor Tracker
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 每天 01:00 UTC ≈ 北京时间 09:00
+  workflow_dispatch:        # 也支持手动点一下立即跑
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取竞品新游
+        run: python competitor_tracker.py
+
+      - name: 提交结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add competitor_list.json data.json
+          git diff --staged --quiet || git commit -m "data: 自动更新竞品新游 $(date -u +%Y-%m-%d)"
+          git push

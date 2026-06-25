@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# 不发布：榜单监控脚本（含飞书 webhook）和它的历史，留本地用
+chart_monitor.py
+chart_history.json
+
+# 备份文件
+*.bak-*
+targets.csv.bak*

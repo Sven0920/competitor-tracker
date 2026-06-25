@@ -1,0 +1,634 @@
+{
+  "updated_at": "2026-06-25 16:19",
+  "games": [
+    {
+      "app_id": "6779167923",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Colony Flow!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "291.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-13",
+      "url": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6769247551",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Steam It!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "438.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-15",
+      "url": "https://apps.apple.com/us/app/steam-it/id6769247551?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6772100056",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Roomtopia",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "389.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-03",
+      "url": "https://apps.apple.com/us/app/roomtopia/id6772100056?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6766142933",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "UFO Hole: Eat 'Em All",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "431.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-14",
+      "url": "https://apps.apple.com/us/app/ufo-hole-eat-em-all/id6766142933?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6781219228",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "UFC: KO!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "350.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-19",
+      "url": "https://apps.apple.com/us/app/ufc-ko/id6781219228?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6758237144",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Endless Puncher",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "395.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-02-20",
+      "url": "https://apps.apple.com/us/app/endless-puncher/id6758237144?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6758211113",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Infinite Crafter (TD)",
+      "regions": [
+        "us"
+      ],
+      "size": "380.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-02-19",
+      "url": "https://apps.apple.com/us/app/infinite-crafter-td/id6758211113?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6758138698",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Car Sort: Color Puzzle",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "395.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-01-26",
+      "url": "https://apps.apple.com/us/app/car-sort-color-puzzle/id6758138698?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6756491779",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Spin Siege",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "391.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2025-12-25",
+      "url": "https://apps.apple.com/us/app/spin-siege/id6756491779?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6772106126",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "Cortex Shikaku",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "439.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-26",
+      "url": "https://apps.apple.com/us/app/cortex-shikaku/id6772106126?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6760320168",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "Galactic Merge Idle",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "149.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-03-26",
+      "url": "https://apps.apple.com/us/app/galactic-merge-idle/id6760320168?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6758199685",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "Z-Extract",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "441.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-02-19",
+      "url": "https://apps.apple.com/us/app/z-extract/id6758199685?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6751624309",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "Ball Loop - Puzzle Game",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "377.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2025-08-31",
+      "url": "https://apps.apple.com/us/app/ball-loop-puzzle-game/id6751624309?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6748215220",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "VolleyCraft",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "516.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2025-07-18",
+      "url": "https://apps.apple.com/us/app/volleycraft/id6748215220?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6742649363",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "The Almanac",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "504.4 MB",
+      "iap_info": "未见明细",
+      "release_date": "2025-03-20",
+      "url": "https://apps.apple.com/us/app/the-almanac/id6742649363?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6772909477",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Bubblepics - Pop Jigsaw Puzzle",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "246.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-16",
+      "url": "https://apps.apple.com/us/app/bubblepics-pop-jigsaw-puzzle/id6772909477?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6761760135",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Meowdoku!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "214.1 MB",
+      "iap_info": "未见明细",
+      "release_date": "2026-05-19",
+      "url": "https://apps.apple.com/us/app/meowdoku/id6761760135?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6760831393",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Vita Mahjong Wood",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "229.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-04",
+      "url": "https://apps.apple.com/us/app/vita-mahjong-wood/id6760831393?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6770550971",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Tap It Out: Block Arrow Away",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "310.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-11",
+      "url": "https://apps.apple.com/us/app/tap-it-out-block-arrow-away/id6770550971?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6762744304",
+      "developer": "iKame",
+      "platform": "iOS",
+      "name": "Wool Loop: Color Puzzle",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "256.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-14",
+      "url": "https://apps.apple.com/us/app/wool-loop-color-puzzle/id6762744304?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6767147312",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Brick Saga",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "354.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-14",
+      "url": "https://apps.apple.com/us/app/brick-saga/id6767147312?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6752692277",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Hidden Match Town",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "424.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-23",
+      "url": "https://apps.apple.com/us/app/hidden-match-town/id6752692277?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6769769313",
+      "developer": "SayGames",
+      "platform": "iOS",
+      "name": "Color Tower – Stack Puzzle",
+      "regions": [
+        "us"
+      ],
+      "size": "279.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-27",
+      "url": "https://apps.apple.com/us/app/color-tower-stack-puzzle/id6769769313?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6762259775",
+      "developer": "SayGames",
+      "platform": "iOS",
+      "name": "O! Hole!",
+      "regions": [
+        "us"
+      ],
+      "size": "470.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-21",
+      "url": "https://apps.apple.com/us/app/o-hole/id6762259775?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6761367598",
+      "developer": "SayGames",
+      "platform": "iOS",
+      "name": "Word Jigsort – Associations",
+      "regions": [
+        "us"
+      ],
+      "size": "320.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-01",
+      "url": "https://apps.apple.com/us/app/word-jigsort-associations/id6761367598?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6756095941",
+      "developer": "SayGames",
+      "platform": "iOS",
+      "name": "Triple Match: Find & Match",
+      "regions": [
+        "us"
+      ],
+      "size": "377.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-01-08",
+      "url": "https://apps.apple.com/us/app/triple-match-find-match/id6756095941?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6769755431",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Merge Pop - Puzzle Game",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "197.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-09",
+      "url": "https://apps.apple.com/us/app/merge-pop-puzzle-game/id6769755431?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6768553736",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Arrow Run!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "186.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-18",
+      "url": "https://apps.apple.com/us/app/arrow-run/id6768553736?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6764059116",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Block Perfect!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "218.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-22",
+      "url": "https://apps.apple.com/us/app/block-perfect/id6764059116?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "6777942798",
+      "developer": "Easybrain",
+      "platform": "iOS",
+      "name": "Arrow Puzzle 3D - Arrows Game",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "208.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-16",
+      "url": "https://apps.apple.com/us/app/arrow-puzzle-3d-arrows-game/id6777942798?uo=4",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.abi.roomtopia",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Roomtopia",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.69 - $134.99 per item",
+      "release_date": "Jun 21, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.roomtopia",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.abi.steam.it",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Steam It!",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $129.99 per item",
+      "release_date": "May 7, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.steam.it",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": null,
+      "developer": "Learnings",
+      "platform": "Android",
+      "name": "Tile Explorer - Triple Match",
+      "regions": [
+        "ph"
+      ],
+      "size": "未知",
+      "iap_info": "未知",
+      "release_date": "未知日期",
+      "url": "https://play.google.com/store/apps/details?id=None",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.vitastudio.mahjongassociation",
+      "developer": "Learnings",
+      "platform": "Android",
+      "name": "Vita Sort",
+      "regions": [
+        "ca",
+        "au",
+        "gb",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 1, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjongassociation",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.whalergames.pirateraid",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Pirate Raid - Caribbean Battle",
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱58.00 - ₱5,850.00 per item",
+      "release_date": "Dec 9, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.whalergames.pirateraid",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.playstrom.tile.match",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Andy Volcano: Tile Match Story",
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱58.00 - ₱7,050.00 per item",
+      "release_date": "Jun 27, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.playstrom.tile.match",
+      "found_date": "2026-06-25"
+    },
+    {
+      "app_id": "com.tripledot.arrowsort",
+      "developer": "Tripledot",
+      "platform": "Android",
+      "name": "Arrow Sort",
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$3.09 - $154.99 per item",
+      "release_date": "Apr 29, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.arrowsort",
+      "found_date": "2026-06-25"
+    }
+  ]
+}
