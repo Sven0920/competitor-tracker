@@ -1,6 +1,350 @@
 {
-  "updated_at": "2026-06-25 16:25",
+  "updated_at": "2026-06-26 10:18",
   "games": [
+    {
+      "app_id": "6776998222",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Mahgic Blast!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/62/dc/da62dc7f-d4ef-824d-5564-62e75554d565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "us",
+        "br",
+        "tr",
+        "au",
+        "ph",
+        "mx",
+        "ca",
+        "id"
+      ],
+      "size": "298.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-25",
+      "url": "https://apps.apple.com/us/app/mahgic-blast/id6776998222?uo=4",
+      "found_date": "2026-06-26"
+    },
+    {
+      "app_id": "6782815514",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Gem Mosaic: 3D Sort Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/6f/0c/e46f0cd9-f5be-6750-ad9d-96e587df2bb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "vn",
+        "br",
+        "tr",
+        "mx",
+        "ca",
+        "id",
+        "gb"
+      ],
+      "size": "541.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-25",
+      "url": "https://apps.apple.com/ca/app/gem-mosaic-3d-sort-puzzle/id6782815514?uo=4",
+      "found_date": "2026-06-26"
+    },
+    {
+      "app_id": "com.hypermode.stackattack",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Stack Attack!!",
+      "icon": "https://play-lh.googleusercontent.com/AAdJDEwuZfBYyaQ_Ym1JvhV16ZfpD8HOfzdilIAi83EG2uBKunc5BYfYnvBelT4M88eV_uEipn3FEB2abbWpIX4",
+      "installs": "100,000+",
+      "real_installs": 280822,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/unxl9SD2FJJO325kuWT5IBdtM2h5hVc2Nh2MRgATqVRx_Osgl3owGNu_5xN8h0zfCl7HdJn_GJEhGbyixs2wjNk",
+        "https://play-lh.googleusercontent.com/lUnd6uHNsEo364Vg6ILBzeKmIuM3PLya4QZMRkMITMdAi4cEoRwfzaY0yUKfSL-w5Iuynl3YPcS8dkx7l3ioaIA",
+        "https://play-lh.googleusercontent.com/TJ_F91-T292P0BPGEvlHB2hQQ7gBEKJfekEb5C-NDR8ajnb8bNgTrdfF8tZ4BtpwQ0up4bTbQddfQTHGv4_r",
+        "https://play-lh.googleusercontent.com/N03UQPlaR9tLbhn3ZVAX8dAFTXufbG2Z6ataw7V1TrmMrcU3SPysu04CI3cNr6M30Lv_Yu3_LbFSy2UaHDXybA"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$549.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.hypermode.stackattack",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.MadApper.StackEmUp",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Stack em Up!",
+      "icon": "https://play-lh.googleusercontent.com/M-coqwXLm9Q_5JzQEPJEqrTsU8AwCr3nJUDdg57YkUaGlSJwiOsSOah6Hw5FN7PWWIR84hJzwc1el4Up8Jhz",
+      "installs": "100,000+",
+      "real_installs": 242338,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/u5BTt-h5VXcchH5zhx4pXvtcDviiau0jfXi5HQRe21Wep8mCPaTyx6r_38Us2qkUT8Nod_SZhBB7j9l1pJInxQ",
+        "https://play-lh.googleusercontent.com/taW0sgFwhkJvFtqRkQopBbiAotuYeIGJHBS9Usob-olrLIknSM-MFwPH8m9AuLNYxK48pxi26wH7ildJKN0-",
+        "https://play-lh.googleusercontent.com/Q5CH9s6dq93r-Lbs8OQ5Z0PgfcE9fcRGuOcc1Lfp36Mwz3y4dcrm44vTsUNCxO3HSMBYAI_10lNH3tz6FwuxAfw",
+        "https://play-lh.googleusercontent.com/6FEpnwv1YgfqkqdUQqlgNfZoGkNCRlcG_jzeIEUHRypWD7j5nfJ_xBcHJq1Aky80xZIECmp9jeilFmiXMVgEYw"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$549.99 per item",
+      "release_date": "Oct 23, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.MadApper.StackEmUp",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tripoly.ballloop.gp",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Ball Loop - Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/hyIltZeXXM5U8aKzKEW3MZrId7Ri8wnXGXRWNnlPrwiQ6ryhrhh3oixFHmSBZnB9nSBKSnGFma5ef1eH_EvI_Q",
+      "installs": "10,000+",
+      "real_installs": 29349,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/RuXTgriRU1p_Loz511HaxAN45Z8TYmBrp0L8aVU5p9e86e6NV5cwqagXGpsdnI-tKhdvZmwnWeT0p9_GGAnQ",
+        "https://play-lh.googleusercontent.com/iytgiygzgVqSX1DPsgD4CZ_o2qiA9kr68O0_WeDLrOs8-yhBRYKlSUH6gX9wEtsg8Al2EpeHXH1Zvwvcz7zCS1k",
+        "https://play-lh.googleusercontent.com/uXrqUlFt-76yEeoUkI96Cu_DrXePCRKJplHON5-_04xg6xx-8eXn6GrhgE-6ChbVN2i-ttneL9H3VVn7wvfc1w",
+        "https://play-lh.googleusercontent.com/u0DjOSOuU-QkzXwmNP4op4znN0TWwa_nQVgpWVUabsjyrdmX9-2ujVLusMdYiH3GUMDIMLd815mPBaFPqe023g"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$9.99 - R$494.99 per item",
+      "release_date": "May 13, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tripoly.ballloop.gp",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.crescivegames.tetrabus",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Tetra Bus",
+      "icon": "https://play-lh.googleusercontent.com/VwBbW1x1HWgUYJXDgeIj7CpdCqMwngaVZoC07wzTGr3-3saGMBssgksADdcv6pTJ4158D4mXzKj4yeDcQ_CPWYI",
+      "installs": "100,000+",
+      "real_installs": 115724,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/mltYrjMfDJzZLsBlyDSOjCvkaRgrl8OsqxIf0XgDbvdOrQ3HcoEeA2LHWSvJOp3yIxcXhGN64SbaNDGaLNdd_w",
+        "https://play-lh.googleusercontent.com/pI5VC4QENhZHExuwmPmM5EN8O8c3dW2JdUSSInUU41U8BI9AoVbEoE93UbVp_AF1TVWaZdh5iUoI9mkS6WWpFA",
+        "https://play-lh.googleusercontent.com/MYCMZyosmo-q9N6tsAxLt9Q_CMuiTL6UKnMsopuHBF6P4BxL5hmYZvRt6_T3cAqBihVa2C-kEBueFWhQmt8w",
+        "https://play-lh.googleusercontent.com/biKWzeJV2gATtBM90sAnWb0NKwpjN0M59hSgFjAE74c0OUsXYlR2MpHKmjYkn6Ip5AnUz1ujprXEpVzfE3Bv-zg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$10.99 - R$549.99 per item",
+      "release_date": "Feb 3, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.crescivegames.tetrabus",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.slowmo.twinvolley",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Beach Volley Clash",
+      "icon": "https://play-lh.googleusercontent.com/LPFV30jLIT7tv-kEEhEhW5LooXFtwtdCWQuh3ZNF0lt4bh_lTBXyZ5motw8-pAM4m7-dvNvL3P6GSgQDKu93pQQ",
+      "installs": "1,000,000+",
+      "real_installs": 3294091,
+      "genre": "Sports",
+      "shots": [
+        "https://play-lh.googleusercontent.com/unDxrRPOqwOWGi7YEIBSBnhezmnSJ56uSpTFmByX0fbQygnaDR-XpWSziKQ9hRfNOsszZ2DsqmE_VKhUEi-tNA",
+        "https://play-lh.googleusercontent.com/ZIMK650SZEf3du6qVFQV_AAh_weMCr8Ovf-kQhXNCSD3Y_BbYL_TxfBQsyK0QOOg813fD2A-9p_zVhFZ8dml1g",
+        "https://play-lh.googleusercontent.com/gHGJ3G5UZJKqQ-MGfQexVifu-zlNAHV3obM7cUraWJK2wVkeWyx-SRL-amrZl_yASiiR5UWfgOYmslbcmptmrQ",
+        "https://play-lh.googleusercontent.com/TyEyCjzBKFs--ghyyaJqT2utdnWQCrkJb6BoOTqsMcPzhnz4j7IcQ835w84ILTSqRX8aAsrAq24r_44T0WgBmg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$10.99 - R$549.99 per item",
+      "release_date": "Jul 5, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.slowmo.twinvolley",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.playstrom.dop3",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "DOP 3: Displace One Part",
+      "icon": "https://play-lh.googleusercontent.com/kBeFgclgUGEWy1hwFLikE2tzMerJKXwG8yV3d6LHrR2xg_xFCjdjJm2qSxeJsTf1j0lf2RC6e-TY-JDx0T_f-A",
+      "installs": "50,000,000+",
+      "real_installs": 58547713,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/FQhhIvx4twNOuHDpchTddTo-fklf9zWur_GXTNAFRHGLoxfmjk5G4CfTSErlFzZh7pAWW19dQwQibc8sxHGo_A",
+        "https://play-lh.googleusercontent.com/PVOdPXc8vqTVSY4h-0aocrDojWwqpnSdb7E8xLBvqWP55HUQWz2HcWjFyOpCVgn71XHslFeBJaYZ8OewU5eFiy4",
+        "https://play-lh.googleusercontent.com/VDPt09b7bgpChDFbzZTfJjEIKOED-Htsm7icLnlqgRtZGxaxngUnBtTHI7XQaB_kjY0K7IpDnUFO79uCFlkKew",
+        "https://play-lh.googleusercontent.com/LRauWOctC7vZ35IHPxC4SoDgtrUIt7o76docFzoXfmYLorIakSg3QGokkpr39OJE_2k_DJKl1xVKNISDPWWJ"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$42.00 per item",
+      "release_date": "Sep 9, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.playstrom.dop3",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.dreammerge.asia",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Dream Detective: Merge Game",
+      "icon": "https://play-lh.googleusercontent.com/TqTK46wBSQv9FVKnj-GFdvhd38NZfsz1ICD2XEbhjR6Hp_F7RqVmBoL1_pCD9mfzJiwV7qk9xFAdrOI-PZq1",
+      "installs": "100,000+",
+      "real_installs": 103391,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/JNbhjBdA3D8X8YRW4AHYAJNyJj4sZjOKxFNmOI-Sg4m1p0uQ5iuUCtYingvzO0CAjf1OKnPbN4ERsN51boav",
+        "https://play-lh.googleusercontent.com/aN02ZyHEjq_c6wxUgkm81vAiImH4LqJc1Kn4lsNgK8-eJYsjD1YIxcytpZVopQclJ2HwGiulZ9dlVWRbrKgBpQ",
+        "https://play-lh.googleusercontent.com/6BRHg0uDYNRRlHWAGcVYj7K38dcrku1EQZ7u3ROvxg_TOwe1vUsgZIIrKMFAcFpDuz4UE0qcn6tFT6BsPplf0A",
+        "https://play-lh.googleusercontent.com/RUn6Lf7Rc8mRPULEXWoiUeQaAKbNuyMPAp_RqHE09KsbsTpytztNFi9HMXt__MVRzYjbVau9HBuhoWVpWMRC7Gw"
+      ],
+      "regions": [
+        "vn",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫29,000 - ₫2,999,000 per item",
+      "release_date": "Sep 27, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.dreammerge.asia",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.roomperfect.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Family Farm Merge",
+      "icon": "https://play-lh.googleusercontent.com/Ppu-bx-N-lFEx_47WbCbV0aIQXBwov_YZi-F0luYYMaPU1ubK8zsnFbMmppTmw49Hdb-Gni9Zjh0KdcFB3M69io",
+      "installs": "10,000+",
+      "real_installs": 37081,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/xZY66JtAFONsleIRyVGr1ovuAQEuqQOPQEJurVU7F5zGgpmvM8hQzvm6JcAkABn56V-TFSuCqP-VgrMUspFJbw",
+        "https://play-lh.googleusercontent.com/Dm4GeR-L1cWf_wPuAyEao_09672EMEZo6NEeWXCvpYjL8PxmdYrHcTMJnmJFLNopPf6RsyPcqargkbyz8A7vfu4",
+        "https://play-lh.googleusercontent.com/4w9r1_12Wt1D5KlKFX_qGlp0fNSI24WxjJ5TqHWUHAJiGDHIPoy67At0yDYBIU9hv0JlaKllBX4emNDlxGIBkw",
+        "https://play-lh.googleusercontent.com/7Jn0wHQhIJPyX-LbgGaClA8dXrbTjp1UysWlQ-t-egafBNYBVPSnMioPdp48o1rbIaIjc6gquLwD7IsuWhgHtA"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$549.99 per item",
+      "release_date": "May 9, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.roomperfect.global",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.rope",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Rope Color Match 3D",
+      "icon": "https://play-lh.googleusercontent.com/1IK269LdyyhpZUhwiVvCFMfRcCQbKRfPxgu0BFo-JXkb5Zbc6HCpKnrkRFz1fcPBZVQKHm876WIaePd0tSUv3Q",
+      "installs": "1,000,000+",
+      "real_installs": 2742936,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/i4k8_3T7-TV-fW4fUyol97kfqz5vYWWR5S1e4E-pk5E8RVNmoUHEfGqmo7nEDxFSiqXto6ZyGotrH6uceUrRzhw",
+        "https://play-lh.googleusercontent.com/4pXqHiWPvAdVRrHG7fHlFmXUPE6ILUFAG6SKNo4VDhjwOeopNUji-CrjIUlo3RmBsWV9vJGOtB6JKWCnx5xxcSc",
+        "https://play-lh.googleusercontent.com/PXZfQIDEduYUe1Pb9HJN3vewS1QavSJnNRX-4lf_NtzorCatoVLwBdDOKYPN_pwKR3IiG-auVSmbX5LfcvkZKAM",
+        "https://play-lh.googleusercontent.com/aG6w0oqhlFjAW8izokLqg3g4IOY69_TEk2r-vCMRLKGE3o8NU047yTGdveqngX4HKcEfyz_n_1iXLDos3jDtvng"
+      ],
+      "regions": [
+        "au",
+        "ph",
+        "vn",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.69 - $164.99 per item",
+      "release_date": "Mar 7, 2024",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.rope",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "bus.games.car.out.traffic.parking.jam.escape.puzzle",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Car Parking Games: Bus Madness",
+      "icon": "https://play-lh.googleusercontent.com/nbmVNGBwY2Det_2P1KviCSAOz3Pz3IYm5WubcRtMsoyvkJFnhtWCft4kx39UTeedjAN6HCK3TurC7Y_bnmO9ow",
+      "installs": "500,000+",
+      "real_installs": 957717,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ZN_FGFRBVd-UJdC5_jT7bk7xRq9BTK7XvY1OBCW-ejzNb8-TkSh0X7usZ6Mhi0qu3ApzJLMEmubH6aJQS5e1jQ",
+        "https://play-lh.googleusercontent.com/dRoMxY3rB-Naj7ApuQtbv4YMXbH4Jk6saKepBX1mbIeMWD_OMf6V0FgNla2rL1C_OJPk2VMwymV9YcBwezr1FA",
+        "https://play-lh.googleusercontent.com/g76g63jbzM31ybv3t2H7odry9OjOtUvjo1XiuQ3eaSUUC1S8lz8nvC7ZEYvRUpgbGWQ_B4VPzu5c0U9zJx5RoaI",
+        "https://play-lh.googleusercontent.com/dUuXw39QugJKuGmeA-pZRERqF_tSoQNK-05NbLI-PQhgeaChhr9h6JY_qCrsa6gXXmXOuBkGtSdjKMIxkzcTZ6k"
+      ],
+      "regions": [
+        "us",
+        "br",
+        "tr",
+        "au",
+        "ph",
+        "mx",
+        "ca",
+        "id",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $99.99 per item",
+      "release_date": "May 26, 2025",
+      "url": "https://play.google.com/store/apps/details?id=bus.games.car.out.traffic.parking.jam.escape.puzzle",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "find.differences.online.puzzle.games",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Find Difference Game 46,000+",
+      "icon": "https://play-lh.googleusercontent.com/o3ZvKMWtAiRFWQ0aeUQT52TE5kL6ElCO3yT2WoE9Vglyp1_Jg7bapBRPo5fM9_mkvzPV1MeHHUP7DfUoOcIIRVY",
+      "installs": "1,000,000+",
+      "real_installs": 3268245,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Y_C6FAP9RYFPT_9SRVYFX3_aRrreWWxlFqJnB2UNmDlxOw5Ji_lB0PDmwa42Ls_bwDS9vV4WLfo8LJz23WFy",
+        "https://play-lh.googleusercontent.com/9G3m6HD4WbivoIYr_mkJltrDimELs_YfTXpzFR95f2z6DoTAc4IdyKCEj1yCEqje49BJ351or3uZiytMaphBtLg",
+        "https://play-lh.googleusercontent.com/RX2_Gu7fyO7u5RX1GUiWa3gmK_v8tN3i46CKPd2ehha23EVUQr94_kTPORvWKXv7ngzaPeE5J7263avXImv4BA",
+        "https://play-lh.googleusercontent.com/E3syb9d3Tca_RlS5TLzdXZLhl1l-9f8SDbSj5arU-zmtUmBFtFaqepBq4luMO9M3CQRW1gAFUvSuAA6RSDEg"
+      ],
+      "regions": [
+        "vn",
+        "us",
+        "br",
+        "au",
+        "ph",
+        "mx",
+        "ca",
+        "id",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫23,000 - ₫2,350,000 per item",
+      "release_date": "Feb 8, 2021",
+      "url": "https://play.google.com/store/apps/details?id=find.differences.online.puzzle.games",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
     {
       "app_id": "6779167923",
       "developer": "ABI",

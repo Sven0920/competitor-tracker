@@ -16037,10 +16037,121 @@
             "us"
         ]
     },
+    "6776998222": {
+        "name": "Mahgic Blast!",
+        "regions": [
+            "us",
+            "br",
+            "tr",
+            "au",
+            "ph",
+            "mx",
+            "ca",
+            "id"
+        ]
+    },
+    "6782815514": {
+        "name": "Gem Mosaic: 3D Sort Puzzle",
+        "regions": [
+            "vn",
+            "br",
+            "tr",
+            "mx",
+            "ca",
+            "id",
+            "gb"
+        ]
+    },
+    "com.hypermode.stackattack": {
+        "name": "Stack Attack!!",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.MadApper.StackEmUp": {
+        "name": "Stack em Up!",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.tripoly.ballloop.gp": {
+        "name": "Ball Loop - Puzzle Game",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.crescivegames.tetrabus": {
+        "name": "Tetra Bus",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.slowmo.twinvolley": {
+        "name": "Beach Volley Clash",
+        "regions": [
+            "br"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
+        ]
+    },
+    "com.playstrom.dop3": {
+        "name": "DOP 3: Displace One Part",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.dreammerge.asia": {
+        "name": "Dream Detective: Merge Game",
+        "regions": [
+            "vn",
+            "gb"
+        ]
+    },
+    "com.roomperfect.global": {
+        "name": "Family Farm Merge",
+        "regions": [
+            "br"
+        ]
+    },
+    "jp.co.goodroid.hyper.rope": {
+        "name": "Rope Color Match 3D",
+        "regions": [
+            "au",
+            "ph",
+            "vn",
+            "tr"
+        ]
+    },
+    "bus.games.car.out.traffic.parking.jam.escape.puzzle": {
+        "name": "Car Parking Games: Bus Madness",
+        "regions": [
+            "us",
+            "br",
+            "tr",
+            "au",
+            "ph",
+            "mx",
+            "ca",
+            "id",
+            "gb"
+        ]
+    },
+    "find.differences.online.puzzle.games": {
+        "name": "Find Difference Game 46,000+",
+        "regions": [
+            "vn",
+            "us",
+            "br",
+            "au",
+            "ph",
+            "mx",
+            "ca",
+            "id",
+            "gb"
         ]
     }
 }
