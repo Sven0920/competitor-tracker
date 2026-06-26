@@ -16092,12 +16092,6 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.playstrom.dop3": {
         "name": "DOP 3: Displace One Part",
         "regions": [
@@ -16152,6 +16146,18 @@
             "ca",
             "id",
             "gb"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "word.games.puzzle.offline.games": {
+        "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
+        "regions": [
+            "vn"
         ]
     }
 }

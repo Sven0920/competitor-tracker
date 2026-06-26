@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26 10:18",
+  "updated_at": "2026-06-26 13:18",
   "games": [
     {
       "app_id": "6776998222",
@@ -342,6 +342,31 @@
       "iap_info": "₫23,000 - ₫2,350,000 per item",
       "release_date": "Feb 8, 2021",
       "url": "https://play.google.com/store/apps/details?id=find.differences.online.puzzle.games",
+      "found_date": "2026-06-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "word.games.puzzle.offline.games",
+      "developer": "Astrasen Global",
+      "platform": "Android",
+      "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
+      "icon": "https://play-lh.googleusercontent.com/n2wFuuFGmBgYDMGFzQoZVhC5ryLcS3JlpxEJfwfsFuS9QsOUcbFFDCE0CFLHZ82_RUhOTUmYUJuXdwVDXIZ8",
+      "installs": "1,000,000+",
+      "real_installs": 2116980,
+      "genre": "Word",
+      "shots": [
+        "https://play-lh.googleusercontent.com/v0jTop6FOj3pAekfoG46ShI5aCHzMCYBsGB9QV2EMmC1Q1kzlLnavjL5elxU78nkOFN7YjlyosxxMcUdrN66igU",
+        "https://play-lh.googleusercontent.com/oqUXKI2UcVWubTn158WQoExnwhznQLRcVG_rGzDJU6leU1Ozqxzm_AriGST0_Z7yEUqa03M_G0fhSvhJWs35",
+        "https://play-lh.googleusercontent.com/Y_A1I6Yd-b-im45svs49SkXKrnyD4fLea3csHusFJQ7S5DEaKaN35o71ylQBPivmJtbNST8ZqoqFP0B90WLwGAM",
+        "https://play-lh.googleusercontent.com/l0sF25wMmfIGKam0qX6LMhXJxPATVPeJXrkKGDLduCwl8BD3pPnRumShRNXWiWRR5xVhV7hHsMfYHAFXd48bYQ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫24,031 - ₫1,213,457 per item",
+      "release_date": "Aug 29, 2023",
+      "url": "https://play.google.com/store/apps/details?id=word.games.puzzle.offline.games",
       "found_date": "2026-06-26",
       "velocity": 0
     },
