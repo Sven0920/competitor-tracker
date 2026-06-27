@@ -16148,16 +16148,492 @@
             "gb"
         ]
     },
+    "word.games.puzzle.offline.games": {
+        "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6760089163": {
+        "name": "Mahjong Master-Fun Puzzle Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6759025515": {
+        "name": "Tile Frost",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6757349076": {
+        "name": "Solitaire Word Match",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6748069581": {
+        "name": "Word Search!-Word Puzzle Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6746231641": {
+        "name": "Faith.AI - Bible Widget",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6744637580": {
+        "name": "Word Connect Zen: Word Puzzle",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6741701173": {
+        "name": "Word Solitaire-Unscramble Puz",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6737794072": {
+        "name": "Offline Games!",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6569225353": {
+        "name": "Oremus - Catholic Bible&Prayer",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca"
+        ]
+    },
+    "6502853144": {
+        "name": "Brain X - Brain Training Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6479348235": {
+        "name": "Bible For Women.",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca"
+        ]
+    },
+    "6477347686": {
+        "name": "Sudoku Block-Math Puzzle Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6474721297": {
+        "name": "Numberscapes: Sudoku Puzzle",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6446400413": {
+        "name": "Water Sort Puzzle Game.",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6446344601": {
+        "name": "HearFaith-Bible Audio",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6446050929": {
+        "name": "Jigsortscapes",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6445891578": {
+        "name": "Word Search: Word Find Puzzle",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6444847807": {
+        "name": "Bubble Shooter Tale-Ball Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "6444692000": {
+        "name": "Bible Trivia Daily-Bible Quiz",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1663582790": {
+        "name": "Contexto-unlimited word find",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1606691646": {
+        "name": "Wordaily ®-With No Daily Limit",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1554227795": {
+        "name": "Merge Watermelon Challenge",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1526653221": {
+        "name": "Bible - Verse of the Day.",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1519929501": {
+        "name": "A Bíblia Sagrada-Versículos",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "1472850697": {
+        "name": "Bible Offline - KJV Holy Bible",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
         ]
     },
-    "word.games.puzzle.offline.games": {
-        "name": "낱말퀴즈-단어&단어게임&두뇌 훈련&현실적인 게임",
+    "com.woodenblockpuzzle.casual.game": {
+        "name": "One Line Draw: Brain Journey",
         "regions": [
-            "vn"
+            "id"
+        ]
+    },
+    "com.tile.home.match.puzzle.game": {
+        "name": "Tile Home-Match Puzzle Games",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.offline.games.two.player.games": {
+        "name": "Offline Games",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.tile.match.free.puzzle.game": {
+        "name": "Tile Match-Puzzle Game",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.zen.mahjong.solitaire.match.daily.puzzle": {
+        "name": "Zen Mahjong Daily",
+        "regions": [
+            "tr",
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.tile.frozen.triple.match.puzzle": {
+        "name": "Tile Frost-Match Puzzle Game",
+        "regions": [
+            "us",
+            "au",
+            "ph",
+            "id",
+            "vn",
+            "mx",
+            "br",
+            "gb"
+        ]
+    },
+    "com.zen.mahjong.daily.calm.tile.match.puzzle": {
+        "name": "Mahjong Solitaire-Match Puzzle",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.word.search.find.puzzle": {
+        "name": "Word Search!",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.mahjong.match.pair.puzzle": {
+        "name": "Mahjong Match - Puzzle Game",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.wordle.wordlegame.today.word.puzzle.game": {
+        "name": "Wordaily ®-With No Daily Limit",
+        "regions": [
+            "tr",
+            "au",
+            "mx",
+            "vn",
+            "br",
+            "ca",
+            "gb"
         ]
     }
 }
