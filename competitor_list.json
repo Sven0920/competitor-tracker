@@ -16521,12 +16521,6 @@
             "ca"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.woodenblockpuzzle.casual.game": {
         "name": "One Line Draw: Brain Journey",
         "regions": [
@@ -16634,6 +16628,58 @@
             "br",
             "ca",
             "gb"
+        ]
+    },
+    "6768921423": {
+        "name": "Steelborn: Tank Idle RPG",
+        "regions": [
+            "us",
+            "br"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "mx",
+            "br",
+            "id",
+            "gb",
+            "ph"
+        ]
+    },
+    "com.puzzle.colorpipe": {
+        "name": "Color Pipe: Match puzzle",
+        "regions": [
+            "mx",
+            "vn",
+            "gb",
+            "id",
+            "tr",
+            "ph"
+        ]
+    },
+    "net.peakgames.toonblast": {
+        "name": "Toon Blast",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.a25apps.HillClimber": {
+        "name": "Prime Peaks",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.peakstrategy.peak": {
+        "name": "Peak: A 2-Player Strategy Game",
+        "regions": [
+            "br"
+        ]
+    },
+    "net.peakgames.match": {
+        "name": "Match Factory!",
+        "regions": [
+            "br"
         ]
     }
 }

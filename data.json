@@ -1,6 +1,155 @@
 {
-  "updated_at": "2026-06-27 13:01",
+  "updated_at": "2026-06-28 13:26",
   "games": [
+    {
+      "app_id": "6768921423",
+      "developer": "SayGames",
+      "platform": "iOS",
+      "name": "Steelborn: Tank Idle RPG",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/b5/49/0ab5494c-4056-6a0b-07e3-0683353cd822/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Adventure",
+      "shots": [],
+      "regions": [
+        "us",
+        "br"
+      ],
+      "size": "264.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-27",
+      "url": "https://apps.apple.com/us/app/steelborn-tank-idle-rpg/id6768921423?uo=4",
+      "found_date": "2026-06-28"
+    },
+    {
+      "app_id": "com.puzzle.colorpipe",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Color Pipe: Match puzzle",
+      "icon": "https://play-lh.googleusercontent.com/ZbrTFo4GlBnzr9pITjPuK6ck_I8hkgEUzII8II-zRQRD5GkfPdsT3_0EdG4EaWPxUAsRmH3KPv3wiArn2Gil",
+      "installs": "1,000+",
+      "real_installs": 2567,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/GevJ3_l6sE_hWUbiTZOM0aqvyujJWa0jxrlGwVr6nDWLnjmPGi4nr0Ok_Y22wfICq3KETu11pFV3UCvKoi2qNQ",
+        "https://play-lh.googleusercontent.com/7mQcHgM7qw8Xr8Onlavv9WqbWs-77Jq0ZMP1xWPXt_0dykfNeM9iGYB-A3OtZovoO1jk5rfvXIBjOO2gXNvAXA",
+        "https://play-lh.googleusercontent.com/3PwasNGG1wvcaCVnYXfmjid6FafDResfnQ6J4jgd4RHIKlhvJl-u1XwR26fp6MIHHFDpKd-G9gZe4dOpengZFg",
+        "https://play-lh.googleusercontent.com/6MzMWubQEZA1sVcBCu0PWnC87OQLHupGZn2X0PY5px65HKi7t_1NYvnol-FdLFOczoGIis2IxjDdiYpEcuaU5Q"
+      ],
+      "regions": [
+        "mx",
+        "vn",
+        "gb",
+        "id",
+        "tr",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$41.00 - MX$2,049.00 per item",
+      "release_date": "Jan 8, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.colorpipe",
+      "found_date": "2026-06-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "net.peakgames.toonblast",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Toon Blast",
+      "icon": "https://play-lh.googleusercontent.com/ekfU_7pbR8Oj6vDY9JCznGiMwQm96gmatyBlv9MyvgPnNhmodMo1fZgrQu7NfQ9WY2K4DIxd7TyETGgXH2qq",
+      "installs": "100,000,000+",
+      "real_installs": 130372442,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/vXIvIxqpDikdWI3-zs_01QW7tPxthRjMplnKCJNGsfugnvnIC4-OEw2x49aMPOqy2ncfTiUjx-h7tTHv33a3M8s",
+        "https://play-lh.googleusercontent.com/sm_BR1Uec7q7993d2j2UG_lHp7VYfAJ98GKBzHu-D23f4BV0QD8cXg01ho-GvwH_KP-OEz9tCxmp4RFANPEjkQ",
+        "https://play-lh.googleusercontent.com/TZw5nqGV3cbfHs5OVkDjswW9ttOZZ7JKd5wXAOpB2PzgGRVnHDmH6Pc-8rGq_fYGF6uuAKaKsi3Iv8FULCV5Lg",
+        "https://play-lh.googleusercontent.com/vRsQvs3Kuhflk8fo6vaVZ5DT6NIQnov1f1HQN1bOxSu75hVMUbZrNT9CiHivbmbAwwkIOCuLcnDtT62ihYa9qw"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$2.90 - R$1,249.99 per item",
+      "release_date": "Aug 25, 2017",
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
+      "found_date": "2026-06-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.a25apps.HillClimber",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Prime Peaks",
+      "icon": "https://play-lh.googleusercontent.com/RutK0WjXX4Y1mwiTUI2rIY5YAvXLwa10mDuEZMt8P1kn6AKY9X6k6B4k6ECWl3dQRVblKOVHGJcwIUeqvAynZA",
+      "installs": "10,000,000+",
+      "real_installs": 25529010,
+      "genre": "Racing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Z0-XFew0gfdR3-6WZkETLRz9s5AUOvguoOQKndJZoD3Q6uZ9VF6__hHYue9C1FwZ_gf6FJrl-Lv2MbK4TKW179g",
+        "https://play-lh.googleusercontent.com/2uy0T0YlSpuhcwVQzQfTNmBHchNNm6i1JGwJ8w1rcQpNjNvByHHt-lee7EXfORCwuXH8-dAKLpaFAjywypos",
+        "https://play-lh.googleusercontent.com/yHQq_mPa95I_M7jYwscQCb-0jQ0hNNlXt7C_oYczt-oyZ7zaiTy8f6mTNmS5Y4AwHtzoVZ2Ae_KMSFfyZw0bxkQ",
+        "https://play-lh.googleusercontent.com/n-5B3ugHA9j9wSqUfr5KTIpowUjjTVDag0j1HDHe9oJz41IBJsgYauxv661sBvM-wfa-aJr8n28612q29PGLJUI"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$0.59 - R$75.99 per item",
+      "release_date": "Aug 24, 2015",
+      "url": "https://play.google.com/store/apps/details?id=com.a25apps.HillClimber",
+      "found_date": "2026-06-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peakstrategy.peak",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak: A 2-Player Strategy Game",
+      "icon": "https://play-lh.googleusercontent.com/egh6r6AOxiG7J4rl6zeHjNeaWq2hQwgaVK5VReQSP3CHBQHlqc78YCyRNkOw7BnBWP5nnMt0IHKn2Fe-0UDN",
+      "installs": "5+",
+      "real_installs": 6,
+      "genre": "Board",
+      "shots": [
+        "https://play-lh.googleusercontent.com/UZNgsNCVKK9_ANyTeY-6preratADs1PcC9OUltiZMl4T3fEBuVO6y4sJRKUq3H8NG3XYfdlFbAWG9WIU74OZ",
+        "https://play-lh.googleusercontent.com/MBeXR9GD1TAzrLmfNPvSrd9b1N0amOaqxseqd8DAtrcioJtKMs_QLWcLcmXB8iAA-DslQSlMUTSiVnXofakTy8o",
+        "https://play-lh.googleusercontent.com/zVDX8JD2nkN9n7G7RFqUpUBaAkJJv4RseAvEOxTAQ3X5s_mnDzOhcNINoPtmHgEpgV79YCD6mF05D21Ss4-i",
+        "https://play-lh.googleusercontent.com/2v7l4l1ukBFsqUMj3wSQ3iSntPQA0pWrf3Kn9G7XeJrrk5zL7HSC53IeW7ztaUgVDhhlc8VGTekTZqOlh5cjYA"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 7, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.peakstrategy.peak",
+      "found_date": "2026-06-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "net.peakgames.match",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Match Factory!",
+      "icon": "https://play-lh.googleusercontent.com/TfYptHuK821z2ugqfa7JUomzdoWWV1jBuO1hNraCb0TNAD-zplUWditdZPndKzN50fqzdWBEUp81vMi-s0B4",
+      "installs": "10,000,000+",
+      "real_installs": 26029366,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/NB9XflK3FmFjgouBkos5f0aQYiI2VSbbG_CYPwEVx3gqzWAzrysP8USl0Lo3_vM7Gkn4hadB68DVw2fl_ZIx",
+        "https://play-lh.googleusercontent.com/LDhwQQv7-wWfBh3KLNsODADybhFuhPUHkD2OI9WXxgH7j2kI6ziGzAp7ZTFg8k4JOB0t3e0db6inQpWj245M6A",
+        "https://play-lh.googleusercontent.com/vZyd9n72J1TOENMTyYAXCEeJqUrZYgVTlnB1yfTOSIkv5plnFh6dg7wttxz_gnrj0SCIm_lv9h-1Bm-YdURJ",
+        "https://play-lh.googleusercontent.com/lZF90k2NsWtzqiCAtJFXYEtvmgC4KnAnvUBgs6rFMq8tvDz-WOvNfVN2eaNwXhcMKbA3YpFItBKDcdGGjIaOyxI"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$1,199.99 per item",
+      "release_date": "Dec 21, 2023",
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.match",
+      "found_date": "2026-06-28",
+      "velocity": 0
+    },
     {
       "app_id": "com.woodenblockpuzzle.casual.game",
       "developer": "JoyGame Studio",
