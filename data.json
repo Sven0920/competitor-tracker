@@ -1,6 +1,130 @@
 {
-  "updated_at": "2026-06-28 13:26",
+  "updated_at": "2026-06-29 14:00",
   "games": [
+    {
+      "app_id": "com.puzzle.bearknit",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Bear Knit: Color puzzle",
+      "icon": "https://play-lh.googleusercontent.com/-W3N8nWBCwaWVM8JbgQRPbDg4XVd2HGoxCo2x5luwsUkAgIdQpB0Q4iYCZYkAXvdJvSsd5qB09nhbmTqG-1DMQ",
+      "installs": "1,000+",
+      "real_installs": 2265,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Inj5PzRAfXYfeo19SVJ3fUH0mT9V84oMB_vs0ggnPZTYshtSUl6pHzVtTlMxgffNYgluUBSm4JllZUloY-39Orc",
+        "https://play-lh.googleusercontent.com/JogemeDHMjiFsPugOWjLBvnlCE_hbg4DpC6xpmnwjg2PkiYcomKyG84hnB294CIE9DU5RQrnbQyUxD-SrVHk",
+        "https://play-lh.googleusercontent.com/yu--n0CnV4q5XhddWPGV7S8XGPdEdQE7urbejvn938zZM6EBhMjRYEIB7rDz5zXEmIhZiIVN8kojXeY9UOW7Vg",
+        "https://play-lh.googleusercontent.com/pyQHivoilPvhhN_IAMvSxocwYtmbI69b_TB3Q3DKsNHSH9_S74xXIKzVndE1U3Y6oPzwpWwi42hr-OeTE7Gr6Q"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫52,000 - ₫2,600,000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.bearknit",
+      "found_date": "2026-06-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "and.brainworks.arrow3d",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Arrow 3D Cube: Tap Away",
+      "icon": "https://play-lh.googleusercontent.com/2NslRmwEK1dLT4Rrm3fmoCJpoa7NMQhjj3pAmN-vA7X7yYkaHP3Gkn2loDs-S-rR_2Yf8vFIV-XNPeh-PCKj2w",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/SUKP0jSagkJ_sSl09Os8GBWhf5qq0ebUzB8VyPmLmMf_7mSPoTZOd2L4AgIixUi95RJCHiHCzy9-toZdedbedg",
+        "https://play-lh.googleusercontent.com/IUTOhD9jlVc-T81LeAQCPZveSgIDWa9NavX5vvlf0X5bl3V8zJ9ln3Tv0qdt3xN6BAM0Zg-OuXWb_vrAOgxJ",
+        "https://play-lh.googleusercontent.com/WD3v38ObhuxhycrztVdoTNo-RuA0kQ61Dffs-W2KJrvW1MErQcf7gl_UiNSvq_E3Bl-pjRDwhbDwohG2qzIu4w",
+        "https://play-lh.googleusercontent.com/bFnUFk68tzryQP7idbwSyStfMLcFjZGiOX5y0YoTmxrESQHlzNeTv2KYRrBLllKiYNDtF2FYZenyg5qVw2QgHQ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫3,150,000 per item",
+      "release_date": "Jun 27, 2026",
+      "url": "https://play.google.com/store/apps/details?id=and.brainworks.arrow3d",
+      "found_date": "2026-06-29"
+    },
+    {
+      "app_id": "ott.peakfightingondemand",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Fighting",
+      "icon": "https://play-lh.googleusercontent.com/RKUhT1JaP4jRYDzG9QxV_1u_79a8ErAHOqtlxt2dw__IQZ94DTh0jFxmQHgd793RcPXBku2TRJuoQZctf1pYFg",
+      "installs": "5,000+",
+      "real_installs": 5223,
+      "genre": "Entertainment",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lw9MmCIcK0gcUfs2Qkc_DT9xzzGtdcZ_Ar-a0rJW9Ka8IxUqF5GffmGHX1L1SnHpYqkz8iG46Syx33ghA7lFpZc",
+        "https://play-lh.googleusercontent.com/7l_YSJQ4TRY_JUjhODVKeyMtjE1PoNzKsrwig7jdZ7hSSIujcJhQfuF2NRgRvTTT95IFW78ga6E_7EDqEfCNhg",
+        "https://play-lh.googleusercontent.com/2qZ4HRXpnjKry9jfclgWGAmDVOMihJSDeSGxSMchoo3_0pP_jgLdkv8BehySoYsQ7hhlEnQMcUnudgY0qilu",
+        "https://play-lh.googleusercontent.com/mwbmLj6WFzUaBmNPXCaSckXkw_EuWyvjufQCKYTCnS4YvaSZ_OyFY0RAD5uiFabIG7B3MPkhIz600rG-pinC3Q"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$43.99 - R$549.99 per item",
+      "release_date": "May 5, 2023",
+      "url": "https://play.google.com/store/apps/details?id=ott.peakfightingondemand",
+      "found_date": "2026-06-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.wod.ag.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Among Gods! RPG Adventure",
+      "icon": "https://play-lh.googleusercontent.com/p6Jy0qbEAhqzoRiNJeH2YktW8v9Jp_d4zD3W4fLCnh8VDHc8X6GmNlpvytqkA_9Hn6V-NG2KBgr2XCNuN9mnpfs",
+      "installs": "1,000,000+",
+      "real_installs": 1280536,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/yvgqPlSK8c0vrB-KFNAgEyTMdTrw3Nv6Z8-LWV_BTb8V8jRfucXctYMs7p1Xig6BdeRWvoni5Q0eNkJFi8Yu",
+        "https://play-lh.googleusercontent.com/kQZ3HKq3IB1HrD8_hrHSYgD6MW1PupVggZ9xK_X5kokQpB2SYYPnPIRZpnx--G_NThub3BCc4X1Wo7wssgQb",
+        "https://play-lh.googleusercontent.com/HowGU8YnxHJiaj74QX5sJz3jwkz4nLAAg2VhS5S_-_Yb6a8i-vgv1g91mucM705CfzgBWubRiURQ8DQITkCDnQ",
+        "https://play-lh.googleusercontent.com/H8M-lf0_xrZlEhIUwRbs9Pnay1Lytay40Apr9dibLdfIdyDOQPpCPbyeGqYhojVa29DkAs7CIWM8qi0JWO8X3g"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$25.00 - MX$2,499.00 per item",
+      "release_date": "Aug 21, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.wod.ag.global",
+      "found_date": "2026-06-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "spider.solitaire.card.games.free.klondike.patience",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Spider Solitaire Classic Games",
+      "icon": "https://play-lh.googleusercontent.com/2yHjFQ9dYwD3soOq4ybab4b7qIp6DwusDejDLHkD3synPfzwvT6A13fT55a8i4olV6hbKfAbK-6fajyUeTSDzQ",
+      "installs": "5,000,000+",
+      "real_installs": 5543824,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/AqsBTX5vFuw_V5D9kT6LlToJorJxV7aa595LyGZB8FOKA8_xu3H6RnNOg8qeZ5elaTRXenbhAs4_edpr-HqqWO8",
+        "https://play-lh.googleusercontent.com/hKmWO8dKjvPOjfdPP8CH3BQ-SZlRUsE_da46HfYqVr7L3GgtOQRxq058rcTHOVJOnuE3MAovqvQLFEw04N5c",
+        "https://play-lh.googleusercontent.com/kNSmCwpU--rOAKTMGMaARehEfDCqn-_eKmaswIQkGaUS-jRrpK2qxqABkVoE1N3icleCaZUqUDyDsb-zR03igA",
+        "https://play-lh.googleusercontent.com/lwk95fxHFvMjuEin7bY010iLdKLvWR2Xa0cSyAcCgcMKct2u7cSdvh1sHitdFtEq8UpfF-GR2ouXKhPsBNJh"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$10.99 per item",
+      "release_date": "Sep 23, 2022",
+      "url": "https://play.google.com/store/apps/details?id=spider.solitaire.card.games.free.klondike.patience",
+      "found_date": "2026-06-29",
+      "velocity": 0
+    },
     {
       "app_id": "6768921423",
       "developer": "SayGames",

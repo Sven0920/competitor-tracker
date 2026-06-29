@@ -12560,6 +12560,10 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
+            "mx",
+            "br",
+            "id",
+            "gb",
             "ph"
         ]
     },
@@ -16637,16 +16641,6 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "mx",
-            "br",
-            "id",
-            "gb",
-            "ph"
-        ]
-    },
     "com.puzzle.colorpipe": {
         "name": "Color Pipe: Match puzzle",
         "regions": [
@@ -16680,6 +16674,46 @@
         "name": "Match Factory!",
         "regions": [
             "br"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "br"
+        ]
+    },
+    "com.puzzle.bearknit": {
+        "name": "Bear Knit: Color puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "and.brainworks.arrow3d": {
+        "name": "Arrow 3D Cube: Tap Away",
+        "regions": [
+            "vn"
+        ]
+    },
+    "ott.peakfightingondemand": {
+        "name": "Peak Fighting",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.wod.ag.global": {
+        "name": "Among Gods! RPG Adventure",
+        "regions": [
+            "mx"
+        ]
+    },
+    "spider.solitaire.card.games.free.klondike.patience": {
+        "name": "Spider Solitaire Classic Games",
+        "regions": [
+            "au"
         ]
     }
 }
