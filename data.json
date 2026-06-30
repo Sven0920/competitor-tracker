@@ -1,6 +1,161 @@
 {
-  "updated_at": "2026-06-29 14:00",
+  "updated_at": "2026-06-30 13:12",
   "games": [
+    {
+      "app_id": "com.ig.color.loop",
+      "developer": "iKame",
+      "platform": "Android",
+      "name": "Escape Color Loop",
+      "icon": "https://play-lh.googleusercontent.com/S8rIZu-aRz40oXyvFpSc6fTYc6pv-mA0pjSEJpuFgDpAPb_zcmtRnOw44i3GIlK5rzXeYIcBTnA_NWW6vJyi",
+      "installs": "1,000+",
+      "real_installs": 1352,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/DBC2LqORh6wAeyaEFmrH3NWIQCR1bTXdpK-wYLWIhKyCG-7VHAW8ftm73Tl5ezuKrw9rCa5QVj-9S2uRvsS3",
+        "https://play-lh.googleusercontent.com/a1T5ch-27zdFKfS3CWBiitloXwND2DRtakUET9h6uY1a29t1HBzUbP9bUZxxRLdZXs2qXPiBiyfTyhvs0HjBCQ",
+        "https://play-lh.googleusercontent.com/_f3enQnnsP2TyQk_RrSHTHasaegxgHFtUYSs_2DlRMYwuWk-8BNvLYldZ-KYznc10nNeyiQvZHhI91xususx",
+        "https://play-lh.googleusercontent.com/jkEap3WP2gUL2ZoY3g135lRurS6sKQparHUNIgKji15p7MGJsRulJ-4yZnUG7Zu6eFw9Iv3pXcxBDg634mQZKw"
+      ],
+      "regions": [
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.color.loop",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.furylion.makeup",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Jess' Stories - Life Adventure",
+      "icon": "https://play-lh.googleusercontent.com/ettk4JBcXhcEIWA5KcDZ1nO8jYpsKrHNsNiMiJ-rHDYamx-K6kIWGiXHdcGq6Opp2_k3D4RTREqmjzhfqvYKdg",
+      "installs": "5,000,000+",
+      "real_installs": 9687639,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/E8E4JWnQG-gnbc9h4AV0KIGhPNG1HWMoxR5BEDFsr6X5F7gL_whRF_bFqXeC4A_OzLurUVcAgQUUUvxETk-AB6o",
+        "https://play-lh.googleusercontent.com/caNVQv_NXL36GIYbcCcqtfQdEmxsn5mewrEVpLLMyKFQgRBk8akoiddZUh_Z8PGi9xwSusUeAf7xabZ7eQYXhw",
+        "https://play-lh.googleusercontent.com/Hjh7fOTwFIDcOxdTLsFd_awr8B5BqPUM-zxW0s85TdLVSz-UAWa5gEsMPxnALPuZNNWcsTxyQHhO_WIeftmhNS0",
+        "https://play-lh.googleusercontent.com/Zu_nN5BV3r39e31yPXri5EWP64j0Lo422CC_QASeA6XtGwkOORclr2s_aZ91eSrzg48f5bFYSQalP3m7i1eawA"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱89.00 - ₱5,850.00 per item",
+      "release_date": "Feb 14, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.furylion.makeup",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.vottzapps.wordle",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Wordle!",
+      "icon": "https://play-lh.googleusercontent.com/qGY3lWS3CnIgmqKE2YHJ-knh1O3Qi6giG7-am3J_GFueS5FTiQoFBcoyb6ibfh-JkgvzJynbn2agULRgVPFPNA0",
+      "installs": "10,000,000+",
+      "real_installs": 17575097,
+      "genre": "Word",
+      "shots": [
+        "https://play-lh.googleusercontent.com/39JHPGDM2yi5ouhHdOFlHSpwb7zlWUBnpZN4VS3d3VzTNDut6jUs4LRSN-VMbDyIwxcA9d7_I19ox8XmRSpT-A",
+        "https://play-lh.googleusercontent.com/GSC5zro-epDMOYxAKM1ZE7vbdNWS4CCTW_l_lkJ_2iS--h3uBQVdQoxzKuioDXOWWF8l7fMbwQSfNfO6IR49",
+        "https://play-lh.googleusercontent.com/IVYmf7QzHd_Bt_7DwSg4HPwzWDODGQxzQSkXn2fkJTzzaCJr1Kx-EwmARAkAiYvnsH3QT285HR8aKDw_p36QIw",
+        "https://play-lh.googleusercontent.com/9yzO2bc07ZhjURFepbjMNv3qfM9tCUURnT_JsRVcjBLUyAGRrZ0vYLOveZYw66srhnM_iZUP9Ez8oiEzSNPDaA"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $99.99 per item",
+      "release_date": "Feb 15, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.meemeegames.categorysort",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Category Sort",
+      "icon": "https://play-lh.googleusercontent.com/4seLYWK7qcq4uYSERidx9llgPDx0nObtjGgoDnS1w8t2WviDbpAaHnpCk5uey4CKq8Cjzs61QubQDp6qpoV3",
+      "installs": "500,000+",
+      "real_installs": 832512,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/oIARVE4XGRhG9n5jk_KX3wzRIOcFQ8Q5DRSQOv-7iPOHF_7rpo4r8kBloZd6cPSJdVbOiknnwSBKYHxfd8NNQg",
+        "https://play-lh.googleusercontent.com/3VJmFSv7JiosS4VN29_Yzh6OBOxmXnbwAO2OQ9IbTmp4eIi2DQIiJvqXVzO6I03bPSlGLTuDB8kt2-VXo0ecyyc",
+        "https://play-lh.googleusercontent.com/Bf1D7JapiOoQUD-5OA6lLYgeJomlrYaf533MlQI2pH2Alv0rAsrCuDA-_5wa-YuIGg_CR4Hz54i_WS3_yzkXkFY",
+        "https://play-lh.googleusercontent.com/055BPyD7Xj2XIgzeGwpG51li3kcm-cqcIXNSMtpV4TMsnTqNng0FwVuAPQapFQJmX2q5pQ4SX8v0S0b4wY1k8g"
+      ],
+      "regions": [
+        "au",
+        "gb",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$3.19 - $159.99 per item",
+      "release_date": "Jan 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.meemeegames.categorysort",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gamebrain.hexasort",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Hexa Sort",
+      "icon": "https://play-lh.googleusercontent.com/BPi6szhCZr0mJlSl9mT7j8HChhRsz6F-UIkaz60JrUGrhPIzbyUa3lhEIP_o2CwGupSfwRHUL86xPjWgssXd",
+      "installs": "10,000,000+",
+      "real_installs": 39673721,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/0xV1aTDHkI9MAyGIKkp231yB9chqvVtvoC6olF5vC4H6wtv7ATSfRE_RQaN5HRJkUf_znjeKpoHLBRJLDTC2IQ",
+        "https://play-lh.googleusercontent.com/O7OzsoqMs34ccOrUi3d6mR--s37C0q8GOnqhmDvK0JzYGqjku01PnJ4yNRpQkCVXZB3Iy74hGd_lN-loh3tPPA",
+        "https://play-lh.googleusercontent.com/g8ErRWEZu3bs6nLYFwklQ6DFT9m_kxRnDWyz6nHHEh8hKcK_MYienZH_9Gf0JnBEJagWSU21Zqp4O_PErPqALQ",
+        "https://play-lh.googleusercontent.com/lBJ9dYOv9rM5yjpNyxV40VSMyNQiIkdFDtYpTBTPhJQk43dCmTtKK3xSbUdo1En5pMbppLsQ_BXabxFfRdDl"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱56.00 - ₱5,900.00 per item",
+      "release_date": "Jul 6, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mahjong.master.solitaire.match.puzzle",
+      "developer": "PANDAS OF CARIBBEAN",
+      "platform": "Android",
+      "name": "Mahjong Master: Daily Match",
+      "icon": "https://play-lh.googleusercontent.com/nUHFn87Lc2AifraSGdQH3DnwOZNzwEj25zYYk3qz3lsxsAa5p_RbXwCHZg38XpZMOcc4KQqlSMWJHfZiBMzErQ",
+      "installs": "1,000,000+",
+      "real_installs": 3800240,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/S2hdXWDGDvyDeolUw7n2vFHrVURcnsxlMcQKBgPzNGB94yg-3_5oqkxlQgHpB3ih7P4Ab1l3naW6e2V9yKxDb6g",
+        "https://play-lh.googleusercontent.com/c_WEY7y1tTxaGmRLw1_uKSBbg7bPNmLFaoCuo04UcjmQYASR580aAHSdwdkLaf7DrgkMoNs0MR7FNkTtmNqS",
+        "https://play-lh.googleusercontent.com/dKxGOr-CqGWgpD15lM0KOuv_k8Ng9eQIycQMjFiwHznY5G3Mp2iQfXdOk3PEJlLK4llja1jjXg44X2oSZxLTyg",
+        "https://play-lh.googleusercontent.com/nl56GyT-Es5c_GF9dJ9PyGnYpYJXzzcGL9aX-4lOp7mQioC8nLWLBNOBRpveAMBxbJyylPMIAoRdJ4_jAtULHw"
+      ],
+      "regions": [
+        "mx",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 22, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mahjong.master.solitaire.match.puzzle",
+      "found_date": "2026-06-30",
+      "velocity": 0
+    },
     {
       "app_id": "com.puzzle.bearknit",
       "developer": "LIHUHU",

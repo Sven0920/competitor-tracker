@@ -12560,11 +12560,11 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "mx",
-            "br",
+            "vn",
+            "ph",
             "id",
-            "gb",
-            "ph"
+            "mx",
+            "br"
         ]
     },
     "com.staff.staff": {
@@ -16676,16 +16676,6 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "vn",
-            "ph",
-            "id",
-            "mx",
-            "br"
-        ]
-    },
     "com.puzzle.bearknit": {
         "name": "Bear Knit: Color puzzle",
         "regions": [
@@ -16714,6 +16704,57 @@
         "name": "Spider Solitaire Classic Games",
         "regions": [
             "au"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "br",
+            "id",
+            "mx",
+            "ph",
+            "vn"
+        ]
+    },
+    "com.ig.color.loop": {
+        "name": "Escape Color Loop",
+        "regions": [
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "com.furylion.makeup": {
+        "name": "Jess' Stories - Life Adventure",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.vottzapps.wordle": {
+        "name": "Wordle!",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.meemeegames.categorysort": {
+        "name": "Category Sort",
+        "regions": [
+            "au",
+            "gb",
+            "ph"
+        ]
+    },
+    "com.gamebrain.hexasort": {
+        "name": "Hexa Sort",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.mahjong.master.solitaire.match.puzzle": {
+        "name": "Mahjong Master: Daily Match",
+        "regions": [
+            "mx",
+            "ph"
         ]
     }
 }
