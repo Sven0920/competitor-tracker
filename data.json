@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-06-30 13:12",
+  "updated_at": "2026-07-01 13:31",
   "games": [
+    {
+      "app_id": "6782096197",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Knock Out : Physics Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/08/03/f10803f1-4c99-5dd4-726b-a26de83e9b2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "au",
+        "mx",
+        "br",
+        "ca",
+        "id",
+        "gb",
+        "ph",
+        "us"
+      ],
+      "size": "266.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-30",
+      "url": "https://apps.apple.com/us/app/knock-out-physics-puzzle/id6782096197?uo=4",
+      "found_date": "2026-07-01"
+    },
     {
       "app_id": "com.ig.color.loop",
       "developer": "iKame",

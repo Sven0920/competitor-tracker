@@ -12560,11 +12560,11 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "vn",
-            "ph",
+            "br",
             "id",
             "mx",
-            "br"
+            "ph",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -16706,16 +16706,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "br",
-            "id",
-            "mx",
-            "ph",
-            "vn"
-        ]
-    },
     "com.ig.color.loop": {
         "name": "Escape Color Loop",
         "regions": [
@@ -16754,6 +16744,25 @@
         "name": "Mahjong Master: Daily Match",
         "regions": [
             "mx",
+            "ph"
+        ]
+    },
+    "6782096197": {
+        "name": "Knock Out : Physics Puzzle",
+        "regions": [
+            "au",
+            "mx",
+            "br",
+            "ca",
+            "id",
+            "gb",
+            "ph",
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
             "ph"
         ]
     }
