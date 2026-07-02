@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-01 13:31",
+  "updated_at": "2026-07-02 13:07",
   "games": [
+    {
+      "app_id": "com.mwg.solitaire.relax",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Meow Solitaire - Word Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/5aaBNvppi_wBFQaaB6VUQhqew42x9heu_O3sTCqd97xuGEOIGIaqqBqCjfPOkgHoKEeSp5x1dvNY56jiW293",
+      "installs": "10,000+",
+      "real_installs": 11174,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/0VWuMm0RLDl0LflTHF2EJu1dycxsGjLKY3z8K3IPXWedPAIXvGMGc_4TPDboICn5Jn7zlUCToYvobkoe6Vd47w",
+        "https://play-lh.googleusercontent.com/HV79Uf9jhrqBQ3wI2AV9W5er3raxi-sk18Vef3j3TbMUHzXuF4zaga1A-UCWfh_kvwjsGuJcWaAGzMF-_fHtjw",
+        "https://play-lh.googleusercontent.com/VMeynADeV-Avy3FKebfcA84WmsABZYXnEb2scVzubyX2Hwnm0oRv26DAVSFJeFGXCmpKYtlWtbG1vGHzq2Mv",
+        "https://play-lh.googleusercontent.com/aaKTd7lYq8FNH8kzTHElv7Y5ijcya5uy1L24kuQfERQEzW2DpXtNQx32CA5I0TQEDrzpWR35OZ-xTvn4dUVZ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫52,000 - ₫2,600,000 per item",
+      "release_date": "Mar 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mwg.solitaire.relax",
+      "found_date": "2026-07-02",
+      "velocity": 0
+    },
     {
       "app_id": "6782096197",
       "developer": "Combo",

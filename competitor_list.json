@@ -12560,11 +12560,7 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "br",
-            "id",
-            "mx",
-            "ph",
-            "vn"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -16764,6 +16760,12 @@
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
+        ]
+    },
+    "com.mwg.solitaire.relax": {
+        "name": "Meow Solitaire - Word Puzzle",
+        "regions": [
+            "vn"
         ]
     }
 }
