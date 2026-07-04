@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-07-03 12:49",
+  "updated_at": "2026-07-04 12:43",
   "games": [
+    {
+      "app_id": "6779918710",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Tuxedoku: Zen Wooden Sudoku",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/c2/9f/4fc29f2b-2eff-8bdd-c8f0-6753c5f046bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/ce/a0/e2cea0a4-43e1-1908-ef1d-fa2fa170416a/SQ_SS_iPhone_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/95/b0/b395b0c2-97b1-0ee1-af9b-375582f82fa7/SQ_SS_iPhone_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/e3/d5/87e3d560-f671-2c7b-217a-b252225c198a/SQ_SS_iPhone_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/23/d9/2b23d99c-a215-f80d-8c95-74e7ea70545b/SQ_SS_iPhone_4.jpg/392x696bb.jpg"
+      ],
+      "regions": [
+        "ph",
+        "au",
+        "id",
+        "tr",
+        "vn",
+        "us",
+        "gb",
+        "br",
+        "ca",
+        "mx"
+      ],
+      "size": "309.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-03",
+      "url": "https://apps.apple.com/us/app/tuxedoku-zen-wooden-sudoku/id6779918710?uo=4",
+      "found_date": "2026-07-04"
+    },
+    {
+      "app_id": "6780854460",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Ball Escape Puzzle!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/60/48/b3604855-59cc-5a97-ab64-d2d12de3a457/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [],
+      "regions": [
+        "ph",
+        "au",
+        "id",
+        "us",
+        "gb",
+        "br",
+        "ca",
+        "mx"
+      ],
+      "size": "179.8 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-03",
+      "url": "https://apps.apple.com/us/app/ball-escape-puzzle/id6780854460?uo=4",
+      "found_date": "2026-07-04"
+    },
     {
       "app_id": "com.mwg.solitaire.relax",
       "developer": "SayGames",

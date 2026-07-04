@@ -16762,6 +16762,34 @@
             "vn"
         ]
     },
+    "6779918710": {
+        "name": "Tuxedoku: Zen Wooden Sudoku",
+        "regions": [
+            "ph",
+            "au",
+            "id",
+            "tr",
+            "vn",
+            "us",
+            "gb",
+            "br",
+            "ca",
+            "mx"
+        ]
+    },
+    "6780854460": {
+        "name": "Ball Escape Puzzle!",
+        "regions": [
+            "ph",
+            "au",
+            "id",
+            "us",
+            "gb",
+            "br",
+            "ca",
+            "mx"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
