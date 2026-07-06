@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-05 13:05",
+  "updated_at": "2026-07-06 13:21",
   "games": [
+    {
+      "app_id": "6761920469",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Puzzle Match Solitaire",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/60/ef/f760ef0e-bf1b-c86a-bbe1-e40df46c4442/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Card",
+      "shots": [],
+      "regions": [
+        "mx",
+        "ca",
+        "gb",
+        "id",
+        "vn",
+        "au",
+        "us",
+        "ph",
+        "tr",
+        "br"
+      ],
+      "size": "296.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-05",
+      "url": "https://apps.apple.com/us/app/puzzle-match-solitaire/id6761920469?uo=4",
+      "found_date": "2026-07-06"
+    },
     {
       "app_id": "6779918710",
       "developer": "LIHUHU",

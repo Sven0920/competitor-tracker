@@ -16790,6 +16790,21 @@
             "mx"
         ]
     },
+    "6761920469": {
+        "name": "Puzzle Match Solitaire",
+        "regions": [
+            "mx",
+            "ca",
+            "gb",
+            "id",
+            "vn",
+            "au",
+            "us",
+            "ph",
+            "tr",
+            "br"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
