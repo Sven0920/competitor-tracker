@@ -16805,10 +16805,73 @@
             "br"
         ]
     },
+    "6786112313": {
+        "name": "Pixel Honey: Color Cube Puzzle",
+        "regions": [
+            "ph",
+            "us",
+            "ca",
+            "gb",
+            "id",
+            "au",
+            "vn",
+            "br",
+            "mx",
+            "tr"
+        ]
+    },
+    "6776169875": {
+        "name": "Jelly out: Hexa Puzzle",
+        "regions": [
+            "ph",
+            "us",
+            "ca",
+            "gb",
+            "id",
+            "au",
+            "vn",
+            "br",
+            "mx",
+            "tr"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
+        ]
+    },
+    "net.peakgames.amy": {
+        "name": "Toy Blast",
+        "regions": [
+            "br"
+        ]
+    },
+    "jp.co.goodroid.hyper.tetoteto": {
+        "name": "Charge Out Puzzle",
+        "regions": [
+            "ph",
+            "ca",
+            "gb",
+            "id",
+            "au",
+            "vn",
+            "br",
+            "mx",
+            "tr"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.catseekscreensafari": {
+        "name": "Cat Seek: Screen Safari",
+        "regions": [
+            "ph",
+            "ca",
+            "gb",
+            "id",
+            "vn",
+            "br",
+            "mx",
+            "tr"
         ]
     }
 }

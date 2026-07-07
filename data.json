@@ -1,6 +1,150 @@
 {
-  "updated_at": "2026-07-06 13:21",
+  "updated_at": "2026-07-07 13:02",
   "games": [
+    {
+      "app_id": "6786112313",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Pixel Honey: Color Cube Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/fc/0c/18fc0c41-c124-f3fb-e8c7-f661b5f61285/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "ph",
+        "us",
+        "ca",
+        "gb",
+        "id",
+        "au",
+        "vn",
+        "br",
+        "mx",
+        "tr"
+      ],
+      "size": "304.8 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-06",
+      "url": "https://apps.apple.com/us/app/pixel-honey-color-cube-puzzle/id6786112313?uo=4",
+      "found_date": "2026-07-07"
+    },
+    {
+      "app_id": "6776169875",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Jelly out: Hexa Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/67/41/366741e6-9936-3725-16c2-b096f744bbea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "ph",
+        "us",
+        "ca",
+        "gb",
+        "id",
+        "au",
+        "vn",
+        "br",
+        "mx",
+        "tr"
+      ],
+      "size": "385.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-06",
+      "url": "https://apps.apple.com/us/app/jelly-out-hexa-puzzle/id6776169875?uo=4",
+      "found_date": "2026-07-07"
+    },
+    {
+      "app_id": "net.peakgames.amy",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Toy Blast",
+      "icon": "https://play-lh.googleusercontent.com/bJIPmnpZodfFL2mZKmEzx1o4aoSoIB1F10T7eCtq8Nm5WjBiEAeaJy7xJ9Y6G8_y_fCpsXQfZoe1VelBn-GJZw",
+      "installs": "100,000,000+",
+      "real_installs": 109579568,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Wb78Qf8XhK1UKASl0aBF3k-VrAx6zb03BvmEnDZ0rHkCGYFkuSwJLCzDXLSmfXstsaI5ZxCWngq-hkS2UHZQFg",
+        "https://play-lh.googleusercontent.com/Dbyg5hJShmvRZNMydGNw2EEWSRp9iJUclnnZtbd7e78TkgVOJu_NkhQ7XLhVJGYT_0FTazhrtSlNMI_mO70",
+        "https://play-lh.googleusercontent.com/IBbO9TWnvkGL-pkpmrMBSwhBnV6hzEr91S_IDS2dA3mhb1pIxv35a4TA860HVbx18OEmuYW0BSi9G8teizeoVg",
+        "https://play-lh.googleusercontent.com/4StS_GqJoHAxz8As3L5HoT3lOTp6GbyxEHQZzP5vNz8BMbNU3oSW_5If7G6vHPQ-D012Df9LTwUitFhFJtfU"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$3.39 - R$599.90 per item",
+      "release_date": "Dec 12, 2014",
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+      "found_date": "2026-07-07",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.tetoteto",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Charge Out Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/egvGUdbCOmyrRpyA8U0a6hb4sjAfTNqq5iqqgFJyAftyakEvqzfyLf79BTL7v4pc26Su2iEr15j_eqjrHxx3t6Q",
+      "installs": "1,000+",
+      "real_installs": 1096,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/cLL5T8nim6rwjwvunX8t-Lyrl-Z2xoBXbk32R7YdMOx1-v1pa75XgtUOoInmubasGXKMa3vV0SOgD5Aqz5lKuQ",
+        "https://play-lh.googleusercontent.com/gWMykiKOhtG8DVvrJfDP5kcn9bQjMSUGS-jHRgx3gnktL_WPw56F0VY-lhdnGQnJxzsptET62B9gjFWy_oUxl5M",
+        "https://play-lh.googleusercontent.com/TNXrQLH4x8ulf66dxCSEKeerWl4Q4cxupdA1BGqMihs1nVkl1U9llQebEGf0203F3LcxKot_BpOFiOz49493w2U",
+        "https://play-lh.googleusercontent.com/gWMykiKOhtG8DVvrJfDP5kcn9bQjMSUGS-jHRgx3gnktL_WPw56F0VY-lhdnGQnJxzsptET62B9gjFWy_oUxl5M"
+      ],
+      "regions": [
+        "ph",
+        "ca",
+        "gb",
+        "id",
+        "au",
+        "vn",
+        "br",
+        "mx",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Mar 2, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.tetoteto",
+      "found_date": "2026-07-07",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.puzzle.catseekscreensafari",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Cat Seek: Screen Safari",
+      "icon": "https://play-lh.googleusercontent.com/a6n4S89-hGzwga9dqsRvAEvfcrbYB-J0AQhs37Oky1bJZnCmEW-GLr57pGaGMxegYu521MIPQkx7PL4nBxkMww",
+      "installs": "100,000+",
+      "real_installs": 124680,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/B5BwZlAqcpWf3O5jeciKi1SdemaRXlPggRUA96ynIvozmqwGrVjvaEGOmA5DYFnVU7G20iHPnCs8hK07MckmB_4",
+        "https://play-lh.googleusercontent.com/dxPcvGcoi2fRRImzSmjIBhxcCJkvTlokg0HlA3WiNWYr8KL8X4mU68ewB1Kb3GT5fSri_zqkjgqxaUk-v5EJbQ",
+        "https://play-lh.googleusercontent.com/UnJDdDsAKLXsnwJ6e5MyZITtxSoH6aWLTCABCi0Y9Rkapn5LHyAuArPOHLmiEWweQgjizxTkQDdUJXTeiD8JjBc",
+        "https://play-lh.googleusercontent.com/Nzctc4chOnfKA8ktKip3_gNOd59Gq3ECmbDSG58TLX77gbptt7335v8IcG8byKb62G8xJLKwgOEgzahN3N88"
+      ],
+      "regions": [
+        "ph",
+        "ca",
+        "gb",
+        "id",
+        "vn",
+        "br",
+        "mx",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 23, 2025",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.catseekscreensafari",
+      "found_date": "2026-07-07",
+      "velocity": 0
+    },
     {
       "app_id": "6761920469",
       "developer": "Tripledot",
