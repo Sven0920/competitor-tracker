@@ -156,6 +156,46 @@ def update_velocity(data):
     with open(INSTALLS_HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(snaps, f, ensure_ascii=False)
 
+def send_feishu_new_games(found_records):
+    """发现新游时推飞书卡片。webhook 从环境变量 FEISHU_WEBHOOK 读（不写进公开代码）。"""
+    webhook = os.environ.get("FEISHU_WEBHOOK")
+    if not webhook or not found_records:
+        return
+    groups = {}
+    for r in found_records:
+        groups.setdefault(r["developer"], []).append(r)
+    lines = []
+    for dev, games in groups.items():
+        lines.append(f"**🏢 {dev}**")
+        for g in games:
+            plat = "🍎" if g["platform"] == "iOS" else "🤖"
+            regions = ", ".join(x.upper() for x in (g.get("regions") or []))
+            soft = "us" not in [x.lower() for x in (g.get("regions") or [])]
+            tag = "🔥 Soft Launch" if soft else "✅ US"
+            genre = f" · {g['genre']}" if g.get("genre") else ""
+            lines.append(f"{plat} [{g['name']}]({g['url']}){genre} · {regions} {tag}")
+        lines.append("")
+    body = "\n".join(lines).strip()
+    payload = {
+        "msg_type": "interactive",
+        "card": {
+            "config": {"wide_screen_mode": True},
+            "header": {"title": {"tag": "plain_text", "content": f"🎯 New Game Radar · 发现 {len(found_records)} 款新游（{now_cn('%m/%d')}）"}, "template": "blue"},
+            "elements": [
+                {"tag": "markdown", "content": body},
+                {"tag": "hr"},
+                {"tag": "note", "elements": [{"tag": "lark_md", "content": "完整看板 → https://sven0920.github.io/competitor-tracker/"}]},
+            ],
+        },
+    }
+    try:
+        requests.post(webhook, headers={"Content-Type": "application/json"},
+                      data=json.dumps(payload, ensure_ascii=False).encode("utf-8"), timeout=10)
+        print("✅ 已推送飞书新游卡片")
+    except Exception as e:
+        print("❌ 飞书推送失败:", e)
+
+
 def main():
     TARGET_DEVELOPERS = fetch_target_developers()
     if not TARGET_DEVELOPERS:
@@ -304,6 +344,7 @@ def main():
         print(f"✅ 首次建库完毕！共记录 {len(known_games)} 款跨区游戏。")
     elif found_records:
         print(f"🚨 本次发现 {len(found_records)} 款新游，已写入 data.json。")
+        send_feishu_new_games(found_records)
     else:
         print("💤 本次监控的厂商均无新游发布。")
     print("=" * 60 + "\n")

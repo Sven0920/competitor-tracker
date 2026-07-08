@@ -26,6 +26,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 抓取竞品新游
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python competitor_tracker.py
 
       - name: 提交结果
