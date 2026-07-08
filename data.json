@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-07 13:02",
+  "updated_at": "2026-07-08 12:24",
   "games": [
+    {
+      "app_id": "jp.co.goodroid.hyper.busloop",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Bus Loop - Bubble Jam Puzzel",
+      "icon": "https://play-lh.googleusercontent.com/1dILktYn6A5ZrC36AYgWeXNH2CKiOwg4gg9h0duXpPOVjLJoNo6FDdj0iy1oebwDBmwv7RW8V9rnbLa4mrt1-g",
+      "installs": "5,000+",
+      "real_installs": 5163,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/EvAbzlc0axoUxo244JXDDtC0e8bUjMdDGTEba801ac703VWKKvSQARUW4-VFL7uv6SdR7Lgf9C55Ka7wMkPSEQ",
+        "https://play-lh.googleusercontent.com/lUDM4TiZ4yikyquwuh0nZlcsQknhzYJFmcCEXNXCvef6qVLnSyK5gzy_KgucPrnXypp-niGjfo1Hk-zvTnVOSA",
+        "https://play-lh.googleusercontent.com/k3Nl-zer-WNBaKLSpxRlXohtiqhy7DUSUj7vWhUr_7yKP5U_oGCADjQgQPgiT05Wauc_W13-KRG_vht-r7qs",
+        "https://play-lh.googleusercontent.com/oBNcouE1teiYl5RrgJJDvcpqqNzN0Id4rkX2twtz85UIM7ywwYf9LsGyf7iHr9Fs6UC8u4YElXeKDOB_0lF2rQ"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Mar 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busloop",
+      "found_date": "2026-07-08",
+      "velocity": 0
+    },
     {
       "app_id": "6786112313",
       "developer": "ABI",

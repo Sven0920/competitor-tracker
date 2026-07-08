@@ -16835,12 +16835,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "net.peakgames.amy": {
         "name": "Toy Blast",
         "regions": [
@@ -16872,6 +16866,488 @@
             "br",
             "mx",
             "tr"
+        ]
+    },
+    "6762461210": {
+        "name": "Arrow Rush: Water Color Sort",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6761603258": {
+        "name": "Loop Master: Color Jam Sort",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6759817958": {
+        "name": "BlockWord: Word Associations",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6759089569": {
+        "name": "Tile Flavor",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6746245484": {
+        "name": "Matching Mahjong: Fruit Splash",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6642696545": {
+        "name": "Find Beauty: Fun Hidden Object",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6502281283": {
+        "name": "Crazy Match - Triple Tap 3D",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6502278761": {
+        "name": "Traffic 3D Parking: Escape Jam",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6473152241": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6449009743": {
+        "name": "Jigsaw Sort: Block puzzle",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6446468634": {
+        "name": "Find It: Hidden Objects Game",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "1661757764": {
+        "name": "Pin Puzzle: Pull Pins Out",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6740793973": {
+        "name": "Screw Color: Nuts Jam Master",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "6738771575": {
+        "name": "3D Bolt Master®: Screw Master®",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "1543830420": {
+        "name": "Nonogram Color:Picture Cross",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "1500400013": {
+        "name": "Sudoku Master - Brain Games",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "1494084760": {
+        "name": "Nonogram: Picture Cross Sudoku",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph",
+            "vn"
+        ]
+    },
+    "jp.co.goodroid.hyper.busloop": {
+        "name": "Bus Loop - Bubble Jam Puzzel",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.sorting.games.match3d.goods.triple.puzzle": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.hidden.object.find.beauty.search.games.free": {
+        "name": "Find Beauty: Fun Hidden Object",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "au",
+            "gb"
+        ]
+    },
+    "com.pin.screw.color.nuts.bolts.spin.free.game": {
+        "name": "Unscrew Nuts Sort®: Pin Puzzle",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.match.triple.games.sort3d.puzzle": {
+        "name": "3D Crazy Match! Triple Tap",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "vn",
+            "br",
+            "tr",
+            "mx",
+            "gb"
+        ]
+    },
+    "traffic.parking.jam.escape.car3d.games": {
+        "name": "Traffic 3D Parking: Escape Jam",
+        "regions": [
+            "id",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "au",
+            "gb"
+        ]
+    },
+    "com.screw.bolt.ocean.match.fish.game": {
+        "name": "Screw Ocean: Bolt Match Escape",
+        "regions": [
+            "id",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.tile.flavor.puzzle.match.triple.sort.game": {
+        "name": "Tile Flavor: Matching Game",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.screw3d.match.nuts.bolts.pin.jam.away.puzzle": {
+        "name": "3D Bolt Master®: Screw Master®",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.scavenger.hunt.hidden.objects.find.out.puzzle.games.free": {
+        "name": "Find Master: Hidden Objects",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.scavenger.hunt.find.my.cat.hidden.object.free.brainly.game": {
+        "name": "Tidy Master®:Hidden Objects",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.goods.sorting.games.triple.match3d.puzzle": {
+        "name": "Goods Triple Match: Sorting 3D",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.tile.match.connect.master.mahjong": {
+        "name": "Tile Match: Joy Master Game",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.blockpuzzle.wood.jewel.jigsaw.game": {
+        "name": "Block Puzzle Legend:Jewel Game",
+        "regions": [
+            "id",
+            "us",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.find.hidden.object.out.treasure.hunt.seek.puzzle.games": {
+        "name": "Find N Seek: Spy Hidden Object",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.triple.match3d.goods.puzzle.games": {
+        "name": "Match Hunter: Triple Clear",
+        "regions": [
+            "id",
+            "us",
+            "vn",
+            "au",
+            "gb"
+        ]
+    },
+    "com.car.parking.bus.mania.traffic.jam": {
+        "name": "Bus Jam: Car Parking Games",
+        "regions": [
+            "id",
+            "ca",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.tile.match.connect.game": {
+        "name": "Tile Kingdom Master: Match Fun",
+        "regions": [
+            "id",
+            "gb"
         ]
     }
 }
