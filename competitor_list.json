@@ -12560,7 +12560,8 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph"
+            "ph",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -17123,13 +17124,6 @@
             "gb"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph",
-            "vn"
-        ]
-    },
     "jp.co.goodroid.hyper.busloop": {
         "name": "Bus Loop - Bubble Jam Puzzel",
         "regions": [
@@ -17348,6 +17342,65 @@
         "regions": [
             "id",
             "gb"
+        ]
+    },
+    "6785400656": {
+        "name": "Zoodoku - Animal Puzzle",
+        "regions": [
+            "tr",
+            "vn",
+            "id",
+            "mx",
+            "ph",
+            "ca",
+            "au",
+            "us",
+            "br",
+            "gb"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph",
+            "vn"
+        ]
+    },
+    "block.jigsaw.puzzle.games.wood.blocks.sudoku.free": {
+        "name": "Blocky Jigsaw Puzzle Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "ball.sort.puzzle.color.sorting.puzzle.games.free.bubble": {
+        "name": "Block Sort, Color Puzzle Games",
+        "regions": [
+            "us"
+        ]
+    },
+    "jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free": {
+        "name": "Jigsort - Jigsaw Puzzle Games",
+        "regions": [
+            "us"
+        ]
+    },
+    "blockpuzzle.game.block.puzzle": {
+        "name": "Block Puzzle - Puzzle Games",
+        "regions": [
+            "us"
+        ]
+    },
+    "water.sort.puzzle.color.sorting.game.free": {
+        "name": "Water Sort, Offline Color Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "solitaire.collection.klondike.card.games.free.game": {
+        "name": "Solitaire for Seniors Game",
+        "regions": [
+            "gb",
+            "au"
         ]
     }
 }

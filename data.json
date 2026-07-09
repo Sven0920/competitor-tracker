@@ -1,6 +1,184 @@
 {
-  "updated_at": "2026-07-08 12:24",
+  "updated_at": "2026-07-09 13:03",
   "games": [
+    {
+      "app_id": "6785400656",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Zoodoku - Animal Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/52/2e/65522ef8-30f0-a923-ef47-0ef45f9f6854/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "tr",
+        "vn",
+        "id",
+        "mx",
+        "ph",
+        "ca",
+        "au",
+        "us",
+        "br",
+        "gb"
+      ],
+      "size": "275.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-07",
+      "url": "https://apps.apple.com/us/app/zoodoku-animal-puzzle/id6785400656?uo=4",
+      "found_date": "2026-07-09"
+    },
+    {
+      "app_id": "block.jigsaw.puzzle.games.wood.blocks.sudoku.free",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Blocky Jigsaw Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/o7bb7O2Qy8tzBm31BzF-vW5o_NKbLJ-ALGNxQ0-SXdJvQhzInGivxq1ZEUAYXmv1EKCSkGqcGm2NqMEWLBegpw",
+      "installs": "500,000+",
+      "real_installs": 509639,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/807YZ6aa29hn9HbFnOe2PfULNXuog4cq8ljk_5cHfw4BknC1rk5Sqe92HA2aQltlsqUj4ZRr1r_TBp4O7lE-dQ",
+        "https://play-lh.googleusercontent.com/32P_Wi-rhK5J5uGVlNkqF3vaQMEVxanaXAznTuHjVPWNmZ8JBTR5j_QrIoOyvlGU6i3677VablDSH3m6Ivcf1A",
+        "https://play-lh.googleusercontent.com/_ihH0OTo3_cTb_AeSJLeXsOmD1MwtAAqYD9tw5cytlL5G1si-quwIfRgjfsXlFC5TXm4RQsvO2fwEON3-37d",
+        "https://play-lh.googleusercontent.com/3Gtxx4d_5rtQCGS1yVl2zZl05KAMjrMKmpZyFATcAsmgKkl1eb6_qEeU3yobtmN3I5yukKde-E-OzA8ctpOBrw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $49.99 per item",
+      "release_date": "Sep 25, 2023",
+      "url": "https://play.google.com/store/apps/details?id=block.jigsaw.puzzle.games.wood.blocks.sudoku.free",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
+    {
+      "app_id": "ball.sort.puzzle.color.sorting.puzzle.games.free.bubble",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Block Sort, Color Puzzle Games",
+      "icon": "https://play-lh.googleusercontent.com/QBCxa4ISThZLkPscWTKHcX5_yHpfHatxcY-fAEGeS-Y7vqEXw9vFU4hQzMMtDc8AKwFSepptoyl4XLZQkA1B3yo",
+      "installs": "100,000+",
+      "real_installs": 271954,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/WcCBInxxfHNii-cykHkWl11cwngJNoo3b0Wcyq5BcKGo9BrbOqkR6o1fDNA7JmsDMgn9EdcNdYmIxEFhrbOwrQ",
+        "https://play-lh.googleusercontent.com/Nq8A_gSK2UWxt4Zd9tZd-FR7yx9MbCBh2NFbqJp-zVw0nKn4gRhiLrSh8-Wpij7D7XkkS_fBrVCJlO-Wk60WMA",
+        "https://play-lh.googleusercontent.com/Q0dmE5SQNePQR6nIevCB_Ocgph2JyKC89BBDZUIPkkbYGUqiPcppCoPvaJfA4kL_jadw5Srkl5WgzLN5phfJ",
+        "https://play-lh.googleusercontent.com/eDMRvc390OYgbFre260uYpRjgM3WHKuR7Kh5H14VqyS8E4zy8Uiv5vVwlb_WMjcs4AueKKredCpcMqPFcGPzhdU"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $49.99 per item",
+      "release_date": "Jan 22, 2024",
+      "url": "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.puzzle.games.free.bubble",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
+    {
+      "app_id": "jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Jigsort - Jigsaw Puzzle Games",
+      "icon": "https://play-lh.googleusercontent.com/n6nkxVfvZxWoQMEdnExYE631Jjj04g3v6L3o94I4s0Aw5bvpzDx847r_CkTli39KhwzJ6xjj1J1ZHC-99FZy",
+      "installs": "500,000+",
+      "real_installs": 615795,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/R0Z5QvEdo_o1u0T5kHj3iktW8DKjxIgxl4-Qotnl43mTti0oIs46YdZLUZ_JjpAGEy1t2-fOPEN0QOgiVZWz",
+        "https://play-lh.googleusercontent.com/vMzKNqMLapzSKHqLMJk_rx9cUd2vTEdt3cZXzgiY1fVfHKDNMTuhemQLIERcWw-onCpJfd7LuzpqVFvGMgSnPbQ",
+        "https://play-lh.googleusercontent.com/3n_RXu3ELgTAXk_fJadEQKqojwP7WdTmzysUI3Y-fHsibp8hvuPdEQeg2CwY5lTRAKOtML_e3YaDzauURLzFrAQ",
+        "https://play-lh.googleusercontent.com/APcaRaxU98ViStHObV9fLuYTfo2I-qMZwzI6XakgxE6uKHACgZoVy1SwT4jgzWhnZdoLL4G9tQ8t278eWWLUWX4"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.49 - $74.99 per item",
+      "release_date": "Sep 22, 2023",
+      "url": "https://play.google.com/store/apps/details?id=jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
+    {
+      "app_id": "blockpuzzle.game.block.puzzle",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Block Puzzle - Puzzle Games",
+      "icon": "https://play-lh.googleusercontent.com/A1uXumg7gpL1ogVHoLwMTMezbJXjMPE8sELMSIYUt4q4EWmv8laJA0GqRalTe6npasKdhZUbgxOfg_VjkALJww",
+      "installs": "5,000,000+",
+      "real_installs": 8485052,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/M71z_2C9HqVXz543Xmtyc-OlJz1RrSRCjm4h8mb9ackSMHeS9WtF_YVyjr5x6N88p0vzIplIMr2_mZvROJKZ",
+        "https://play-lh.googleusercontent.com/eAeMpjKakR6Ok4-2yRzquKqqn_E7ruE1UlI-8I5ZpGTfqu6669mEFrd4SBHnFLjy4PBiXH0uBQwDk7USAKv2",
+        "https://play-lh.googleusercontent.com/ZPONidBeI3ml3bybhxmLSoR-low3WQO--YDYLAvgFHG4n3_bQdxwLGJdsGICs2vCZ6xmpxs6g0yRW6YdKfwi",
+        "https://play-lh.googleusercontent.com/hPcgDc2Jf2mTO1tINA15KqKFpJUIPBOZWnl-nLZKbVC-AyEYSIP7iODMeKXaO4QM4lISyVv2AzQl2MDcJTOa"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $39.99 per item",
+      "release_date": "Jun 19, 2020",
+      "url": "https://play.google.com/store/apps/details?id=blockpuzzle.game.block.puzzle",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
+    {
+      "app_id": "water.sort.puzzle.color.sorting.game.free",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Water Sort, Offline Color Game",
+      "icon": "https://play-lh.googleusercontent.com/J2bGQ8-HURxLp53JZ9Lztp9DTeNM1ywJJnkt70e3CU4uZsEbMEifvNxxVC98Tdk-5tCI-ZBEdrcLCwiSGOon",
+      "installs": "1,000,000+",
+      "real_installs": 1154224,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/PH6HqpFSOq40cJ0nnNZ5OCFo2V1OEejupunkAx9FVuRxdnoFQFKi31nShoW9DS7R93e_Ua8V3lqF0q2PMD93RQ",
+        "https://play-lh.googleusercontent.com/NO4i9e9iONF5HIdds4_gXdTyg92yV7gljSLod_SJ2pyv1S7hXV549t3DkSFW35_VC7MQ5UwDID9nhiTr36NGTA",
+        "https://play-lh.googleusercontent.com/t9kSuP_koTFtG3swQgnfV6vZ9TWTDYrEen6YPO1iVB8w3UVF3Rx1BPCwp5oomxoNtmPh0crY39pi-plE3YAK0Q",
+        "https://play-lh.googleusercontent.com/CstLgy2xxCbagXRKllQ3QGJSj32vreJx0FmLD2DjbTx27CaCDh4hFlHOWFIYSOPUsjWbjoL25WmUGMMMVJ11Eg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$7.99 per item",
+      "release_date": "Jan 13, 2022",
+      "url": "https://play.google.com/store/apps/details?id=water.sort.puzzle.color.sorting.game.free",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
+    {
+      "app_id": "solitaire.collection.klondike.card.games.free.game",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Solitaire for Seniors Game",
+      "icon": "https://play-lh.googleusercontent.com/lISaYM7I0fkK9u8soOXSfpAESC6Mn3fVZkBzymySw0ppsjC1hPv9pO9NNK6uQv-c6dT7UK8Z6Ao3fNPLDMiw",
+      "installs": "1,000,000+",
+      "real_installs": 3553334,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/V_Qqetuky88plhsFeWP4sG8XhVz5tDvx8eQF7IPRvNu-JLhqQrOtRGzdY0va_JG1LXC17Yzg_uzGUrSDR9ydGQ",
+        "https://play-lh.googleusercontent.com/VjPYp2UjESRd3LpkZjMq_a1nQBvReS1t_jw5lbMCzoid5YcXJ8hNdXIeqW_Wm9rsg8OQ_j8z6JUhnjJ4bUcdVQ",
+        "https://play-lh.googleusercontent.com/a_oNuERTwfSpbGhHKj_XH9TIyVzwQNJ6Ka0N9XMT5ubYZWA1kgoNvzwynDbpG22Zr_jJ2JXt87Gp19hm4MTDWDc",
+        "https://play-lh.googleusercontent.com/GJ1Bj2u5xFSIqTn__ZvB7Q02jZiB1OoQ5ROJ4Qewips9LSh3NNxWNkR_wwcGQA6sT0j_nl9nfMYMdFl8VGu7hw"
+      ],
+      "regions": [
+        "gb",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£6.99 if billed through Play",
+      "release_date": "Jan 13, 2023",
+      "url": "https://play.google.com/store/apps/details?id=solitaire.collection.klondike.card.games.free.game",
+      "found_date": "2026-07-09",
+      "velocity": 0
+    },
     {
       "app_id": "jp.co.goodroid.hyper.busloop",
       "developer": "GOODROID",
