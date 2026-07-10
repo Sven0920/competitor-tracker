@@ -17359,13 +17359,6 @@
             "gb"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph",
-            "vn"
-        ]
-    },
     "block.jigsaw.puzzle.games.wood.blocks.sudoku.free": {
         "name": "Blocky Jigsaw Puzzle Game",
         "regions": [
@@ -17401,6 +17394,33 @@
         "regions": [
             "gb",
             "au"
+        ]
+    },
+    "6761390628": {
+        "name": "Jewel Flow Sort",
+        "regions": [
+            "br",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "tr",
+            "id",
+            "ca"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.luwukmeliana.profileperfect": {
+        "name": "Profile Perfect",
+        "regions": [
+            "us"
         ]
     }
 }

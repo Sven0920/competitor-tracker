@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-07-09 13:03",
+  "updated_at": "2026-07-10 13:01",
   "games": [
+    {
+      "app_id": "6761390628",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Jewel Flow Sort",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/b6/5b/c7b65b4a-bfd5-16e6-153b-626d2a7341bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [],
+      "regions": [
+        "br",
+        "mx",
+        "gb",
+        "ph",
+        "us",
+        "au",
+        "vn",
+        "tr",
+        "id",
+        "ca"
+      ],
+      "size": "265.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-09",
+      "url": "https://apps.apple.com/us/app/jewel-flow-sort/id6761390628?uo=4",
+      "found_date": "2026-07-10"
+    },
+    {
+      "app_id": "com.luwukmeliana.profileperfect",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Profile Perfect",
+      "icon": "https://play-lh.googleusercontent.com/fOCJHPbzplwDRQ1TlRq01tRkTMF25KsjYlI5BOiEklQJJYPbCm8fzOR4LQPy2mR1OJysnAdizmxLoCDRoUl8Dg",
+      "installs": "1,000,000+",
+      "real_installs": 1421723,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/88IacSxzNHH7Gj6jr6NEGIHP2nN2s_DfMLW4z11wwdN6OIiw24VCmicf__ms2zwKMm25q-CEk7v0QR6JJmoBSQ",
+        "https://play-lh.googleusercontent.com/JbYHAhNhLOjDguyksyR4_lxcKTcuT39NY4RL_GPz4RMW_sLp0kFdCV6a_3YV3AQVbIvbmRfqOt3YHWxYAQd7GA",
+        "https://play-lh.googleusercontent.com/oDZ-nrjQulPFvF4EPShuyxbEWLXa5AR-WM_xy4Gg_82Yk5iiWkpzlaI1RMvc4KMqeORQ41_vFRKcyH2SSRAt4w",
+        "https://play-lh.googleusercontent.com/iz0JgFMNUv7vtig-mQ_JrIA05X1wzvNEKQpuHa3vLVSOUaK3nCx2YRhQDFCDkgtHCBX200PNVIP8P6vfh16W"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $99.99 per item",
+      "release_date": "Aug 15, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.luwukmeliana.profileperfect",
+      "found_date": "2026-07-10",
+      "velocity": 0
+    },
     {
       "app_id": "6785400656",
       "developer": "OneSoft",
