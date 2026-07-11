@@ -12560,8 +12560,7 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph",
-            "vn"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -17411,16 +17410,866 @@
             "ca"
         ]
     },
+    "com.luwukmeliana.profileperfect": {
+        "name": "Profile Perfect",
+        "regions": [
+            "us"
+        ]
+    },
+    "6785349881": {
+        "name": "Arrow 3D Cube: Tap Away",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6780095797": {
+        "name": "Castle Dice Heroes: Roguelike",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6773573274": {
+        "name": "Don't Fry! Lucky Defense",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6770759732": {
+        "name": "Mystery Farm: Idle Tycoon Game",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6770745461": {
+        "name": "Fruit Sort - Color Puzzle",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6770744546": {
+        "name": "Jelly Sort - Color Puzzle",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6768507715": {
+        "name": "Color Flip! - Puzzle Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6767486424": {
+        "name": "Ball in! Pinball Defense",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6764201639": {
+        "name": "Idle Cat Gunner: Shooter RPG",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6762962916": {
+        "name": "Boing Ninja",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6762186396": {
+        "name": "Hamster Loop!",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6761962043": {
+        "name": "Egg Sort - Color Puzzle",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6761518357": {
+        "name": "Block Bricks Blast!",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6760998791": {
+        "name": "Tile Wars TD",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6759082569": {
+        "name": "Cat Mafia : Idle Tycoon Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6759032664": {
+        "name": "Word Screw Bolt : Puzzle Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6757844772": {
+        "name": "Jigsaw Solitaire: Puzzle Zen",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6757574502": {
+        "name": "Duck Dice: Casual Board Game",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6757511198": {
+        "name": "Backpack Castle Heroes",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6757074003": {
+        "name": "Campus Life : Dating Sim",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6756400464": {
+        "name": "Crayonz : Lucky Defense Game",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6755102006": {
+        "name": "Cat School : Idle Cute Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6754910148": {
+        "name": "Cat Theme Park : Cute Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6754619930": {
+        "name": "Spin Spin Defense",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6753931536": {
+        "name": "Cat Snack Bar : Triple Match",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6753163785": {
+        "name": "Cat City : Idle Tycoon Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6752885262": {
+        "name": "Cat's Life : Cute Simulation",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6747216965": {
+        "name": "Gear Truck!",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "mx",
+            "ph",
+            "id",
+            "ca"
+        ]
+    },
+    "6745582734": {
+        "name": "Block Clash - TD",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6740300910": {
+        "name": "DDDigger",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6739668469": {
+        "name": "Cat Mall: Idle Shopping Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6736892055": {
+        "name": "Lucky Guy! Defense Game",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6612023856": {
+        "name": "Darkstar: Idle RPG",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "mx",
+            "ph",
+            "id",
+            "ca"
+        ]
+    },
+    "6547838700": {
+        "name": "Cat Magic School : Cute Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6532607969": {
+        "name": "Cat Block Jam: Healing Puzzle",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6502965345": {
+        "name": "Cat Town Valley: Healing Farm",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6471960010": {
+        "name": "Office Cat: Idle Tycoon Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6470434167": {
+        "name": "Idle Lumbercat - Wood Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6449457179": {
+        "name": "Cat Mart : Mini Market Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "6443895159": {
+        "name": "Cat Snack Bar: Food Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "1473888711": {
+        "name": "Infinite Arrow",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "1271184936": {
+        "name": "Infinite Temple",
+        "regions": [
+            "us",
+            "au",
+            "tr",
+            "vn",
+            "br",
+            "mx",
+            "ph",
+            "id",
+            "ca"
+        ]
+    },
+    "1064381508": {
+        "name": "MEEFF - Make Global Friends",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "947742764": {
+        "name": "Infinite Stairs",
+        "regions": [
+            "us",
+            "au",
+            "tr",
+            "vn",
+            "br",
+            "mx",
+            "ph",
+            "id",
+            "ca"
+        ]
+    },
+    "934283183": {
+        "name": "Open Puzzle Box",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
         ]
     },
-    "com.luwukmeliana.profileperfect": {
-        "name": "Profile Perfect",
+    "com.word.block.puzzle.free.relax": {
+        "name": "Word Search Block Puzzle Game",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.tree.idle.cat.academy": {
+        "name": "Cat Magic School : Cute Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.wood": {
+        "name": "Lumbercat: Cute Idle Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.catsnackbar": {
+        "name": "Cat Snack Bar: Cute Food Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.hybrid.catslife": {
+        "name": "Cat's Life : Cute Simulation",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.school": {
+        "name": "Cat School : Idle Cute Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.office": {
+        "name": "Office Cat: Idle Tycoon Games",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.mall": {
+        "name": "Cat Mall: Idle Shopping Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cattown": {
+        "name": "Cat Town Valley: Healing Farm",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.themepark": {
+        "name": "Cat Theme Park : Cute Tycoon",
         "regions": [
             "us"
+        ]
+    },
+    "com.tree.puzzle.triplematch": {
+        "name": "Cat Snack Bar : Triple Match",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.maf.catmart": {
+        "name": "Cat Mart : Mini Market Tycoon",
+        "regions": [
+            "us",
+            "au",
+            "gb",
+            "tr",
+            "br",
+            "vn",
+            "ph",
+            "id",
+            "mx",
+            "ca"
+        ]
+    },
+    "com.tree.idle.cat.city": {
+        "name": "Cat City : Idle Tycoon Games",
+        "regions": [
+            "gb",
+            "ca",
+            "ph",
+            "mx"
+        ]
+    },
+    "com.tree.idle.cat.cult": {
+        "name": "Cat Mafia : Idle Tycoon Games",
+        "regions": [
+            "gb",
+            "ca",
+            "mx"
         ]
     }
 }

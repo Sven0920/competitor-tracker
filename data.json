@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-07-10 13:01",
+  "updated_at": "2026-07-11 12:21",
   "games": [
+    {
+      "app_id": "6785349881",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Arrow 3D Cube: Tap Away",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/83/38/6783382f-638c-35e0-ea56-10296a37c770/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [],
+      "regions": [
+        "us",
+        "au",
+        "gb",
+        "tr",
+        "br",
+        "vn",
+        "ph",
+        "id",
+        "mx",
+        "ca"
+      ],
+      "size": "404.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-10",
+      "url": "https://apps.apple.com/us/app/arrow-3d-cube-tap-away/id6785349881?uo=4",
+      "found_date": "2026-07-11"
+    },
+    {
+      "app_id": "com.word.block.puzzle.free.relax",
+      "developer": "PANDAS OF CARIBBEAN",
+      "platform": "Android",
+      "name": "Word Search Block Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/lFon66r3tPuen8lBCPkjLorUgZReoLzJzha4D8MT_PWMaFwALsZusNwep5LGRJU_yJPytmqWCmAXjhG3gnzQog",
+      "installs": "10,000,000+",
+      "real_installs": 30046431,
+      "genre": "Word",
+      "shots": [
+        "https://play-lh.googleusercontent.com/b0AJ8GFrQzl_3nckD2BK6F9Qli-3nYAxvSWQHFZoJxd39F3LG8xy5iOmATftk-DGhCS0ckmUCasgfxLA6SVd",
+        "https://play-lh.googleusercontent.com/VcXd0LqF7wAvcWGtPYZWCb7afxWt37ehoxxGKHdGJOHSwTRv1irCtDyPyqwV8uxqquFbT91cv1I2s4VRFM4nZQ",
+        "https://play-lh.googleusercontent.com/g21GDZo-csq4N740giCJQuTi0f_oWEiWuVWbYBx0lsznXyU2EjRG_-yntHnAofsv3TpgNhPlGRozTJfHtUGD",
+        "https://play-lh.googleusercontent.com/ZH-P6eNKIRt5se8oEj5G0EuZ5BE_3C5xoj845MTmwqULB6uslLTaMS2HryqTqCb6VWi0lBXzNxXPCaJl3EVk"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 15.000 - Rp 429.000 per item",
+      "release_date": "Nov 26, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.word.block.puzzle.free.relax",
+      "found_date": "2026-07-11",
+      "velocity": 0
+    },
     {
       "app_id": "6761390628",
       "developer": "Tripledot",
