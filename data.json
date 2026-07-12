@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11 12:21",
+  "updated_at": "2026-07-12 12:33",
   "games": [
     {
       "app_id": "6785349881",
@@ -773,7 +773,7 @@
       "name": "Arrow 3D Cube: Tap Away",
       "icon": "https://play-lh.googleusercontent.com/2NslRmwEK1dLT4Rrm3fmoCJpoa7NMQhjj3pAmN-vA7X7yYkaHP3Gkn2loDs-S-rR_2Yf8vFIV-XNPeh-PCKj2w",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 301,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/SUKP0jSagkJ_sSl09Os8GBWhf5qq0ebUzB8VyPmLmMf_7mSPoTZOd2L4AgIixUi95RJCHiHCzy9-toZdedbedg",
@@ -788,7 +788,8 @@
       "iap_info": "₫26,000 - ₫3,150,000 per item",
       "release_date": "Jun 27, 2026",
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.arrow3d",
-      "found_date": "2026-06-29"
+      "found_date": "2026-06-29",
+      "velocity": 0
     },
     {
       "app_id": "ott.peakfightingondemand",

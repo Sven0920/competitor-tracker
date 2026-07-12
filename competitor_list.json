@@ -18087,12 +18087,6 @@
             "ca"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.word.block.puzzle.free.relax": {
         "name": "Word Search Block Puzzle Game",
         "regions": [
@@ -18270,6 +18264,12 @@
             "gb",
             "ca",
             "mx"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
         ]
     }
 }
