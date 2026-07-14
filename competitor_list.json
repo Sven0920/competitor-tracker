@@ -18265,5 +18265,54 @@
             "ca",
             "mx"
         ]
+    },
+    "6786721739": {
+        "name": "Bubblegum Words",
+        "regions": [
+            "ph",
+            "br",
+            "us",
+            "gb",
+            "mx",
+            "ca",
+            "id",
+            "au"
+        ]
+    },
+    "6786206777": {
+        "name": "Cube Smash - Puzzle Game",
+        "regions": [
+            "ph",
+            "br",
+            "us",
+            "gb",
+            "mx",
+            "ca",
+            "id",
+            "au"
+        ]
+    },
+    "6784122704": {
+        "name": "Cubedoku: Brain Puzzle Game",
+        "regions": [
+            "ph",
+            "br",
+            "us",
+            "vn",
+            "tr",
+            "gb",
+            "mx",
+            "ca",
+            "id",
+            "au"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "ph",
+            "gb",
+            "vn"
+        ]
     }
 }
