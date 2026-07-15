@@ -12558,9 +12558,11 @@
         ]
     },
     "null": {
-        "name": "Tile Explorer - Triple Match",
+        "name": "Tile Clear - Puzzle Game",
         "regions": [
-            "ph"
+            "ph",
+            "gb",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -18307,12 +18309,39 @@
             "au"
         ]
     },
+    "6754882272": {
+        "name": "Water Sort Puzzle: Get Color+",
+        "regions": [
+            "au",
+            "vn",
+            "mx",
+            "us",
+            "gb",
+            "ca",
+            "tr",
+            "br",
+            "ph",
+            "id"
+        ]
+    },
+    "com.ludens.RockPush": {
+        "name": "Rock Pusher",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.oakever.bubblepics": {
+        "name": "Bubblepics - Pop Jigsaw Puzzle",
+        "regions": [
+            "au"
+        ]
+    },
     "null": {
         "name": "Tile Clear - Puzzle Game",
         "regions": [
-            "ph",
             "gb",
-            "vn"
+            "vn",
+            "ph"
         ]
     }
 }

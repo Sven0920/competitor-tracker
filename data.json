@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-07-14 12:12",
+  "updated_at": "2026-07-15 12:15",
   "games": [
+    {
+      "app_id": "6754882272",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Water Sort Puzzle: Get Color+",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/8a/a8/648aa8a4-7686-1383-a3fb-3803c1b1d418/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [],
+      "regions": [
+        "au",
+        "vn",
+        "mx",
+        "us",
+        "gb",
+        "ca",
+        "tr",
+        "br",
+        "ph",
+        "id"
+      ],
+      "size": "370.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-06",
+      "url": "https://apps.apple.com/us/app/water-sort-puzzle-get-color/id6754882272?uo=4",
+      "found_date": "2026-07-15"
+    },
+    {
+      "app_id": "com.ludens.RockPush",
+      "developer": "Rollic",
+      "platform": "Android",
+      "name": "Rock Pusher",
+      "icon": "https://play-lh.googleusercontent.com/bY7euUkQtSJ06I9NSnkugI0F5bkiEYvqob0mnVkM3SSEeadDy0dGrLoXVnbdraRgP6s2HjiQ6ilWkuQwEo2JqQ",
+      "installs": "500,000+",
+      "real_installs": 594015,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/vz7RuIxTZcs9zC2hw92B7kZkX9yyeSXNt0RPI7xZjPMLrBRTXqxFs4Oqarbj6WyryjHzdaL8fcAh3Bowgz4YPg",
+        "https://play-lh.googleusercontent.com/1eiVLWloB_fwvu_fWWTAgeQKeONwnWMFwMkGTEZoQLFg5PXP3StOKXVU55wrhUIDVRK8SGuIcfjSE8Sh5h7Hqw0",
+        "https://play-lh.googleusercontent.com/TlS7muR9sEGN3aQzlyxuST_NJg-j-kFOHRIlKFxEpo8BrKX5xEDevCyw32JLbcHTuDPynU2BjcW5n3bFsrrcrTw",
+        "https://play-lh.googleusercontent.com/dz51WP12ie0bKXz9gfMC8CAUJOzAe6cFMjloFCtoyxZzoJw_4QNFbtooWe6AuyV-DDMrDi9JbwXUnaGAzYOPgiw"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": "Jan 28, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.ludens.RockPush",
+      "found_date": "2026-07-15",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.oakever.bubblepics",
+      "developer": "Learnings",
+      "platform": "Android",
+      "name": "Bubblepics - Pop Jigsaw Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/YTaBe0a_weEVLl3mR2Z5DDuszJJb0vkCw3096Q8D_DOMVOErw9drYQjJKmbekje9GcUZuCwd2PhFkflZ_DkJ-A",
+      "installs": "100,000+",
+      "real_installs": 369271,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/EnIgU4pPUjdIh1MQcme0Cx3-csYMyc6ASCofy-Rrj7MuJuMsPjTMLjVhViW8oreuuKlEsqqYTnP-Mur5LLgW",
+        "https://play-lh.googleusercontent.com/ON9irbafW1Mvc7_W5kbbHQWmHLwHOLyz6k-fE39SCXNCeDb3Hd7qj7zq3cj2a2WIxIx-1E-2IQF47OpeRLr469Q",
+        "https://play-lh.googleusercontent.com/6QUNVxUHGwP3IeiAiOTzVSPcD_aQf5X98kxBXG2Ansj6gtnlxCfIkyN8Pt2c3cLyDMJVNWGRR5ASOTzTKXC2UPA",
+        "https://play-lh.googleusercontent.com/RLwgUzPXPF3GJjNPBqxFjOgcms8Q9KBKHnehm4R_-JnEcnZMqQ90bYskJXJ1jpbn3yRIDbuAqe_zWWDBMqdt"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 9, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.bubblepics",
+      "found_date": "2026-07-15",
+      "velocity": 0
+    },
     {
       "app_id": "6786721739",
       "developer": "Combo",
