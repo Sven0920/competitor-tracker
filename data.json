@@ -1,6 +1,412 @@
 {
-  "updated_at": "2026-07-15 12:15",
+  "updated_at": "2026-07-16 12:17",
   "games": [
+    {
+      "app_id": "6756688716",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Bean Battle: Princess Rescue",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/ef/0b/cdef0bf7-5354-9313-c274-90694552f3f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 16,
+      "genre": "Adventure",
+      "shots": [],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "319.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-01-05",
+      "url": "https://apps.apple.com/us/app/bean-battle-princess-rescue/id6756688716?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "6468011448",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Super Sword Idle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/78/18/1378185b-6725-9b77-3fe6-34b8afd5433c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 106,
+      "genre": "Adventure",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/d9/6a/86d96a9e-2499-558c-5471-12a577657513/c6337ed2-4a57-48ab-9505-4ef95d5967ce_0x0ss.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/fa/05/21fa0551-24d6-1e58-5a1f-46d59596ee14/f35a02a8-039b-4c22-b2a2-4ec0fe06725a_0x0ss__U00281_U0029.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/f3/d9/16f3d9ed-a5f0-df7f-4cf4-00df615f6719/abf2b2b6-3a64-4f2c-9db4-bf3375718b34_0x0ss__U00282_U0029.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/70/71/cf70716c-d784-1776-e2b6-58efcb77eda6/7e2b8ff5-bb69-425c-9da4-f67ae9e0d59b_0x0ss__U00283_U0029.png/392x696bb.png"
+      ],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "250.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2023-10-26",
+      "url": "https://apps.apple.com/us/app/super-sword-idle/id6468011448?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "1531811538",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Drop Block 3D",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/a7/fb/59a7fb76-5a10-5699-fe02-561db0528912/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 5614,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/55/02/395502d8-2de2-71e4-87dd-0e15e56f08de/3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/37/da/1f37da4e-c766-1ea1-39ea-3f1db3b82d82/4.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/76/0d/ef760da3-6016-e76d-29ae-17afb2eb2437/2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/5e/a6/f95ea67e-8eef-845f-e920-fb11d89a3c8a/5.jpg/392x696bb.jpg"
+      ],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "137.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2020-11-07",
+      "url": "https://apps.apple.com/us/app/drop-block-3d/id1531811538?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "6784602967",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Stack Smash - 3D Puzzle Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/91/a7/4691a778-98bd-5b5c-14fe-52ed00e8c2a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "299.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-15",
+      "url": "https://apps.apple.com/us/app/stack-smash-3d-puzzle-game/id6784602967?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "6787929299",
+      "developer": "GOODROID",
+      "platform": "iOS",
+      "name": "Color Cross Away!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/12/92/0f129230-c240-1610-47b0-84bfe19f75a8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "315.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-15",
+      "url": "https://apps.apple.com/us/app/color-cross-away/id6787929299?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "6786515594",
+      "developer": "JoyGame Studio",
+      "platform": "iOS",
+      "name": "Smash Carnival!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/eb/1e/f4eb1ec3-1f63-e290-c452-bf4aaeede9d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Board",
+      "shots": [],
+      "regions": [
+        "ph",
+        "tr",
+        "au",
+        "mx",
+        "gb",
+        "us",
+        "br",
+        "ca",
+        "id",
+        "vn"
+      ],
+      "size": "165.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-15",
+      "url": "https://apps.apple.com/us/app/smash-carnival/id6786515594?uo=4",
+      "found_date": "2026-07-16"
+    },
+    {
+      "app_id": "com.abi.relic.digger",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Relic Digger: Treasure Hunt",
+      "icon": "https://play-lh.googleusercontent.com/biRAWlSTbKaywtAZ9ZGgfK1zO8THXhx0Sfay3QhD2xpDsmJ7sVGfhG2D2-M1dqYtuQZ64NafcDYIp9KsK2GvWA",
+      "installs": "500+",
+      "real_installs": 833,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/1wUkZZ-0fCMqMa9gOQAHZsOY6xvc4td_tDqy09eDb-CZ1AvSRfcCPlTyzzVeO-WpUpCfMQtDiFZk65vuajO8",
+        "https://play-lh.googleusercontent.com/5Py6k5GUdDrNT-TEO035K5vSfnCijUhI5-RQRLusmQ49lyu91VgoLBLqDYJKmkmgWqdoFt4iSglZY84qLPyBLa0",
+        "https://play-lh.googleusercontent.com/bWZfZagKeeZ49J-tnsRihUG5FGpLY9_cr1FJAuZJYWJv4PhR3qRv5QXIs48PB8JlHCLV_FuodLF_FcLiHQQH8zE",
+        "https://play-lh.googleusercontent.com/JvzZUQnuqP79GOrxB8WySBz6fLNAH4-JsgkvfzARofyZYl3-8IXGmZKytjxwlclbOGTp_KBOaOOzEnbglID25A"
+      ],
+      "regions": [
+        "gb",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£2.69 - £17.99 if billed through Play",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.relic.digger",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.joyboy.whereismyseat",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Don't Sit There",
+      "icon": "https://play-lh.googleusercontent.com/tb4-c1bHW3TnFKXKhnMaUCQRGEEZHsPBjH9SoGXedIUBOrXev2zHFCfQ6fP-Hx-R-CZ4n7K4lZ6-Jmrc9KAe",
+      "installs": "1,000+",
+      "real_installs": 1224,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/4jVZRoZt09uKx55xGNfJpB-x9wHRtLOsoh2WnfSMOov4yqc6FHgheCPdjUGYCEEHrkZfmm-WdbY6gnR-qZJEJQ",
+        "https://play-lh.googleusercontent.com/TBKA-q2bP-8jdbEpoegNp8HgTPZJNe__spZg_D8PyHThJfI4XPzRNvV7wnexAI_9PpUmUttIXb2XeT9RsCOW",
+        "https://play-lh.googleusercontent.com/mbEXyfHmzy7OjGr-cgRrTDVkviDo9dEF50R0FwtXc9smbf0SMsGvSU1y14yfAod2-Yqtw27ByMtEjQO78TpDfA",
+        "https://play-lh.googleusercontent.com/LPRW_GP6yNXG0wLyXpHhJTxAQnRjFzeoJo4UT11Fy8I2exuI0T00kNmDpqIWPziR_OTivuljb3QYoRRouKv2"
+      ],
+      "regions": [
+        "tr",
+        "us",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 54.99 - TRY 559.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.joyboy.whereismyseat",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.honey.cube.color.pixel",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Pixel Honey: Color Cube Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/ZEt6WPltQMUsDRYrgfBEku_l0e3cTr4T0TiGMbmRoqDpFOfcUTsGToUwkDzJ0Ar3DsyMBmQotbRpg5Ct6-Jvpw",
+      "installs": "1,000+",
+      "real_installs": 1409,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/FejXVX4gu7Ml8E17Q_i7bvjiqEIK-tiyyiehfU7LgrNjlyFFcPKqTXdfhbTVX_FdFcdYK6KlGcRrL3JnkeTJwQ",
+        "https://play-lh.googleusercontent.com/C5uGTdvf73Sdm5439pVDR4ZJGY_jnWnaT1hY3lLObJrviAM0ittk4Aoq46gRU5gc5UcWnExfV4l_Mf5c2_vMjw",
+        "https://play-lh.googleusercontent.com/Of1hz4mYSbXq_j5PMmT4sERteLe4O1DJbAbmDYKjo9fFut9MI6hDCdrt31BYxmG9tguG6z9UxDPaZ8F8bHUU",
+        "https://play-lh.googleusercontent.com/bipLtKcTPOZAVWBDU0MtU9ZxuBpLyyH7OmMyXadWttZDXqwBblJNRfInkxXuD9nKgBKYTSnI0J8D-oVsj29v8A"
+      ],
+      "regions": [
+        "ca",
+        "us",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.honey.cube.color.pixel",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.colony.flow",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Colony Flow!",
+      "icon": "https://play-lh.googleusercontent.com/C4tx8KR7PGd4DaPJUJEjrUUSJaQlRaXCWdXv7KMZIkW0KjPD5asTITH9XjEaex0_dcQn6W0ZYiPWoqQa8oq7kA",
+      "installs": "500,000+",
+      "real_installs": 529258,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/2fXZDwOyqDh8cQ0q9mbulhnIgNNoGsZMIIhkTpUBlz0EHz9WqZZdPpMCDBEP2O2c7RUwQRQr93LtPtEEbZiHwQ",
+        "https://play-lh.googleusercontent.com/aEBzblRR6eEQPg7rQMXGK3-t32Q3vsNriRj3wn-jMzgiTpOGAs4bK8_eOCCVEPLsE46csIUPLDvpo1F3aTaqXbM",
+        "https://play-lh.googleusercontent.com/SBjNyU-hFvNT2_Ui1FDedsoxmuOlX_KZ9mATxneGqj_5ammZ48GAsxVJzCYz5zOb5Dp_1Ow9UrQXDIY6_ETyVZM",
+        "https://play-lh.googleusercontent.com/F-K6YZOAHmKcNt9Hgy0R2keEEO5ScDJLB8k6MiMHDioUw_bZDieYyUR6PoJaAjUsVxGbJW8QHRwK89RZP3jeKA"
+      ],
+      "regions": [
+        "ca",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": "Jun 12, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.colony.flow",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.mahgicblast",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Mahgic Blast!",
+      "icon": "https://play-lh.googleusercontent.com/aTdoTjHt2gswpis0ohQteToNW4i75hF0Zi44tinLu3a6hm4bSLoQHAApT4jr0_bC_0mVN_nO9DAAvP8IxBIHew",
+      "installs": "100+",
+      "real_installs": 276,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/u7YsVAA2q5wFEVXvkMdOZGCwE_ZeFFVDChbnCHZqfRiIm2BcKwJ_ZbCdee6nnIs4lz1TYY-Z7XI4pMu2DHpZWg",
+        "https://play-lh.googleusercontent.com/10Wn-H4WOftvsATrGy-4eA--7yHU_iUOXQxu1opwqUWj9YbAYzRvWBsBFIKgL8wN6pUO4c1TaElq8PfEYP5tzmI",
+        "https://play-lh.googleusercontent.com/whp8aTnQJuzJWaVIXZJb-xV6YmVsghgZqmkyCMC2ittCXEh_4t2ayASgsMkWIXIhOAHvq2-Ujm5oUgatew4lcg",
+        "https://play-lh.googleusercontent.com/8OmoZyqEfqZ-9HLM-bj2rlBGSOukCZ4pmKsTgyKdPZhcYahaNOysRVES2-NhsdiPowFzQnXlAot2_gkI_xnxoA"
+      ],
+      "regions": [
+        "ca",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": "Jun 24, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.mahgicblast",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.hitappsgames.asmatch3",
+      "developer": "Hitapps",
+      "platform": "Android",
+      "name": "Associations Match 3",
+      "icon": "https://play-lh.googleusercontent.com/nDIKVsux1qIdz6gR4L8OLAS-5p2SvPoL_8SOatpimfCm587EJabqm6ZaG_iXxLZ5IznxYuEh_CS8P3N9KlU0hF8",
+      "installs": "500+",
+      "real_installs": 538,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/5z4GJfyg132v0Sl8qj1hwwVMED__2GCChVG7vlmqDR-ns7CLUWvNe4XraiJxPSVxIyoS7JAlhTPdHLoJZ0Bh",
+        "https://play-lh.googleusercontent.com/y7LBaVEaXmoCnBP3-oe3Qfb8Qyf8DwWpEZSQTribJB-y6Hombpop3qux_IaRSMgt1AMZszIq_o18FGmkCZTo",
+        "https://play-lh.googleusercontent.com/lUSXf8Qgu7Wv0acOw1b0dHO6AlWE-X2d7EGC57NFg3_qDoaQ0GL9mZ-trW8G1E3AwJ1CfJyNCApt0_QC2dG2EQ"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 15, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.hitappsgames.asmatch3",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.arrollcrossaway",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Color Cross Away!",
+      "icon": "https://play-lh.googleusercontent.com/Xq1-Cz30Y9Fqk40Ez7b3QLio0TV5Y90aP1jXq_60R3tQc8BVhGROj-xNwgslOTGYlJGhRQskqICAcPyzwrkM1g",
+      "installs": "100+",
+      "real_installs": 191,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/QLLrd0KhGPGXsG-pXxJdTtuyLy0gQu9yrQ0IsDk7sBHVUzL1LaH24zuClYafgiOLtoO1Ns2puHpKDiFU2OWYmTQ",
+        "https://play-lh.googleusercontent.com/rZklpNy5ZONrc-dtyoq0-eUdB6A8UeHeUOgMiIEczrITZQdK5FrKUVO-fk9CvTK4Blej8rvngjuK4Jgp9v67W60",
+        "https://play-lh.googleusercontent.com/IezHDyHk2r8Ro6Jn1qjnpMtrqrP42i5dmjk1PR_wtgB1PJL6Eeqcb7ycGg_5klwplZ8a6fJoBk-akGyZ5MjHQw",
+        "https://play-lh.googleusercontent.com/4AfGjeqCW7Xtn5W9knvAdZn6yKXjc2wuoSVxb27YzHd6cpmD0gLpo6gUhyT9hxWyjcEzrGgm-FqPeko-UHAQUA"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫223,000 per item",
+      "release_date": "Jul 14, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.arrollcrossaway",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "solitaire.patience.card.games.klondike.free",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Solitaire - Classic Card Games",
+      "icon": "https://play-lh.googleusercontent.com/nVTU-EbcHkMg-KXt93shtsgX506v_zDBLG04H2pnp4Lom2J_mSp5gHO5YtZhCSpDpLJUgBYneCd5h6oDduKJ6Q",
+      "installs": "50,000,000+",
+      "real_installs": 75071531,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/X65TmJEOX8iMI6TuUZTeYF5iHys5nNO2-LKlUStDTdZTjJrdrmURolHZbvuYeYnqf_76NqKTUJH6-ar0lpXbies",
+        "https://play-lh.googleusercontent.com/roZOxYOta9uU0IzXWgAtoMytN3ems-HIrxJG5Hf02xIz7Ef3Fl8CCMOh2hJ3G9B7bRHVwTUmeu6GVKa6oT8GigQ",
+        "https://play-lh.googleusercontent.com/bOX9Lx4m2FH3_3spYJAycUn0izIHpjzUzXXHCBoS3Ty9jkuFCdbBGpzEkLpgpVekpVmNNdebyuVOqIkjGkDV",
+        "https://play-lh.googleusercontent.com/-OiYVs1l8ekvOvn1NH34-1JKSkhQHDAnWbCyY2eIWh8J-WzTjcc6mOPH_S_PD5hxUPwVzSvPr0-jr-ifmRBI"
+      ],
+      "regions": [
+        "gb",
+        "ca",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.99 - £58.99 if billed through Play",
+      "release_date": "Apr 25, 2021",
+      "url": "https://play.google.com/store/apps/details?id=solitaire.patience.card.games.klondike.free",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "piggy.escape.jam.farm.puzzle.game",
+      "developer": "Astrasen Global",
+      "platform": "Android",
+      "name": "Piggy Escape: Pig Jam Farm",
+      "icon": "https://play-lh.googleusercontent.com/Cnj3lPdEFBNcqvZUGDabBxDi00cnpi6ZLF1m35iEz03xOOvKpmsRwKWdvFwuTynjwp-c4n90ITBgBxKgD3htmbc",
+      "installs": "100,000+",
+      "real_installs": 470647,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/HIUZh7np1mLoM1gqnFC2HJV0YQ4TCx1SzLg5_404g6Yl6EkA60-itXVkrJCEr6wWP9bDHyxG9ZimJBRlqC48",
+        "https://play-lh.googleusercontent.com/hrKi6HZ2igEvfQ71Sh0gRg17L_vF1VwNoke4CUe6bvgQGZ4oEP3-zKHYKDfelfrJZ6FakBm1JfpZZFrEYoKUlg",
+        "https://play-lh.googleusercontent.com/WKLb5TW7MpZi4V2q1SKIKvV0frbhRBAYr3CK7LhnOWQFEFOHHYxcPGJJoqmUL72MABrpe0Eo0Au21alhin3I",
+        "https://play-lh.googleusercontent.com/Gbcz-3-1sXuLI_KfUCaRPMoB7Gun2nxEWmGqzU0PFk7oK8Lu47jhH3HrmOJKhkVtpwdxXDBI_jtM1zTcv6ojz-I"
+      ],
+      "regions": [
+        "gb",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£1.79 - £88.99 if billed through Play",
+      "release_date": "Mar 29, 2026",
+      "url": "https://play.google.com/store/apps/details?id=piggy.escape.jam.farm.puzzle.game",
+      "found_date": "2026-07-16",
+      "velocity": 0
+    },
     {
       "app_id": "6754882272",
       "developer": "Tripledot",

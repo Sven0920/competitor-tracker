@@ -12560,9 +12560,9 @@
     "null": {
         "name": "Tile Clear - Puzzle Game",
         "regions": [
-            "ph",
             "gb",
-            "vn"
+            "vn",
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -18336,12 +18336,158 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
+    "6756688716": {
+        "name": "Bean Battle: Princess Rescue",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "6468011448": {
+        "name": "Super Sword Idle",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "1531811538": {
+        "name": "Drop Block 3D",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "6784602967": {
+        "name": "Stack Smash - 3D Puzzle Game",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "6787929299": {
+        "name": "Color Cross Away!",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "6786515594": {
+        "name": "Smash Carnival!",
+        "regions": [
+            "ph",
+            "tr",
+            "au",
+            "mx",
+            "gb",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "vn"
+        ]
+    },
+    "com.abi.relic.digger": {
+        "name": "Relic Digger: Treasure Hunt",
         "regions": [
             "gb",
-            "vn",
-            "ph"
+            "br"
+        ]
+    },
+    "com.joyboy.whereismyseat": {
+        "name": "Don't Sit There",
+        "regions": [
+            "tr",
+            "us",
+            "au"
+        ]
+    },
+    "com.abi.honey.cube.color.pixel": {
+        "name": "Pixel Honey: Color Cube Puzzle",
+        "regions": [
+            "ca",
+            "us",
+            "au"
+        ]
+    },
+    "com.abi.colony.flow": {
+        "name": "Colony Flow!",
+        "regions": [
+            "ca",
+            "br"
+        ]
+    },
+    "com.abi.mahgicblast": {
+        "name": "Mahgic Blast!",
+        "regions": [
+            "ca",
+            "br"
+        ]
+    },
+    "com.hitappsgames.asmatch3": {
+        "name": "Associations Match 3",
+        "regions": [
+            "us"
+        ]
+    },
+    "jp.co.goodroid.hyper.arrollcrossaway": {
+        "name": "Color Cross Away!",
+        "regions": [
+            "vn"
+        ]
+    },
+    "solitaire.patience.card.games.klondike.free": {
+        "name": "Solitaire - Classic Card Games",
+        "regions": [
+            "gb",
+            "ca",
+            "au"
+        ]
+    },
+    "piggy.escape.jam.farm.puzzle.game": {
+        "name": "Piggy Escape: Pig Jam Farm",
+        "regions": [
+            "gb",
+            "au"
         ]
     }
 }
