@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-07-16 12:17",
+  "updated_at": "2026-07-17 12:17",
   "games": [
+    {
+      "app_id": "6780401631",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Akari Aura",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/59/1f/52591f8e-60f7-e593-b7ef-2c6cdc71a874/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/55/d9/9155d992-0159-3206-46c1-c174de3d88ca/5.5_inch_p1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/d2/90/3fd29066-5407-f8f6-fc37-ce1ef76d460e/5.5_inch_p2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/d5/da/19d5da81-071d-6ad6-089b-26a9c64f6f8a/5.5_inch_p5.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7a/66/6f/7a666f57-a199-2739-fc76-0065c0cc6e62/5.5_inch_p4.jpg/392x696bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "ph",
+        "gb",
+        "us",
+        "id",
+        "au",
+        "mx",
+        "vn",
+        "br"
+      ],
+      "size": "193.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-15",
+      "url": "https://apps.apple.com/us/app/akari-aura/id6780401631?uo=4",
+      "found_date": "2026-07-17"
+    },
     {
       "app_id": "6756688716",
       "developer": "LIHUHU",
