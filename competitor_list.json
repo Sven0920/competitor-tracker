@@ -25360,5 +25360,449 @@
             "us",
             "au"
         ]
+    },
+    "6789428730": {
+        "name": "Hexabug Flow: Pixel Color Sort",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.color.busfrenzy": {
+        "name": "Bus Frenzy - Traffic Jam",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.NewFolderGames.IAmSecurityAirport": {
+        "name": "I Am Airport Security",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.idle.breaker.game": {
+        "name": "Idle Breaker - Last Survival",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.western.escape": {
+        "name": "West Escape",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.IAmBird": {
+        "name": "I Am Bird",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.age.sails": {
+        "name": "Age Of Sails",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.IAmSecurirty": {
+        "name": "I Am Security",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.IAmMonkey": {
+        "name": "I Am Monkey",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.TaxiDriver": {
+        "name": "I Am Taxi Driver",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.winter.breaker": {
+        "name": "Frost World - Snow Survival",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.IAmCat": {
+        "name": "I Am Cat",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.vikings.game": {
+        "name": "Vikings Revenge",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.raptor.evolution": {
+        "name": "Raptor Evolution",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.kolka.magic": {
+        "name": "Wizario: Idle Survival",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.space.breaker.game": {
+        "name": "Mars Survivor",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.NewFolderGames.IAmJanitor": {
+        "name": "I Am Janitor",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "au",
+            "br"
+        ]
+    },
+    "com.estoty.game2048": {
+        "name": "2048 Classic Puzzle",
+        "regions": [
+            "gb",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.insbraingames.peacetile.gp": {
+        "name": "Tile Voyage:Match Puzzle",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.coin.sort.puzzle.relax.gp": {
+        "name": "CozySort: Coins",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "id",
+            "au",
+            "br"
+        ]
+    },
+    "com.mahjong.op.gp": {
+        "name": "Shanghai Mahjongg",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "au",
+            "br"
+        ]
+    },
+    "com.mahjong.pyramid.catnap.gp": {
+        "name": "Pyramid Mahjong",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "au",
+            "br"
+        ]
+    },
+    "com.word.solitaire.op.gp": {
+        "name": "Word Sorta Solitaire",
+        "regions": [
+            "gb",
+            "tr",
+            "mx",
+            "ca",
+            "us",
+            "ph",
+            "vn",
+            "au",
+            "br"
+        ]
+    },
+    "com.jigsaw.palace.gp": {
+        "name": "Jigsawpics Puzzle Gallery",
+        "regions": [
+            "mx",
+            "us"
+        ]
+    },
+    "com.fluffydrop.op.gp": {
+        "name": "Fluffy Drop",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.fluffyfairygames.idleminertycoon": {
+        "name": "Idle Miner Tycoon: Gold Games",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.luckyskeletonstudios.idlebanktycoon": {
+        "name": "Idle Bank Tycoon: Money Empire",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.kolibrigames.idlerestauranttycoon": {
+        "name": "Idle Restaurant Tycoon",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.handsomeoldtree.idlefirefightertycoon": {
+        "name": "Idle Firefighter Tycoon",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.loststarfish.idletrash": {
+        "name": "Idle Junkyard Tycoon: Be Rich!",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.catchycoconutgames.idlemailtycoon": {
+        "name": "Idle Mail Tycoon",
+        "regions": [
+            "ca",
+            "au",
+            "ph",
+            "us"
+        ]
+    },
+    "com.fastpoodlegames.idletaxitycoon": {
+        "name": "Idle Taxi Tycoon",
+        "regions": [
+            "ca",
+            "ph",
+            "us"
+        ]
+    },
+    "com.fancyelephant.idlemergetycoon": {
+        "name": "Idle Farm Tycoon - Merge Crops",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.twindeerarts.idlepiratetycoon": {
+        "name": "Idle Pirate Tycoon",
+        "regions": [
+            "gb",
+            "ca",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.fluffyfairygames.idlefactorytycoon": {
+        "name": "Idle Factory Tycoon: Business!",
+        "regions": [
+            "ca",
+            "ph",
+            "us"
+        ]
+    },
+    "com.excitedowlarts.idlehighschooltycoon": {
+        "name": "Idle High School Tycoon",
+        "regions": [
+            "us"
+        ]
     }
 }
