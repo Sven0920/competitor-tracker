@@ -25804,5 +25804,174 @@
         "regions": [
             "us"
         ]
+    },
+    "com.loop.clear.cube.free.card.puzzle.sort.match": {
+        "name": "Loop Master: Color Jam Sort",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.spot.find.differences.brain.puzzle": {
+        "name": "Find Differences: Spot Fun",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.peoplefun.wordcross": {
+        "name": "Wordscapes",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordsearch": {
+        "name": "Wordscapes Search: Word Games",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordsolitaire": {
+        "name": "Wordscapes Solitaire",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordflowers": {
+        "name": "Wordscapes In Bloom",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordvistas": {
+        "name": "Wordscapes Uncrossed",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "games.echidna.wordblast": {
+        "name": "Wordscapes Word Blast",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.blockscapes": {
+        "name": "Blockscapes - Block Puzzle",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordchums": {
+        "name": "Word Chums",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "id",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordstacks": {
+        "name": "Word Stacks",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "ph",
+            "vn",
+            "br",
+            "au",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.bricksnballs": {
+        "name": "Bricks n Balls",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "vn",
+            "br",
+            "gb",
+            "us"
+        ]
+    },
+    "com.peoplefun.wordchamps": {
+        "name": "Word Champions PvP word battle",
+        "regions": [
+            "tr",
+            "ca",
+            "mx",
+            "vn",
+            "br",
+            "gb"
+        ]
     }
 }
