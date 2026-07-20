@@ -1,6 +1,57 @@
 {
-  "updated_at": "2026-07-19 12:30",
+  "updated_at": "2026-07-20 12:45",
   "games": [
+    {
+      "app_id": "jp.co.goodroid.castle",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "城崩しオンライン",
+      "icon": "https://play-lh.googleusercontent.com/BnTXgYJPm7Q6QpQTR--hbQHL941Nuw92BF4CPRJjaA4546ZqGypfvjRnDV8OVrlZ7_ZW_u2BvZ0lRbIEyEITUQ",
+      "installs": "50,000+",
+      "real_installs": 68978,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/3fdOsRH1UZUHFjtW2koA_T9a5HYOjNW7GhjTaQ9a_59A4kAqXqDivvPPj2S_9icNDnD8jDl666coGr9rfHKKTg",
+        "https://play-lh.googleusercontent.com/KcW61N7dY-KqhGw6ZtXI38op8IoonhjCippijcS3SQBIUCIUEq1dlbhcZWhcJSWcxU9GTmuJvw07yqrepm1E",
+        "https://play-lh.googleusercontent.com/5vHNC9EiNaLY81JVIp-hHN5eKRBcWxumXiL5uF54AjlaUlQw9kNi7C8VnUKskCzdIMd0aaqbwznYR801X0y5Ew",
+        "https://play-lh.googleusercontent.com/OnM7P1vfuX_H1f59sxnE6dyjFOP_fUlS08P3tBXGPm9KAqqmE2cc3PfEyiQqi5fqtnDWL_7IOJzKshA34m1fEg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$4.49 - $8.99 per item",
+      "release_date": "Feb 4, 2021",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.castle",
+      "found_date": "2026-07-20",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.playcrazzy.mysupermarket",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "My Supermarket: Shop Rush",
+      "icon": "https://play-lh.googleusercontent.com/qVaAXo7PmjgghuwFG80741FuNd-CCaY66LV5qACvjEnF_IgVBfXwy0nKWrGkComptYQOBo8-7km9zFOOEb6Q",
+      "installs": "10,000+",
+      "real_installs": 14355,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/GyIqsY4eZVcJ1OmY6i8-H42kevRmV2nNUBgWiPFHf-ozL-Qk31QcGuh_3iomiKImOztAHcsqc2EAWKrj95PjpBk",
+        "https://play-lh.googleusercontent.com/ruuU-BFaauPxzLpWN97LaKzY5rTX27RxehqVxfmqCbLHG7m93NNMAVaZiZdeGNwKoiWClUtRqoSAkA5dziN8318",
+        "https://play-lh.googleusercontent.com/AnJ9SHG5GPLk3idQmNLdfPShgfEjmWjPam9FTer1m-YOQDphGdQIVec5EXFtuL6W37zXl-j_PhB2cbAN-6IMfR8",
+        "https://play-lh.googleusercontent.com/4W_sgvXOgA1uz-qPGjPVxGLuTBbeVeegRiptj2Vz8KYwPYAd4HoFt4N1jyJ04GxjC2L4A9JZioDo8cnAgEfiu28"
+      ],
+      "regions": [
+        "br",
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$519.99 per item",
+      "release_date": "Jul 9, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.playcrazzy.mysupermarket",
+      "found_date": "2026-07-20",
+      "velocity": 0
+    },
     {
       "app_id": "com.loop.clear.cube.free.card.puzzle.sort.match",
       "developer": "Mavericks",

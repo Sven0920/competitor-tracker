@@ -25973,5 +25973,18 @@
             "br",
             "gb"
         ]
+    },
+    "jp.co.goodroid.castle": {
+        "name": "城崩しオンライン",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.playcrazzy.mysupermarket": {
+        "name": "My Supermarket: Shop Rush",
+        "regions": [
+            "br",
+            "ca"
+        ]
     }
 }
