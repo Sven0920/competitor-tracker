@@ -25986,5 +25986,11 @@
             "br",
             "ca"
         ]
+    },
+    "com.rocketshipstudios.intothehole": {
+        "name": "Into the Hole",
+        "regions": [
+            "br"
+        ]
     }
 }

@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-20 12:45",
+  "updated_at": "2026-07-21 12:20",
   "games": [
+    {
+      "app_id": "com.rocketshipstudios.intothehole",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Into the Hole",
+      "icon": "https://play-lh.googleusercontent.com/Wy_TY_tzYy5Cfv4QXXUMO3tOhS5QKncOhJDBJInaFARgfCXa7DcQj2NsJBV8QC4dj9Kcc6-cGmRM0-BmBnDH3A",
+      "installs": "100,000+",
+      "real_installs": 166033,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/5YG0zp-D5JJxEQN869wWcZOMHMozdzkuc1nZxKCGkNTgmFwKA32civnNrlfclO1F2W1B0VMgY9zh2RcJMQKWnZU",
+        "https://play-lh.googleusercontent.com/nEpMVN0_OYNflTt_MNgCCZZgU-GnfzT0n8tzmId6y6b7EZbZjPZxqXSQwpzk8egybVFiyurIq1zBosNjLxK5",
+        "https://play-lh.googleusercontent.com/YIVa6g3Y5-IQ7qkwuBZ6U8I5zBL_q6l_5sjkwNAb8LaXQ6TTWKs8wuFRkbH-khz70bEm1nwN0Bnot1j6GAwoPg",
+        "https://play-lh.googleusercontent.com/u4i2oQNC6tQwLzJ-wvXFEXLwgxhsGESbEmzl5h9hjoxYbJ-p_Q425Hq0AqxV2e5OWhmLD2QwnbLH0iMBer-5Ag"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$10.99 - R$539.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.rocketshipstudios.intothehole",
+      "found_date": "2026-07-21",
+      "velocity": 0
+    },
     {
       "app_id": "jp.co.goodroid.castle",
       "developer": "GOODROID",
