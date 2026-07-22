@@ -1,6 +1,234 @@
 {
-  "updated_at": "2026-07-21 12:20",
+  "updated_at": "2026-07-22 12:27",
   "games": [
+    {
+      "app_id": "1597618935",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Drop Ball 3D",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/58/16/6a58169c-9f64-5e28-74b3-edc32f14c770/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 1504,
+      "genre": "Board",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/c9/ef/9a/c9ef9ad2-6c0c-8838-8211-748b917c8b55/80c166b3-2992-489d-9026-70c199a7efd1_SS_iPhone_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/53/6b/ce/536bcee1-b635-14db-3927-81300c8ddfd8/84596cb3-4950-4e57-ba59-621a1867e5cb_SS_iPhone_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/96/9b/6a/969b6a9d-151c-1058-35e7-3f44f2aa1ed2/ee66a9f5-fc76-44d2-b258-270b297be666_SS_iPhone_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/f7/d1/53/f7d15344-7aa2-8467-8edb-50a8c18de6b4/8bda1eab-5efe-4d6d-a72a-14550bbfc7ba_SS_iPhone_4.jpg/392x696bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "vn",
+        "us",
+        "tr",
+        "br",
+        "gb",
+        "id",
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "149.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2021-12-16",
+      "url": "https://apps.apple.com/us/app/drop-ball-3d/id1597618935?uo=4",
+      "found_date": "2026-07-22"
+    },
+    {
+      "app_id": "6762593520",
+      "developer": "TREEPLLA",
+      "platform": "iOS",
+      "name": "Dawn's Edge",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/5d/4c/295d4ca0-fca3-c6ce-b004-32af6c5d271c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Action",
+      "shots": [],
+      "regions": [
+        "au",
+        "us",
+        "tr",
+        "br",
+        "gb",
+        "id",
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "3730.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2027-01-15",
+      "url": "https://apps.apple.com/us/app/dawns-edge/id6762593520?uo=4",
+      "found_date": "2026-07-22"
+    },
+    {
+      "app_id": "6761752384",
+      "developer": "Estoty",
+      "platform": "iOS",
+      "name": "Ants Flow: Pixel Puzzle Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/b2/07/dfb207dc-47f3-447a-1b9e-b1ba940dc2da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 926,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "au",
+        "vn",
+        "us",
+        "tr",
+        "br",
+        "gb",
+        "id",
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "328.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-04-08",
+      "url": "https://apps.apple.com/us/app/ants-flow-pixel-puzzle-game/id6761752384?uo=4",
+      "found_date": "2026-07-22"
+    },
+    {
+      "app_id": "com.s01.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Lordrush",
+      "icon": "https://play-lh.googleusercontent.com/4_JTVfSvadb3P01izF2fL47w183NO4oqje4gtwZIKf05-iCu9SI7ldG8vYfGZFpbN_-wXMWVexolzqqZqzJKWg",
+      "installs": "10,000+",
+      "real_installs": 27515,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/O8B4nXaSTTUMCyT2dwKJi3jVa0_zUkn45MsCds2MDKgahNCnSdHFlifaEL8kl3Jkqh8jTiGP-fVjlFF0H8HfMQ",
+        "https://play-lh.googleusercontent.com/L5mTsJ4TiOgceL1Ewt9ckQEB39bhNkD79RrgBtFv8o-gJu9PF2wecaPz0I3qAi_DjCCul8ZKCTXAdutY_-vRQw",
+        "https://play-lh.googleusercontent.com/l_o7XkBmbAXh2p5E6oaVkXmG4OApwJloANZhCdR3hkpNq9mG4ouB5d4j6TkRQxUJU1S_bFRYwG7IPIYrA3xSpg",
+        "https://play-lh.googleusercontent.com/Kte1ZomqGkvJJ02gj-OYRDo2SDDfDm3ocYF9E7SjA4a6T46D8hYiE04K2XvssfEnxGmartEDJbTzbH8yoFzF"
+      ],
+      "regions": [
+        "au",
+        "us",
+        "gb",
+        "id",
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.49 - $159.99 per item",
+      "release_date": "Jun 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.s01.global",
+      "found_date": "2026-07-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.slicepuzzle",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Slice Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/OLrcEj6WvHRLFEwz7jjU36toGOuhKfHA0rI3oAEpAdisiPi-sXy2VG6dQIpwPZORxJggp66NSBapgNXinTT4",
+      "installs": "100,000+",
+      "real_installs": 333146,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/TxDFRQRIYdcNzr_eXyb9NzZ8bSXBeHckXTEsvzIhxeZUxn5Y-7ZY30umouB75UHInmJht89hx8GB9CpbSfKJ_7o",
+        "https://play-lh.googleusercontent.com/hoLFEpJo5PgbB5WfN0CPVZbnpFwRip8LC--Ltzq9Oeyr7ArTz7bHmqO7d0FEuctklbuUMYcXclc4ocu8vseBSw",
+        "https://play-lh.googleusercontent.com/Raets9bWSAnNmVTBHBtSUVvM1R6XwWonNwOIGlDH1XOUMwWsboMbVoiv9_ID41Q8XkBGQTwQg33L9FE1f-oY-A",
+        "https://play-lh.googleusercontent.com/RAYTNfjP1V1LcbJ9s8qde_hibO5vJhXoiHQTLl29Hc7bE05Hi2FS13VZcNzgpPtdK8G_ZyBog63BG2N-SP0nBQ"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 27, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.slicepuzzle",
+      "found_date": "2026-07-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.nonocross",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Nonocross",
+      "icon": "https://play-lh.googleusercontent.com/vxPUm1ccjMeC6QOwdshd8s581PNiqWDntUdWcFG4LOqW26sVkoTa5ZS0lWm-ffy7YpDrYS-TxZGdECQhnJdN7A",
+      "installs": "100,000+",
+      "real_installs": 224136,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/KQIawZjrRUSwUKidYRWTHJKH2qiWFf9tXWyiKtPk9cPWZUCMFo_KLEUEGTITwNIN6Tgolo3kGpoFuEJMm0TCHA",
+        "https://play-lh.googleusercontent.com/avboX4Im6VgpWTT79Uf56UXkzlsoaY1RffIaRMvRKc1a3QnbXRRLHGGnabUzzGW5oH_aurDs3VlzIyq8Mn2kiw",
+        "https://play-lh.googleusercontent.com/3myV4WeSzIsZA6K1CBxWUZmbW6HCRISofv5LeeXEZ8GBPeS81zyMn5v_BVZPiYycy_9mkb18rHznKDBXG6AN",
+        "https://play-lh.googleusercontent.com/FLHhYQinto-naKKC3TJezf-Dn1kGunFVeF4iIySm3UudUnWeJXQD_1tWVq3-s7c6c3lDAf2C1AoSNtb-PGJ7Fj0"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Apr 8, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.nonocross",
+      "found_date": "2026-07-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.zdk.puzzle.gp",
+      "developer": "UniRise",
+      "platform": "Android",
+      "name": "Zendoku-Sudoku Game",
+      "icon": "https://play-lh.googleusercontent.com/35UNKLYWXPmft_3yHRlNMoOqECPXBAL-8jbaDn0zXbRijUAydjZOKY2QzfMMo3wIDq97LzSUgzGzx3x3fTrDd5Q",
+      "installs": "1,000+",
+      "real_installs": 1965,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/8hzDEcaiTilfrWWxdDfTvAlApXnNz6eDjLdV2J59pNgSH0wupw8cQlv-UdK3Mfq-mwasV4Xp5lNdb2DN8zvrkQ",
+        "https://play-lh.googleusercontent.com/9Rt4nhgfXdQnZeb_H6UHY2wsuw_8zC6Oezqv7MF7sIPINNdlx8m9aXqklmHBZKJD4tkAjTmxpgjpKo5U7AfYLl4",
+        "https://play-lh.googleusercontent.com/B9FAWJsLW_gIEAnrvyHIKwh4hvmT-k0QVeHJQbRpodum2CohSlvIm_aNdAhLbYMGNsQpnhSZwkSyye258Zdw1g",
+        "https://play-lh.googleusercontent.com/y1jGOOFV3zhORoiKnZQZ1WgZgoIp0KpyMpXWXPk1A3ZMy9fxKR2N0NC3bo6lSMqATa_N6YP_QtB4WTKFSrlj9g"
+      ],
+      "regions": [
+        "au",
+        "vn",
+        "us",
+        "tr",
+        "br",
+        "gb",
+        "ca",
+        "mx",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 14, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.zdk.puzzle.gp",
+      "found_date": "2026-07-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.dimension.cloud.cube.gp",
+      "developer": "UniRise",
+      "platform": "Android",
+      "name": "Cube Blast 3D - Tile Mahjong",
+      "icon": "https://play-lh.googleusercontent.com/kMIlTmAMyhrn7cyt6ui_M6ZMFQBg1RhR5a3o1EO1b4s8bsscwRCgRtPN_icX1ZlYDPOG-cq6nnMzONr_9Ekdnw",
+      "installs": "1,000+",
+      "real_installs": 3898,
+      "genre": "Trivia",
+      "shots": [
+        "https://play-lh.googleusercontent.com/EEROuDzE0XPAos9JlDdeYpQE0AGSUMolp9POEvB860fCglrgGrRCOu7LQgWSrMAYs0Vnol28iw2oR_H6BgE6ng",
+        "https://play-lh.googleusercontent.com/tMtWEpBEd7yn1jOTbYvLJraTRM1GLH9vx6NpHP-O8GsTTcs_TxGgaKtOoGF5iPa0P0hm5RfBO16VzfA-pTTbFA",
+        "https://play-lh.googleusercontent.com/Ud5dRnfFUt2-geIK664gi_pzIgr3c7GnG9SutEc5bXcKpVhV_VtDIzc0cu-56lXrg0ondW1JYKJSZUq2ie4wYw",
+        "https://play-lh.googleusercontent.com/d_F2TIOz9wRmOJZOIDzqB9Bcu_2fxecqxLXnNqiAiD1u97s1qrbnc6XEbVOUnDsMsdozGrEp9d4E2vuaazrpjnI"
+      ],
+      "regions": [
+        "au",
+        "vn",
+        "us",
+        "id",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.59 - $154.99 per item",
+      "release_date": "Feb 28, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.dimension.cloud.cube.gp",
+      "found_date": "2026-07-22",
+      "velocity": 0
+    },
     {
       "app_id": "com.rocketshipstudios.intothehole",
       "developer": "Voodoo",

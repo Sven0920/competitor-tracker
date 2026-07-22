@@ -25992,5 +25992,97 @@
         "regions": [
             "br"
         ]
+    },
+    "1597618935": {
+        "name": "Drop Ball 3D",
+        "regions": [
+            "au",
+            "vn",
+            "us",
+            "tr",
+            "br",
+            "gb",
+            "id",
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "6762593520": {
+        "name": "Dawn's Edge",
+        "regions": [
+            "au",
+            "us",
+            "tr",
+            "br",
+            "gb",
+            "id",
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "6761752384": {
+        "name": "Ants Flow: Pixel Puzzle Game",
+        "regions": [
+            "au",
+            "vn",
+            "us",
+            "tr",
+            "br",
+            "gb",
+            "id",
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "com.s01.global": {
+        "name": "Lordrush",
+        "regions": [
+            "au",
+            "us",
+            "gb",
+            "id",
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "com.gimica.slicepuzzle": {
+        "name": "Slice Puzzle",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.gimica.nonocross": {
+        "name": "Nonocross",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.zdk.puzzle.gp": {
+        "name": "Zendoku-Sudoku Game",
+        "regions": [
+            "au",
+            "vn",
+            "us",
+            "tr",
+            "br",
+            "gb",
+            "ca",
+            "mx",
+            "ph"
+        ]
+    },
+    "com.dimension.cloud.cube.gp": {
+        "name": "Cube Blast 3D - Tile Mahjong",
+        "regions": [
+            "au",
+            "vn",
+            "us",
+            "id",
+            "mx"
+        ]
     }
 }
