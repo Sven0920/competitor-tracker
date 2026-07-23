@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-22 12:27",
+  "updated_at": "2026-07-23 12:23",
   "games": [
+    {
+      "app_id": "6783189461",
+      "developer": "iKame",
+      "platform": "iOS",
+      "name": "Food Jam Puzzle Sort",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/80/17/2f80175a-ff6b-fbad-05f4-8691bd1bd2c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "mx",
+        "vn",
+        "us",
+        "ph",
+        "id",
+        "ca",
+        "gb",
+        "au"
+      ],
+      "size": "240.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-22",
+      "url": "https://apps.apple.com/us/app/food-jam-puzzle-sort/id6783189461?uo=4",
+      "found_date": "2026-07-23"
+    },
     {
       "app_id": "1597618935",
       "developer": "LIHUHU",

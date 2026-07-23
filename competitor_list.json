@@ -26084,5 +26084,18 @@
             "id",
             "mx"
         ]
+    },
+    "6783189461": {
+        "name": "Food Jam Puzzle Sort",
+        "regions": [
+            "mx",
+            "vn",
+            "us",
+            "ph",
+            "id",
+            "ca",
+            "gb",
+            "au"
+        ]
     }
 }
