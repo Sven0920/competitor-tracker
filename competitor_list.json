@@ -26097,5 +26097,200 @@
             "gb",
             "au"
         ]
+    },
+    "6759648322": {
+        "name": "Number Sum Puzzle - Math Game",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "br",
+            "au",
+            "ph",
+            "us",
+            "mx",
+            "vn"
+        ]
+    },
+    "6763179756": {
+        "name": "Hunter Evolution : Idle Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "6792969650": {
+        "name": "Smash Down: Blast It Away!",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "br",
+            "au",
+            "ph",
+            "us",
+            "mx",
+            "vn"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "us",
+            "gb",
+            "ph",
+            "id",
+            "vn"
+        ]
+    },
+    "com.voxelcube.dropblock3d": {
+        "name": "Drop Block 3D",
+        "regions": [
+            "vn"
+        ]
+    },
+    "ai.peakup.android": {
+        "name": "Peakup",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.court.peakpb": {
+        "name": "Peak Pickleball",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.daxko.club.automation.peak.sports.club": {
+        "name": "Peak Sports Club",
+        "regions": [
+            "br"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.clothesmania": {
+        "name": "Clothes Mania",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.tree.godown": {
+        "name": "DDDigger",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.tree.hybrid.routedefense": {
+        "name": "Tile Wars TD",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.flower.puzzle.blossom.sort.color": {
+        "name": "Flower Sort: Bloom Puzzle Game",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.tile2d.sorting.triple.puzzle.game": {
+        "name": "Tile Sorting: Triple Puzzle",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.gem.pop.pixel.color.sort.puzzle": {
+        "name": "Gem Pop: Coloring Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.cakesort.food.puzzle": {
+        "name": "Cake Sorting: Food Puzzle",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.block.flow.hole.jam": {
+        "name": "Block Flow: Color Hole Jam",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.Polystation.BuildABabe": {
+        "name": "Build A Queen",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.technomagic.electriccity": {
+        "name": "Electric City",
+        "regions": [
+            "ph",
+            "gb",
+            "id"
+        ]
+    },
+    "com.gimica.triviamadness": {
+        "name": "Trivia Madness",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.tile.bonanza.match.pair.master.object.block.puzzle": {
+        "name": "Tile Block Jam - Puzzle Game",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.superplaystudios.dicedreams": {
+        "name": "Dice Dreams™️",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "br",
+            "au",
+            "ph",
+            "us",
+            "mx",
+            "vn"
+        ]
+    },
+    "com.screenshake.dominodreams": {
+        "name": "Domino Dreams™",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "br",
+            "au",
+            "ph",
+            "us",
+            "mx"
+        ]
+    },
+    "com.superplaystudios.disneysolitairedreams": {
+        "name": "Disney Solitaire",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "br",
+            "au",
+            "ph",
+            "us",
+            "mx"
+        ]
+    },
+    "br.com.brsuper.superplayer": {
+        "name": "SuperPlayer BrPlay",
+        "regions": [
+            "ca",
+            "vn",
+            "br"
+        ]
     }
 }

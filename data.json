@@ -1,6 +1,607 @@
 {
-  "updated_at": "2026-07-23 12:23",
+  "updated_at": "2026-07-24 12:27",
   "games": [
+    {
+      "app_id": "6759648322",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Number Sum Puzzle - Math Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/5a/66/ca5a66a0-de4f-e043-d139-35991098326a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+      "ratings": 5,
+      "genre": "Board",
+      "shots": [],
+      "regions": [
+        "ca",
+        "id",
+        "tr",
+        "gb",
+        "br",
+        "au",
+        "ph",
+        "us",
+        "mx",
+        "vn"
+      ],
+      "size": "46.2 MB",
+      "iap_info": "未见明细",
+      "release_date": "2026-04-13",
+      "url": "https://apps.apple.com/us/app/number-sum-puzzle-math-game/id6759648322?uo=4",
+      "found_date": "2026-07-24"
+    },
+    {
+      "app_id": "6763179756",
+      "developer": "TREEPLLA",
+      "platform": "iOS",
+      "name": "Hunter Evolution : Idle Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/72/62/927262b3-da8d-d9ba-637a-057364d7f3c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 5,
+      "genre": "Roleplaying",
+      "shots": [],
+      "regions": [
+        "us"
+      ],
+      "size": "205.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-05-14",
+      "url": "https://apps.apple.com/us/app/hunter-evolution-idle-game/id6763179756?uo=4",
+      "found_date": "2026-07-24"
+    },
+    {
+      "app_id": "6792969650",
+      "developer": "Supercent",
+      "platform": "iOS",
+      "name": "Smash Down: Blast It Away!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/09/0c/86090ca8-7c83-dc81-e16b-fa4e885122e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "ca",
+        "id",
+        "tr",
+        "gb",
+        "br",
+        "au",
+        "ph",
+        "us",
+        "mx",
+        "vn"
+      ],
+      "size": "271.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-24",
+      "url": "https://apps.apple.com/us/app/smash-down-blast-it-away/id6792969650?uo=4",
+      "found_date": "2026-07-24"
+    },
+    {
+      "app_id": "com.voxelcube.dropblock3d",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Drop Block 3D",
+      "icon": "https://play-lh.googleusercontent.com/G9Y-LcjFRd7jXR4MZgUBqvh_auwgXTGXXL6HD5YehgRR8GD-LY-MpLgWN536DUsMgAq_RCephR4lCvkrZJiF03Q",
+      "installs": "1,000,000+",
+      "real_installs": 1731871,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/acd9wiZZoG9JupluGi3fngpTrASFY079DpZZ2GTEKkOjw_AsxfpvoIxlKQO7XMyc2jK2oia6jFiY8Xmrl9sf",
+        "https://play-lh.googleusercontent.com/F5-DQQ2GtEndmOAVHSOk-oNj0BXKZThISgC4L99iGtp_3DnwTpgkSWfpXXyxcrOraen-kz9LT1x34Rdch89NXg",
+        "https://play-lh.googleusercontent.com/cIgaDr2d3b5UH_zqUMKfMklyD7_KhRXE5yBpgfO3_qqajI394QnBiudgjENOgql-jdBAg0oZ_JY60ZjHqVcVszM",
+        "https://play-lh.googleusercontent.com/VoGvDC344kxEB7U6I5Vav_OQc4ZCXsC-u9AehczhqbPWK4I8X57ElW1Gr-l2N7jkY_jkIfLU7LK_cQLxJp9x4w"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫22,000 - ₫2,200,000 per item",
+      "release_date": "Dec 5, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.voxelcube.dropblock3d",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "ai.peakup.android",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peakup",
+      "icon": "https://play-lh.googleusercontent.com/QqDd5LbED6kHa_DdpTfpsviTaBHaIsrXvm_wPZ1zmqpFLPIKrtrnAK2CvzuGybtpG0MCm9sae1SXgUodyHWs",
+      "installs": "500+",
+      "real_installs": 749,
+      "genre": "Education",
+      "shots": [
+        "https://play-lh.googleusercontent.com/3ecZCRW-5mb9axfZBzw2ynf6PMbsV0OtEoydMo9F44Hx99f7NNKGCd5ulERY1V_QbpZh87uWDLnTKsNW2m5CtbA",
+        "https://play-lh.googleusercontent.com/nnybjN9RMNxKe2R3lTLgG3jve5Js6FqK8KsHbGimsP4ui7Im9in0OiqlXxKyFUQCagamBHoz1MVy2LUXaQ921w",
+        "https://play-lh.googleusercontent.com/2iSXRh_if834qROChuHaFga5D5c-dJwyu0dFZk9Dks2HIzQhb09FGQl9IJjIga2fYVNwu_1Gg4ouweOPmb8R",
+        "https://play-lh.googleusercontent.com/DnJvx4OnE6x2DBbqQfpC1l6KmvCukjBZQxM2daOyRiO-GmImz7Kvih-mrgTnZnBlJKMVAogXHZHIKD71NocS6ww"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 17, 2025",
+      "url": "https://play.google.com/store/apps/details?id=ai.peakup.android",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.court.peakpb",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Pickleball",
+      "icon": "https://play-lh.googleusercontent.com/wN6tyobkJGp3SFOQVyOiI8VlgA7xN3feeY4D0myqxS6tKHwJHNV3tYOsKmUcr0l_n6RkvtPf6C62oC_DhTvdXg",
+      "installs": "100+",
+      "real_installs": 194,
+      "genre": "Sports",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_QUvFampXZHUh08qJJPctn9DDJN9ruU25U0-9sE_Ij3JTh_8BMIciVEbClkeksBh4Z1jThhzzo35W_g3evxv0SI",
+        "https://play-lh.googleusercontent.com/v3ISUuyWR91G3AN3PnEK_eBIl58uIbvVUNQLGCZGtQI7W_HXrC9wc8zFBmJWzmMM3NZYBDqL69WQNEcGtQJcmw",
+        "https://play-lh.googleusercontent.com/QcITdmRGcXQFZOA_rA7wVmvrbHHWdYdDGv0Mlb-_6QLArLiA-WqXuubDJFqn_BbkKlCr7kW4d-eg2XQzTnGq0A",
+        "https://play-lh.googleusercontent.com/T-dsf6rPDRr3i5HDb5K6ddg2NKc3PgG7h0iVCP6uTMLX2F75pvQsukeTSgoRV1DH6exJBZFtYIsan2yxdyskNg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Oct 31, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.court.peakpb",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.daxko.club.automation.peak.sports.club",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Sports Club",
+      "icon": "https://play-lh.googleusercontent.com/nby1cpFYXysXUmDHB2fF6UeuYDzAoGpODVy8wuMPrU_6jk3Mqb5DMuvPD8sKAJMyTVLYFFfj6Ax-q96WJtrFKP0",
+      "installs": "500+",
+      "real_installs": 660,
+      "genre": "Health & Fitness",
+      "shots": [
+        "https://play-lh.googleusercontent.com/TtqaxBuPolSPK9rGFQV-uoJVX7kypm6dxx03DoIA1PZ-BeQwWllN_UVljOc_iLoS7DvvK6UJg4S4T7kHXGtl",
+        "https://play-lh.googleusercontent.com/nYjNejczx4Ma-u9sbfI4aZg9CepQxa1cbnbuHfF4E0253WKCuqZhv6-y5J5FczpiZdEUfm1skxC5uyuKDRNcmag",
+        "https://play-lh.googleusercontent.com/dMPJ7gpWZc1tRRbvPCJ0cOH-5vwOp1gomhNHAI7lqenUS4C2duY9PSM9K6Kbgt5y_RNWEjFzm0t0qfxGU7jXX94",
+        "https://play-lh.googleusercontent.com/kwSfpu6BRSm4yJxXF5tw44UQRyYxo5oNjfvRc7Ov5fpySg1Gpm7dk-kgJ0-X56yTlsDZXCUeyQsbHeCVr_DgQZc"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Dec 20, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.daxko.club.automation.peak.sports.club",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.puzzle.clothesmania",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Clothes Mania",
+      "icon": "https://play-lh.googleusercontent.com/7uiQ6F0MUw3h3GoBBuQI9LNtfiUXrrgBsEsZAYGCbGHyPxaNsRuEFL-IPpBi5ECJ64kpJU07tBOdQhOTidBkWD8",
+      "installs": "100,000+",
+      "real_installs": 166158,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Kr2wUuQJAM6PA5pfrhzhh42G_9EgZb05YmSvYwPRAvqJsivmLahhXD1qjPYRV2P00W2zQrbeicXNuinF4GtrkA",
+        "https://play-lh.googleusercontent.com/QmUve-bLRPQ3_g2FNafYpI_ItoLrxdtxm7kjwdpdYzT15zCaCt_zzpTJ02kzZEh0ronffNiUrw3N27xllS8NPA",
+        "https://play-lh.googleusercontent.com/FEzeY4sKU57UfNf6U2gMiRWxYeXXmB6BnIRXG9hWtZDG2RTWpc_aCD5HrLkY2pTk4TcaNxrCClooa-mKNIjvYLE",
+        "https://play-lh.googleusercontent.com/3D1nnm_7W30LLWH2YjkRVUa1pGT16u-29-CTLlwNrarY1IeXgMyo1nRaygKm6sDdNqxCf7TARY379byt5sncow"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 17, 2025",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.clothesmania",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tree.godown",
+      "developer": "TREEPLLA",
+      "platform": "Android",
+      "name": "DDDigger",
+      "icon": "https://play-lh.googleusercontent.com/TyLmCTfrk8PSFabm3WClZwTDBtX5MVPpntoB5Y7QCfkzGCQbUac7XrNyPCVeXma0_LcTCfa3LrpZ3TRKQldW-w",
+      "installs": "1,000,000+",
+      "real_installs": 4520094,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/xGq6XV4_2EDe6FYrEnt8ho2uCdX3TXI3n2FUsmXMg67eyHLib3KHLadoP6Pf9jx_hS_HFoHumSDz4okjx-c6Aw",
+        "https://play-lh.googleusercontent.com/xIRhr8sLMMYC2w9VXxQEFwZkxNDeIpZueD3LHDQXs1lqFuCFFdvpUkm0BRjjX9UTlab250qKa1qwAbOY10w7_g",
+        "https://play-lh.googleusercontent.com/cPTbP7HwT9nmZdxP6nqbVP6Xpj-a1bukCb6GFZFSWSDgE3jvKjGuismm1NvPuDBBs3DG2YJsGPhNSed_qi7-rA",
+        "https://play-lh.googleusercontent.com/V0-Bk0x8AXGicROfZzv9Mf6WQx8gKjhn-QIgutNjgompnYZc9506cvI3ttkEtXtUTI3JLIujlcJGMy3NUacq8bI"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱15.00 - ₱998.00 per item",
+      "release_date": "Jan 16, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.tree.godown",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tree.hybrid.routedefense",
+      "developer": "TREEPLLA",
+      "platform": "Android",
+      "name": "Tile Wars TD",
+      "icon": "https://play-lh.googleusercontent.com/cyw4KouIof7iIRxzddJub4Uf7AOPi03QYu8o5nJ4ZhfVRljk1wlgcASYXXdIOAedLm80u_RtRcwIQR3iPt0p",
+      "installs": "50,000+",
+      "real_installs": 72704,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/a276yplD4QL4XTt2lOao9K8YNEUKhKXsCZF5-4S0aIZCsZFQkdQjdGyOPoeA3ODOwww0zzqdMKQXKLHgHFciInY",
+        "https://play-lh.googleusercontent.com/y7vFlvdR3Dc64aGg2puNlascdk925ILSCPVUmCmU9ZdQ1LRT-ty2ewPSljphbJsdHxd0XnOhc4s7kSWQJ9It",
+        "https://play-lh.googleusercontent.com/8_5Q6enqqBDcFnQCQ1XGvnLohVxR5yzpu4MHygAe-VMME35DiTLhZHAzNLUfPsUZRbey-4CBi-VmmEaJ5E5IlA",
+        "https://play-lh.googleusercontent.com/rbe1hUxSnggOnmDKB4H8-IgNs_qPKPuritLkoya_ijTUisdEwWn-S4mv3Yj-ILKSzghzwGa1dvnCP_gWCB5t"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $34.99 per item",
+      "release_date": "Apr 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tree.hybrid.routedefense",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.flower.puzzle.blossom.sort.color",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Flower Sort: Bloom Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/lw13vIcLjP7OFbnWhSayTwyhGtKecI8uCz9OlEXilbwZ5IG5b2TOHJSlhu-25v1kwjX-y8WlI-xfxGiTkORY",
+      "installs": "1,000,000+",
+      "real_installs": 1596149,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/qK9ZuRfX20m4iLDymhTV6-ocFboTB3E6Ip3G1aW6jAe7Ycj7-WDUDI4rMw34x6bG_3FqUgPsPkZXIpu54ZvPNQ",
+        "https://play-lh.googleusercontent.com/lYWDRyo2ng8j5urwG-xTb1gLGTiZSaxLxTFOreb-iddNd6tnTJAstW_8YqrK64I1XIi4l9xZKg_8S9lQ2ntmgAY",
+        "https://play-lh.googleusercontent.com/bxChwjF7xvVrTDR49QREIScjInSoYuXKuMnM0L-tUDVZsplc_CQNtrHXp-r2lhra3kzHd0gM6dCHAdWi8VJA0vg",
+        "https://play-lh.googleusercontent.com/nhDJ_OVs8iE9Qi6B6PRyA_fXiEegx_wf5r6VQ3lIPJUvhfh3JtTSqh5Z0hwCapPHKQsmZuzowTetjdHzE8lVsg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.99 - R$589.99 per item",
+      "release_date": "Mar 20, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.flower.puzzle.blossom.sort.color",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tile2d.sorting.triple.puzzle.game",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Tile Sorting: Triple Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/rpSN4C5ooEVCT6vJW5G7aHJapDLFQ8MiW2aFYLhljs5HFHNC21j77ouNFzSh_th1oBePlhz6IahZq9_tuHtecA",
+      "installs": "10,000+",
+      "real_installs": 20040,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/8phKLdFLr8z4cWlYfFK1y93cFvjEItUSRX5RD7vwAauw0di7EfLFXa-Ru1sSoJLuVOc1kRlrEZ68hQ2NJ62TCw",
+        "https://play-lh.googleusercontent.com/hJh_YOJcyEdR1iMorK8iMttQzFXzieQaZOEX8oj9_YhS2g4M0HDXq1Y24g3yMCLq3gh9H2FmmXJvSq_qDs7t",
+        "https://play-lh.googleusercontent.com/OgC1KN6ds1XXyEGvXQpkwvG8abUlGhHHDgySuMJ0_GzQqD-4TTx2BA6uM6Vh1B33x7PMg-CukpYjaPQrGc9R",
+        "https://play-lh.googleusercontent.com/QD6EeTqLCckEEWW24LMRvjk8m0GncS9WBo_XZeSP-7fdyLrwMBco_Mnbm4KQwlZRP5gNur-_BqCQLC1PDh7SZg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$214.99 per item",
+      "release_date": "Jun 21, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tile2d.sorting.triple.puzzle.game",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gem.pop.pixel.color.sort.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Gem Pop: Coloring Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/tujIUGRFK9yiEgcBOeekpetQUCMcWN9D6FTA_0igN4-rg3iZVplApFQejfh_Esra12L5GJ8N4qfFV24rK0zcBA",
+      "installs": "1,000+",
+      "real_installs": 1524,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/7pNCpaqCTRl3D8q-crRxTdhHsifjMO0rTfao2LaXQdahPt3_1JTo9AjQMEasgxL8rSqVnN8QvreqUuCpLACPOQ",
+        "https://play-lh.googleusercontent.com/jtf0ElqSWcjOp7OeR-h418qm8MR453Jb6edb7CcsQmGSPHpxhqedoa5hGIuiT-mGZvjFnp1OhWApc5Eh8C83ug",
+        "https://play-lh.googleusercontent.com/hBG0K7utXorPXkwtdrL9Im9lT3ZDWeDgGxsyknauNVu5TD8yx-jF4lSswAw_pmAsV7VP5FcRCGG2U4s9QBH_",
+        "https://play-lh.googleusercontent.com/7EJDW_T7u3x7hrlo461hsB7NhXPvJYfDkyVtwcFECzG6Boc2e0vrlm1r9NFctZYJfrjYDZrUvsgvNJ0KKtomtA"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 35.000 - Rp 1.790.000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gem.pop.pixel.color.sort.puzzle",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.cakesort.food.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Cake Sorting: Food Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/S2t5mqrs4rXqupXoZRmiakTOBdtQTJL-K2NAr9xBl3FI4Qj8P-ExbleXPTe2baLB9wnzEElwhRmHKLpa9armI2Y",
+      "installs": "1,000+",
+      "real_installs": 2482,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/PPYxGHKA9gUWUUBz2PWAOAR46MEspbx81ZGkU-WVbO-i-u_44pW5dHFtPsG4hiHzaviKUFmwsW0UviDgbEtsqw",
+        "https://play-lh.googleusercontent.com/-dzzqqRCoEWqSuoWNl6FEaGy6BCQj20Us6w_ku3NiAL6J8evO3fgU-WooAMouE1Q1LWHvsaf5IQxB03NBRAagQU",
+        "https://play-lh.googleusercontent.com/26CUrM9PVQKGVswjqG2dUdAwOs-Vkj99PSxEwQJ5BokgUvr-PyG-f1qNg0kHQSvMHI1a9cR9mYViKIUxaUItbA",
+        "https://play-lh.googleusercontent.com/BQlsjuDqvfE_sO9vIBXDrTMR8lw_Bhe-OlH_CJ_6dXrRnM2_JVeKx6NRiePZdulDSd2wU9Zg8XlGvB4VKQKQVw"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$40.00 - MX$1,999.00 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cakesort.food.puzzle",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.block.flow.hole.jam",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Block Flow: Color Hole Jam",
+      "icon": "https://play-lh.googleusercontent.com/WZ31jltTO7-vvG5qoxBE-SJ6TOwgjJbtA1b0bWRr8_gay4OPaUIZddsNpOfTNJKnY8lgzrRXzwolNVreIfTx0g",
+      "installs": "100+",
+      "real_installs": 133,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/f4J3P0Tc7FChjmsljGNVF1h3-iZoKvISN1JqYkt3v61HArNTUVXzSoroUQA3r-PIpIfhUfnGfyQ3A0MojOJR1-w",
+        "https://play-lh.googleusercontent.com/f6rHMjUWN0rLAqIk26a2uJvxPEFA2iT2H2A14Liq41T0YqN3LOnV2Lcx6PQzaRBi5NQFtxtTKhof9LP9oMO_tg",
+        "https://play-lh.googleusercontent.com/UT8iuxAVX_rvuNf2kfzM68I2ZaIW5rd3Q8FLGk-BHGnvjmDSw4YrVyi9ngJXtOzRE3yUYWL30Wr4MY6EIiAU",
+        "https://play-lh.googleusercontent.com/owGkWodXCIfjl-_m5F2x9YmFMInqUH9hFihn7xyFE2cm--P0anYDbStpleFM95-F9dliLfWZY2K9Y2Z0VReoeA"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$41.00 - MX$2,049.00 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.block.flow.hole.jam",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Polystation.BuildABabe",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Build A Queen",
+      "icon": "https://play-lh.googleusercontent.com/ktBaIk-ewLPXRs3pb3ov84Rr4iAPFrGFljNMAPmVn5W-eqvpiScPPJhH2sdMbn4Ed1r91XcHLyOn4Q48aSbbPXA",
+      "installs": "100,000,000+",
+      "real_installs": 221509682,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/sqJWBPvU1A2m_zpuZBYrS6PCSVS_tBt1DN5UrqZ_jQxpzMJqWidm4vTZG4FKfilWNATzrLMds-uDVJhhh-s53A",
+        "https://play-lh.googleusercontent.com/NsnAUn-knV6Pvs6n2CImB6aS3gN0k9tZE9CZ5FbDTUQ5Gyuww6Cacj0ArFToPB80ZWMWHLDW_b3cwrgGd8_leQ",
+        "https://play-lh.googleusercontent.com/Kr9TjZqS4p5htQQiX-IMxNaX9sSDh4cNlMYBVrO7vH5K6owCyK2W1GiJrW0btbOx8RI-KtUdG_VKvlXFQqZ5",
+        "https://play-lh.googleusercontent.com/ZFOT7EevNMOyEbF3oAchV7ESfjRd6kuSEzarTPqo7_r6MmGP-AI-6ybYoww3GPEk3wO-IHervlWYoWhVuTi24A"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.99 - $9.99 per item",
+      "release_date": "Oct 27, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.Polystation.BuildABabe",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.technomagic.electriccity",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Electric City",
+      "icon": "https://play-lh.googleusercontent.com/5A0DupUwzOGXFOJKeSMMmdT_MPP-kCfjeLe6IKQU2kWTQmZgLMBOKP6A4agx0-6WuIQyOEI7aSTPx0c-VpJ-7Q",
+      "installs": "1,000,000+",
+      "real_installs": 1109237,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/wqkXEcibIo8Vfc6z85yfrrvqpczd2NXtxhXiX8wWKlgiMtVNUdR1d1I_n-3h76H1QYxL2C0TAKtx1KWv3I_2Xg",
+        "https://play-lh.googleusercontent.com/sOK04LA6KpVHYGlty3qGIflBmqTa-FDFh57kPHXGdXGgE37ZFHP-imOkYRk3cGwW8bo0LPgk_dQl4fkoTJF7",
+        "https://play-lh.googleusercontent.com/3mBSwGCy4p4PEkdd4ldAAzJ5dD82LY06sjMN2S8kM-kicxu1sv5g_MgJ2taVjSsRTNqxGcDt1oyeMmJZRPoxYA",
+        "https://play-lh.googleusercontent.com/15l9V8HnkqAbW-a1sZlA4zTTiYPCV3x7GeLm3zjWrv8t2r1dbbPH2uHlpeqbTIIoQMeStj88L5G5-c6E5djmsA"
+      ],
+      "regions": [
+        "ph",
+        "gb",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱110.00 - ₱1,900.00 per item",
+      "release_date": "Aug 20, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.technomagic.electriccity",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.triviamadness",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Trivia Madness",
+      "icon": "https://play-lh.googleusercontent.com/N_uYNEkNEtIo86n8wACSymVlNVTbeyYC4JEoedXIGfgU8-dPlS7QSwYzpKSwyPvpThRxpLab1WjgRqaz5XLIOA",
+      "installs": "1,000,000+",
+      "real_installs": 1615052,
+      "genre": "Trivia",
+      "shots": [
+        "https://play-lh.googleusercontent.com/2nSH7l5Wnk2KClB4LHyhodunwKpxBNyFYgKFsYNfHcapAPbeGjIn0Tczq_b7b8R5u5hxAbNCMHIlgn-0rHGcWw",
+        "https://play-lh.googleusercontent.com/5hqVQdA6JGU5tRjo1lL0Q9DF28xYFW1Rk9lOs1bYd3N3ayB3fWvi8QRKh_OX8V3n8kLjHEvlgd3_tdj09qOQwDM",
+        "https://play-lh.googleusercontent.com/8CQifuugAyRdUxPu_GVq3kVa9R_r4D7sA1WCixCThSOQsg-Rmj2xPFkp7ELzR_d1Ya8UvHHKS_BzcLrxzyZ--g",
+        "https://play-lh.googleusercontent.com/GLBnMXawfYi1j6BK8dbUL5bQdNZnEW-CvFAPnvtjDMH8uQMZb8uOHzgfKwK5SR4iFgrUpAZBhM3E2unKR9BCcQ"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 28, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.triviamadness",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tile.bonanza.match.pair.master.object.block.puzzle",
+      "developer": "Microjoy",
+      "platform": "Android",
+      "name": "Tile Block Jam - Puzzle Game",
+      "icon": "https://play-lh.googleusercontent.com/nqRN1luAz0k0UmBvxuYaSQWFspRnDQ3YAX8jU9-jcCOi-b7vmoHsQYjgpK-5bH70SxQoD0afLmt3RDcwCMDA9mc",
+      "installs": "100,000+",
+      "real_installs": 132837,
+      "genre": "Board",
+      "shots": [
+        "https://play-lh.googleusercontent.com/e0KXnbJ0zaNULXfDAAm2cilgFuNNEdZqaou1JKFFic-RAE4OrypVBw0GaKY6DDEBGolE7igdAW4Bs3W07RFgQP0",
+        "https://play-lh.googleusercontent.com/upZE5vEPnpR1W6PJAcRJi6O2ujjvfbXomWDi2nZ0ztBJId__Ow2o3s9241QAa1tHKOhK-eaojvvK9NMhKJYLdA",
+        "https://play-lh.googleusercontent.com/LLEca6OdfmZEIciN3v1qMdzb1jOoaZVuQ8UOY2FO39olpQnPeu5IGtKincK3qWq8EqESUn1idpg1CVEC6NYHig",
+        "https://play-lh.googleusercontent.com/cY_7rIOxtAZ0mP6Mo5TQiFeeConhFd8qYW5m04B8iYDYehFuU5ErOzLF40b54hcho4a3jGtFhqsGqPHBQ7wgKZI"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$509.99 per item",
+      "release_date": "Dec 19, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.tile.bonanza.match.pair.master.object.block.puzzle",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.superplaystudios.dicedreams",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "Dice Dreams™️",
+      "icon": "https://play-lh.googleusercontent.com/5MLgC2WWXcq1Pol8qRAXOKzIJY9qySkjF43DnWyd5F9fPj_heinHeIxvgIpPQwcaQ1w-mUzUmoP1Xeslf29irg",
+      "installs": "50,000,000+",
+      "real_installs": 66654480,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/y682vRbnQJwYNQvgRdkaCgpOFZ0q03dVwcj1NuYFpK-KyKnJvHHqvestAE1WS0cP-tw-6kY7VTug7mJKN4D5sQ",
+        "https://play-lh.googleusercontent.com/5wR4E-8K6Em625Au7Oqf_5oizOR4XVyVqq_pYWCiGf7kJOh5bmqhlDlyJgXHoylf84V5hzu5YpJCJyQb6bSSJuU",
+        "https://play-lh.googleusercontent.com/KI0hsCkKKrIFwNBEJzBOi5BRuZaFheiq8GWKDsVPbwTFTgzZ1PQZgmwdqNkLgV5U4bzIcBO6iKO480yVSX9imqY",
+        "https://play-lh.googleusercontent.com/rlozCKOo-Tk2XRzWkKaHm7BawJqrkMspQGgdABIZ_BoQqXRh1fWFPgDFS3NQCrXq7LkTuH0AroKssz_Qz3PWpg"
+      ],
+      "regions": [
+        "ca",
+        "id",
+        "tr",
+        "gb",
+        "br",
+        "au",
+        "ph",
+        "us",
+        "mx",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.39 - $499.99 per item",
+      "release_date": "Dec 3, 2019",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.screenshake.dominodreams",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "Domino Dreams™",
+      "icon": "https://play-lh.googleusercontent.com/KPBcFtNGNn3cMtgFthtbrWL0COVs5bINj1aQYniBa6JxgI-FAkce2czhVONttEtLQXnfd0X5rHA6YGMHp3nfWw",
+      "installs": "10,000,000+",
+      "real_installs": 18904224,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/jukbFRIm9fMZaywXTpSb2WEOTStmmW4NTo_TYjzqFWBC2Nd6hM7aBrClkH8vq8HPiZm-p9c_j-yNdm_k_Cbz",
+        "https://play-lh.googleusercontent.com/jhRe_INnlR42WOpBu50WzacJiE0j4EOrOqFNdxzk6r7vvjMei6GbpkKOsiEujOtFauxX4g1nvKKHiooK7XoJZA",
+        "https://play-lh.googleusercontent.com/73v23C8ex0ig8iJPqNC7A33a6iDkbO4F-pqV8phmLmlIbfDXTgbO3PtyRrFP6hv-0ltBFQpp6H6eZ20muDg53Q",
+        "https://play-lh.googleusercontent.com/wYCG-ApFaVoRovkJahJiWhxIuMQ6yKqtLymmwr7hEH0FKFZWjC9kb2cbeqq6lIn-ZgAGj6ZvbRh7UElWZ8DdBQ"
+      ],
+      "regions": [
+        "ca",
+        "id",
+        "tr",
+        "gb",
+        "br",
+        "au",
+        "ph",
+        "us",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $414.99 per item",
+      "release_date": "Jan 10, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.screenshake.dominodreams",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.superplaystudios.disneysolitairedreams",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "Disney Solitaire",
+      "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM",
+      "installs": "10,000,000+",
+      "real_installs": 18325936,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/vPrs7AcAXSV5mn9nxNwu2UbvTZncptFYmpM4dSbCV7EtGjjThnQ9__n4NshDDFHS_6UdsE7iBHGleHtKGzBUGw",
+        "https://play-lh.googleusercontent.com/p9kt8lQnFFPBWn1aaQdcXp13ur_CmKOXEkqqZyLKFKbd6ogIyjgsKuxYnXcdrITV5FksAmvZ_nuucVfZelySKA",
+        "https://play-lh.googleusercontent.com/L9HCijaQzWv1HRq4nixNqTqq_caMwn0yDtWaE6ZycFWXQEZjHBRKJXSzG6Z6w3kwPxegFe40hoQjOM1AdSMYxA",
+        "https://play-lh.googleusercontent.com/cu_LZxpEmjp1DEG6GaCJtzzxlIZyjS8y_2ql61Poze34nGqzHFcn3I8kZU30_wcJuUmMYDL0EFzZWbkGuQ04gA"
+      ],
+      "regions": [
+        "ca",
+        "id",
+        "tr",
+        "gb",
+        "br",
+        "au",
+        "ph",
+        "us",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $209.99 per item",
+      "release_date": "Apr 16, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
+    {
+      "app_id": "br.com.brsuper.superplayer",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "SuperPlayer BrPlay",
+      "icon": "https://play-lh.googleusercontent.com/yjyFzI-f8yqHdS9sXDVCI9c1X5BVEZ_GCBYXDqWUhbDIbbNUPSSV4pEfPahKv0sm4Ebt8I4dkO1KNGJrdxaWtQ",
+      "installs": "5,000+",
+      "real_installs": 7752,
+      "genre": "Entertainment",
+      "shots": [
+        "https://play-lh.googleusercontent.com/I0gIDiJh5Vl_WColA5bQdC8om8TmIqlYPm0Ysq3lSRpAmOeyAf3imfMM97i1B6LP90DUthzzvaFhL3KXXtp0g2w",
+        "https://play-lh.googleusercontent.com/Rn4rcjyHPQllQAa1ccmdUxvTCfnmSKcT_wa8TKEQwUb1TPfxBveyAGDqclKfT1IphRvY6VoDg6HI6i5U45XiJNQ",
+        "https://play-lh.googleusercontent.com/sDMFvlT0qHdiEcvvdg9SCD7lt-HgY9Rq05CZBvY29Kk5fdjsOJ8GLaWa1oQSdZ9d5B5-x_pOMjUlkztsGGMM9A",
+        "https://play-lh.googleusercontent.com/4b_-reFhcusZ2TlkwP7ICDID-TF8EW-MUYySWSzWMjhwecuoeN0FFDjbaZQqGXumJ9UUej4gDr8zIGt4GqMi"
+      ],
+      "regions": [
+        "ca",
+        "vn",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Oct 14, 2024",
+      "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.superplayer",
+      "found_date": "2026-07-24",
+      "velocity": 0
+    },
     {
       "app_id": "6783189461",
       "developer": "iKame",
