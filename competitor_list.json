@@ -12560,9 +12560,11 @@
     "null": {
         "name": "Tile Clear - Puzzle Game",
         "regions": [
+            "us",
             "gb",
-            "vn",
-            "ph"
+            "ph",
+            "id",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -26134,16 +26136,6 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "us",
-            "gb",
-            "ph",
-            "id",
-            "vn"
-        ]
-    },
     "com.voxelcube.dropblock3d": {
         "name": "Drop Block 3D",
         "regions": [
@@ -26291,6 +26283,42 @@
             "ca",
             "vn",
             "br"
+        ]
+    },
+    "com.abi.jigdrop.puzzle": {
+        "name": "JigDrop: Puzzle Gallery",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.abi.gem.loop": {
+        "name": "Gem Loop: Truck Escape",
+        "regions": [
+            "ph",
+            "vn"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "ph",
+            "us",
+            "vn",
+            "gb",
+            "id"
+        ]
+    },
+    "com.red.hexaaway.android": {
+        "name": "Hexa Run - Block Puzzle",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.tripledot.blockssmashgame": {
+        "name": "Stack Smash - Block 3D Puzzle",
+        "regions": [
+            "gb",
+            "us"
         ]
     }
 }

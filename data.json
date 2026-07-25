@@ -1,6 +1,108 @@
 {
-  "updated_at": "2026-07-24 12:27",
+  "updated_at": "2026-07-25 12:23",
   "games": [
+    {
+      "app_id": "com.abi.jigdrop.puzzle",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "JigDrop: Puzzle Gallery",
+      "icon": "https://play-lh.googleusercontent.com/0tvIkf_W4NdBF0j_46R8AWuvPzj6E9BPP8DT4zaJ8xUWhQUYpem0KItSofCWZUajmnLOENvlEJCO25tzPSEi",
+      "installs": "1,000+",
+      "real_installs": 2434,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/RT-HsM9HnmTAKfawzMpLlYGosN9KYWpTXGFW5bZzjSr0r-bDFihwODJoGG7c6PS2o3WPbFHiPbQQ6gaIxNM9",
+        "https://play-lh.googleusercontent.com/aZK_LQPqeeUytHcHCrF1m9ozcZOQ91St4QuYOAiUNwYTRxxh5VCLL1OogPi6poYqYwqpBuBcxk55_RQjbQz3GtY",
+        "https://play-lh.googleusercontent.com/bJoenk336X7tuJLSPyU-rHfMEdpG32Z-qNgQW8fjSdRwKdQY-ot9qlRpL8nyMUx3AgeED_2sZGtYs0Yxrsvtv3A",
+        "https://play-lh.googleusercontent.com/lDXavKiiOcAaMg0kXn_OethPC1p8iK2xvDxQOx9TSgkuKU5qAhwIKgdbcDwD-RlW3o9NIMoSdFYAeAJTG1mckkU"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $99.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.jigdrop.puzzle",
+      "found_date": "2026-07-25",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.gem.loop",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Gem Loop: Truck Escape",
+      "icon": "https://play-lh.googleusercontent.com/_laljbYITbCVS-cB5xqGrcAKkeY2nDWpaVwE7fSWY6h00hyU6tD_qLqq30AYVyuxY-nBm7YVuvtUaPmcEQLOTwo",
+      "installs": "1,000+",
+      "real_installs": 2626,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/psrclXPCnuHD_286uDw0gji7pL5qFGpPH78j3RhzAebK4JtJJupKRezRu-K4R8uAoeDS3g6Ze39CylsolDcW7Us",
+        "https://play-lh.googleusercontent.com/VeyAHCID7h_FQOeCI8t92c4Y0lQJ79NqBkP5Omi7g4E_-_i9K0fmxs3VVCk4Nzn1bZ5MhcDfGr39cmAuYx8rlw",
+        "https://play-lh.googleusercontent.com/sA-uojeR_gbID_FrqNFPNUZv_Z25zD0Hlj2iarrt4HknOqqoW5_ZY1nes2en--vZgSe_jHIN2OghCogvYWeJ",
+        "https://play-lh.googleusercontent.com/9ECKvT_GqswcnpGRyJhq3M7DYsQce42yvDZ9kEBmcK1bx3wy-f_6iE2rLzP4v9G0t9P_kmu7y5E6rwwT8u49wuM"
+      ],
+      "regions": [
+        "ph",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱68.00 - ₱6,900.00 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.gem.loop",
+      "found_date": "2026-07-25",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.red.hexaaway.android",
+      "developer": "Red Infinity",
+      "platform": "Android",
+      "name": "Hexa Run - Block Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/XYy-7m-knyPIifJVRjFJhs_FSxGCOZuOOK-nxRLmjg9Q3716O4SLrPLX1neBQYVO1g5QWxc9B-XgadoOG5eq0w",
+      "installs": "100,000+",
+      "real_installs": 190081,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/t-5q_re-rqQrMe3aC5DdsYAjIsIb0QOhrYfOJ_67KQSslTaaKJZZIWOgiLczJAA793GMSuLZORgqLJtzM37GaDk",
+        "https://play-lh.googleusercontent.com/Ln4Zf2-UU0k7eB6M8LZGQLz8Aw4sVYrJ3pgvFdLLXwC3DbVswgJ_TNlNg_aMNHJqBB67Wa4rWXuiTe2EXuCu5A8",
+        "https://play-lh.googleusercontent.com/QgXBHo29QIWw01lNsQBDCXttNHKB2HnhO-Qgcpg5eAiQ0Buk1a5pdiof8zr1ielLyuhz-q_-7hM-stK__bOTvA",
+        "https://play-lh.googleusercontent.com/98JUHSN4i_QUuuvGJVIt-J-CRhPGt0NtatPDRDVimMFSPPgf_hPAt5wV7rasp7AqdY_-kV5gz9rsmst0BHyGpQ"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$3.19 - $169.99 per item",
+      "release_date": "Aug 7, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.red.hexaaway.android",
+      "found_date": "2026-07-25",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tripledot.blockssmashgame",
+      "developer": "Tripledot",
+      "platform": "Android",
+      "name": "Stack Smash - Block 3D Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/ZokGuQq95KXWg7Oj_Q-CTofEh8V4gci8t9zqd5bk_iy11QJq4Q9KDjWKsOJ1rab1A2WaeJTyrDk4nFdBv1P3",
+      "installs": "50,000+",
+      "real_installs": 73281,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/eYPRQpGuqMqRYyi4vHNuigU3GI-jfw83BO4KASoYDTkqvwcLLLb0WLo9fy6Hd6v2fckdBBhOBLDLdhsDK5fzHw",
+        "https://play-lh.googleusercontent.com/abSqdCFaxPic3SfDEuH9bANef16EHYfbMCrGyuq6vacQCOa5jURUMkZiPgN6zQ_2-Qkv7zsAjIFm2CZCjQdztw",
+        "https://play-lh.googleusercontent.com/_SmiFvoVBvdSOi3eejLSTzLYQavg4--4PQHAB_KYMA7OefJ_dV7Agqs3jid416vbTSjeUhgKiwDfpUhF2rGZ",
+        "https://play-lh.googleusercontent.com/TNFc8WzMUkZOs-kGqQaXJrTvSQAcN8v6lSDtzdZnjOrqciFgq8NOwbdn6QE36oZsb1fmbKVaJhyzkFClRY95rQ"
+      ],
+      "regions": [
+        "gb",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£1.79 - £89.99 if billed through Play",
+      "release_date": "Jul 13, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockssmashgame",
+      "found_date": "2026-07-25",
+      "velocity": 0
+    },
     {
       "app_id": "6759648322",
       "developer": "LIHUHU",
