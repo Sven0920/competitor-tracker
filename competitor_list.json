@@ -12560,11 +12560,11 @@
     "null": {
         "name": "Tile Clear - Puzzle Game",
         "regions": [
-            "us",
-            "gb",
             "ph",
-            "id",
-            "vn"
+            "us",
+            "vn",
+            "gb",
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -26298,16 +26298,6 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "ph",
-            "us",
-            "vn",
-            "gb",
-            "id"
-        ]
-    },
     "com.red.hexaaway.android": {
         "name": "Hexa Run - Block Puzzle",
         "regions": [
@@ -26319,6 +26309,21 @@
         "regions": [
             "gb",
             "us"
+        ]
+    },
+    "6764274054": {
+        "name": "Vita Sort",
+        "regions": [
+            "us",
+            "id",
+            "mx",
+            "ca",
+            "au",
+            "tr",
+            "vn",
+            "ph",
+            "br",
+            "gb"
         ]
     }
 }

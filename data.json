@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-25 12:23",
+  "updated_at": "2026-07-26 12:36",
   "games": [
+    {
+      "app_id": "6764274054",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Vita Sort",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/71/a5/2971a5ad-b200-3c14-a38d-bf856e64fecb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Card",
+      "shots": [],
+      "regions": [
+        "us",
+        "id",
+        "mx",
+        "ca",
+        "au",
+        "tr",
+        "vn",
+        "ph",
+        "br",
+        "gb"
+      ],
+      "size": "307.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-25",
+      "url": "https://apps.apple.com/us/app/vita-sort/id6764274054?uo=4",
+      "found_date": "2026-07-26"
+    },
     {
       "app_id": "com.abi.jigdrop.puzzle",
       "developer": "ABI",
