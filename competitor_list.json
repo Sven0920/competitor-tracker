@@ -26325,5 +26325,62 @@
             "br",
             "gb"
         ]
+    },
+    "6781525746": {
+        "name": "Zoodoku！",
+        "regions": [
+            "gb",
+            "us",
+            "ca",
+            "ph",
+            "br",
+            "id",
+            "mx",
+            "au",
+            "vn",
+            "tr"
+        ]
+    },
+    "com.seenax.HideAndSeek": {
+        "name": "Hide 'N Seek!",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.blueberrygames.gamel": {
+        "name": "Play Colors",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.PlaySense.BulletArmyRun": {
+        "name": "Bullet Army Run",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.DefaultCompany.StickyNote": {
+        "name": "StickyNote",
+        "regions": [
+            "gb"
+        ]
+    },
+    "com.uniqcko.ColorDots": {
+        "name": "Color Dots",
+        "regions": [
+            "gb"
+        ]
+    },
+    "com.Rastegar.ColorMergePuzzle": {
+        "name": "Color Merge Puzzle",
+        "regions": [
+            "gb"
+        ]
+    },
+    "com.puzzle.carmatch": {
+        "name": "Park Match - Car Jam Puzzle",
+        "regions": [
+            "gb"
+        ]
     }
 }

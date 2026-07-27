@@ -1,6 +1,208 @@
 {
-  "updated_at": "2026-07-26 12:36",
+  "updated_at": "2026-07-27 12:47",
   "games": [
+    {
+      "app_id": "6781525746",
+      "developer": "Nebula Studio",
+      "platform": "iOS",
+      "name": "Zoodoku！",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/bf/ac/20bface9-8e64-a47c-3600-32404b5de81e/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "gb",
+        "us",
+        "ca",
+        "ph",
+        "br",
+        "id",
+        "mx",
+        "au",
+        "vn",
+        "tr"
+      ],
+      "size": "165.8 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-27",
+      "url": "https://apps.apple.com/us/app/zoodoku/id6781525746?uo=4",
+      "found_date": "2026-07-27"
+    },
+    {
+      "app_id": "com.seenax.HideAndSeek",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Hide 'N Seek!",
+      "icon": "https://play-lh.googleusercontent.com/P3-bPJgDEoCXJYDeEF6J8FwJ3tFWM-6xG91cq5ImKZsJ8WkoWYkYF2BCLSHOvSwbvTXh9QzPSbILDOQko7IFjGQ",
+      "installs": "100,000,000+",
+      "real_installs": 276244949,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/BwnEbrMfMiY4tgE03isQrM4HqwbGe1l3qxxlRij5WXYYdFYYWdfh-CXYfui-pVG2-jPkBs6qlaQBLdgTEZdj",
+        "https://play-lh.googleusercontent.com/59iuhHN_3j9R0O48pzAX7YfVSJMLoqydJguW2WN2eHq0zHEl_1jZnrYofw_CLMylnoGSs0phOyO75ton_qKx",
+        "https://play-lh.googleusercontent.com/OtD5xMqRdKqR4FySGatvBqlyDjNXPBWs0DFCk6MUyWmPxBDYA5TSPM3oWEeWytKByeToIUlomfCbLPAByTbi",
+        "https://play-lh.googleusercontent.com/_7Lx_lCapr6pBhipE2PUqFb4C0BPGAwoVBdqyYmqJmdv1pVBl5viH-1LuOlKcghnIUemAd9jsNTXVHW019QD"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.49 - $17.99 per item",
+      "release_date": "Apr 23, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.seenax.HideAndSeek",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.blueberrygames.gamel",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Play Colors",
+      "icon": "https://play-lh.googleusercontent.com/STt_TH2MvNTNqeMnoDpJ38506afTRIeeHgkwbPhA2y28dU8ojfHmtw2Q1VFDwY2qkJaUg7Is2Q6FKr1CKTMZ",
+      "installs": "1,000,000+",
+      "real_installs": 3543955,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/2oYShfQsQkNsYh69oVi0a_EomYvtsrGlZu5voP9JMe2Rm-brM14qVZp9j6H_KmYzyPMfxa1AmGlFA9ny-WgSuw",
+        "https://play-lh.googleusercontent.com/tNlTtfgYKNurG7adGe6-1bYPUUqAtsqAOsyZMA9KwyU2FeeZAip54xCS6AqpS2fLIFbuL5WkW8X66dDVv0RI",
+        "https://play-lh.googleusercontent.com/K7DC5QgAqozxyUYf5vld8A9lfjogITvLBAQpbEVed3690s-_Rpe8HFm2IVfmxsQS1rndecV7nmikvYHKOIr_VA",
+        "https://play-lh.googleusercontent.com/VDHv_MWks2hdkSnHrd1fjK7BmVdVsbCr8_HFqzs6B-fIJ7AafpGLKVs3k_9N3hYJLdgYWHooSHAplSgvRpeliA"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$4.59 - $8.99 per item",
+      "release_date": "Feb 3, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.blueberrygames.gamel",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.PlaySense.BulletArmyRun",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Bullet Army Run",
+      "icon": "https://play-lh.googleusercontent.com/0MGTffsw0osaWKlkEyMLosG-c1NDmbgOQxihjT2eNWt4qvFelvmJKvUQhKx-a9ecAxuWiLfqwP1Actpu9wjjWw",
+      "installs": "10,000,000+",
+      "real_installs": 48494396,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/LlzovyJ4t3CHUXoXyuOy0AsLNlIDuNZgeq6HaiTBZjILFE6MvzqYPINGhSDhCbNdImYo0nTu7M3JLA8Kqga8",
+        "https://play-lh.googleusercontent.com/OVtNT6M-H6mpq7brNvYqDmurdBnNrYAfHSJRDusQB-TqyQupQWNX7rcvkIgUZqqoHPn30YxOA-XrsSg7j8zR",
+        "https://play-lh.googleusercontent.com/m-suIiBNO2G0zv0QnHq5hr5WnYoQrjOCI5th1Lyp6azeHInuEeuRIweAJQYDt1sFSM1cLoNqHtcp6PfDPbEthA",
+        "https://play-lh.googleusercontent.com/tumzqVWqTVmGDL_0rO_Qe8dPsXenDLn68tOy4jTb8BSvS5BdpLePB6uO-fjo9X2VhCpUmuwsU_WvtpnrVJPW084"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$6.49 - $12.99 per item",
+      "release_date": "Apr 16, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.PlaySense.BulletArmyRun",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.DefaultCompany.StickyNote",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "StickyNote",
+      "icon": "https://play-lh.googleusercontent.com/8kLk6EfFCjkYzPaZdcty3s-0QILhNp5V6AyBYFbeQsZCxv6B0VaVge2ConH7pr5nyyXvMe4tyB2lK-0Baewc",
+      "installs": "1,000,000+",
+      "real_installs": 2332139,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/NItEwZcCP9OeLNp-QjaC3AFI8TfGsNzVAXnuQVyx8Rea9oqVxuk46yDOgO50zDi3NWNCYWpP1J6goZd941th",
+        "https://play-lh.googleusercontent.com/DKC5W_Lxtx88JUiqEd8Yv7SbZtk0R9w9tvFQ7lNFjC_ERFoiCpPKIXR-UhTVJ5wtPh7_9RDeSZWy50ARLEPSbg",
+        "https://play-lh.googleusercontent.com/0Q09lkVbe7oIu7yoo84MLgMUffX-MD9oaUIECi1BkaftXmpGmA2swQuxh3bGaU_Uy6Ob0lQQbItO6yNTYOXvPw",
+        "https://play-lh.googleusercontent.com/HahivwtQ0QF4a8r3TnEi69tUMQcSFCkpOClD1EE_6lAUazeidWcKWvAeUOO72sj0N-MZN0wF728dN0Fo0tgT5Fg"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£1.29 - £46.99 if billed through Play",
+      "release_date": "Nov 6, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.DefaultCompany.StickyNote",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.uniqcko.ColorDots",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Color Dots",
+      "icon": "https://play-lh.googleusercontent.com/KdcU0hIiPkQYQiCb9_joOzPmoGTNd809djZRZo7Ldu-LaaNfD4mklJdSJ81w36dYhX7IddUqUfafVpoZXqGXKQ",
+      "installs": "1,000,000+",
+      "real_installs": 4253221,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/dmUz7-R9fd4JABGgjNOIk9mVBHdknrQjJlapSlsKk3KCLy2hQmVXNnpi5RBMRVqnRYA1f0lewdnCFIw72eS-4w",
+        "https://play-lh.googleusercontent.com/wxzbtN6jsML77jqtaj1HHGED48f5x5eU6MTFUaUdbwEMsapi3gXPbYJduqI7LBU3SIyCEhAgmVuMocNm2RIPGQs",
+        "https://play-lh.googleusercontent.com/pMScIG6WFSWttTkyZzoNuQKZ5v8A4-CD6g0twDktdqyeP6CBUZfqLIF99AfbuYmabj5rJ-nOXeP-BnGHMDA3",
+        "https://play-lh.googleusercontent.com/ndGnhWrBsg2WtZ09JnmDHzIaV9U35kFVF_XRyVxw13kYluEr1aimFf1V-e4WytnVaklvk3--MyTfuFrgME7Jhg"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.79 - £9.49 if billed through Play",
+      "release_date": "Aug 14, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.uniqcko.ColorDots",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Rastegar.ColorMergePuzzle",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Color Merge Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/DOY0oZDXMCc_VVY8L2r5vT2MtKbe4IsLwc51mIWhvA4fbU9DcrOpL1bqTWKD6daTKCBzwTlGGygisIna1PFC",
+      "installs": "1,000,000+",
+      "real_installs": 1171774,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/MGhMGYCUEmHh1zWCp7S61_3bxiNksLQVnL1u8NKKrBzrOhesfwEiNj5AUVH2HwaPo6adQpWXqVS2NNdj4hlUkbo",
+        "https://play-lh.googleusercontent.com/ORB_3mfxAzRtJBWBuyTCVD-ENLs_kV__UG3-Mdh11QpJoEpLjm5agB73cYawjBtQF37M9wcydrVSGJFTzT3bHiQ",
+        "https://play-lh.googleusercontent.com/6QkTu2iZR0Q_W1GFJdjcmFLo78gvL8htReC3m_ZWIZS10MfSFUCAg30RAzm9If1dIh6Zf48vYLaQeEewPSEpwk0",
+        "https://play-lh.googleusercontent.com/3bOx5iacGUOv7M8QthLE8beTxv6L74Gd2IHYGvyv-3AqEHHcAr_DhW4UN5eeN0bPJglMBSHKNPu7bQQsfA4RQ7A"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.69 - £97.99 if billed through Play",
+      "release_date": "May 31, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.Rastegar.ColorMergePuzzle",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.puzzle.carmatch",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Park Match - Car Jam Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/40WEECvKCUl2000on1-sAoEq03Vxjw-Jlp23xCs-1G82d4SCG0MRi2c-ZrR1ujdBzJbJaoo8lN4xqHEDrnzb",
+      "installs": "1,000,000+",
+      "real_installs": 2120819,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/zAjAMztHJHnBnLFHIutDH5h0uP6MPHPSyOivBpaExpXJa76AF2LduK_602_9SvFv-LnKazMlUeruzfgc4TPFe0M",
+        "https://play-lh.googleusercontent.com/0a9f9StxE7J_-SJIJrWwWJ_ZN07Z-K_9-2MkzN8iMOV6L_6rdcmSZkiqdCbh9yj4_fLUWKnv6ypS7u_RO5qVdg",
+        "https://play-lh.googleusercontent.com/XY-LLCYS7mMQ511XD6XJoIY_0iiK7mduvqbHtQIUUci-sAZS0cZ5N7VuNnfa2mzD3LDiA4HKLW232dt02dS7cw",
+        "https://play-lh.googleusercontent.com/tqolphWMQcPOd7s5MKddTHIePUsraJ-rTcy8LL46WL0n_3BoxwT1gqCVw17j4paSsIqp1nMf7TtbVMKMP9tpCg"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.89 - £96.99 if billed through Play",
+      "release_date": "Apr 21, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.carmatch",
+      "found_date": "2026-07-27",
+      "velocity": 0
+    },
     {
       "app_id": "6764274054",
       "developer": "Learnings",
