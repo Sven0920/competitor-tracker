@@ -1,6 +1,139 @@
 {
-  "updated_at": "2026-07-27 12:47",
+  "updated_at": "2026-07-28 12:17",
   "games": [
+    {
+      "app_id": "com.pleasurecity.find.differences.spot.difference.puzzle",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Find & Spot Hidden Differences",
+      "icon": "https://play-lh.googleusercontent.com/NCU7Fkyw-fpP_P02mMV95HGVHpf1yjo1b5-WnI24wZxyuWxBS_WSqId_t6at0G0H4KiPXcrDFD-0I8J46YOTeA",
+      "installs": "1,000,000+",
+      "real_installs": 1057172,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/KeOfEK82usurGHNudRX-3SJ1J6681Ll7Ve137u2S2QVyYgKXXpuwDHFK1qhDY5KGyPInRDWKeczIRj5phgtSkQ",
+        "https://play-lh.googleusercontent.com/gkC4ITdIAL4zj-mAAx_y-uUhIoPQ04RmxBBL4ONPt3gyloiModrccuufPYUBgYRvrRvR0kvZjLWwdzuUgyf5qw",
+        "https://play-lh.googleusercontent.com/KOlCWMZKrUjZwxisQz67EZuEuE72VWceg_Z5Xdj2Yf5oCs-5OFENRHs5_AQQf7Ak_emYrL5Clg0v6FiQ1RUZcsI",
+        "https://play-lh.googleusercontent.com/4HZUWygH-oTvI6_XywJR14rm-MD5Qrer1sPEDcTWaPbRlqhsY0ZON6twVYEgdh-4cNEGRG8yGIa726KtaApJ2Q"
+      ],
+      "regions": [
+        "au",
+        "mx",
+        "id",
+        "br",
+        "tr",
+        "ca",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Oct 19, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.pleasurecity.find.differences.spot.difference.puzzle",
+      "found_date": "2026-07-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.grill.sizzle.skewer.sort.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Grill Sizzle: Skewer Sort",
+      "icon": "https://play-lh.googleusercontent.com/4B8o2lo351AyDl1k1NPp0LQpA4yOwZuZFO_o4nijYdQAotBAzXYG8CLlp8WRvPdtLB1z8L6mDv1ogoNTBYFVyw",
+      "installs": "5,000+",
+      "real_installs": 8278,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/NWkd6TWVoqQS5BqY6DeRw6EbcH0_2GyoWM0lYeUpIHvvl1-96QwKdqV5U-0uenwOo_4HFIHGNKQcXG7CiK91",
+        "https://play-lh.googleusercontent.com/_Nnt4fE2ZS7SPSShmCBT9RiVdgTU9at5_rSiDuupBqoOPN_GzpTscCJAlira7cgM_PkJX3jF_rWqL6ni45yP",
+        "https://play-lh.googleusercontent.com/C4CMnylOm7j1KmllFPIchuxAU7DUG3-cTueDADes9k-EjRET6FRE5YQ2atQucbM2bK7NvZ4Z8FCGPKHnO-iVog",
+        "https://play-lh.googleusercontent.com/C2-UtdTusqGlwr7I13_Mi8cM8mA9PTBb4loYuTWIRlXthQOuhGdHIhn_53Qhqdxf7ZLiDi8P-eoErCHvDN7V3mE"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $99.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.grill.sizzle.skewer.sort.puzzle",
+      "found_date": "2026-07-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Deven.PerfectArcher3D",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Hit Perfect 3D",
+      "icon": "https://play-lh.googleusercontent.com/sOhsP3PVrBDZ6A391a9rV2RDwyxYG7um74OMOGRYbX3zVJSg1bWi3-iuKw7-1x28Y7zlyK9g5I0vjbeTAy3uqis",
+      "installs": "10,000,000+",
+      "real_installs": 32844720,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/MFkLFQCQMTReVKWWDyUUJbo3HCFS0sIoTyVY0KuGllaQpeAGQZm3UgLdPwOOEv4RVSzqrlurn5jTflf1LwALEw",
+        "https://play-lh.googleusercontent.com/vo_wpR658z3BfzaGBJx_OP_9Z86pcIiA0sEnvAXkxvwqASYqWH6k86f7w_v1jktIe7Ks63lY-m-GnwUeL7jrkGs",
+        "https://play-lh.googleusercontent.com/StT-_CsxS8c5q0fT5pa43S4c-z3XOje6jzP5VIxWV7JWeTss-5FbPu0qzk_8AQvEncorBx2JLvf1HQQt9M0G",
+        "https://play-lh.googleusercontent.com/Y8w9YovkCl_Ozp9UVUXekdMw8pOJo1AfPTZqoMt1BKl1aWcfVXWibuB4QsasR1_fcXtYNtdxIe5piZHvdekL"
+      ],
+      "regions": [
+        "au",
+        "gb",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$3.79 per item",
+      "release_date": "Sep 23, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.Deven.PerfectArcher3D",
+      "found_date": "2026-07-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.paurau.SlowMoRun",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Slow Mo Run",
+      "icon": "https://play-lh.googleusercontent.com/NSA167OCawmSOtWkr_7XL65_pT2uVO_bXC_x1WrmKP0NF7yt8qKIXlrBBAK7wIXDLOr6HAdZDyfCg_QQYknO",
+      "installs": "100,000,000+",
+      "real_installs": 103933400,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/VTDB1CTXLDJC-hsTuuUToY60l36SLwkggys-ID9jugfOToQ8rv33-jPaOPuLQ6kRCaLOeG6WeDVxRMsYoH5lTnE",
+        "https://play-lh.googleusercontent.com/FkPPoct-3i09gVtKpH086R-AUr_RJndVbPnqtDB20xLYuKMJd5hJZZMm08M_RIovBkoY37QhgmV5EmHRkUGQog",
+        "https://play-lh.googleusercontent.com/5n9oqM12g8BCUEMVAf8eOcezGxAUaCemWBxemBVXkSNgIJ4YvL6HHiK6DYS5UhaL4Cpllwtpfi_CpTSW9Rpmacg",
+        "https://play-lh.googleusercontent.com/mKsiHt5vWc0dD1cdtl9LGyFerMwSsPm9KC-gS8I_2r4G9xdjcWKQO1pNK8duw78MTHrzPxBRbtGkMRbqiU8iQg"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 60.000 - Rp 87.000 per item",
+      "release_date": "Oct 5, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.paurau.SlowMoRun",
+      "found_date": "2026-07-28",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.crazylabs.hair.dye.challenge",
+      "developer": "Crazy Labs",
+      "platform": "Android",
+      "name": "Hair Dye",
+      "icon": "https://play-lh.googleusercontent.com/v10pz5M4G5wfAgk4weHVYrOBAK1e24TWwfwJgsZM3A4QQX2QAR6xbBmclb-SCv7n6BX0fqCfiD-uROsXwWMaZw",
+      "installs": "100,000,000+",
+      "real_installs": 103343824,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/FuGS9i4xByZ20xu7YGaEWqMVLry1TaIn9DSoJHdxeVCp6IZMgRLUaiuTLSd6_oOLLfxSGbR1MLa7UYap_5nWduY",
+        "https://play-lh.googleusercontent.com/t2B2AV2tizEYqkZVvvwq1WuTAeRMTcHU1xX5IXMaiWGLWY9pjssaIl07pu49QB8sJIDqtUQefRotvYQgEQmX6Q",
+        "https://play-lh.googleusercontent.com/JeeQQM2soqwFS0ZPVdyWFeT8jNadJIS2NcEzYqd8wLNVJWO9iQP1197cNNH8rYHONealnGVRCVRwMEXchXxwdw",
+        "https://play-lh.googleusercontent.com/e5aQybFEtzyAl4KfFH15CxtBG57ug-OKhgZLvjyjQ5AcrqyX2PcJ8kxdqzsJMe_J_vKaU0rJNU9r4y58AJs6jw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 20, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.crazylabs.hair.dye.challenge",
+      "found_date": "2026-07-28",
+      "velocity": 0
+    },
     {
       "app_id": "6781525746",
       "developer": "Nebula Studio",

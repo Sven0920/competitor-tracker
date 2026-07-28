@@ -26382,5 +26382,43 @@
         "regions": [
             "gb"
         ]
+    },
+    "com.pleasurecity.find.differences.spot.difference.puzzle": {
+        "name": "Find & Spot Hidden Differences",
+        "regions": [
+            "au",
+            "mx",
+            "id",
+            "br",
+            "tr",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.grill.sizzle.skewer.sort.puzzle": {
+        "name": "Grill Sizzle: Skewer Sort",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.Deven.PerfectArcher3D": {
+        "name": "Hit Perfect 3D",
+        "regions": [
+            "au",
+            "gb",
+            "id"
+        ]
+    },
+    "com.paurau.SlowMoRun": {
+        "name": "Slow Mo Run",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.crazylabs.hair.dye.challenge": {
+        "name": "Hair Dye",
+        "regions": [
+            "us"
+        ]
     }
 }
