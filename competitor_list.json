@@ -26420,5 +26420,65 @@
         "regions": [
             "us"
         ]
+    },
+    "6790303756": {
+        "name": "Royal Splash: Tower Blast",
+        "regions": [
+            "us",
+            "br",
+            "gb",
+            "id",
+            "au",
+            "vn",
+            "mx",
+            "ca",
+            "tr",
+            "ph"
+        ]
+    },
+    "com.fivebits.emeregencydispatch": {
+        "name": "911 Emergency Dispatcher",
+        "regions": [
+            "us",
+            "au"
+        ]
+    },
+    "com.spellbindgames.coastguardops": {
+        "name": "Ocean Clash",
+        "regions": [
+            "ca"
+        ]
+    },
+    "studio.tg.crab.life": {
+        "name": "Crab Life: RPG Survival",
+        "regions": [
+            "ca"
+        ]
+    },
+    "io.supercent.spinminer": {
+        "name": "Spin Miner: Idle Gold Tycoon",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.Albus.AwesomePark": {
+        "name": "Awesome Park : Idle Game",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.hungry.piranhas": {
+        "name": "Hungry Piranhas",
+        "regions": [
+            "us",
+            "br",
+            "gb",
+            "au",
+            "vn",
+            "mx",
+            "ca",
+            "tr",
+            "ph"
+        ]
     }
 }

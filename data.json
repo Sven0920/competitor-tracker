@@ -1,6 +1,192 @@
 {
-  "updated_at": "2026-07-28 12:17",
+  "updated_at": "2026-07-29 12:23",
   "games": [
+    {
+      "app_id": "6790303756",
+      "developer": "Moon Active",
+      "platform": "iOS",
+      "name": "Royal Splash: Tower Blast",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/56/0e/ea560e0d-aa0c-1f46-97f8-1bbb84ef9cb0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [],
+      "regions": [
+        "us",
+        "br",
+        "gb",
+        "id",
+        "au",
+        "vn",
+        "mx",
+        "ca",
+        "tr",
+        "ph"
+      ],
+      "size": "297.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-27",
+      "url": "https://apps.apple.com/us/app/royal-splash-tower-blast/id6790303756?uo=4",
+      "found_date": "2026-07-29"
+    },
+    {
+      "app_id": "com.fivebits.emeregencydispatch",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "911 Emergency Dispatcher",
+      "icon": "https://play-lh.googleusercontent.com/4u3nyX1MjsuQC2_4bZizpiv-blI7Y-aOd0VExDT_VKLxH8QbwKqNTLyrFUSuDR2Et2A7Fo5hwVBHeFt5KpTy6Q",
+      "installs": "10,000,000+",
+      "real_installs": 34356950,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/r21xgpLx-CRiKEHjzDvIDYsSic1Kln9yZtaJ_wXRZztL3pK7RVUp2mI3lvQvylbRNpoi2yJ8qLvRlibW1NmE_g",
+        "https://play-lh.googleusercontent.com/nU_DbusAkZKkgeK9468uRObi3MC0iV0Zacqi8jCZpTiWVKWdcVwsK2Ty7V4-m8eX-S7DNZGk_QyMhgTrVAkVew",
+        "https://play-lh.googleusercontent.com/_innCI5nNLIAhVOlloT1mMN37oxjzgwPjHtZlfKkZ1ygi3f9I8C6PDOkGF6QOh6nGXNPK27lIUbZ91iwFdZav18",
+        "https://play-lh.googleusercontent.com/DxuPAN3w4tIPHXi7lUIDgkwjrVOq8_ksRv6z6wGGNk64p9z98eqVno1QanAz77lsXldeqdAAOxCWds809hSIni4"
+      ],
+      "regions": [
+        "us",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.99 - $4.99 per item",
+      "release_date": "Mar 12, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.fivebits.emeregencydispatch",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.spellbindgames.coastguardops",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Ocean Clash",
+      "icon": "https://play-lh.googleusercontent.com/qDvxOZW32JpYS-RgYao_ayMTqhqTOhv9oz9bpipuXI9KZyV6gi2OIMUCco_97U9LLb8FQihDSustYri1PKI2Pz4",
+      "installs": "100,000+",
+      "real_installs": 218447,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/x3VYCMmStlRmtFPU1VhjszBdDzA8XRe7JtpS-9uFPSZoXyiAOdECV1aWcpoaYORHkUQh4GDRFMeXnrh2PJdvWTM",
+        "https://play-lh.googleusercontent.com/zvETnBDNrlCbfqa735MPB7R-wKr3a132dpjFZsACfGq1yFTXHtgFQ6pG4Htss1vUNP0krgV__EAc9o1X-4yC",
+        "https://play-lh.googleusercontent.com/0yraeIiyh0QdO1W73ZzVC2dEaoNxU_mLnmzFWhXulNcBWsGkDbGOp3QGK6jiHGHFgXlwYh67V84j47cIC8OQRA",
+        "https://play-lh.googleusercontent.com/5YVbHfhUr2C6cZQCtC1q74JkoBbTdpawVpQoJP-TN4ZNXiG357qqR5eVPEuggpaSD3D-inLLOSzBxDD6OqD1Siw"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 12, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.spellbindgames.coastguardops",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "studio.tg.crab.life",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Crab Life: RPG Survival",
+      "icon": "https://play-lh.googleusercontent.com/uT3A06QYAkwR5zdJC5zyW5bDfd5ukaBQ4x2y1-pnxiS-3FPE18xt-mxD3dJrq2qkR4B2OU1YkqAmJioMaMZoCA",
+      "installs": "500,000+",
+      "real_installs": 843928,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/gv0oPrP9l2uH7eXpYtpF2H4MeqBt9PyLvnJ50NRBcNaNK8uCAqIqYVHWlAjGmKMzuzXZu0WSgg2sJzRqM77daQ",
+        "https://play-lh.googleusercontent.com/FIVd7SIf48bCuzCbw92OzaAeunhIBtfd295KhSefWEzrEPThDVjDi5zcxRxlFmgXowwoYLNZ_0_1CT_XMF9Q",
+        "https://play-lh.googleusercontent.com/mgdrzpyRu-UbGO658Z0AoPElkEE1-qF4HT3BBPqBlrE_JEBRt50tz4PMo8t6DmYSE-LrIp9E1ZCk2GXdRitX",
+        "https://play-lh.googleusercontent.com/WowV03BF9MD2I18Mtnaty6GrqiUY0D8q52raKRh4-MfwG_wSrX-H5Snt0PudgewHAXLKAqmTLa94mWUMcwL7ZBQ"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $134.99 per item",
+      "release_date": "Jul 30, 2024",
+      "url": "https://play.google.com/store/apps/details?id=studio.tg.crab.life",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "io.supercent.spinminer",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Spin Miner: Idle Gold Tycoon",
+      "icon": "https://play-lh.googleusercontent.com/iPuzBybiFl4FVzDpTeP7WmxY-dnM7g_qQ7H9_HBES8Mur7rpL4srcVpv5nIYhPSWfjEyJFYzg6Qfy4YdnM6B",
+      "installs": "500,000+",
+      "real_installs": 571522,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/H2jQnmdeyrOQPgQ_ClGRTfwpiOaoWUz-BQz9xUI2ozvt6DCS3M4XcYfCTZZHkUiqG2SK6YuViTbLZqbI7xTdKg",
+        "https://play-lh.googleusercontent.com/3b6jrj93FNbCrmZPJn6hRbC1POAsOHU76pB_tra0iQKQegIsnyhfmQ6nnJEbTPFQYwZrdZ-zuBNFgoFvd-r55xo",
+        "https://play-lh.googleusercontent.com/m-jzt5tGZNcN92l9voS_Iyf9mC86JROA1sL5dBkdS1R89KiQ8j98ESazbdnu0TkgzJorFqSibJ_t7-kNoDFheA",
+        "https://play-lh.googleusercontent.com/br8vza6f72Jirf-QgKD_XMb_91sU__rAGstSCcxcxpGvGjFrTLm2sI7JTP8hFIPhrbAjcpb23nHJW2PESWICObc"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $134.99 per item",
+      "release_date": "Apr 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.spinminer",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Albus.AwesomePark",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Awesome Park : Idle Game",
+      "icon": "https://play-lh.googleusercontent.com/zNL7mxdiODY0OTEYaeb3jmBecw5vL1epBjoHsAmqQCHqZOv8pvKxxTT26URVF-QcSsU-J6FbU1dqjRFw8KVJIw",
+      "installs": "10,000,000+",
+      "real_installs": 17706174,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/LLCUu8x9-3hSUfzOa89e9da0YFrf_iS1dSvnTC2w7Tam63ASmL-Jx-6nOSHY-Vyw7FbOh0iG5F2HCKhUzcoO",
+        "https://play-lh.googleusercontent.com/L9ix5wMlCQ4sJ7sMmTV3hcCQFVcbeJgB19WKjmRZtE8xWTXTxX_mWE6nTUUnsBFLywDbM1leG31yzJvz1r9ubbY",
+        "https://play-lh.googleusercontent.com/zpXRH4fPmyP9XB1R6AA4Un1ltY3-qGzsRuYSbzUW0D-G7Q4LwoEVsFLfGyTeevad_okG4qgvr6RSWXZOd7nbmr8",
+        "https://play-lh.googleusercontent.com/XHkpiuULt-CQ2PP9Zzz3JcZZzpvrImR8WXQo045Pu-Q7n0qY2BKDqo7-1iiEmXBhfgRzfKb1KWPmpl_a3TrauA"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$6.99 - $20.99 per item",
+      "release_date": "Nov 26, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.Albus.AwesomePark",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.hungry.piranhas",
+      "developer": "Estoty",
+      "platform": "Android",
+      "name": "Hungry Piranhas",
+      "icon": "https://play-lh.googleusercontent.com/U5H-ux9jzQyY9sAxZCq5pQjw7rUXeuN4ffa0pjywvciRy7INIlvUtD_tMMI8YVkQWt8P-9f_tloycV3co9AnFw",
+      "installs": "50,000+",
+      "real_installs": 61002,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/apmz0x_9ARcA1rvd3xwNdnfo6xPlXCTxCmgqmAGLX5G2l4yf7_Jm-bZsNjdqEBgTq5T4ekNMnG5ah6iMXClZAg",
+        "https://play-lh.googleusercontent.com/czpU3VstqcLa0A57pgEGUoJ_7vi8g1ruIAmcsajgdHSelcQ8sUh_tMQkK8BdDBrmGmlK6APfAkurM3H9isvhzHY",
+        "https://play-lh.googleusercontent.com/Rk0of-QgmCIEbYlqpurBxmOnDrj4QQnv_UaBzaN6xiyWqc-cDhGk50OlenMjRDGdw7NgNLJl4Lppzs9ewcH7",
+        "https://play-lh.googleusercontent.com/QovLPZSWdkESP8D422_ZHO4D-FCdyY5CVKeGK_sJlmjLCr173suUtIbS0ZM-Dhoz3MWBXH41bWaeVSW4hcIcKw"
+      ],
+      "regions": [
+        "us",
+        "br",
+        "gb",
+        "au",
+        "vn",
+        "mx",
+        "ca",
+        "tr",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Apr 24, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.hungry.piranhas",
+      "found_date": "2026-07-29",
+      "velocity": 0
+    },
     {
       "app_id": "com.pleasurecity.find.differences.spot.difference.puzzle",
       "developer": "Mavericks",
