@@ -26480,5 +26480,74 @@
             "tr",
             "ph"
         ]
+    },
+    "6783752327": {
+        "name": "Molesweeper!",
+        "regions": [
+            "vn",
+            "ph",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "br",
+            "au",
+            "tr",
+            "us"
+        ]
+    },
+    "6785384304": {
+        "name": "Angry Smash",
+        "regions": [
+            "vn",
+            "ph",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "br",
+            "au",
+            "tr",
+            "us"
+        ]
+    },
+    "6767216988": {
+        "name": "Kitchen Ninja — Knife Thrower",
+        "regions": [
+            "ph",
+            "mx",
+            "gb",
+            "ca",
+            "br",
+            "au",
+            "us"
+        ]
+    },
+    "6751880314": {
+        "name": "Match Clash: 3 Puzzle Game",
+        "regions": [
+            "vn",
+            "ph",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "br",
+            "au",
+            "tr",
+            "us"
+        ]
+    },
+    "com.crusher.game": {
+        "name": "Shred Them All!",
+        "regions": [
+            "br"
+        ]
+    },
+    "br.com.brsuper.brplay_app": {
+        "name": "SuperApp BrSuper",
+        "regions": [
+            "br"
+        ]
     }
 }
