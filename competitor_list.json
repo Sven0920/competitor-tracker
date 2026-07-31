@@ -26549,5 +26549,62 @@
         "regions": [
             "br"
         ]
+    },
+    "com.uncosoft.highheels": {
+        "name": "High Heels!",
+        "regions": [
+            "ca"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.foodie.skewer.sort.jam.grill": {
+        "name": "Foodie Skewer: Grill Order",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.SnackPlay.LunchBoxReady": {
+        "name": "Lunch Box Ready",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gimica.carsmerge": {
+        "name": "Cars: Merge and Defend",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.street.bunny": {
+        "name": "Street Bunny",
+        "regions": [
+            "ph",
+            "ca",
+            "gb",
+            "au"
+        ]
+    },
+    "com.slg.sniper": {
+        "name": "Last Mafia: Top Sniper",
+        "regions": [
+            "us"
+        ]
+    },
+    "br.com.brsuper.superapp.hba": {
+        "name": "SuperApp HBA",
+        "regions": [
+            "br"
+        ]
+    },
+    "br.com.brsuper.provernet_play_app": {
+        "name": "SuperApp Provernet",
+        "regions": [
+            "br"
+        ]
     }
 }

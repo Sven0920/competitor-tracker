@@ -1,6 +1,209 @@
 {
-  "updated_at": "2026-07-30 12:16",
+  "updated_at": "2026-07-31 12:33",
   "games": [
+    {
+      "app_id": "com.uncosoft.highheels",
+      "developer": "Rollic",
+      "platform": "Android",
+      "name": "High Heels!",
+      "icon": "https://play-lh.googleusercontent.com/FRm9akTRzfaKFkFB4A4KLNdql1VJ_oaCbqWq7lUbLHKys9F_ZaizVhvLrk7_ibOiimcHHZ2X3Amon6zACtl7J90",
+      "installs": "100,000,000+",
+      "real_installs": 115537715,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/XcgaX-tPaRZKY9Q31ebkaeUxq0ELC2WAsVxj1Gi5nqOzdYwDVmt2G7gqsBGn_J9Mh8anEz2W7q3QknUrAkLbBA",
+        "https://play-lh.googleusercontent.com/xy9GptEGVcGnSFs66qz8PImNddJv-gBxXwp_vkmBgf2IeRo4H9zBH5xNdxIF711hx8MaOsRRBz6TYrGrWltb",
+        "https://play-lh.googleusercontent.com/dOVwgXgqBOnFoIWHU-a3YDepv7nrOw7NA4IMb2VReXnUb_gbBwh2VGBo12Twgga4FTfrGKrBLRU_ngA4u4ElsA",
+        "https://play-lh.googleusercontent.com/eKoWRkZYjyuiPFbvHqNjcOEdmNTLd15XI9PBPZ0YvIAKSaiuHhcUHc9UER-Fr49YE6dk6edKhowHvnqbbgXL2w"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.49 - $17.99 per item",
+      "release_date": "Jan 18, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.uncosoft.highheels",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.foodie.skewer.sort.jam.grill",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Foodie Skewer: Grill Order",
+      "icon": "https://play-lh.googleusercontent.com/P9k9KqsCD_knEHjtgiewZojLspv8iZnonD4tgm6XrJapQufiAN8X3gzNBT6d3tsSA8nN2Y5-mjU4bIOcQiVoZg",
+      "installs": "10,000+",
+      "real_installs": 40055,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/xH_BQYv43PVj6JGTagM8oXPBCN-_ebPmu3G-FL9I4csFZ-ImDAhXuVO986SQKGu4XEVfMO0413M7kz30w6cNgw",
+        "https://play-lh.googleusercontent.com/1ERSpaBpzuFtKKSD8q7IsJ6MAIYC_hXCxXkFg7vbpWgO5A8UxpYML4VZzASAE7XZr7fmDhVT4itQnCHSAxYXSg",
+        "https://play-lh.googleusercontent.com/gp2lKFcY53u5_ER4r69P0s3faK15KeQBz69qcZ6wPVbaEHuMwMZoFxROgFcQaeeAPwIJG-aHyq9q6RQ0IY9P",
+        "https://play-lh.googleusercontent.com/g1zaRECCK-oIObOZ0bW9CrlXVg7jz4vVGRyOJVfgppKO6jA8d6Ilkt_7VefUmFcu6CIyKpqxSgPZMMWWYxvK"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.49 - $99.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.foodie.skewer.sort.jam.grill",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.SnackPlay.LunchBoxReady",
+      "developer": "Crazy Labs",
+      "platform": "Android",
+      "name": "Lunch Box Ready",
+      "icon": "https://play-lh.googleusercontent.com/_lwTSenwQOc2RoMKT4MGQXfpIXkXOwN0lYXsQYXMqFPJdiIbX7SRq-PuFCd50SHUHz93adFKIFNmQmaCZm3D",
+      "installs": "10,000,000+",
+      "real_installs": 44330740,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/2n9cMV8Je914PTRdEtCZHY-BQrN0Qb1E1PLc_FBL9kzYm4aD5PbC__n-GZNsO848hjeukdjWaS8dAbOBJmNeIGE",
+        "https://play-lh.googleusercontent.com/BROLtAj6IV0cTdBXE0TbNmudvhpYEsZODz9SPtMbQzYK0omqh6vdQ2kdZG-eK62uE5WkVyzNW3cTxdUaHBm7",
+        "https://play-lh.googleusercontent.com/s2_rhM6-RrLKJFEO3cD99GrKUApEzCH3gayopZQSbHORlB8FnBdlfCL0RmwdFtpSkzXzlI8xtFGSo54txL8kVg",
+        "https://play-lh.googleusercontent.com/K8novE6nyaE6kKEXK8h0L9TpGD_6aCyaPkaZIF5gxEDpFHyuiWBfqxnfDD0KLT8Ki1E5iR79qWqYE_s381D4DQ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 24, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.SnackPlay.LunchBoxReady",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.carsmerge",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Cars: Merge and Defend",
+      "icon": "https://play-lh.googleusercontent.com/IIqvscI8OuOXjcirJhGDEBT4Coi7iU30HE52bOzQuVgn8zOk6rnay-Uc73vBK1mUcBbPKnE5eiJ1EVCgKh3SEQ",
+      "installs": "1,000,000+",
+      "real_installs": 1416276,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/s0p5Nk2Mrqlnw1sYXxKSvP9JNpRT8S2VTZKa8ZmobV6UmwQkPiYMsAIlxwwlqNsdzh3gakYR4wBAZ-IyCj9g",
+        "https://play-lh.googleusercontent.com/HsFZ36xqHDaYgcVsKvhNbZ6IGB07Bj-L8ZXPCEeCtnaI5Z2GTA8wg52Z5f72BsBgsLFrhrSDxiNRWvqORTT2",
+        "https://play-lh.googleusercontent.com/-ZlYyOn9eQoESemJpzkrYKVtNoU1mUqQXInJe05XoA0AjxWLeeA1JYypZu5jnNmFU_Xm8VV0moR9ZHxKQf7pqQ",
+        "https://play-lh.googleusercontent.com/M5jM3YSrJQFjZXcOtWYAYrAc2GLpaPuOC9bnSrjvOMngcGRJ9QIBwvxbMvzb_UKfE9xjN7NlUA6jGjUkSUJG"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 20.99 - TRY 209.99 per item",
+      "release_date": "Jul 21, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.carsmerge",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.street.bunny",
+      "developer": "Estoty",
+      "platform": "Android",
+      "name": "Street Bunny",
+      "icon": "https://play-lh.googleusercontent.com/RKN7l8AFRQLhK5ZV8G15QvJJyZe2hFaB2Z2Nf7UQRUNy70nWH40TGmwfO7zN_gToqa8zBGRidAg_4bp1Jpw0_A",
+      "installs": "100,000+",
+      "real_installs": 144403,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/yG_YjbQEb7Fydh5fKOotXyINdGHsAksxj1HZvFrpdgPjuLTPQm_r5b5nYrlTrW3h513idEPDFLv0ZHRyyY2V",
+        "https://play-lh.googleusercontent.com/HQQkw2teAHxgtpxhx2YeI_0txAWc0si994nAroJkiuSLLn-BeH8bdojKw0qMHOea4ZSRXT_CwJPWlfC3RzrO_w",
+        "https://play-lh.googleusercontent.com/oa-RRKJHUZv25xitlXoEKUxu1oa_tqt0kXd32SKZxVszB20H-XUhZ79HxnW9N6h8zv8ZvAWOZhic1OMvfx3R",
+        "https://play-lh.googleusercontent.com/gCSpwXTXM4cD8TU1kV3psRYrNDwe1F0uyt22-UD0VolGlecuqoG-5t8G4DBqw5zs06i9zwz5a8T0pStyFQ1_SA"
+      ],
+      "regions": [
+        "ph",
+        "ca",
+        "gb",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱51.00 - ₱6,100.00 per item",
+      "release_date": "Dec 15, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.street.bunny",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.slg.sniper",
+      "developer": "VoyagerOne",
+      "platform": "Android",
+      "name": "Last Mafia: Top Sniper",
+      "icon": "https://play-lh.googleusercontent.com/i77QYoz_eZNNlmOmeyoUHkLPUClwKZqGwxtM0q7btnuQ2yrvPBVtdIg8JFDI5bDGgcbnLiVyPFnEKBUNqasI",
+      "installs": "100,000+",
+      "real_installs": 155494,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/3kYcfHO-OHc-u0ScYAUqqlpqzRQv7PSz3hr3mAyEUcE5oLpRiZAENE32arUzPAhlokF-6rzD8_j_fM_0Z6Ra7nQ",
+        "https://play-lh.googleusercontent.com/PBjY0SjuD61RZ29s2OW6pNMt1IsgvLseS8euoBFGLjxMicG4lhqStIR3y2oPCBfrqIXwSF9kUcSLMqc-csm4",
+        "https://play-lh.googleusercontent.com/B79d6Y1ysrhNYk7XGaOpbkkDAB3UZBwCyDubBas6_Cp1Ciq_0dJ2epmh_G_9ncfcUDsLXnphT-pr5pddvHQYUws",
+        "https://play-lh.googleusercontent.com/jM9bpV5syZzcTOmUx9pwsF09WPyDfHwbQCw6Uj63WrwuoPV4-i1hmlUajBcrcwmmtzrTY60T2HKhTJl1rp9VFw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.49 - $99.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.slg.sniper",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "br.com.brsuper.superapp.hba",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "SuperApp HBA",
+      "icon": "https://play-lh.googleusercontent.com/MJHjfCh5HJ0l0i0qCbkmnRBV39AxaSD1epBfa6_OZzY8c4PHSGP6mgmleGb7ugQMdiwP_GW9Qj4C4JSN7pSzIN0",
+      "installs": "1,000+",
+      "real_installs": 2820,
+      "genre": "Entertainment",
+      "shots": [
+        "https://play-lh.googleusercontent.com/pEiwUaRG-QRguwNWL_hluvQR3lJpgJ55HDF67orOdHYCq_NnLSer9Brggxd-_YvzVnU4wTu16sOdClesf8YI",
+        "https://play-lh.googleusercontent.com/o6Qlm5ahqsB50QafVFQvKjo0aFMNx9qE1zYZg5c17dgrJ6HSdLeGxfIWg931cZD_UZ5WGZQ66DB3nq0QfPUC",
+        "https://play-lh.googleusercontent.com/xtRtonrhTuCjR1vm2xSsa23LwHgBEG4BFmimi19036U7984LsXa-Et7QL0tOFWIV40UMaBtqaH1VuRZtEeZF",
+        "https://play-lh.googleusercontent.com/5P1nTvLj-hWtL_uXOT-CmIt87Nj-oUxoBAYX5T6Ia7rZUMMqegKv2qGwMyjJllNdh5FoaLRKFWt01c4IXFOJ"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Nov 8, 2024",
+      "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.superapp.hba",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
+    {
+      "app_id": "br.com.brsuper.provernet_play_app",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "SuperApp Provernet",
+      "icon": "https://play-lh.googleusercontent.com/3BGXBKZofvV4uEfeuR7bMlXl5GHwAnErkVDNLLYVJqMXjRPuXitoKAeRcCPR0rq4QO3Gji-nCvDeqEC4RI_Uvw",
+      "installs": "5,000+",
+      "real_installs": 8404,
+      "genre": "Entertainment",
+      "shots": [
+        "https://play-lh.googleusercontent.com/HQpYx1gmOP3NGNgnhruEe6ontjTyay9uQux0wJ8mjIygQWOw9IJnaXJ86FH4jdRMZY6Y66ONOGwtQP-69PPqlA",
+        "https://play-lh.googleusercontent.com/4CTSk2xgeVVV_-xSQp0fg9e8wuYRqSu-cRz7We09VjerkeKNEZYqBTfBZhUM-WsIAVVLTFzDR9DZCtaVRLXrmp8",
+        "https://play-lh.googleusercontent.com/odBdNh3yBy_8ppGfUX2P8Lg6KJFVm89p7Svm5lYn0vYtkG6CWoo97sflwLbaWoswtXt9HG3FwKJCk0G06C9foQ",
+        "https://play-lh.googleusercontent.com/UotX0ElgX2DkCMgR9SlPvIytyrPfTObZUbKbHXGUbZJKKbD_P46-3l5sTPWL3s--pegJMfibcCrQ7LujlAUv5A"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 7, 2024",
+      "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.provernet_play_app",
+      "found_date": "2026-07-31",
+      "velocity": 0
+    },
     {
       "app_id": "6783752327",
       "developer": "Learnings",
