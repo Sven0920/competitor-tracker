@@ -12558,13 +12558,9 @@
         ]
     },
     "null": {
-        "name": "Tile Clear - Puzzle Game",
+        "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph",
-            "us",
-            "vn",
-            "gb",
-            "id"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -26556,12 +26552,6 @@
             "ca"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.foodie.skewer.sort.jam.grill": {
         "name": "Foodie Skewer: Grill Order",
         "regions": [
@@ -26605,6 +26595,57 @@
         "name": "SuperApp Provernet",
         "regions": [
             "br"
+        ]
+    },
+    "6768914523": {
+        "name": "Hungry Piranhas",
+        "regions": [
+            "br",
+            "mx",
+            "tr",
+            "ph",
+            "gb",
+            "id",
+            "vn",
+            "au",
+            "us",
+            "ca"
+        ]
+    },
+    "6768686969": {
+        "name": "Boost Rider: Car Build & Drive",
+        "regions": [
+            "br",
+            "mx",
+            "tr",
+            "ph",
+            "gb",
+            "id",
+            "vn",
+            "au",
+            "us",
+            "ca"
+        ]
+    },
+    "6759161828": {
+        "name": "Shred Them All!",
+        "regions": [
+            "br",
+            "mx",
+            "tr",
+            "ph",
+            "gb",
+            "id",
+            "vn",
+            "au",
+            "us",
+            "ca"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
         ]
     }
 }
