@@ -26645,7 +26645,136 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph"
+            "ph",
+            "br",
+            "vn",
+            "id",
+            "us",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.voxgames.beanbattle.princessrescue": {
+        "name": "Bean Battle: Princess Rescue",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.number.sum": {
+        "name": "Number Math Puzzle: Brain Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "and.voxelcube.dropball3d": {
+        "name": "Drop Ball 3D - Bricks Breaker",
+        "regions": [
+            "ca",
+            "ph",
+            "au",
+            "vn"
+        ]
+    },
+    "and.brainworks.sliceaway": {
+        "name": "Slice Away",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.puzzle.splash.drop": {
+        "name": "Splash Drop",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.arrow.maze.tap.away.puzzle": {
+        "name": "Amaze Escape: Tap Away Puzzle",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.match.mahjong.tile.fruit.puzzle.games": {
+        "name": "Matching Mahjong: Fruit Splash",
+        "regions": [
+            "ph",
+            "mx",
+            "br",
+            "id",
+            "ca",
+            "au",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.car.parking.simulator.drive.out": {
+        "name": "Car Parking Jam 3D: Drive Out",
+        "regions": [
+            "ph",
+            "id"
+        ]
+    },
+    "com.paurau.MakeHer": {
+        "name": "Move People",
+        "regions": [
+            "ph",
+            "mx",
+            "id",
+            "ca",
+            "us",
+            "tr"
+        ]
+    },
+    "com.BasicGames.FashionTrends": {
+        "name": "Outfit Makeover",
+        "regions": [
+            "ph",
+            "mx",
+            "id",
+            "ca",
+            "us",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.Playtime.FantasyTree": {
+        "name": "Fantasy Tree",
+        "regions": [
+            "ph",
+            "mx",
+            "id",
+            "ca",
+            "us",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.Ondrej.GossipMaster": {
+        "name": "GossipMaster",
+        "regions": [
+            "ca",
+            "us",
+            "gb"
+        ]
+    },
+    "com.lightdev.weaponsurvivor": {
+        "name": "Weapon Survivor",
+        "regions": [
+            "ph",
+            "tr",
+            "id",
+            "mx"
+        ]
+    },
+    "com.corestudios.shoppingempire": {
+        "name": "Shopping Empire",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.Albus.WaterParkBoys": {
+        "name": "WaterPark Boys",
+        "regions": [
+            "tr"
         ]
     }
 }

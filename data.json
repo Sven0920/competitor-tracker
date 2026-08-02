@@ -1,6 +1,412 @@
 {
-  "updated_at": "2026-08-01 12:30",
+  "updated_at": "2026-08-02 12:33",
   "games": [
+    {
+      "app_id": "com.voxgames.beanbattle.princessrescue",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Bean Battle: Princess Rescue",
+      "icon": "https://play-lh.googleusercontent.com/yNkY-lhZBKS0oXidKTjhl90Ma0wyZc2ptpJW8tUmASN9b1aAK9TMQTFzLWZDKRsfsydgJeAwLp4_lC5oXr60",
+      "installs": "5,000+",
+      "real_installs": 9956,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/kEJM9kL7aMOa70BA0fYZYczQ5v9PGtf7cxV4niHULYQvs_8qMoyGoMnmPrRV5jLKDaTNqdv1wzB_leqY16Hw",
+        "https://play-lh.googleusercontent.com/hVt9xyvhOQdLgD6HuGl07PDamkWnNVeav4xZpF5szowI1CTIYgmNKZnCU_Sp6Q0eXCZNliKxrt0Ic4IFSQrchg",
+        "https://play-lh.googleusercontent.com/Ok2nZA8BGJlmHwyKwrD8x10H6SXYESemn7OgNJwUfp8bo-6AlldzjrvcM_Ji35pufVJjfWxKmzjUJMErARbY",
+        "https://play-lh.googleusercontent.com/Juvro8rwScFtoO7lv6CiqvIFyGV2Taz--Mgbe5pwXz2oG0qk9kdIh-82tI59K3-6twVs4pBDtmoXu9nhIVb2SQ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫9,000 - ₫1,300,000 per item",
+      "release_date": "Dec 25, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.voxgames.beanbattle.princessrescue",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.number.sum",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Number Math Puzzle: Brain Game",
+      "icon": "https://play-lh.googleusercontent.com/VAtr1e37DUDWvGNSDvDIggZyM0JwGjafCedOm_suRDmnBJ4MwYGRUyILp-ghjeuMc_TYBII4x2faFiPpwC-4",
+      "installs": "5,000+",
+      "real_installs": 8864,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/O7myLAWHdJOgQ-IaP4eIRhHmXBlsKhzK361x4EAf6Xf7z7suONiLbvPCH2SfDGFmoqFzAmbHQG5cMtnsfdB4",
+        "https://play-lh.googleusercontent.com/W80byZcXhDqpsexgwTqRdnTt4CfaXOhzgcOYOJoKQVCAFpK8XwkXd4WD10gHaiQU8ZmT2KhGQvpOqZTl0l-V9w",
+        "https://play-lh.googleusercontent.com/MrteS29sp0B7ejbrCOzWDJ2LUoL7eXwZjI2fqIWsRpb_Yh2m6k8jM_DUzN7Y596MBvaL2AvdnYZ0Zl21qs0A",
+        "https://play-lh.googleusercontent.com/s_DaJT6yN0CStiS6kEaCfuR4EAL1B2_8ktrihWajwhFvrDNDF_5Pe-xyO8D5m2tu1DteiLP7iN-klDDYcytx"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫52,000 - ₫1,300,000 per item",
+      "release_date": "Mar 2, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.number.sum",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "and.voxelcube.dropball3d",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Drop Ball 3D - Bricks Breaker",
+      "icon": "https://play-lh.googleusercontent.com/FVJ4l6FYd8jqgYyN59XNTo18LdIUU06XGm7TW_gu2v927cmSwb6fd36TUnoNcwa_4b_NzggymZyd7gl0PK2mFQ",
+      "installs": "500,000+",
+      "real_installs": 612117,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/0gYnkK93kYpqOHpE9hDV5DpdE0T0WOzpEzNQGNrJmiz5rTZNfnOr6VDGYmJDkTsPvhK_MRmKiHmqH1AEaXfzHTA",
+        "https://play-lh.googleusercontent.com/ZPLkK6GM6pAEjBEidsTf7SiwszUb0mw4JOIYuVn0iNOwmSVBddIn4cvYUPaW5LPGqyPhiakkWGmrEH_CUKp5WQ",
+        "https://play-lh.googleusercontent.com/yHmGt_BPmQ5U7dGQi35UsYoS21wZ_LpcXBN9z47eFcjpOLt4xwdTKSF1-xGa9NUPAi88wnpkxmL194y8HxiL9hU",
+        "https://play-lh.googleusercontent.com/6sm0Gi3FQnW6OEGKA2QCq84EDJ26B5-XbE-lEwy6CPEk6PFzjNzVHPxm27f4BCNB3tK48jGLafWT6ajqyyWThg"
+      ],
+      "regions": [
+        "ca",
+        "ph",
+        "au",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.19 - $119.99 per item",
+      "release_date": "Dec 16, 2021",
+      "url": "https://play.google.com/store/apps/details?id=and.voxelcube.dropball3d",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "and.brainworks.sliceaway",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Slice Away",
+      "icon": "https://play-lh.googleusercontent.com/VXwb8e7won7Rhxew_M4YbtN2EUWqTavyqthGhrfPTqrtOiWFx4jYdoyVLA0PUEBiH43Pa4rdqTLibzQBCVuiwdg",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/YK4jlr-3BxoVbRmMgcmZYDJGfAUVADPdw38GD2XsCYG9gXgR9GwPOoEE0YG_S1gO0F2UpcHWSIXQO7MFXm-q6w",
+        "https://play-lh.googleusercontent.com/zrINz4DYRc7-0aeeCfrdW_86pVgsDduclRoCmgAYHOyd_87Lk8zJdEqigDXL2eK2v4SYKt5Qh-KMeXkF6NlKaA",
+        "https://play-lh.googleusercontent.com/60euxgndUh2IN_dQEVblUruPrIPm9rOhd__CMAfuca7jvfmdK1y_PciolfunwPmKm3Rmxf_A9_f5vOv09SvKCg",
+        "https://play-lh.googleusercontent.com/nq5SymUGzevJHfc-eSozLsa7_aPKKiRKm8WcJjoXD95Lm6XU95oE00YhDpkhTBQ_3DpUK4f9fXxaP59C1sN0xg"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫3,150,000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=and.brainworks.sliceaway",
+      "found_date": "2026-08-02"
+    },
+    {
+      "app_id": "com.puzzle.splash.drop",
+      "developer": "JoyGame Studio",
+      "platform": "Android",
+      "name": "Splash Drop",
+      "icon": "https://play-lh.googleusercontent.com/oT9C7_6r2-U0-TkWECMNkKQkaQafg5Y4WhEavjKhOoE-zIfEAP2TU_8sbPBmffp86TQqQZigvc0bXPQYAynCwA",
+      "installs": "500+",
+      "real_installs": 641,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/m4eBs6xtA-6r28D5PPdMpfg4OJXf4yMNNPOcqmNkU_qfpN9u5b560iMsUQH8aCsgBFPRVLsnKMHiHoYNKU8Adg",
+        "https://play-lh.googleusercontent.com/E8eKaxmOdwTuDuPDL5mK0K1YZfb3VJboykSgOOR4l8CKATbsKpKNe9uK7gqR1VDf3OULejNp8xZjhF8Hi-l6Kgc",
+        "https://play-lh.googleusercontent.com/KqJqGPEBtmvlWN-93z9lFZF9lyIbd3PSh-VgH-Ex_3_v978E20b3LXUzj2mBrKxlGqvZf7jGI-b98XZrveYS",
+        "https://play-lh.googleusercontent.com/ITwQXMZCmL8X3B832NfktbK5XGDlt-kFpMKXTxwKIDM7FfL8PboIu-wp9q60kdCmYQf2_UIZOyggqkFvaacmCA"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$10.99 - R$529.99 per item",
+      "release_date": "Mar 10, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.splash.drop",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.arrow.maze.tap.away.puzzle",
+      "developer": "PANDAS OF CARIBBEAN",
+      "platform": "Android",
+      "name": "Amaze Escape: Tap Away Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/0LhxeEKmKqfouwNhgipSudX3YGcqwl1N0NHykSuo0lgRtW_wO-rTVqFtHndQwkpXZkoW0wXgL-LF19tvcle5",
+      "installs": "1,000,000+",
+      "real_installs": 1023939,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/hqJL1d_E2XTxQiJb-gLR3rzJfCNkiueD9h0iYlNS7YagDRp9PNnNFMLKYm3hQnF2pDdjd3NF77wt9mbv-5CM7fQ",
+        "https://play-lh.googleusercontent.com/dt7_Xu3fSPuy4rcKgcbkPYePgkK6xjgxSOc8dbdyXFCUVEONMfQo__vboc2eqj-Rt0K_f9RwCnAlKZKXyTHo",
+        "https://play-lh.googleusercontent.com/Oyxgc1cQ6Yd4bOsve3t027wVthfW32L1061_LHYcV-mGMyE5t66sLe7I83-TZbrVlJTFZjD2UJunjx2Y1wUDzWo",
+        "https://play-lh.googleusercontent.com/1uS2fwcmwcQAGwW1eBVTALFN-w4KjnERecbHl7J1RGwN4fI_nlsNXLbil47O9LcxAFFiQnrBhSPZPoo8OH0zvoE"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 1, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.maze.tap.away.puzzle",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.match.mahjong.tile.fruit.puzzle.games",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Matching Mahjong: Fruit Splash",
+      "icon": "https://play-lh.googleusercontent.com/8KR9aqGjtRW7-4LSWW3uoXFY7YMUfixu56c2hlnldxXNbcFq8rcqbgzKG9izjef7M3Eamhyys4MVGOOp7U7kTA",
+      "installs": "10,000+",
+      "real_installs": 36233,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/790zXVx8rijvABZTcENPMmOcmVxT1PTKdxCwOYw4NAohX_mZkzZL_o4DU7Wv7nGOyEUbx7stWgGoXSHjdvYegyM",
+        "https://play-lh.googleusercontent.com/yBPbs-pBiEFP5EDY0aUHltoVxuE2v8-k8vGN1_XXbYQnpTp_HVQ13ITdhOZWTjsWdHgfyAFOIxClEzEpIjw7",
+        "https://play-lh.googleusercontent.com/S3zKNzoVZWtA01Lgs5LZRGqfp2lsMgKEidW9KaHvIDkDr7glbCBGvy6pNu4ccy2URQcQNTazCKy_XfmR5VHkXQ",
+        "https://play-lh.googleusercontent.com/fiSj0Jpe-VFku6QfUYc_dCJIoPbQQw2L3FFF4SDOALIN61FucHmK9Z0qqQRZ_OAuqmcqGaqsZM6z5o5Y2drz2w"
+      ],
+      "regions": [
+        "ph",
+        "mx",
+        "br",
+        "id",
+        "ca",
+        "au",
+        "gb",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.match.mahjong.tile.fruit.puzzle.games",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.car.parking.simulator.drive.out",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Car Parking Jam 3D: Drive Out",
+      "icon": "https://play-lh.googleusercontent.com/F0PU-KrN7RTgGdeCVcN6dTnuikD2ar2s9_oOYbjmUtjo6mjkhwaDk_nDCf080Xt-li5NlKAGxgVrNPXinmoq",
+      "installs": "5,000,000+",
+      "real_installs": 8634839,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/8v7K3bzlvclrJgn2J01rrM2OuJphZHOfobM1MQ4HPIfBT1nf_zy1GqmbQGIphlXc8ZN9mP8q_MOn68F4dNH8lQ",
+        "https://play-lh.googleusercontent.com/W90QKdegvuvYEHKMSHnVTC0AyFRzTP3OhANlKtjVXZ-phqps8VKWYG3OSSG18qCk0ICWnqLXs60ybNL52lXE7fM",
+        "https://play-lh.googleusercontent.com/p22eg6o-mazI7swjMlw0FwJCHxhh1aSj1jWeSbJnTkzOq7qr2WL2dnmaFR2GviUBr7DY7wMlnQmP0mBlWZM3gi8",
+        "https://play-lh.googleusercontent.com/muHt3QMQ-4IEGqMHe0q1HGDEq9x4GkOBQYLuW0_qJNCgYFuksWsSLxLWvs7pS4efgAfe1roUOaDIVx-8-YUf"
+      ],
+      "regions": [
+        "ph",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Apr 29, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.car.parking.simulator.drive.out",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.paurau.MakeHer",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Move People",
+      "icon": "https://play-lh.googleusercontent.com/zPcDOtAVKtQJEZYoJ52hPlDMAdQvT3Q05dyGqsEc5Uu1z8-4w8vEiPkFvTaZfw-YBXwiOYTNFuJkWwX8p4Bo",
+      "installs": "100,000,000+",
+      "real_installs": 164435614,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/C4CuqlmUQEWBPnDAdGJfsxqfP5DqoK4LoJOFrH35RohAJLiv1ifqzmednVYBjIAqfcg4TElYniwk3zJh_W5PhQI",
+        "https://play-lh.googleusercontent.com/tiMHZPnrkPr7MXr66IPH1KzqMMkfKrolXfW2rGoLtBppEBfrHIfS_F0Y3avCCHXgNeO7WBYoPSaO_IMeV5dx",
+        "https://play-lh.googleusercontent.com/_1C2O9zPKFO3bNOm4jnj4uiDcPSBRnJKGHKmUjVO-37TpA4BnCb_8xsPZqMpSGjRv0yKyzVbAPvx46pvY3rj",
+        "https://play-lh.googleusercontent.com/fFHfSfJzZCSQoQaf0SyBKCas9WiE9ewstOMr-yEpQdaA2FJwHu9ANUHVGZ4rvgSMUSMVAguFj1u1slt5QbBnlA"
+      ],
+      "regions": [
+        "ph",
+        "mx",
+        "id",
+        "ca",
+        "us",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱145.00 - ₱255.00 per item",
+      "release_date": "Aug 26, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.paurau.MakeHer",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.BasicGames.FashionTrends",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Outfit Makeover",
+      "icon": "https://play-lh.googleusercontent.com/Ojna_46g2c0IDBxt3pT9YGcMDfQU87LhIlSLj_azDLzXmLATC5JdIPJKGZLylR2BrJTVsuWN_1WQ5890MkmEfA",
+      "installs": "10,000,000+",
+      "real_installs": 42773640,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/EFCsP3p8o0zEcO63hVN65WMQBviwu31QVN8Z4_ZJgTLhNcszwyfF21y7nl82VfGyhjqfd6U4P3fOhnKTCJe1",
+        "https://play-lh.googleusercontent.com/6jv_jAfpkCHOJgXjTv1bpwu36MYuCzJyqwXlqk7wR9l4-xpGN1qKPQdjeAXccfNgpVfngX9wFj0QYNc8n9ch6Q",
+        "https://play-lh.googleusercontent.com/S4jlTTeiFySp-MRqgT6i3zLpd_c6jRmLBaiUiYOiAwG8sodUVR2xkaGmQAOW9AUNzdrNdMJIrY9jsnZJ2Yoo8nI",
+        "https://play-lh.googleusercontent.com/GOnZUutpvqQDEkyU1K0B7frae_bq0pgZR97scN1j139Z2IYgMABh19-oCO_rXLfMLT7DEvU6zq8Na6D0FF2hPQ"
+      ],
+      "regions": [
+        "ph",
+        "mx",
+        "id",
+        "ca",
+        "us",
+        "gb",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱160.00 per item",
+      "release_date": "Jun 15, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.BasicGames.FashionTrends",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Playtime.FantasyTree",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Fantasy Tree",
+      "icon": "https://play-lh.googleusercontent.com/zhsj4HMmFx8Wz4_y-jCVHLfcxYCTVR9zPEbBGNVGnSzLQx00nB_pXEDPv667Scoe8x72bxTJuhF4vrl31BFeQw",
+      "installs": "1,000,000+",
+      "real_installs": 3876221,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Afy7uJeFUFX9_jth0aZt7t5ae-mX9QT0knTffj4EnTrof4Gb7beDDKGQbVak1xA7uKpJF1SActjsTs-jjNmhpw",
+        "https://play-lh.googleusercontent.com/dQResNrnf84gP7KjTLE4hkhRQLtJzMoMdJPQ-QI3ifj0e6OKLyhwnZi8aa-ZqQeeBxbnvckQd50ik6YVqz4wTg",
+        "https://play-lh.googleusercontent.com/9wOiJ8q0tg6vBQgfvRfPtb25giJ3pMpnS_A6_JA1Pxqenl_gwtpJC6XvwXEFKdgpnmNSu5qj_utsStpOB6CL"
+      ],
+      "regions": [
+        "ph",
+        "mx",
+        "id",
+        "ca",
+        "us",
+        "gb",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱155.00 per item",
+      "release_date": "Jan 5, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.Playtime.FantasyTree",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Ondrej.GossipMaster",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "GossipMaster",
+      "icon": "https://play-lh.googleusercontent.com/ufk_XK-IhZEXzQnOpVQiAipA9uQOf6lvIBGvqVNpTrzd8jHkQI0GxEu1-7vw-jyTFEWYGoLv40yYfUyPYLITETQ",
+      "installs": "5,000,000+",
+      "real_installs": 9398668,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_g04WxEuiA2ZC7IblmTCXQ9-ax6m3h6C8-0xIGuiMciSBeFwS4CkaNJ5ydM-g-pr0CtHAIXmOhMEYGIpiUulCw",
+        "https://play-lh.googleusercontent.com/xn0rvGtMBGqWg9ndxEMcd2nxmPlwsNv3r2VzlgWbH3OnSPN-mOVrslNE-0xSEhPZq3wiE6NWu77mVA4lYNGXJw",
+        "https://play-lh.googleusercontent.com/uj4WgxQXx4qQ5gq1HqXWpsPW6hirc0MNMg3Cb996bIHAlmfcHX23HRiqXzF04pbxOffaamxl43W69NgjhAcElQ",
+        "https://play-lh.googleusercontent.com/YOnjSdkGFcBFFVM5QfxBUtLwD6G0Uiagsie1hWSlxoLDrM2ie-iV0DkuHzT_xZI1AeV66Q5ARMr3OrDAioKoclw"
+      ],
+      "regions": [
+        "ca",
+        "us",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $10.99 per item",
+      "release_date": "May 30, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.Ondrej.GossipMaster",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.lightdev.weaponsurvivor",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Weapon Survivor",
+      "icon": "https://play-lh.googleusercontent.com/p1SFjktDjsUTmlxKbGe7OI-A-C4K5E0rK7XUAVidGi6icbXNt5RWE1SDrwBzmu2XUucK4IsW45HhbCVkJCXhlw",
+      "installs": "10,000,000+",
+      "real_installs": 12111309,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/vVJEvZRKpOKdHthrUyJEMvEKXvrophtKa-4t_T022fRbgCW80w0GjsmS3_B5rv_8DCOhJ90LS-FshATjTZCFnQ",
+        "https://play-lh.googleusercontent.com/0kUQkpZEW_4ZcRWW4yBHGIeKFcGnRjNi-lbdhjpv2EF2x3yz3zALmmp3G8b-c46U8ya6VIHrhqxzUK-9Yb02xg",
+        "https://play-lh.googleusercontent.com/Bn41GQuo0xR0bXg9_Y4QDl5Rp2YNXpSE53zK_4Qj4oucgDwMNDQq_J011s5cpH6Ab_mlmoeZx8hN91tcCYGsxA",
+        "https://play-lh.googleusercontent.com/jUs5dY96ZQzLMdpnQtKTJFvt0buwflQF05wHTMY7GQ6wkZrPIe1pszUtN4_x9127_FJF4IjN9NjDzP5Swo7bMQ"
+      ],
+      "regions": [
+        "ph",
+        "tr",
+        "id",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱58.00 - ₱515.00 per item",
+      "release_date": "Jul 18, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.lightdev.weaponsurvivor",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.corestudios.shoppingempire",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Shopping Empire",
+      "icon": "https://play-lh.googleusercontent.com/njmZ7_bMwMpKpRKPzX-nMQLLwtQV8lXqa7paA_m-jzcJYH0Qob9XBgjYUmUmP4UjkxXRdw2QeZBuB6-NdKJZ",
+      "installs": "5,000+",
+      "real_installs": 6784,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Qd9XJb0yNIVlC8HCUlUkQpugZA4vwuU1Y5AKdIWWoRweMkCywps-WHH5GwWyaFPEZlngNEU0gXhhHS6qkcE8",
+        "https://play-lh.googleusercontent.com/UbfIm3oXZcUAX0B_2QAudPbwlGrXalSON0V2aTUoJYDuUrXC62juKHo-xi_N3fzM6WVKdSqgsB-GBEB7-OPMT8Y",
+        "https://play-lh.googleusercontent.com/jzryzXD9ciXqsvLx5sMT-OwJw6W2RDM4dnJANzK_Y_4gL5nh4gAr1TUtFZeRaeAvLLoTq6ZOMh1UfLukSTcS_KY",
+        "https://play-lh.googleusercontent.com/QDztziwXo7FXXy9_UKwOZYzvk2BQqjBTJIDSZWbEvCfTCiI63kMhVWpxl9fIKlT1nLhNWHsIW4ESTWYvq6nV8Q"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 114.99 - TRY 5,639.99 per item",
+      "release_date": "Dec 3, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.corestudios.shoppingempire",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Albus.WaterParkBoys",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "WaterPark Boys",
+      "icon": "https://play-lh.googleusercontent.com/CbzbGlkyH1435WOoKbcgTUN21MhpKcXPqpBGHzVA5q8w79A94YVlr9vwsRkLiolcMSC3A5GF71n8PxXIimjlAZk",
+      "installs": "10,000,000+",
+      "real_installs": 19824803,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/DhJiGfCg8V5gJ4MkzwNsM520gN8f0E4CYV8zMpGpXiELP2k6Bbf05ycUgMCAbX2gZtP9QXcNArm9r8_-5KQm",
+        "https://play-lh.googleusercontent.com/YvZboKqcpH9cRxAyx-WQg7_3XxYoNxAB9qJjeMz7OJJZwgnc8xAUA8Er80hGg6KcNeDNe0ZZ72g-fJrxUyxG9w",
+        "https://play-lh.googleusercontent.com/9EqEWWyCQ5xUvSHHDC8knQxh_nlz120I9bkH3KbC2VXKtYYVIqHK3ohchZbJCRMaGyGG27q92ENPLBFXQMUe",
+        "https://play-lh.googleusercontent.com/7mnfS0w_qBFIQas-jXJzK_38AZCWGnSqvKU2jdyO7DQflVZ83C6nVqkfM2L2fADFAT1q8bBcfGLsZuBMFiH6NkA"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 194.99 - TRY 389.99 per item",
+      "release_date": "Jun 9, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys",
+      "found_date": "2026-08-02",
+      "velocity": 0
+    },
     {
       "app_id": "6768914523",
       "developer": "Estoty",
