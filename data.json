@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-02 12:33",
+  "updated_at": "2026-08-03 12:40",
   "games": [
+    {
+      "app_id": "com.car.dealer",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Car Dealer Idle",
+      "icon": "https://play-lh.googleusercontent.com/cRrdNGvrKPeemWZFfE9Dz3Orwjpn-0gNmLJe_ADH3s2hvv8zO8dZyjTV_cjs-K_QYFN8Chbj5Irre8aCpuL9mA",
+      "installs": "5,000,000+",
+      "real_installs": 6067088,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_eW3IyKzome_xYfOlpNMJz8Ea-n4rG_hurRryV68Y0UpSkTwdReKXcWma7xQvWTgqge3pp1XmD9D4CQNwzTkvBw",
+        "https://play-lh.googleusercontent.com/dJljRs3F1oqa8IiK7OLpEtIdPyj_UqLFuONzn-v4hZHBboMUI0Q6SBeTCqQL6eqDOH7ai23JhuBmxAtfb0F9Aw",
+        "https://play-lh.googleusercontent.com/naqB3d31KsBf28dDNp4NJ2XvVWE1Z5uDLQFow7w1b4rPYb90IJfLivY-8DJFf60mtlTwPs4HPROSaNYHWNaB_A",
+        "https://play-lh.googleusercontent.com/1XX-hhSzrkpVnHHPm6K-MJppQdUQFbqyePxITsHdMegMcZ065qvnX_YiNH-H1qZwHHk7AgkP3Nsm3FvA7aMC7A"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 124.99 - TRY 819.99 per item",
+      "release_date": "Aug 26, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.car.dealer",
+      "found_date": "2026-08-03",
+      "velocity": 0
+    },
     {
       "app_id": "com.voxgames.beanbattle.princessrescue",
       "developer": "LIHUHU",

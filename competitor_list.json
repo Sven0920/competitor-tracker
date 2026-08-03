@@ -12560,7 +12560,13 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph"
+            "ph",
+            "br",
+            "vn",
+            "id",
+            "us",
+            "gb",
+            "tr"
         ]
     },
     "com.staff.staff": {
@@ -26642,18 +26648,6 @@
             "ca"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph",
-            "br",
-            "vn",
-            "id",
-            "us",
-            "gb",
-            "tr"
-        ]
-    },
     "com.voxgames.beanbattle.princessrescue": {
         "name": "Bean Battle: Princess Rescue",
         "regions": [
@@ -26773,6 +26767,18 @@
     },
     "com.Albus.WaterParkBoys": {
         "name": "WaterPark Boys",
+        "regions": [
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.car.dealer": {
+        "name": "Car Dealer Idle",
         "regions": [
             "tr"
         ]
