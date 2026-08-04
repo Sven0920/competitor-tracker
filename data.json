@@ -1,6 +1,84 @@
 {
-  "updated_at": "2026-08-03 12:40",
+  "updated_at": "2026-08-04 12:21",
   "games": [
+    {
+      "app_id": "gov.coloradosprings.pikespeak",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Explore Pikes Peak Summit",
+      "icon": "https://play-lh.googleusercontent.com/4R4SXk3gIyLYxPWeho9OIkKM8_zu0vYbtrYYyBXlZ_BuVK2wOUc_HcCnnilnxNdjwguHxyqf-f7-ciIFjRQ9",
+      "installs": "1,000+",
+      "real_installs": 4208,
+      "genre": "Travel & Local",
+      "shots": [
+        "https://play-lh.googleusercontent.com/V-rJcgVd0b570RfVbP2lwjlHbdGwvxbFBCpklPWabIAEoyQvVDzpLm-p94Ork6DhtfUEDLHck4a6rUqY5Wxb8w",
+        "https://play-lh.googleusercontent.com/yhrFtAUFk3X4iMQSTly8nErEGK-sCASAfciQ94I6vHX5jiDowqJpJrLBMEqclRPK7gbvJKfevRn0kYcyHSA86wE",
+        "https://play-lh.googleusercontent.com/_DgSm25M7p3M0KDxaE6TtuAGoleXfhCfMDwcGj8uzFgDOEBPQpAaqa5sYu4PFFUruZaQ56T_r8aGe41tqbi0",
+        "https://play-lh.googleusercontent.com/AQh4A6Ss0NXA8LXwHJ5TYJ8G8hI6oVfsQCxEbSFjB9ZjNevAHJDpnn2tf82pExorcY4GqmQOzpfOjyA_9a15ZmM"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 14, 2021",
+      "url": "https://play.google.com/store/apps/details?id=gov.coloradosprings.pikespeak",
+      "found_date": "2026-08-04",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ageofeternity.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Valor Legends: Shoot & Run",
+      "icon": "https://play-lh.googleusercontent.com/3aF87sl0hvfJsEWO8kTHKyIXLW1OjK3Qis29j2td4pumjQ5MKHfFqWo2ZQCQ5hvIlBP9ZzNzHseC4py1qTqxsMg",
+      "installs": "5,000,000+",
+      "real_installs": 7915894,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/9n_7MTfRwUdvn1mL6RfQwWtWtLdYXjmVIry6gkKQzkxJ9KxgF2X4ea7849QR-rMOuOpWB0tvA8WRN-UqCVzA",
+        "https://play-lh.googleusercontent.com/7GYZbNQ3LLhk36cpwEagMLfeYG4JKxUimMNGbsLRTAkrNIn_bG6QIo0Y4m6qsqJGSNjKp1Vdp9GCaCJvq85s",
+        "https://play-lh.googleusercontent.com/BQAw4XWULRNJ_OCU53C2ymV3JsJlTHZJDBXDFIyFNBQQXZCUZH6d8EfaxnBY5aoQoUVyFWH9J-v4iL1EA-4e0to",
+        "https://play-lh.googleusercontent.com/Ou7rGlAM9leplwyB29Ol-KLkMNk5JLM_RYVzVen-0ZC4k9KyezZo2af6HJ1kGvk0Y-RPNDRrDPd-VGQpp00u"
+      ],
+      "regions": [
+        "ph",
+        "au",
+        "us",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱55.00 - ₱5,990.00 per item",
+      "release_date": "Sep 12, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.ageofeternity.global",
+      "found_date": "2026-08-04",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.microjoy.tilejourney.triple.match.puzzle",
+      "developer": "Microjoy",
+      "platform": "Android",
+      "name": "Tile World - Classic Match",
+      "icon": "https://play-lh.googleusercontent.com/WTpyM1DvFSOwOWfn9gso7xTpbHB4EPOr5krKkJ2fbUm0F5z5kp-FSjFaZ9V3NVGi2t4YtBbDiorz6-crdYnqllo",
+      "installs": "100,000+",
+      "real_installs": 177601,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/M2CNx_2sC8TkuMdemY2jhPaRnPAJm7uzTuB52dX0CekkmiQUYTOLJBN5mkVRIxFq6HsmfS5I9pICLyUY5zu_",
+        "https://play-lh.googleusercontent.com/y5LJe6PsGxfi7nqtxDNX2cH_Nu2bd0ymLbx4v6nTvKWQVdkDWWTAbP3d5z2cwCeK9E93Wm2c7hplf3JJPJe2",
+        "https://play-lh.googleusercontent.com/QezA3b1ozz8RLJ9zUL7UdVtqUxO8ekcbmfuQyiQt1wDWTKucjSrlluc-5wpjYUa3ZebUIu1IYYpq5S3gFfwGLJo",
+        "https://play-lh.googleusercontent.com/Ll3FHOeKZXCvKmsrecJQTQaLheOAN2Opvg0cuUUFjc3Fak90zGR2511SN15QrDypZyyOYrJnKK4ahsUgRZ-UduI"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$254.99 per item",
+      "release_date": "May 18, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.microjoy.tilejourney.triple.match.puzzle",
+      "found_date": "2026-08-04",
+      "velocity": 0
+    },
     {
       "app_id": "com.car.dealer",
       "developer": "Supercent",

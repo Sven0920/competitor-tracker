@@ -12560,13 +12560,7 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph",
-            "br",
-            "vn",
-            "id",
-            "us",
-            "gb",
-            "tr"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -26771,16 +26765,41 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.car.dealer": {
         "name": "Car Dealer Idle",
         "regions": [
             "tr"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "id",
+            "ph",
+            "vn",
+            "gb",
+            "us"
+        ]
+    },
+    "gov.coloradosprings.pikespeak": {
+        "name": "Explore Pikes Peak Summit",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.ageofeternity.global": {
+        "name": "Valor Legends: Shoot & Run",
+        "regions": [
+            "ph",
+            "au",
+            "us",
+            "mx"
+        ]
+    },
+    "com.microjoy.tilejourney.triple.match.puzzle": {
+        "name": "Tile World - Classic Match",
+        "regions": [
+            "br"
         ]
     }
 }
