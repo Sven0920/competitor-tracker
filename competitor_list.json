@@ -12560,7 +12560,11 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph"
+            "id",
+            "ph",
+            "vn",
+            "gb",
+            "us"
         ]
     },
     "com.staff.staff": {
@@ -26771,16 +26775,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "id",
-            "ph",
-            "vn",
-            "gb",
-            "us"
-        ]
-    },
     "gov.coloradosprings.pikespeak": {
         "name": "Explore Pikes Peak Summit",
         "regions": [
@@ -26800,6 +26794,193 @@
         "name": "Tile World - Classic Match",
         "regions": [
             "br"
+        ]
+    },
+    "6758003347": {
+        "name": "Castle Rivals",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "6772210932": {
+        "name": "Association Match 4 Emoji Game",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "6766227607": {
+        "name": "Sushi Flow: Sorting Game",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "6788647921": {
+        "name": "Catedrop: Card Puzzle",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "6795526625": {
+        "name": "Marble Craze - Ball Flow!",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "1645275647": {
+        "name": "Laundry Manager!",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "tr",
+            "au",
+            "gb"
+        ]
+    },
+    "6790234413": {
+        "name": "Target Smash - Physics Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.advisorlynx.mobileadvisor.peakfininc": {
+        "name": "Peak Financial",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.justdesserts.global": {
+        "name": "Just Desserts: Merge & Story",
+        "regions": [
+            "vn"
+        ]
+    },
+    "jp.co.goodroid.hyper.jighexa": {
+        "name": "JigPuzzle: Making Room",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.Manababa.RandomSpinDEF": {
+        "name": "Spin Spin Defense",
+        "regions": [
+            "vn",
+            "ca",
+            "ph",
+            "us",
+            "au",
+            "id",
+            "mx",
+            "gb"
+        ]
+    },
+    "tangle.rope.tieknot.game3d.wood.master": {
+        "name": "Woody Untangle Rope 3D Puzzle",
+        "regions": [
+            "us",
+            "gb"
+        ]
+    },
+    "com.screw.blast.flow.shooter.factory": {
+        "name": "Screw Blast: Shooter Factory",
+        "regions": [
+            "ph",
+            "id"
+        ]
+    },
+    "com.sonat.bbqgo.sort.match.puzzle": {
+        "name": "BBQ GO!",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.MoodGames.TrafficJamFever": {
+        "name": "Traffic Jam Fever",
+        "regions": [
+            "ca",
+            "ph",
+            "br",
+            "tr",
+            "us",
+            "au",
+            "mx"
+        ]
+    },
+    "com.VectorUpGames.TallManRun": {
+        "name": "Tall Man Run",
+        "regions": [
+            "br",
+            "ph",
+            "mx"
+        ]
+    },
+    "io.superbrick.masterhospital": {
+        "name": "Master Hospital",
+        "regions": [
+            "br",
+            "tr",
+            "au",
+            "mx",
+            "gb"
+        ]
+    },
+    "com.mobsmile.trivia": {
+        "name": "Trivia 3D",
+        "regions": [
+            "mx"
         ]
     }
 }

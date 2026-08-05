@@ -1,6 +1,520 @@
 {
-  "updated_at": "2026-08-04 12:21",
+  "updated_at": "2026-08-05 12:22",
   "games": [
+    {
+      "app_id": "6758003347",
+      "developer": "Voodoo",
+      "platform": "iOS",
+      "name": "Castle Rivals",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/ae/e3/62aee314-c763-060d-00fe-b791b074b062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 127,
+      "genre": "Games",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/60/96/1b6096dc-cb73-0fdd-d986-a015437c4d13/CR01b_IPHONE-1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/24/ee/ce24ee93-5830-29a5-dc1c-b605c60711bc/CR04bIPHONE-1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/41/e0/c241e0aa-7553-6e3c-ae14-bdad0323d7bf/CR02_IPHONE-1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/d4/ca/95d4ca95-db18-e0ae-0aae-3b6cb719a8d8/CR03_IPHONE-1284x2778.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "262.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-04-02",
+      "url": "https://apps.apple.com/us/app/castle-rivals/id6758003347?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "6772210932",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Association Match 4 Emoji Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/2e/de/052edeb3-20d1-d7b1-d460-66295528439a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/a3/20/d2a32034-3663-f3dc-1f7d-202a7d7efd67/AM_ASO_0001_StartSet_s-1_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/d5/e6/f2d5e6aa-7084-b6e4-aac0-360c25316963/AM_ASO_0001_StartSet_s-2_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/75/49/5175497c-553a-acea-3d5c-834dcab2980a/AM_ASO_0001_StartSet_s-3_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/31/01/69310171-2d1a-0937-b22e-9c0f87a170f2/AM_ASO_0001_StartSet_s-4_l-en_1320x2868.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "426.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-04",
+      "url": "https://apps.apple.com/us/app/association-match-4-emoji-game/id6772210932?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "6766227607",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Sushi Flow: Sorting Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/5d/d5/f05dd5dd-b338-2351-779e-3208ad59d0af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Board",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/d7/a4/94d7a40c-91b5-3cd6-c021-7ef164f9260a/001_SFL_Initial_Screenshots_EN_1242x2688_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/b6/e3/78b6e3cd-a7ce-5da5-1305-cdf2add3975f/001_SFL_Initial_Screenshots_EN_1242x2688_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/97/ac/3997ac83-2000-2136-a848-b43538525388/001_SFL_Initial_Screenshots_EN_1242x2688_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/5d/7c/4d5d7c5f-6538-a8e9-8245-e38f8a7d70da/001_SFL_Initial_Screenshots_EN_1242x2688_4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "278.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-04",
+      "url": "https://apps.apple.com/us/app/sushi-flow-sorting-game/id6766227607?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "6788647921",
+      "developer": "GOODROID",
+      "platform": "iOS",
+      "name": "Catedrop: Card Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/81/8c/1f818c7e-e51c-c0b9-c766-996d6f6c4721/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
+      "ratings": 3,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/d2/b3/2fd2b368-0b91-02b4-8df0-7eee0923cb2d/6.5inch__U00282_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/36/17/1c36177d-f248-6d1e-5a2f-e47103392538/6.5inch.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/04/1b/03041b2a-548f-8990-3282-47f62e8bfc73/6.5inch__U00281_U0029.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "619.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-02",
+      "url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "6795526625",
+      "developer": "Astrasen Global",
+      "platform": "iOS",
+      "name": "Marble Craze - Ball Flow!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/3c/e2/233ce2c8-e80d-95c6-9019-dd2db124df0f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Games",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/81/d7/ab81d7c8-bc7e-728b-5c13-b3f447ef969f/6.9-7.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/16/97/eb169745-67f4-9f5c-7bd8-c9388ce7bab8/6.9-6.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/41/1f/e9411f1b-43b1-cf09-4322-878a8e1b5ad3/6.9-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/9b/40/8e9b40b8-6d5b-668b-2577-fd14360cf5b3/6.9-1.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "90.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-03",
+      "url": "https://apps.apple.com/us/app/marble-craze-ball-flow/id6795526625?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "1645275647",
+      "developer": "Supersonic",
+      "platform": "iOS",
+      "name": "Laundry Manager!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/9f/37/839f37d6-bd39-15c0-ee6e-985941a4dfb5/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
+      "ratings": 14,
+      "genre": "Games",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/97/35/7c9735fb-5433-436f-47d8-c12014aef90b/e34bc5ee-563f-4cc5-8113-2561f8cee2b6_01.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0b/a0/24/0ba024d7-f3e7-604d-4d15-a6b36a490235/3bda683f-2519-4d5b-81ab-787a51d6e613_02.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ea/a9/b5/eaa9b574-b67d-a980-5bc6-d7bbc9e2743c/ad8f743d-5826-4fff-affe-fad2f3f07405_03.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/39/ef/5c/39ef5c2f-adb8-156d-246d-bb49b595b99a/2c7a43ce-9f62-4b22-9138-929e429710c7_04.jpg/392x696bb.jpg"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "tr",
+        "au",
+        "gb"
+      ],
+      "size": "217.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2022-09-27",
+      "url": "https://apps.apple.com/ph/app/laundry-manager/id1645275647?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "6790234413",
+      "developer": "Supercent",
+      "platform": "iOS",
+      "name": "Target Smash - Physics Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/2a/f7/2a2af746-99d4-c450-b374-9a354e326436/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/e2/fa/dbe2fa13-ebaa-2122-be4b-b8191af87bb9/m1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/d8/4e/c3d84e7c-4a3e-c498-9466-f1a9c4dc7eb5/m2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/4c/9d/1a4c9d6d-2591-f496-fc95-cbc59d19f6c9/m3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/bb/a4/5cbba436-e38b-cb48-3783-2ce13e843aea/m4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "263.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-03",
+      "url": "https://apps.apple.com/us/app/target-smash-physics-puzzle/id6790234413?uo=4",
+      "found_date": "2026-08-05"
+    },
+    {
+      "app_id": "com.advisorlynx.mobileadvisor.peakfininc",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Financial",
+      "icon": "https://play-lh.googleusercontent.com/wQ7HGbpa1LFbPIZhhso5Gp-B4oCQipwYcpVsg-AyZQT8hgRcbqubTkgWdckUCNoF6NQypL8TP8jL8dEHoslbjQ",
+      "installs": "100+",
+      "real_installs": 155,
+      "genre": "Finance",
+      "shots": [
+        "https://play-lh.googleusercontent.com/UNMUPRU78UBqkxWTd9XQHvhrajJTppuuab7gNw_36FDnUTbcjmkJAY3aFqi-W-LqARjO1rKOlCWT_-jnemrz",
+        "https://play-lh.googleusercontent.com/6sfpCQkp16zh_SQm2TQ4_Q4XsDOSV30ZUPfVMzuyZ-bKaZGL0zUgPwl3n3fUVgHMtqOMHL9pXmu4AfrRk3V7",
+        "https://play-lh.googleusercontent.com/aG383Moy5c6YxBJfhMRUh8l6ipe2vH4DwOFlaOso5Z7054fbrNCX8evsjCxXw8DcJs6RymRwU1gCH9Y38zJUn6s",
+        "https://play-lh.googleusercontent.com/WyjOYk7FHGYQpsljU9W3KNdBAAj_YvTc3lMgrPRkwKXB6HepSabGhruTxIwwnvSf_ErkfGLDTnG5AluoszQ-TQ"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jun 29, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.advisorlynx.mobileadvisor.peakfininc",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.justdesserts.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Just Desserts: Merge & Story",
+      "icon": "https://play-lh.googleusercontent.com/q_KROSDAhT4UgCR7Y11CqDdIAg2A1m8GTJTo2sPJnobwDZuRyC_Gvyyx71nreHPaH5WrxM4PwZ3lTsCYhuw",
+      "installs": "100,000+",
+      "real_installs": 240402,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/EGYmPvqtE5NDL0-3JyoKy7_UkAtbsIW3Ssc0Ey0qbvCDNHngvoYtsVNXhU-REou-vtXo5sIg1pgv3n7QrvlbeQ",
+        "https://play-lh.googleusercontent.com/pogJKyFCG_rWjiXuP9_h7kQVPWBjerZ-3EyXEpDyOZtNN1Ie6SdiReXCsumqat5ly6igm2pQPAJzWAhMdqyJgw",
+        "https://play-lh.googleusercontent.com/m8aixjG3mmKPGnDVasGu0e9nfjQnPI5xHOLfFh3rc0hwACbEQAuUGkvQ-WjQjNDWHjS1wHpZ69-6EKONKUub",
+        "https://play-lh.googleusercontent.com/Q77EBCHOCKUDFpy_l_AT4nf4CKJSxsIGIkIsQ6XPjEs7iBxKRV69tR95HaoLgU2ekdTeOvS5pWGm9OXF1QWtaQ"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫2,650,000 per item",
+      "release_date": "Jun 1, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.justdesserts.global",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.jighexa",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "JigPuzzle: Making Room",
+      "icon": "https://play-lh.googleusercontent.com/7NdC-qE0fNotPcpWxxleSz2jLlvzz2ONi9Rc9S7ntKNlF2WamLVWrKtNCFXaXxVnshq2Oe86B-nuYFGcH0VwVzM",
+      "installs": "10,000+",
+      "real_installs": 12960,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/9l3J0ac4n_p8taRlmgLu4FOTJGkDfxiJrWcsOIJgdj9EERaSUVbaSLKearSeNZ2EWCSFxSxgwJ3PEUzPNP6cLg",
+        "https://play-lh.googleusercontent.com/Plmb8M6qX6K-AuulvOMLhy7qtRg8PB5Ybv3NWBMzLLKtCPX8CoYL92mL6rf7ZcXpwOqXJL-jz-kTxhT54T9mcA",
+        "https://play-lh.googleusercontent.com/12jB0VRoujhXEe5vL413nFuu-0S9bKm1QIU9jHqD5M7RCJY-iWtCuwqME3qag682Bm_jolzzgkxa3KHl4VIm",
+        "https://play-lh.googleusercontent.com/Pbx4rzIoAfRXA7cQdJU1GhhuWqMkzWvh2g6udYcHStW803smlljAwvctqyQR8SSpJjZG7DUTy5-RjS8hHo4c"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫243,000 per item",
+      "release_date": "Dec 15, 2025",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.jighexa",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Manababa.RandomSpinDEF",
+      "developer": "TREEPLLA",
+      "platform": "Android",
+      "name": "Spin Spin Defense",
+      "icon": "https://play-lh.googleusercontent.com/AsMfshYQGpGayb-vmMIAQSvpsZiiviyQvuC1D8hidk375-M0m8YguowtFmtXnqYNouyHwo-fP4f-pRmIliNmjg",
+      "installs": "50,000+",
+      "real_installs": 88650,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/un2EPeitBngUpgSvICgu_ys8slXOnxltUesznt4AusOEx32Spg5SOmeH0641M20XAZfCkrhbp4czVuXFFuaU",
+        "https://play-lh.googleusercontent.com/KDN3Cl_WuMMV7zvmx50gmwZd5B9BNOWWqa731lRKzuZbedL4Uutee3FNfM-5CCgwAW6JBTROJnE5vzf4gDs",
+        "https://play-lh.googleusercontent.com/ybu447Ev5m21vvJq9K0vKpXPnv4nmQFRzBFBj5vEeFA7I4y19XlwacL0gIEbdnRDrlz7hYqLByQJmydUBCfFmg",
+        "https://play-lh.googleusercontent.com/lASMr6LfEzSGKve9_6J0U5PorgrVrlbpE4JfIqWwQDQAL23Fg9FGoelItbrdfO_wDW2CcceAwM5GtlQtSeO9"
+      ],
+      "regions": [
+        "vn",
+        "ca",
+        "ph",
+        "us",
+        "au",
+        "id",
+        "mx",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫6,000 - ₫470,000 per item",
+      "release_date": "Jun 29, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.Manababa.RandomSpinDEF",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "tangle.rope.tieknot.game3d.wood.master",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Woody Untangle Rope 3D Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/6YA1bt-5oqy_6ohBBqunPSRBQFqNPythnlYl8bO-vbDrB7kiTlW63jw9D92NBQiq32FymcjBICHRl5pQ5ISA",
+      "installs": "1,000,000+",
+      "real_installs": 1716746,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/omyN7O9NoB8J9_nXnEMEbmpBA0SoXSEoFKVdQfb9FaeamZ3e0eaMnBdIQVMCdtbdBgiWBwo5vNSBusW2BMEO7yY",
+        "https://play-lh.googleusercontent.com/ZEazPapCdXVum-x9VUo4VMSneZodpnykbveYZLjV7fv9DbqAwv3Ay1RyodvyXy98cHUtlLh7DKox0Udyz1jST1A",
+        "https://play-lh.googleusercontent.com/CuZfVzs9WasrQPZoOxkfWCOIEPmkXhQ-Te4kF9On9lwtEmfogIW5URJjH_WwONiDg--L6M5X7ztdWeGX9CToZUc",
+        "https://play-lh.googleusercontent.com/T8ya6amscoiLu3PMOA4bBaI8bWrmEtwFmgB5ZfckrB6JJsE6ZClZ__44REn5Hx8jtOhSK-BH83vF5BkZJqgrPg"
+      ],
+      "regions": [
+        "us",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.49 - $99.99 per item",
+      "release_date": "Mar 18, 2024",
+      "url": "https://play.google.com/store/apps/details?id=tangle.rope.tieknot.game3d.wood.master",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.screw.blast.flow.shooter.factory",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Screw Blast: Shooter Factory",
+      "icon": "https://play-lh.googleusercontent.com/aPQw3azV1c6l4OoReFCJLdAmtE8ZUSqDqh7aHB8Y_kweSnekAP6j4Gxig8A0JNZ1_sbbDSnJgigCahOWZXvlyg",
+      "installs": "10,000+",
+      "real_installs": 35029,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/par63KememQU8C-nQExefLjSo7nB6_HyhcQISGErnuM9I3SmsFMtPtH4KtDzedAzIGU2IKE19Vc2bxFwZQTG",
+        "https://play-lh.googleusercontent.com/AnFTrqiYAN1mZhOyt_4PbG5wNbDRqNBUxJ5fcLHBIJqXHwneh6HaxgzQGLBe5WjM8SvAjxhVDvBmF9pLCgIZUA",
+        "https://play-lh.googleusercontent.com/TNKNfxL_J0HKDPtceb45BkQHIusVUBP_x285d9V6_ZOsEemfkZB41uHoN8VzlA4NEh_TOSuOUt4HQEuCU5tR8w",
+        "https://play-lh.googleusercontent.com/ttbe0-TXPySCZuHEEH1a9YgsSjLSNBOf32LVt-n-TiEkPqF5RGlk-F3MVB5MsalT1oQJ7VbEAXBRInitxBbybw"
+      ],
+      "regions": [
+        "ph",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱66.00 - ₱6,700.00 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.screw.blast.flow.shooter.factory",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.sonat.bbqgo.sort.match.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "BBQ GO!",
+      "icon": "https://play-lh.googleusercontent.com/0j7hcFRHcX6wz_2fMXPnVf2f6WtNNj2LjWqYJ6yP0gytqJiIWQdeA_GSMG8XbQa25TATKb9jj6PdZ8EsynSc6w",
+      "installs": "5,000+",
+      "real_installs": 9803,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/1ngWyIUv_m-RYuL_vuy8xN3VfsKXlW9m4vqlPRi_SHjNQ5T8FzZROXyWF8CtKR-XPVySUtWBrwbWO2c7tcHn",
+        "https://play-lh.googleusercontent.com/b8vEfxbrtxLd8Hmas26RHyo1D7Zlo0C1dbg-71mCV-XViorftItKkPJK52urSbYrnp63BMM2raPBq8txswC_",
+        "https://play-lh.googleusercontent.com/So0btLe4ZGy5ibSJPabQAUTUqkxoBUhErlT7S8dBefq8OVMZ2C-ZOrBCjAHMU3hOTt2gKHfiOJjtjrc0Tr2J",
+        "https://play-lh.googleusercontent.com/DbMEjgsvGwiyGJdBWeblUVtx8CmFlk377KyXBX08l47IeZt3GxP_jRsX_UEQtLKmdLiolXIraJC1oLLiEDW4Hw"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$539.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.sonat.bbqgo.sort.match.puzzle",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.MoodGames.TrafficJamFever",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Traffic Jam Fever",
+      "icon": "https://play-lh.googleusercontent.com/sGsPJYcWdTSF0bnQwu9KDfucH5pNagE8qVmXj5KAZlDn3cL3McNzvUEUSuJHcd56i4e57DMgc5pYb-L7MzDa4KU",
+      "installs": "10,000,000+",
+      "real_installs": 25174578,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/39-mZG48RipfUOYJXkWq2fW9mK0qywQ-_zY2M8GBEssr-GZidvWucwpE8wuhmsWo-iIoQfUnicOsd6W15JFP",
+        "https://play-lh.googleusercontent.com/MTVv9vx8Ot0PgiJR-OiKaxj1H8EnZqmPBkvUoZpuzya-plkDOdDJeeVGJirq85aFOV117NqFnHPeU9JqlOKO",
+        "https://play-lh.googleusercontent.com/sVWB4IFE-y5doC3uWHF-BxxOQcbFUgW3ljOX2_mSv9hQj8fydy8TeXn2XkYWNjTgiK4qY_w5D3Pny7UqFuJQ",
+        "https://play-lh.googleusercontent.com/GKKnO0L3tW3WkkTbCXbopvjHpmTx56GnKK2dXejBnRuE6fxQpt7x4DK_wN4j-roYze_qhELGR-NhqG8R6ohTSwY"
+      ],
+      "regions": [
+        "ca",
+        "ph",
+        "br",
+        "tr",
+        "us",
+        "au",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $15.99 per item",
+      "release_date": "Nov 22, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.VectorUpGames.TallManRun",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Tall Man Run",
+      "icon": "https://play-lh.googleusercontent.com/Xpp1lUQgK-kTA38Kj64qS67yvON7Y1BGmTUAjFVq25MwdlDI1ZqvToa4-J0oQ-shr-FaitAjMHYJJkL2G4V-0w",
+      "installs": "100,000,000+",
+      "real_installs": 214473682,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Se9O180rq-cPSt0hA3kqpd5Api554kHngwjzfKSxBpv9J1XDu07UbJcKu0pXc56ft6C7Rs71nlsrG98ezxvibA",
+        "https://play-lh.googleusercontent.com/Mw0O5U6D2CTGsVU-QlHNS0JRTtnwgHbIQnGv-YDo1jUYfg7diCwOsi0iqOssJ5KMjTBUfr_N6hOcBOY9cE6oayg",
+        "https://play-lh.googleusercontent.com/HBAj8hSwbY9xsPSPJagLFB7-vNASQreoEC3WSpbRkEUhBGv7Tyr9H5kCrC7WLZssaSAN98X-BLewGfSSEBH68w",
+        "https://play-lh.googleusercontent.com/nodaAD-a7lXOD0pIBwGKgKpVS_34ZRgQkUeJsnc-qkoDADzWhIA3W6Eqcw6aBLAoYEffFYHlXzE3kKQipUWhDQ"
+      ],
+      "regions": [
+        "br",
+        "ph",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$17.99 - R$48.99 per item",
+      "release_date": "Jan 13, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.VectorUpGames.TallManRun",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "io.superbrick.masterhospital",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Master Hospital",
+      "icon": "https://play-lh.googleusercontent.com/Maqxtkxo7a_iuAz2EiJyeMSlGjtcuFoJ1g4b2I3cPVeeZ8z6OEJkDYFt0hpDagC9FxXfgALZncsLTTCvnhlo8Q",
+      "installs": "10,000,000+",
+      "real_installs": 11890747,
+      "genre": "Role Playing",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ew74EDYf_yDvNGD05iD7JVxPQLsTWpV4zmEolHveCZfJ7cmAKXoDv4RMg5lCK3bldNE-cI-nYF6_6Qm4lPq9V20",
+        "https://play-lh.googleusercontent.com/NNF9eJBWXzFY5PpHMdJjYemXsbiMt4NeOI44QFEpAH3K5c2UsaxEOxY0h7gi7mioOqzWgQwtq7RmM26cVwxXiTc",
+        "https://play-lh.googleusercontent.com/JtYM599zJZuedka-9udgVhQ1KNG1KSR7k0CKIWb5-Vd8n7pMQiq9zJVU4oLIPn-S2CAQqR2wk1NZS1OAi-8O",
+        "https://play-lh.googleusercontent.com/_i6P9h-kg0jda1tKK1isFnuEeguQcms7UG3vabU4hd9Qd_fSMp9GIeXHLbbzMpUzikrttz1SeciECqSXIPKar5E"
+      ],
+      "regions": [
+        "br",
+        "tr",
+        "au",
+        "mx",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Nov 25, 2024",
+      "url": "https://play.google.com/store/apps/details?id=io.superbrick.masterhospital",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mobsmile.trivia",
+      "developer": "Venturesis",
+      "platform": "Android",
+      "name": "Trivia 3D",
+      "icon": "https://play-lh.googleusercontent.com/I9pY5C_8OvM2Zz5zfy6EPRWYWgELLekJrJVr9bc41YqaM2AdzfjNUzvdPYm96Xl_QgWUb8tSC8GKVH4bh3QIYP4",
+      "installs": "10,000+",
+      "real_installs": 13596,
+      "genre": "Trivia",
+      "shots": [
+        "https://play-lh.googleusercontent.com/bwAD1p4oEYe8u5C-lA_4lG1d5qiTkwebGWmXDl1Fu-_AC6IQ7dReD3MzkStI2waNKeQaVE9pcquO6so1Wmu0TQ",
+        "https://play-lh.googleusercontent.com/p9hZFZ6HwcmLJxm__Bu4LxdASp-jqiMsrU86OhJ5vSJnffg0C-GEnfg8DDK5pFvg1XJpJatLEOv1hm0pVWMm_Q",
+        "https://play-lh.googleusercontent.com/vR8VDKevvFqNoJW1UEroMBqo2BuFoIgI9AHei2LCxvVlNqO3aX0-ZhrXJyfLgGX5Mv8iQqEeuGlOYxn9ParnsA",
+        "https://play-lh.googleusercontent.com/N4mH8EHMPswomrKfzB8uA_UqhBsTnV_zehSHe1hkdk1iQmTqjd7FunOqGI95sObUEk12_xfSs3jDQXq1ZTkh"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$109.00 per item",
+      "release_date": "Dec 30, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.mobsmile.trivia",
+      "found_date": "2026-08-05",
+      "velocity": 0
+    },
     {
       "app_id": "gov.coloradosprings.pikespeak",
       "developer": "Peak",
