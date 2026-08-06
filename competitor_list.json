@@ -26982,5 +26982,75 @@
         "regions": [
             "mx"
         ]
+    },
+    "6786300007": {
+        "name": "Wordoku - Word Puzzle Game",
+        "regions": [
+            "id",
+            "au",
+            "br",
+            "ph",
+            "vn",
+            "us",
+            "ca",
+            "gb",
+            "tr",
+            "mx"
+        ]
+    },
+    "6763426921": {
+        "name": "Cat Island: Idle Tycoon Game",
+        "regions": [
+            "id",
+            "au",
+            "br",
+            "ph",
+            "vn",
+            "us",
+            "ca",
+            "gb",
+            "tr",
+            "mx"
+        ]
+    },
+    "6793924927": {
+        "name": "Rotate Rings",
+        "regions": [
+            "id",
+            "au",
+            "br",
+            "ph",
+            "vn",
+            "us",
+            "ca",
+            "gb",
+            "tr",
+            "mx"
+        ]
+    },
+    "com.match.connect.master": {
+        "name": "Match Group: Connect Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.twist.hit": {
+        "name": "Twist Hit!",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.gamemaker5.idlemafia": {
+        "name": "Idle Mafia - Tycoon Manager",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.brickjam.color.slide": {
+        "name": "Brick Jam: Color Slide",
+        "regions": [
+            "gb",
+            "ph"
+        ]
     }
 }

@@ -1,6 +1,202 @@
 {
-  "updated_at": "2026-08-05 12:22",
+  "updated_at": "2026-08-06 12:25",
   "games": [
+    {
+      "app_id": "6786300007",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Wordoku - Word Puzzle Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/d8/16/b2d81655-786e-70d0-256a-f80eff177128/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Word",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/17/36/e51736a7-3eda-0cc8-b8ca-4186e2be743f/find_words_ios.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/9a/a2/e39aa2c3-a3d0-91a1-9d43-04093fe900a2/think_carefully_ios.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f7/3f/7ff73f93-6694-6c8b-5bea-e62340142435/solve_puzzles_ios.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/59/d7/5959d703-4ac8-7167-ba8d-8494473a0dee/prove_yourself_ios.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "au",
+        "br",
+        "ph",
+        "vn",
+        "us",
+        "ca",
+        "gb",
+        "tr",
+        "mx"
+      ],
+      "size": "300.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-05",
+      "url": "https://apps.apple.com/us/app/wordoku-word-puzzle-game/id6786300007?uo=4",
+      "found_date": "2026-08-06"
+    },
+    {
+      "app_id": "6763426921",
+      "developer": "TREEPLLA",
+      "platform": "iOS",
+      "name": "Cat Island: Idle Tycoon Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/0f/4a/0a0f4a70-27fb-9af8-cc44-9c5ded363992/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c9/b4/c6/c9b4c6e6-2fb1-dc83-8127-6989aafc9c01/01__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_260723_1284x2778_OCY.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/c3/4b/33c34b89-1e5f-a946-71fb-631ebb6b6549/03__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_260723_1284x2778_OCY.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/b7/4a/2bb74af7-4368-25b3-6492-347e5d827248/04__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_260723_1284x2778_OCY.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/11/0f/19110f66-ce77-47a4-3328-07c45d1a3bfc/02__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_260723_1284x2778_OCY.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "au",
+        "br",
+        "ph",
+        "vn",
+        "us",
+        "ca",
+        "gb",
+        "tr",
+        "mx"
+      ],
+      "size": "241.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2027-01-22",
+      "url": "https://apps.apple.com/us/app/cat-island-idle-tycoon-game/id6763426921?uo=4",
+      "found_date": "2026-08-06"
+    },
+    {
+      "app_id": "6793924927",
+      "developer": "Nebula Studio",
+      "platform": "iOS",
+      "name": "Rotate Rings",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/04/5f/11045fa5-8f64-501e-37ab-624be4faf660/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/82/71/a1827110-e22f-489e-5ae7-1e07a32c21b9/WSG_game_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/6e/c5/256ec5c3-b66a-870b-7f3b-2d6999fb57ec/WSG_game_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/f0/1e/03f01e4f-d43b-d266-4bbc-fbb4d31c38ea/WSG_game_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/7c/c6/da7cc6e0-7e5f-a340-a682-2146cb1ab9a0/WSG_game_4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "au",
+        "br",
+        "ph",
+        "vn",
+        "us",
+        "ca",
+        "gb",
+        "tr",
+        "mx"
+      ],
+      "size": "173.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-05",
+      "url": "https://apps.apple.com/us/app/rotate-rings/id6793924927?uo=4",
+      "found_date": "2026-08-06"
+    },
+    {
+      "app_id": "com.match.connect.master",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Match Group: Connect Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/l16wvIRvJWW4BxtL0FNV4D3fNHnpCiU-rtwVfWTwdm-i9Ft5gdPrzu1j_De_boyxJHwoG-iEgIT5ZG3ca3YGhg",
+      "installs": "50,000+",
+      "real_installs": 64710,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/7cJ4O0SmHR3fhh0uoh-6XhATEV6miT_d5bBkq6xAdqK69-S_ehDDWbSfZPn_2qf_0tZ5Y6gtIiQTXOutZZ6W2Q",
+        "https://play-lh.googleusercontent.com/KLwHNDUmKvQMCyf5UCskx5e1E8aqFlKLFVdcieMimOlbQf8QlgezMCjDtWIM6bcP6HPf4CpNMr5-WbP15fge",
+        "https://play-lh.googleusercontent.com/Aps5mQDe5d_N5FBVzU6FQoXGSWzu8tLMyHo6xP2RdNcg3rV15P72iV4NCgPEeKfAQGsyQN7eatVT8o_vEQkD",
+        "https://play-lh.googleusercontent.com/Ff7mQLZb9pgCjwk78F_9akTAIQyHtYBDT0P8RKTIi_5FuPCK4en8Yi3RuiDT7w--4HrYlDvda-YA4NzRlwFjzA"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 17.000 - Rp 1.690.000 per item",
+      "release_date": "Feb 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.match.connect.master",
+      "found_date": "2026-08-06",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.twist.hit",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Twist Hit!",
+      "icon": "https://play-lh.googleusercontent.com/-tIc2-jWwDmqhRyNaR7UhT1BaWcTvKlqknmuA-LwNSq1L3-vZMvuVv8Q-axtlB5amzdKdE-hMQKRQQ_1EAQv",
+      "installs": "10,000,000+",
+      "real_installs": 48443008,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/CC5zEKJ57KC2IcSfFTyuWEEs1pccQ0vcbn5t213ZFP8sHs2f8wJXCLPaCIP9shg-3JELf1FASqgTrL4cIuQoUZc",
+        "https://play-lh.googleusercontent.com/ZztOMsnYhnBhHRL_Q2Fyu0syoaDAx-7RWlp7lYUDeZe63Gcm1kJ2So6x5yTtWWhQ7glXzuTadhHQLEi3JQM-",
+        "https://play-lh.googleusercontent.com/XqnR1NoCen2Hb8oeWXUB7YahP6h23OeWBLOByliPJ5WP6Xp_umqN76R8ZjlVNJd22iyrlqYS4l6X3hNsx8-WCQ",
+        "https://play-lh.googleusercontent.com/DzHms2z5ve9YorEVz1X-0Qk2ap2dxd573i0GN-e8zJ_aK7wfOY72wBPWI1RdH-zN31JNpna536irYYcQgmODhsM"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.89 per item",
+      "release_date": "Mar 26, 2019",
+      "url": "https://play.google.com/store/apps/details?id=com.twist.hit",
+      "found_date": "2026-08-06",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gamemaker5.idlemafia",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Idle Mafia - Tycoon Manager",
+      "icon": "https://play-lh.googleusercontent.com/mXbh4U4LO-WUr-9N88StYePdlmicC1YyK59TOHcUWFs7TmhZC__md52StL2Ae_mL9LibpR-FWV_nyyl8hW5BOQ",
+      "installs": "10,000,000+",
+      "real_installs": 15691810,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/PHLfN_Ixeup9CapF_ig9newVSDT77tyTdXV7t97_U4TuYVXm3mQnph7Z9rv0e8GWcSNMt2eRGG9Yy1uDtxH-aw",
+        "https://play-lh.googleusercontent.com/GNn0NHx6xAf4XnJiMFc99KSPvk5TLCaN_ttpt29_vhXc8IDc3IQDj4PF50Bj5PkLc4XtBt7ZrtdMw2kAgD_9YA",
+        "https://play-lh.googleusercontent.com/lpsbxuVBJ3oouxsjm86HpDNGgyK1qDnT6iHbBMIJQBUJ_hfJZxP1R6_Ni-On2hRPTSfYrlpuIYphQ2rTnGM",
+        "https://play-lh.googleusercontent.com/7AeNJEH7JWvDTO-gSLRFYZrbtYWcXL9ICJ_D67dBfN4F-Sjik2vLY9xZEFrOlqPklq5Va-46yiiOuyFicjwImw"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱55.00 - ₱9,990.00 per item",
+      "release_date": "Apr 13, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.gamemaker5.idlemafia",
+      "found_date": "2026-08-06",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.brickjam.color.slide",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Brick Jam: Color Slide",
+      "icon": "https://play-lh.googleusercontent.com/IxMZ6NHI0D1Tr3ly--hPGzYmF7Y8cORNuwxbNklOmbhYP4LRLtwvhWnAd_ziJyEch_QZp2uPdIlb6EL_s2bB6Q",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/MHReix1b-_22oTKg2zw1B03CwLkG0zluCTmODnu7QprBpapJWI8jN_-bx9RxSMTH3CdDxshh2sNB8PqxiL_iFw",
+        "https://play-lh.googleusercontent.com/d-BIaD_tDiU-x4Roc3cejcmmlB6J6N7q8lVjfbDa-l2H2ZE57Hl0vtLwlRjnEYvr97FjrbjrDdmbdiqrR_tOTqM",
+        "https://play-lh.googleusercontent.com/jVxdWzjKyLuyaLz0ww2O5P5q1g-QTEKmHt6JLJNlAuaXIDn1Phuypb2DK8GV_285Wi_mtlSH6nr91z-nETl4pw",
+        "https://play-lh.googleusercontent.com/JREwql74bOuHvXAmyroLLr_x6ez6BGC9-0zeAhNTuRhiOiPrZvi1O5sSFpkWBZoVaPcfwMBrlYawQfhtr-D2SA"
+      ],
+      "regions": [
+        "gb",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£1.79 - £88.99 if billed through Play",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.brickjam.color.slide",
+      "found_date": "2026-08-06"
+    },
     {
       "app_id": "6758003347",
       "developer": "Voodoo",
