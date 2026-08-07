@@ -27052,5 +27052,953 @@
             "gb",
             "ph"
         ]
+    },
+    "6761165904": {
+        "name": "Car Battle - Idle RPG",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6788392863": {
+        "name": "Cube Way Out - Puzzle Escape",
+        "regions": [
+            "us",
+            "br"
+        ]
+    },
+    "6790387620": {
+        "name": "Color Connect! 3D",
+        "regions": [
+            "us"
+        ]
+    },
+    "6789006741": {
+        "name": "Magic Pack Man",
+        "regions": [
+            "us"
+        ]
+    },
+    "6788677604": {
+        "name": "Pack & Go! 3D",
+        "regions": [
+            "us"
+        ]
+    },
+    "6786987224": {
+        "name": "Brick Drop: Color Block Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6784566344": {
+        "name": "Pack Man!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6782797245": {
+        "name": "Taro Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6782751214": {
+        "name": "Meowdoku 3D",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6779206823": {
+        "name": "Duck Loop",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6776574806": {
+        "name": "Stack Cat Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6776493932": {
+        "name": "Arrowpass™",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6769325773": {
+        "name": "Farm Drop",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6767143247": {
+        "name": "Patches: Number Blocks",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6764525062": {
+        "name": "Wood Stack Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6763061013": {
+        "name": "Arrows.io",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6763046599": {
+        "name": "Toy Survivor - The War",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6763022139": {
+        "name": "Color Picture Jam",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6762592258": {
+        "name": "Crayon Sort!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6762329717": {
+        "name": "Marble Coloring Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6762176390": {
+        "name": "Pocket Chip! Coin Sort Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6762129926": {
+        "name": "Slice out! : Color Sort Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6761704577": {
+        "name": "Yarn Loop: Wool Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "6761521924": {
+        "name": "Coco Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6761164497": {
+        "name": "Tarotaire",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6760748205": {
+        "name": "Cup Blast: Pop Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6760704405": {
+        "name": "Cat Loop! : Knit block puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6760021177": {
+        "name": "Octo, Sand Please!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6759559942": {
+        "name": "Catsule Out",
+        "regions": [
+            "us"
+        ]
+    },
+    "6759546053": {
+        "name": "Merge Cat Detective",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6758932426": {
+        "name": "Bubble Tanghulu",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6758148662": {
+        "name": "Doodle Pixel Flow",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6758047747": {
+        "name": "The Living Fortress",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6757837173": {
+        "name": "Rainbow Cat arrows : Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6757536148": {
+        "name": "Sand Cat Blast!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6757514761": {
+        "name": "Parking Cat",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6757287986": {
+        "name": "Taiyaki Maker",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6756696497": {
+        "name": "Plop Cat!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6756465866": {
+        "name": "OctoDot",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6756351344": {
+        "name": "Magic Cat Sort",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6756097866": {
+        "name": "Knit Factory! Cute Puzzle Flow",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6755480689": {
+        "name": "Cat's Delivery Service",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6755466043": {
+        "name": "Hole Cat",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6755174303": {
+        "name": "Cat Away : Liquid Cat Theory",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6753934118": {
+        "name": "Loaf Cat Sliding",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6753330488": {
+        "name": "Cat Escape!",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6752334545": {
+        "name": "Shoot the Monster",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6749844595": {
+        "name": "Duck Jam 3D",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6749132002": {
+        "name": "Drop the Cat",
+        "regions": [
+            "gb",
+            "br",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6748088317": {
+        "name": "Match Monster : match 3",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6743162816": {
+        "name": "Match Supermarket",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6741896964": {
+        "name": "Goods King : 3D match master",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6740253622": {
+        "name": "Find Out Happy Village Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6738033441": {
+        "name": "Screw Box Jam",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6670149693": {
+        "name": "3D Find the Differences",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6654897110": {
+        "name": "Screw Cat:Cat Jam Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6639597179": {
+        "name": "Cat Cleaner : Restaurant Clean",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "6599609546": {
+        "name": "Merge Supermarket : Merge Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.hb.getinthebowl": {
+        "name": "Where's My Bowl",
+        "regions": [
+            "au",
+            "mx",
+            "ca",
+            "id"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "us",
+            "vn",
+            "ph",
+            "id"
+        ]
+    },
+    "com.easybrain.color.pixel.sort": {
+        "name": "Sort Art - Pixel Coloring Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.jigsawfall.joygame": {
+        "name": "Jigsaw Falls: Merge Tiles",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.story.plot.joygame": {
+        "name": "Crazy Story: Plot Twist",
+        "regions": [
+            "br",
+            "vn",
+            "id",
+            "us",
+            "tr"
+        ]
+    },
+    "com.tile.triplematch.mania": {
+        "name": "Match Mania 3D - Triple Match",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.nep.tr.idle.cat.island": {
+        "name": "Cat Island: Idle Tycoon Game",
+        "regions": [
+            "gb",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "mx",
+            "us",
+            "au",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.water.flow.factory.sort.match": {
+        "name": "Water Factory: Color Sort Jam",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.gimica.mahjong": {
+        "name": "Mahjong Master Path to Harmony",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.mobsmile.diceroguelike": {
+        "name": "Dice and Zombies",
+        "regions": [
+            "us",
+            "vn"
+        ]
+    },
+    "com.actionfit.blockcat": {
+        "name": "Box Cat Jam : Block Match",
+        "regions": [
+            "br",
+            "vn",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.actionfit.atlantis": {
+        "name": "Jewels Atlantis: Puzzle game",
+        "regions": [
+            "br",
+            "vn",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.actionfit.merge.supermarket": {
+        "name": "Merge Supermarket :Dream Merge",
+        "regions": [
+            "br",
+            "vn",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.actionfit.sword": {
+        "name": "Jewel Sword: Match 3 Blast",
+        "regions": [
+            "br",
+            "vn",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.actionfit.convenisort": {
+        "name": "Goods Fridge Sort : Sort Game",
+        "regions": [
+            "br",
+            "vn",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.cat.hole.puzzle.aos": {
+        "name": "Drop the Cat!",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.actionfit.matchsupermarket": {
+        "name": "Match Supermarket",
+        "regions": [
+            "br"
+        ]
     }
 }
