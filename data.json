@@ -1,6 +1,245 @@
 {
-  "updated_at": "2026-08-07 12:01",
+  "updated_at": "2026-08-08 11:03",
   "games": [
+    {
+      "app_id": "6796584903",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Fish Feast: Color Flow",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/26/a3/7e26a379-ab3d-5c41-0a17-820ae319838f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/8a/e9/7a8ae997-baf5-190c-5bde-df2cac632b7f/260721_FishFeast_IOS_DatNP_07a26_1242x2688_A1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/25/3a/06253afb-33f4-a91c-d429-bbcb5e453716/260721_FishFeast_IOS_DatNP_07a26_1242x2688_A5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/a8/82/f9a882e3-55c6-94c0-d7c4-8fafc5a6bb11/260721_FishFeast_IOS_DatNP_07a26_1242x2688_A3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/ba/83/44ba839d-a46c-75b2-0440-282c099d0a80/260721_FishFeast_IOS_DatNP_07a26_1242x2688_A9.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "gb",
+        "ph",
+        "id",
+        "br",
+        "au",
+        "us",
+        "ca",
+        "tr",
+        "vn",
+        "mx"
+      ],
+      "size": "255.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-07",
+      "url": "https://apps.apple.com/us/app/fish-feast-color-flow/id6796584903?uo=4",
+      "found_date": "2026-08-08"
+    },
+    {
+      "app_id": "6797557571",
+      "developer": "ACTIONFIT",
+      "platform": "iOS",
+      "name": "Pixel Town: Cube Blast 3D",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/6e/4a/686e4a46-a32e-4c2d-b570-6b915e8fef9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/e3/2f/bde32fd4-acc1-80ab-61b2-ac6d765ed22b/PT_001_store_1242_2688_en_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/bb/6b/0cbb6b7d-7bfa-b91b-b7be-d42d8b99c7c6/PT_001_store_1242_2688_en_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/3c/fc/7c3cfc1b-baf7-6f39-fbdd-37ae2a90af1f/PT_001_store_1242_2688_en_6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/5e/b8/b45eb815-83e3-5405-c138-35d792611a29/PT_001_store_1242_2688_en_3.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "gb",
+        "ph",
+        "id",
+        "br",
+        "au",
+        "us",
+        "ca",
+        "tr",
+        "vn",
+        "mx"
+      ],
+      "size": "326.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-06",
+      "url": "https://apps.apple.com/us/app/pixel-town-cube-blast-3d/id6797557571?uo=4",
+      "found_date": "2026-08-08"
+    },
+    {
+      "app_id": "com.screw.jam.nut.sort.color",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Screw Jaming: Penguin Rescue",
+      "icon": "https://play-lh.googleusercontent.com/S4C7hh5p7DHW0K4IxQh0mgpbyC26vma5VU3l_9Jqc97kugnCaxN4WM8g1HXZ3LeVga2onv7GbMiB-5rMASQYTA",
+      "installs": "10,000+",
+      "real_installs": 11560,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/NrB644eK_hr26gXpUI6gOJBmV8T7syEzTQU5BALw-hQhAjvHkbxkTNYd3D9Ld2Dp-FL7D0-WtgrUsmFIy7jGew",
+        "https://play-lh.googleusercontent.com/q8cgguo8PxDw4MVs4ihQkCjrF99CSYiHdlca8FHTjhMxRsk6_Ye2HY9Ua88KB2cbIG0LSjJIhhAiaJ7QC320SQ",
+        "https://play-lh.googleusercontent.com/aOjQbOV5tsdrzAYYPduF0JqDNnz8TrAIpkL8Pii17MYk0N-4bOnd9VsLUw42HCJTJnA6sXyKIOzm7TbMDncAKA",
+        "https://play-lh.googleusercontent.com/ame216HdUlXx8QqmvNhFw_QID0IpXlqEzLN7W5vduIuVu2-NPtUBrBsBhLCC-dI7nnmTo0OoR7FzR1YvyWpWjDo"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫2,650,000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.screw.jam.nut.sort.color",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.dorotheebrondes.bounceandcollect",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Bounce and collect",
+      "icon": "https://play-lh.googleusercontent.com/Am0ffhUGEi2ceOaXXmwkJxXdnzdbYeyXZZqCLSUTP2AmdBCLIhIXv79_ezb3ejUBuVsjA6Cv40h-p8W2YCGNBQ",
+      "installs": "10,000,000+",
+      "real_installs": 23418594,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/4PP0bJr5A7wJ6sdv3tAfwrZkxMN8PRjwSvI-uaLD4tIVzfn1q5fekmmPu2T0iqo3ikJfxBKzkTAbWOztv7II",
+        "https://play-lh.googleusercontent.com/copYYZpoJ7NrI_MW7gPQkUwoOXyHCXcOzTBYLAYtNvZpbluvj5bVY-GK442oCBGWR83oC-GKJqffmwUFseMNmhY",
+        "https://play-lh.googleusercontent.com/BfTz4c3OJ36v4rZ6DGlRPi5hF8QNQYo9UD2lFAtemGlRiizmC5MTX-rPSLH0vubpxv3vUWUFwQMBQTKuKfV9pg",
+        "https://play-lh.googleusercontent.com/Dy0CkqT11MYMPApCeCjBbWdVyD-sJlnh8tvi1RdWhmOfuZw620P9o0KISf8ilPo5oHAEnRcTT0eFkAFIsCzG0w"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$12.99 - R$14.99 per item",
+      "release_date": "Apr 9, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.dorotheebrondes.bounceandcollect",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mrmoble.flagpainters",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Flag Painters",
+      "icon": "https://play-lh.googleusercontent.com/SxwUkRie3fF3tQ3hrQOrbUmefQGb9Vt7rfo8jOPFtxNhRQwRdNqQMdE47s47In-xcWYh4gL-AjVCsifTtxLy",
+      "installs": "10,000,000+",
+      "real_installs": 22306000,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/2lsMD-b51ZmZk8bE9XEfllR39FkY0qtqvyEnnYqQi9WjTCyYTGeeHSqTUMZi_SFjRQLbNltKY1aAKQetOrgiFA",
+        "https://play-lh.googleusercontent.com/5RQnkXN0pWZ49UbBOcVHTAzHn8Mee_3yghdgBqmmMdsBwPTjDLbh_O_ziWot36vLWGBXLfDG21hJSUlJRQG_",
+        "https://play-lh.googleusercontent.com/afzoc8y44OejnPOXMbDVdaiJ1gHORzcKYx60gZ3SIvAS8tJLccMQ5MGI7OE3SbiZ__n5UhhNyGtPvCsaqfI_mTo",
+        "https://play-lh.googleusercontent.com/ETmzOAl4j-BOoLUSVNZWp9R4cc2KBXNAJ_INBqUhpms7Qmmef04PZv8YJFhjc5bSz_sJzwVyr5LID6WLIQi44ec"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$12.99 per item",
+      "release_date": "Oct 27, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.mrmoble.flagpainters",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.pilgrimsgames.p4",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Paper.io 4",
+      "icon": "https://play-lh.googleusercontent.com/CjiKMre4k3zZkZOXH4Phx4nr3B6P7BxJwAk3IGHfNZC_jSK3CMohptLe7Q7K6iBeNhtxwJy_LHJqlRMpkhIj",
+      "installs": "10,000,000+",
+      "real_installs": 17093600,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/vVPXZ1NtEJn9Rh1KxDIxheXHMMGSYGTx9op49gm2Der0AzzNYBfgyQN-MDHNk9EtsOzaRnZSTEE2BKEMfkJl",
+        "https://play-lh.googleusercontent.com/YBXlQM3tHLIKypJAqI1xjDFQkqeYkzeQmsHfJ_0pZEpL1WkSUf3TLnLAb1IWbeXeEXhzeQjJK9IzPucguiMhlCM",
+        "https://play-lh.googleusercontent.com/oOeIRcLqEHGzzsVq44FcIEjLIiFOSP11ru43E1HbAMit0jta47tFNKVaZggD153AO7NTONwHcSR9GFhanRN4PQ",
+        "https://play-lh.googleusercontent.com/E74DlNzpKlJoN9w8EWQp2Pw3aj5hM3a0By8rcgSWDCKZGiImbnXg3_e6xLt-cLFKakUsOQBWE8H-MEURb179Rg"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$16.99 per item",
+      "release_date": "Jun 27, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.pilgrimsgames.p4",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.thagiwara.aircraftmaster",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "War Plane Strike: Sky Combat",
+      "icon": "https://play-lh.googleusercontent.com/0I5Xtr3hLSfFB04i_oYbkLmI8AsmjTw9JXDj1__4zWdK7Pq0fw01IrbMYUT4ykZvqRs03Lj-JAQvacR9hHvN",
+      "installs": "1,000,000+",
+      "real_installs": 3328027,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/AoWVF0_XAUFCmP7DRNqIm3Xtq3Gz4IRr1METEZVLBrZIK07kwgTQcEivLSlWN_t1_qBBs574BsT-66dEli4eUw",
+        "https://play-lh.googleusercontent.com/2NnVTw8_bc_f2GpqM2CR9ui5y4Bl3u-H5QySF5vfY4dMAOowRnekVN0rickhHzojScofSB-FiH7x0XY5Yjn-",
+        "https://play-lh.googleusercontent.com/_HI7H5eacSaxYlLKRDieMT1a6YuEqOhJa55NW7TBmGnK7aKKKt5GhDgIxaO0AF-tmHlaAF3jhaG7uWq3kV4TZGI",
+        "https://play-lh.googleusercontent.com/3routmhFEWv4p6bYuKYSIgKeMIZTtxPthvItJdxBVrfoDyaOhE6OUbR9FzWvQoM0BXZ_kk-UNcG5Yjk8klN_FCQ"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$134.99 per item",
+      "release_date": "Mar 6, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.thagiwara.aircraftmaster",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.tile.triplematch.find",
+      "developer": "JoyGame Studio",
+      "platform": "Android",
+      "name": "Capybara Match!",
+      "icon": "https://play-lh.googleusercontent.com/edFe0bU1NPGTDRb831zDz7NriivEYR4Wa4GkHjI-PsdjKqewGYTYzBGr5OOWyOGEALLj0UGQP8bPgXlGEyRkKw",
+      "installs": "50,000+",
+      "real_installs": 92466,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/oGP77SYkXYSxVIsDeN3LRspTDqpwSV4-4U6zT6i5lTBsNI7Az_3ngmtpC1j27zlrPaeMnRq0Lhtdj3xa_qvxwg",
+        "https://play-lh.googleusercontent.com/ZV1ETjj5q953ODlmmnt6KVNUL674_J3I2PV2mKs38enV5vHxeicqn5dLZW7Tz4-TmBI9hJT6ggyfNKZr4E2YTCs",
+        "https://play-lh.googleusercontent.com/NEEKUeAfxnmcJm7HNac2bQQWhj2hnCJTmeqyDS7rWiT6FDdQKj2ygPNq-ATK39ppHDOjEs6_oTkl8qhpZIzN0WQ",
+        "https://play-lh.googleusercontent.com/eEj4Qe4tVYWNz6m2xSW1YN11TqrLPttKLH5_KCcT1tFmIDsMYnyaQEwzewfU7TjzG_zxNpcawV2dfq9AQgMq"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫48,000 - ₫2,550,000 per item",
+      "release_date": "Mar 14, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.tile.triplematch.find",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
+    {
+      "app_id": "io.supercent.pizzasimulator",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Pizza Simulator!",
+      "icon": "https://play-lh.googleusercontent.com/28zZy_twLYp5WTO-HTYrm3o9j3oLnn8FwmEqJmiArsgTy9b-FLoMHSxAyCbGBd-rgc2lSII8poCUPyMN7rWy",
+      "installs": "1,000,000+",
+      "real_installs": 1255752,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/rkbjVh40AjJELqAa-7VE2_98Y3aaDfdjciXwqsd65W69f1dz8Djgl1aD76B5Gl6yj8sN_k9x7JQ9Jfy9yaokXw",
+        "https://play-lh.googleusercontent.com/UC7z8SBLzqd_Y3f51zJHgbweMpBByHguItRVJ-GdUUHQ3d3KKQfn7AQX6gako83Aff6E9Ec3hk9LRS_XH61uBA",
+        "https://play-lh.googleusercontent.com/Fes2-IAHDSskJOy_sGt3a9aNjLQOytybPROZkjz_3lk3aFe4pBhrqCcEXSpBnWUkmFwLqWme0kIEzl-t2MxGvA",
+        "https://play-lh.googleusercontent.com/O5S3bkSH76_9oQumMMHaSOMVxGvJjbPxhAAqX63nJSkRf78STRhFEHnoKdeZ565ZaQK_QgfWQH96al9TCi8e"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$5.99 per item",
+      "release_date": "Oct 23, 2024",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzasimulator",
+      "found_date": "2026-08-08",
+      "velocity": 0
+    },
     {
       "app_id": "6761165904",
       "developer": "Rollic",

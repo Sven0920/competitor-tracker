@@ -12560,11 +12560,10 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "id",
-            "ph",
+            "us",
             "vn",
-            "gb",
-            "us"
+            "ph",
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -27864,15 +27863,6 @@
             "id"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "us",
-            "vn",
-            "ph",
-            "id"
-        ]
-    },
     "com.easybrain.color.pixel.sort": {
         "name": "Sort Art - Pixel Coloring Game",
         "regions": [
@@ -27999,6 +27989,84 @@
         "name": "Match Supermarket",
         "regions": [
             "br"
+        ]
+    },
+    "6796584903": {
+        "name": "Fish Feast: Color Flow",
+        "regions": [
+            "gb",
+            "ph",
+            "id",
+            "br",
+            "au",
+            "us",
+            "ca",
+            "tr",
+            "vn",
+            "mx"
+        ]
+    },
+    "6797557571": {
+        "name": "Pixel Town: Cube Blast 3D",
+        "regions": [
+            "gb",
+            "ph",
+            "id",
+            "br",
+            "au",
+            "us",
+            "ca",
+            "tr",
+            "vn",
+            "mx"
+        ]
+    },
+    "com.screw.jam.nut.sort.color": {
+        "name": "Screw Jaming: Penguin Rescue",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.dorotheebrondes.bounceandcollect": {
+        "name": "Bounce and collect",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.mrmoble.flagpainters": {
+        "name": "Flag Painters",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.pilgrimsgames.p4": {
+        "name": "Paper.io 4",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.thagiwara.aircraftmaster": {
+        "name": "War Plane Strike: Sky Combat",
+        "regions": [
+            "br"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.tile.triplematch.find": {
+        "name": "Capybara Match!",
+        "regions": [
+            "vn"
+        ]
+    },
+    "io.supercent.pizzasimulator": {
+        "name": "Pizza Simulator!",
+        "regions": [
+            "us"
         ]
     }
 }
