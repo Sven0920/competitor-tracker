@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-08 11:03",
+  "updated_at": "2026-08-09 11:11",
   "games": [
+    {
+      "app_id": "us.peakperformanceprogram.train.redesign.own",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Performance Program",
+      "icon": "https://play-lh.googleusercontent.com/nARHVs2Bo9QFjuEhc25jOHpUn1i0EQloPLu2-91NjzNBzEhPZjLpVUON0RclgHmIdcXziBSkydt9OJhZz-nr",
+      "installs": "100+",
+      "real_installs": 178,
+      "genre": "Health & Fitness",
+      "shots": [
+        "https://play-lh.googleusercontent.com/YobAWNUaisbfeP86-z7iLgScBYZKimcQCQvsWDL2wGgZYzCQKWUy7ZW0aPAsJ2x_XH705QjwnAdcZnyANUhmfw",
+        "https://play-lh.googleusercontent.com/2gulgh51JxUxjuJYPOCKM86zYtzeYknb2PqFpzQIUvPTmhnKRH5xqzJsQgmf2VVJTo1El6JDJtmZzZtMyav4YQ",
+        "https://play-lh.googleusercontent.com/ovONj8MfHkYlPNl8Kj7NvP5jeLoUzznciz9hRE4UJ8l1WG5KblFYnjppAWrp5M4Tbsf_AHPjRAE2ut5AEyBMzg",
+        "https://play-lh.googleusercontent.com/0HNEWGC5PDeiKV-ycdT24_Flir4YF9gBDJMajDoPnyPPNcR6E8TMudl6GPv-KEceeNuVNcPOURGbaQK8NcFjSUE"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 15, 2025",
+      "url": "https://play.google.com/store/apps/details?id=us.peakperformanceprogram.train.redesign.own",
+      "found_date": "2026-08-09",
+      "velocity": 0
+    },
     {
       "app_id": "6796584903",
       "developer": "OneSoft",
@@ -722,7 +747,7 @@
       "name": "Brick Jam: Color Slide",
       "icon": "https://play-lh.googleusercontent.com/IxMZ6NHI0D1Tr3ly--hPGzYmF7Y8cORNuwxbNklOmbhYP4LRLtwvhWnAd_ziJyEch_QZp2uPdIlb6EL_s2bB6Q",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 451,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/MHReix1b-_22oTKg2zw1B03CwLkG0zluCTmODnu7QprBpapJWI8jN_-bx9RxSMTH3CdDxshh2sNB8PqxiL_iFw",
@@ -738,7 +763,8 @@
       "iap_info": "£1.79 - £88.99 if billed through Play",
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.brickjam.color.slide",
-      "found_date": "2026-08-06"
+      "found_date": "2026-08-06",
+      "velocity": 0
     },
     {
       "app_id": "6758003347",
@@ -1442,7 +1468,7 @@
       "name": "Slice Away",
       "icon": "https://play-lh.googleusercontent.com/VXwb8e7won7Rhxew_M4YbtN2EUWqTavyqthGhrfPTqrtOiWFx4jYdoyVLA0PUEBiH43Pa4rdqTLibzQBCVuiwdg",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 76,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/YK4jlr-3BxoVbRmMgcmZYDJGfAUVADPdw38GD2XsCYG9gXgR9GwPOoEE0YG_S1gO0F2UpcHWSIXQO7MFXm-q6w",
@@ -1457,7 +1483,8 @@
       "iap_info": "₫26,000 - ₫3,150,000 per item",
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.sliceaway",
-      "found_date": "2026-08-02"
+      "found_date": "2026-08-02",
+      "velocity": 0
     },
     {
       "app_id": "com.puzzle.splash.drop",
