@@ -1,6 +1,290 @@
 {
-  "updated_at": "2026-08-09 11:11",
+  "updated_at": "2026-08-10 11:21",
   "games": [
+    {
+      "app_id": "6779527511",
+      "developer": "TREEPLLA",
+      "platform": "iOS",
+      "name": "Whisperborne",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/84/5e/20845e65-2fa7-3444-0824-786d6cd8045d/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Action",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/66/d9/6866d948-49f3-f319-09a9-58a2be9ecf94/6.9_A_2796x1290_EN.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/37/7f/c1377fb2-5954-e489-3a0e-b14ffafbffe3/6.9_B_2796x1290_EN.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/aa/e7/05aae71e-135c-f399-5266-339adc0f765c/6.9_C_2796x1290_EN.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/69/82/a469820d-e031-b5d9-9346-db32b0e13b2e/6.9_D_2796x1290_EN.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "id",
+        "gb",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "br",
+        "au"
+      ],
+      "size": "2978.8 MB",
+      "iap_info": "未见明细",
+      "release_date": "2027-02-01",
+      "url": "https://apps.apple.com/us/app/whisperborne/id6779527511?uo=4",
+      "found_date": "2026-08-10"
+    },
+    {
+      "app_id": "com.abi.feed.fish",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Feed the Fish!",
+      "icon": "https://play-lh.googleusercontent.com/80BHJ-xJqxzJB2O8_ZayaCV2zqm-Uxq6K486oYB5XHMGKaGZoB4HQNDHqhMOAEW3JZQRJ8ingeSTFl51RLBdziw",
+      "installs": "100+",
+      "real_installs": 105,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lNNCScPTFdFR7AKJ7LH290ewAUe3q-C9srcyRCWmw81Y2oR2XngWGdOykkAC2BXZuTZnqxgK93AjveNNPxhjnQ",
+        "https://play-lh.googleusercontent.com/sPFrc-RuygbNztn5m79FOWcb_DjuGzwZ7WKs4w0r1indAlrqULIq-TzSm_8V3TPRjEIEq6n7S6wuanzgzls0Iw",
+        "https://play-lh.googleusercontent.com/Pdwev_z8kXCPDF7Xxg0oYhlMtlNxDdTPQWVQ3BaKkAQZVDwUotlM1SMXxRsr5un2VB5mLTKPiflKFWcq_AnygQ",
+        "https://play-lh.googleusercontent.com/6dQ_M5RdADn5TVrfbWHiSrXCKZLoA7VQ5Ae7Re5xSxvdoz_c5c3JkQrrtDUWzjvZVeVT-qn5Em8dT4iKnPYYuA"
+      ],
+      "regions": [
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$40.00 - MX$2,049.00 per item",
+      "release_date": "Jul 24, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.feed.fish",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.stickerdom",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Stickerdom",
+      "icon": "https://play-lh.googleusercontent.com/_o-GBqwHzQhuEmRLveSesR1xrFOQlBL2d17VruiTrgnS81vrWLiAtqQF_9Bw6ssFSmBmhLqjOyGwcGN7JZrY2w",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/z_M9yA61HhDpaUOIJSjCdSswL2_PcWQn9dN-JgZHn8iPsZXS8ClGudZRsQHiTrn1RM24XfcfOrFmcyGRvvqMX1c",
+        "https://play-lh.googleusercontent.com/COjZEk5fCFUUjgVoStEi7mEjCXHVScsupVPqGOD11DNEoPS0KRIggqWWkvl1fw2Ng3v2Auqxk9Vx149WpwsgM4Q",
+        "https://play-lh.googleusercontent.com/3z40hMwgG9TJs-noPJG1cgRO537eZ7tX1NtxdQ9ugvhwSvyi0xYdLO3bWedCZD8XvSmcPvG8ztCvluEyfAtY",
+        "https://play-lh.googleusercontent.com/NXrqFLRmEt8HgQXuVYrZ9Mz-IiYricbIfdN6AJ-R59gMlZmCCIGdjhP6rC0XroqkQvaH4l2lCmRoLNM-D3G8ZA"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "id",
+        "gb",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "br",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.stickerdom",
+      "found_date": "2026-08-10"
+    },
+    {
+      "app_id": "com.abi.minesweeper.grid.puzzle",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Mine Path: Minesweeper Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/hOuVq10olzKJ5nlw9gq-UQduUsO3LNggQppraCJwykCUPh8fiXCqUo-Dp0H8fSRb-m5xTV7dl9u1OE50oeooLg",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/67YKfJXqMdZ7mzkF6V7Gpv_sCgINLVEDkYCcYBJ1HnZQ8Um_6hrsIt4mYE-TvqVJqv_twccTFkrGhgmbUQuz4w",
+        "https://play-lh.googleusercontent.com/giHngYZ9ywzeXDGZga_Msn-x0F27g-O7CRpZjHTqXJu_GHPcki1mtdCIihMHt7EMzza6saWK52mB6SW1EeGaxFE",
+        "https://play-lh.googleusercontent.com/CL6sC9xJiSDxjscaDrQSGh_FEfDs-ABTOC69Legc3GPkBcr5gfARFpO8C3_YtxY5Vh1Zn_pLwKCHEWGXXlDTdw",
+        "https://play-lh.googleusercontent.com/eoRb88rGk14mqe0oTBo6Qtag7GiR4MwBgFWTi_Fcu1rMX5n9_n-GzmAzWWZuEbXfEMUYjxstKI1qajLP5m22Wg"
+      ],
+      "regions": [
+        "ca",
+        "id",
+        "gb",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 7, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.abi.minesweeper.grid.puzzle",
+      "found_date": "2026-08-10"
+    },
+    {
+      "app_id": "com.moonactive.splashroyale",
+      "developer": "Moon Active",
+      "platform": "Android",
+      "name": "Splash Kingdom: Tower Blast",
+      "icon": "https://play-lh.googleusercontent.com/qYouRKCNYHMengngJ0kAxuKRJDEy7A1I8T5TirK75agEKXupew7xm4g1SNzlPp8ZmrLHqz1zJ2pXvNaneuQbKA",
+      "installs": "1,000+",
+      "real_installs": 1162,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/qzLXfHRs1vj9h8ersfz_QLCWdpnwD_XynnxiC-oaL2lQWdrzjt6drzbzwXB9yklB36KAqJFgglcEbeEmErPW-C0",
+        "https://play-lh.googleusercontent.com/wyW7D2FDpNnvRO04m7zQx08wPKBezOyAC5aGaYEOQNkTqTG_wxr5Y67JMltiSi6u0DtUzJ6nWSa5jkqB_tJz8oY",
+        "https://play-lh.googleusercontent.com/HfXPo-5V6KM1n3k0tS32DkinBGFowouEwhtpcPOoqeNG88_60yVr-pJD4kyS2Br68vFSrcrOi-bMwyrFhA3T",
+        "https://play-lh.googleusercontent.com/-ckN35a1Dwm9QCDVklAOg0j49Ic1Yy2rm7-dVd3S7NqzihBwVB9Plh-YRGKCUnAy5GJPfmuImrvV609-yCwSHA"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫13,000 - ₫2,650,000 per item",
+      "release_date": "Jul 23, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.moonactive.splashroyale",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.puzzle.packingrush",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Packing Rush",
+      "icon": "https://play-lh.googleusercontent.com/89BuPN-EI9-TBt9NnWDh0UkYcEYsAlzblqp5stAJYwGNf1LySAesA84IhJUGUBJfe7lkEtF74wNvNGQ0Tcenc9s",
+      "installs": "50+",
+      "real_installs": 55,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Eb0yBS9KZkMX0iaYmGzlh3RcAH0aqwMUUWPwAXXd9HJ19CQMKRVgp8wKlfBKQucJ-ycMoDmV_IMuQTrT491_Rg",
+        "https://play-lh.googleusercontent.com/C9oAmQ9sr5JxSWxDwHm5rc8JlXwbBNu_yFQ7E1-Asr6ID0R2FW_wjheQKo-LwwZpIHCZ5nxoJzN5qCR8pIlIBA",
+        "https://play-lh.googleusercontent.com/3DHczf4jRfMmJVZBvgoOFPSqFOIScnLtPn2D1yRHZJn5n0mZ5-URjc1BE6_-KQ04Gz9dEibYeOBkrCjI45SZ",
+        "https://play-lh.googleusercontent.com/Eb0yBS9KZkMX0iaYmGzlh3RcAH0aqwMUUWPwAXXd9HJ19CQMKRVgp8wKlfBKQucJ-ycMoDmV_IMuQTrT491_Rg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.packingrush",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Deven.ProjectSalon",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Project Salon",
+      "icon": "https://play-lh.googleusercontent.com/kMmYSGFWRaXBWQnzRPtwNVKBasvZmGXN025_Hu34wpi3nfrpnun4g4RmvhaNL_iixiGoFUs5bXcyDYoU84KKlg",
+      "installs": "1,000,000+",
+      "real_installs": 1724934,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/adipHecRTSqOSwVD3qbsCRxC47So9K79AqpxRS7-usQ3XS6RhQnZMX3GiJ4RWuCHkxJQS45QKYh9Xm1fYjzC9A",
+        "https://play-lh.googleusercontent.com/RO6hGI06OGrD4MHqbL0ptcYyQIjp_4ItLPIUHozD3HtNDUqvRVZtqCUuXz0yubxhJPhun0e0calLv0m5fB6CfQ",
+        "https://play-lh.googleusercontent.com/UQ89zYIaMPvmpbUlMeQJ2600a3SJIq_AZ_4cnRLzqNsCBfAxF-44GSXfBSyFGLroYY6b9kQaKEscZHydpoH1Uw",
+        "https://play-lh.googleusercontent.com/PyZE4pf3XlKFxqoct-dE9TpnBdTgCtZ-WGqx4JSi8RqLRYDVv8B50ziZ9LmhYBzeTY7U2RORtMp4qeCJq9O_"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.79 - £95.99 if billed through Play",
+      "release_date": "Jun 15, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.Deven.ProjectSalon",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "space.sandbox.adventure",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Captain of Space: Planet Quest",
+      "icon": "https://play-lh.googleusercontent.com/sbqV9lWv4aomFc2ntLm1znUglMVkhsZp_j7BAuiRrZUFErGxLNz6VnCFCI1oLnzS4ach1FDBIwCRKOwR9H5x",
+      "installs": "5,000+",
+      "real_installs": 7057,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Dn6PlJkfcXANRzkqGQzuQEaqM5illxz3K5y4LJxyE2QM_qgM9FAd6SJybdk5EMyFt3i90VP2ku34Sy_eWLc8FRc",
+        "https://play-lh.googleusercontent.com/BgCZJPovkAT_EEpmIsvuxupbaIMqXWh97WWArc6nbdGJNXb4I25PZcoksQ0lzUzo9hwYR15NS43k7p_a54SbIQ",
+        "https://play-lh.googleusercontent.com/ZMe0DZib48p74IlLiDqXUwcTdBjS50IKQxc8bMHeOoQJysJOVNugNuluSojzXE4TdH-oUvuB5WvCMp6WBscT1g",
+        "https://play-lh.googleusercontent.com/rbvpmjvNiNVUA4oxfRaV1aawSaYcE_i9ZSwUUvPgYzoYrKoLMPeTVlO2cjT4E4OH_EEPeb7kpvs_BjYoAR0x2A"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫27,000 - ₫1,300,000 per item",
+      "release_date": "Mar 10, 2025",
+      "url": "https://play.google.com/store/apps/details?id=space.sandbox.adventure",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.bus.people",
+      "developer": "Estoty",
+      "platform": "Android",
+      "name": "Pixel Crowd",
+      "icon": "https://play-lh.googleusercontent.com/F2V3-q2trov6l_ReGex3bvDGQd8Z4TZGPG3oJIExbnQcsM-BtdfNEq9bZAdmQ4Q1_ibKfkaDn_5rbfAtzmJqTQ",
+      "installs": "100,000+",
+      "real_installs": 265666,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Q_U_eBwM9_BG1z3RL_d6WSU1t3CRmyG7da532op-Ge4xYujipK5zUYPd1cPADiy00VWZoh88JHPowvGB445PQA",
+        "https://play-lh.googleusercontent.com/p2ybi7wjyZey55RovARUqDjdj8xgUwWJ6eEl-urbo_PbPn_LFVnEgZI2aQcbbAgw3DzXctu9Ote1ajfQ00uwhOg",
+        "https://play-lh.googleusercontent.com/mphaW8Eg7inTuAmpd-ThfgIbpbcOmJjn-v_S73v2aOTsGp2Iy7pT8tbyyGQ2Y8C99X4P2HNp0WFqn4SkwxaE",
+        "https://play-lh.googleusercontent.com/2PEzW4PyPo3T-h98b-jXiXfvoZQyM9XfoyT1ui1yJiF0Wtm1QhLIwRjpgts7MYhw9jOJfjwpNODQgeu-IKHCRQ"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "us",
+        "ph",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$13.99 per item",
+      "release_date": "May 27, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.bus.people",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.actionfit.catmerge",
+      "developer": "ACTIONFIT",
+      "platform": "Android",
+      "name": "Merge Cat Cafe : Coffee cat",
+      "icon": "https://play-lh.googleusercontent.com/8R7LsmyCECAQ2AYeYf8grTeKPo03bPt2YVmwQ0PyMGoR-tYp0Wd9QYWbUKFepoiy1zxeIquH7wC-3pXdXcIU",
+      "installs": "1,000,000+",
+      "real_installs": 1123282,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/OOPBbqtmwDLpETk3nANYQ8-ChKxGA3ot7Ps33v8bkSjWbEXMg40VElDKKtuUcbxh_RETXdiqizSE355tYQ8rcng",
+        "https://play-lh.googleusercontent.com/OPHTpanpKMv9N1c9qL0xhAKqU_mpdLtQbkd2sqng60vT_erZTEMoqm03w5ZNNpSXn3_jog5DiYPYn-UYvR-2Cq8",
+        "https://play-lh.googleusercontent.com/PQy-VzqVo4kaomxB6EEQJjecNnOoDa5d1rkBQ38EsA_VkIS73eHK1vbSHEyco6dFmEDNmdW-8GkawbWEJxAc",
+        "https://play-lh.googleusercontent.com/4rIWmM0ADGy6yjginn9spUi1FK7UZYxQK77JGBxkh5cITTREiBxSnZ6C5pK5r-Fn1T2igtWKH8l5afo-5wK7-ko"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "id",
+        "gb",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "br",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.69 - $129.99 per item",
+      "release_date": "Jun 27, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.actionfit.catmerge",
+      "found_date": "2026-08-10",
+      "velocity": 0
+    },
     {
       "app_id": "us.peakperformanceprogram.train.redesign.own",
       "developer": "Peak",
@@ -415,7 +699,7 @@
       "name": "Crazy Story: Plot Twist",
       "icon": "https://play-lh.googleusercontent.com/LkOtM6B6_oY5Wwh78gk1xKi4_DJ8x_3iE55mWt83VLjlshPwvEFxhxrZoa0Agp5JbAgHNXKdeGNi5jwY4lw_bQ",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 514,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/hhjMsTjbqortBAyMG11QxmAGCBoF7SK4Iz3aAKQg-E8Ov63f0WrDcUPZRfSpYo95ogcJy3N8srhgBlVE30BL-g",
@@ -434,7 +718,8 @@
       "iap_info": null,
       "release_date": "Jul 30, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.story.plot.joygame",
-      "found_date": "2026-08-07"
+      "found_date": "2026-08-07",
+      "velocity": 0
     },
     {
       "app_id": "com.tile.triplematch.mania",
@@ -468,7 +753,7 @@
       "name": "Cat Island: Idle Tycoon Game",
       "icon": "https://play-lh.googleusercontent.com/yOtInRMCWBHzyXYVp7VTzBMpPsiYFQ61bK_J-mBefUbiZ_lbVAZr-1LpCxR6bovkIDB-N0XdN4HA5iShJzIRBQ",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 189,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/s8OB9cQcY9lYsmaAhet0AryYSeee-bOwT3jGXX1f5pK-Pjol8pUTeXJ8LfMH2Nw82HojoproHI6k59mIAhHP8zo",
@@ -492,7 +777,8 @@
       "iap_info": "£1.79 - £69.99 if billed through Play",
       "release_date": "Aug 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.nep.tr.idle.cat.island",
-      "found_date": "2026-08-07"
+      "found_date": "2026-08-07",
+      "velocity": 0
     },
     {
       "app_id": "com.water.flow.factory.sort.match",
@@ -551,7 +837,7 @@
       "name": "Dice and Zombies",
       "icon": "https://play-lh.googleusercontent.com/RyPb11xXSmN68Ri14MZHzkBs3t1WKe8mlXKFDJedd0SATxz9wUYuCPtSYa9VN9PgyUOcJXnSShcjrVGlJpUcEg",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 61,
       "genre": "Action",
       "shots": [
         "https://play-lh.googleusercontent.com/Flwzfu4EEzQJkD_tp06c2MpwyVvT_ViWQgFQSSuYnWw_miDfdMDSM0QlVDWibajyLsSkA82TzUtxWQMhR_h-eg",
@@ -567,7 +853,8 @@
       "iap_info": null,
       "release_date": "Jul 24, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mobsmile.diceroguelike",
-      "found_date": "2026-08-07"
+      "found_date": "2026-08-07",
+      "velocity": 0
     },
     {
       "app_id": "6786300007",

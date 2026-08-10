@@ -28060,16 +28060,114 @@
             "us"
         ]
     },
+    "us.peakperformanceprogram.train.redesign.own": {
+        "name": "Peak Performance Program",
+        "regions": [
+            "br"
+        ]
+    },
+    "6779527511": {
+        "name": "Whisperborne",
+        "regions": [
+            "ca",
+            "tr",
+            "id",
+            "gb",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "br",
+            "au"
+        ]
+    },
+    "com.abi.feed.fish": {
+        "name": "Feed the Fish!",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.abi.stickerdom": {
+        "name": "Stickerdom",
+        "regions": [
+            "ca",
+            "tr",
+            "id",
+            "gb",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "br",
+            "au"
+        ]
+    },
+    "com.abi.minesweeper.grid.puzzle": {
+        "name": "Mine Path: Minesweeper Puzzle",
+        "regions": [
+            "ca",
+            "id",
+            "gb",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "au"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
         ]
     },
-    "us.peakperformanceprogram.train.redesign.own": {
-        "name": "Peak Performance Program",
+    "com.moonactive.splashroyale": {
+        "name": "Splash Kingdom: Tower Blast",
         "regions": [
-            "br"
+            "vn"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.packingrush": {
+        "name": "Packing Rush",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.Deven.ProjectSalon": {
+        "name": "Project Salon",
+        "regions": [
+            "gb"
+        ]
+    },
+    "space.sandbox.adventure": {
+        "name": "Captain of Space: Planet Quest",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.bus.people": {
+        "name": "Pixel Crowd",
+        "regions": [
+            "ca",
+            "gb",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.actionfit.catmerge": {
+        "name": "Merge Cat Cafe : Coffee cat",
+        "regions": [
+            "ca",
+            "tr",
+            "id",
+            "gb",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "br",
+            "au"
         ]
     }
 }
