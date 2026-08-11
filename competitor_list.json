@@ -28115,12 +28115,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.moonactive.splashroyale": {
         "name": "Splash Kingdom: Tower Blast",
         "regions": [
@@ -28168,6 +28162,94 @@
             "ph",
             "br",
             "au"
+        ]
+    },
+    "6790234266": {
+        "name": "Whack Stack!",
+        "regions": [
+            "us"
+        ]
+    },
+    "6785465469": {
+        "name": "Pixel Crowd",
+        "regions": [
+            "ca",
+            "vn",
+            "ph",
+            "br",
+            "gb",
+            "id",
+            "mx",
+            "au",
+            "us",
+            "tr"
+        ]
+    },
+    "6795411918": {
+        "name": "Jet Cat: Idle Merge Shooter",
+        "regions": [
+            "ca",
+            "vn",
+            "ph",
+            "br",
+            "gb",
+            "id",
+            "mx",
+            "au",
+            "us",
+            "tr"
+        ]
+    },
+    "com.abi.beeswarm": {
+        "name": "Bee Swarm: Hive Jam",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.abi.topicdom": {
+        "name": "Topicdom",
+        "regions": [
+            "ca",
+            "au"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.ig.foodjam": {
+        "name": "Food Jam",
+        "regions": [
+            "us",
+            "tr"
+        ]
+    },
+    "jp.co.goodroid.hyper.hospital": {
+        "name": "Hospital Escaper",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.mobsmile.coinbounce": {
+        "name": "Coin Bounce",
+        "regions": [
+            "vn",
+            "us"
+        ]
+    },
+    "com.cat.away.jam.aos": {
+        "name": "Cat Escape",
+        "regions": [
+            "us",
+            "ph"
+        ]
+    },
+    "com.actionfit.catcafe.solitaire": {
+        "name": "Cat Cafe Solitaire",
+        "regions": [
+            "br"
         ]
     }
 }

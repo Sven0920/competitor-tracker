@@ -1,6 +1,272 @@
 {
-  "updated_at": "2026-08-10 11:21",
+  "updated_at": "2026-08-11 11:13",
   "games": [
+    {
+      "app_id": "6790234266",
+      "developer": "Supercent",
+      "platform": "iOS",
+      "name": "Whack Stack!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/aa/88/4aaa88f9-0ad4-bf91-0e50-62a27e7bd38e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/cb/b1/dbcbb19f-5d9f-76b4-f79f-b7f271cb311f/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/ca/d8/bacad820-e938-2eca-c38b-6a9bcb73805e/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/12/1f/b4121f1e-54b0-3d66-65a8-100ce7f58400/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/9a/f6/759af685-7652-2c37-7a5c-52bf445930f8/4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "205.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-06",
+      "url": "https://apps.apple.com/us/app/whack-stack/id6790234266?uo=4",
+      "found_date": "2026-08-11"
+    },
+    {
+      "app_id": "6785465469",
+      "developer": "Estoty",
+      "platform": "iOS",
+      "name": "Pixel Crowd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/a8/71/32a87154-2d70-2459-1109-98fbf1c002ed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 135,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/e4/dd/b9e4ddf4-94b3-4363-24bc-a791d96e919e/01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/8c/9f/508c9f8c-792a-b057-c1de-4000627fbbe5/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/62/ed/eb62ed53-7140-5610-cb2f-d8b4d70b4e84/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/36/c1/6336c1a1-b4d8-0c49-9cc6-12d8a3648cf8/04.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "vn",
+        "ph",
+        "br",
+        "gb",
+        "id",
+        "mx",
+        "au",
+        "us",
+        "tr"
+      ],
+      "size": "330.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-15",
+      "url": "https://apps.apple.com/us/app/pixel-crowd/id6785465469?uo=4",
+      "found_date": "2026-08-11"
+    },
+    {
+      "app_id": "6795411918",
+      "developer": "ACTIONFIT",
+      "platform": "iOS",
+      "name": "Jet Cat: Idle Merge Shooter",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/ae/ea/cdaeea84-f253-2368-ece2-3104b86da9fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Adventure",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/9f/56/1b9f562e-0641-d0bd-275c-f571485970d9/JC_001_store_1242_2688_en_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/b9/a3/26b9a3a9-2533-2978-43e8-862b47fab13c/JC_001_store_1242_2688_en_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/93/66/16936639-3c39-8c71-f976-f3a26b0af352/JC_001_store_1242_2688_en_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/78/61/817861f2-aea1-fa18-6a12-8cfc418f967a/JC_001_store_1242_2688_en_5.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "vn",
+        "ph",
+        "br",
+        "gb",
+        "id",
+        "mx",
+        "au",
+        "us",
+        "tr"
+      ],
+      "size": "415.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-09",
+      "url": "https://apps.apple.com/us/app/jet-cat-idle-merge-shooter/id6795411918?uo=4",
+      "found_date": "2026-08-11"
+    },
+    {
+      "app_id": "com.abi.beeswarm",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Bee Swarm: Hive Jam",
+      "icon": "https://play-lh.googleusercontent.com/Xq8hZV8CCw7DXtaiOj8a9ORmxRLYNH8nMUjBVP-wmvtdy98eoLhW-1W1qqX_biMgt1SBx_kJ_ngTeggdPjsJpQ",
+      "installs": "5,000+",
+      "real_installs": 6169,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/UjP0nHglVpk7vvvEXaymiR_UiL2repf-H7n4Vjgz1MRmq5Mh9tbCTrM7q3FbQRcxSp1kqG5ZhQ1ixOzusuTPwg",
+        "https://play-lh.googleusercontent.com/7D2n42WXxjAz26FbQ_11SblY7qLsRBfg851vbaJCfbva0UhzaEqFzWy3AGPrrQLzDLHE1Cbd-QQdXgkQz5CvNQ",
+        "https://play-lh.googleusercontent.com/TV0ge3isH75jPt6dydmBeGcK4COavgpWwxRYzwuGPL8csrxXetaRO-rxmF8JcHFEZ43u7iRoEij4FTEPtV8bIaY",
+        "https://play-lh.googleusercontent.com/ObCcA3Ssbm-5F6lBTso0LNsR9ZNetoBQCrgsGdLIprRdzvZjDyczeMPoyzx-wesdee0wMXfLazdUmPPl-MbWww"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫52,000 - ₫526,000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.beeswarm",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.abi.topicdom",
+      "developer": "ABI",
+      "platform": "Android",
+      "name": "Topicdom",
+      "icon": "https://play-lh.googleusercontent.com/o19COCVM4JyXL3gmzZ34c1Apy0TPXNNaWz8Az5hWipuhKzACuGk4M3_2ZRQYud-ybl9wO6TTjVfjoYQygUzdHA",
+      "installs": "1,000+",
+      "real_installs": 1487,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/UsOHp2H9gQdo7YwCgQ6L9eczA-vll_2Ieppt7J3dRDxL7ma7uWn9QOA7S6VKaJJZik55qzxW9taQ1Ze6zKNHIj4",
+        "https://play-lh.googleusercontent.com/lNfRhFKgkXQ1DEEFyVdS4iFB26YN-HrrjS7SVfREVdoc8oYLq8y1AyhRoec1tDXNGgA6yWfAp8vKh_J27F0R",
+        "https://play-lh.googleusercontent.com/IxlIpNrKn45nUmxPOvtiPnsozskaB-nY51HotG8Qm4lR0hWYMA-fJge4qsyuzpk3yTlC4DN4WHC63WZ_KPoE",
+        "https://play-lh.googleusercontent.com/69uKqT_vNQDbNJqVFhQ2ohrS3uSlYL-uIqwbp8wJevdYWpoo6xHLYdWoV3pKC6siRrLFbEQ6qWHRB3wdmffkSA"
+      ],
+      "regions": [
+        "ca",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.abi.topicdom",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ig.foodjam",
+      "developer": "iKame",
+      "platform": "Android",
+      "name": "Food Jam",
+      "icon": "https://play-lh.googleusercontent.com/QCcX0ScDqM5mbZPquhP90b60w9ptcSfNCzvdap7P9Ry9euNjWmie4FmGr8ZNb1QfspNDQWQcmSnnAho65UU8VTw",
+      "installs": "10,000+",
+      "real_installs": 27036,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/YYBG7Z3f4eiHt0Z_43CqWUGobMhKu8EKCC-Z_MqjtV9t3p8i6G4dKz_hyLyZMFzi97qxkoBJINX2yPqaI0G4bl4",
+        "https://play-lh.googleusercontent.com/a3up56eY1Ti6IyK56DZLR4TQNXdK6mCHou_5VQkLh9fK3nAJw3ZKXlqYFMcHnG5HA5PvL2XJF8VBsvfLlY-tctA",
+        "https://play-lh.googleusercontent.com/df7MP2kLC4KwG_Roo9fcrL6wsrd_VanI8X9VTAZibo8Rt3R5qIzUDkHKX_dIIJmdrzW5LRthZVonYnUCiP9S",
+        "https://play-lh.googleusercontent.com/V4ylYAPq1d7NblJp8edATO3I_IibJU7pC9Q4M7SLJsAM53NN_37EXm9LMwlp_TzjKeS27lTAoaOC0s8ytSp6d14"
+      ],
+      "regions": [
+        "us",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $99.99 per item",
+      "release_date": "Jul 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.foodjam",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.hospital",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Hospital Escaper",
+      "icon": "https://play-lh.googleusercontent.com/RrnONLQcX-EXjMvksYHQFzMY1wKyhWTITzWSkugByUrut_N3XjXBpMTb6_U6ZnyoD1f9va5oEeviNvg9iUmgrQ",
+      "installs": "50,000,000+",
+      "real_installs": 53769661,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/wWuX8Yblv7joiDIrTi9-gPZiPnu4snkm_74Ybj1iDJZAL8wyrvPV_D89SlqtBeRPUKYNritDrzZwUWSZZfiRAAw",
+        "https://play-lh.googleusercontent.com/72BnLWB7-v1Xs1cZJAMQcpV80Swjd32KF1W4fnKA_aEsR7Y7i_rw8oWFZxJJvzKuCO0MWnc7_xxFkOBQqvDrcVA",
+        "https://play-lh.googleusercontent.com/zOtQqsrvZcHx_A5uswLHtku8ae9FrarfwhsYeGVzyp4HDP6XznFfTOzphIiFnwZ8EuogPJVRjXA2jt1Ayvn31g",
+        "https://play-lh.googleusercontent.com/6sq5AOdYCJMO6z0Tt6aMelW2V_IrJiP6mzf3oH8aHLIfSkk-0Wy5MgOmck_u4nSz5KxkVjg0GyahgXO_RGPTPWY"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Nov 26, 2021",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.hospital",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mobsmile.coinbounce",
+      "developer": "Venturesis",
+      "platform": "Android",
+      "name": "Coin Bounce",
+      "icon": "https://play-lh.googleusercontent.com/W0oUfjfBeLgNzeDn_dzFsXm4YSxYdcBuT5znEslgFMw_HIWl3ROrptL40ItmxLSngrp_CdK6HHLk4f4pB3ZW",
+      "installs": "10+",
+      "real_installs": 39,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/0JdJBEnc-CHLb0RK2N04qgbDyDb2_jAD4IedNQM73mv7-ydm01IABcxI24e3rnDDywkv1zcD7RsaF7APLKFHuw",
+        "https://play-lh.googleusercontent.com/pGodHXMu64dhkK55-5eusInFj5YWu8X6rSsNbN_3thx-gpYJ6QMc05oPdruhR5mI4jIBsz2C9YF5NjkrsqVQWg",
+        "https://play-lh.googleusercontent.com/aGzyng2rDYGygpb72Cdk4Ari0FimX0h7Uhl9ute9EODd-qNNjyi-AklKLN9Kcj-lBOpcuapIWNQA9Kxu4ZU-I8c",
+        "https://play-lh.googleusercontent.com/FRYhmR4BmmF6nMJmPurITBaNeuEQq2djKx57EGRztEW7nYxeMeSwFCtzKEZXJlmlTczmvPHwUU4miBWR67DS3Q"
+      ],
+      "regions": [
+        "vn",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mobsmile.coinbounce",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.cat.away.jam.aos",
+      "developer": "ACTIONFIT",
+      "platform": "Android",
+      "name": "Cat Escape",
+      "icon": "https://play-lh.googleusercontent.com/qxs-iFoM7NqMtnxncmgMymRBOi2WzHloB7t1ySzp-sPQRzWcAJMj_4ytQBNu5wgKAN6ONwO5q-FxY390Ku_VVg",
+      "installs": "100,000+",
+      "real_installs": 245107,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lqWuJAG6l0NTwAIaCHInuNydCdJ4Pv2eaNDpvX-SZQW4mHamQwJLNXP3chhsUErf8SYTloj7bXiuPfuorSMNPA",
+        "https://play-lh.googleusercontent.com/sz2EemOICqpfwGnZoa6aD47O_1klEH8JRbD2Z-ow6cIcNNyTwxuDK4ZengMbGhKSitCOAhiIDPVq4gzgy6sPSow",
+        "https://play-lh.googleusercontent.com/KPnUQpk2f-b8ua5P3Gs5IddBpM--n2LZ1gZxS8vDhTQRpCiPE8EPrHB-cPMA2rZ51VfXy0Y99ZI-pCUzqq_-jQ",
+        "https://play-lh.googleusercontent.com/M4MaTEpTpM4Bvcmf5qkjyNva2L_u9bmZdbxyf672uuz_LoWsWZKjQCa25nei3uKPrwdeh_iRtLZN-SlPAdhy"
+      ],
+      "regions": [
+        "us",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $99.99 per item",
+      "release_date": "Oct 3, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.cat.away.jam.aos",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.actionfit.catcafe.solitaire",
+      "developer": "ACTIONFIT",
+      "platform": "Android",
+      "name": "Cat Cafe Solitaire",
+      "icon": "https://play-lh.googleusercontent.com/y6SEsBixmzQRMPNVK96vLDnwwPqS8izPcyEb-qhPE8h2Wv83BpbGUUbt1V1MlZGl_ZX2RazwljXshQZeVRW4FVM",
+      "installs": "1,000+",
+      "real_installs": 1369,
+      "genre": "Card",
+      "shots": [
+        "https://play-lh.googleusercontent.com/jekPQlw4hqBWrKtv3RudUPE3FIZXwz3D16qaDBLZEyGAvc2DOQ-TO-L5CHyO37pmMqyCl9vW-_UY8jd6HihJ",
+        "https://play-lh.googleusercontent.com/JDUEemVEeWWeezWgH3MIYBYcjjyc8reo-Spt3oQuKv1VU64PeOmiTLpS9x2ck3of7da0Jp6lLnarC9T3RvVh",
+        "https://play-lh.googleusercontent.com/vo55sNcbipZ9JLHTvta34xcVFPk1x86FY2YXhEWKBmF0St9NjPmbZnSy5rMjsMzUhdubiPEknP_jhyuue95-",
+        "https://play-lh.googleusercontent.com/epp_RhPNnlvshW03eY1su-rEc9XI0dXaN0YdgOPWDZHdZ3Hm2L6x5uH-D6hM7S7BSZBGIUI77gpxpVH_Xj9A"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$10.99 - R$269.99 per item",
+      "release_date": "Dec 23, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.actionfit.catcafe.solitaire",
+      "found_date": "2026-08-11",
+      "velocity": 0
+    },
     {
       "app_id": "6779527511",
       "developer": "TREEPLLA",
