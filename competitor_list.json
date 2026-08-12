@@ -28213,12 +28213,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.ig.foodjam": {
         "name": "Food Jam",
         "regions": [
@@ -28250,6 +28244,33 @@
         "name": "Cat Cafe Solitaire",
         "regions": [
             "br"
+        ]
+    },
+    "6766824098": {
+        "name": "Block Blast!+",
+        "regions": [
+            "us",
+            "id",
+            "gb",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "ph",
+            "tr",
+            "vn"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.categorystack": {
+        "name": "Category Stack",
+        "regions": [
+            "us"
         ]
     }
 }

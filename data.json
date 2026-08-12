@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-08-11 11:13",
+  "updated_at": "2026-08-12 11:31",
   "games": [
+    {
+      "app_id": "6766824098",
+      "developer": "Hungry Studio",
+      "platform": "iOS",
+      "name": "Block Blast!+",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/0a/4a/500a4a4b-f3de-12c2-2362-11ba5177e758/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/0c/64/8b0c6484-b6f1-a1cb-5a44-6dbe2a538831/1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/19/05/52190538-bef5-42ee-1884-893404d99099/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/52/79/cc52798c-2929-dfc2-b7d1-258cf34150e1/3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/80/d1/4d80d16c-3456-95f8-ecf4-17ace5b5ba00/4.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "us",
+        "id",
+        "gb",
+        "au",
+        "br",
+        "mx",
+        "ca",
+        "ph",
+        "tr",
+        "vn"
+      ],
+      "size": "355.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-09-03",
+      "url": "https://apps.apple.com/us/app/block-blast/id6766824098?uo=4",
+      "found_date": "2026-08-12"
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.puzzle.categorystack",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Category Stack",
+      "icon": "https://play-lh.googleusercontent.com/rhjDWdLa0Kj792EpkZZ_ChMkMitG5xM0-GCoGOBjJB_M-XiqIb7SV2GU3km-SbDURBVvQafR0cpgAjgrtyoq8A",
+      "installs": "50+",
+      "real_installs": 63,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ahPubsk8q6y_v_Dmra35x21zgxsK4TmQJtByzb96BEH43EjI7ARswBQQDLIG1uMLoGYbmna4QmL65o20E8iVCw",
+        "https://play-lh.googleusercontent.com/eXFfC3_lkKVTqmpRBYhTeJUMnAxLx6pjhtqK0mJmMRnmbzKx1fIC9RpaEOWH51vpZYq2d-AxdUz57NhSQvwF4g",
+        "https://play-lh.googleusercontent.com/oWyowozgiGBP9vvgElYqAuZUqwLjM7QrSYXRIRoCIAEhbkYwZXUbP4Nejexpmm4L958aJlHt0XuUq4TXRaei",
+        "https://play-lh.googleusercontent.com/ahPubsk8q6y_v_Dmra35x21zgxsK4TmQJtByzb96BEH43EjI7ARswBQQDLIG1uMLoGYbmna4QmL65o20E8iVCw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.categorystack",
+      "found_date": "2026-08-12",
+      "velocity": 0
+    },
     {
       "app_id": "6790234266",
       "developer": "Supercent",
@@ -331,7 +388,7 @@
       "name": "Stickerdom",
       "icon": "https://play-lh.googleusercontent.com/_o-GBqwHzQhuEmRLveSesR1xrFOQlBL2d17VruiTrgnS81vrWLiAtqQF_9Bw6ssFSmBmhLqjOyGwcGN7JZrY2w",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 7,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/z_M9yA61HhDpaUOIJSjCdSswL2_PcWQn9dN-JgZHn8iPsZXS8ClGudZRsQHiTrn1RM24XfcfOrFmcyGRvvqMX1c",
@@ -355,7 +412,8 @@
       "iap_info": "$2.79 - $139.99 per item",
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.stickerdom",
-      "found_date": "2026-08-10"
+      "found_date": "2026-08-10",
+      "velocity": 0
     },
     {
       "app_id": "com.abi.minesweeper.grid.puzzle",
