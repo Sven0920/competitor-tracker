@@ -28261,16 +28261,61 @@
             "vn"
         ]
     },
+    "jp.co.goodroid.hyper.puzzle.categorystack": {
+        "name": "Category Stack",
+        "regions": [
+            "us"
+        ]
+    },
+    "6796185094": {
+        "name": "Topicdom",
+        "regions": [
+            "au",
+            "id",
+            "gb",
+            "br",
+            "vn",
+            "mx",
+            "tr",
+            "ca",
+            "ph",
+            "us"
+        ]
+    },
+    "6796156562": {
+        "name": "Bubble Vocab - Word Puzzle",
+        "regions": [
+            "au",
+            "id",
+            "gb",
+            "br",
+            "vn",
+            "mx",
+            "tr",
+            "ca",
+            "ph",
+            "us"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
         ]
     },
-    "jp.co.goodroid.hyper.puzzle.categorystack": {
-        "name": "Category Stack",
+    "com.project.idle.cd": {
+        "name": "Top Force",
         "regions": [
-            "us"
+            "us",
+            "au",
+            "ca",
+            "gb"
+        ]
+    },
+    "com.funreal.myfishshop": {
+        "name": "My Fish Shop! - Seafood Tycoon",
+        "regions": [
+            "vn"
         ]
     }
 }

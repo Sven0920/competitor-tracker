@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-08-12 11:31",
+  "updated_at": "2026-08-13 11:36",
   "games": [
+    {
+      "app_id": "6796185094",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Topicdom",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/5c/05/b75c0595-fe0c-f5c4-a47c-6f2c8afd5f35/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/80/f4/f980f4b1-744a-96a0-d784-c78110da7af1/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/83/11/fd8311c8-6ac4-deec-efb0-64dcd438815d/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/90/e4/6e90e45f-ce32-2721-1b53-11804f717bd8/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/4c/ba/894cba78-4b46-536f-6e5b-0ab717da1bed/1.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "id",
+        "gb",
+        "br",
+        "vn",
+        "mx",
+        "tr",
+        "ca",
+        "ph",
+        "us"
+      ],
+      "size": "288.7 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-12",
+      "url": "https://apps.apple.com/us/app/topicdom/id6796185094?uo=4",
+      "found_date": "2026-08-13"
+    },
+    {
+      "app_id": "6796156562",
+      "developer": "Astrasen Global",
+      "platform": "iOS",
+      "name": "Bubble Vocab - Word Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/38/46/553846df-2284-4e03-1941-6972d329953e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Word",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/ef/a8/acefa826-923e-8b98-b2bd-a2b9fb8c1378/1290x2796_008.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/aa/21/cdaa216c-b71c-76ed-4793-3715684ce140/1290x2796_007.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/91/48/209148fb-4780-33d8-bbb4-a770cd83f43c/1290x2796_006.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/80/31/3f80313a-6733-cf6f-6781-fcfc44ab22b4/1290x2796_010.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "id",
+        "gb",
+        "br",
+        "vn",
+        "mx",
+        "tr",
+        "ca",
+        "ph",
+        "us"
+      ],
+      "size": "143.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-12",
+      "url": "https://apps.apple.com/us/app/bubble-vocab-word-puzzle/id6796156562?uo=4",
+      "found_date": "2026-08-13"
+    },
+    {
+      "app_id": "com.project.idle.cd",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Top Force",
+      "icon": "https://play-lh.googleusercontent.com/dIGYOhW1mwhxLLCti6-O-VQAL_5oz7yzyLkP5WJH80i6j3HWcaIOfTnJ-FaQC1tQ7DC2pR5BphwkZJ9tFQe_ag",
+      "installs": "500,000+",
+      "real_installs": 597539,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Dg8VQM1wRLY9hJSh8Lnm1ZxipRhSGPinTPDhRub-G5V5mLo68vtwtW-IvPQVOoVRd0BWZg-C2l8pTn9Jxe2i",
+        "https://play-lh.googleusercontent.com/WO7KsmHdCRPlTWlHj1ZvNcoGe1hQ9_yvSLQMiXmcQ4bfXGf_gR1TrJg_mWwu06psaBSGNkyatFgrkUGjelrHeg",
+        "https://play-lh.googleusercontent.com/E6pcdvInDT596c_6qc9s1LwN4farpPfWF0y77rTC0lkAGCrp69wkBM59qVhER2c5xuFggIY4yMmnZeee3FHQEw",
+        "https://play-lh.googleusercontent.com/dHeDYqeOdte0yj3j2Dku89-qjQdvCaGXWrTUBGBJhafUeGhDzNf8tDt8xgLVnKLrW-cqRLnnyDyeQxHzFmQ9jA"
+      ],
+      "regions": [
+        "us",
+        "au",
+        "ca",
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $99.99 per item",
+      "release_date": "Jul 31, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.project.idle.cd",
+      "found_date": "2026-08-13",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.funreal.myfishshop",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "My Fish Shop! - Seafood Tycoon",
+      "icon": "https://play-lh.googleusercontent.com/J37FFrdvvcqbcnAjfn8mlAPEeRCB_rWUbS-wwFNIL5w8RGkfa3EiyUl3oOEnSBlFXZiF_gp0pM4f5QPX529WIQ",
+      "installs": "100,000+",
+      "real_installs": 371194,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/bwBZr61yHXVekP1Bi4j2FH_LBO7kTVY86myHyme6tbCB3h8-37yRB8rdwY7ciojob5KYYrjVSN6aCReL1S1Y5Q",
+        "https://play-lh.googleusercontent.com/3O77qFfQBHpSR0Lx6P4LGC2c5kut1Qx2uHwe7G_rQS4TLioTT8CCi46SURh1Kh7Mx2dvZbotl_Gu34Qbswn8Fw",
+        "https://play-lh.googleusercontent.com/o7KY4Q5l2QNXUWX5Qm-DSefnT4doHH-g3Ukk5o4A_Tu4XVKeM5BhsZSAuEagMGol-WoDgV4vDLpjZzcG5Yx1fA",
+        "https://play-lh.googleusercontent.com/SVAntQHj4VWIToe4pupch508bvvScSBwOjG8xTXuLaJV4toQTJmKgbtqahvyS5x3zJ1uNXsJP7_kQsS5vJ-qUA"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫27,000 - ₫1,300,000 per item",
+      "release_date": "Jun 18, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.funreal.myfishshop",
+      "found_date": "2026-08-13",
+      "velocity": 0
+    },
     {
       "app_id": "6766824098",
       "developer": "Hungry Studio",
