@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-08-13 11:36",
+  "updated_at": "2026-08-14 11:33",
   "games": [
+    {
+      "app_id": "6793115010",
+      "developer": "Learnings",
+      "platform": "iOS",
+      "name": "Connect Tracks: Logic Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/e0/1f/88e01f2c-a1eb-6c3c-6347-a78357646893/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/b8/4a/32b84ad6-b5b2-4246-0c43-3be4cebdcf02/6.5_inch_p1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/b8/40/71b840ce-065e-1932-0e10-2fc68d244088/6.5_inch_p2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/ee/fa/e6eefa1c-66a4-8734-76af-cbc885f41ca0/6.5_inch_p3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/73/3c/fb733cc2-e957-e6a0-4648-ca1fb5893f6f/6.5_inch_p4.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "tr",
+        "mx",
+        "br",
+        "us",
+        "ca",
+        "gb",
+        "ph",
+        "vn",
+        "au",
+        "id"
+      ],
+      "size": "204.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-13",
+      "url": "https://apps.apple.com/us/app/connect-tracks-logic-puzzle/id6793115010?uo=4",
+      "found_date": "2026-08-14"
+    },
+    {
+      "app_id": "com.quok.blobRunner",
+      "developer": "Rollic",
+      "platform": "Android",
+      "name": "Blob Runner 3D",
+      "icon": "https://play-lh.googleusercontent.com/GuMYnlN52VTqYqgqQPLaxS40qYD7jvILkZ8Heqx2RP_rC6N5ZIMt3Lde4rGLYTzjm4wXV7M5ze8fwXw6lih04w",
+      "installs": "10,000,000+",
+      "real_installs": 48483585,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/SAsYuThW4xKNhaiMKCSlSyKzrbjJXI7NqZIWCGW_4DWkiBUSIEYmSj715OyTxstoyuoklNoNvdSp9s9wJU7V",
+        "https://play-lh.googleusercontent.com/SMmJHrTr5TtRQtvkxet2uECAWg-x09bIeKrkBQpT3LbpVtiVJjehQsX3--bHPK13YbqD_sc_maPkVKkZunaveQ",
+        "https://play-lh.googleusercontent.com/-_B-RBA8MMvlfi0Gpv3E3GhqxOXS1lTIUSb1BPauR4xIGajOjSKUgSbNB1MWseyw_UlRu17eZWRIMp7x_FmTUt0",
+        "https://play-lh.googleusercontent.com/XkzJ2NDwH0tJu931irpHhAMl6GlEtIUn-fwbfYZFy-zsPFBAGJ9woKoAHY01DPxiJCIbbSwams9kAzLqIyUHvQ"
+      ],
+      "regions": [
+        "id",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 46.000 per item",
+      "release_date": "Jan 21, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.quok.blobRunner",
+      "found_date": "2026-08-14",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.zm.gdl",
+      "developer": "Tripledot",
+      "platform": "Android",
+      "name": "Cubic Sort: Color Blocks",
+      "icon": "https://play-lh.googleusercontent.com/4GNhG13WwCFTXJCrm9d07U3fJqA7hqtl2gyahFATLYFrhYQuap93w6yJW0gafNPld1850Cjd1w1uCEpCcSypsw",
+      "installs": "10,000+",
+      "real_installs": 18166,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/qdBB6PrhDeRsgfCrCjHfbEGGjhukVJjHQ85OUOPHqBlw32V6tAO9ZLhgGYWyD7uq1jH4VUvgYhNWzIHg6cOq",
+        "https://play-lh.googleusercontent.com/f9rGWEckxWK15E19UGlYuqd9CocjP6LlHrf05qjYDff0XCNYTKtut2Hz698Flej1TwDvZMs82LVpoi58kFR-0kc",
+        "https://play-lh.googleusercontent.com/PSvPVpWuuGR_3mhQ2t5TElZCb6ozENac7twOZ1umn1ERahyt_RCK-40inc5_ytdWn6zXycdw41-Rd64kRQoeMuA",
+        "https://play-lh.googleusercontent.com/LwAF0W2lmiCr6sDX0GP_X8QsFWI2Ye0bwCJQStv3tLIO5M8jAsYjYa-DUWubPxSmQmZ9b-wQSbPbtMAssUNT"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.89 - £40.99 if billed through Play",
+      "release_date": "Jul 2, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.zm.gdl",
+      "found_date": "2026-08-14",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.microjoy.nonogram.number.art.logic.sudoku.puzzle",
+      "developer": "Microjoy",
+      "platform": "Android",
+      "name": "Nonogram - Number Art Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/ULynSRxNdlax2YZAjwVoOiQtPwDgt9Tqv3XEPWInod_WS33zuTc1Yst2sPkpe9ck2dV_wbuNu2dQ9Z3wmKAV",
+      "installs": "10,000+",
+      "real_installs": 14685,
+      "genre": "Board",
+      "shots": [
+        "https://play-lh.googleusercontent.com/a8q9z1Eoo-naWxE0tlnlsVtULoxjWY3kUJPTdvtvpZgeo23xlwMYQ38hqYi7d1U0FU0QQoMCV07LhQnoJroK",
+        "https://play-lh.googleusercontent.com/GuXEg7h48DUmzEVuJKQvJaM3ShQNEVUXouyp3DlYrcNLYm3G_uHsuu4BDVCH-f_-ezKCHuPY_6_pvyjKnRql",
+        "https://play-lh.googleusercontent.com/ey05W827NmxA32yxUmvehXLNapCKV3QIlJSitAz2AwbcAgQcgzSFDxO6jGHKnIwrcEdoh3y9fEwtfFqxlqZlXg",
+        "https://play-lh.googleusercontent.com/v7EnNp7eojiMmgX9rEx7FsnTwZQHAqrxjYhTG7uGHM4xoREsDdYBcxky4ec8jYrIh5xwpK6Bqgg2aHLPfqRr8iE"
+      ],
+      "regions": [
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱54.00 - ₱325.00 per item",
+      "release_date": "Feb 16, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.microjoy.nonogram.number.art.logic.sudoku.puzzle",
+      "found_date": "2026-08-14",
+      "velocity": 0
+    },
     {
       "app_id": "6796185094",
       "developer": "ABI",

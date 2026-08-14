@@ -28297,12 +28297,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.project.idle.cd": {
         "name": "Top Force",
         "regions": [
@@ -28316,6 +28310,50 @@
         "name": "My Fish Shop! - Seafood Tycoon",
         "regions": [
             "vn"
+        ]
+    },
+    "6793115010": {
+        "name": "Connect Tracks: Logic Puzzle",
+        "regions": [
+            "tr",
+            "mx",
+            "br",
+            "us",
+            "ca",
+            "gb",
+            "ph",
+            "vn",
+            "au",
+            "id"
+        ]
+    },
+    "com.quok.blobRunner": {
+        "name": "Blob Runner 3D",
+        "regions": [
+            "id",
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "us",
+            "gb",
+            "ph",
+            "vn",
+            "id"
+        ]
+    },
+    "com.zm.gdl": {
+        "name": "Cubic Sort: Color Blocks",
+        "regions": [
+            "gb"
+        ]
+    },
+    "com.microjoy.nonogram.number.art.logic.sudoku.puzzle": {
+        "name": "Nonogram - Number Art Puzzle",
+        "regions": [
+            "ph"
         ]
     }
 }
