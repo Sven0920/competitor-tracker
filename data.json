@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14 11:33",
+  "updated_at": "2026-08-15 10:23",
   "games": [
     {
       "app_id": "6793115010",
@@ -647,7 +647,7 @@
       "name": "Mine Path: Minesweeper Puzzle",
       "icon": "https://play-lh.googleusercontent.com/hOuVq10olzKJ5nlw9gq-UQduUsO3LNggQppraCJwykCUPh8fiXCqUo-Dp0H8fSRb-m5xTV7dl9u1OE50oeooLg",
       "installs": "0+",
-      "real_installs": 0,
+      "real_installs": 16,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/67YKfJXqMdZ7mzkF6V7Gpv_sCgINLVEDkYCcYBJ1HnZQ8Um_6hrsIt4mYE-TvqVJqv_twccTFkrGhgmbUQuz4w",
@@ -669,7 +669,8 @@
       "iap_info": null,
       "release_date": "Aug 7, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.abi.minesweeper.grid.puzzle",
-      "found_date": "2026-08-10"
+      "found_date": "2026-08-10",
+      "velocity": 0
     },
     {
       "app_id": "com.moonactive.splashroyale",

@@ -12560,7 +12560,11 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph"
+            "us",
+            "gb",
+            "ph",
+            "vn",
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -28334,16 +28338,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "us",
-            "gb",
-            "ph",
-            "vn",
-            "id"
-        ]
-    },
     "com.zm.gdl": {
         "name": "Cubic Sort: Color Blocks",
         "regions": [
@@ -28352,6 +28346,12 @@
     },
     "com.microjoy.nonogram.number.art.logic.sudoku.puzzle": {
         "name": "Nonogram - Number Art Puzzle",
+        "regions": [
+            "ph"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
         ]
