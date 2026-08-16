@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-08-15 10:23",
+  "updated_at": "2026-08-16 10:31",
   "games": [
+    {
+      "app_id": "6796183697",
+      "developer": "ABI",
+      "platform": "iOS",
+      "name": "Stickerdom",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/b2/ae/39b2ae6e-04c1-c6d9-3bfa-5bab489b3964/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/a1/fb/dda1fb4f-8e52-f250-4f40-0accf45f5adc/ios_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/57/2d/ad572db5-ad59-bb8c-15fd-625be13a189e/ios_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/a5/3e/b2a53e1f-7cef-c295-7db0-528967853a9a/ios_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/ea/da/f9eada3f-25ef-e11f-9799-beb51a00376b/ios_6.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "br",
+        "au",
+        "vn",
+        "mx",
+        "gb",
+        "id",
+        "ph",
+        "us"
+      ],
+      "size": "379.9 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-15",
+      "url": "https://apps.apple.com/us/app/stickerdom/id6796183697?uo=4",
+      "found_date": "2026-08-16"
+    },
+    {
+      "app_id": "com.ig.mathjam.puzzle",
+      "developer": "iKame",
+      "platform": "Android",
+      "name": "Math Jam: Number Twist",
+      "icon": "https://play-lh.googleusercontent.com/e4ZE4RZZrAMvh9o5zeTMiCPp4jDwRef-JYBkf__8k6uJMFIPP9xFrgFbM5wY5iQftDXN-B1KZwMrZqiUshmC4Q",
+      "installs": "10+",
+      "real_installs": 29,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/qZr-i-cTh1uPzAKqJ0Qz5OgMzkJvFCXZvUtZV0IR-Jjh2PmXL_4cNqIEhqwHSklF1Ldm0bQBQ87tV98FAGqHOA",
+        "https://play-lh.googleusercontent.com/pUiMPHkA-vaOmCeGD0tjH84D73T6lK721cldhf6jcP-tv_hIfBVeduoP9lMOZB6cK-abi_h41ST5u6LnVx6E",
+        "https://play-lh.googleusercontent.com/zuBobdeufJhujjuYprhAf71l9bjlhU521UwG_Noc3OU4WE4crjklvys9gI3IwqqYZ55eyfdyLtUESzJDbU2OgA",
+        "https://play-lh.googleusercontent.com/mFMrJEQzrpKgaV9HAP4cfsKycTeD-5ZonM41vSCAT06_lbKuLSykPB_WeGuY_I_g7RHemVQ9EeX_M6UjBIT-dA"
+      ],
+      "regions": [
+        "ca",
+        "tr",
+        "br",
+        "au",
+        "vn",
+        "mx",
+        "id",
+        "ph",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": "Aug 7, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.mathjam.puzzle",
+      "found_date": "2026-08-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mochilabs.mochisort",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Mochi Sort",
+      "icon": "https://play-lh.googleusercontent.com/ostFdB9CNvlMri30CWCGINJ0zJH3UhxgW0ncA9IfmywXRMeoP9dFtJojUOC7ZaOPwfk4LgBaDP35NFaMu1P-",
+      "installs": "10,000+",
+      "real_installs": 23455,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/xFFR1ZwJP058og7mcRxHejeLXPZRRcSCs_-AK4r02FvItV1Zin9N0540mQANZd_lRb4jkz7oyXqLFRyJA7u6",
+        "https://play-lh.googleusercontent.com/WlFKinX_kTihvzD30IJE9j2j4AaIDtF-F1Q2B_n2Mj_KAhnX1nFYHNCDntv0ptWuj91ClTPxsCfiEA2BgTs1yQ",
+        "https://play-lh.googleusercontent.com/FdSrwE27ouxZ1PRNdhoASuhqIB3xqHOk0Ti7Imr4_LzHrMim8hZ5T8j-xEddj63srks9gpQTJOjm9GlyNrGIL_4",
+        "https://play-lh.googleusercontent.com/WdnzjFqAbzhCxYL72PvqzYeXFS4jydZbxaW8XEp9_8A3lQxlwyKOC4bWJ4DWHEq88s47hpx6uILzs1L8piQx0g"
+      ],
+      "regions": [
+        "gb",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£2.69 - £88.99 if billed through Play",
+      "release_date": "Apr 27, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mochilabs.mochisort",
+      "found_date": "2026-08-16",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ants.box",
+      "developer": "Estoty",
+      "platform": "Android",
+      "name": "Ants Flow: Pixel Color Puzzle!",
+      "icon": "https://play-lh.googleusercontent.com/W3KUGUZ_HBlYJfg6QKIbwnsF8mgVlVEIOnqxh4FFBt6h5H0Duttc_TCs94jLUEmrlqps2EYbYpvOCIYF_kJvPw",
+      "installs": "500,000+",
+      "real_installs": 797050,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Dfs8pq63UBL_3MBWb5lFiePWursqXatSX1vzyfa8CzDXzEkaC5ztyicJ5WrXUfhPFFDCKJG2Xwx6A3lgkFmWvQ",
+        "https://play-lh.googleusercontent.com/JAZPdAtttCfHFgctF12XTDy-Aa9umN6pZmAC6lFHarSNGm4PwAmV3PfxnAD7H4JVaEAFGP-RqaObM4c9sk6B4w",
+        "https://play-lh.googleusercontent.com/dtrol4A_BFWk2iRFnc0C8_VHjKITR8oPtjy2f0C12z3xRnh6Imcm4Y7cZ50aY5Zo26wCmiDWjjC__01Ee1LWc9E",
+        "https://play-lh.googleusercontent.com/b3Tnam-RXkM2F_lI9a8OMaMmT9E8HMW7_Y_hPt_09qTRKfqtwpkIMO-6o2TGw96ere1QKt6H19jFOYK8F4cA"
+      ],
+      "regions": [
+        "br",
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$50.99 per item",
+      "release_date": "Mar 11, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ants.box",
+      "found_date": "2026-08-16",
+      "velocity": 0
+    },
     {
       "app_id": "6793115010",
       "developer": "Learnings",

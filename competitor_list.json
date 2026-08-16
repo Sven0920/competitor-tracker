@@ -12560,11 +12560,7 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "us",
-            "gb",
-            "ph",
-            "vn",
-            "id"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -28350,10 +28346,53 @@
             "ph"
         ]
     },
+    "6796183697": {
+        "name": "Stickerdom",
+        "regions": [
+            "ca",
+            "tr",
+            "br",
+            "au",
+            "vn",
+            "mx",
+            "gb",
+            "id",
+            "ph",
+            "us"
+        ]
+    },
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
             "ph"
+        ]
+    },
+    "com.ig.mathjam.puzzle": {
+        "name": "Math Jam: Number Twist",
+        "regions": [
+            "ca",
+            "tr",
+            "br",
+            "au",
+            "vn",
+            "mx",
+            "id",
+            "ph",
+            "us"
+        ]
+    },
+    "com.mochilabs.mochisort": {
+        "name": "Mochi Sort",
+        "regions": [
+            "gb",
+            "id"
+        ]
+    },
+    "com.ants.box": {
+        "name": "Ants Flow: Pixel Color Puzzle!",
+        "regions": [
+            "br",
+            "tr"
         ]
     }
 }
