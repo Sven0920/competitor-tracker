@@ -28361,12 +28361,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.ig.mathjam.puzzle": {
         "name": "Math Jam: Number Twist",
         "regions": [
@@ -28393,6 +28387,26 @@
         "regions": [
             "br",
             "tr"
+        ]
+    },
+    "6791636022": {
+        "name": "Slice Away",
+        "regions": [
+            "ph",
+            "us",
+            "mx",
+            "tr",
+            "ca",
+            "id",
+            "gb",
+            "br",
+            "au"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
         ]
     }
 }
