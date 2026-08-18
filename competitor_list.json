@@ -28408,5 +28408,14 @@
         "regions": [
             "ph"
         ]
+    },
+    "com.crazylabs.diamond.paint.by.number": {
+        "name": "Diamond Painting ASMR Coloring",
+        "regions": [
+            "mx",
+            "br",
+            "id",
+            "vn"
+        ]
     }
 }

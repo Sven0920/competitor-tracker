@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-08-17 10:28",
+  "updated_at": "2026-08-18 10:26",
   "games": [
+    {
+      "app_id": "com.crazylabs.diamond.paint.by.number",
+      "developer": "Crazy Labs",
+      "platform": "Android",
+      "name": "Diamond Painting ASMR Coloring",
+      "icon": "https://play-lh.googleusercontent.com/D25bqHlhD6mZaHj53YbGiX-4BYjhh9cEtIEwWhu4NqzIqkjKkUrGLkV07ryBCl4sjH_AGof3mQFKxkc9CfBUSQ",
+      "installs": "50,000,000+",
+      "real_installs": 61509923,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lIxWAVpPlLdja_vA-KGmtcQmyMz8U5u7oR3vUUqSdgwWQUNbPLLEcc_ZVVv4-6RRomkjSybByoc28JuVi7pa",
+        "https://play-lh.googleusercontent.com/UrMQzmtnICOFzVXkhasxVd34suZvpTj_3fzimuwHWm9wJHQFPAXc_QQ3pdPCYBAuU4K_ZI3D4ipG_FBa2qdL",
+        "https://play-lh.googleusercontent.com/DqsctAKFJwmrhxw9LTTPqi-y9a5mN_PWw-69IxZ_0V2o1sY5x0aWFSbL7bR0q8-PK2aojmNpH_4_nOl_GM_2yQY",
+        "https://play-lh.googleusercontent.com/e6KsZGMpM0y2NNxBA-9ajx4d3ywxAs2L08m-S-w7LJ5kH4fPdxFL-nYfnZhR83rhYQ4F6Rd2de-lu0aa-BXOzQ"
+      ],
+      "regions": [
+        "mx",
+        "br",
+        "id",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "MX$99.00 - MX$999.00 per item",
+      "release_date": "Jan 6, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.crazylabs.diamond.paint.by.number",
+      "found_date": "2026-08-18",
+      "velocity": 0
+    },
     {
       "app_id": "6791636022",
       "developer": "LIHUHU",
