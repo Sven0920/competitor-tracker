@@ -1,6 +1,88 @@
 {
-  "updated_at": "2026-08-18 10:26",
+  "updated_at": "2026-08-19 10:28",
   "games": [
+    {
+      "app_id": "solitaire.math.number.puzzle.game.brain.logic",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Solitaire：Brain Math Game",
+      "icon": "https://play-lh.googleusercontent.com/qYOH-1KWcirdMdetI1VsI7LO14hJqtMzylTrkOUsUje0z6OcoKFucYORjPlBTxLtHumyhGkgHQhjY2p0SpUwig",
+      "installs": "1,000+",
+      "real_installs": 1728,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_nqAHvmeWsmYIg2yzT0xfxx4_vbCNX7zoOTk3KMxNan0DbiDRyzDYtuRgMJaHToC_2JKOc5HGBAOB93xYnoL",
+        "https://play-lh.googleusercontent.com/YWpDMS_hgnRs3bNLY3jx0Ntjhy7-vsBrFJu9joxybZmrqI9uEmVqNxZL3lBXNTERqij-NbgfQcNHEiAK1VGCSQ",
+        "https://play-lh.googleusercontent.com/twirnNKRXEF0ZyIxvTDA_bio1hcMaBXdzmfkFg8DclYKLqIA9lbaXGojcAuJrs2IZJ0ZwkfPeX48beZLfFJxnw",
+        "https://play-lh.googleusercontent.com/21gRt2_ghuu7j1eVpng85hXTW0G6NOvunJfl7SXXn7aXgypV-xcof1MNAsCB9n6lmzMqLJX1VxnJtBtwO-5hKw"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫52,000 - ₫2,650,000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=solitaire.math.number.puzzle.game.brain.logic",
+      "found_date": "2026-08-19",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.unroll.match.stick.puzzle3D",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Unroll 3D: Stick Match Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/41lxqLoT-QZiq4rG14rMLg1CLCYnQWKAzOWyoR8hp4wvGmcBtNM8pGnYQqTVEgxj0mzl42UXBDBxhT75PPxGtg",
+      "installs": "5,000+",
+      "real_installs": 8803,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/iQax58AWROAFXuSwg2zF8us3UWPzrJ9dXXkkBHofNgsF5qXCyfiS0ST6hXj2tkMFVVjaptgvEJ_VCsvIEMQo3NQ",
+        "https://play-lh.googleusercontent.com/MiRy80wOBDdG-p7cAfpFEPG7W7I7hWsPFvB8M7Bv9RL23wfYNVRXx6ieut-poLq_-tW__6is_lwQYfbsBELVRl0",
+        "https://play-lh.googleusercontent.com/tLpPt9t1K6JntPK66nw09QlD3OXiNLeqdO5T2VZcjSi0mqfUqfnJj9Rf_NAGxOgJCoYBhk2HilX750b9-cY2",
+        "https://play-lh.googleusercontent.com/qLzNt2AbViSVdg7EQPE2mLeofhsr2orK02Net0lEmI04Jif-3O_-hjqDfxNJqa9wctfb-JkPufVw7_LhNR73"
+      ],
+      "regions": [
+        "id",
+        "ph"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 17.000 - Rp 1.690.000 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.unroll.match.stick.puzzle3D",
+      "found_date": "2026-08-19",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.superplay.superjelly",
+      "developer": "SuperPlay",
+      "platform": "Android",
+      "name": "SuperJelly Pop",
+      "icon": "https://play-lh.googleusercontent.com/PgokphsjoQRnw-iQ0uHhrR4uJ_YUV-TbcYOVfYLN-7f2W9qBARJ6RiRtLLHr7h-AKQ86o7CzJQva9QO1-8kA",
+      "installs": "100+",
+      "real_installs": 143,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/PJdOh9wJ0HMFlN_QTJS3QDFI6zyXIga2Xih8RvUu7U50o_aOi7Ee2khO3nIXiI5x1WXjr7MZF296-cUd3iASP9A",
+        "https://play-lh.googleusercontent.com/HwyHdZ5vW4wh4KwE1406nsRZDqykyLRp-PtHeLa6u0-mdnUSWfJvGJC3hVoWsdAZSjkZ_Cr4sWRAvYmeE4P0",
+        "https://play-lh.googleusercontent.com/58-rvkeix-VyKUJ6yxrYa9amIpmt2vjFG8NskK380tKfWt-OfMdtrKsef54jQY2beoMes4fIGB56bzReSixf",
+        "https://play-lh.googleusercontent.com/ygdTlkgACU5Sr1k4lzFo9sQ6L4j1yvI6tnm_wSlYiZvLkWfzMjYX6NLCBZjaEoolP0RLkU2LY6Lx9zz8zHNS9A"
+      ],
+      "regions": [
+        "vn",
+        "gb",
+        "tr",
+        "ca",
+        "us",
+        "id",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫60,000 - ₫633,000 per item",
+      "release_date": "Apr 3, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.superplay.superjelly",
+      "found_date": "2026-08-19",
+      "velocity": 0
+    },
     {
       "app_id": "com.crazylabs.diamond.paint.by.number",
       "developer": "Crazy Labs",

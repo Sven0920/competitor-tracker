@@ -28403,12 +28403,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.crazylabs.diamond.paint.by.number": {
         "name": "Diamond Painting ASMR Coloring",
         "regions": [
@@ -28416,6 +28410,40 @@
             "br",
             "id",
             "vn"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "us",
+            "id",
+            "vn",
+            "ph"
+        ]
+    },
+    "solitaire.math.number.puzzle.game.brain.logic": {
+        "name": "Solitaire：Brain Math Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.unroll.match.stick.puzzle3D": {
+        "name": "Unroll 3D: Stick Match Puzzle",
+        "regions": [
+            "id",
+            "ph"
+        ]
+    },
+    "com.superplay.superjelly": {
+        "name": "SuperJelly Pop",
+        "regions": [
+            "vn",
+            "gb",
+            "tr",
+            "ca",
+            "us",
+            "id",
+            "au"
         ]
     }
 }
