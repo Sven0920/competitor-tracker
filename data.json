@@ -1,6 +1,179 @@
 {
-  "updated_at": "2026-08-19 10:28",
+  "updated_at": "2026-08-20 10:26",
   "games": [
+    {
+      "app_id": "6775516932",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Code Word: Crossword Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/63/62/2c6362ab-64ac-89ce-ecf4-085ab973b907/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Trivia",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/b4/14/0eb41405-b087-befe-3ee7-0f4264a48ab1/001_CDW_iOS_Initial_Screenshot_EN_1242x2688_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/8f/df/ee8fdf7d-78db-3951-d2d4-0a887fd8fff0/001_CDW_iOS_Initial_Screenshot_EN_1242x2688_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/a7/8f/7fa78f17-5371-1796-9a23-0bbc7736f7f7/001_CDW_iOS_Initial_Screenshot_EN_1242x2688_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/6d/c3/a76dc338-414b-8e54-f7af-2232c0e17797/001_CDW_iOS_Initial_Screenshot_EN_1242x2688_4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "tr",
+        "br",
+        "ca",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "gb",
+        "id"
+      ],
+      "size": "280.6 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-19",
+      "url": "https://apps.apple.com/us/app/code-word-crossword-puzzle/id6775516932?uo=4",
+      "found_date": "2026-08-20"
+    },
+    {
+      "app_id": "6776616626",
+      "developer": "Supersonic",
+      "platform": "iOS",
+      "name": "Pen It! Zen Master",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/b8/97/a8b8976a-e175-a1da-898c-bcc3adae54e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 1,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/ff/bf/5affbf96-6cc3-c61c-6267-634ff67ac192/iphoneX_03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/5b/57/3d5b57f4-a68b-7f74-bba5-848833e6a66b/iphoneX_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/62/c5/d162c5f4-9d0f-8f05-fe2a-c0d7f07cf1ef/iphoneX_02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/52/d2/2752d2a8-cf68-ae52-0cb1-a941e828728d/iphoneX_05.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "tr",
+        "br",
+        "ca",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "gb",
+        "id"
+      ],
+      "size": "190.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-06-09",
+      "url": "https://apps.apple.com/us/app/pen-it-zen-master/id6776616626?uo=4",
+      "found_date": "2026-08-20"
+    },
+    {
+      "app_id": "6758054179",
+      "developer": "Gimica",
+      "platform": "iOS",
+      "name": "One Line: Pattern Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/9a/a1/7a9aa1a4-b16e-fb8c-24a2-379325be09b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/84/17/80841768-7750-a45b-2595-cbb4c3d45677/1260-x-2736-Screenshot-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a9/40/2c/a9402cbb-74d2-a016-af22-6fa675ed38b2/1260-x-2736-Screenshot-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/15/f2/a015f22c-bbfd-8988-b03d-14d9b825eba2/1260-x-2736-Screenshot-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/a1/94/2da194ec-9d4a-83b4-4667-0a1beedde748/1260-x-2736-Screenshot-4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "au",
+        "tr",
+        "ca",
+        "mx",
+        "us",
+        "vn",
+        "ph",
+        "gb"
+      ],
+      "size": "297.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-19",
+      "url": "https://apps.apple.com/us/app/one-line-pattern-puzzle/id6758054179?uo=4",
+      "found_date": "2026-08-20"
+    },
+    {
+      "app_id": "and.lihuhu.chessdoku",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Chessdoku: Meow Brain Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/84QueZywndREAMetSSi9--tmiK7CFowAwguRbSgdW2sFGmyKJS6TPmn2BLEyWxV1gp5jyznArkCH0omxyIh4vyQ",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/KRHkRTjDvIujIL0jIB104AG5LpS6jOz_PNEpVWSh8OxWnbXztTm7zCrQ8c54PMxKVANGvyMLfm7JYTgcbOsjgg",
+        "https://play-lh.googleusercontent.com/VCDK-3oOZAaRuTD0MuWr49XNOvSiiRn03qeeFMbtZTP_IBVJz0Ia3mmH1PDfiaiVmz3DtgXpVLJcgaTtExKhK2A",
+        "https://play-lh.googleusercontent.com/ce5NViU5rHzg-0LmFK9bkAzBoqo7TpFcYJ7HZNaqNoAzcFCrgzeLd9pJcgC2M4Cz2E_BZf4wH5oxJXr40_alaQ",
+        "https://play-lh.googleusercontent.com/LHu10Tx_SpVqvyY42mv9ukJyejsTWHpwBM5HDhwYXGZII8FAz2A-s_11Fez1kCbZXI2dGQx7eTkfj6oKrjsFlD0"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫1,300,000 per item",
+      "release_date": "Aug 19, 2026",
+      "url": "https://play.google.com/store/apps/details?id=and.lihuhu.chessdoku",
+      "found_date": "2026-08-20"
+    },
+    {
+      "app_id": "com.car.parking.master.puzzle.truck.games",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Parking City Tycoon",
+      "icon": "https://play-lh.googleusercontent.com/5Yn3Os1nte86nU9dDM-ytGv4GV664xQJLeylEn8OAEYKJ1prgvTt9cigOtiGelZ_kTFx6Ajxs7jaQ8H9H_Lmag",
+      "installs": "10,000,000+",
+      "real_installs": 11825556,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/TrKa0gzGZ_spT3shtYPgPs_HwqjDD4bBGACkoWQQUdkU5DI1BNB-jNU9TF38qAXPIZaeK5MQjduDLwtCjgfzrw",
+        "https://play-lh.googleusercontent.com/6k2ZLdkww2n5H5Gq7L9pIZ1DNR_pTqGWwcuua6RCj5YSSs6qm4N5AEag1-asHZXbvyGdMPRD0UrbnDgL29baM6c",
+        "https://play-lh.googleusercontent.com/rVHdBCtNBdayyG3Z2OLCUiLoG6q5pxTNMiYkmRSE1GC14OIPO0CIBq1PpsoJhiigwGfpcjWZo05DQaOo2MKi",
+        "https://play-lh.googleusercontent.com/YkjXgYYWuX_KFkFS6hBzEY8B4lrWf_2MMxpWkcyiEuOUUmGdq9H-wDls9Dex8bsPl4TD6sM5kw71rHwq5oJALSE"
+      ],
+      "regions": [
+        "au",
+        "ca",
+        "mx",
+        "gb",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Mar 31, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.car.parking.master.puzzle.truck.games",
+      "found_date": "2026-08-20",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.block.merge3d.cube.jam.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Block Merge: 3D Cube Jam",
+      "icon": "https://play-lh.googleusercontent.com/8EMJN6Vl_S2nir0mIvT7K4CaGwM0Pmrph-zxvkwtUg-M02IphfSgH3RZBBKPirTiBq8rdvAlpRKsGvBfzNp2fA",
+      "installs": "5,000+",
+      "real_installs": 5517,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/YXw_PvlmC90o9WWzgv2L6FDbKZ3uYxcP_QhmTZs6JFezENIP5HsVyGNTKvCVL89WJXv6CdEQB1L4IQYRqzjwPg",
+        "https://play-lh.googleusercontent.com/_zjXXg6qDJ2vdXavRkwMJCA8R3Sbk_NCZPvwH2n_ZKKxz2KPAsvSMnkWPpzymBkzFSX3wx0wfU8EgBHUSB5OgA",
+        "https://play-lh.googleusercontent.com/AhwtpgfEwh3T3KhVJhkyyiVQLYYQ8eLtpi8GrlJvx15pZlgZSarMNstue3W5J_7kxOJj3sxWDgwDA-gOKgIsI9M",
+        "https://play-lh.googleusercontent.com/qvO6gVdGIlVYOvmCkLHFtS2PnjoHzTqaE1aqdMZxUfOwZrflVlYWj2vzUIEjswP51x8iLPuUTzZQ2H1OEERyyQ"
+      ],
+      "regions": [
+        "ph",
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱389.00 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.block.merge3d.cube.jam.puzzle",
+      "found_date": "2026-08-20",
+      "velocity": 0
+    },
     {
       "app_id": "solitaire.math.number.puzzle.game.brain.logic",
       "developer": "Mavericks",

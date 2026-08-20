@@ -12560,6 +12560,9 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
+            "us",
+            "id",
+            "vn",
             "ph"
         ]
     },
@@ -28412,15 +28415,6 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "us",
-            "id",
-            "vn",
-            "ph"
-        ]
-    },
     "solitaire.math.number.puzzle.game.brain.logic": {
         "name": "Solitaire：Brain Math Game",
         "regions": [
@@ -28444,6 +28438,78 @@
             "us",
             "id",
             "au"
+        ]
+    },
+    "6775516932": {
+        "name": "Code Word: Crossword Puzzle",
+        "regions": [
+            "au",
+            "tr",
+            "br",
+            "ca",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "gb",
+            "id"
+        ]
+    },
+    "6776616626": {
+        "name": "Pen It! Zen Master",
+        "regions": [
+            "au",
+            "tr",
+            "br",
+            "ca",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "gb",
+            "id"
+        ]
+    },
+    "6758054179": {
+        "name": "One Line: Pattern Puzzle",
+        "regions": [
+            "au",
+            "tr",
+            "ca",
+            "mx",
+            "us",
+            "vn",
+            "ph",
+            "gb"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "and.lihuhu.chessdoku": {
+        "name": "Chessdoku: Meow Brain Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.car.parking.master.puzzle.truck.games": {
+        "name": "Parking City Tycoon",
+        "regions": [
+            "au",
+            "ca",
+            "mx",
+            "gb",
+            "id"
+        ]
+    },
+    "com.block.merge3d.cube.jam.puzzle": {
+        "name": "Block Merge: 3D Cube Jam",
+        "regions": [
+            "ph",
+            "id"
         ]
     }
 }
