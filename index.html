@@ -45,6 +45,7 @@
   .tag.soft{color:#fff;background:var(--soft-tag)}
   .tag.live{color:var(--android);background:#e9f6ee}
   .tag.hot{color:#fff;background:#ea580c}
+  .tag.pre{color:#fff;background:#7c3aed}
   .genre{font-size:12px;color:#6b21a8;background:#f3e8ff;padding:2px 8px;border-radius:6px}
   .vel{color:#ea580c;font-weight:600}
   .shotbtn{margin-top:10px;font-size:12px;color:var(--accent);background:none;border:0;cursor:pointer;padding:0}
@@ -93,15 +94,36 @@
 let GAMES = [];
 let filter = { plat:"all", dev:"all", genre:"all", q:"", sort:"found_desc" };
 
-const parseTs = s => { const t = Date.parse(s); return isNaN(t) ? null : t; };
+// 上架日期解析：ISO("2026-08-19") 按 UTC、美式("Aug 19, 2026") 按本地时区，混排会产生 8 小时偏差
+// 统一归一到 UTC 的「日」，让同一天的 iOS / Android 真正等价
+const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+function parseDay(s){
+  s = String(s||"").trim();
+  if(!s) return null;
+  let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+  if(m) return Date.UTC(+m[1], +m[2]-1, +m[3]);
+  m = s.match(/^([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})/);
+  if(m && MONTHS[m[1].toLowerCase()] !== undefined) return Date.UTC(+m[3], MONTHS[m[1].toLowerCase()], +m[2]);
+  const t = Date.parse(s);
+  return isNaN(t) ? null : t;
+}
+const isPreorder = g => { const t = parseDay(g.release_date); return t !== null && t > Date.now(); };
+// 无日期的一律排在最后（升降序都是）；绝不返回 NaN —— NaN 会让整个排序结果错乱
+const byDate = dir => (a,b) => {
+  const x = parseDay(a.release_date), y = parseDay(b.release_date);
+  if(x === null && y === null) return (a.found_date||"").localeCompare(b.found_date||"");
+  if(x === null) return 1;
+  if(y === null) return -1;
+  return dir * (y - x) || (b.found_date||"").localeCompare(a.found_date||"");
+};
 const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 10) || 0;
 const HOT = 10000;  // 安卓 7 天装机增量达到此门槛标“🔥 起量快”
 const SORTERS = {
   found_desc:    (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
   velocity_desc: (a,b) => (b.velocity||0) - (a.velocity||0),
   installs_desc: (a,b) => installsNum(b) - installsNum(a),
-  rel_desc:      (a,b) => ((parseTs(b.release_date) ?? -Infinity) - (parseTs(a.release_date) ?? -Infinity)),
-  rel_asc:       (a,b) => ((parseTs(a.release_date) ?? Infinity) - (parseTs(b.release_date) ?? Infinity)),
+  rel_desc:      byDate(1),
+  rel_asc:       byDate(-1),
   dev_az:        (a,b) => (a.developer||"").localeCompare(b.developer||"") || (b.found_date||"").localeCompare(a.found_date||""),
   name_az:       (a,b) => (a.name||"").localeCompare(b.name||""),
 };
@@ -147,6 +169,7 @@ function render(){
           ${g.genre ? `<span class="genre">${esc(g.genre)}</span>` : ''}
           ${regionTag(g.regions)}
           ${hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
+          ${isPreorder(g) ? '<span class="tag pre">🔜 预售</span>' : ''}
           <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
         </div>
         <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
