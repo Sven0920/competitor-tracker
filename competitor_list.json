@@ -12560,9 +12560,6 @@
     "null": {
         "name": "Tile Explorer - Triple Match",
         "regions": [
-            "us",
-            "id",
-            "vn",
             "ph"
         ]
     },
@@ -28483,12 +28480,6 @@
             "gb"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "ph"
-        ]
-    },
     "and.lihuhu.chessdoku": {
         "name": "Chessdoku: Meow Brain Puzzle",
         "regions": [
@@ -28510,6 +28501,483 @@
         "regions": [
             "ph",
             "id"
+        ]
+    },
+    "6782176604": {
+        "name": "Drop Digger",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "6759778301": {
+        "name": "Sand Out!",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "6757140488": {
+        "name": "Sand Blocks: Drop Puzzle",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.duykanbakay.carconveyortransfer": {
+        "name": "Car Sort: Color Puzzle",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "tk.jewels.rush": {
+        "name": "Jewel Rush",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.ArcaneBlast.VolleyCraft": {
+        "name": "VolleyCraft",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.gentlegame.flyingcut": {
+        "name": "Flying Cut",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.voxgames.supersword": {
+        "name": "Super Sword - Idle RPG",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.ig.diamond.loop": {
+        "name": "Jewel Loop",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "tr",
+            "au",
+            "mx",
+            "us"
+        ]
+    },
+    "com.brave.merge": {
+        "name": "Brave Merge - Battle & Defense",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.applife.mergelegions": {
+        "name": "Merge Legions: War Battle Game",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.sequel.packjam": {
+        "name": "Jam Packed!",
+        "regions": [
+            "ph",
+            "vn"
+        ]
+    },
+    "com.easybrain.arrow.puzzle3d": {
+        "name": "Arrow Puzzle 3D - Arrows Out",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.peakDirect.app": {
+        "name": "Peak Direct +",
+        "regions": [
+            "us"
+        ]
+    },
+    "co.median.android.pqlayq": {
+        "name": "PEAK App",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.peakviewer.tw": {
+        "name": "Peakview - peak identification",
+        "regions": [
+            "id",
+            "tr",
+            "ph",
+            "us",
+            "br"
+        ]
+    },
+    "com.peakcm.user": {
+        "name": "Peak",
+        "regions": [
+            "id",
+            "tr",
+            "ph",
+            "us",
+            "br"
+        ]
+    },
+    "com.PeakSuite.Mobile": {
+        "name": "Peak Suite Mobile",
+        "regions": [
+            "id",
+            "tr",
+            "ph",
+            "us",
+            "br"
+        ]
+    },
+    "com.peaklens.ar": {
+        "name": "PeakLens",
+        "regions": [
+            "tr",
+            "br"
+        ]
+    },
+    "com.ppnsports.ppn": {
+        "name": "Peak Performance Network",
+        "regions": [
+            "br"
+        ]
+    },
+    "ai.peakiq.app": {
+        "name": "Peak IQ",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.peak_betting_tips": {
+        "name": "Peak Betting Tips",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.gamebrain.piesort": {
+        "name": "Cake Sort Puzzle 3D",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.game.goolny.stickers": {
+        "name": "Merge Sticker Playbook 2D",
+        "regions": [
+            "gb"
+        ]
+    },
+    "tile.games.master.match.triple.puzzle.game.free": {
+        "name": "Triple Match Game: Tile Burst®",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "ph",
+            "au",
+            "mx",
+            "br"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.Chodun.CatGunner": {
+        "name": "Idle Cat Gunner: Shooter RPG",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.nep.tr.hybrid.catbusjam": {
+        "name": "Seat The Cat! - Logic Puzzle",
+        "regions": [
+            "tr",
+            "au",
+            "vn"
+        ]
+    },
+    "com.flow.blast.pixel.puzzle.out": {
+        "name": "Flow Blast: Pixel Puzzle Out",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "ph",
+            "au",
+            "us"
+        ]
+    },
+    "com.sort.water.magic.plant.puzzle": {
+        "name": "Magic Bloom: Sort Water",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.BlissGames.Juego23": {
+        "name": "Web Hero",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.Lightneer.BazookaBoy": {
+        "name": "Bazooka Boy",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.JaddZayed.GuessTheDrawing": {
+        "name": "Guess The Drawing",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.funcell.hyperhostess": {
+        "name": "Hyper Hostess",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.noorgames.basketbattle": {
+        "name": "Basket Battle",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "br"
+        ]
+    },
+    "com.game.sortit3d": {
+        "name": "Sort It 3D",
+        "regions": [
+            "ca",
+            "id",
+            "gb",
+            "mx",
+            "br"
+        ]
+    },
+    "com.crazylabs.neon.light.maze": {
+        "name": "Neon On!",
+        "regions": [
+            "id",
+            "gb",
+            "tr",
+            "ph",
+            "mx",
+            "br"
+        ]
+    },
+    "com.creativestarsgames.bombevolution": {
+        "name": "Evolving Bombs!",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.gimica.busjam": {
+        "name": "Bus Jam: Traffic Trouble",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.gimica.mealdash": {
+        "name": "Meal Dash",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.gimica.hexadrop": {
+        "name": "Hexa Drop",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.gimica.oneline": {
+        "name": "One Line",
+        "regions": [
+            "tr"
+        ]
+    },
+    "io.supercent.mosquito": {
+        "name": "Mosquito.io",
+        "regions": [
+            "ca",
+            "gb",
+            "id",
+            "tr",
+            "ph",
+            "au",
+            "mx",
+            "br"
+        ]
+    },
+    "com.spellbindgames.doomsquad": {
+        "name": "Rush Attack",
+        "regions": [
+            "ca",
+            "vn",
+            "tr",
+            "ph",
+            "mx"
+        ]
+    },
+    "dasi.prs2.lumberchopper": {
+        "name": "Idle Lumber Chopper Empire Inc",
+        "regions": [
+            "vn",
+            "gb",
+            "id",
+            "tr",
+            "ph",
+            "mx",
+            "br"
+        ]
+    },
+    "com.mining.realmtycoon": {
+        "name": "Goldvale Mines",
+        "regions": [
+            "tr",
+            "au"
+        ]
+    },
+    "com.base.commander": {
+        "name": "Base Commander",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.hungrystudio.blockeffect": {
+        "name": "Block Blast Effect",
+        "regions": [
+            "ca",
+            "gb",
+            "id",
+            "tr",
+            "au",
+            "mx",
+            "us",
+            "br"
+        ]
+    },
+    "com.mobsmile.trapfortress": {
+        "name": "Trap Fortress",
+        "regions": [
+            "ca",
+            "gb",
+            "vn",
+            "id",
+            "ph",
+            "au",
+            "mx",
+            "us",
+            "br"
         ]
     }
 }

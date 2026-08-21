@@ -1,6 +1,1379 @@
 {
-  "updated_at": "2026-08-20 10:26",
+  "updated_at": "2026-08-21 10:34",
   "games": [
+    {
+      "app_id": "6782176604",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Drop Digger",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/4a/31/f94a31d6-2cee-4e78-5e47-d4be666abc4b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 16,
+      "genre": "Adventure",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/71/25/a87125df-2ca7-4e88-d89f-e01771e15b8b/iphone15__U00286_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/e2/83/92e28310-5680-df00-c2a8-8dc6ac84b963/iphone15__U00287_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/b9/a5/dab9a510-59c8-6aa1-c854-6f4dc36f7500/iphone15__U00284_U0029.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "329.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-07-01",
+      "url": "https://apps.apple.com/us/app/drop-digger/id6782176604?uo=4",
+      "found_date": "2026-08-21"
+    },
+    {
+      "app_id": "6759778301",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Sand Out!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/8d/19/fc8d197b-729c-db2c-504d-b0c8cc4bc416/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 1614,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/a5/a0/5fa5a0ac-cd12-e117-f0e6-bf1327474092/Appstore-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/c4/6a/a5c46a2e-cacd-1534-be3e-877cc2f8fbbb/Appstore-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/a8/e6/dea8e6cc-e936-70fd-2462-c64cb968f15d/Appstore-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/c2/a5/96c2a519-4c66-14c8-b732-e9c34dbd2163/Appstore-4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "336.2 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-03-13",
+      "url": "https://apps.apple.com/us/app/sand-out/id6759778301?uo=4",
+      "found_date": "2026-08-21"
+    },
+    {
+      "app_id": "6757140488",
+      "developer": "Rollic",
+      "platform": "iOS",
+      "name": "Sand Blocks: Drop Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/05/62/6b05626e-2b5a-5ca8-d2e2-619a90e07a14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 782,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/ed/be/23edbe00-b30f-f082-b60b-29505e195e90/Frame_487.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/1d/dc/ad1ddcf9-7e9c-f674-1fec-8caca04059f2/Appstore-8.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/aa/10/a2aa107b-dae0-dd83-7530-f389231dbfc4/Appstore-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/43/03/a24303bb-b41e-a4ff-111d-30cc29a81af1/Appstore-1.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "428.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-02-05",
+      "url": "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=4",
+      "found_date": "2026-08-21"
+    },
+    {
+      "app_id": "com.duykanbakay.carconveyortransfer",
+      "developer": "Rollic",
+      "platform": "Android",
+      "name": "Car Sort: Color Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/dbDWQyuYW1A_LEyUjHekXzMT5tSgVlYttY_eIeMJxAHlTZcndTGfOKq4vMMKMJYvViZetQfnv-rfnkhXiPolLg",
+      "installs": "100,000+",
+      "real_installs": 490308,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/QsyIvXgb394d3KPA8GtLK1Xh6k4foLrgaXG_VxXt04X-z0vmjrfXfhhnTvoweR-Rp0-NagK_-4E4bRDq4h5FoLU",
+        "https://play-lh.googleusercontent.com/t-SoQQMAmky71nLqYChpgrfqg_fVlJ1Sc_uXsttLTWJXUJ0l6o-hS-p9yAJGkddiLCmk-epexjjmso7sqAO5WA",
+        "https://play-lh.googleusercontent.com/4f2pu8JxsB9B0zRt6CCbGjXuRIbPORFNmJqtIRDU3e_vPmC87imhZnz1H07KoBTAHLMcrrBWUIEo9bJ3OYyesrw",
+        "https://play-lh.googleusercontent.com/hPGucoejs8rguFHNLtwcf0YSaVTD4SbmxwW3D25GfT-0Afb9ZislPHF6XKEuxQ54WDtYLnPy-ILy3f_n21ca"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $139.99 per item",
+      "release_date": "Apr 17, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "tk.jewels.rush",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Jewel Rush",
+      "icon": "https://play-lh.googleusercontent.com/1rcTF598j25dlfEJKGPiC4wyEcSqA8SyQBGWkH_LhlH8GWRboerz8NvrsQQ2uEhyYSrIt5MKDEru1xQxLyCr7w",
+      "installs": "1,000,000+",
+      "real_installs": 2428659,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/aoxQGPcemoIknDWTK3r_mRsiy0awQjIAUwpl3gJ3w9Jtj1JqxeeCGBSln589_vsrWyO1PC3kt-mYRdV4RO3o",
+        "https://play-lh.googleusercontent.com/gIHJhEJGgPmUBSpfCs7WLAM9Fg3POAYBqTNxlGJp1fSKET0m9W45LhC_1Hx6-_M-fpczTpyHf5keNAE2hr9x",
+        "https://play-lh.googleusercontent.com/Msdw5VdWdhBcvbiRi8yCi0Ylt3LCXNGSalPTxq-stNagguDpsMiLBDksyu5h2VHPPKMN_zhSIOJR6VDwynxR",
+        "https://play-lh.googleusercontent.com/KguCbnBrzS-nljqNFBtRKjnLDROD_jW9OIk0mmpGBXfd5LpkvDtsMvjWxT_uNdVHD1FOKFPe7Sn4lphG-UBM"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.49 - R$539.99 per item",
+      "release_date": "Feb 20, 2021",
+      "url": "https://play.google.com/store/apps/details?id=tk.jewels.rush",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ArcaneBlast.VolleyCraft",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "VolleyCraft",
+      "icon": "https://play-lh.googleusercontent.com/iQdynMz1CTIQxcItRj3PuQNH8MouRXvj-ZEE472GcsJeut2By_5rtHF53qC2HR7xsumlqMnWq2BrR1UzM_LK",
+      "installs": "50,000+",
+      "real_installs": 72467,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/XwBzAGq9B6Dz0UXGFHbUWwhYFQno8MfPA55AqOVG54I7ARYJeq7VOgkhV-c5IGsiMCtUq-e3pJMdK9acP_hRpg",
+        "https://play-lh.googleusercontent.com/4xNHl4uwWPwQuOcGoTL3harQiwnGCUkc0R2MhZ1-r5QiuC3_XrrZuVxV62I8a8zb5qGxmBRVFGoEwE7smzkX",
+        "https://play-lh.googleusercontent.com/mpWhGwqDB9Z17WS5kmCPlewXtROrvi8_itkUd6F0tCbvhEge5Kbp0Ig0nw6vEaX0Jc2Val-5_gbGIWDR1F4Bjpc",
+        "https://play-lh.googleusercontent.com/AMyDKOBdRasKQpjJMHwqu1uuJu8Zf-c-bZyNBQkrwrTXQJM5KTYnK0sCCJ-I2YcNuow4i0koU6GICwD4SFhg7g"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$519.99 per item",
+      "release_date": "Oct 8, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.ArcaneBlast.VolleyCraft",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gentlegame.flyingcut",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Flying Cut",
+      "icon": "https://play-lh.googleusercontent.com/XNb6Wcca6dweyFLtXRf3Bx8DNYCobJ-mChiZAVkqNQclRhA20OztS_eRDcFywgxOy8nc2A8IIajPb3FtJ5ZwtA",
+      "installs": "1,000,000+",
+      "real_installs": 3050931,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/C0Bx29AksuXL5xcUTYAAmyawxgJFA3JzkLFeNeMVhFTC2W5QCkVFvAyi8G72S-7D5AOZVpKIu3SuLd7nHRZxmg",
+        "https://play-lh.googleusercontent.com/db0FO-ELlgmpRV0onn9oC7ThSLLdS8FKjnZm3fS4lZmfRiokp9CFfuJGSerZiUKzCtUQpyiaJV1dW80RpafTz9E",
+        "https://play-lh.googleusercontent.com/W3WXwMYRo6RaYPebaleVAIpfsq7cer_-VOtyS6hg2w_NZJvOzmZNfjObuy69WPCKYiFkzD-0hZ4g1DwwukA1iA",
+        "https://play-lh.googleusercontent.com/itvp_AGZxBV2mhP1t6AZoD1YiRdZI9473ds5rIQJ_MURQyeMV_An2ddru-K4CahwGherQE1Kr068rvgYbnkM"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$16.99 per item",
+      "release_date": "Dec 7, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.gentlegame.flyingcut",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.voxgames.supersword",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Super Sword - Idle RPG",
+      "icon": "https://play-lh.googleusercontent.com/iQSJVboorflWhzx1hI9kCb3hIdZeU_hUrINYio5vBrGb7O-J8WHI6_rOK_bEN7-QKs3U19rNUFFoJLVjQNH_PA",
+      "installs": "100,000+",
+      "real_installs": 121653,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_I2CR5lki-uDZ-g263P9B6LA7LtDu-j1wCODoPqz7AoIgeWn1zZr3G80J2zmtaLj8cj8pJfZ4t95VSLalp4JCw",
+        "https://play-lh.googleusercontent.com/_Syouq5W2uslUnGPf4tOSEJ_570almCeHVIW7SYzJvDLeKGAwPWU4VaiciWdHdkFec19dWABERNVAsTn_39m7w",
+        "https://play-lh.googleusercontent.com/5JQgr4w3n6rz9BKRsnF_dLxhz8xizdX9JiBbbTt8f52NI4OSmVDZ4seFYHnHCzU8S8lTt5JCvsdmv1vydo9meg",
+        "https://play-lh.googleusercontent.com/VnKwmDxgLUyIv_KpZb_4S7fZOE2szfK3YskU5WE_-cB02sKY_3WwoyDSR4kQbKCNrnjJuNa80Q6WmUfrHRyHCDs"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫19,000 - ₫2,000,000 per item",
+      "release_date": "Aug 16, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.voxgames.supersword",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ig.diamond.loop",
+      "developer": "iKame",
+      "platform": "Android",
+      "name": "Jewel Loop",
+      "icon": "https://play-lh.googleusercontent.com/bvCnlyqIsLaO1glAQscN96o0pss0-q17OzmJmb-WG7cF7RgCE6Qsbvf4gQ-gt7gvxw4BUlyOnc-PufsF9g0OAmE",
+      "installs": "100+",
+      "real_installs": 461,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/IG7rSfDznlf2Tpqh3CPIqRNqAm7CbV7IHJ_CkgLq6MlWsu3CKov-22GoC4c11XU5wAt7PDemn4CK7ffew6M8mtQ",
+        "https://play-lh.googleusercontent.com/tNg_q8KqWoS7dxBEZvHeyRBKon3ZfG3VPU03boqhXLVMw66xj3cOQwQuFia-4z6NWoGActRJHB_y8F7HFdspTt0",
+        "https://play-lh.googleusercontent.com/KQn3Yjue-_zqKcPs8Y_Z8r3PHTk1KfmADW1qhxxb-YOGJLzkZ-t4Bru6VjyHHYih1j8NLfleimp2o3QkWQCh",
+        "https://play-lh.googleusercontent.com/rzN0lE37tlFx03VlkSd6IrQL59UNUHjSwlTynY0PP8p3PB4LCsGllNqcJadCmBCoj0F5LJX_RSwdFbnWrOes5g"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "tr",
+        "au",
+        "mx",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 15, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.diamond.loop",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.brave.merge",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Brave Merge - Battle & Defense",
+      "icon": "https://play-lh.googleusercontent.com/YItNRjdpkMMyGitP7a6cIhMZF7f8PUAMdsm_zj0dbee6s3sYxpWNQ8ad_t_bRaf6hP6nwec0XNUF15SgkJQ4Lc8",
+      "installs": "1,000,000+",
+      "real_installs": 2214051,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/i7zxqplvUUlZ78yqUBQswMefm3LLkwgVPiIDQIYdaIZn2OMp4gFHpfJLP4VaCPyARCiadSOft6rSZGpAPgkugw",
+        "https://play-lh.googleusercontent.com/z_RJ3_wLiRtvR1w3qeDTn_2ZVwvqcLkPr9YBpGWWzu9UoV8K-bN_JJ-Hp1C6ghzblE1Puq-m1ZDscjygES3YLQ",
+        "https://play-lh.googleusercontent.com/GzOsJMgZOMimsguuD9bP_Fy2oEQ81p6itvGjzyPGqYbGC75twBZ32f7TeQVI-inRJ-fpRP8Qopd3iglDsjVF",
+        "https://play-lh.googleusercontent.com/gtQ_HcqUXncEGrubVHa3OZJDWPUAiD0HKrHF6yUFGOwYrSWkjAKTVOOWk6U5ThxFqIiaFBc6Ik1jLoc20AD2pw"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $139.99 per item",
+      "release_date": "Mar 14, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.brave.merge",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.applife.mergelegions",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Merge Legions: War Battle Game",
+      "icon": "https://play-lh.googleusercontent.com/mFxOj-cQnxyau2PBc563og1pobFnNX1tTulqdabY_gnGjU31vvwgzTjVkQN4BSVn2Vr2M_5rjQtdRu-xA3evxg",
+      "installs": "1,000,000+",
+      "real_installs": 1119078,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/18futPbUDQ2mPSw59X26A1kcK385-1Nl3JfgJdOdmOBAi4mZIIAkh8iicXjfH61LH0wMSLKnvnvOiVEryInmkg",
+        "https://play-lh.googleusercontent.com/zOg_4Dyek5HVP8b3urqQf4OscUtJZzj-bRiOt-eplFyqZF0HwKLQgoM9QWEEBULK0kv1f1KAXRtjEjP8EHh9m80",
+        "https://play-lh.googleusercontent.com/qlu8_rFASTBPQuJTfLdpnizbzGYP38qwg0hJfwg2KSND_63hxIk_qHX5xiC6WxdECbI8g2Q6SOlzB4dHTMye_Q",
+        "https://play-lh.googleusercontent.com/4b0ytiduTGZQ54at-W0lRWPzuOBZDPaZeIgG0QAOEdzfgJpoz74mGOyzTy26z_-1FO3a6zuhYq03dJXXSHqAs-w"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.89 - $139.99 per item",
+      "release_date": "Jan 12, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.applife.mergelegions",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.sequel.packjam",
+      "developer": "SayGames",
+      "platform": "Android",
+      "name": "Jam Packed!",
+      "icon": "https://play-lh.googleusercontent.com/kdlm75Yea9cJbnqHJr4NSRPDPlLfKyOGuQgOOsSdJubhO8b2T6xjhPpd_Vwqhvgf4zbeSCUJmjYJL_rf7z63",
+      "installs": "10,000+",
+      "real_installs": 19936,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/tHAthy4Y3zbS7HqF3hbAKSR4nIGL-mec-kXHWQpfUdPqSNmEo7MsuUkPkdUEuqSCEyfUHF4RvylUslQwYxGbvg",
+        "https://play-lh.googleusercontent.com/pV3dlcw66gIdcGkJ8rn5zQVrNcquVJsEyTInZH1bkEIlg7dZU-_HrdNTShIt9M-cPTHFPOdjBk0KBDcf6U828w",
+        "https://play-lh.googleusercontent.com/Td6e3YCADCYyvY4rASrkK_UriP-RWlHw0nyQ5sJqPsSCgHGzwHe0-CY1ZgFz8IOwJXGNUyHgCwSNGwPjGKKV",
+        "https://play-lh.googleusercontent.com/IlPm4PgraTDd8UH1oTQSB2vNLD9d5XOkxSoPlq-8VrunxsxNYcH3GdDVfViyuBohFYzQrL7QLsibv_yEQGo72A"
+      ],
+      "regions": [
+        "ph",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₱58.00 - ₱5,850.00 per item",
+      "release_date": "May 1, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.sequel.packjam",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.easybrain.arrow.puzzle3d",
+      "developer": "Easybrain",
+      "platform": "Android",
+      "name": "Arrow Puzzle 3D - Arrows Out",
+      "icon": "https://play-lh.googleusercontent.com/oTGrtX3Fv0KxMANyIStfmXh0QQj8MMiHHJoLNfsSts7xCu7e5OdX4T8p1nKD7vGXqThSiY6Mx_r4F1Bt85Xf",
+      "installs": "500,000+",
+      "real_installs": 561988,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/oKFo5VgPh2UITbyXmy4RXDgqAmKI4sl1xnvsKOcsB_HhWrt9xjNLhDRZuvC0UcqsX0SK07dsH4OtIVHB36cVeng",
+        "https://play-lh.googleusercontent.com/48l88v91nhWkfDgxZdLRv-ZclRK15lZvUYaKPKPP9A3_JvShn16d_iqkiGjkTH5Xb9nVMu7XgwrakIMm9rbA",
+        "https://play-lh.googleusercontent.com/wL6dxDuIlQAJrRl1onKhHYSrNzKb5Ijx-2pfvOo-8t_wXZq02FEZAa5LrpFLDi_dO2-6R_BKcZM5e8gf78XT",
+        "https://play-lh.googleusercontent.com/bN2vcHtyO8N1O41Bp-uLBKnxoDxhDfjVIlFrTZ2ijKzVCo5SYNgHlF2eUU4MMJ5oyqJvVk8OaYLX7puI-VOvpqA"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$24.99 per item",
+      "release_date": "Jun 5, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.easybrain.arrow.puzzle3d",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peakDirect.app",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Direct +",
+      "icon": "https://play-lh.googleusercontent.com/Uv4mbBwFXNbNvejdVNYsMbvjwHLi3q7ZvwcKWfLykzBvQakNyEzR66cC3K5-bB_u4-RHS-PKxqIwrNGOrx-KZw",
+      "installs": "100+",
+      "real_installs": 175,
+      "genre": "Business",
+      "shots": [
+        "https://play-lh.googleusercontent.com/3lu8MgzfZ8i4TLM4Z8cZCdeKFDHam51lojXSdLgZ_P6Yi8ps0o4POwYJaLYwCJu_LTUWiwzQt3AYvqVLPRa7PbE",
+        "https://play-lh.googleusercontent.com/B9HcNmZ7tc-7UYHr5kdgmxN_5itCrgPQq__wRl1k_a7PfckCQ3TSWfz4KgCnG-EZ69h7Ey2SMyGwph-33pa2RA",
+        "https://play-lh.googleusercontent.com/P-ywZveuybVx2kf2HPBOm4jcW8Moxp6CmaCD1BpkJHECOKMXoSdUVWfc6qUX959aKwEE8BI1T61_t4W649-n",
+        "https://play-lh.googleusercontent.com/v3Puxltg7d0Nsjtw0w19y4V-_WHTEUADOPK8ghTMJ-Ze-_LfIS8tw0TYEOAno1SEKbxllxm_rNWr3VWF2UKXsAA"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Mar 31, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.peakDirect.app",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "co.median.android.pqlayq",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "PEAK App",
+      "icon": "https://play-lh.googleusercontent.com/01g6NOe953M73xwSlY9ygC3J5LJW4yWXLULql2XcOWufmHDmvvawEylG6RXLdRKTMzWrxQBR5ovp7p9cwcjP",
+      "installs": "500+",
+      "real_installs": 598,
+      "genre": "Lifestyle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/6OWxDdcOxdFktSk71S96r_yQTg6VwyZcxG9-Vm6vmjNhN4n3qojlaLBB-LAeiNy6uZgzHUg_9RM-f7CAFyGqpQ",
+        "https://play-lh.googleusercontent.com/D7iDdWdVJljnsRxtMm6aUOWu4pfb55rw4JrYUqgw_uXWRCG4ox4DZVdRGWRvKqogDANicbgof0FVXq65xqqw",
+        "https://play-lh.googleusercontent.com/BkU9SUhpD47JMpPFZiWv6a8Yqt5ilPu9DB7R1YYOG8y6oSxBICPve2nnweW56w1hYlPY0WXp8UHYDkwJ4GwU8A",
+        "https://play-lh.googleusercontent.com/0NGTdBcgUjHWW_36HXQej1ks8z2wOUWbkuVf_GE8h9fYxaYBD-M7uUltXsMd6FH-9WPJFRDgmBSzz_Iw0p56jw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 5, 2026",
+      "url": "https://play.google.com/store/apps/details?id=co.median.android.pqlayq",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peakviewer.tw",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peakview - peak identification",
+      "icon": "https://play-lh.googleusercontent.com/T8yF1CdFqU3XbO_gIL08AQe_cRmQQoA7wVeupZDi_7IMh-XNhpOcgorpclkVjAHnGdN5RxLkaWKa351RTyxdJQ",
+      "installs": "1,000+",
+      "real_installs": 1852,
+      "genre": "Travel & Local",
+      "shots": [
+        "https://play-lh.googleusercontent.com/cDwJGevzD467m-KxJiQmisgBdC7ZfWYG2Lij6K1s3uXYzpL9A4DXfWGV4HNMDsILg0Ufc-4WtZl9vkqvELMblA",
+        "https://play-lh.googleusercontent.com/O6babeVYI9JJxQLhDZPak_1Kg0GIukQBIiydU8fkrjEe1ia8G_W3G0B6HNvq5kjiG6TVlLiVpWVyeRNbb8xcPy8",
+        "https://play-lh.googleusercontent.com/tSu0YNMiW1k005_sy3JXkPyyIAam3DND6uRjBzR_3Yfn8ZxLVbifDDlwP3-hX-oEi28WdGlstA3Ux8Wq2-yViQ",
+        "https://play-lh.googleusercontent.com/HnKT-mQb-swaezcUMLM94gT3dEpkU98Q0FVuIzf-pjiiy0GbhLjhHBjH3dcCR4QW5tTfplOUOQaUVaeHX_N7"
+      ],
+      "regions": [
+        "id",
+        "tr",
+        "ph",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 31, 2017",
+      "url": "https://play.google.com/store/apps/details?id=com.peakviewer.tw",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peakcm.user",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak",
+      "icon": "https://play-lh.googleusercontent.com/EGfktkrmgPOjPrmZXH09slUpwf8S0EozeSm832RRo0d6ReZQnbJqKLGROE9-brQFuYfH218hkwGiq1nUu653",
+      "installs": "500+",
+      "real_installs": 896,
+      "genre": "Travel & Local",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lZvJr1r_I0AFEWLHw6Kq3wAj-FUVN_piT1PeMjYYfVQoRgj5B2XQmBgiPhArspp0Dog21GQWcWbvD09mvLkr3g",
+        "https://play-lh.googleusercontent.com/bSM__lBi30RrMKJ-lXpwiJepXjZl1SDyfLP0TIz5l2_ulyHX1YNV0QpEOkJcbHnsCPWgE_j2swIXRqThDpkhHg",
+        "https://play-lh.googleusercontent.com/aHPsrMt5S9RU94MJyDX_-N9TPO6X_AIkurpzgWnnoPjdYlPxVAh5Zt_YKymzujJEa-NU_UJZopDHoNM2_CmY",
+        "https://play-lh.googleusercontent.com/t_u3kS8T3Zb71A4TTDRoSJaQChzrXNrKdUjKF_r8Xt3FHXoxIAUt4pcWb9gksnFEqAje7WkhBB4GtqX0p43w"
+      ],
+      "regions": [
+        "id",
+        "tr",
+        "ph",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 18, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.peakcm.user",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.PeakSuite.Mobile",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Suite Mobile",
+      "icon": "https://play-lh.googleusercontent.com/e9D3qzg_-InGXx9tirKP-hysyxmfFr6utOoI-wTxx1XTnnJWbodUUJMS5bPfCMuigvCf7DaSTO_VegN1QDLDhts",
+      "installs": "10+",
+      "real_installs": 26,
+      "genre": "Productivity",
+      "shots": [
+        "https://play-lh.googleusercontent.com/71IZUDiPF8apnHaANCAaveGcYHQHMSFdcjXhCpQ1ZxtgktDPj19Y6Jc9EzmCESYeUfp4bpaeXRrvqW9Zn0mRyA",
+        "https://play-lh.googleusercontent.com/limk4z9iGJLUE_z-vXZILfc_c8glXGr5TyPNJj_obqPdFD2O0hh2wqfNxcL9MjJL-aX1cilSxVJ_Jt5yqcXk",
+        "https://play-lh.googleusercontent.com/TN2Ya4-2ZyxT6ptVgBLQz1W-_ZRAJDl9lLmU21Qnfji2NNurWzxwv_5wUqsTkMs2tDf6Eynbo9l1WKlJTtTC",
+        "https://play-lh.googleusercontent.com/s9tost-a7Kdb3B5NCY-t5TLvcGAwQ9Tnu4vT8jCkOXhkQCVTpyUzEKrSGEcKcCfXbEaPdwnw4weH9cJmConLYa8"
+      ],
+      "regions": [
+        "id",
+        "tr",
+        "ph",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 23, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.PeakSuite.Mobile",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peaklens.ar",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "PeakLens",
+      "icon": "https://play-lh.googleusercontent.com/z_oIubOTkEl-oS1caUR5NfyU8io3gYnCGy5ZGtAluhBnkujnboIWDZEiX-ok7CelvCP9I_8YNyz5qAG8zXNNZw",
+      "installs": "1,000,000+",
+      "real_installs": 2083247,
+      "genre": "Travel & Local",
+      "shots": [
+        "https://play-lh.googleusercontent.com/TTloLK7YfgHHTbiyBw5FILqHphJzfxOZecGUWQ4S3k2R-LeZlkpab9P5WCSZSeII4ImmEFr1Vv_q_IyBC0Vmug",
+        "https://play-lh.googleusercontent.com/i_QMk0jupu3xuFgwfVc7JPPf-2yBBvJREJRcQmzJx6ALDw31bo4ZLXS5q9PHdCjyY9PKO6-bp3u8R75bnKx8elA",
+        "https://play-lh.googleusercontent.com/jTsHH6LLNTnCl9_UoBXYtL9Nb7-sfMrenBMny3TJn5EIDkOwVIavwVSdDoxwSarL_1KnkaV14PtbR2SkdJrClYA",
+        "https://play-lh.googleusercontent.com/Z3O7bHqVQfgq6Hn161lr0tpRbHkzEUMlH1TIGsRZZjNmpQREtaS61rkQRQoKbHjm8WAubCcApRZVtZKsatN2_cY"
+      ],
+      "regions": [
+        "tr",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Feb 1, 2017",
+      "url": "https://play.google.com/store/apps/details?id=com.peaklens.ar",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.ppnsports.ppn",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Performance Network",
+      "icon": "https://play-lh.googleusercontent.com/T_KudL_mnArsTftaZw98JdJhxIJo3weqzWGpJp-I5cKIXZx65rslR9tWtixtCkhZfdFej8IvrfkAfvShLpbcTA",
+      "installs": "1,000+",
+      "real_installs": 1798,
+      "genre": "Sports",
+      "shots": [
+        "https://play-lh.googleusercontent.com/uXYOHlnHjTpAHdzNWZDHmkqc7IGAWvCJxqDFrqLQFHdv30xfcFM1h4552oBFiFRGv3lQSexa2C8jVubW5j4l",
+        "https://play-lh.googleusercontent.com/EZDJu03ie4x1yjEZBvltUi9k8cVPGrHSD6pJrgPcF8JfnJqxmr49XkyMRGhajOlAvg-S1zeYI7cePrKEkvm4Jg",
+        "https://play-lh.googleusercontent.com/vxM_MU27E1Nb6G8orf-kbRqicULExsRXdJpA_5dsNRO6rf55e9171gpzcK3uHNiIDH1x1vfPBHqxqppRu3Ag",
+        "https://play-lh.googleusercontent.com/UcPA8QvHXzrIyeqyhk_wFyUlIrv9A63S2Pcbw6tSibIpjskB8UKrkOquCL7Gqn2mBK59WsDVxpHk19FtumcH-A"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 31, 2018",
+      "url": "https://play.google.com/store/apps/details?id=com.ppnsports.ppn",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "ai.peakiq.app",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak IQ",
+      "icon": "https://play-lh.googleusercontent.com/dnevqEbIrxsCUM7INk2oubGBPLqdGDkvQfyPbxk5Kf25t9WR19-y4HVZ1t8ay9rXjbHqfK-DKbsWL4hZ145sgtk",
+      "installs": "1,000+",
+      "real_installs": 1034,
+      "genre": "Health & Fitness",
+      "shots": [
+        "https://play-lh.googleusercontent.com/tulSnUYIpMLfDt539_9ogCI9IOMO9O41g_usjPejiQT6sDmjCU28-6GB_cpqe-7PjbLbB0ivBYLhwohpGRVuER0",
+        "https://play-lh.googleusercontent.com/0RU4mGXUfzc2BRxXqFvoEo_0jTigDfZgPR1oB5MEiG9Gsny8OrsBON7rz9iCHoYVJBRog7-bTSsbtL5fg6ewQg",
+        "https://play-lh.googleusercontent.com/Y49lVe-jvO1v6CbEX_qRrPYMGI8rn_p_VJkm4sYYUAUOaPBwUqg9IxTqkh0NzD9nd-Uu8DaPu9vQbZjWlAmctQ",
+        "https://play-lh.googleusercontent.com/w5pMJJACYamDVzfq5HJ8WBdYOSWix96Dauu8SmAAfJMszbjXMd22Zc64QRQQeCsEK9QFS7Uqx7W8-z51F4Ga5A"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$95.99 - R$779.99 per item",
+      "release_date": "Oct 16, 2025",
+      "url": "https://play.google.com/store/apps/details?id=ai.peakiq.app",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peak_betting_tips",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak Betting Tips",
+      "icon": "https://play-lh.googleusercontent.com/GMqBJ8CnVls7mZODSe_MCN68HibLlOiRWyt-Dk1BbUu8qu-nyw5QKuaE87a_UlyZkR6RFZdbSKXtkj5dRvku7Q",
+      "installs": "50,000+",
+      "real_installs": 80883,
+      "genre": "Sports",
+      "shots": [
+        "https://play-lh.googleusercontent.com/gCErnBHg_PG5WfNzuhU1moHJoOSHZcl6iI9kIUCawI8nb-A_wCgPGa9fMtrIr3BBp8TnY1BXp4zGoQanu4OpxHk",
+        "https://play-lh.googleusercontent.com/lMyim5cF8YpUVqrZHjcELQcfAkfkIum0WhfVd5ma3D83b5muAuIj-VYQVVfCnISs8K3c6G_r3_asTqqAo4uWdw",
+        "https://play-lh.googleusercontent.com/lUYj6CFpI8VsR-44xTNKD0F8MklLr9siL9a2_4waONaNvFKVmFGBXKqJj5BMqWKefDkXHca3MCH42tjT-78B0vI",
+        "https://play-lh.googleusercontent.com/hmGXKaAD2YVpGp5fVXT6svVCmkJEk7E7uGz7kihqk98hE9ixU1j_VWZP4kiviWFQOIrqmVT00TKQguL3JYFMmeA"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 1.000 - Rp 2.290.000 per item",
+      "release_date": "Nov 6, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.peak_betting_tips",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gamebrain.piesort",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Cake Sort Puzzle 3D",
+      "icon": "https://play-lh.googleusercontent.com/hc6Wf6xIiurzNReo1G92X5jF93tG2JIcnVA7BRgwARx603W2sNHoEOTP7dq6sTuyvG32gPxXCFcZvb69n9Ij7A",
+      "installs": "1,000,000+",
+      "real_installs": 2524774,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/iOavGC82MXBsbWHnmTI0Q-zu87OZLt6kW9B9lbMCV_EIxccLNxayOSUR-w_kNJvXNw6Y-fyW0O578r6xSpuM6cY",
+        "https://play-lh.googleusercontent.com/VRYNiMF4MNJQT3TUHl5XysUN-XMxJ2-i1lRR7oe6EPUgW5zBmw69V8zpsqiMqfd6OCgXNnMc8a49tY2veHvH",
+        "https://play-lh.googleusercontent.com/02nzfIwnj8_lCK38QK5J2Ds4Jf5z7j2OS2GWcQqm1aPVAIMQR4lZfVRpH5b8xSseMUXmMe1KIvp20bF7da8x",
+        "https://play-lh.googleusercontent.com/ARyi_C6qu7S_wBZWTTA4xpe2Cr3gKANrHsEXLni5Yheqpemasjwb1IqpoEV21UxUEPXJZk4mJoaJIRiXwYmY5Q"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.29 - $134.99 per item",
+      "release_date": "Jul 2, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.gamebrain.piesort",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.game.goolny.stickers",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Merge Sticker Playbook 2D",
+      "icon": "https://play-lh.googleusercontent.com/LKbqX3e4anfPkEylR-tkKjwD8w4JRKZOxM4xfT-Acf-ZWMyATs2vpcD7tfdBn36gkJ6khDrPGFQ5gri7_URQP5U",
+      "installs": "1,000,000+",
+      "real_installs": 3756845,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/uPpKZ5VrBQmrOc79Xp1IpbXzbZaFqAezn7SA0r218StoR_TEKKNOEjEGEC1CuI6C7l-19KIClrrWyt71U926UA",
+        "https://play-lh.googleusercontent.com/fO9ShQ86rZo3INj2hg9dZCgfIC8Mn9rnJupxnL7eVDvMQoq3WfRje2jrVnx5Ek42_o6FOhK3FPim2kfSwU8Wmw",
+        "https://play-lh.googleusercontent.com/fTAX3s21bPzYizZ7rSxpAv-BnIiK68yI8eOENfF2RqtUSVCnjXyiv-kbTnJB4f5-xl7jCxG9MYZeRjqHuDL22w",
+        "https://play-lh.googleusercontent.com/N6EBaa5j-XC371KqwnyA4yDG7uaiJHDid51kQL_MCk0XUs-SmqpHhtAVA58rl0uOypt9IkBmyIwbYGZPFVD9Jg"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.89 - £134.99 if billed through Play",
+      "release_date": "Jan 22, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.game.goolny.stickers",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "tile.games.master.match.triple.puzzle.game.free",
+      "developer": "Guru Puzzle Game",
+      "platform": "Android",
+      "name": "Triple Match Game: Tile Burst®",
+      "icon": "https://play-lh.googleusercontent.com/6ayTnv7oEozuEE27D-mhiMTTU0vQ__qMGICBerEIzaQKSxLy3ZhRGDY44Bxky3kJJIlFRDVInAXg4co_QzaXZQ",
+      "installs": "1,000,000+",
+      "real_installs": 1169266,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/K_WFY9Qsm5RmzYsYKzV-zO9N0j04g0ylJNQluZCVyUMR1jdBC7w2vJ9_bQMvQld23vZBEtSn3SQIuSwMxpMK3w",
+        "https://play-lh.googleusercontent.com/Jn0Hm-Wq7x8KvNW3P5mce_YqxeQuALF4pGuBCWY0G7JTgld9ZyvNrGzLB3rEFOaMwpz_87Idke6CsLQhIVPT-9Y",
+        "https://play-lh.googleusercontent.com/YRnc28R-A8_wVbICSX6c4tk-_NqsvbajHYXH0GW6bWkrwVK4N8gDk8hD00wnWxdVR-2DKkkiIB0rfa2yGX4U",
+        "https://play-lh.googleusercontent.com/HekBYcrrJ36qwnYRStw6OGrBNiPElbTYwNHcKvcObPbNFlFPuSGaMDfqy7CNInips7XyqZvMwLYudjnAAoBIxA"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "ph",
+        "au",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.29 - $129.99 per item",
+      "release_date": "Apr 7, 2024",
+      "url": "https://play.google.com/store/apps/details?id=tile.games.master.match.triple.puzzle.game.free",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Chodun.CatGunner",
+      "developer": "TREEPLLA",
+      "platform": "Android",
+      "name": "Idle Cat Gunner: Shooter RPG",
+      "icon": "https://play-lh.googleusercontent.com/n-EqijO8FzcXGndQGsc_KWGYnFpF9Hd0sxlq813qhcmRtG9ZFbptOIXuaK3OnlzmKE0zfxxChlyMM_cc_2SW",
+      "installs": "500,000+",
+      "real_installs": 628238,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/hbwgLP2xmUdqPGEreb974pwBmMjS36i4uysuiGASd1BQNpexhrDH4qKA48u9zhd0O-8A7lL6bsSo5siwp3dxcg",
+        "https://play-lh.googleusercontent.com/v6wX_P7Hcl8BAwvQ0mXJhC28FwTaKpgaEQquvxO89EuQGIp6rdKf1JbuSsR6EKe76kL1SfEiStFXl1cCltuB",
+        "https://play-lh.googleusercontent.com/eNpFa2veGyjmw3HJLZ6npEaLVgrOPjWUl1CTFWEvJZqL9fBvd1q1vGqVuEjq7agNcgVwLvlaGgDA1Yu3PJUB-Q",
+        "https://play-lh.googleusercontent.com/_D8EPDL8k7H2wt3Oi6guAbkpu6-YgtrSVO2JmEv3kgYccfs0o0_8SkYli6xqVtP71-Xi7WJxhDJiQSKLUyDk4Q"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $68.99 per item",
+      "release_date": "Apr 18, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.nep.tr.hybrid.catbusjam",
+      "developer": "TREEPLLA",
+      "platform": "Android",
+      "name": "Seat The Cat! - Logic Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/2Uytsle1m5g86DVrYz0XQGPKcwIdbPv0Xe8wqBQWT51GWLoT8ZQmKBb16uO3JRbe37vElzPrAMytSVzXTKjFX4Y",
+      "installs": "500+",
+      "real_installs": 911,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/dDYZ6Eqjv_aOV-Pm_41NMoH-sZO_0RnMf9uVe7Bdp1NBzmsmDJUqGYhCo22KAAjh7setlAMDoRsWbJrmRuNTHlE",
+        "https://play-lh.googleusercontent.com/mLtjAcg97j7njnhIfZU6lUZ1uDj_F_Ani-gS4FNhRzwjut_Jjr6-qGsoPheTUADtNwoBMyTqIkgkbQ4J_5vNYpA",
+        "https://play-lh.googleusercontent.com/l-fFLVQtCpA1Z0qb-T-iNm4PSEUvG6Su24ZNJrFng26sztp6YRfGaicTqAlCPCRTxk_Nw-bhx9i6yccG1mtv8g",
+        "https://play-lh.googleusercontent.com/x6yhnKO_ISyUT06DOD-yVEX47wNeS4HuJIsT361Iy_3QZ-QS_Cv4BlU4HtzO0VvVtLWLx1RPRV47-6utqON4"
+      ],
+      "regions": [
+        "tr",
+        "au",
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 8.79 - TRY 959.99 per item",
+      "release_date": "Jul 24, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.nep.tr.hybrid.catbusjam",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.flow.blast.pixel.puzzle.out",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Flow Blast: Pixel Puzzle Out",
+      "icon": "https://play-lh.googleusercontent.com/x1heuSk4lYA75iJmHp_plmBuIZOrTXb5DFol5VNiizLoBy9qD5_IG4fg7WZuD35dJ8r5_f-M8vfR9jdua4mq",
+      "installs": "10,000+",
+      "real_installs": 18331,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/NVgwt6-3HCWaeJuwSiVqi-Q9Br_SuN-H6E0PzweTTOLRa3nXcVpKJ3CYYa_FyGHOfNa2mmbkufUUKNQSB3dMQw",
+        "https://play-lh.googleusercontent.com/7a6vx0bftyeJb7W6ECy8WcY8QefaOQTbwbtPt_5g6T8I_RojHwvS---RUPz2jsoKHj0o2vwCtmGJ8FqCEp-KEWo",
+        "https://play-lh.googleusercontent.com/Vf9jldjVSJ4MQ5TSoxR4he0-dtDGEh_ob3lncIVJXr-BHyDDh7V_6tlx5W1gXAaJm8ey9sD-jxAwbUCXuMfratA",
+        "https://play-lh.googleusercontent.com/rpV1_hOyNzCEqXSZ-aIe_hd--CpRmn9H_AVyXUTQFI54TgXaQvYWIYOrO3QbddVd580y_fRLhTxviLuaq5DY"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "ph",
+        "au",
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.79 - $139.99 per item",
+      "release_date": "Aug 3, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.flow.blast.pixel.puzzle.out",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.sort.water.magic.plant.puzzle",
+      "developer": "Sonat Global",
+      "platform": "Android",
+      "name": "Magic Bloom: Sort Water",
+      "icon": "https://play-lh.googleusercontent.com/_MTyEy6M9BoWyy6y55kPGDjOHb71nxtEkUT8cRn4fqjLjtWBvKLmhTPdreX6ndMAE-FFaXzrhmOm8QhWNlGt",
+      "installs": "100,000+",
+      "real_installs": 159363,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/WkoVBwcs_Au3Xa_Pcs64EsN-G7qEAM4W5GGVpnlClITRfBH40BtrTcrj8RGcbFpwbwBhFirHh3vhfvHLMeo4",
+        "https://play-lh.googleusercontent.com/yCYzsLeCnPMf2IXbbnEY7jNcJiZxGXbj0XyUYU09xpl29wGShSxJq0dH4UmuSoMJj-_1c0TmM7PRVdn3KA--",
+        "https://play-lh.googleusercontent.com/FtHJNN_XxdWa-DU2W6rNRYJKz4_1_J8DEj3PypLOF8ykhxwf7eGxjXzslNrx4ZgTMICGH3l7SA0HqQKmU_ERLA",
+        "https://play-lh.googleusercontent.com/6EvgeypjyIWUR2argF09Ke3TnwjbjEJEnA58m13mYKF2vsbIbQzGH4wyIkhAJEbF_U_77btT23FylaafG0W1MA"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$11.99 - R$589.99 per item",
+      "release_date": null,
+      "url": "https://play.google.com/store/apps/details?id=com.sort.water.magic.plant.puzzle",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.BlissGames.Juego23",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Web Hero",
+      "icon": "https://play-lh.googleusercontent.com/tI-SFAK1vzQXcOBd2FWDCc08viROKlroV9ewjHe6Fgz9bduBDTImGRA4zCXyG8H3qDuggcVo3SbNpAYINXWsjWw",
+      "installs": "10,000,000+",
+      "real_installs": 23400998,
+      "genre": "Adventure",
+      "shots": [
+        "https://play-lh.googleusercontent.com/l1-bC3e-zRz2d3QmBKOyq8A6lfNIvO_XycdCqZYCooiujKOjY2wGJNYRyhGAhck21rDWNj1icWwK1Le0l5_2y4c",
+        "https://play-lh.googleusercontent.com/f0l-mK7-Mistkq-dc1JPq41gm0J021cyOwxbX1Pxf75QVo_6hqBDTrmfsOBBkIWzi7RLruV66MTuDUMPEd0i",
+        "https://play-lh.googleusercontent.com/H3J5S2r_U9gTTNiQf_-LYAA3lmB0kDJ63G-2VgEts02klSOJCqWAkat2eBM8dQeiQRszlqn1L-Yi3hxyp1pMOXI",
+        "https://play-lh.googleusercontent.com/XQtZl2RRCZgb5UpkPo80hw8-T_6g-uiaZOgdlmX1cE0BCsm4496CvnCrYCi2AAQactIho2DTnXQ6wvBFKafNIGU"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$4.39 per item",
+      "release_date": "Aug 27, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.BlissGames.Juego23",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.Lightneer.BazookaBoy",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Bazooka Boy",
+      "icon": "https://play-lh.googleusercontent.com/dLMdI8TEXVmwvZoH6eBCLV8eM24ORT8dnWqzLEGb9CQ0o-A9Kl7GxjK3AwlYiPDzkipzSHaNdaZv8P9bcsIplw",
+      "installs": "100,000,000+",
+      "real_installs": 140060545,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/dBqp6eojnhj5ovNNKtSu6wTF0zYNjTY3_e6q3RqOEcRhqcUJ0p-qlau66Egaq6sYygqeaI5xkC_sm3lF28oUKw",
+        "https://play-lh.googleusercontent.com/OYESe9FPREOKCa1eYOT6u8myHr6-JpwZ8Z-NKuS5ZtVBWMfo7Cks3rv5Ca52lcEXEV-2ucUtkI1QUv2iv0MwWQ",
+        "https://play-lh.googleusercontent.com/1e1bPOloM8Dq4szmZ_eVk7Wgcr746HvwcMki0MGqakt78n-EyhTRKURSGni61N5hAHNgI1Tel9q9Eoa2PA58V04",
+        "https://play-lh.googleusercontent.com/KtorBwn5YG9lDtjonQ8_t1aS8f0z0SyD3ktHP01vlYhBG1U-KQYBU0kSGIY_nTYtlTsss0hjFNT1tfNaa7NX6A"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$3.89 - $10.99 per item",
+      "release_date": "Oct 7, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.Lightneer.BazookaBoy",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.JaddZayed.GuessTheDrawing",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Guess The Drawing",
+      "icon": "https://play-lh.googleusercontent.com/B7ghVHEkToqFlnmzda9sayCjJuIImwI1VLlEBiTJceHxpLlnH_4DxP7UNSOdDPxcbrSyegF05UVU8tgQmDKfafg",
+      "installs": "10,000,000+",
+      "real_installs": 11435942,
+      "genre": "Trivia",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ndFgySAgoAi95FYBOj788vUcQs2rbask_xzgdh-id7wKD_3ykAznoGEmA_GTRgd5GFA--iFSs-6TbgL8x96Oww",
+        "https://play-lh.googleusercontent.com/bxbPs2KNYFedDCdWX_ZonargYtwN3o3hXHkFWjWjoU9vQ03GAvzUa2eefckXHGkn0Qcrgeu9SiAe2somqHI1",
+        "https://play-lh.googleusercontent.com/RC2ZDfJC8nsVT5Jv1Mw45KfPxSwFAYQb8d5k3flgyPPQDDgi0bGi3LXfq3E6Vzwc3Hf3z_JbyaHShMYx0hXenw",
+        "https://play-lh.googleusercontent.com/NmuNgCWnjzl6srunxRHOkHvxEdJfj9x71hscDiJDJaRfY_iLFZ2lwr53Wu42TdeQqrkImUYEM2HGfQi_EI18QA"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.99 per item",
+      "release_date": "Jan 7, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.JaddZayed.GuessTheDrawing",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.funcell.hyperhostess",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Hyper Hostess",
+      "icon": "https://play-lh.googleusercontent.com/uLrZRU569ZAsdZbsRl70mMT_kW23Uy9yON09Nttp225RWONcCVvVFJgWFjQNee011nd4jiYSPXISNkyjsHLGvw",
+      "installs": "10,000,000+",
+      "real_installs": 10455930,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/pA0kY7w8T4p4rK904_irnVyWtW_6j4799PTlqIORLn21BjtdX2dEb9qAszfiiIuTQv2TnsnNsNBpV-bUb_UvrA",
+        "https://play-lh.googleusercontent.com/-tWu0v0c8sqndgIZuV4m9vcvg8rqH5vEZRsONWraANJCMHpX1PYwzLoWE191xY6IyksWvQi7vo0YgL5hlGaD",
+        "https://play-lh.googleusercontent.com/M7N72gTe8fpbSTHKAGv3LqxPuj5BnKdYJc2GypI8ox7znHYxuPUGy0FiVds9gM5Dj11lv3T8EtjRZkah_6I_",
+        "https://play-lh.googleusercontent.com/fyxZMqMkkJLYKAJKozwRFQS_jwkkJxEBK-7-MVlaleTaxK3TRa1GYBGAeSyDlz_WH4OgnmIDqltvEX7KaPXzH1o"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$2.99 - $9.99 per item",
+      "release_date": "Mar 25, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.funcell.hyperhostess",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.noorgames.basketbattle",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Basket Battle",
+      "icon": "https://play-lh.googleusercontent.com/bH9zmX8N05oYkAhTdLv8mfP1cF8N_F_7DxKrnQDKF2ccZVvQwSH8CFDpIxbX8SEbsJped_0f5w0dEwbXCK8Tkg",
+      "installs": "50,000,000+",
+      "real_installs": 67562391,
+      "genre": "Sports",
+      "shots": [
+        "https://play-lh.googleusercontent.com/uzAwNOGeUFjVpE9kyJvDawcIaFyPZ3SnXa9Xt_vXh1f8oyQCVxNRpTQE2SciFbKHNAVLN9EcIEzSI_eNc3rfMrQ",
+        "https://play-lh.googleusercontent.com/bra7wgR6yyK-RNFpTEVBLzwP6R4kBl4WLo69KoTbqf3eg3roHWngvrRizfzbFIO413lII8vwBY87yBSqYYJCrA",
+        "https://play-lh.googleusercontent.com/WmfktJ8kqBThcynJFezyQTwN9Az75QmQ0iFelTSoe-nquE7BHZ0sKWfI2A7acs-HNGjzL__1NByZHP4ywx_84w",
+        "https://play-lh.googleusercontent.com/OWOnxN7nqhU4TwmXX0J70EDdDaz-B_632Mlu8Xx1TgcM74Dr2wMVrv1i8DGrUzeYcUHXalXKOmZkm35LsQnz2Q"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.19 - $8.99 per item",
+      "release_date": "May 30, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.noorgames.basketbattle",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.game.sortit3d",
+      "developer": "Supersonic",
+      "platform": "Android",
+      "name": "Sort It 3D",
+      "icon": "https://play-lh.googleusercontent.com/Ghs7Pdcnpphx3rNWeHfd55fT68tgNGXXB6lmCc1VZd3fuDcic_cox_Y5H2PaDJdKo4yFawNdiIbG5EGJGuYCwbM",
+      "installs": "10,000,000+",
+      "real_installs": 25686305,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Vl8IleTqefl_qrt_3FUy3_LZeQAF7ipIz40bS6_VOSfsxHu-Y4Z4M_SmZJqxDEPlDApxrTXW_091E1v2duPotw",
+        "https://play-lh.googleusercontent.com/mSY52kI8J_8hEEleWdonj20lTOIG5QuaQAHD6_T4Kym7aR1X0CdAYFNmOsTHAJM5PxAblY1TUTLZ1ePX-Fkk",
+        "https://play-lh.googleusercontent.com/iP2UxXIi-VM9bbeJzWQ35UcOHlv5SPrhRdMeez78DLHMCZ__fenr63E4IgVWNPdg-PZFu4N-s06jotG8oOLSkJE",
+        "https://play-lh.googleusercontent.com/xehMT8CRgnYC1iIXEMk4Ml9LcDGdSAuoUxImgGhkbnje0IgAq7XjwqfxRxTIy4Z_jH2A5ke4hIgyjW27eM3JJtE"
+      ],
+      "regions": [
+        "ca",
+        "id",
+        "gb",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.59 - $6.49 per item",
+      "release_date": "Jan 16, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.game.sortit3d",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.crazylabs.neon.light.maze",
+      "developer": "Crazy Labs",
+      "platform": "Android",
+      "name": "Neon On!",
+      "icon": "https://play-lh.googleusercontent.com/DflVMoytmEQFoFFUYIjjBcnUsXHvI5XpnrqObTTWfffSytfcxyV6A75yHqZ2ZSVxa9i_-zi_Bssyv7kyWiV3",
+      "installs": "10,000,000+",
+      "real_installs": 14348377,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/eK0ptTQKZNi1lH6oA4cGaer9lPPGN50Ib_RoFxg_dJkL4KZFqhzM9WUKUuSR4YXqZ0az-qi9E4QFYovgPdNoGg",
+        "https://play-lh.googleusercontent.com/GNpJQaypN0PNrHIIDhZHZ46_lsx25dUalqcOtkm2q97jSg7O6z78S7ppafRMHgKgwG_-hVQw4VmnemHXzb9FuCQ",
+        "https://play-lh.googleusercontent.com/fa0waLq1J4WHBNe2oeWO-O9XILBXYzlF0cTzUL47PP-WExntZIGWVVlLCnCSUgJn1PCjc3fa_kEFryf7P-o0Aw",
+        "https://play-lh.googleusercontent.com/Q9x86GStlMjrQoGpCERYSwhojcfoksLP-HuGOEt99D08PtgRSvJy3NL11vmP-2UV0oGOkmJRik7QSkWVoso"
+      ],
+      "regions": [
+        "id",
+        "gb",
+        "tr",
+        "ph",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 16.000 - Rp 169.000 per item",
+      "release_date": "Jul 9, 2020",
+      "url": "https://play.google.com/store/apps/details?id=com.crazylabs.neon.light.maze",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.creativestarsgames.bombevolution",
+      "developer": "Crazy Labs",
+      "platform": "Android",
+      "name": "Evolving Bombs!",
+      "icon": "https://play-lh.googleusercontent.com/pzwR1I0SSmiBYiA2tms8Q3JzfDxIZt9KjBc7orjPfJqoZo6EWcTYnOSxbSwme9jPQ9SPwwFNzglfIBSOUmsW8g",
+      "installs": "10,000,000+",
+      "real_installs": 19932654,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/HOhVuoUU_Kcr6x9RP7YTxogU41M4I3zcaNApkYhgJ7wnloS7G-8Urr3CMpFuZtmEPR8BjuLEdofRLokMp3TnRg",
+        "https://play-lh.googleusercontent.com/VT1mNs5yXbRhXw1kfhnunZNNRYgKv89Z7PhGVjCH_SdDiFt1hrvYHKqwibyLuDqVrdXWgEFLDQj4JZP3Wa5L",
+        "https://play-lh.googleusercontent.com/8TUFaE3BvnzwUw4hlSUvjRW7oXWx1e-5DLnv4JN-LBztAukRFqnxpHbYQ6qV64vBw35rnXfZbhTpBPBvjTZHpHE",
+        "https://play-lh.googleusercontent.com/cyDBTCcbRkaRh0_6HhN0pxzRA1l8-d9nYrV7RyhKwzP7YHwUN4aUfe5Z3h_Uqod2wglgXadYQocSGur-89X8FA"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 16.000 - Rp 690.000 per item",
+      "release_date": "May 27, 2023",
+      "url": "https://play.google.com/store/apps/details?id=com.creativestarsgames.bombevolution",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.busjam",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Bus Jam: Traffic Trouble",
+      "icon": "https://play-lh.googleusercontent.com/UaPCW20qg1Ffx5xHzuUIVWG6SlMWeARi779KZCcncCR6m98P4qoXril3GWUfmqvQ_7IMDfEJKAW7GyH86A5I0Q",
+      "installs": "50,000+",
+      "real_installs": 52154,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/H71S8Xeqa2_si-bOiIBifgzP265wDmU-SmpMXXK5td192w68EjTCMqrEFZewh_Xu_hmoYAEuPK9PnP33_T1_7hM",
+        "https://play-lh.googleusercontent.com/VkMHwnO6FnCEvZJNjPGdSGHzEiKyIvrIjjDezlyyRPzyD_dCpcs2xixsgn593zohjBeYFcHLoqwO2LqyI2Oe",
+        "https://play-lh.googleusercontent.com/4iIYetZOrOYX6yJLL50y9nDvwNPZxC51F7WE0yxRCJ0OaLNKMWD7ErDKfCdw34rIJgWv6p7waL3aUb0ZTvWefQ",
+        "https://play-lh.googleusercontent.com/a0l_Srrefw_DAwRHW1rEa5fDF1bZCQ_bu6C6jVif32beIZ8PGXmIQuO8uMYgIO12Y7o7x_P4Ur7aY3Am235HfQ"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 4, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.busjam",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.mealdash",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Meal Dash",
+      "icon": "https://play-lh.googleusercontent.com/M95iJPLAdISmbWUqaT3eiqODWJStQn3hXoLRZ0R-dZRfA5oMLnNqyvpCeJLvg3XGoDKUgiibFlWvArWsa2wr",
+      "installs": "100+",
+      "real_installs": 392,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/iXOpgdUmM2kemHgUz0Dp4hb1x7oAzI4NnZVzaYlIeo7lvhz7CT3UozX9F2lQakDcB2PC3H9GjYSP4N4MGFE8",
+        "https://play-lh.googleusercontent.com/Smt4YAuIpc_0r_12dII0rQsOEbZHbe4OxXeKj6BPACuOP7Klm4PM-ON4inexZ3i0fC1UUuvYhNBi8aSuM4QUz5M",
+        "https://play-lh.googleusercontent.com/j3QZWzdOiNY4AvdUIiCyGycydczetdfem_DmHXoCiYsvqjUwdHrRmRoiYBtoflwxDFYAcS3U00abRC1vXUE3GKc",
+        "https://play-lh.googleusercontent.com/burFWC9_-noXD-020AVsc_zIQBpQdoSA6Cil8WRaYe-Y_9cEjEKxj0QV8jgy-6cckJF5-_ox_IzC5u4NkYamOg"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 3, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.mealdash",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.hexadrop",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "Hexa Drop",
+      "icon": "https://play-lh.googleusercontent.com/D5PwYLncqRZNTmA_yRsq5rqHUaoUQaOwBzWeBpFKct86h2cVsyWW109wYNIFftMvNXDSLJsK4brPgw8Dg6K3xw",
+      "installs": "5,000+",
+      "real_installs": 8017,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/hZZY8DYvZmqyvdmGIM7Gly6S50h3wNcXRfkFmFUP3H1lg0W7eYXgcZDGjzTmpfbsQKorgQIOkMv0t1dmWXptFQ",
+        "https://play-lh.googleusercontent.com/MDU3p3e8rwVsvBJ-iiFiinL72yIhUogsQN2g4SvrXCGn6IHq7dHfSqegB5hE4kkO7vOL6irPKlGxyhPXlI4Z5A",
+        "https://play-lh.googleusercontent.com/YDY3vFNiWSCe0i3e_9I0ApUJJsGbbddGtdtPiF7pVh742doGGfsMVeLrEeGTDxD5MyXqn1OrDUt6KPtKxvNdTw",
+        "https://play-lh.googleusercontent.com/1EnPew4DSAdvcPvpHDifvSQqdIUQTfG1OQQiHBE2gVO02qVc_D1ZiOY9lg9TKHkLNd9wTFi3xW96HKGHDylqKQ"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "May 10, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.hexadrop",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.gimica.oneline",
+      "developer": "Gimica",
+      "platform": "Android",
+      "name": "One Line",
+      "icon": "https://play-lh.googleusercontent.com/DwPxvDGcN3Ej1uixPwJ5_7aaazI2VTEYauxbsCEKlNvNy_wnLtbwxWlk7ftjbZYSIBBLcngEOvLq4IFsL_e4Vg",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ixoJr_0ZUe09EiycMDMni3xlwrP5XFyWRM-G1xBy2-PDXphrVVXLtw5LLOhi6YGWPCXi6fud2vPC9zhDZjY3HQ",
+        "https://play-lh.googleusercontent.com/F1k2rofGrtZubPSkofU-fGoz2Lcb2CfEPl0nDj7spj6RiF8yj3FsE3qa86yjB2MekSPZTQszfyd2MHxyw6tt5w",
+        "https://play-lh.googleusercontent.com/fYraN9R1wfIzj5jvuS_BandeHQ3UpY6WabFtyNq5VU0nu1hXoMeLf6f9XLDK2ccT-g30D3iKy1P0h0fSyIu8CA"
+      ],
+      "regions": [
+        "tr"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 13, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.gimica.oneline",
+      "found_date": "2026-08-21"
+    },
+    {
+      "app_id": "io.supercent.mosquito",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Mosquito.io",
+      "icon": "https://play-lh.googleusercontent.com/nBTgoOXhLyhXrZoKRWdz5wYIyABIleSk5E05D5-XTEoca46LfVLnZA79Sbpk9no2azZUeTNc1VVDMD5re7yv_g",
+      "installs": "10,000,000+",
+      "real_installs": 47691989,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/LUKAARqz5Boyv7bRNIcn_QoSxMGlR1JIQ3YWvra1NAAP5-WqVlDU750FuPKue_LJc-F5kQ3HpuwYPD05TwPo",
+        "https://play-lh.googleusercontent.com/Gxfygg7zG8q91bVkb48YCsp28XgGV1bt5i3xQK0bMmmCowr5OOvvW7_Lg-ywNKwxVkKxjFGd5_GhRnR8asoMoZU",
+        "https://play-lh.googleusercontent.com/yaHGDDieVbzvGnCXwsC355BTQX-rSGCwVufQ-p5MIqnEdOmS9DlX-POoe_p34nvETC4hp5ikfHkNX3stQTmVXA",
+        "https://play-lh.googleusercontent.com/1XUK7w9DAnkjSE8z4gi_Ze_9JP3eym3SmoioDWWWvc2MJOHJwE6NsS7bvcabPEn5TopaVfqivd3IGdQIw00X9g"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "id",
+        "tr",
+        "ph",
+        "au",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$5.49 per item",
+      "release_date": "Feb 2, 2023",
+      "url": "https://play.google.com/store/apps/details?id=io.supercent.mosquito",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.spellbindgames.doomsquad",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Rush Attack",
+      "icon": "https://play-lh.googleusercontent.com/lxs2mRqyTBBESUz8yzGx32zuc0SByD5mmUmun5gzKSWlcX70XEzYblIqStNO0qsnHFzDWwjZvKcaebDWVj5j5w",
+      "installs": "1,000+",
+      "real_installs": 4970,
+      "genre": "Action",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lv4DR4xTfINUoGHaAe386cJmgwD-UyFL2Rt4tqvacsMNet3mmeO_M2D_2v0zHaacTo6HmXZ29x_kJZpVyeaPZHc",
+        "https://play-lh.googleusercontent.com/PidOjuowAcpPkPpnRR6zCzwRLsi1_xIfsk9jK-Fpxw_KEbSa54YX4EUhmgM6e6vf3NwDeEUetUmIDYut8KvXQQ",
+        "https://play-lh.googleusercontent.com/6lDJdPCdZxN94A0Hpdh1mwescEMeMLUnvFBnfU1-l3r97OF73NzwaDxgrY3AJvLnMmfRTj2getwvBCT2EKLZrUw",
+        "https://play-lh.googleusercontent.com/WQRrl7CfYJMxPPTp7UBwoZGMIZ6-U3Rp5sMOLpONPO94U6GO6XMUqHbucWbFLvE-PwWS1Hu_LSSrljfDd_4UYw"
+      ],
+      "regions": [
+        "ca",
+        "vn",
+        "tr",
+        "ph",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.49 - $139.99 per item",
+      "release_date": "Aug 18, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.spellbindgames.doomsquad",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "dasi.prs2.lumberchopper",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Idle Lumber Chopper Empire Inc",
+      "icon": "https://play-lh.googleusercontent.com/ZmE5rBXmf5jUZmJ1MnqxTk6Ad4gnJeFrAjnW51wO4t8Bbq2UwC5Xx9ztHSXRaYu6Ld3-WUAhbGA3Rh1vWybaAw",
+      "installs": "10,000,000+",
+      "real_installs": 47445460,
+      "genre": "Simulation",
+      "shots": [
+        "https://play-lh.googleusercontent.com/mud5qqt3NOH6fMLXdgUpzeWBIDXpXWHTK5l4-ssVBBLNDdRekG8_gjyTORdSsjUmmW99fqfdZnBmqMPb5Ubi",
+        "https://play-lh.googleusercontent.com/8x9j6B-cK7rS7zk0GZQiVJwsaUFcl-aEqgp04JtmID8JRt1bXqQCcWWXprjT2fz3TUjcJLVvUWHq629FmuKm_MA",
+        "https://play-lh.googleusercontent.com/Y6gQ9p9IH-tsm_1NgH7ZG-UElspSncmN1oML3oRy4M3c84nUhPOnEX8tK-lkTUjiIoVA5NN4m04lPLSHuvNLQrU",
+        "https://play-lh.googleusercontent.com/AkIA1TtbH3p_0z-SP8XfdjOTo2g0ZONnsRMHHR6Fty-iXAKh_yFRxpA3BDqmAYrQxuQAGR8Z71aVwqRGWapzAw8"
+      ],
+      "regions": [
+        "vn",
+        "gb",
+        "id",
+        "tr",
+        "ph",
+        "mx",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫53,000 - ₫1,300,000 per item",
+      "release_date": "Sep 10, 2024",
+      "url": "https://play.google.com/store/apps/details?id=dasi.prs2.lumberchopper",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.mining.realmtycoon",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Goldvale Mines",
+      "icon": "https://play-lh.googleusercontent.com/rQfWLwiHuoTftjvxlXtflX3fM9jQUoz3J-77Pe-LhpNUn-IvLDicLay8OvYi0xKmXIGeFzOY18vxiI_UFzQM",
+      "installs": "10,000+",
+      "real_installs": 16095,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/-xmrbED2uwM_qXK2zNCpdKGrqB5ZXL52a3gMbhpQShieCQHJdGuOj2FPIzEov0m2TRL5X-nH5KUMTc6TNANcgg",
+        "https://play-lh.googleusercontent.com/KmjJEE9u3Xk4fgO_FlkKUVPiOc1LB_-Yw6pFNFNwCdYEuBGFA0Zxs5G_4WLg0ouDpyx63ZeF2WBRqbp7E2FC",
+        "https://play-lh.googleusercontent.com/d6h1cBgb3FtIm1y2H3pBOZmJdsQqzYuwDnByDXYeeA_6fuOcR50C1f9DKt7zMYf5iNLzGeZpxTpBS_mQnFTsWg",
+        "https://play-lh.googleusercontent.com/kP9A3RdBgBi9XA0rxvrJ-j3iXi2mwriHIg-hRXnt0R1pHt3EaQb0jjTgQ3k0MDID1Ej7xqO8oSpc9JYeH-POMw"
+      ],
+      "regions": [
+        "tr",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "TRY 109.99 - TRY 2,749.99 per item",
+      "release_date": "Aug 6, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mining.realmtycoon",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.base.commander",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Base Commander",
+      "icon": "https://play-lh.googleusercontent.com/jPfpjQEzOXhuzR-oOj5SYQR2ql4Snp_GXXVIU22YwRNOuZb85FDX2hBMKamfml1wYTns7EweicK_kxtASNVIWA",
+      "installs": "10,000,000+",
+      "real_installs": 11165151,
+      "genre": "Arcade",
+      "shots": [
+        "https://play-lh.googleusercontent.com/lzm904Q4ZzeNJEYTBHFLpmGyTBVFKQaRqY1bkAGr1aTahevn0JaGJmSlUPr3vtSzqCVGULgh8Dto42gsKNrp",
+        "https://play-lh.googleusercontent.com/Ay6VfPA9Q71Co8O56_iM-fnJ2bm06l-LWzAz2S9TcR0Lh84HX9q8Ithr2RdZ8v1VPcxkZEh-eDNZESmmJ0wJQg",
+        "https://play-lh.googleusercontent.com/uGHy-vW1arL0VorIdP641UnIeszqH9VA4jT8S64Ot-DGjHGAF98uxDKXO5PU51UE6-oPMJCCEdEwjBDIl89lnA",
+        "https://play-lh.googleusercontent.com/TZif-QA44w2Ugr8CbNHoARK-eMlvtnkRFh8XkQZoA3x8lZNiE8UPZ6Fu7SAw2q0G8Jz_5vgkpfShUwEC4wxREg"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫176,000 per item",
+      "release_date": "Nov 9, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.base.commander",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.hungrystudio.blockeffect",
+      "developer": "Hungry Studio",
+      "platform": "Android",
+      "name": "Block Blast Effect",
+      "icon": "https://play-lh.googleusercontent.com/KLCO3_EVOYPMahjiod0_8JjLWQvpGYxhqve27VRWfNh5l1QuN0WrcX2l2Po2kGqRDW9-fnPlvt-6I1P3q_bw",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/aGvQEeAxKYIcX6gZ4gNj-wxO7DBcB0kPMEUwpqS-So3JipEgm-ww5udWIBOQDWGc9N6ntzPX6TFsAh5Yikhbaoo",
+        "https://play-lh.googleusercontent.com/-jEA15Kj6LgIspKeWbKIJiV-XNH0diVv96SpZz0k_1NsrVILDdxj24MgaObPYZzwQCecQCI2iXO8VwTlW4_H",
+        "https://play-lh.googleusercontent.com/8yYdqpvF1eIGVV0WWvIyFcV11-pQ4nudpF03peYY0iTFfZpfSzAegd8knAx6lfOBa2vZccQx8gdJPC3Cm1Ti8Q",
+        "https://play-lh.googleusercontent.com/o-wTGWdGXdIdrQQZq7daUM1x5rUUJj5npUsMUd8yMmTKXuCZd1V-_TQP4HKvONZ0ZHQoTgcn-9qwcCmv3kZj"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "id",
+        "tr",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 20, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.hungrystudio.blockeffect",
+      "found_date": "2026-08-21"
+    },
+    {
+      "app_id": "com.mobsmile.trapfortress",
+      "developer": "Venturesis",
+      "platform": "Android",
+      "name": "Trap Fortress",
+      "icon": "https://play-lh.googleusercontent.com/fQI_OWlKD7ExuNCy1YnGrvXpvbRaIYy_3LqsxrphollElmt16CmvI1fxNIFrNTbCOFmG3tVN4RQGp043MS4nYg",
+      "installs": "1,000+",
+      "real_installs": 1394,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/h7VL4f73fBpnwfLED1VG-2x_Z35crp-CbMNOju7-kICV6kcvgVdD1p1wLZnbDnM7OINijIaOBP_tIoC9Y2AeTw",
+        "https://play-lh.googleusercontent.com/Nd9AnZEq6-YVB9t6HmSSqTt2-AYHznZIud87y7xfdyb5iacaFSU9ojzVlQSrrj24vQv858RQt-TMdCCDdlrpuQ",
+        "https://play-lh.googleusercontent.com/NKUavB6NUAWqS1ohPtYHAn-t-w5E-E81Jpc1t3fqJVknWRs6neN8Ek6XtQCTPaTQ_-OfcqBy1lpzb7IRRuNHEw",
+        "https://play-lh.googleusercontent.com/shEN4iXwqerm3jIRBZn6TctPZCNku85rVyK4vAkiMk7c__XNf3H8CKM-LX-2fJnTrECyMIXyFicgiwIB3_-fOA"
+      ],
+      "regions": [
+        "ca",
+        "gb",
+        "vn",
+        "id",
+        "ph",
+        "au",
+        "mx",
+        "us",
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.39 - $62.99 per item",
+      "release_date": "May 1, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.mobsmile.trapfortress",
+      "found_date": "2026-08-21",
+      "velocity": 0
+    },
     {
       "app_id": "6775516932",
       "developer": "Tripledot",
