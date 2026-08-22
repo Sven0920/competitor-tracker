@@ -1,6 +1,176 @@
 {
-  "updated_at": "2026-08-21 10:34",
+  "updated_at": "2026-08-22 10:24",
   "games": [
+    {
+      "app_id": "6782852881",
+      "developer": "Brave HK",
+      "platform": "iOS",
+      "name": "Fruit & Truck Puzzle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/75/19/3175190e-4bee-fa98-0eb9-be19705c8c2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/8a/54/d38a5409-85ce-383e-4f08-9d017c5eaf6f/1284x2778_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/23/3d/4d233d69-d610-a5fb-ba48-ce5851fea3b8/1284x2778_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/88/ae/7688ae1e-9da9-4639-d135-ca4554e7467f/1284x2778_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/81/b7/a681b769-9a57-df64-bf80-58b706a2e6f2/1284x2778_7.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "279.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-21",
+      "url": "https://apps.apple.com/id/app/fruit-truck-puzzle/id6782852881?uo=4",
+      "found_date": "2026-08-22"
+    },
+    {
+      "app_id": "6793949299",
+      "developer": "Nebula Studio",
+      "platform": "iOS",
+      "name": "Splash Buster",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/6a/5b/f76a5b7f-93b1-ff6d-3169-8cb3d408e470/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/5e/ec/8b5eec90-712a-5290-43a2-acf71a64dc85/iPhone__U5c4f_U5e55_U622a_U56fe_1320x2868_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/39/a0/7939a027-7bb8-4d00-6311-e9421dacbac7/iPhone__U5c4f_U5e55_U622a_U56fe_1320x2868_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/08/c3/ac08c3bb-b38c-c5ce-b846-41648159ba9f/iPhone__U5c4f_U5e55_U622a_U56fe_1320x2868_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/a2/94/77a29462-cc58-374a-b598-04f39308590f/iPhone__U5c4f_U5e55_U622a_U56fe_1320x2868_4.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "gb",
+        "tr"
+      ],
+      "size": "183.4 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-21",
+      "url": "https://apps.apple.com/gb/app/splash-buster/id6793949299?uo=4",
+      "found_date": "2026-08-22"
+    },
+    {
+      "app_id": "com.GameWorthy.HexTakeover",
+      "developer": "Voodoo",
+      "platform": "Android",
+      "name": "Hex Takeover",
+      "icon": "https://play-lh.googleusercontent.com/EnqhfzomJ2ZvCe7iyUXaui_DsHzzCUFl4fIbzs8qCN3WlvYmZKBuRMM-RmsVVh8REQTDD8elQDOTDrFoKEuIcg",
+      "installs": "1,000,000+",
+      "real_installs": 1157444,
+      "genre": "Strategy",
+      "shots": [
+        "https://play-lh.googleusercontent.com/FDdr81t_Au0O8-jU1Wl-zfepeYoSw9hiM6nPd-n1rmP0I3ISyTSYxI7ycKT4ApLS0pw8ldWLVYH2F-10VndBXQ",
+        "https://play-lh.googleusercontent.com/Vt_R7NRNiZilPwOasHJ8AEWKxM1jG8xG4eGZtRMebHLd4MahYU_ZtOnK9aVrukUh-vL7HCo6bC2nEI8pcQXnqg",
+        "https://play-lh.googleusercontent.com/2ZPG3h9TIjArtMi2JLjk_uMJ0MeOTce__Wi4cxjVvs824Lqy3UdpCw3XJsoWcEqvSmFxW7frHRX0vmlL_I6Q9w",
+        "https://play-lh.googleusercontent.com/AUd6MjL3heryEOR9DHeEFh-JXB-Co9A4zeaNQmUcT0iRlY2bJaWRsI1R1lG3rvKeGRObJV5BrCaDjnFTPwZZ"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$5.50 - R$539.99 per item",
+      "release_date": "Sep 7, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.GameWorthy.HexTakeover",
+      "found_date": "2026-08-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.peakandski.app",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak&ski",
+      "icon": "https://play-lh.googleusercontent.com/_vGJd99_C9Qki5DrzqxLOGF2s7jqTLI5Ijg0i3Onn4ZBhwaKEL2hb__saDlL_pIgah8wL-Zm9AIzNG0PFQM9_Q",
+      "installs": "1+",
+      "real_installs": 1,
+      "genre": "Travel & Local",
+      "shots": [
+        "https://play-lh.googleusercontent.com/a-96bYlkDnzWV7fvhILtMnIwkp3sYlsWgG_G3KceOS59bfCLYoKQQp_rskb7x6TDakLwKsNm60-O-pU4E9np2w",
+        "https://play-lh.googleusercontent.com/hnf_KCKw2JgYW1czKCy3UpvJUg1DcJdT6qptnVDSyLuXtaSwQQYsk_OWkBMjPzwapwYTAEg2snjRJXbj_70d",
+        "https://play-lh.googleusercontent.com/F0ktung0HIJuieVMlsOpsIFBzURB_NljM2xLwMvRFd2SNsCUCHb3y_pUHm4ce6IGOCeKUgKjV9dgR7fLq6qppw",
+        "https://play-lh.googleusercontent.com/t94QjXhyfF99SZi5nlqhSBwra7tvNOsGnku439SQ2OzA0oIFbE51t1ysFrnnconeA5G1kwNANbYWDpY8Uueveg"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 20, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.peakandski.app",
+      "found_date": "2026-08-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.iptv.peakiptv.player",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Peak IPTV Player",
+      "icon": "https://play-lh.googleusercontent.com/8QohB12UZHrpk3kSNj3sITYovM5Py8elzw1swri5zZrq1-a3yC7V89VEh_pt6lTZw3x8e-zgZ-gjzJIK9JRsSg",
+      "installs": "5,000+",
+      "real_installs": 5771,
+      "genre": "Video Players & Editors",
+      "shots": [
+        "https://play-lh.googleusercontent.com/BmLVW7YYqjPVOQGpXgZxwu7p_i5jqKCsIKjISsN0wEk3nFkn3pUl0a5znDYzGxabQ50epZnWiGU2dmp5iDTY6w",
+        "https://play-lh.googleusercontent.com/0RLGV7dsNxFRaS2Eo7AbG9EragQxeJj3uctvQVSJK-cWMLZ6vAXOrwC5ZDPTsexFWKtsp_vrzlLzFc0WM0dX"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jan 23, 2024",
+      "url": "https://play.google.com/store/apps/details?id=com.iptv.peakiptv.player",
+      "found_date": "2026-08-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "merge.town",
+      "developer": "Lion Studios Plus",
+      "platform": "Android",
+      "name": "Riverside Merge",
+      "icon": "https://play-lh.googleusercontent.com/KGwtIyPNcaQUjJ-AS1YeI5spni0W6eXGvSjkCsCoKXC1Gb37nsMnBj2icM69ZZ0PVJum_n1AE10lNqdshStmIQ",
+      "installs": "1,000,000+",
+      "real_installs": 1237309,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/_Iw3hHnOZcL8UinPvwiwzQnSe0MElYOPfnfhiGtl5kSpyf_LQnNCRR3ZjbX-JaxnqMGcsQ1wcOjbGhUvTxAaLEU",
+        "https://play-lh.googleusercontent.com/l2yzAHekeh9CBtku72xOidFFUdCResRBmjqbToiv5ZR7Hj3i17LDgLlKwkpEY22Ol-KQKCm04ZlLpLkCy2hXfA",
+        "https://play-lh.googleusercontent.com/LG2u7Th1LgWqfpIgFRuttWBpQ9_vUhpxzzNqW6ZgEX13-jFTBDCXWbYupcA3W5bg1PBEIZnG-rEOtBua-RgiMw",
+        "https://play-lh.googleusercontent.com/UR60Hm0xOPE_kKWfdm1QPW2HafIoq6YrOOHwzQLhkb6asSXgWiNDY3zbSS1CiSwwc7KVILfmjPadOgB-eI5j"
+      ],
+      "regions": [
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $149.00 per item",
+      "release_date": "Oct 5, 2021",
+      "url": "https://play.google.com/store/apps/details?id=merge.town",
+      "found_date": "2026-08-22",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.seaside.secrets.merge.puzzle",
+      "developer": "Supercent",
+      "platform": "Android",
+      "name": "Seaside Secrets: Merge & Story",
+      "icon": "https://play-lh.googleusercontent.com/FcUgD6Unx09pfb5lRTpgVb5FE3374nbOwIUW0QnCGPJNdfzm9rYHgfv8xQXgxMd0osfWmgMBTxom7aiDQt5OzQ",
+      "installs": "5,000+",
+      "real_installs": 7930,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/YVaZx0l1X4LoX2Qop4SpK1XWPUGSFwRBGo62-C0Gg8F1irNHc7BJqmtZweESidZ3VNv2w2K1XsRU4cORwYw3n68",
+        "https://play-lh.googleusercontent.com/Dqd9HdOJN6GxwNEzYpWd_J9zV750qaLMbMWHePzGtemonr0Ir_fIcdCt1P9yh_YqcweSshTyiYxS1wLnK8iD",
+        "https://play-lh.googleusercontent.com/ZppFKvcLjEaLfLNzsLT5EQc48iniHP9W-Rlf_n9pOvXu8ZL39TVG04dmzO76sjpbryHVAbFfw7O4tBQE0giFCA",
+        "https://play-lh.googleusercontent.com/smJKjsAglM7MTBmTnsAtX9XidquUMvoDEgSIDiDizs7kAcrSdAO2NXaBfgCNN9fkjUFS1JtF7LEKNMG3MdW4iQ"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$0.99 - $99.99 per item",
+      "release_date": "Apr 24, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.seaside.secrets.merge.puzzle",
+      "found_date": "2026-08-22",
+      "velocity": 0
+    },
     {
       "app_id": "6782176604",
       "developer": "Rollic",

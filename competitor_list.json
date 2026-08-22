@@ -12558,7 +12558,7 @@
         ]
     },
     "null": {
-        "name": "Tile Explorer - Triple Match",
+        "name": "Goods 3D Sorting: Match Games",
         "regions": [
             "ph"
         ]
@@ -28751,12 +28751,6 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Goods 3D Sorting: Match Games",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.Chodun.CatGunner": {
         "name": "Idle Cat Gunner: Shooter RPG",
         "regions": [
@@ -28978,6 +28972,49 @@
             "mx",
             "us",
             "br"
+        ]
+    },
+    "6782852881": {
+        "name": "Fruit & Truck Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "6793949299": {
+        "name": "Splash Buster",
+        "regions": [
+            "gb",
+            "tr"
+        ]
+    },
+    "com.GameWorthy.HexTakeover": {
+        "name": "Hex Takeover",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.peakandski.app": {
+        "name": "Peak&ski",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.iptv.peakiptv.player": {
+        "name": "Peak IPTV Player",
+        "regions": [
+            "br"
+        ]
+    },
+    "merge.town": {
+        "name": "Riverside Merge",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.seaside.secrets.merge.puzzle": {
+        "name": "Seaside Secrets: Merge & Story",
+        "regions": [
+            "us"
         ]
     }
 }
