@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-22 10:24",
+  "updated_at": "2026-08-23 10:33",
   "games": [
+    {
+      "app_id": "jp.co.goodroid.hyper.snakeflow",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Snakes & Cannons",
+      "icon": "https://play-lh.googleusercontent.com/qfBOwhExh5cNJ23LBz6Du8vMpnLXa6hhQ3Y_ZVnl7vh2ivh-gP2dYT3GJxG_ga8pYBr6MC-aF2Z8mPNi8FSh",
+      "installs": "100+",
+      "real_installs": 182,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/ZyAQ7YiZ2kn2kypIABGRtSFbHb0ogG2uOQej5-_bB5is8qsSesAfRn9C_X34BGAYBORh8sgxUI7YYTgAW_GH",
+        "https://play-lh.googleusercontent.com/xBrf6ruRY2n09I9CfuIwC3ihFTH6ac_K-8nPoeKomxVwXzolAGfGlcXR4xCVLBsVAngunkhwqSmoENI8AhFirQ",
+        "https://play-lh.googleusercontent.com/VPFCVByWYGYYq77jWTjYTw0M6-c8tq8SYE3YijTTH0_QCiSXSFZKDjhle-MvN3_m-LxYY2WJMUx_mTLMzfgEVA",
+        "https://play-lh.googleusercontent.com/ZyAQ7YiZ2kn2kypIABGRtSFbHb0ogG2uOQej5-_bB5is8qsSesAfRn9C_X34BGAYBORh8sgxUI7YYTgAW_GH"
+      ],
+      "regions": [
+        "gb"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Feb 19, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.snakeflow",
+      "found_date": "2026-08-23",
+      "velocity": 0
+    },
     {
       "app_id": "6782852881",
       "developer": "Brave HK",
