@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-23 10:33",
+  "updated_at": "2026-08-24 10:32",
   "games": [
+    {
+      "app_id": "com.peak.auctions",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "PEAK Auto Portal",
+      "icon": "https://play-lh.googleusercontent.com/p_lKPvUHrnSoiNO1kcT-gDQzPagyFcQDlnNyG1CAlMprUY783CeZdIP6s8GCzDph8WQ23jObo8V2jiztePVJdQ",
+      "installs": "5,000+",
+      "real_installs": 7188,
+      "genre": "Auto & Vehicles",
+      "shots": [
+        "https://play-lh.googleusercontent.com/fC1323I7cfXQJqcdy7aLpM8VScrO6Kr0KLyoyqslSBM894TssAO0KTX7EXI9GNannLlbQPKBpnM9b8EvKmuB",
+        "https://play-lh.googleusercontent.com/ktsMwG06V9wY771y_Pqt720F-1ZKdUBrOAlWp6h_eB5GJ2ytiFrmGu4DyRa_UXP8xGCUeqnJp2D54MBJVNI2cHo",
+        "https://play-lh.googleusercontent.com/UsA8LhesBQVDB6tO9o8yjdicq2NnoT-96fooOOwrkT_v_2f-0li2lSUei5jHrVij7OHCRbFXqlw6-JKnUSZaCBU",
+        "https://play-lh.googleusercontent.com/i9BJXksxeG7O-eYqeA1K2hjnmvvmP3iDSwKJ9gwAo5iToyjiXH-rWklHGkJROJMRSn69U_GZt_OFHyfqkDylDA"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Aug 26, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.peak.auctions",
+      "found_date": "2026-08-24",
+      "velocity": 0
+    },
     {
       "app_id": "jp.co.goodroid.hyper.snakeflow",
       "developer": "GOODROID",
