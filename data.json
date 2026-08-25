@@ -1,6 +1,140 @@
 {
-  "updated_at": "2026-08-24 10:32",
+  "updated_at": "2026-08-25 10:27",
   "games": [
+    {
+      "app_id": "6800369442",
+      "developer": "Combo",
+      "platform": "iOS",
+      "name": "Cluedoku!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/f1/15/7bf115af-32c7-0138-666a-98481a2f0806/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/92/9f/9d929f9e-9d7c-e40b-e334-d6bb4241d499/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/bd/f1/75bdf1dd-e8bc-2a27-f942-93d985aba725/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/2e/56/a62e5634-624c-0df2-c492-c03af1214a45/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/fe/b2/4ffeb26f-a89a-09ca-0cb6-81c52a9f660a/1.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "mx",
+        "ca",
+        "au",
+        "us",
+        "br",
+        "gb",
+        "ph"
+      ],
+      "size": "258.3 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-24",
+      "url": "https://apps.apple.com/us/app/cluedoku/id6800369442?uo=4",
+      "found_date": "2026-08-25"
+    },
+    {
+      "app_id": "6768996622",
+      "developer": "Gimica",
+      "platform": "iOS",
+      "name": "Fruit Merge Drop",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/d6/a4/02d6a470-ac71-bcf1-174e-6dbabd98f55d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/b4/88/82b488b6-0655-85b5-5ca0-81d7f6a232e0/1260-x-2736-Screenshot-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/cd/26/b7cd2657-c6c0-841f-b4d3-0be1a5feadef/1260-x-2736-Screenshot-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/51/4d/c1514d0f-0d74-fb71-446f-fb1ed70b521c/1260-x-2736-Screenshot-3.png/320x480bb.jpg"
+      ],
+      "regions": [
+        "tr",
+        "mx",
+        "ca",
+        "au",
+        "us",
+        "vn",
+        "gb",
+        "ph"
+      ],
+      "size": "308.5 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-24",
+      "url": "https://apps.apple.com/us/app/fruit-merge-drop/id6768996622?uo=4",
+      "found_date": "2026-08-25"
+    },
+    {
+      "app_id": "com.popicorns.homary",
+      "developer": "HOMA",
+      "platform": "Android",
+      "name": "Homary",
+      "icon": "https://play-lh.googleusercontent.com/FgNq4uI_rgrm5_btMDTvuD7J8xMcJMXZtQmQ5YO3DxGchHx_Uq5M_W5bS4VnirmuYglGZo_4quOrtXbL-Lv1",
+      "installs": "100,000+",
+      "real_installs": 109209,
+      "genre": "House & Home",
+      "shots": [
+        "https://play-lh.googleusercontent.com/pnqn89PaztMtGVwwbqfv9fVmVTmFCFIrk0rgU-hEnbvtVTXpNGL9Whf8jeo0c_lW-TbvoOPjuOKqF-wOKSrW",
+        "https://play-lh.googleusercontent.com/lTxxJy2iBMTyD1owjvxYHl0YANPyKqzSqUfckbSx387XHPYmbd_zcIBUlnyONtfi2pxnBAyQ91oa7_PAM8h2xA",
+        "https://play-lh.googleusercontent.com/d1udcc0UCrCLfptD3NPr5Kf2hwu1Bs-xXYn38qllHQ4F89amBIVuZhrwSolcIYDXx6SIKU6Skomv3sdknNkNQA",
+        "https://play-lh.googleusercontent.com/hVilm_vMJbkqT7GVVJ4aiUxHN9TW5j3AKeewEcr63rtwcuJas40Y1IobD1ygeXUmY8ZdIirtQjVr_-nAo3riqw"
+      ],
+      "regions": [
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Sep 1, 2021",
+      "url": "https://play.google.com/store/apps/details?id=com.popicorns.homary",
+      "found_date": "2026-08-25",
+      "velocity": 0
+    },
+    {
+      "app_id": "and.brainworks.dragon3d",
+      "developer": "LIHUHU",
+      "platform": "Android",
+      "name": "Dragon Eats All",
+      "icon": "https://play-lh.googleusercontent.com/v7GhQdLAF8qWTspDVFGGBE7NGTpc6ZdFOUhHy9gMFjLYcQiDSmEkXOD40p2kpo1-NBoUQq4cGAO2kRQnjB7Q",
+      "installs": "0+",
+      "real_installs": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/rWPF8nU_chBsE-KZsfjbmyNHm9Zfibfzh_3Li9JudZ2bmxKdUTi2BpHoGwvLmvIVr73GjO0K7b0TqwyGq8mFPg",
+        "https://play-lh.googleusercontent.com/Z-Jghvt6vwrgUy0RFoFZH7MPfXyYcg5JassRsCWgVRuu6Z3BNVbAsyS0qfo7ddmbk4vqCX1yPuTsTwAjXjqX",
+        "https://play-lh.googleusercontent.com/xE-cxl83qNrw4QRG8-JHGVFwDo0vIfIpBp0QLSZlN9B7_G09X2pMeUbEFxy5PdkNLVQOtgYNYvYrHttFQjdN8g",
+        "https://play-lh.googleusercontent.com/g4jSqFo6Ji4C_uIiGTmCHxMehoE63FXHTf3QGMVn42YYPOhIvlGrladuVwurgfbGOPumljbH3Lt_oa7KgoGCRw"
+      ],
+      "regions": [
+        "vn"
+      ],
+      "size": "因设备而异",
+      "iap_info": "₫26,000 - ₫2,600,000 per item",
+      "release_date": "Aug 22, 2026",
+      "url": "https://play.google.com/store/apps/details?id=and.brainworks.dragon3d",
+      "found_date": "2026-08-25"
+    },
+    {
+      "app_id": "com.combo.knockout",
+      "developer": "Combo",
+      "platform": "Android",
+      "name": "Knock Out",
+      "icon": "https://play-lh.googleusercontent.com/znXwhixoLeAfAyQe3-jisa-72IsfkP1UG0wTDZrGadNHWPlsoXjOj8ZP_5J5tHUMQPAu5Tg0ZB7qVZ1ZsBycLw",
+      "installs": "500,000+",
+      "real_installs": 701707,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/O7RPPuE2853J1-BI0m36lLG8s_DmkZaGSJN1A-YVPOXRcwkvazdx0eDlFTl1iKpnOzdiV-KbpmatPXD7X6g2jV4",
+        "https://play-lh.googleusercontent.com/2gKUdYS9qlW-2bneqTpzcrztoEhc6_IFFa5GgJqn7sweYFJvGD_VNBdv22RtcyEXkV8miMTJSwXMHvx-F6H6",
+        "https://play-lh.googleusercontent.com/sM9cFxDw1v92AGgx8XtFapLlKD6LJjtaACYOsK6AOD2UGJJW7SNpwUt41vAvcY29NvMPLhT29-PjEqzhgFJ3OA",
+        "https://play-lh.googleusercontent.com/OXBIFWu_dYOHUfmmBIExC3v6BpELnakONcHqkZq5GxMlailjgQfa0g1SXYCiFfEu36iwXnDe7vuoCSgPkiowyVk"
+      ],
+      "regions": [
+        "gb",
+        "au"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.89 - £109.99 if billed through Play",
+      "release_date": "Jun 30, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.combo.knockout",
+      "found_date": "2026-08-25",
+      "velocity": 0
+    },
     {
       "app_id": "com.peak.auctions",
       "developer": "Peak",

@@ -29029,6 +29029,51 @@
             "us"
         ]
     },
+    "6800369442": {
+        "name": "Cluedoku!",
+        "regions": [
+            "id",
+            "mx",
+            "ca",
+            "au",
+            "us",
+            "br",
+            "gb",
+            "ph"
+        ]
+    },
+    "6768996622": {
+        "name": "Fruit Merge Drop",
+        "regions": [
+            "tr",
+            "mx",
+            "ca",
+            "au",
+            "us",
+            "vn",
+            "gb",
+            "ph"
+        ]
+    },
+    "com.popicorns.homary": {
+        "name": "Homary",
+        "regions": [
+            "ca"
+        ]
+    },
+    "and.brainworks.dragon3d": {
+        "name": "Dragon Eats All",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.combo.knockout": {
+        "name": "Knock Out",
+        "regions": [
+            "gb",
+            "au"
+        ]
+    },
     "null": {
         "name": "Goods 3D Sorting: Match Games",
         "regions": [
