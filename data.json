@@ -1,6 +1,145 @@
 {
-  "updated_at": "2026-08-25 10:27",
+  "updated_at": "2026-08-26 10:34",
   "games": [
+    {
+      "app_id": "6802913072",
+      "developer": "OneSoft",
+      "platform": "iOS",
+      "name": "Anties!",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/12/3e/49123e71-d93f-420f-1489-433f84e4bcb1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Casual",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/aa/3a/96aa3a3a-eb7f-02d6-9f50-a593d61ef105/4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/54/bf/8254bf25-30db-663a-6221-935ed4397554/3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/1d/64/411d6406-30f4-6e0f-524c-e4196938e776/1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/84/7a/d2847a5e-a5a1-b743-f95b-4f11f168b669/6.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "ph",
+        "mx",
+        "au",
+        "br",
+        "tr",
+        "us",
+        "gb",
+        "ca"
+      ],
+      "size": "469.0 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-25",
+      "url": "https://apps.apple.com/us/app/anties/id6802913072?uo=4",
+      "found_date": "2026-08-26"
+    },
+    {
+      "app_id": "6785949594",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Kitty Pack: Cat Color Sort",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/16/76/38167664-b7d8-4824-afcc-1600b2f9c3e9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/55/5c/56555ca1-589e-02cf-e197-aa1758f3ce16/KP_ASO_0001_StartSet_s-1_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/a5/29/8da5293c-11ac-c067-06b2-06b287a8f9aa/KP_ASO_0001_StartSet_s-2_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/96/bf/0896bf79-5f70-2c2e-44bf-ebd43d248d9f/KP_ASO_0001_StartSet_s-3_l-en_1320x2868.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/db/a0/47dba02c-0c49-718d-7e49-c92f482615fa/KP_ASO_0001_StartSet_s-4_l-en_1320x2868.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "id",
+        "ph",
+        "mx",
+        "vn",
+        "au",
+        "br",
+        "tr",
+        "us",
+        "gb",
+        "ca"
+      ],
+      "size": "346.1 MB",
+      "iap_info": "支持内购",
+      "release_date": "2026-08-25",
+      "url": "https://apps.apple.com/us/app/kitty-pack-cat-color-sort/id6785949594?uo=4",
+      "found_date": "2026-08-26"
+    },
+    {
+      "app_id": "net.peakgames.lostjewels",
+      "developer": "Peak",
+      "platform": "Android",
+      "name": "Lost Jewels - Match 3 Puzzle",
+      "icon": "https://play-lh.googleusercontent.com/hIMIhpPsv6c6zKuu6vbqvmgsfNyMYf5mJ9Iir_fl_rAtojvbfSR7Su-i7MLYJMWByseiz0c8HuxPLWieNf8_htg",
+      "installs": "1,000,000+",
+      "real_installs": 3281277,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/h-lCFVxE6SxtLOaJL1537NUJ36GqMIfCTN_GeEVkp7-CVYSvacUODMEvLozf0d27ZW_fBQx6bj07394yXhKH",
+        "https://play-lh.googleusercontent.com/tghcNCgRFfm5YoCFZenRQkNcO3uSEi5In_aIqUZOarXfQ3uNRf6hKUkknwUMzf5n9Afgjz9NAKdNyAZHqwHB",
+        "https://play-lh.googleusercontent.com/s91r0jpHOYZ7U7lubaowd4T_eMM5B4cygZCv_TVrQxW8VBtZGvXnru9eALw4RiXwJy1gh4BNji7sOhDS4SYVWg",
+        "https://play-lh.googleusercontent.com/qjEt2rXLv7tArodR0A_9jruHwFrAhqlIA6RhisVQ8YmhFxMzeMutItYnEScIh4UcMIK3A73iovcysbcAwRHf"
+      ],
+      "regions": [
+        "br"
+      ],
+      "size": "因设备而异",
+      "iap_info": "R$4.99 - R$464.99 per item",
+      "release_date": "Oct 11, 2013",
+      "url": "https://play.google.com/store/apps/details?id=net.peakgames.lostjewels",
+      "found_date": "2026-08-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.pin.pull.out.puzzle",
+      "developer": "Mavericks",
+      "platform": "Android",
+      "name": "Pin Puzzle - Pull Pins Out",
+      "icon": "https://play-lh.googleusercontent.com/Q9ylrbEaXEmLcb5cFrNC811EY04Deh1sCSY-o9UHsrf2HhbRmr2lSkg9q0dBBnzGrCip5YH84kxoMxaNZrsh",
+      "installs": "1,000,000+",
+      "real_installs": 2088983,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/fiAo_eLhwU1aBSHaaUJZfjcGB44gFiWPZPmsx62_5jlxVet9DwfrhkYy08l0hdxZAL1pGpi_PSjh7hTp4q9k",
+        "https://play-lh.googleusercontent.com/1uZgyR3WfjubUj0DlveXy1prqdBYGjZ1BqV1EqJLLj-gwp78zNPB_YIod39kwV1NhO6ZV3f0H5zBMEMZPWiR",
+        "https://play-lh.googleusercontent.com/j8x0TNxGMSEVSmxNHzP577cbLwBl08zGfcRb99TlTxm2NcSylXDtMkgdW4LtEZazU2f-s0U2cnK59pZUJLF05g",
+        "https://play-lh.googleusercontent.com/9z2zLyx6zQ2Ruy5y3-OAwBGazrpGE_4w6sxK86RqQYzmVGPq_UHEoI-765DMmzIBL1hIgb6kK06FVnkphlZx8Ag"
+      ],
+      "regions": [
+        "gb",
+        "ca"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Sep 28, 2022",
+      "url": "https://play.google.com/store/apps/details?id=com.pin.pull.out.puzzle",
+      "found_date": "2026-08-26",
+      "velocity": 0
+    },
+    {
+      "app_id": "com.bluemango.blockjamgo.gp",
+      "developer": "UniRise",
+      "platform": "Android",
+      "name": "Block Nova",
+      "icon": "https://play-lh.googleusercontent.com/LQsbxL5OILRs1uSz6zFT1FS0UYIAqZKGzo0iK9wdawTbSSIkGioCbUgE44QzID6K21wKd87XUyPu_MDU9gQeFR8",
+      "installs": "100,000+",
+      "real_installs": 350205,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/z1hNPyHxEF2IcY5JTeWFcF09uK0n6-H5ekIDjt-yrD_JUEwwl3iZ8dldVo0fN-R6hYtswiKYzFM6RcIOVKUc",
+        "https://play-lh.googleusercontent.com/C2OlUrMe4DAX7N6FIzkCpqGDUJvlS30E97q67Ptj22XSQR13HYc4MJn8uTzzjmaFk7wXeF1edIFb0VKZ4TnMRMU",
+        "https://play-lh.googleusercontent.com/gPV9-V7fN5BFshB2XOMlFQiaYZhc9N93Sh4XMmXTc_ELt46wkv-2sWXgBMtKQJLBW86y71CGX6KN24KYjEpSfg",
+        "https://play-lh.googleusercontent.com/iXzu3dwy2AtbU7-0qos9lfyOZ7N7GWHva2keLNQYZNoaru6DgyCBmB8-y1--nycN-BhbVnIc4K9BCr7npFIR-w"
+      ],
+      "regions": [
+        "id"
+      ],
+      "size": "因设备而异",
+      "iap_info": "Rp 32.000 - Rp 339.000 per item",
+      "release_date": "Aug 22, 2025",
+      "url": "https://play.google.com/store/apps/details?id=com.bluemango.blockjamgo.gp",
+      "found_date": "2026-08-26",
+      "velocity": 0
+    },
     {
       "app_id": "6800369442",
       "developer": "Combo",

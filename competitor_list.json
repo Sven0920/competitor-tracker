@@ -29074,10 +29074,58 @@
             "au"
         ]
     },
+    "6802913072": {
+        "name": "Anties!",
+        "regions": [
+            "id",
+            "ph",
+            "mx",
+            "au",
+            "br",
+            "tr",
+            "us",
+            "gb",
+            "ca"
+        ]
+    },
+    "6785949594": {
+        "name": "Kitty Pack: Cat Color Sort",
+        "regions": [
+            "id",
+            "ph",
+            "mx",
+            "vn",
+            "au",
+            "br",
+            "tr",
+            "us",
+            "gb",
+            "ca"
+        ]
+    },
+    "net.peakgames.lostjewels": {
+        "name": "Lost Jewels - Match 3 Puzzle",
+        "regions": [
+            "br"
+        ]
+    },
     "null": {
         "name": "Goods 3D Sorting: Match Games",
         "regions": [
             "ph"
+        ]
+    },
+    "com.pin.pull.out.puzzle": {
+        "name": "Pin Puzzle - Pull Pins Out",
+        "regions": [
+            "gb",
+            "ca"
+        ]
+    },
+    "com.bluemango.blockjamgo.gp": {
+        "name": "Block Nova",
+        "regions": [
+            "id"
         ]
     }
 }
