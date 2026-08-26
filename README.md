@@ -6,7 +6,7 @@
 👉 https://sven0920.github.io/competitor-tracker/
 
 ## 工作原理
-- **GitHub Actions** 每天北京时间约 09:00 自动运行 `competitor_tracker.py`
+- **GitHub Actions** 每天北京时间约 10:00 自动运行 `competitor_tracker.py`
 - iOS 走 iTunes API，Android 走 google-play-scraper，和基准库 `competitor_list.json` 比对找出新游
 - 新发现写入 `data.json` 并自动 commit，`index.html` 读取后展示（保留最近 120 天）
 
