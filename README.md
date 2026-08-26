@@ -7,8 +7,10 @@
 
 ## 工作原理
 - **GitHub Actions** 每天北京时间约 10:00 自动运行 `competitor_tracker.py`；12:00 再备份跑一次（防 GitHub 定时偶发漏跑）
-- iOS 走 iTunes API，Android 走 google-play-scraper，和基准库 `competitor_list.json` 比对找出新游
+- iOS 走 iTunes API（`sort=recent&limit=200`），Android 走 google-play-scraper，和基准库 `competitor_list.json` 比对找出新游
+- 上架超过 180 天的旧作不会当新游推送，只补进基准库
 - 新发现写入 `data.json` 并自动 commit，`index.html` 读取后展示（保留最近 120 天）
+- 看板里的安卓 7 天增速会每天重新拉取装机量；发现新游时推飞书（需配置 `FEISHU_WEBHOOK`）
 
 ## 改监控名单
 编辑 `targets.csv`，三列：`Developer,Android,iOS`
