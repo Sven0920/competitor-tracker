@@ -137,27 +137,10 @@ function regionTag(regions){
     : '<span class="tag soft">🔥 Soft Launch</span>';
 }
 
-function render(){
-  const list = document.getElementById('list');
-  let rows = GAMES.filter(g =>
-    (filter.plat==="all"  || g.platform===filter.plat) &&
-    (filter.dev==="all"   || g.developer===filter.dev) &&
-    (filter.genre==="all" || (g.genre||"")===filter.genre) &&
-    (!filter.q || (g.name||"").toLowerCase().includes(filter.q))
-  );
-  document.getElementById('count').textContent = rows.length ? rows.length + " 款" : "";
-
-  if(!rows.length){
-    list.innerHTML = '<div class="empty">😴 没有符合条件的新游</div>';
-    return;
-  }
-
-  rows = rows.slice().sort(SORTERS[filter.sort] || SORTERS.found_desc);
-
-  list.innerHTML = rows.map(g => {
-    const hot = (g.velocity||0) >= HOT;
-    const shots = (g.shots||[]).filter(Boolean);
-    return `
+function gameCard(g){
+  const hot = (g.velocity||0) >= HOT;
+  const shots = (g.shots||[]).filter(Boolean);
+  return `
     <div class="game">
       ${g.icon
         ? `<img class="g-icon" src="${esc(g.icon)}" loading="lazy" alt="" onerror="this.outerHTML='<div class=&quot;g-icon ph&quot;>${g.platform==='iOS'?'🍎':'🤖'}</div>'">`
@@ -186,7 +169,39 @@ function render(){
         <div class="shots">${shots.map(s=>`<img loading="lazy" src="${esc(s)}" alt="">`).join('')}</div>` : ''}
       </div>
     </div>`;
-  }).join('');
+}
+
+function render(){
+  const list = document.getElementById('list');
+  let rows = GAMES.filter(g =>
+    (filter.plat==="all"  || g.platform===filter.plat) &&
+    (filter.dev==="all"   || g.developer===filter.dev) &&
+    (filter.genre==="all" || (g.genre||"")===filter.genre) &&
+    (!filter.q || (g.name||"").toLowerCase().includes(filter.q))
+  );
+  document.getElementById('count').textContent = rows.length ? rows.length + " 款" : "";
+
+  if(!rows.length){
+    list.innerHTML = '<div class="empty">😴 没有符合条件的新游</div>';
+    return;
+  }
+
+  rows = rows.slice().sort(SORTERS[filter.sort] || SORTERS.found_desc);
+
+  if(filter.sort === "found_desc"){
+    const groups = [];
+    let last = null;
+    for(const g of rows){
+      const d = g.found_date || "未知日期";
+      if(d !== last){ groups.push({d, items:[]}); last = d; }
+      groups[groups.length-1].items.push(g);
+    }
+    list.innerHTML = groups.map(gr =>
+      `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} 款</div>${gr.items.map(gameCard).join("")}</div>`
+    ).join("");
+  } else {
+    list.innerHTML = rows.map(gameCard).join("");
+  }
 }
 
 function buildDevOptions(){
