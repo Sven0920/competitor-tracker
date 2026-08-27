@@ -29109,12 +29109,6 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Goods 3D Sorting: Match Games",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.pin.pull.out.puzzle": {
         "name": "Pin Puzzle - Pull Pins Out",
         "regions": [
@@ -29126,6 +29120,8794 @@
         "name": "Block Nova",
         "regions": [
             "id"
+        ]
+    },
+    "1596246195": {
+        "name": "Green Island!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1595862086": {
+        "name": "Monster Wars 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1593869420": {
+        "name": "Zookemon",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1592085357": {
+        "name": "Symbiote Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1589793708": {
+        "name": "Investment Run - Invest Fast",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586624687": {
+        "name": "Dining Legend",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586422507": {
+        "name": "Monster Evolution!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579493620": {
+        "name": "Get Lucky: Pool Party!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1578923203": {
+        "name": "Mashup Hero: Superhero Games",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1574082485": {
+        "name": "Tape Thrower",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1572797307": {
+        "name": "Kaiju Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563700162": {
+        "name": "Farm Land: Farming Life Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563198303": {
+        "name": "Attack on Giants! Giant Slayer",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1556515742": {
+        "name": "Z Escape: Zombie Crowd Shooter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1555745434": {
+        "name": "Save the Town!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1552703591": {
+        "name": "Craft Island",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1546974858": {
+        "name": "Cube Blast Match 3: Toon & Toy",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1546634057": {
+        "name": "Voodoo Pranks",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1538524157": {
+        "name": "Prison Wreck: Destroy & Escape",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1537088062": {
+        "name": "Harvest It!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524917747": {
+        "name": "Guilty!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524551388": {
+        "name": "Demolding 3D Fun crafting game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1508278451": {
+        "name": "Draw Army!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1492810298": {
+        "name": "Epic Prankster: Hide and shoot",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1484476175": {
+        "name": "ASMR Breakfast",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1478579926": {
+        "name": "Sky Roller - Fun runner game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1474804524": {
+        "name": "Solitaire Mystery Card Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1469865853": {
+        "name": "Split Balls 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1469384479": {
+        "name": "Boost Jump!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1466582476": {
+        "name": "Combine It!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1453027569": {
+        "name": "Tower Color - Hit and crash!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1428351122": {
+        "name": "Ping.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1527708035": {
+        "name": "Cooking Sizzle: Master Chef",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1509419091": {
+        "name": "Car Parking : City Car Driving",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1495454611": {
+        "name": "Arcade Hunter: Sword and Gun",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1492870407": {
+        "name": "Car Stunts 3D - Sky Parkour",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1463514041": {
+        "name": "Attack the Block: Shoot'em Up",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1438835947": {
+        "name": "Metal Squad: Shooting Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6753945122": {
+        "name": "Bounce Defenders",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6464312887": {
+        "name": "Sword and Spin!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6463492243": {
+        "name": "Revolver Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6457264741": {
+        "name": "Bullet Inc",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6456413021": {
+        "name": "Merge the Jelly",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6451112874": {
+        "name": "Weapon Upgrade Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450673427": {
+        "name": "Punch Machine",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450513499": {
+        "name": "Number Gun!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450176534": {
+        "name": "Bus Jam",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450103712": {
+        "name": "Gun Clone",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6449256872": {
+        "name": "Vending Sort",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448446762": {
+        "name": "Car Care Inc.",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6447757125": {
+        "name": "Twisted Tangle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6446944494": {
+        "name": "Sword Melter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6446166101": {
+        "name": "Fashion Inc: Beauty Empire",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444926994": {
+        "name": "Merge Hooks",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444749834": {
+        "name": "Car Up!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444687282": {
+        "name": "Gear Clicker",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444528109": {
+        "name": "Balls'n Ropes",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444248934": {
+        "name": "Towing Squad",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443923477": {
+        "name": "Rope ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443657533": {
+        "name": "Spinner Clicker",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443587355": {
+        "name": "Spiro Art ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672925980": {
+        "name": "Weapon Craft Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1671182645": {
+        "name": "Knit Sort Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1668176193": {
+        "name": "Booster Up!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1667253521": {
+        "name": "Parking Order!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1662867587": {
+        "name": "Rich Click",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1662128796": {
+        "name": "Digi Merge",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1660464064": {
+        "name": "Engine Pistons ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1659293094": {
+        "name": "Pressure Washing Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1645710630": {
+        "name": "Tower Crusher!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1642907860": {
+        "name": "Softris",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1642873657": {
+        "name": "Pixel Demolish",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1642802010": {
+        "name": "Level Up Balls!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1641099309": {
+        "name": "Lifting Hero",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1641058310": {
+        "name": "Smash Runner!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1638066088": {
+        "name": "Marble ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1631334873": {
+        "name": "Bump Pop",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1630212034": {
+        "name": "Dyno Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1628006501": {
+        "name": "Base Defense!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1627022071": {
+        "name": "Punch Guys",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1626791314": {
+        "name": "Arcade Hole",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1625882059": {
+        "name": "Motoshow Idle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1624917988": {
+        "name": "House Renovation Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1623341356": {
+        "name": "Furnish Up",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1622538251": {
+        "name": "Car Lot Management!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1621294453": {
+        "name": "Colors Runners!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1618927173": {
+        "name": "Eat It Like",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1616491500": {
+        "name": "Gun Run!!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1615020509": {
+        "name": "Blob Hero",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1613908087": {
+        "name": "Crowd Evolution!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1613798130": {
+        "name": "Mayor Match",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1613146723": {
+        "name": "Class Trivia",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1612033317": {
+        "name": "Riddle Labs",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1610355554": {
+        "name": "Level Up Cars",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1605936806": {
+        "name": "Fill The Fridge!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1605775321": {
+        "name": "Shoot N Door",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1603094266": {
+        "name": "Moneyland",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1601985721": {
+        "name": "Makeup Kit",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1601831541": {
+        "name": "Swords Maker",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1601795415": {
+        "name": "Make Her Up!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1601511059": {
+        "name": "Gem Stack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1598618777": {
+        "name": "Plink Balls",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1597720573": {
+        "name": "I Want Pizza",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591921962": {
+        "name": "Coffee Stack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591407336": {
+        "name": "Couple Run!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1590216036": {
+        "name": "Disguise Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1589966947": {
+        "name": "Money Honey!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1589738688": {
+        "name": "Car MakeUp",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1588867216": {
+        "name": "They Are Coming!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586610800": {
+        "name": "Hand Evolution Runner",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586466780": {
+        "name": "Escapeline!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1585934395": {
+        "name": "Atm Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1584128916": {
+        "name": "Make Your Robot!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1581775226": {
+        "name": "Queue Jumping",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1580099513": {
+        "name": "Money Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579517157": {
+        "name": "Nail Stack!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1575181192": {
+        "name": "Dream Restaurant",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1573802043": {
+        "name": "Booster Gun",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1572249863": {
+        "name": "Collect Flag!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1571180098": {
+        "name": "Skate Up",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1569353501": {
+        "name": "Arrow Fest",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1565033144": {
+        "name": "Queen Bee!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1562313985": {
+        "name": "Text or Die",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1561724185": {
+        "name": "Makeover Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1560656677": {
+        "name": "Hair Challenge",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1559046720": {
+        "name": "Hand Strike",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "gb"
+        ]
+    },
+    "1558876979": {
+        "name": "You Go Girl!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1548284054": {
+        "name": "Hit Guys",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1546448536": {
+        "name": "Blob Runner 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1545306176": {
+        "name": "High Heels!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1542830753": {
+        "name": "Towing Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1540483509": {
+        "name": "Gun Simulator 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1539876612": {
+        "name": "Cannon Demolition",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1538238661": {
+        "name": "Gear Race 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1537444555": {
+        "name": "Oil Well Drilling",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1535642296": {
+        "name": "Construction Simulator 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1533657632": {
+        "name": "Fit and Squeeze",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1532769838": {
+        "name": "Joust Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1519029260": {
+        "name": "Cashier 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1516310792": {
+        "name": "Money Maker 3D - Print Cash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1514419720": {
+        "name": "Ninja Boy!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1512891619": {
+        "name": "Gold Rush 3D!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1512799121": {
+        "name": "Tangle Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1511913020": {
+        "name": "Repair My Car!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1508589901": {
+        "name": "Repair Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1507676488": {
+        "name": "Gun Gang",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1505805961": {
+        "name": "Baseball Heroes",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1503028915": {
+        "name": "Go Knots 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1502839598": {
+        "name": "Build Roads",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1500241679": {
+        "name": "Car Restoration 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1491206418": {
+        "name": "Wood Shop",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1484643036": {
+        "name": "World Cities Shooter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1484524707": {
+        "name": "Flipper Dunk",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1471353056": {
+        "name": "Overloaded!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1462317543": {
+        "name": "Picker 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1452111914": {
+        "name": "Dodgeball.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1448697848": {
+        "name": "Pixel Shot 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1387897651": {
+        "name": "Onnect – Pair Matching Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6474043641": {
+        "name": "Bag Fight",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6473058414": {
+        "name": "Voro: 100% unique puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6469621221": {
+        "name": "Cup Heroes",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6465749961": {
+        "name": "Melt and Fill",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6463730317": {
+        "name": "Stack 'em Up! Connect Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6463493974": {
+        "name": "Monster Survivors",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6458097001": {
+        "name": "Archery Clash!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6452276408": {
+        "name": "Final Survivor: Zombie Warfare",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6452011158": {
+        "name": "Mr Cactus",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450975412": {
+        "name": "Skyline Bowling",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450959113": {
+        "name": "Double drift",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450710358": {
+        "name": "Sand Blocks: Blast Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450046960": {
+        "name": "Walkers Attack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6449985619": {
+        "name": "Bubble Tower 3D!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6449642802": {
+        "name": "Sniper Siege: Defend & Destroy",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448869405": {
+        "name": "Pegher.io: Zombie Survivor",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448185657": {
+        "name": "Beach Volley Clash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6447845553": {
+        "name": "Cannon Attack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6447337525": {
+        "name": "Last Survivor - Zombie Shooter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6446653673": {
+        "name": "Twin Tennis",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6445807412": {
+        "name": "Combat Cruiser",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444696440": {
+        "name": "Heisting",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444265745": {
+        "name": "Infantry Attack: Battle 3D FPS",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443968137": {
+        "name": "The Nom",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443950122": {
+        "name": "Air Defence 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443941701": {
+        "name": "Shopping Quest",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443915404": {
+        "name": "War Plane Strike: Sky Combat",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6443563905": {
+        "name": "Fill Shikaku",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672762490": {
+        "name": "Airborne Attack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672368370": {
+        "name": "Gunship Operator 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672266297": {
+        "name": "Chain 3!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672011821": {
+        "name": "Royal Castle!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1669867448": {
+        "name": "Rage Swarm",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1661436928": {
+        "name": "Spin and Slice",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1660747099": {
+        "name": "Merge Art Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1659663529": {
+        "name": "Dusk WarZ",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1659387585": {
+        "name": "Water Power!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1659053906": {
+        "name": "Dolls Stack: Match & Stack!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1645318754": {
+        "name": "Dig This 2",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1640583531": {
+        "name": "Golf Guys",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1639517000": {
+        "name": "Ball Up: Knife Racing",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1630746129": {
+        "name": "Cube Crusher 3D!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1629854050": {
+        "name": "Card Battle!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1627676612": {
+        "name": "Net Fishing!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1626711231": {
+        "name": "Drone Strike Military War 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1624912779": {
+        "name": "Paper.io 4",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1621537270": {
+        "name": "Bubble Fall 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1621491214": {
+        "name": "Salt & Pepper, Don't mix em up",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1620356495": {
+        "name": "Stunt Rails",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1620329599": {
+        "name": "Blobsbuster",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1619979233": {
+        "name": "Bucket Crusher",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1618805694": {
+        "name": "Block Jam - 3D Block Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1616507714": {
+        "name": "Take Your Line",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1615819431": {
+        "name": "Merge Grabber",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1615768339": {
+        "name": "Puff Up",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1615721018": {
+        "name": "Draw & Break It!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1614980927": {
+        "name": "Double Money",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1614813337": {
+        "name": "Rope and Demolish",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1614461317": {
+        "name": "Sew 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1613730745": {
+        "name": "Flying Cut",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1611032629": {
+        "name": "Moneygun Run!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1609650776": {
+        "name": "Goo Fighter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1609056988": {
+        "name": "Outdo.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1608192527": {
+        "name": "Shapes Fit",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1606629699": {
+        "name": "Pinbo Quest",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1605163109": {
+        "name": "Childcare Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1604861021": {
+        "name": "Balls go High",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1601984093": {
+        "name": "Uboat Attack",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1597104322": {
+        "name": "Fashion Universe",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1595199218": {
+        "name": "Deliver It 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1594214988": {
+        "name": "Battery Run 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1594053860": {
+        "name": "Move House 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1592005326": {
+        "name": "Slice This!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591587100": {
+        "name": "Slap And Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591330517": {
+        "name": "Cooking Craft",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1590528385": {
+        "name": "Flag Painters",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1589248413": {
+        "name": "Backflip Master - Parkour Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586844471": {
+        "name": "Moon Pioneer",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1585980805": {
+        "name": "Oil Miner",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1585173714": {
+        "name": "Candle Craft 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1583922362": {
+        "name": "Canvas Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1580908333": {
+        "name": "Flex Run 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579519864": {
+        "name": "Trampwall",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1576885656": {
+        "name": "Destiny Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1576782641": {
+        "name": "Run Healthy",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1575391066": {
+        "name": "Shot Factor",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1570925517": {
+        "name": "Hex Takeover",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1570641170": {
+        "name": "Collect Em All! Clear the Dots",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1569820241": {
+        "name": "Pancake Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1569596883": {
+        "name": "Spiral Rider",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1568269420": {
+        "name": "Handy Craft",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1568102990": {
+        "name": "Run Rich 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1567263014": {
+        "name": "2 THE MOON",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563416758": {
+        "name": "Blob Merge 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563288539": {
+        "name": "Couples Yoga",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563230518": {
+        "name": "Solitaire - Voodoo Card Game!",
+        "regions": [
+            "us"
+        ]
+    },
+    "1562817072": {
+        "name": "Mob Control",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1562117866": {
+        "name": "Balls Duel",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1560632350": {
+        "name": "Castle Raid!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1560293850": {
+        "name": "Wet Hoops",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1558306788": {
+        "name": "Titans 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1558155715": {
+        "name": "Run of Life",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1556238786": {
+        "name": "Slice It All!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1554825597": {
+        "name": "Trivia Planet!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1553875472": {
+        "name": "Bounce and collect",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1553732509": {
+        "name": "Gravity Noodle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1553265713": {
+        "name": "Dice Push",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1552736327": {
+        "name": "Captain TNT",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1551524837": {
+        "name": "Turn Left!!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1546050743": {
+        "name": "Catch And Shoot",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1544772273": {
+        "name": "Fail Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1543910714": {
+        "name": "Crash Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1538758103": {
+        "name": "Lumbercraft",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1538467877": {
+        "name": "City Takeover",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1537008253": {
+        "name": "Bike Stars",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1536573251": {
+        "name": "Same Color  3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1535605132": {
+        "name": "Wacky Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1533837131": {
+        "name": "Bouncy Stick",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1533442608": {
+        "name": "Tricky Track 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1533397036": {
+        "name": "Shortcut Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1531856776": {
+        "name": "Jump Dunk 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1528512706": {
+        "name": "Force Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524760095": {
+        "name": "Roof Rails",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524755868": {
+        "name": "100 Years - Life Simulator",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524476880": {
+        "name": "Type Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1518832623": {
+        "name": "What The Fight",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1518831056": {
+        "name": "Bullet Rush!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1518267642": {
+        "name": "Scribble Rider",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1517377916": {
+        "name": "Bubble Buster 2048",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1513191896": {
+        "name": "Cannon It!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1506180378": {
+        "name": "Good Slice",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1505804130": {
+        "name": "Cinema Tycoon",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1505572770": {
+        "name": "Pimple Popping!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1504719576": {
+        "name": "Curvy Punch 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1504295793": {
+        "name": "Stack Colors!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1502139765": {
+        "name": "Rolly Legs",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1499833702": {
+        "name": "Knock'em All",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1499255972": {
+        "name": "Demolish!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1497532365": {
+        "name": "Draw Joust!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1495369374": {
+        "name": "Draw Climber",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1495045113": {
+        "name": "Crowd Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1492451796": {
+        "name": "Woodturning 3D",
+        "regions": [
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1666593827": {
+        "name": "Racing Track Star: 3D Car game",
+        "regions": [
+            "us",
+            "br"
+        ]
+    },
+    "1665861079": {
+        "name": "DOP 5: Delete One Part",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1658308218": {
+        "name": "Monster Demolition - Giants 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1645306236": {
+        "name": "Street Dude - Homeless Empire",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1645052152": {
+        "name": "Evolution Merge - Eat and Grow",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1644499551": {
+        "name": "Army Defence!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1644006263": {
+        "name": "Merge Legions: War Battle Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1643658342": {
+        "name": "Color Page ASMR – Art Coloring",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1642571982": {
+        "name": "Super Toy 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1640043434": {
+        "name": "Flexy Ring",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1639080259": {
+        "name": "Andy Volcano: Tile Match Story",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1638705343": {
+        "name": "Craft Valley - Building Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1636701778": {
+        "name": "Heli Monsters - Giant Hunter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1635760774": {
+        "name": "My Perfect Hotel",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1631994510": {
+        "name": "Blocks & Ropes",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1631374369": {
+        "name": "Merchant Mike",
+        "regions": [
+            "us",
+            "br",
+            "gb"
+        ]
+    },
+    "1626463471": {
+        "name": "Rope And Balls",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1625127917": {
+        "name": "Hidden Stuff",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1622154250": {
+        "name": "Merge Anything - Mutant Battle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1619762959": {
+        "name": "Emily's Stories - Match Puzzle",
+        "regions": [
+            "us",
+            "br",
+            "au",
+            "gb"
+        ]
+    },
+    "1617578309": {
+        "name": "Bra Maker",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1612619232": {
+        "name": "Emoji Guess Puzzle - Quiz Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1609970658": {
+        "name": "Decor Life - Home Design Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1604731616": {
+        "name": "Cubes Control",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1600034464": {
+        "name": "DOP 4: Draw One Part",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1598915605": {
+        "name": "Gunshot Run - Action Shooting",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1597118597": {
+        "name": "Merchant Puzzle – Triple Match",
+        "regions": [
+            "us",
+            "br",
+            "gb",
+            "mx"
+        ]
+    },
+    "1596457884": {
+        "name": "Town Mess - Building Adventure",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1595599443": {
+        "name": "Monsters Lab - Freaky Running",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591653599": {
+        "name": "Merge Animals 3D - Mutant race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1587674462": {
+        "name": "Pirate Raid: Caribbean Battle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586304393": {
+        "name": "My Little Universe",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1581951555": {
+        "name": "DNA Evolution 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1580057848": {
+        "name": "Jess' Stories - Life Adventure",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579693904": {
+        "name": "Zoo - Happy Animals",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579356887": {
+        "name": "Tower War - Tactical Conquest",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1578501492": {
+        "name": "Sling Fight 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1575192727": {
+        "name": "Hyper Evolution",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1573548340": {
+        "name": "Pop Us!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1571487050": {
+        "name": "Squad Alpha - Action Shooting",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1565846479": {
+        "name": "Pinball - Smash Arcade",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1564434171": {
+        "name": "Match Hit - Puzzle Fighter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1564289717": {
+        "name": "Pocket Show",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1563408990": {
+        "name": "DOP 3: Displace One Part",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1562985994": {
+        "name": "Run n Gun - AIM Shooting",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1561810786": {
+        "name": "Helicopter Escape 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1561798675": {
+        "name": "Muscle Rush - Destruction Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1558127690": {
+        "name": "Sky Trail",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1552444624": {
+        "name": "Airport Life 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1552406178": {
+        "name": "Re-Size-I‪t‬: Brain Teaser",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1551913613": {
+        "name": "Betrayal 3D - Imposter Hunt",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1544659730": {
+        "name": "Construction Set - Toys Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1544506543": {
+        "name": "Pixel Rush - Survival Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1543233013": {
+        "name": "Timeshift Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1543160727": {
+        "name": "DOP 2: Delete One Part",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1538288955": {
+        "name": "Sushi Roll 3D - ASMR Food Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1533234933": {
+        "name": "Comics Bob",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1532957173": {
+        "name": "Star Art: Drawing & Relaxing",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1528354649": {
+        "name": "Road Glider",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1525770311": {
+        "name": "Swing Loops - Grapple Parkour",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1525692339": {
+        "name": "Life Dream: Build Cozy Home",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1524982746": {
+        "name": "Brain Wash - Puzzle Mind Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1522440978": {
+        "name": "Mini Market - Cooking game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1518975917": {
+        "name": "Idle Inn Empire: Hotel Tycoon",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1518389230": {
+        "name": "Stealth Master: Assassin Ninja",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1517806621": {
+        "name": "Johnny Trigger: Sniper",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1517564300": {
+        "name": "Dreamdale - Fairy Adventure",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1516456028": {
+        "name": "Crowd Blast",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1516289529": {
+        "name": "Desert Riders - Wasteland Cars",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1515453678": {
+        "name": "Staff! - Job & Life Simulator",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1508900366": {
+        "name": "Car Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1508334081": {
+        "name": "HellCopter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1505744884": {
+        "name": "Rage Road - Car Shooting",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1504434984": {
+        "name": "DOP: Draw One Part",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1503886368": {
+        "name": "The Cook - 3D Cooking Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1498438583": {
+        "name": "Blend It 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1497133769": {
+        "name": "Drive Hills",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1496621735": {
+        "name": "Agent Action - Spy Shooter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1491328118": {
+        "name": "Johnny Trigger",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1485022388": {
+        "name": "Cannon Shot!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1481385569": {
+        "name": "Rope Slash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1480731374": {
+        "name": "Turbo Stars - Epic Racing",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1476745742": {
+        "name": "Popcorn Burst",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1475972538": {
+        "name": "Perfect Slices",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1474046667": {
+        "name": "Sand Balls - Digger Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1473007377": {
+        "name": "Neon Splash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1468445666": {
+        "name": "Battle Disc",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1467252438": {
+        "name": "Jelly Shift - Obstacle Course",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1466292431": {
+        "name": "Train Taxi",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1465580171": {
+        "name": "Wobble 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1463545885": {
+        "name": "Perfect Turn!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1463408890": {
+        "name": "OnPipe",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1463331025": {
+        "name": "Rope Around",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1458095674": {
+        "name": "House Paint",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1455654495": {
+        "name": "Clean Road",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1451587425": {
+        "name": "Snow Drift!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1448360185": {
+        "name": "Fork N Sausage",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1443525538": {
+        "name": "Twist Hit!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1443519568": {
+        "name": "Emily's Stories: Coloring Book",
+        "regions": [
+            "us",
+            "ca",
+            "au"
+        ]
+    },
+    "1443190579": {
+        "name": "Drive and Park",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1434658250": {
+        "name": "Chess Royale",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1384410451": {
+        "name": "Rocky Climb!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1377332371": {
+        "name": "Idle Painter",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1297278170": {
+        "name": "Balls Control",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "946509094": {
+        "name": "Hoop Stars",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1445135380": {
+        "name": "Paint by Number Oil: Hey Color",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1412735962": {
+        "name": "Solitaire 95: The Classic Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1407780576": {
+        "name": "Sudoku ▦",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1235644749": {
+        "name": "Jigsaw Puzzles Now",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1191435163": {
+        "name": "Solitaire.com: Classic Cards",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1186702083": {
+        "name": "Solitaire Classic Now",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1178924866": {
+        "name": "Coloring Book Now",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6451038346": {
+        "name": "Going Cart!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6450883689": {
+        "name": "Tokyo Revengers PUZZ REVE!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448161028": {
+        "name": "Clothes Sort Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448089516": {
+        "name": "My Hotel Life",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6448001955": {
+        "name": "Dig Dig ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6447595592": {
+        "name": "Arm Wrestling Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444715897": {
+        "name": "Donuts Franchise Idle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6444714370": {
+        "name": "Plug Head Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1672280746": {
+        "name": "Marine Engine ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1670076757": {
+        "name": "Gorilla Race!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1661773906": {
+        "name": "Food Escaper",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1644057960": {
+        "name": "Bulldozer Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1633192226": {
+        "name": "Snow Race!!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1625255974": {
+        "name": "Type and Hit",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1603601625": {
+        "name": "Hair Removal Run!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1590860162": {
+        "name": "Hospital Escaper",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1568042419": {
+        "name": "Muscle Race 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1550023874": {
+        "name": "Laser Beam 3D - drawing puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1549850128": {
+        "name": "Don't Eat!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1527517293": {
+        "name": "牛乳吹いたら負け",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1524578808": {
+        "name": "私のヒモ男RE～ダンボールの恋人～",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1523984306": {
+        "name": "まふまふアラーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca"
+        ]
+    },
+    "1515060030": {
+        "name": "GET UP！",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "tr",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1503460309": {
+        "name": "Find The Grandpa",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1502962024": {
+        "name": "魔女の家",
+        "regions": [
+            "us",
+            "mx"
+        ]
+    },
+    "1494264357": {
+        "name": "クイズバトルオンライン",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1489124555": {
+        "name": "CrazySmash!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1438204663": {
+        "name": "またおじいちゃんがいない - 脱出ゲーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1416439737": {
+        "name": "COLOR!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1134424705": {
+        "name": "Love Bank-お金ゲーム/恋愛ゲーム/イケメンゲーム/育成ゲーム/タップゲーム/賭けゲーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1134424698": {
+        "name": "Love Bank -お金ゲーム/恋愛ゲーム/美少女ゲーム/育成ゲーム/タップゲーム/賭けゲーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1110004794": {
+        "name": "【オネェ学園】オネェ系男子と恋しよっ！",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1103569108": {
+        "name": "ギャンブルRPG -運で世界が救えるか-",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1102687865": {
+        "name": "坂本ですが？秘技…フリータイムキラー",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1092454523": {
+        "name": "カイワレハンマー物語　無料マンガアプリ",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1085985143": {
+        "name": "秒速で1億円 貢ぐ男　～美女キャラ集結！from ギャングロード JOKER～",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1085450674": {
+        "name": "나의 등쳐남 ~훈남을 길에서 주웠습니다~",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1085434420": {
+        "name": "【ひっぱりパズル】ズキュ〜〜〜〜ン！",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1085401990": {
+        "name": "SLAAAASH !",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1081295232": {
+        "name": "Suppin Detective: Expose their true visage!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1076216289": {
+        "name": "恋する幽霊-カレシ、死んでます。-",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1074577920": {
+        "name": "鳥として生きた男　その壮絶な人生",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1073890557": {
+        "name": "歡樂豆芽人DX - 衝擊的豆芽人養成",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1073889825": {
+        "name": "豆芽人DX - 育成冲击力的豆芽",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1073887388": {
+        "name": "Moyashibito DX",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1073879712": {
+        "name": "숙주나물인DX - 충격의 숙주 육성",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1066685421": {
+        "name": "Dark Money-無料のお金稼ぎギャンブルゲーム-",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca"
+        ]
+    },
+    "1062515390": {
+        "name": "Attack On Junior High Schooler-学園ゲーム/バトルゲーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1060416851": {
+        "name": "うわ…俺の再生数、低すぎ？【放置ゲーム】完全無料！",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1032240256": {
+        "name": "【真・お絵かきパズル】〇〇投げてみた結果ｗｗ　完全無料！",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1029835671": {
+        "name": "Always Jump",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "1024004804": {
+        "name": "私のヒモ男～イケメン拾いました～恋愛・放置ゲーム",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "998171715": {
+        "name": "LIVE YOU -Make your music sound live- | free music player",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "996868107": {
+        "name": "ウチのあざらしちゃん",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "989119590": {
+        "name": "激ムズ アクション！MRジェイムス 狂気のガムフライト",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "982112782": {
+        "name": "MOYASHIBITO -Fun Game For Free",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "966482652": {
+        "name": "【高速】もやしQRコードリーダー -カンタン便利にQR作成",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "961100067": {
+        "name": "숙주나물인 -완전 무료! 방치형 숙주 육성 게임",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "961079107": {
+        "name": "豆芽人 -完全免費！放置型豆芽菜養成遊戲",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "938591779": {
+        "name": "もやしびと -完全無料！放置型もやし育成ゲーム-",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "mx",
+            "ca",
+            "br"
+        ]
+    },
+    "6802957277": {
+        "name": "Forest Sudoku -Block Sort Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1643502172": {
+        "name": "Plane Evolution!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1643472780": {
+        "name": "DIY Signboards",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1640610431": {
+        "name": "Merge and Dig",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1639702052": {
+        "name": "Car Survival 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1637886090": {
+        "name": "Cat Evolution!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1633027397": {
+        "name": "Get the Supercar 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1630990280": {
+        "name": "Asteroid Miner 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1629425573": {
+        "name": "Car Cops",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1629362769": {
+        "name": "Multiply or die",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1626705812": {
+        "name": "Furniture Test",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1626029748": {
+        "name": "Air Support!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1624758267": {
+        "name": "Circle the Fish",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1624670505": {
+        "name": "Car Factory!!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1624213870": {
+        "name": "Sticky Darts 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1622000953": {
+        "name": "Basket Battle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1617861822": {
+        "name": "Pouring Master 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1616157684": {
+        "name": "Hyper Hostess",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1612931269": {
+        "name": "Move Animals!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1610508475": {
+        "name": "Guess The Drawing!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1608432244": {
+        "name": "Snake Crusher",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1604418225": {
+        "name": "Become a Queen",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1603807269": {
+        "name": "Arm Simulator",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1603022134": {
+        "name": "Perfect Lie",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1602135535": {
+        "name": "Telekinesis Quest 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1600488366": {
+        "name": "Join Numbers",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1599121822": {
+        "name": "Tall Man Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1596198583": {
+        "name": "Park Marks",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1595274680": {
+        "name": "Trash Tycoon Idle Empire",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1593290421": {
+        "name": "First To Life",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1592661651": {
+        "name": "Outfit Makeover",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1592004814": {
+        "name": "My Mini Mart",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591878072": {
+        "name": "Agent Grapple",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591866513": {
+        "name": "Pro Builder 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591802509": {
+        "name": "Bottle Flip Clash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591795252": {
+        "name": "Grab Master!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591608300": {
+        "name": "Hit perfect 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1591004743": {
+        "name": "Draw Rumble",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1587102277": {
+        "name": "Giant Wanted",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586980403": {
+        "name": "Coloring Match",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1586659332": {
+        "name": "Human Vehicle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1581537053": {
+        "name": "Move People",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1579512447": {
+        "name": "Down The Hole!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1574503064": {
+        "name": "Elemental Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1570192089": {
+        "name": "Draw Weapon 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1566817369": {
+        "name": "Trapper 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1566693835": {
+        "name": "Take Them Off",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1559284000": {
+        "name": "Cheerleader Run 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1551467826": {
+        "name": "Rope Man: Yarn Hero Game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1550024443": {
+        "name": "Spider King",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1548516551": {
+        "name": "Clone Ball",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1543845882": {
+        "name": "Bridge Race",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1542531182": {
+        "name": "911 Emergency Dispatcher",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1541146937": {
+        "name": "Draw The Line 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1540990353": {
+        "name": "Get It Right!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1540094256": {
+        "name": "Mad Dogs",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1537447555": {
+        "name": "Get Rich! 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1525990438": {
+        "name": "Stack Rider",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1522899035": {
+        "name": "Chat Master!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1516852802": {
+        "name": "Emoji Puzzle!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1515957122": {
+        "name": "Stacky Dash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1512112169": {
+        "name": "Idle Success",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1509280095": {
+        "name": "Samurai Flash",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1506552451": {
+        "name": "Wheel Scale!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1500802433": {
+        "name": "Bead Sort",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1499081620": {
+        "name": "Going Balls",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1498869533": {
+        "name": "Love Pins",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1494495230": {
+        "name": "Invincible Hero",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1493125671": {
+        "name": "Sort It 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1491654968": {
+        "name": "Hide 'N Seek!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1487614236": {
+        "name": "Bazooka Boy",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1483594013": {
+        "name": "Web Hero",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1483009256": {
+        "name": "Escalators",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1462269620": {
+        "name": "Flick Chess!",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1055971514": {
+        "name": "Archers.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6469478218": {
+        "name": "Snake Clash 2",
+        "regions": [
+            "us"
+        ]
+    },
+    "6457202238": {
+        "name": "Henna Design",
+        "regions": [
+            "us"
+        ]
+    },
+    "6444113828": {
+        "name": "Mob Hunters : Idle RPG",
+        "regions": [
+            "us"
+        ]
+    },
+    "1671129127": {
+        "name": "Scoot Rush",
+        "regions": [
+            "us"
+        ]
+    },
+    "1666196398": {
+        "name": "Idle Oil Empire",
+        "regions": [
+            "us"
+        ]
+    },
+    "1665566387": {
+        "name": "Order up! : Cook & Serve",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1659653360": {
+        "name": "Plinko ASMR",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1658703412": {
+        "name": "Build The Rail",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1643491433": {
+        "name": "Steal-Master",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1643449960": {
+        "name": "Power Dig",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1632541083": {
+        "name": "Like a Celeb",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1620473280": {
+        "name": "Hit & Run: Level Rush",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1607255631": {
+        "name": "ASMR Rainbow Jelly",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1607255423": {
+        "name": "Kingdom Assassin",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1603345713": {
+        "name": "Guitar Girl Match 3",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1590814458": {
+        "name": "Streamer Survival Challenge",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1587644107": {
+        "name": "K-Games Challenge",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1581074249": {
+        "name": "Art Drawing 3D",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1576313874": {
+        "name": "K-pop Run",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1572403118": {
+        "name": "Free Fall Run.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1571445562": {
+        "name": "Cut the Enemies.io",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1545084217": {
+        "name": "ToonyDoll",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1434995918": {
+        "name": "Unnie doll",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1419904843": {
+        "name": "World Beast War",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6795753222": {
+        "name": "PawBlock! - Sort Color Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6790729210": {
+        "name": "Sushi Sort: Color Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "6503620249": {
+        "name": "Fruit Run Jam",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6502603453": {
+        "name": "Merge Cat Cafe : Coffee cat",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6502571200": {
+        "name": "Pull The Mushroom",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6502568669": {
+        "name": "Cat Tower Sort",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6478581353": {
+        "name": "StickerTown Puzzle: Color book",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6477860482": {
+        "name": "Box Cat Jam",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6477856443": {
+        "name": "Tanghulu Sort Maker",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6477812492": {
+        "name": "Supermarket Sort-Triple Goods",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6475390749": {
+        "name": "Block Puzzle : Match Combo",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6467688796": {
+        "name": "Ouch Clinics: happy hospital",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6458050055": {
+        "name": "Match Blast: Kingdom Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "6446082946": {
+        "name": "Jewels Dino Age",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1638873378": {
+        "name": "Jewels Atlantis: Puzzle game",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1635510357": {
+        "name": "Jewels Ghost Ship",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1596706193": {
+        "name": "Jewel Modern Times",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1589918375": {
+        "name": "Wood Block Toy : Block Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1588828902": {
+        "name": "Jewel Royal Garden",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1574854315": {
+        "name": "Jewel Sword: Match3 puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1542734997": {
+        "name": "Block Ocean Puzzle 1010",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1540532317": {
+        "name": "Jewel Athena: Match3 Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1537754216": {
+        "name": "Jewel Ruins: Match3 Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "1516168823": {
+        "name": "Jewel Kraken: Match3 puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "id",
+            "vn",
+            "au",
+            "tr",
+            "mx",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "com.ristretto.spinsiege": {
+        "name": "Spin Siege",
+        "regions": [
+            "ca"
+        ]
+    },
+    "com.tripledot.angrysmash": {
+        "name": "Angry Smash",
+        "regions": [
+            "mx"
+        ]
+    },
+    "net.peakgames.lostbubble": {
+        "name": "Lost Bubble - Bubble Shooter",
+        "regions": [
+            "br"
+        ]
+    },
+    "jp.co.goodroid.hyper.cardsortpuzzle": {
+        "name": "Card Sort Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.multicastgames.venomSurvive": {
+        "name": "Alien Invasion: RPG Idle Space",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.gimica.jigsaw": {
+        "name": "Artie's Jigsaw Adventure",
+        "regions": [
+            "tr"
         ]
     }
 }
