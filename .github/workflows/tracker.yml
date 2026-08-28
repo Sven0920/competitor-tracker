@@ -2,8 +2,10 @@ name: Daily Competitor Tracker
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 每天 02:00 UTC ≈ 北京时间 10:00（主跑）
-    - cron: '0 4 * * *'   # 每天 04:00 UTC ≈ 北京时间 12:00（备份，防 GitHub 漏跑）
+    # GitHub 在整点 (:00) 最容易漏跑/延迟，所以避开整点
+    - cron: '17 2 * * *'   # 每天 02:17 UTC ≈ 北京时间 10:17（主跑）
+    - cron: '43 4 * * *'   # 每天 04:43 UTC ≈ 北京时间 12:43（备份 1）
+    - cron: '23 6 * * *'   # 每天 06:23 UTC ≈ 北京时间 14:23（备份 2）
   workflow_dispatch:        # 也支持手动点一下立即跑
 
 permissions:
