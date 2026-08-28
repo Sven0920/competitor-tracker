@@ -37892,12 +37892,6 @@
             "id"
         ]
     },
-    "null": {
-        "name": "Goods 3D Sorting: Match Games",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.multicastgames.venomSurvive": {
         "name": "Alien Invasion: RPG Idle Space",
         "regions": [
@@ -37908,6 +37902,99 @@
         "name": "Artie's Jigsaw Adventure",
         "regions": [
             "tr"
+        ]
+    },
+    "6800324129": {
+        "name": "Tessora: Tile Sort Puzzle",
+        "regions": [
+            "br",
+            "us"
+        ]
+    },
+    "6802262141": {
+        "name": "Categoro: Category Hunt",
+        "regions": [
+            "id",
+            "au",
+            "ca",
+            "br",
+            "ph",
+            "gb",
+            "us",
+            "tr",
+            "mx",
+            "vn"
+        ]
+    },
+    "6799063113": {
+        "name": "Chonky Cat : Food Survivor",
+        "regions": [
+            "id",
+            "au",
+            "ca",
+            "br",
+            "ph",
+            "gb",
+            "us",
+            "tr",
+            "mx",
+            "vn"
+        ]
+    },
+    "com.vm3.global": {
+        "name": "Truck Star",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.arrow.match.arrows.puzzle.games.tiles.game": {
+        "name": "Color Arrow - Match 3 Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.banpofri.tinycastleguardians": {
+        "name": "Backpack Castle Heroes",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.nep.tr.hybrid.boingninja": {
+        "name": "Boing Ninja",
+        "regions": [
+            "id",
+            "au",
+            "ca",
+            "br",
+            "ph",
+            "gb",
+            "tr",
+            "mx",
+            "vn"
+        ]
+    },
+    "com.woody.screw.nuts.bolts.jam.puzzle": {
+        "name": "Woody Screw: Nut and Bolt Jam",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.paurau.MoveAnimals": {
+        "name": "Move Animals",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.KisekiGames.smart": {
+        "name": "My Mini Mart",
+        "regions": [
+            "ph"
         ]
     }
 }
