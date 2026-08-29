@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-08-28 15:06",
+  "updated_at": "2026-08-29 17:21",
   "games": [
+    {
+      "app_id": "6793829727",
+      "developer": "LIHUHU",
+      "platform": "iOS",
+      "name": "Voxel Flow 3D: Cube Blast",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/8f/ed/9c8fed81-b1a6-63ff-52e3-bd298b0f309f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Puzzle",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/10/51/90105190-7146-4c60-3615-4a79e7051c2e/VF_SS1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/b5/ba/b6b5ba27-6e58-a9ad-23dd-7d45d8ea0b4c/VF_SS2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/3c/9b/cc3c9b48-c52e-39b1-119a-8252e878dc65/VF_SS3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/0c/fe/a70cfed6-553e-b170-c34a-87423dcc1f95/VF_SS4.png/392x696bb.png"
+      ],
+      "regions": [
+        "us",
+        "id",
+        "ph",
+        "tr",
+        "ca",
+        "mx",
+        "au",
+        "br",
+        "gb"
+      ],
+      "size": "338.3 MB",
+      "iap_info": "未知",
+      "release_date": "2026-08-28",
+      "url": "https://apps.apple.com/us/app/voxel-flow-3d-cube-blast/id6793829727?uo=4",
+      "found_date": "2026-08-29"
+    },
+    {
+      "app_id": "com.designingcozyhome.global",
+      "developer": "Century Games",
+      "platform": "Android",
+      "name": "Family Tales: Merge & Design",
+      "icon": "https://play-lh.googleusercontent.com/7NkpY-w5P9mQlscs4VImXi9LtNUbflMDwSC7ay1MSCZRpUGgjNxwCNyRxY54CQLy2E7k7lhYMzp_I7FRG9udmYc",
+      "installs": "10,000+",
+      "real_installs": 34037,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/f6oME7N5L1qaNosandLFn3DbrFdTqNWSGsGYXc7qrzkBCBvfY6qX9QsJnzRo1HuszSs7fB80aDz62jLHFr4j",
+        "https://play-lh.googleusercontent.com/NN30zhk19guY_Oeicj5BS9k4r38n9bvPQsnNogY-XJNRDQsMbdwBQT-hE2jDVSyBvaBh3kxZCbCds8YI8t0EeRc",
+        "https://play-lh.googleusercontent.com/pXK9H9qrrkxJZpejGuZ9o5w2pq08Rgx2xR3NMFGP8_FARAxOEsunJumAH21TrQmdZPtC3P7SAlqCPO1ijnFnCso",
+        "https://play-lh.googleusercontent.com/BDs95icYFK6kyWDkFM5QCbmwBaSNgMK_v-LBvBMJrGTNiMd6nLifBUq0QzecFtwW5D1wJIiUr0m_igHTtjkx"
+      ],
+      "regions": [
+        "gb",
+        "mx"
+      ],
+      "size": "因设备而异",
+      "iap_info": "£0.89 - £88.99 if billed through Play",
+      "release_date": "Jul 17, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.designingcozyhome.global",
+      "found_date": "2026-08-29",
+      "velocity": 0
+    },
     {
       "app_id": "6800324129",
       "developer": "SayGames",
@@ -265,7 +322,7 @@
       "name": "Angry Smash",
       "icon": "https://play-lh.googleusercontent.com/k4AB_lN-hyvN-ZrkQSvW24AAmGFbuHG81wLfY-n9S_jMFsgZf_UjtUtfLsHDxVLX3HKjx3sZuht4sUefe6QX",
       "installs": "100,000+",
-      "real_installs": 200846,
+      "real_installs": 225757,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/VmI3TVDki84nbTCkObfJ3UKRA44VvyNqu8cBDJRPP76y2MTW8uH5ZXPTQS0ii9xQp1wt_yrT8yFxfEJDvICeHw",
@@ -281,7 +338,7 @@
       "release_date": "Jul 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.angrysmash",
       "found_date": "2026-08-27",
-      "velocity": 0
+      "velocity": 24911
     },
     {
       "app_id": "com.gimica.jigsaw",
@@ -289,8 +346,8 @@
       "platform": "Android",
       "name": "Artie's Jigsaw Adventure",
       "icon": "https://play-lh.googleusercontent.com/0JWO0y_vdfBW5NzSp4epMp1CfVHy29y5BF3v8zJgOZwoK2RixJKTtIHORP7YDn1R9n7rpCHGULM6on7GiysPplU",
-      "installs": "0+",
-      "real_installs": 0,
+      "installs": "5+",
+      "real_installs": 9,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/MOXXMWXLgvvZTDsPrdU_9iZttWx9Kde4tsfcuGzjFlUqOqhqZ4TqKXqHQFiaH4gTWKw0nZeBkfmOxyjkL31Qd4s",
@@ -305,7 +362,8 @@
       "iap_info": null,
       "release_date": "Aug 12, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.jigsaw",
-      "found_date": "2026-08-27"
+      "found_date": "2026-08-27",
+      "velocity": 0
     },
     {
       "app_id": "6802913072",
@@ -536,8 +594,8 @@
       "platform": "Android",
       "name": "Dragon Eats All",
       "icon": "https://play-lh.googleusercontent.com/v7GhQdLAF8qWTspDVFGGBE7NGTpc6ZdFOUhHy9gMFjLYcQiDSmEkXOD40p2kpo1-NBoUQq4cGAO2kRQnjB7Q",
-      "installs": "0+",
-      "real_installs": 0,
+      "installs": "10+",
+      "real_installs": 49,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/rWPF8nU_chBsE-KZsfjbmyNHm9Zfibfzh_3Li9JudZ2bmxKdUTi2BpHoGwvLmvIVr73GjO0K7b0TqwyGq8mFPg",
@@ -552,7 +610,8 @@
       "iap_info": "₫26,000 - ₫2,600,000 per item",
       "release_date": "Aug 22, 2026",
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.dragon3d",
-      "found_date": "2026-08-25"
+      "found_date": "2026-08-25",
+      "velocity": 0
     },
     {
       "app_id": "com.combo.knockout",
@@ -902,7 +961,7 @@
       "name": "Car Sort: Color Puzzle",
       "icon": "https://play-lh.googleusercontent.com/dbDWQyuYW1A_LEyUjHekXzMT5tSgVlYttY_eIeMJxAHlTZcndTGfOKq4vMMKMJYvViZetQfnv-rfnkhXiPolLg",
       "installs": "500,000+",
-      "real_installs": 555408,
+      "real_installs": 562919,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/QsyIvXgb394d3KPA8GtLK1Xh6k4foLrgaXG_VxXt04X-z0vmjrfXfhhnTvoweR-Rp0-NagK_-4E4bRDq4h5FoLU",
@@ -927,7 +986,7 @@
       "release_date": "Apr 17, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
       "found_date": "2026-08-21",
-      "velocity": 65100
+      "velocity": 72611
     },
     {
       "app_id": "tk.jewels.rush",
@@ -961,7 +1020,7 @@
       "name": "VolleyCraft",
       "icon": "https://play-lh.googleusercontent.com/iQdynMz1CTIQxcItRj3PuQNH8MouRXvj-ZEE472GcsJeut2By_5rtHF53qC2HR7xsumlqMnWq2BrR1UzM_LK",
       "installs": "50,000+",
-      "real_installs": 83922,
+      "real_installs": 88000,
       "genre": "Strategy",
       "shots": [
         "https://play-lh.googleusercontent.com/XwBzAGq9B6Dz0UXGFHbUWwhYFQno8MfPA55AqOVG54I7ARYJeq7VOgkhV-c5IGsiMCtUq-e3pJMdK9acP_hRpg",
@@ -977,7 +1036,7 @@
       "release_date": "Oct 8, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.ArcaneBlast.VolleyCraft",
       "found_date": "2026-08-21",
-      "velocity": 11455
+      "velocity": 15533
     },
     {
       "app_id": "com.gentlegame.flyingcut",
@@ -1466,7 +1525,7 @@
       "name": "Merge Sticker Playbook 2D",
       "icon": "https://play-lh.googleusercontent.com/LKbqX3e4anfPkEylR-tkKjwD8w4JRKZOxM4xfT-Acf-ZWMyATs2vpcD7tfdBn36gkJ6khDrPGFQ5gri7_URQP5U",
       "installs": "1,000,000+",
-      "real_installs": 3763225,
+      "real_installs": 3764801,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/uPpKZ5VrBQmrOc79Xp1IpbXzbZaFqAezn7SA0r218StoR_TEKKNOEjEGEC1CuI6C7l-19KIClrrWyt71U926UA",
@@ -1482,7 +1541,7 @@
       "release_date": "Jan 22, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.game.goolny.stickers",
       "found_date": "2026-08-21",
-      "velocity": 6380
+      "velocity": 7956
     },
     {
       "app_id": "tile.games.master.match.triple.puzzle.game.free",
@@ -1522,8 +1581,8 @@
       "platform": "Android",
       "name": "Idle Cat Gunner: Shooter RPG",
       "icon": "https://play-lh.googleusercontent.com/n-EqijO8FzcXGndQGsc_KWGYnFpF9Hd0sxlq813qhcmRtG9ZFbptOIXuaK3OnlzmKE0zfxxChlyMM_cc_2SW",
-      "installs": "500,000+",
-      "real_installs": 920388,
+      "installs": "1,000,000+",
+      "real_installs": 1001515,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/hbwgLP2xmUdqPGEreb974pwBmMjS36i4uysuiGASd1BQNpexhrDH4qKA48u9zhd0O-8A7lL6bsSo5siwp3dxcg",
@@ -1548,7 +1607,7 @@
       "release_date": "Apr 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner",
       "found_date": "2026-08-21",
-      "velocity": 292150
+      "velocity": 373277
     },
     {
       "app_id": "com.nep.tr.hybrid.catbusjam",
@@ -1949,8 +2008,8 @@
       "platform": "Android",
       "name": "One Line",
       "icon": "https://play-lh.googleusercontent.com/DwPxvDGcN3Ej1uixPwJ5_7aaazI2VTEYauxbsCEKlNvNy_wnLtbwxWlk7ftjbZYSIBBLcngEOvLq4IFsL_e4Vg",
-      "installs": "0+",
-      "real_installs": 0,
+      "installs": "5+",
+      "real_installs": 5,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ixoJr_0ZUe09EiycMDMni3xlwrP5XFyWRM-G1xBy2-PDXphrVVXLtw5LLOhi6YGWPCXi6fud2vPC9zhDZjY3HQ",
@@ -1964,7 +2023,8 @@
       "iap_info": null,
       "release_date": "Aug 13, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.oneline",
-      "found_date": "2026-08-21"
+      "found_date": "2026-08-21",
+      "velocity": 0
     },
     {
       "app_id": "io.supercent.mosquito",
@@ -2115,8 +2175,8 @@
       "platform": "Android",
       "name": "Block Blast Effect",
       "icon": "https://play-lh.googleusercontent.com/KLCO3_EVOYPMahjiod0_8JjLWQvpGYxhqve27VRWfNh5l1QuN0WrcX2l2Po2kGqRDW9-fnPlvt-6I1P3q_bw",
-      "installs": "0+",
-      "real_installs": 0,
+      "installs": "50+",
+      "real_installs": 60,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/aGvQEeAxKYIcX6gZ4gNj-wxO7DBcB0kPMEUwpqS-So3JipEgm-ww5udWIBOQDWGc9N6ntzPX6TFsAh5Yikhbaoo",
@@ -2138,7 +2198,8 @@
       "iap_info": null,
       "release_date": "Aug 20, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.hungrystudio.blockeffect",
-      "found_date": "2026-08-21"
+      "found_date": "2026-08-21",
+      "velocity": 0
     },
     {
       "app_id": "com.mobsmile.trapfortress",
@@ -2273,8 +2334,8 @@
       "platform": "Android",
       "name": "Chessdoku: Meow Brain Puzzle",
       "icon": "https://play-lh.googleusercontent.com/84QueZywndREAMetSSi9--tmiK7CFowAwguRbSgdW2sFGmyKJS6TPmn2BLEyWxV1gp5jyznArkCH0omxyIh4vyQ",
-      "installs": "0+",
-      "real_installs": 0,
+      "installs": "5+",
+      "real_installs": 7,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/KRHkRTjDvIujIL0jIB104AG5LpS6jOz_PNEpVWSh8OxWnbXztTm7zCrQ8c54PMxKVANGvyMLfm7JYTgcbOsjgg",
@@ -2289,7 +2350,8 @@
       "iap_info": "₫26,000 - ₫1,300,000 per item",
       "release_date": "Aug 19, 2026",
       "url": "https://play.google.com/store/apps/details?id=and.lihuhu.chessdoku",
-      "found_date": "2026-08-20"
+      "found_date": "2026-08-20",
+      "velocity": 0
     },
     {
       "app_id": "com.car.parking.master.puzzle.truck.games",
@@ -2585,7 +2647,7 @@
       "name": "Ants Flow: Pixel Color Puzzle!",
       "icon": "https://play-lh.googleusercontent.com/W3KUGUZ_HBlYJfg6QKIbwnsF8mgVlVEIOnqxh4FFBt6h5H0Duttc_TCs94jLUEmrlqps2EYbYpvOCIYF_kJvPw",
       "installs": "500,000+",
-      "real_installs": 903610,
+      "real_installs": 919505,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/Dfs8pq63UBL_3MBWb5lFiePWursqXatSX1vzyfa8CzDXzEkaC5ztyicJ5WrXUfhPFFDCKJG2Xwx6A3lgkFmWvQ",
@@ -2602,7 +2664,7 @@
       "release_date": "Mar 11, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ants.box",
       "found_date": "2026-08-16",
-      "velocity": 106560
+      "velocity": 122455
     },
     {
       "app_id": "6793115010",
@@ -2782,8 +2844,8 @@
       "platform": "Android",
       "name": "Top Force",
       "icon": "https://play-lh.googleusercontent.com/dIGYOhW1mwhxLLCti6-O-VQAL_5oz7yzyLkP5WJH80i6j3HWcaIOfTnJ-FaQC1tQ7DC2pR5BphwkZJ9tFQe_ag",
-      "installs": "500,000+",
-      "real_installs": 978527,
+      "installs": "1,000,000+",
+      "real_installs": 1052024,
       "genre": "Strategy",
       "shots": [
         "https://play-lh.googleusercontent.com/Dg8VQM1wRLY9hJSh8Lnm1ZxipRhSGPinTPDhRub-G5V5mLo68vtwtW-IvPQVOoVRd0BWZg-C2l8pTn9Jxe2i",
@@ -2802,7 +2864,7 @@
       "release_date": "Jul 31, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.project.idle.cd",
       "found_date": "2026-08-13",
-      "velocity": 380988
+      "velocity": 454485
     },
     {
       "app_id": "com.funreal.myfishshop",
@@ -3082,7 +3144,7 @@
       "name": "Coin Bounce",
       "icon": "https://play-lh.googleusercontent.com/W0oUfjfBeLgNzeDn_dzFsXm4YSxYdcBuT5znEslgFMw_HIWl3ROrptL40ItmxLSngrp_CdK6HHLk4f4pB3ZW",
       "installs": "500+",
-      "real_installs": 547,
+      "real_installs": 552,
       "genre": "Arcade",
       "shots": [
         "https://play-lh.googleusercontent.com/0JdJBEnc-CHLb0RK2N04qgbDyDb2_jAD4IedNQM73mv7-ydm01IABcxI24e3rnDDywkv1zcD7RsaF7APLKFHuw",
@@ -3099,7 +3161,7 @@
       "release_date": "Aug 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mobsmile.coinbounce",
       "found_date": "2026-08-11",
-      "velocity": 508
+      "velocity": 513
     },
     {
       "app_id": "com.cat.away.jam.aos",
@@ -3215,8 +3277,8 @@
       "platform": "Android",
       "name": "Stickerdom",
       "icon": "https://play-lh.googleusercontent.com/_o-GBqwHzQhuEmRLveSesR1xrFOQlBL2d17VruiTrgnS81vrWLiAtqQF_9Bw6ssFSmBmhLqjOyGwcGN7JZrY2w",
-      "installs": "5,000+",
-      "real_installs": 9840,
+      "installs": "10,000+",
+      "real_installs": 10846,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/z_M9yA61HhDpaUOIJSjCdSswL2_PcWQn9dN-JgZHn8iPsZXS8ClGudZRsQHiTrn1RM24XfcfOrFmcyGRvvqMX1c",
@@ -3241,7 +3303,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.stickerdom",
       "found_date": "2026-08-10",
-      "velocity": 9833
+      "velocity": 10839
     },
     {
       "app_id": "com.abi.minesweeper.grid.puzzle",
@@ -3818,7 +3880,7 @@
       "name": "Jigsaw Falls: Merge Tiles",
       "icon": "https://play-lh.googleusercontent.com/iHc56HJ-iIbO62ITldUL_rG7L-x5Qdn9UE1GQd9u-7XsKfyunInHNRt_NzQAbmzgmKeP13uFFsoxwHvEltfXkw",
       "installs": "10,000+",
-      "real_installs": 11642,
+      "real_installs": 11832,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/AFqYU9YLcpuJm9OA-sXzGoFeGCpxH25qRSo9YCKD9-CH3yqUKRwOsYnDJhEoJl0XiC3fhtG4NeAdDFOO_U32Tg",
@@ -3843,7 +3905,7 @@
       "release_date": "Jul 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.jigsawfall.joygame",
       "found_date": "2026-08-07",
-      "velocity": 4766
+      "velocity": 4956
     },
     {
       "app_id": "com.story.plot.joygame",
@@ -3905,8 +3967,8 @@
       "platform": "Android",
       "name": "Cat Island: Idle Tycoon Game",
       "icon": "https://play-lh.googleusercontent.com/yOtInRMCWBHzyXYVp7VTzBMpPsiYFQ61bK_J-mBefUbiZ_lbVAZr-1LpCxR6bovkIDB-N0XdN4HA5iShJzIRBQ",
-      "installs": "500+",
-      "real_installs": 754,
+      "installs": "1,000+",
+      "real_installs": 1913,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/s8OB9cQcY9lYsmaAhet0AryYSeee-bOwT3jGXX1f5pK-Pjol8pUTeXJ8LfMH2Nw82HojoproHI6k59mIAhHP8zo",
@@ -3931,7 +3993,7 @@
       "release_date": "Aug 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.nep.tr.idle.cat.island",
       "found_date": "2026-08-07",
-      "velocity": 565
+      "velocity": 1724
     },
     {
       "app_id": "com.water.flow.factory.sort.match",
@@ -6275,7 +6337,7 @@
       "name": "Hexa Run - Block Puzzle",
       "icon": "https://play-lh.googleusercontent.com/XYy-7m-knyPIifJVRjFJhs_FSxGCOZuOOK-nxRLmjg9Q3716O4SLrPLX1neBQYVO1g5QWxc9B-XgadoOG5eq0w",
       "installs": "100,000+",
-      "real_installs": 256908,
+      "real_installs": 261446,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/t-5q_re-rqQrMe3aC5DdsYAjIsIb0QOhrYfOJ_67KQSslTaaKJZZIWOgiLczJAA793GMSuLZORgqLJtzM37GaDk",
@@ -6291,7 +6353,7 @@
       "release_date": "Aug 7, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.red.hexaaway.android",
       "found_date": "2026-07-25",
-      "velocity": 66827
+      "velocity": 71365
     },
     {
       "app_id": "com.tripledot.blockssmashgame",
@@ -6800,7 +6862,7 @@
       "name": "Dice Dreams™️",
       "icon": "https://play-lh.googleusercontent.com/5MLgC2WWXcq1Pol8qRAXOKzIJY9qySkjF43DnWyd5F9fPj_heinHeIxvgIpPQwcaQ1w-mUzUmoP1Xeslf29irg",
       "installs": "50,000,000+",
-      "real_installs": 67010060,
+      "real_installs": 67027218,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/y682vRbnQJwYNQvgRdkaCgpOFZ0q03dVwcj1NuYFpK-KyKnJvHHqvestAE1WS0cP-tw-6kY7VTug7mJKN4D5sQ",
@@ -6825,7 +6887,7 @@
       "release_date": "Dec 3, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams",
       "found_date": "2026-07-24",
-      "velocity": 355580
+      "velocity": 372738
     },
     {
       "app_id": "com.screenshake.dominodreams",
@@ -7306,7 +7368,7 @@
       "name": "Wordscapes",
       "icon": "https://play-lh.googleusercontent.com/1j1SA4mZScpbXcd31uA3kCALM3CHf0Sx5T3JebKV6fNM_XFKewM_WOAwbgCSotHzfMgbJu-raFBhMtOlspzvQ1U",
       "installs": "100,000,000+",
-      "real_installs": 130735491,
+      "real_installs": 130777434,
       "genre": "Word",
       "shots": [
         "https://play-lh.googleusercontent.com/HS7UScF3cJtFYnZk5BsgCJL3K_zCeyJ2bKruzXqcdYcaZXFLrQZBtg12tlgKVsps1J20yVhOJQhWcWnNawY8-g",
@@ -7331,7 +7393,7 @@
       "release_date": "Jun 14, 2017",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross",
       "found_date": "2026-07-19",
-      "velocity": 837797
+      "velocity": 879740
     },
     {
       "app_id": "com.peoplefun.wordsearch",
@@ -7510,7 +7572,7 @@
       "name": "Blockscapes - Block Puzzle",
       "icon": "https://play-lh.googleusercontent.com/gsTCdGa84IGefdvMJueSDQeTQuaIFXLNxuug9p4ENJCwsj6bwTrBaKIP9jd5i4gqA0QOTl1uGWUM6i0bH9Ha",
       "installs": "5,000,000+",
-      "real_installs": 7689051,
+      "real_installs": 7689135,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/_wvJAEr5IhNZa2YHRGml_GEUoYt-HY5m33gI0qIDBWvoE-Fe-3PYPzTo0wxUJO4b8xzf62qL6gb-CckKPtfFgA",
@@ -7535,7 +7597,7 @@
       "release_date": "Dec 18, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.blockscapes",
       "found_date": "2026-07-19",
-      "velocity": 1724
+      "velocity": 1808
     },
     {
       "app_id": "com.peoplefun.wordchums",
@@ -7611,7 +7673,7 @@
       "name": "Bricks n Balls",
       "icon": "https://play-lh.googleusercontent.com/z7xJQU1IhMJLIEKNlxMZZzK34T2OPAalrCnQLp34TUJIwfRN8EE5p0YUv-vinBkUzjppnzlNTcHBYHeb6i6TDQ",
       "installs": "10,000,000+",
-      "real_installs": 29281159,
+      "real_installs": 29283241,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/U7C2epgZ3P-ZCBeeb7nXFkzk-pJNEUR0qPBIW_oO0PcLo0pGAHYio07MOp8WoesehG7LG8MkAkMG3lWbhm504g",
@@ -7633,7 +7695,7 @@
       "release_date": "Mar 19, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.bricksnballs",
       "found_date": "2026-07-19",
-      "velocity": 69285
+      "velocity": 71367
     },
     {
       "app_id": "com.peoplefun.wordchamps",
@@ -9288,7 +9350,7 @@
       "name": "Bubblepics - Pop Jigsaw Puzzle",
       "icon": "https://play-lh.googleusercontent.com/YTaBe0a_weEVLl3mR2Z5DDuszJJb0vkCw3096Q8D_DOMVOErw9drYQjJKmbekje9GcUZuCwd2PhFkflZ_DkJ-A",
       "installs": "500,000+",
-      "real_installs": 969836,
+      "real_installs": 988189,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/EnIgU4pPUjdIh1MQcme0Cx3-csYMyc6ASCofy-Rrj7MuJuMsPjTMLjVhViW8oreuuKlEsqqYTnP-Mur5LLgW",
@@ -9304,7 +9366,7 @@
       "release_date": "Jun 9, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.oakever.bubblepics",
       "found_date": "2026-07-15",
-      "velocity": 600565
+      "velocity": 618918
     },
     {
       "app_id": "6786721739",
@@ -10052,7 +10114,7 @@
       "name": "Category Sort",
       "icon": "https://play-lh.googleusercontent.com/4seLYWK7qcq4uYSERidx9llgPDx0nObtjGgoDnS1w8t2WviDbpAaHnpCk5uey4CKq8Cjzs61QubQDp6qpoV3",
       "installs": "1,000,000+",
-      "real_installs": 1400483,
+      "real_installs": 1408762,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/oIARVE4XGRhG9n5jk_KX3wzRIOcFQ8Q5DRSQOv-7iPOHF_7rpo4r8kBloZd6cPSJdVbOiknnwSBKYHxfd8NNQg",
@@ -10070,7 +10132,7 @@
       "release_date": "Jan 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.meemeegames.categorysort",
       "found_date": "2026-06-30",
-      "velocity": 567971
+      "velocity": 576250
     },
     {
       "app_id": "com.gamebrain.hexasort",
@@ -10079,7 +10141,7 @@
       "name": "Hexa Sort",
       "icon": "https://play-lh.googleusercontent.com/BPi6szhCZr0mJlSl9mT7j8HChhRsz6F-UIkaz60JrUGrhPIzbyUa3lhEIP_o2CwGupSfwRHUL86xPjWgssXd",
       "installs": "10,000,000+",
-      "real_installs": 40847634,
+      "real_installs": 40885587,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/0xV1aTDHkI9MAyGIKkp231yB9chqvVtvoC6olF5vC4H6wtv7ATSfRE_RQaN5HRJkUf_znjeKpoHLBRJLDTC2IQ",
@@ -10095,7 +10157,7 @@
       "release_date": "Jul 6, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
       "found_date": "2026-06-30",
-      "velocity": 1173913
+      "velocity": 1211866
     },
     {
       "app_id": "com.mahjong.master.solitaire.match.puzzle",
@@ -10304,7 +10366,7 @@
       "name": "Toon Blast",
       "icon": "https://play-lh.googleusercontent.com/ekfU_7pbR8Oj6vDY9JCznGiMwQm96gmatyBlv9MyvgPnNhmodMo1fZgrQu7NfQ9WY2K4DIxd7TyETGgXH2qq",
       "installs": "100,000,000+",
-      "real_installs": 132790214,
+      "real_installs": 132848188,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/vXIvIxqpDikdWI3-zs_01QW7tPxthRjMplnKCJNGsfugnvnIC4-OEw2x49aMPOqy2ncfTiUjx-h7tTHv33a3M8s",
@@ -10320,7 +10382,7 @@
       "release_date": "Aug 25, 2017",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
       "found_date": "2026-06-28",
-      "velocity": 2417772
+      "velocity": 2475746
     },
     {
       "app_id": "com.a25apps.HillClimber",
@@ -10707,7 +10769,7 @@
       "name": "Car Parking Games: Bus Madness",
       "icon": "https://play-lh.googleusercontent.com/nbmVNGBwY2Det_2P1KviCSAOz3Pz3IYm5WubcRtMsoyvkJFnhtWCft4kx39UTeedjAN6HCK3TurC7Y_bnmO9ow",
       "installs": "1,000,000+",
-      "real_installs": 2234046,
+      "real_installs": 2261009,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ZN_FGFRBVd-UJdC5_jT7bk7xRq9BTK7XvY1OBCW-ejzNb8-TkSh0X7usZ6Mhi0qu3ApzJLMEmubH6aJQS5e1jQ",
@@ -10731,7 +10793,7 @@
       "release_date": "May 26, 2025",
       "url": "https://play.google.com/store/apps/details?id=bus.games.car.out.traffic.parking.jam.escape.puzzle",
       "found_date": "2026-06-26",
-      "velocity": 1276329
+      "velocity": 1303292
     },
     {
       "app_id": "find.differences.online.puzzle.games",
