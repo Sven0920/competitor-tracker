@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 16:55",
+  "updated_at": "2026-08-31 19:21",
   "games": [
     {
       "app_id": "6797371084",
@@ -385,7 +385,7 @@
       "name": "Angry Smash",
       "icon": "https://play-lh.googleusercontent.com/k4AB_lN-hyvN-ZrkQSvW24AAmGFbuHG81wLfY-n9S_jMFsgZf_UjtUtfLsHDxVLX3HKjx3sZuht4sUefe6QX",
       "installs": "100,000+",
-      "real_installs": 225793,
+      "real_installs": 246647,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/VmI3TVDki84nbTCkObfJ3UKRA44VvyNqu8cBDJRPP76y2MTW8uH5ZXPTQS0ii9xQp1wt_yrT8yFxfEJDvICeHw",
@@ -401,7 +401,7 @@
       "release_date": "Jul 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.angrysmash",
       "found_date": "2026-08-27",
-      "velocity": 24947
+      "velocity": 45801
     },
     {
       "app_id": "com.gimica.jigsaw",
@@ -1083,7 +1083,7 @@
       "name": "VolleyCraft",
       "icon": "https://play-lh.googleusercontent.com/iQdynMz1CTIQxcItRj3PuQNH8MouRXvj-ZEE472GcsJeut2By_5rtHF53qC2HR7xsumlqMnWq2BrR1UzM_LK",
       "installs": "50,000+",
-      "real_installs": 88009,
+      "real_installs": 91655,
       "genre": "Strategy",
       "shots": [
         "https://play-lh.googleusercontent.com/XwBzAGq9B6Dz0UXGFHbUWwhYFQno8MfPA55AqOVG54I7ARYJeq7VOgkhV-c5IGsiMCtUq-e3pJMdK9acP_hRpg",
@@ -1099,7 +1099,7 @@
       "release_date": "Oct 8, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.ArcaneBlast.VolleyCraft",
       "found_date": "2026-08-21",
-      "velocity": 15542
+      "velocity": 19188
     },
     {
       "app_id": "com.gentlegame.flyingcut",
@@ -7465,7 +7465,7 @@
       "name": "Wordscapes Search: Word Games",
       "icon": "https://play-lh.googleusercontent.com/QFDK6LZNu3-m1nLilhP5O_FlggHmLf4H0AxJOE3hWnA9VpLoQne551SrqOTBcHri10mVaEn5kO9Io4Tou7df7zc",
       "installs": "10,000,000+",
-      "real_installs": 33679300,
+      "real_installs": 33693963,
       "genre": "Word",
       "shots": [
         "https://play-lh.googleusercontent.com/QTrpxxTKgHoTr_zT0EZ1jlbiWM6qo63R_Fm-rviV63Y5klEHM0n7QCGj6je0v9TjEEDs1QBUqhdZq8BvnnA",
@@ -7490,7 +7490,7 @@
       "release_date": "Nov 22, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsearch",
       "found_date": "2026-07-19",
-      "velocity": 317122
+      "velocity": 331785
     },
     {
       "app_id": "com.peoplefun.wordsolitaire",
@@ -9412,8 +9412,8 @@
       "platform": "Android",
       "name": "Bubblepics - Pop Jigsaw Puzzle",
       "icon": "https://play-lh.googleusercontent.com/YTaBe0a_weEVLl3mR2Z5DDuszJJb0vkCw3096Q8D_DOMVOErw9drYQjJKmbekje9GcUZuCwd2PhFkflZ_DkJ-A",
-      "installs": "500,000+",
-      "real_installs": 988203,
+      "installs": "1,000,000+",
+      "real_installs": 1003263,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/EnIgU4pPUjdIh1MQcme0Cx3-csYMyc6ASCofy-Rrj7MuJuMsPjTMLjVhViW8oreuuKlEsqqYTnP-Mur5LLgW",
@@ -9429,7 +9429,7 @@
       "release_date": "Jun 9, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.oakever.bubblepics",
       "found_date": "2026-07-15",
-      "velocity": 618932
+      "velocity": 633992
     },
     {
       "app_id": "6786721739",
@@ -9876,7 +9876,7 @@
       "name": "Toy Blast",
       "icon": "https://play-lh.googleusercontent.com/bJIPmnpZodfFL2mZKmEzx1o4aoSoIB1F10T7eCtq8Nm5WjBiEAeaJy7xJ9Y6G8_y_fCpsXQfZoe1VelBn-GJZw",
       "installs": "100,000,000+",
-      "real_installs": 110011549,
+      "real_installs": 110022297,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/Wb78Qf8XhK1UKASl0aBF3k-VrAx6zb03BvmEnDZ0rHkCGYFkuSwJLCzDXLSmfXstsaI5ZxCWngq-hkS2UHZQFg",
@@ -9892,7 +9892,7 @@
       "release_date": "Dec 12, 2014",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
       "found_date": "2026-07-07",
-      "velocity": 431981
+      "velocity": 442729
     },
     {
       "app_id": "jp.co.goodroid.hyper.tetoteto",
