@@ -38011,5 +38011,34 @@
             "gb",
             "mx"
         ]
+    },
+    "6797371084": {
+        "name": "Color Loop Sort Game",
+        "regions": [
+            "ph",
+            "mx",
+            "id",
+            "ca",
+            "br",
+            "gb",
+            "au",
+            "tr",
+            "us"
+        ]
+    },
+    "6796178958": {
+        "name": "Dream Flow : Jelly Colony",
+        "regions": [
+            "ph",
+            "mx",
+            "id",
+            "ca",
+            "br",
+            "gb",
+            "au",
+            "tr",
+            "us",
+            "vn"
+        ]
     }
 }
