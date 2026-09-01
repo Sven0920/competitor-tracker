@@ -38040,5 +38040,20 @@
             "us",
             "vn"
         ]
+    },
+    "6804960908": {
+        "name": "Cat Pack Heroes",
+        "regions": [
+            "mx",
+            "tr",
+            "id",
+            "br",
+            "gb",
+            "ca",
+            "ph",
+            "vn",
+            "au",
+            "us"
+        ]
     }
 }
