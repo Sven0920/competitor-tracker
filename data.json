@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 16:04",
+  "updated_at": "2026-09-01 17:47",
   "games": [
     {
       "app_id": "6804960908",
@@ -417,7 +417,7 @@
       "name": "Angry Smash",
       "icon": "https://play-lh.googleusercontent.com/k4AB_lN-hyvN-ZrkQSvW24AAmGFbuHG81wLfY-n9S_jMFsgZf_UjtUtfLsHDxVLX3HKjx3sZuht4sUefe6QX",
       "installs": "100,000+",
-      "real_installs": 246647,
+      "real_installs": 254768,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/VmI3TVDki84nbTCkObfJ3UKRA44VvyNqu8cBDJRPP76y2MTW8uH5ZXPTQS0ii9xQp1wt_yrT8yFxfEJDvICeHw",
@@ -433,7 +433,7 @@
       "release_date": "Jul 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.angrysmash",
       "found_date": "2026-08-27",
-      "velocity": 45801
+      "velocity": 53922
     },
     {
       "app_id": "com.gimica.jigsaw",
@@ -2160,7 +2160,7 @@
       "name": "Rush Attack",
       "icon": "https://play-lh.googleusercontent.com/lxs2mRqyTBBESUz8yzGx32zuc0SByD5mmUmun5gzKSWlcX70XEzYblIqStNO0qsnHFzDWwjZvKcaebDWVj5j5w",
       "installs": "10,000+",
-      "real_installs": 24626,
+      "real_installs": 25724,
       "genre": "Action",
       "shots": [
         "https://play-lh.googleusercontent.com/lv4DR4xTfINUoGHaAe386cJmgwD-UyFL2Rt4tqvacsMNet3mmeO_M2D_2v0zHaacTo6HmXZ29x_kJZpVyeaPZHc",
@@ -2180,7 +2180,7 @@
       "release_date": "Aug 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.spellbindgames.doomsquad",
       "found_date": "2026-08-21",
-      "velocity": 19656
+      "velocity": 20754
     },
     {
       "app_id": "dasi.prs2.lumberchopper",
@@ -3439,7 +3439,7 @@
       "name": "Splash Kingdom: Tower Blast",
       "icon": "https://play-lh.googleusercontent.com/qYouRKCNYHMengngJ0kAxuKRJDEy7A1I8T5TirK75agEKXupew7xm4g1SNzlPp8ZmrLHqz1zJ2pXvNaneuQbKA",
       "installs": "10,000+",
-      "real_installs": 21746,
+      "real_installs": 21758,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/qzLXfHRs1vj9h8ersfz_QLCWdpnwD_XynnxiC-oaL2lQWdrzjt6drzbzwXB9yklB36KAqJFgglcEbeEmErPW-C0",
@@ -3455,7 +3455,7 @@
       "release_date": "Jul 23, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.moonactive.splashroyale",
       "found_date": "2026-08-10",
-      "velocity": 20584
+      "velocity": 20596
     },
     {
       "app_id": "jp.co.goodroid.hyper.puzzle.packingrush",
@@ -6957,7 +6957,7 @@
       "name": "Dice Dreams™️",
       "icon": "https://play-lh.googleusercontent.com/5MLgC2WWXcq1Pol8qRAXOKzIJY9qySkjF43DnWyd5F9fPj_heinHeIxvgIpPQwcaQ1w-mUzUmoP1Xeslf29irg",
       "installs": "50,000,000+",
-      "real_installs": 67046179,
+      "real_installs": 67054098,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/y682vRbnQJwYNQvgRdkaCgpOFZ0q03dVwcj1NuYFpK-KyKnJvHHqvestAE1WS0cP-tw-6kY7VTug7mJKN4D5sQ",
@@ -6982,7 +6982,7 @@
       "release_date": "Dec 3, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams",
       "found_date": "2026-07-24",
-      "velocity": 391699
+      "velocity": 399618
     },
     {
       "app_id": "com.screenshake.dominodreams",
@@ -7024,7 +7024,7 @@
       "name": "Disney Solitaire",
       "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM",
       "installs": "10,000,000+",
-      "real_installs": 18807428,
+      "real_installs": 18813526,
       "genre": "Card",
       "shots": [
         "https://play-lh.googleusercontent.com/vPrs7AcAXSV5mn9nxNwu2UbvTZncptFYmpM4dSbCV7EtGjjThnQ9__n4NshDDFHS_6UdsE7iBHGleHtKGzBUGw",
@@ -7048,7 +7048,7 @@
       "release_date": "Apr 16, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
       "found_date": "2026-07-24",
-      "velocity": 481492
+      "velocity": 487590
     },
     {
       "app_id": "br.com.brsuper.superplayer",
@@ -7735,7 +7735,7 @@
       "name": "Word Stacks",
       "icon": "https://play-lh.googleusercontent.com/4vsbTXx3z_u4WjKN7ymuRffbt83WNahiVBNjfL15zD3-pelrGKDkfalU1u6Pu_x9P5nVjs7qj-jjGehfKsqGtAQ",
       "installs": "10,000,000+",
-      "real_installs": 13762967,
+      "real_installs": 13763041,
       "genre": "Word",
       "shots": [
         "https://play-lh.googleusercontent.com/8t1CK5EDTpJ_ywFPBEf8KE5PzjWN7SGYtRQ1e-C6kk9db3vBp-WXC6vFQJGxYot-UanySZwLfuAsK0edPedD1w",
@@ -7759,7 +7759,7 @@
       "release_date": "Oct 3, 2018",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordstacks",
       "found_date": "2026-07-19",
-      "velocity": 4692
+      "velocity": 4766
     },
     {
       "app_id": "com.peoplefun.bricksnballs",
@@ -10236,7 +10236,7 @@
       "name": "Hexa Sort",
       "icon": "https://play-lh.googleusercontent.com/BPi6szhCZr0mJlSl9mT7j8HChhRsz6F-UIkaz60JrUGrhPIzbyUa3lhEIP_o2CwGupSfwRHUL86xPjWgssXd",
       "installs": "10,000,000+",
-      "real_installs": 40923783,
+      "real_installs": 40939454,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/0xV1aTDHkI9MAyGIKkp231yB9chqvVtvoC6olF5vC4H6wtv7ATSfRE_RQaN5HRJkUf_znjeKpoHLBRJLDTC2IQ",
@@ -10252,7 +10252,7 @@
       "release_date": "Jul 6, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
       "found_date": "2026-06-30",
-      "velocity": 1250062
+      "velocity": 1265733
     },
     {
       "app_id": "com.mahjong.master.solitaire.match.puzzle",
@@ -10261,7 +10261,7 @@
       "name": "Mahjong Master: Daily Match",
       "icon": "https://play-lh.googleusercontent.com/nUHFn87Lc2AifraSGdQH3DnwOZNzwEj25zYYk3qz3lsxsAa5p_RbXwCHZg38XpZMOcc4KQqlSMWJHfZiBMzErQ",
       "installs": "5,000,000+",
-      "real_installs": 8819593,
+      "real_installs": 8876503,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/S2hdXWDGDvyDeolUw7n2vFHrVURcnsxlMcQKBgPzNGB94yg-3_5oqkxlQgHpB3ih7P4Ab1l3naW6e2V9yKxDb6g",
@@ -10278,7 +10278,7 @@
       "release_date": "Jan 22, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mahjong.master.solitaire.match.puzzle",
       "found_date": "2026-06-30",
-      "velocity": 5019353
+      "velocity": 5076263
     },
     {
       "app_id": "com.puzzle.bearknit",
@@ -10864,7 +10864,7 @@
       "name": "Car Parking Games: Bus Madness",
       "icon": "https://play-lh.googleusercontent.com/nbmVNGBwY2Det_2P1KviCSAOz3Pz3IYm5WubcRtMsoyvkJFnhtWCft4kx39UTeedjAN6HCK3TurC7Y_bnmO9ow",
       "installs": "1,000,000+",
-      "real_installs": 2287085,
+      "real_installs": 2299317,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ZN_FGFRBVd-UJdC5_jT7bk7xRq9BTK7XvY1OBCW-ejzNb8-TkSh0X7usZ6Mhi0qu3ApzJLMEmubH6aJQS5e1jQ",
@@ -10888,7 +10888,7 @@
       "release_date": "May 26, 2025",
       "url": "https://play.google.com/store/apps/details?id=bus.games.car.out.traffic.parking.jam.escape.puzzle",
       "found_date": "2026-06-26",
-      "velocity": 1329368
+      "velocity": 1341600
     },
     {
       "app_id": "find.differences.online.puzzle.games",
