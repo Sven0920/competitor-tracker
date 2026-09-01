@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 17:47",
+  "updated_at": "2026-09-01 19:54",
   "games": [
     {
       "app_id": "6804960908",
@@ -31,6 +31,35 @@
       "iap_info": "未知",
       "release_date": "2026-08-31",
       "url": "https://apps.apple.com/us/app/cat-pack-heroes/id6804960908?uo=4",
+      "found_date": "2026-09-01"
+    },
+    {
+      "app_id": "6795529819",
+      "developer": "Tripledot",
+      "platform": "iOS",
+      "name": "Shikacat: Logic Puzzle Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/64/b0/e164b0b6-8d14-38c3-3f0d-9f39bbcb51ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "ratings": 0,
+      "genre": "Strategy",
+      "shots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/27/5e/f7275ed9-ea45-fc7a-4eba-0fede95ea781/001_SKC_iOS_Initial_Screenshots_EN_1242x2688_1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/67/53/d8675339-3399-8e70-c82a-29faad5c98d2/001_SKC_iOS_Initial_Screenshots_EN_1242x2688_2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/87/fb/8387fb97-d714-aee1-5bb4-ebf41735ae3f/001_SKC_iOS_Initial_Screenshots_EN_1242x2688_3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/36/64/973664b7-2a92-588d-010c-886cd18cb541/001_SKC_iOS_Initial_Screenshots_EN_1242x2688_4.jpg/320x480bb.jpg"
+      ],
+      "regions": [
+        "mx",
+        "gb",
+        "au",
+        "ca",
+        "us",
+        "tr",
+        "ph"
+      ],
+      "size": "256.2 MB",
+      "iap_info": "未知",
+      "release_date": "2026-09-01",
+      "url": "https://apps.apple.com/us/app/shikacat-logic-puzzle-game/id6795529819?uo=4",
       "found_date": "2026-09-01"
     },
     {
@@ -1056,7 +1085,7 @@
       "name": "Car Sort: Color Puzzle",
       "icon": "https://play-lh.googleusercontent.com/dbDWQyuYW1A_LEyUjHekXzMT5tSgVlYttY_eIeMJxAHlTZcndTGfOKq4vMMKMJYvViZetQfnv-rfnkhXiPolLg",
       "installs": "500,000+",
-      "real_installs": 572065,
+      "real_installs": 577833,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/QsyIvXgb394d3KPA8GtLK1Xh6k4foLrgaXG_VxXt04X-z0vmjrfXfhhnTvoweR-Rp0-NagK_-4E4bRDq4h5FoLU",
@@ -1081,7 +1110,7 @@
       "release_date": "Apr 17, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
       "found_date": "2026-08-21",
-      "velocity": 81757
+      "velocity": 87525
     },
     {
       "app_id": "tk.jewels.rush",
@@ -3716,7 +3745,7 @@
       "name": "Bounce and collect",
       "icon": "https://play-lh.googleusercontent.com/Am0ffhUGEi2ceOaXXmwkJxXdnzdbYeyXZZqCLSUTP2AmdBCLIhIXv79_ezb3ejUBuVsjA6Cv40h-p8W2YCGNBQ",
       "installs": "10,000,000+",
-      "real_installs": 23452972,
+      "real_installs": 23453440,
       "genre": "Arcade",
       "shots": [
         "https://play-lh.googleusercontent.com/4PP0bJr5A7wJ6sdv3tAfwrZkxMN8PRjwSvI-uaLD4tIVzfn1q5fekmmPu2T0iqo3ikJfxBKzkTAbWOztv7II",
@@ -3732,7 +3761,7 @@
       "release_date": "Apr 9, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.dorotheebrondes.bounceandcollect",
       "found_date": "2026-08-08",
-      "velocity": 34378
+      "velocity": 34846
     },
     {
       "app_id": "com.mrmoble.flagpainters",
@@ -8645,7 +8674,7 @@
       "name": "Idle Miner Tycoon: Gold Games",
       "icon": "https://play-lh.googleusercontent.com/dRE5TRlOfWp6zNzUUKATOGpjg8wZkJrdtc6cjFhdmCg0ardxJxgDIOzD4fi9mnA7VpN72IlAZgI2mewj8L8w7g",
       "installs": "100,000,000+",
-      "real_installs": 175156648,
+      "real_installs": 175179798,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/BnRRAI4e17CpF0GI38NWkJ800xkuGLwrRQxGFK3QiWmf5FSKFt03A7EFjYiGWQ9pSKo0iMLRUv1ZSmEuGxVTN-k",
@@ -8665,7 +8694,7 @@
       "release_date": "Jun 30, 2016",
       "url": "https://play.google.com/store/apps/details?id=com.fluffyfairygames.idleminertycoon",
       "found_date": "2026-07-18",
-      "velocity": 1264755
+      "velocity": 1287905
     },
     {
       "app_id": "com.luckyskeletonstudios.idlebanktycoon",
@@ -9908,7 +9937,7 @@
       "name": "Toy Blast",
       "icon": "https://play-lh.googleusercontent.com/bJIPmnpZodfFL2mZKmEzx1o4aoSoIB1F10T7eCtq8Nm5WjBiEAeaJy7xJ9Y6G8_y_fCpsXQfZoe1VelBn-GJZw",
       "installs": "100,000,000+",
-      "real_installs": 110022297,
+      "real_installs": 110029303,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/Wb78Qf8XhK1UKASl0aBF3k-VrAx6zb03BvmEnDZ0rHkCGYFkuSwJLCzDXLSmfXstsaI5ZxCWngq-hkS2UHZQFg",
@@ -9924,7 +9953,7 @@
       "release_date": "Dec 12, 2014",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
       "found_date": "2026-07-07",
-      "velocity": 442729
+      "velocity": 449735
     },
     {
       "app_id": "jp.co.goodroid.hyper.tetoteto",
