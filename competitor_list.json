@@ -38067,5 +38067,66 @@
             "tr",
             "ph"
         ]
+    },
+    "6803838416": {
+        "name": "Pixel Hunt: Truck Flow Puzzle",
+        "regions": [
+            "ca",
+            "ph",
+            "id",
+            "au",
+            "us",
+            "gb",
+            "mx",
+            "tr",
+            "br"
+        ]
+    },
+    "6771319069": {
+        "name": "Caps Unlock",
+        "regions": [
+            "ca",
+            "ph",
+            "au",
+            "us",
+            "gb",
+            "mx",
+            "vn",
+            "tr"
+        ]
+    },
+    "6802246821": {
+        "name": "Arrow 3D Puzzle",
+        "regions": [
+            "ca",
+            "ph",
+            "id",
+            "au",
+            "us",
+            "gb",
+            "mx",
+            "vn",
+            "tr",
+            "br"
+        ]
+    },
+    "6805301575": {
+        "name": "Sand Traffic Fever",
+        "regions": [
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gurupuzzle.goods.tidy.jam.sorting": {
+        "name": "Item Escape - Goods 3D Sorting",
+        "regions": [
+            "tr",
+            "ph"
+        ]
     }
 }
