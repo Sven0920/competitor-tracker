@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02 17:16",
+  "updated_at": "2026-09-02 19:41",
   "games": [
     {
       "app_id": "6803838416",
@@ -1285,7 +1285,7 @@
       "name": "VolleyCraft",
       "icon": "https://play-lh.googleusercontent.com/iQdynMz1CTIQxcItRj3PuQNH8MouRXvj-ZEE472GcsJeut2By_5rtHF53qC2HR7xsumlqMnWq2BrR1UzM_LK",
       "installs": "50,000+",
-      "real_installs": 92813,
+      "real_installs": 97004,
       "genre": "Strategy",
       "shots": [
         "https://play-lh.googleusercontent.com/XwBzAGq9B6Dz0UXGFHbUWwhYFQno8MfPA55AqOVG54I7ARYJeq7VOgkhV-c5IGsiMCtUq-e3pJMdK9acP_hRpg",
@@ -1301,7 +1301,7 @@
       "release_date": "Oct 8, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.ArcaneBlast.VolleyCraft",
       "found_date": "2026-08-21",
-      "velocity": 20346
+      "velocity": 24537
     },
     {
       "app_id": "com.gentlegame.flyingcut",
@@ -6349,7 +6349,7 @@
       "name": "Hide 'N Seek!",
       "icon": "https://play-lh.googleusercontent.com/P3-bPJgDEoCXJYDeEF6J8FwJ3tFWM-6xG91cq5ImKZsJ8WkoWYkYF2BCLSHOvSwbvTXh9QzPSbILDOQko7IFjGQ",
       "installs": "100,000,000+",
-      "real_installs": 277187813,
+      "real_installs": 277232742,
       "genre": "Action",
       "shots": [
         "https://play-lh.googleusercontent.com/BwnEbrMfMiY4tgE03isQrM4HqwbGe1l3qxxlRij5WXYYdFYYWdfh-CXYfui-pVG2-jPkBs6qlaQBLdgTEZdj",
@@ -6365,7 +6365,7 @@
       "release_date": "Apr 23, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.seenax.HideAndSeek",
       "found_date": "2026-07-27",
-      "velocity": 942864
+      "velocity": 987793
     },
     {
       "app_id": "com.blueberrygames.gamel",
@@ -9510,7 +9510,7 @@
       "name": "Solitaire - Classic Card Games",
       "icon": "https://play-lh.googleusercontent.com/nVTU-EbcHkMg-KXt93shtsgX506v_zDBLG04H2pnp4Lom2J_mSp5gHO5YtZhCSpDpLJUgBYneCd5h6oDduKJ6Q",
       "installs": "50,000,000+",
-      "real_installs": 77443671,
+      "real_installs": 77538365,
       "genre": "Card",
       "shots": [
         "https://play-lh.googleusercontent.com/X65TmJEOX8iMI6TuUZTeYF5iHys5nNO2-LKlUStDTdZTjJrdrmURolHZbvuYeYnqf_76NqKTUJH6-ar0lpXbies",
@@ -9528,7 +9528,7 @@
       "release_date": "Apr 25, 2021",
       "url": "https://play.google.com/store/apps/details?id=solitaire.patience.card.games.klondike.free",
       "found_date": "2026-07-16",
-      "velocity": 2372140
+      "velocity": 2466834
     },
     {
       "app_id": "piggy.escape.jam.farm.puzzle.game",
@@ -9898,7 +9898,7 @@
       "name": "Jigsort - Jigsaw Puzzle Games",
       "icon": "https://play-lh.googleusercontent.com/n6nkxVfvZxWoQMEdnExYE631Jjj04g3v6L3o94I4s0Aw5bvpzDx847r_CkTli39KhwzJ6xjj1J1ZHC-99FZy",
       "installs": "500,000+",
-      "real_installs": 627733,
+      "real_installs": 628317,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/R0Z5QvEdo_o1u0T5kHj3iktW8DKjxIgxl4-Qotnl43mTti0oIs46YdZLUZ_JjpAGEy1t2-fOPEN0QOgiVZWz",
@@ -9914,7 +9914,7 @@
       "release_date": "Sep 22, 2023",
       "url": "https://play.google.com/store/apps/details?id=jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free",
       "found_date": "2026-07-09",
-      "velocity": 11938
+      "velocity": 12522
     },
     {
       "app_id": "blockpuzzle.game.block.puzzle",
@@ -10557,7 +10557,7 @@
       "name": "Spider Solitaire Classic Games",
       "icon": "https://play-lh.googleusercontent.com/2yHjFQ9dYwD3soOq4ybab4b7qIp6DwusDejDLHkD3synPfzwvT6A13fT55a8i4olV6hbKfAbK-6fajyUeTSDzQ",
       "installs": "5,000,000+",
-      "real_installs": 5884315,
+      "real_installs": 5894437,
       "genre": "Card",
       "shots": [
         "https://play-lh.googleusercontent.com/AqsBTX5vFuw_V5D9kT6LlToJorJxV7aa595LyGZB8FOKA8_xu3H6RnNOg8qeZ5elaTRXenbhAs4_edpr-HqqWO8",
@@ -10573,7 +10573,7 @@
       "release_date": "Sep 23, 2022",
       "url": "https://play.google.com/store/apps/details?id=spider.solitaire.card.games.free.klondike.patience",
       "found_date": "2026-06-29",
-      "velocity": 340491
+      "velocity": 350613
     },
     {
       "app_id": "6768921423",
@@ -11034,7 +11034,7 @@
       "name": "Car Parking Games: Bus Madness",
       "icon": "https://play-lh.googleusercontent.com/nbmVNGBwY2Det_2P1KviCSAOz3Pz3IYm5WubcRtMsoyvkJFnhtWCft4kx39UTeedjAN6HCK3TurC7Y_bnmO9ow",
       "installs": "1,000,000+",
-      "real_installs": 2299317,
+      "real_installs": 2328214,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ZN_FGFRBVd-UJdC5_jT7bk7xRq9BTK7XvY1OBCW-ejzNb8-TkSh0X7usZ6Mhi0qu3ApzJLMEmubH6aJQS5e1jQ",
@@ -11058,7 +11058,7 @@
       "release_date": "May 26, 2025",
       "url": "https://play.google.com/store/apps/details?id=bus.games.car.out.traffic.parking.jam.escape.puzzle",
       "found_date": "2026-06-26",
-      "velocity": 1341600
+      "velocity": 1370497
     },
     {
       "app_id": "find.differences.online.puzzle.games",

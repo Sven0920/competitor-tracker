@@ -12558,9 +12558,9 @@
         ]
     },
     "null": {
-        "name": "Goods 3D Sorting: Match Games",
+        "name": "Tile Clear - Puzzle Game",
         "regions": [
-            "ph"
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -38114,12 +38114,6 @@
         "name": "Sand Traffic Fever",
         "regions": [
             "us"
-        ]
-    },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
         ]
     },
     "com.gurupuzzle.goods.tidy.jam.sorting": {
