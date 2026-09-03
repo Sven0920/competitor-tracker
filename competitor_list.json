@@ -38122,5 +38122,47 @@
             "tr",
             "ph"
         ]
+    },
+    "6800372553": {
+        "name": "Paws Out",
+        "regions": [
+            "ca",
+            "vn",
+            "tr",
+            "mx",
+            "br",
+            "ph",
+            "gb",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "6797783494": {
+        "name": "Bean Battle: Princess Rescue",
+        "regions": [
+            "ca",
+            "tr",
+            "mx",
+            "br",
+            "ph",
+            "gb",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "6797463793": {
+        "name": "Association Cube",
+        "regions": [
+            "ca",
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
     }
 }
