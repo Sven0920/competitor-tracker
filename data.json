@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03 15:27",
+  "updated_at": "2026-09-03 17:18",
   "games": [
     {
       "app_id": "6800372553",
@@ -87,6 +87,30 @@
       "release_date": "2026-09-03",
       "url": "https://apps.apple.com/us/app/association-cube/id6797463793?uo=4",
       "found_date": "2026-09-03"
+    },
+    {
+      "app_id": "jp.co.goodroid.hyper.puzzle.catescape",
+      "developer": "GOODROID",
+      "platform": "Android",
+      "name": "Cat Escape",
+      "icon": "https://play-lh.googleusercontent.com/GscskK-jFuanLQ-y06ACfoXRPOe8yjI5FmaraxpnmMO_zDgDVTnunojniECsvhdYm-poU63gr0nc2F5Id-jnLA",
+      "installs": "5+",
+      "real_installs": 7,
+      "genre": "Puzzle",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Wr3clrtqI38ymH7-ZoP5jRREgaN-NbxFfXA21BbH36AHg2Kx2HQ3xwTuiCHTDoeCVo8heiGZKuvt4D2S2-DIrg",
+        "https://play-lh.googleusercontent.com/gQ98V7RKeptwt-yItFZPlL6dLqx2uRycvJAF0_3xxNTLN6-bYXXj1Si2UW0C5gVQo3f3fPiEOHOJ3MCcBwQU3A",
+        "https://play-lh.googleusercontent.com/vFNsaiOYzFVkHgibNWK8escrbHRro-ws-waJc99yMWjgUa0Jc9a_Cr8D4vg7w1FcPAMkDSfa-04vT25uMjoQ4kY"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": null,
+      "release_date": "Jul 22, 2026",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.catescape",
+      "found_date": "2026-09-03",
+      "velocity": 0
     },
     {
       "app_id": "6803838416",
@@ -674,7 +698,7 @@
       "name": "Angry Smash",
       "icon": "https://play-lh.googleusercontent.com/k4AB_lN-hyvN-ZrkQSvW24AAmGFbuHG81wLfY-n9S_jMFsgZf_UjtUtfLsHDxVLX3HKjx3sZuht4sUefe6QX",
       "installs": "100,000+",
-      "real_installs": 274972,
+      "real_installs": 275115,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/VmI3TVDki84nbTCkObfJ3UKRA44VvyNqu8cBDJRPP76y2MTW8uH5ZXPTQS0ii9xQp1wt_yrT8yFxfEJDvICeHw",
@@ -690,7 +714,7 @@
       "release_date": "Jul 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.angrysmash",
       "found_date": "2026-08-27",
-      "velocity": 74126
+      "velocity": 74269
     },
     {
       "app_id": "com.gimica.jigsaw",
@@ -5029,7 +5053,7 @@
       "name": "Traffic Jam Fever",
       "icon": "https://play-lh.googleusercontent.com/sGsPJYcWdTSF0bnQwu9KDfucH5pNagE8qVmXj5KAZlDn3cL3McNzvUEUSuJHcd56i4e57DMgc5pYb-L7MzDa4KU",
       "installs": "10,000,000+",
-      "real_installs": 25223364,
+      "real_installs": 25223409,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/39-mZG48RipfUOYJXkWq2fW9mK0qywQ-_zY2M8GBEssr-GZidvWucwpE8wuhmsWo-iIoQfUnicOsd6W15JFP",
@@ -5051,7 +5075,7 @@
       "release_date": "Nov 22, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever",
       "found_date": "2026-08-05",
-      "velocity": 11618
+      "velocity": 11663
     },
     {
       "app_id": "com.VectorUpGames.TallManRun",
@@ -7248,7 +7272,7 @@
       "name": "Domino Dreams™",
       "icon": "https://play-lh.googleusercontent.com/KPBcFtNGNn3cMtgFthtbrWL0COVs5bINj1aQYniBa6JxgI-FAkce2czhVONttEtLQXnfd0X5rHA6YGMHp3nfWw",
       "installs": "10,000,000+",
-      "real_installs": 19135035,
+      "real_installs": 19135236,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/jukbFRIm9fMZaywXTpSb2WEOTStmmW4NTo_TYjzqFWBC2Nd6hM7aBrClkH8vq8HPiZm-p9c_j-yNdm_k_Cbz",
@@ -7272,7 +7296,7 @@
       "release_date": "Jan 10, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.screenshake.dominodreams",
       "found_date": "2026-07-24",
-      "velocity": 60154
+      "velocity": 60355
     },
     {
       "app_id": "com.superplaystudios.disneysolitairedreams",
@@ -8877,7 +8901,7 @@
       "name": "Fluffy Drop",
       "icon": "https://play-lh.googleusercontent.com/U1R66y51hyQZIviPAfE7dSBl1_gIUOg1Sd0uPHXlNtvJ1Vzc6WiJEaxCb0VvpN2qWTTKG2MWl5h7WR35iQi9OQ",
       "installs": "1,000,000+",
-      "real_installs": 2969811,
+      "real_installs": 2970377,
       "genre": "Trivia",
       "shots": [
         "https://play-lh.googleusercontent.com/XDi0eVe7HTUspaRH2HnF3CqLGnTvclKgSWSpMJB6RhXt7V9X4fWsrxDD-nnIbZsv6_mszk9EIt7dzWfvCSAf",
@@ -8893,7 +8917,7 @@
       "release_date": "Mar 29, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.fluffydrop.op.gp",
       "found_date": "2026-07-18",
-      "velocity": 369306
+      "velocity": 369872
     },
     {
       "app_id": "com.fluffyfairygames.idleminertycoon",
@@ -9702,7 +9726,7 @@
       "name": "Bubblepics - Pop Jigsaw Puzzle",
       "icon": "https://play-lh.googleusercontent.com/YTaBe0a_weEVLl3mR2Z5DDuszJJb0vkCw3096Q8D_DOMVOErw9drYQjJKmbekje9GcUZuCwd2PhFkflZ_DkJ-A",
       "installs": "1,000,000+",
-      "real_installs": 1021020,
+      "real_installs": 1021087,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/EnIgU4pPUjdIh1MQcme0Cx3-csYMyc6ASCofy-Rrj7MuJuMsPjTMLjVhViW8oreuuKlEsqqYTnP-Mur5LLgW",
@@ -9718,7 +9742,7 @@
       "release_date": "Jun 9, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.oakever.bubblepics",
       "found_date": "2026-07-15",
-      "velocity": 51184
+      "velocity": 51251
     },
     {
       "app_id": "6786721739",
@@ -10518,7 +10542,7 @@
       "name": "Mahjong Master: Daily Match",
       "icon": "https://play-lh.googleusercontent.com/nUHFn87Lc2AifraSGdQH3DnwOZNzwEj25zYYk3qz3lsxsAa5p_RbXwCHZg38XpZMOcc4KQqlSMWJHfZiBMzErQ",
       "installs": "5,000,000+",
-      "real_installs": 9031478,
+      "real_installs": 9033656,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/S2hdXWDGDvyDeolUw7n2vFHrVURcnsxlMcQKBgPzNGB94yg-3_5oqkxlQgHpB3ih7P4Ab1l3naW6e2V9yKxDb6g",
@@ -10535,7 +10559,7 @@
       "release_date": "Jan 22, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mahjong.master.solitaire.match.puzzle",
       "found_date": "2026-06-30",
-      "velocity": 523291
+      "velocity": 525469
     },
     {
       "app_id": "com.puzzle.bearknit",
@@ -10718,7 +10742,7 @@
       "name": "Toon Blast",
       "icon": "https://play-lh.googleusercontent.com/ekfU_7pbR8Oj6vDY9JCznGiMwQm96gmatyBlv9MyvgPnNhmodMo1fZgrQu7NfQ9WY2K4DIxd7TyETGgXH2qq",
       "installs": "100,000,000+",
-      "real_installs": 132988311,
+      "real_installs": 132989451,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/vXIvIxqpDikdWI3-zs_01QW7tPxthRjMplnKCJNGsfugnvnIC4-OEw2x49aMPOqy2ncfTiUjx-h7tTHv33a3M8s",
@@ -10734,7 +10758,7 @@
       "release_date": "Aug 25, 2017",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
       "found_date": "2026-06-28",
-      "velocity": 198097
+      "velocity": 199237
     },
     {
       "app_id": "com.a25apps.HillClimber",

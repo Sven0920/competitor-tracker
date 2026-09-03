@@ -38164,5 +38164,11 @@
         "regions": [
             "vn"
         ]
+    },
+    "jp.co.goodroid.hyper.puzzle.catescape": {
+        "name": "Cat Escape",
+        "regions": [
+            "us"
+        ]
     }
 }
