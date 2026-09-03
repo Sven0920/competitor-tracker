@@ -38159,16 +38159,24 @@
             "us"
         ]
     },
+    "jp.co.goodroid.hyper.puzzle.catescape": {
+        "name": "Cat Escape",
+        "regions": [
+            "us"
+        ]
+    },
     "null": {
         "name": "Tile Clear - Puzzle Game",
         "regions": [
             "vn"
         ]
     },
-    "jp.co.goodroid.hyper.puzzle.catescape": {
-        "name": "Cat Escape",
+    "and.brainworks.holeswallowstile": {
+        "name": "Hole Swallows Tile: Black Hole",
         "regions": [
-            "us"
+            "id",
+            "gb",
+            "mx"
         ]
     }
 }
