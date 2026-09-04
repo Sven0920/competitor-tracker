@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 15:30",
+  "updated_at": "2026-09-04 17:16",
   "games": [
     {
       "app_id": "6788289259",
@@ -5509,7 +5509,7 @@
       "name": "Amaze Escape: Tap Away Puzzle",
       "icon": "https://play-lh.googleusercontent.com/0LhxeEKmKqfouwNhgipSudX3YGcqwl1N0NHykSuo0lgRtW_wO-rTVqFtHndQwkpXZkoW0wXgL-LF19tvcle5",
       "installs": "1,000,000+",
-      "real_installs": 2131743,
+      "real_installs": 2132213,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/hqJL1d_E2XTxQiJb-gLR3rzJfCNkiueD9h0iYlNS7YagDRp9PNnNFMLKYm3hQnF2pDdjd3NF77wt9mbv-5CM7fQ",
@@ -5525,7 +5525,7 @@
       "release_date": "Jun 1, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.arrow.maze.tap.away.puzzle",
       "found_date": "2026-08-02",
-      "velocity": 158209
+      "velocity": 158679
     },
     {
       "app_id": "com.match.mahjong.tile.fruit.puzzle.games",
@@ -8415,7 +8415,7 @@
       "name": "Age Of Sails",
       "icon": "https://play-lh.googleusercontent.com/DEcJZtTuQIut05BDNpRWMOG26xFmtj2K6Su7spH9ebciWrP9nRcGhsn1UjEqh2kHk1GwsVToDJs1NmxSFBNQjg",
       "installs": "1,000,000+",
-      "real_installs": 2038372,
+      "real_installs": 2038404,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/kMA55JCIRmE2KKnAhiibWPmRjcBmje8fXg5kV9TsES1_zzFfgqJ5Xa15hUH4kdKgzmQJWo5wQeboqQ59amenw94",
@@ -8440,7 +8440,7 @@
       "release_date": "Nov 6, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.age.sails",
       "found_date": "2026-07-18",
-      "velocity": 7764
+      "velocity": 7796
     },
     {
       "app_id": "com.NewFolderGames.IAmSecurirty",
@@ -8551,7 +8551,7 @@
       "name": "Frost World - Snow Survival",
       "icon": "https://play-lh.googleusercontent.com/H3LSpiBHE9GO5wt9oq0iEJIIxR033zYOSRCJu6OsXfnunu4LfQH53y7LVwOcfSMn09K-Gl-nYyvW-Mi2Rm0A",
       "installs": "10,000,000+",
-      "real_installs": 13400771,
+      "real_installs": 13401525,
       "genre": "Role Playing",
       "shots": [
         "https://play-lh.googleusercontent.com/sDYF9hkz-DMkwyJVcksbzY6OVCxbDZRd1XmpLGrCpsslCF_5M-FLduRfK4wiYgurGP63z_SwkhNtIVDdAwDGEA",
@@ -8576,7 +8576,7 @@
       "release_date": "Nov 29, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.winter.breaker",
       "found_date": "2026-07-18",
-      "velocity": 116621
+      "velocity": 117375
     },
     {
       "app_id": "com.NewFolderGames.IAmCat",
@@ -9606,7 +9606,7 @@
       "name": "Pixel Honey: Color Cube Puzzle",
       "icon": "https://play-lh.googleusercontent.com/ZEt6WPltQMUsDRYrgfBEku_l0e3cTr4T0TiGMbmRoqDpFOfcUTsGToUwkDzJ0Ar3DsyMBmQotbRpg5Ct6-Jvpw",
       "installs": "10,000+",
-      "real_installs": 20514,
+      "real_installs": 20517,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/FejXVX4gu7Ml8E17Q_i7bvjiqEIK-tiyyiehfU7LgrNjlyFFcPKqTXdfhbTVX_FdFcdYK6KlGcRrL3JnkeTJwQ",
@@ -9624,7 +9624,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.honey.cube.color.pixel",
       "found_date": "2026-07-16",
-      "velocity": 2132
+      "velocity": 2135
     },
     {
       "app_id": "com.abi.colony.flow",
