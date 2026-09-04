@@ -38165,18 +38165,57 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "and.brainworks.holeswallowstile": {
         "name": "Hole Swallows Tile: Black Hole",
         "regions": [
             "id",
             "gb",
             "mx"
+        ]
+    },
+    "6788289259": {
+        "name": "Artie's Jigsaw Adventure",
+        "regions": [
+            "us",
+            "vn",
+            "gb",
+            "ph",
+            "mx",
+            "tr",
+            "ca",
+            "au"
+        ]
+    },
+    "6759088199": {
+        "name": "Astro Merge",
+        "regions": [
+            "us",
+            "vn",
+            "gb",
+            "ph",
+            "mx",
+            "tr",
+            "ca",
+            "au"
+        ]
+    },
+    "6758054291": {
+        "name": "Do Not Pop!",
+        "regions": [
+            "us",
+            "vn",
+            "gb",
+            "ph",
+            "mx",
+            "tr",
+            "ca",
+            "au"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
         ]
     }
 }
