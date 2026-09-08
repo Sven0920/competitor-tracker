@@ -38217,5 +38217,25 @@
         "regions": [
             "vn"
         ]
+    },
+    "com.hitappsgames.ascube": {
+        "name": "Association Cube",
+        "regions": [
+            "us"
+        ]
+    },
+    "nutsnbolts.color.jam.screw.puzzle": {
+        "name": "Screw Pin Jam: Nuts & Bolts",
+        "regions": [
+            "mx",
+            "tr",
+            "br"
+        ]
+    },
+    "com.shoot.monster.yns": {
+        "name": "Shoot The Monster",
+        "regions": [
+            "vn"
+        ]
     }
 }

@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-09-07 15:33",
+  "updated_at": "2026-09-08 15:30",
   "games": [
+    {
+      "app_id": "com.hitappsgames.ascube",
+      "developer": "Hitapps",
+      "platform": "Android",
+      "name": "Association Cube",
+      "icon": "https://play-lh.googleusercontent.com/7VEHnKHfBFyPSKbb6k_V2QR9xQxassNaMNp8YRhB1dpvPtBUznMH6FGYtO5cUdMVPcJyPVpbNUgzzzdL3tza",
+      "installs": "1,000+",
+      "real_installs": 4094,
+      "genre": "Casual",
+      "shots": [
+        "https://play-lh.googleusercontent.com/Zbi5lUqVwDxFrJAes6aouceE_lNQ1Qa6hM0ehcOOD53X-EIpnVx0_0reFUJkLzuAJJyWtL19_55YD87TS6IVdw",
+        "https://play-lh.googleusercontent.com/JNL8FryhJ4Z3ED41xnsz2ciWp_m5sMwl5K-k63pO87MTIXF-a3Zwzt5ATngOvVelW0GYWyersH6M2tmfwo9eig",
+        "https://play-lh.googleusercontent.com/sDbPAhdR6gU7fpOTDmQaDf-x_eHe0dws0UqApDgiHoBy8gKjJBc62AaIscOcv_8u2TeWrhgzVO-q3u3tP5kC",
+        "https://play-lh.googleusercontent.com/rbJGqmuZr5yxvjdLhknZuh6UPRcOaIVSVxRtUcyWdBnECbJjA5eXywwkENT8x5ODKmhF0J7A6obHocoT2ejvhw"
+      ],
+      "regions": [
+        "us"
+      ],
+      "size": "因设备而异",
+      "iap_info": "$1.99 - $79.99 per item",
+      "release_date": "Jul 16, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.hitappsgames.ascube",
+      "found_date": "2026-09-08",
+      "velocity": 0
+    },
     {
       "app_id": "6788289259",
       "developer": "Gimica",
@@ -347,7 +372,7 @@
       "name": "Item Escape - Goods 3D Sorting",
       "icon": "https://play-lh.googleusercontent.com/4VtU6vUPNu8pHj4poYI3VZs1bPpVL9E9_oKjwA6NZuFTDD7T6nh1aOqyU8W_4f42nSgr3E-W_jpVOXIDD9y8jA",
       "installs": "100,000+",
-      "real_installs": 140110,
+      "real_installs": 141152,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ERjAQ4K8uduWOqTOOIDQDPCFmP50fEGBbzZHWwOcImDZamTXnTEG5H43hL78iVKQ_ljjPTNIrM9wxpTLA-dy",
@@ -364,7 +389,7 @@
       "release_date": "Jul 29, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gurupuzzle.goods.tidy.jam.sorting",
       "found_date": "2026-09-02",
-      "velocity": 26
+      "velocity": 1068
     },
     {
       "app_id": "6804960908",
@@ -657,7 +682,7 @@
       "release_date": "Jun 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.arrow.match.arrows.puzzle.games.tiles.game",
       "found_date": "2026-08-28",
-      "velocity": 1184
+      "velocity": 935
     },
     {
       "app_id": "com.nep.tr.hybrid.boingninja",
@@ -666,7 +691,7 @@
       "name": "Boing Ninja",
       "icon": "https://play-lh.googleusercontent.com/0ylS20iWFbE3UGKAFo9vSwEsjvWTec0BSgH33uAzDSocifxR3iyYa2HrAl3PjsSUEX_EKcu421ekLPdi8C068Bg",
       "installs": "10,000+",
-      "real_installs": 37531,
+      "real_installs": 37540,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/Sooqr2NNm7GnXqRWDFLA41v8vczgzMdB0Murn95VNfsrV8az0Cem6rMBbiOKMHwtXoyqgq8IhIbqFT0C6U9_dw",
@@ -690,7 +715,7 @@
       "release_date": "May 13, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.nep.tr.hybrid.boingninja",
       "found_date": "2026-08-28",
-      "velocity": 18
+      "velocity": 27
     },
     {
       "app_id": "6802957277",
@@ -802,7 +827,7 @@
       "release_date": "May 29, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ristretto.spinsiege",
       "found_date": "2026-08-27",
-      "velocity": 22
+      "velocity": 15
     },
     {
       "app_id": "com.tripledot.angrysmash",
@@ -827,7 +852,7 @@
       "release_date": "Jul 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.angrysmash",
       "found_date": "2026-08-27",
-      "velocity": 28468
+      "velocity": 20347
     },
     {
       "app_id": "com.gimica.jigsaw",
@@ -835,8 +860,8 @@
       "platform": "Android",
       "name": "Artie's Jigsaw Adventure",
       "icon": "https://play-lh.googleusercontent.com/0JWO0y_vdfBW5NzSp4epMp1CfVHy29y5BF3v8zJgOZwoK2RixJKTtIHORP7YDn1R9n7rpCHGULM6on7GiysPplU",
-      "installs": "10+",
-      "real_installs": 48,
+      "installs": "10,000+",
+      "real_installs": 10822,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/MOXXMWXLgvvZTDsPrdU_9iZttWx9Kde4tsfcuGzjFlUqOqhqZ4TqKXqHQFiaH4gTWKw0nZeBkfmOxyjkL31Qd4s",
@@ -852,7 +877,7 @@
       "release_date": "Aug 12, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.jigsaw",
       "found_date": "2026-08-27",
-      "velocity": 32
+      "velocity": 10790
     },
     {
       "app_id": "6802913072",
@@ -940,7 +965,7 @@
       "release_date": "Oct 11, 2013",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.lostjewels",
       "found_date": "2026-08-26",
-      "velocity": 208
+      "velocity": 125
     },
     {
       "app_id": "com.pin.pull.out.puzzle",
@@ -966,7 +991,7 @@
       "release_date": "Sep 28, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.pin.pull.out.puzzle",
       "found_date": "2026-08-26",
-      "velocity": 105
+      "velocity": 60
     },
     {
       "app_id": "com.bluemango.blockjamgo.gp",
@@ -991,7 +1016,7 @@
       "release_date": "Aug 22, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.bluemango.blockjamgo.gp",
       "found_date": "2026-08-26",
-      "velocity": 62
+      "velocity": 35
     },
     {
       "app_id": "6800369442",
@@ -1075,7 +1100,7 @@
       "release_date": "Sep 1, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.popicorns.homary",
       "found_date": "2026-08-25",
-      "velocity": 194
+      "velocity": 115
     },
     {
       "app_id": "and.brainworks.dragon3d",
@@ -1100,7 +1125,7 @@
       "release_date": "Aug 22, 2026",
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.dragon3d",
       "found_date": "2026-08-25",
-      "velocity": 793
+      "velocity": 241
     },
     {
       "app_id": "com.combo.knockout",
@@ -1126,7 +1151,7 @@
       "release_date": "Jun 30, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.combo.knockout",
       "found_date": "2026-08-25",
-      "velocity": 55921
+      "velocity": 31921
     },
     {
       "app_id": "com.peak.auctions",
@@ -1176,7 +1201,7 @@
       "release_date": "Feb 19, 2026",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.snakeflow",
       "found_date": "2026-08-23",
-      "velocity": 4
+      "velocity": 2
     },
     {
       "app_id": "6782852881",
@@ -1248,7 +1273,7 @@
       "release_date": "Sep 7, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.GameWorthy.HexTakeover",
       "found_date": "2026-08-22",
-      "velocity": 838
+      "velocity": 407
     },
     {
       "app_id": "com.peakandski.app",
@@ -1273,7 +1298,7 @@
       "release_date": "Aug 20, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.peakandski.app",
       "found_date": "2026-08-22",
-      "velocity": 2
+      "velocity": 1
     },
     {
       "app_id": "com.iptv.peakiptv.player",
@@ -1296,7 +1321,7 @@
       "release_date": "Jan 23, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.iptv.peakiptv.player",
       "found_date": "2026-08-22",
-      "velocity": 9
+      "velocity": 6
     },
     {
       "app_id": "merge.town",
@@ -1321,7 +1346,7 @@
       "release_date": "Oct 5, 2021",
       "url": "https://play.google.com/store/apps/details?id=merge.town",
       "found_date": "2026-08-22",
-      "velocity": 36
+      "velocity": 23
     },
     {
       "app_id": "com.seaside.secrets.merge.puzzle",
@@ -1346,7 +1371,7 @@
       "release_date": "Apr 24, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.seaside.secrets.merge.puzzle",
       "found_date": "2026-08-22",
-      "velocity": 27
+      "velocity": 18
     },
     {
       "app_id": "6782176604",
@@ -1475,7 +1500,7 @@
       "release_date": "Apr 17, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
       "found_date": "2026-08-21",
-      "velocity": 20663
+      "velocity": 14895
     },
     {
       "app_id": "tk.jewels.rush",
@@ -1500,7 +1525,7 @@
       "release_date": "Feb 20, 2021",
       "url": "https://play.google.com/store/apps/details?id=tk.jewels.rush",
       "found_date": "2026-08-21",
-      "velocity": 61
+      "velocity": 37
     },
     {
       "app_id": "com.ArcaneBlast.VolleyCraft",
@@ -1550,7 +1575,7 @@
       "release_date": "Dec 7, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.gentlegame.flyingcut",
       "found_date": "2026-08-21",
-      "velocity": 256
+      "velocity": 153
     },
     {
       "app_id": "com.voxgames.supersword",
@@ -1575,7 +1600,7 @@
       "release_date": "Aug 16, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.voxgames.supersword",
       "found_date": "2026-08-21",
-      "velocity": 9
+      "velocity": 3
     },
     {
       "app_id": "com.ig.diamond.loop",
@@ -1606,7 +1631,7 @@
       "release_date": "Jul 15, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ig.diamond.loop",
       "found_date": "2026-08-21",
-      "velocity": 156
+      "velocity": 95
     },
     {
       "app_id": "com.brave.merge",
@@ -1640,7 +1665,7 @@
       "release_date": "Mar 14, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.brave.merge",
       "found_date": "2026-08-21",
-      "velocity": 369
+      "velocity": 220
     },
     {
       "app_id": "com.applife.mergelegions",
@@ -1674,7 +1699,7 @@
       "release_date": "Jan 12, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.applife.mergelegions",
       "found_date": "2026-08-21",
-      "velocity": 433
+      "velocity": 259
     },
     {
       "app_id": "com.sequel.packjam",
@@ -1700,7 +1725,7 @@
       "release_date": "May 1, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.sequel.packjam",
       "found_date": "2026-08-21",
-      "velocity": 5
+      "velocity": 2
     },
     {
       "app_id": "com.easybrain.arrow.puzzle3d",
@@ -1734,7 +1759,7 @@
       "release_date": "Jun 5, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.easybrain.arrow.puzzle3d",
       "found_date": "2026-08-21",
-      "velocity": 40748
+      "velocity": 23912
     },
     {
       "app_id": "com.peakDirect.app",
@@ -1759,7 +1784,7 @@
       "release_date": "Mar 31, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.peakDirect.app",
       "found_date": "2026-08-21",
-      "velocity": 2
+      "velocity": 1
     },
     {
       "app_id": "co.median.android.pqlayq",
@@ -1842,7 +1867,7 @@
       "release_date": "Jul 18, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.peakcm.user",
       "found_date": "2026-08-21",
-      "velocity": 47
+      "velocity": 27
     },
     {
       "app_id": "com.PeakSuite.Mobile",
@@ -1897,7 +1922,7 @@
       "release_date": "Feb 1, 2017",
       "url": "https://play.google.com/store/apps/details?id=com.peaklens.ar",
       "found_date": "2026-08-21",
-      "velocity": 2998
+      "velocity": 1866
     },
     {
       "app_id": "com.ppnsports.ppn",
@@ -1947,7 +1972,7 @@
       "release_date": "Oct 16, 2025",
       "url": "https://play.google.com/store/apps/details?id=ai.peakiq.app",
       "found_date": "2026-08-21",
-      "velocity": 1
+      "velocity": 0
     },
     {
       "app_id": "com.peak_betting_tips",
@@ -1972,7 +1997,7 @@
       "release_date": "Nov 6, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.peak_betting_tips",
       "found_date": "2026-08-21",
-      "velocity": 254
+      "velocity": 161
     },
     {
       "app_id": "com.gamebrain.piesort",
@@ -2005,7 +2030,7 @@
       "release_date": "Jul 2, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.gamebrain.piesort",
       "found_date": "2026-08-21",
-      "velocity": 188
+      "velocity": 111
     },
     {
       "app_id": "com.game.goolny.stickers",
@@ -2030,7 +2055,7 @@
       "release_date": "Jan 22, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.game.goolny.stickers",
       "found_date": "2026-08-21",
-      "velocity": 4559
+      "velocity": 2706
     },
     {
       "app_id": "tile.games.master.match.triple.puzzle.game.free",
@@ -2062,7 +2087,7 @@
       "release_date": "Apr 7, 2024",
       "url": "https://play.google.com/store/apps/details?id=tile.games.master.match.triple.puzzle.game.free",
       "found_date": "2026-08-21",
-      "velocity": 16094
+      "velocity": 7930
     },
     {
       "app_id": "com.Chodun.CatGunner",
@@ -2096,7 +2121,7 @@
       "release_date": "Apr 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner",
       "found_date": "2026-08-21",
-      "velocity": 174527
+      "velocity": 118854
     },
     {
       "app_id": "com.nep.tr.hybrid.catbusjam",
@@ -2105,7 +2130,7 @@
       "name": "Seat The Cat! - Logic Puzzle",
       "icon": "https://play-lh.googleusercontent.com/2Uytsle1m5g86DVrYz0XQGPKcwIdbPv0Xe8wqBQWT51GWLoT8ZQmKBb16uO3JRbe37vElzPrAMytSVzXTKjFX4Y",
       "installs": "1,000+",
-      "real_installs": 1120,
+      "real_installs": 1130,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/dDYZ6Eqjv_aOV-Pm_41NMoH-sZO_0RnMf9uVe7Bdp1NBzmsmDJUqGYhCo22KAAjh7setlAMDoRsWbJrmRuNTHlE",
@@ -2123,7 +2148,7 @@
       "release_date": "Jul 24, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.nep.tr.hybrid.catbusjam",
       "found_date": "2026-08-21",
-      "velocity": 41
+      "velocity": 51
     },
     {
       "app_id": "com.flow.blast.pixel.puzzle.out",
@@ -2154,7 +2179,7 @@
       "release_date": "Aug 3, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.flow.blast.pixel.puzzle.out",
       "found_date": "2026-08-21",
-      "velocity": 25
+      "velocity": 14
     },
     {
       "app_id": "com.sort.water.magic.plant.puzzle",
@@ -2179,7 +2204,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.sort.water.magic.plant.puzzle",
       "found_date": "2026-08-21",
-      "velocity": 56
+      "velocity": 39
     },
     {
       "app_id": "com.BlissGames.Juego23",
@@ -2213,7 +2238,7 @@
       "release_date": "Aug 27, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.BlissGames.Juego23",
       "found_date": "2026-08-21",
-      "velocity": 1397
+      "velocity": 871
     },
     {
       "app_id": "com.Lightneer.BazookaBoy",
@@ -2247,7 +2272,7 @@
       "release_date": "Oct 7, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.Lightneer.BazookaBoy",
       "found_date": "2026-08-21",
-      "velocity": 39708
+      "velocity": 21590
     },
     {
       "app_id": "com.JaddZayed.GuessTheDrawing",
@@ -2272,7 +2297,7 @@
       "release_date": "Jan 7, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.JaddZayed.GuessTheDrawing",
       "found_date": "2026-08-21",
-      "velocity": 2963
+      "velocity": 2215
     },
     {
       "app_id": "com.funcell.hyperhostess",
@@ -2297,7 +2322,7 @@
       "release_date": "Mar 25, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.funcell.hyperhostess",
       "found_date": "2026-08-21",
-      "velocity": 479
+      "velocity": 299
     },
     {
       "app_id": "com.noorgames.basketbattle",
@@ -2330,7 +2355,7 @@
       "release_date": "May 30, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.noorgames.basketbattle",
       "found_date": "2026-08-21",
-      "velocity": 43879
+      "velocity": 27441
     },
     {
       "app_id": "com.game.sortit3d",
@@ -2359,7 +2384,7 @@
       "release_date": "Jan 16, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.game.sortit3d",
       "found_date": "2026-08-21",
-      "velocity": 13548
+      "velocity": 7461
     },
     {
       "app_id": "com.crazylabs.neon.light.maze",
@@ -2389,7 +2414,7 @@
       "release_date": "Jul 9, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.crazylabs.neon.light.maze",
       "found_date": "2026-08-21",
-      "velocity": 118
+      "velocity": 72
     },
     {
       "app_id": "com.creativestarsgames.bombevolution",
@@ -2414,7 +2439,7 @@
       "release_date": "May 27, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.creativestarsgames.bombevolution",
       "found_date": "2026-08-21",
-      "velocity": 42442
+      "velocity": 15958
     },
     {
       "app_id": "com.gimica.busjam",
@@ -2439,7 +2464,7 @@
       "release_date": "Aug 4, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.busjam",
       "found_date": "2026-08-21",
-      "velocity": 30179
+      "velocity": 14019
     },
     {
       "app_id": "com.gimica.mealdash",
@@ -2464,7 +2489,7 @@
       "release_date": "Jul 3, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.mealdash",
       "found_date": "2026-08-21",
-      "velocity": 36
+      "velocity": 14
     },
     {
       "app_id": "com.gimica.hexadrop",
@@ -2489,7 +2514,7 @@
       "release_date": "May 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.hexadrop",
       "found_date": "2026-08-21",
-      "velocity": 754
+      "velocity": 451
     },
     {
       "app_id": "com.gimica.oneline",
@@ -2513,7 +2538,7 @@
       "release_date": "Aug 13, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.oneline",
       "found_date": "2026-08-21",
-      "velocity": 13
+      "velocity": 6
     },
     {
       "app_id": "io.supercent.mosquito",
@@ -2545,7 +2570,7 @@
       "release_date": "Feb 2, 2023",
       "url": "https://play.google.com/store/apps/details?id=io.supercent.mosquito",
       "found_date": "2026-08-21",
-      "velocity": 69140
+      "velocity": 48097
     },
     {
       "app_id": "com.spellbindgames.doomsquad",
@@ -2574,7 +2599,7 @@
       "release_date": "Aug 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.spellbindgames.doomsquad",
       "found_date": "2026-08-21",
-      "velocity": 6089
+      "velocity": 2414
     },
     {
       "app_id": "dasi.prs2.lumberchopper",
@@ -2605,7 +2630,7 @@
       "release_date": "Sep 10, 2024",
       "url": "https://play.google.com/store/apps/details?id=dasi.prs2.lumberchopper",
       "found_date": "2026-08-21",
-      "velocity": 213094
+      "velocity": 136899
     },
     {
       "app_id": "com.mining.realmtycoon",
@@ -2688,7 +2713,7 @@
       "release_date": "Aug 20, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.hungrystudio.blockeffect",
       "found_date": "2026-08-21",
-      "velocity": 380
+      "velocity": 238
     },
     {
       "app_id": "com.mobsmile.trapfortress",
@@ -2721,7 +2746,7 @@
       "release_date": "May 1, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mobsmile.trapfortress",
       "found_date": "2026-08-21",
-      "velocity": 13
+      "velocity": 6
     },
     {
       "app_id": "6775516932",
@@ -2869,7 +2894,7 @@
       "release_date": "Mar 31, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.car.parking.master.puzzle.truck.games",
       "found_date": "2026-08-20",
-      "velocity": 29
+      "velocity": 14
     },
     {
       "app_id": "com.block.merge3d.cube.jam.puzzle",
@@ -2895,7 +2920,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.block.merge3d.cube.jam.puzzle",
       "found_date": "2026-08-20",
-      "velocity": 7
+      "velocity": 2
     },
     {
       "app_id": "solitaire.math.number.puzzle.game.brain.logic",
@@ -2920,7 +2945,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=solitaire.math.number.puzzle.game.brain.logic",
       "found_date": "2026-08-19",
-      "velocity": 19
+      "velocity": 8
     },
     {
       "app_id": "com.unroll.match.stick.puzzle3D",
@@ -2946,7 +2971,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.unroll.match.stick.puzzle3D",
       "found_date": "2026-08-19",
-      "velocity": 5
+      "velocity": 2
     },
     {
       "app_id": "com.superplay.superjelly",
@@ -2977,7 +3002,7 @@
       "release_date": "Apr 3, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.superplay.superjelly",
       "found_date": "2026-08-19",
-      "velocity": 4
+      "velocity": 1
     },
     {
       "app_id": "com.crazylabs.diamond.paint.by.number",
@@ -3005,7 +3030,7 @@
       "release_date": "Jan 6, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.crazylabs.diamond.paint.by.number",
       "found_date": "2026-08-18",
-      "velocity": 31039
+      "velocity": 18582
     },
     {
       "app_id": "6791636022",
@@ -3101,7 +3126,7 @@
       "release_date": "Aug 7, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ig.mathjam.puzzle",
       "found_date": "2026-08-16",
-      "velocity": 522
+      "velocity": 509
     },
     {
       "app_id": "com.mochilabs.mochisort",
@@ -3110,7 +3135,7 @@
       "name": "Mochi Sort",
       "icon": "https://play-lh.googleusercontent.com/ostFdB9CNvlMri30CWCGINJ0zJH3UhxgW0ncA9IfmywXRMeoP9dFtJojUOC7ZaOPwfk4LgBaDP35NFaMu1P-",
       "installs": "10,000+",
-      "real_installs": 26243,
+      "real_installs": 26342,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/xFFR1ZwJP058og7mcRxHejeLXPZRRcSCs_-AK4r02FvItV1Zin9N0540mQANZd_lRb4jkz7oyXqLFRyJA7u6",
@@ -3127,7 +3152,7 @@
       "release_date": "Apr 27, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mochilabs.mochisort",
       "found_date": "2026-08-16",
-      "velocity": 327
+      "velocity": 426
     },
     {
       "app_id": "com.ants.box",
@@ -3153,7 +3178,7 @@
       "release_date": "Mar 11, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ants.box",
       "found_date": "2026-08-16",
-      "velocity": 23160
+      "velocity": 16826
     },
     {
       "app_id": "6793115010",
@@ -3211,7 +3236,7 @@
       "release_date": "Jan 21, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.quok.blobRunner",
       "found_date": "2026-08-14",
-      "velocity": 491
+      "velocity": 298
     },
     {
       "app_id": "com.zm.gdl",
@@ -3236,7 +3261,7 @@
       "release_date": "Jul 2, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.zm.gdl",
       "found_date": "2026-08-14",
-      "velocity": 1123
+      "velocity": 83
     },
     {
       "app_id": "com.microjoy.nonogram.number.art.logic.sudoku.puzzle",
@@ -3261,7 +3286,7 @@
       "release_date": "Feb 16, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.microjoy.nonogram.number.art.logic.sudoku.puzzle",
       "found_date": "2026-08-14",
-      "velocity": 23
+      "velocity": 11
     },
     {
       "app_id": "6796185094",
@@ -3353,7 +3378,7 @@
       "release_date": "Jul 31, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.project.idle.cd",
       "found_date": "2026-08-13",
-      "velocity": 141013
+      "velocity": 84828
     },
     {
       "app_id": "com.funreal.myfishshop",
@@ -3378,7 +3403,7 @@
       "release_date": "Jun 18, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.funreal.myfishshop",
       "found_date": "2026-08-13",
-      "velocity": 92269
+      "velocity": 57630
     },
     {
       "app_id": "6766824098",
@@ -3547,7 +3572,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.beeswarm",
       "found_date": "2026-08-11",
-      "velocity": 477
+      "velocity": 181
     },
     {
       "app_id": "com.abi.topicdom",
@@ -3573,7 +3598,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.topicdom",
       "found_date": "2026-08-11",
-      "velocity": 16
+      "velocity": 8
     },
     {
       "app_id": "com.ig.foodjam",
@@ -3582,7 +3607,7 @@
       "name": "Food Jam",
       "icon": "https://play-lh.googleusercontent.com/QCcX0ScDqM5mbZPquhP90b60w9ptcSfNCzvdap7P9Ry9euNjWmie4FmGr8ZNb1QfspNDQWQcmSnnAho65UU8VTw",
       "installs": "50,000+",
-      "real_installs": 83675,
+      "real_installs": 85834,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/YYBG7Z3f4eiHt0Z_43CqWUGobMhKu8EKCC-Z_MqjtV9t3p8i6G4dKz_hyLyZMFzi97qxkoBJINX2yPqaI0G4bl4",
@@ -3599,7 +3624,7 @@
       "release_date": "Jul 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ig.foodjam",
       "found_date": "2026-08-11",
-      "velocity": 9651
+      "velocity": 8156
     },
     {
       "app_id": "jp.co.goodroid.hyper.hospital",
@@ -3624,7 +3649,7 @@
       "release_date": "Nov 26, 2021",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.hospital",
       "found_date": "2026-08-11",
-      "velocity": 10082
+      "velocity": 6198
     },
     {
       "app_id": "com.mobsmile.coinbounce",
@@ -3650,7 +3675,7 @@
       "release_date": "Aug 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mobsmile.coinbounce",
       "found_date": "2026-08-11",
-      "velocity": 139
+      "velocity": 136
     },
     {
       "app_id": "com.cat.away.jam.aos",
@@ -3659,7 +3684,7 @@
       "name": "Cat Escape",
       "icon": "https://play-lh.googleusercontent.com/qxs-iFoM7NqMtnxncmgMymRBOi2WzHloB7t1ySzp-sPQRzWcAJMj_4ytQBNu5wgKAN6ONwO5q-FxY390Ku_VVg",
       "installs": "100,000+",
-      "real_installs": 265034,
+      "real_installs": 265721,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/lqWuJAG6l0NTwAIaCHInuNydCdJ4Pv2eaNDpvX-SZQW4mHamQwJLNXP3chhsUErf8SYTloj7bXiuPfuorSMNPA",
@@ -3676,7 +3701,7 @@
       "release_date": "Oct 3, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.cat.away.jam.aos",
       "found_date": "2026-08-11",
-      "velocity": 4908
+      "velocity": 3741
     },
     {
       "app_id": "com.actionfit.catcafe.solitaire",
@@ -3701,7 +3726,7 @@
       "release_date": "Dec 23, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.actionfit.catcafe.solitaire",
       "found_date": "2026-08-11",
-      "velocity": 11
+      "velocity": 7
     },
     {
       "app_id": "6779527511",
@@ -3824,7 +3849,7 @@
       "release_date": "Aug 7, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.abi.minesweeper.grid.puzzle",
       "found_date": "2026-08-10",
-      "velocity": 11
+      "velocity": 7
     },
     {
       "app_id": "com.moonactive.splashroyale",
@@ -3833,7 +3858,7 @@
       "name": "Splash Kingdom: Tower Blast",
       "icon": "https://play-lh.googleusercontent.com/qYouRKCNYHMengngJ0kAxuKRJDEy7A1I8T5TirK75agEKXupew7xm4g1SNzlPp8ZmrLHqz1zJ2pXvNaneuQbKA",
       "installs": "10,000+",
-      "real_installs": 22469,
+      "real_installs": 23269,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/qzLXfHRs1vj9h8ersfz_QLCWdpnwD_XynnxiC-oaL2lQWdrzjt6drzbzwXB9yklB36KAqJFgglcEbeEmErPW-C0",
@@ -3849,7 +3874,7 @@
       "release_date": "Jul 23, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.moonactive.splashroyale",
       "found_date": "2026-08-10",
-      "velocity": 858
+      "velocity": 1511
     },
     {
       "app_id": "jp.co.goodroid.hyper.puzzle.packingrush",
@@ -3899,7 +3924,7 @@
       "release_date": "Jun 15, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.Deven.ProjectSalon",
       "found_date": "2026-08-10",
-      "velocity": 44
+      "velocity": 24
     },
     {
       "app_id": "space.sandbox.adventure",
@@ -3924,7 +3949,7 @@
       "release_date": "Mar 10, 2025",
       "url": "https://play.google.com/store/apps/details?id=space.sandbox.adventure",
       "found_date": "2026-08-10",
-      "velocity": 774
+      "velocity": 504
     },
     {
       "app_id": "com.bus.people",
@@ -3987,7 +4012,7 @@
       "release_date": "Jun 27, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.actionfit.catmerge",
       "found_date": "2026-08-10",
-      "velocity": 4726
+      "velocity": 3365
     },
     {
       "app_id": "us.peakperformanceprogram.train.redesign.own",
@@ -4012,7 +4037,7 @@
       "release_date": "May 15, 2025",
       "url": "https://play.google.com/store/apps/details?id=us.peakperformanceprogram.train.redesign.own",
       "found_date": "2026-08-09",
-      "velocity": 2
+      "velocity": 0
     },
     {
       "app_id": "6796584903",
@@ -4101,7 +4126,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.screw.jam.nut.sort.color",
       "found_date": "2026-08-08",
-      "velocity": 21
+      "velocity": 15
     },
     {
       "app_id": "com.dorotheebrondes.bounceandcollect",
@@ -4126,7 +4151,7 @@
       "release_date": "Apr 9, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.dorotheebrondes.bounceandcollect",
       "found_date": "2026-08-08",
-      "velocity": 1407
+      "velocity": 939
     },
     {
       "app_id": "com.mrmoble.flagpainters",
@@ -4201,7 +4226,7 @@
       "release_date": "Mar 6, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.thagiwara.aircraftmaster",
       "found_date": "2026-08-08",
-      "velocity": 7748
+      "velocity": 4647
     },
     {
       "app_id": "com.tile.triplematch.find",
@@ -4226,7 +4251,7 @@
       "release_date": "Mar 14, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.tile.triplematch.find",
       "found_date": "2026-08-08",
-      "velocity": 445
+      "velocity": 307
     },
     {
       "app_id": "io.supercent.pizzasimulator",
@@ -4251,7 +4276,7 @@
       "release_date": "Oct 23, 2024",
       "url": "https://play.google.com/store/apps/details?id=io.supercent.pizzasimulator",
       "found_date": "2026-08-08",
-      "velocity": 2998
+      "velocity": 1762
     },
     {
       "app_id": "6761165904",
@@ -4335,7 +4360,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.hb.getinthebowl",
       "found_date": "2026-08-07",
-      "velocity": 11461
+      "velocity": 6622
     },
     {
       "app_id": "com.easybrain.color.pixel.sort",
@@ -4360,7 +4385,7 @@
       "release_date": "Jul 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.easybrain.color.pixel.sort",
       "found_date": "2026-08-07",
-      "velocity": 53
+      "velocity": 32
     },
     {
       "app_id": "com.jigsawfall.joygame",
@@ -4394,7 +4419,7 @@
       "release_date": "Jul 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.jigsawfall.joygame",
       "found_date": "2026-08-07",
-      "velocity": 614
+      "velocity": 437
     },
     {
       "app_id": "com.story.plot.joygame",
@@ -4423,7 +4448,7 @@
       "release_date": "Jul 30, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.story.plot.joygame",
       "found_date": "2026-08-07",
-      "velocity": 1003
+      "velocity": 567
     },
     {
       "app_id": "com.tile.triplematch.mania",
@@ -4448,7 +4473,7 @@
       "release_date": "Sep 13, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.tile.triplematch.mania",
       "found_date": "2026-08-07",
-      "velocity": 38
+      "velocity": 22
     },
     {
       "app_id": "com.nep.tr.idle.cat.island",
@@ -4457,7 +4482,7 @@
       "name": "Cat Island: Idle Tycoon Game",
       "icon": "https://play-lh.googleusercontent.com/yOtInRMCWBHzyXYVp7VTzBMpPsiYFQ61bK_J-mBefUbiZ_lbVAZr-1LpCxR6bovkIDB-N0XdN4HA5iShJzIRBQ",
       "installs": "1,000+",
-      "real_installs": 2875,
+      "real_installs": 3099,
       "genre": "Simulation",
       "shots": [
         "https://play-lh.googleusercontent.com/s8OB9cQcY9lYsmaAhet0AryYSeee-bOwT3jGXX1f5pK-Pjol8pUTeXJ8LfMH2Nw82HojoproHI6k59mIAhHP8zo",
@@ -4482,7 +4507,7 @@
       "release_date": "Aug 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.nep.tr.idle.cat.island",
       "found_date": "2026-08-07",
-      "velocity": 659
+      "velocity": 883
     },
     {
       "app_id": "com.water.flow.factory.sort.match",
@@ -4507,7 +4532,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.water.flow.factory.sort.match",
       "found_date": "2026-08-07",
-      "velocity": 14
+      "velocity": 9
     },
     {
       "app_id": "com.gimica.mahjong",
@@ -4532,7 +4557,7 @@
       "release_date": "Jun 9, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.mahjong",
       "found_date": "2026-08-07",
-      "velocity": 8236
+      "velocity": 4857
     },
     {
       "app_id": "com.mobsmile.diceroguelike",
@@ -4679,7 +4704,7 @@
       "release_date": "Feb 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.match.connect.master",
       "found_date": "2026-08-06",
-      "velocity": 201
+      "velocity": 97
     },
     {
       "app_id": "com.twist.hit",
@@ -4704,7 +4729,7 @@
       "release_date": "Mar 26, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.twist.hit",
       "found_date": "2026-08-06",
-      "velocity": 425
+      "velocity": 237
     },
     {
       "app_id": "com.gamemaker5.idlemafia",
@@ -4755,7 +4780,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.brickjam.color.slide",
       "found_date": "2026-08-06",
-      "velocity": 1622
+      "velocity": 1144
     },
     {
       "app_id": "6758003347",
@@ -5015,7 +5040,7 @@
       "release_date": "Jun 1, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.justdesserts.global",
       "found_date": "2026-08-05",
-      "velocity": 63519
+      "velocity": 44714
     },
     {
       "app_id": "jp.co.goodroid.hyper.jighexa",
@@ -5048,7 +5073,7 @@
       "release_date": "Dec 15, 2025",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.jighexa",
       "found_date": "2026-08-05",
-      "velocity": 7
+      "velocity": 4
     },
     {
       "app_id": "com.Manababa.RandomSpinDEF",
@@ -5080,7 +5105,7 @@
       "release_date": "Jun 29, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.Manababa.RandomSpinDEF",
       "found_date": "2026-08-05",
-      "velocity": 1163
+      "velocity": 652
     },
     {
       "app_id": "tangle.rope.tieknot.game3d.wood.master",
@@ -5106,7 +5131,7 @@
       "release_date": "Mar 18, 2024",
       "url": "https://play.google.com/store/apps/details?id=tangle.rope.tieknot.game3d.wood.master",
       "found_date": "2026-08-05",
-      "velocity": 99
+      "velocity": 60
     },
     {
       "app_id": "com.screw.blast.flow.shooter.factory",
@@ -5132,7 +5157,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.screw.blast.flow.shooter.factory",
       "found_date": "2026-08-05",
-      "velocity": 13
+      "velocity": 7
     },
     {
       "app_id": "com.sonat.bbqgo.sort.match.puzzle",
@@ -5157,7 +5182,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.sonat.bbqgo.sort.match.puzzle",
       "found_date": "2026-08-05",
-      "velocity": 25
+      "velocity": 17
     },
     {
       "app_id": "com.MoodGames.TrafficJamFever",
@@ -5215,7 +5240,7 @@
       "release_date": "Jan 13, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.VectorUpGames.TallManRun",
       "found_date": "2026-08-05",
-      "velocity": 26677
+      "velocity": 12435
     },
     {
       "app_id": "io.superbrick.masterhospital",
@@ -5372,7 +5397,7 @@
       "release_date": "Aug 26, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.car.dealer",
       "found_date": "2026-08-03",
-      "velocity": 6315
+      "velocity": 3434
     },
     {
       "app_id": "com.voxgames.beanbattle.princessrescue",
@@ -5422,7 +5447,7 @@
       "release_date": "Mar 2, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.number.sum",
       "found_date": "2026-08-02",
-      "velocity": 603
+      "velocity": 430
     },
     {
       "app_id": "and.voxelcube.dropball3d",
@@ -5450,7 +5475,7 @@
       "release_date": "Dec 16, 2021",
       "url": "https://play.google.com/store/apps/details?id=and.voxelcube.dropball3d",
       "found_date": "2026-08-02",
-      "velocity": 21
+      "velocity": 9
     },
     {
       "app_id": "and.brainworks.sliceaway",
@@ -5475,7 +5500,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.sliceaway",
       "found_date": "2026-08-02",
-      "velocity": 327
+      "velocity": 249
     },
     {
       "app_id": "com.puzzle.splash.drop",
@@ -5500,7 +5525,7 @@
       "release_date": "Mar 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.puzzle.splash.drop",
       "found_date": "2026-08-02",
-      "velocity": 2
+      "velocity": 1
     },
     {
       "app_id": "com.arrow.maze.tap.away.puzzle",
@@ -5525,7 +5550,7 @@
       "release_date": "Jun 1, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.arrow.maze.tap.away.puzzle",
       "found_date": "2026-08-02",
-      "velocity": 107138
+      "velocity": 64660
     },
     {
       "app_id": "com.match.mahjong.tile.fruit.puzzle.games",
@@ -5557,7 +5582,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.match.mahjong.tile.fruit.puzzle.games",
       "found_date": "2026-08-02",
-      "velocity": 200
+      "velocity": 116
     },
     {
       "app_id": "com.car.parking.simulator.drive.out",
@@ -5583,7 +5608,7 @@
       "release_date": "Apr 29, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.car.parking.simulator.drive.out",
       "found_date": "2026-08-02",
-      "velocity": 311
+      "velocity": 200
     },
     {
       "app_id": "com.paurau.MakeHer",
@@ -5613,7 +5638,7 @@
       "release_date": "Aug 26, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.paurau.MakeHer",
       "found_date": "2026-08-02",
-      "velocity": 124614
+      "velocity": 79103
     },
     {
       "app_id": "com.BasicGames.FashionTrends",
@@ -5674,7 +5699,7 @@
       "release_date": "Jan 5, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.Playtime.FantasyTree",
       "found_date": "2026-08-02",
-      "velocity": 32
+      "velocity": 17
     },
     {
       "app_id": "com.Ondrej.GossipMaster",
@@ -5701,7 +5726,7 @@
       "release_date": "May 30, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.Ondrej.GossipMaster",
       "found_date": "2026-08-02",
-      "velocity": 11187
+      "velocity": 8401
     },
     {
       "app_id": "com.lightdev.weaponsurvivor",
@@ -5729,7 +5754,7 @@
       "release_date": "Jul 18, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.lightdev.weaponsurvivor",
       "found_date": "2026-08-02",
-      "velocity": 22883
+      "velocity": 10468
     },
     {
       "app_id": "com.corestudios.shoppingempire",
@@ -5754,7 +5779,7 @@
       "release_date": "Dec 3, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.corestudios.shoppingempire",
       "found_date": "2026-08-02",
-      "velocity": 7
+      "velocity": 4
     },
     {
       "app_id": "com.Albus.WaterParkBoys",
@@ -5779,7 +5804,7 @@
       "release_date": "Jun 9, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.Albus.WaterParkBoys",
       "found_date": "2026-08-02",
-      "velocity": 67665
+      "velocity": 41745
     },
     {
       "app_id": "6768914523",
@@ -5885,7 +5910,7 @@
       "release_date": "Jan 18, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.uncosoft.highheels",
       "found_date": "2026-07-31",
-      "velocity": 1317
+      "velocity": 813
     },
     {
       "app_id": "com.foodie.skewer.sort.jam.grill",
@@ -5910,7 +5935,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.foodie.skewer.sort.jam.grill",
       "found_date": "2026-07-31",
-      "velocity": 72
+      "velocity": 45
     },
     {
       "app_id": "com.SnackPlay.LunchBoxReady",
@@ -5935,7 +5960,7 @@
       "release_date": "May 24, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.SnackPlay.LunchBoxReady",
       "found_date": "2026-07-31",
-      "velocity": 11895
+      "velocity": 8196
     },
     {
       "app_id": "com.gimica.carsmerge",
@@ -5960,7 +5985,7 @@
       "release_date": "Jul 21, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.carsmerge",
       "found_date": "2026-07-31",
-      "velocity": 8852
+      "velocity": 6864
     },
     {
       "app_id": "com.street.bunny",
@@ -5988,7 +6013,7 @@
       "release_date": "Dec 15, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.street.bunny",
       "found_date": "2026-07-31",
-      "velocity": 2241
+      "velocity": 1097
     },
     {
       "app_id": "com.slg.sniper",
@@ -6013,7 +6038,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.slg.sniper",
       "found_date": "2026-07-31",
-      "velocity": 44
+      "velocity": 24
     },
     {
       "app_id": "br.com.brsuper.superapp.hba",
@@ -6038,7 +6063,7 @@
       "release_date": "Nov 8, 2024",
       "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.superapp.hba",
       "found_date": "2026-07-31",
-      "velocity": 5
+      "velocity": 4
     },
     {
       "app_id": "br.com.brsuper.provernet_play_app",
@@ -6063,7 +6088,7 @@
       "release_date": "Jun 7, 2024",
       "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.provernet_play_app",
       "found_date": "2026-07-31",
-      "velocity": 28
+      "velocity": 15
     },
     {
       "app_id": "6783752327",
@@ -6193,7 +6218,7 @@
       "release_date": "Nov 19, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.crusher.game",
       "found_date": "2026-07-30",
-      "velocity": 1830
+      "velocity": 925
     },
     {
       "app_id": "br.com.brsuper.brplay_app",
@@ -6218,7 +6243,7 @@
       "release_date": "Sep 28, 2023",
       "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.brplay_app",
       "found_date": "2026-07-30",
-      "velocity": 28
+      "velocity": 15
     },
     {
       "app_id": "6790303756",
@@ -6271,7 +6296,7 @@
       "release_date": "Mar 12, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.fivebits.emeregencydispatch",
       "found_date": "2026-07-29",
-      "velocity": 12523
+      "velocity": 12304
     },
     {
       "app_id": "com.spellbindgames.coastguardops",
@@ -6296,7 +6321,7 @@
       "release_date": "Jun 12, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.spellbindgames.coastguardops",
       "found_date": "2026-07-29",
-      "velocity": 53
+      "velocity": 32
     },
     {
       "app_id": "studio.tg.crab.life",
@@ -6321,7 +6346,7 @@
       "release_date": "Jul 30, 2024",
       "url": "https://play.google.com/store/apps/details?id=studio.tg.crab.life",
       "found_date": "2026-07-29",
-      "velocity": 22401
+      "velocity": 13421
     },
     {
       "app_id": "io.supercent.spinminer",
@@ -6346,7 +6371,7 @@
       "release_date": "Apr 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=io.supercent.spinminer",
       "found_date": "2026-07-29",
-      "velocity": 19489
+      "velocity": 12475
     },
     {
       "app_id": "com.Albus.AwesomePark",
@@ -6371,7 +6396,7 @@
       "release_date": "Nov 26, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.Albus.AwesomePark",
       "found_date": "2026-07-29",
-      "velocity": 56843
+      "velocity": 35710
     },
     {
       "app_id": "com.hungry.piranhas",
@@ -6404,7 +6429,7 @@
       "release_date": "Apr 24, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.hungry.piranhas",
       "found_date": "2026-07-29",
-      "velocity": 1563
+      "velocity": 959
     },
     {
       "app_id": "com.pleasurecity.find.differences.spot.difference.puzzle",
@@ -6435,7 +6460,7 @@
       "release_date": "Oct 19, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.pleasurecity.find.differences.spot.difference.puzzle",
       "found_date": "2026-07-28",
-      "velocity": 67
+      "velocity": 31
     },
     {
       "app_id": "com.grill.sizzle.skewer.sort.puzzle",
@@ -6460,7 +6485,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.grill.sizzle.skewer.sort.puzzle",
       "found_date": "2026-07-28",
-      "velocity": 6
+      "velocity": 1
     },
     {
       "app_id": "com.Deven.PerfectArcher3D",
@@ -6487,7 +6512,7 @@
       "release_date": "Sep 23, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.Deven.PerfectArcher3D",
       "found_date": "2026-07-28",
-      "velocity": 961
+      "velocity": 543
     },
     {
       "app_id": "com.paurau.SlowMoRun",
@@ -6537,7 +6562,7 @@
       "release_date": "May 20, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.crazylabs.hair.dye.challenge",
       "found_date": "2026-07-28",
-      "velocity": 15494
+      "velocity": 8850
     },
     {
       "app_id": "6781525746",
@@ -6589,7 +6614,7 @@
       "release_date": "Apr 23, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.seenax.HideAndSeek",
       "found_date": "2026-07-27",
-      "velocity": 88964
+      "velocity": 65668
     },
     {
       "app_id": "com.blueberrygames.gamel",
@@ -6614,7 +6639,7 @@
       "release_date": "Feb 3, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.blueberrygames.gamel",
       "found_date": "2026-07-27",
-      "velocity": 2918
+      "velocity": 2022
     },
     {
       "app_id": "com.PlaySense.BulletArmyRun",
@@ -6639,7 +6664,7 @@
       "release_date": "Apr 16, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.PlaySense.BulletArmyRun",
       "found_date": "2026-07-27",
-      "velocity": 25257
+      "velocity": 9707
     },
     {
       "app_id": "com.DefaultCompany.StickyNote",
@@ -6664,7 +6689,7 @@
       "release_date": "Nov 6, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.DefaultCompany.StickyNote",
       "found_date": "2026-07-27",
-      "velocity": 103
+      "velocity": 66
     },
     {
       "app_id": "com.uniqcko.ColorDots",
@@ -6689,7 +6714,7 @@
       "release_date": "Aug 14, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.uniqcko.ColorDots",
       "found_date": "2026-07-27",
-      "velocity": 11116
+      "velocity": 3943
     },
     {
       "app_id": "com.Rastegar.ColorMergePuzzle",
@@ -6714,7 +6739,7 @@
       "release_date": "May 31, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.Rastegar.ColorMergePuzzle",
       "found_date": "2026-07-27",
-      "velocity": 120
+      "velocity": 70
     },
     {
       "app_id": "com.puzzle.carmatch",
@@ -6739,7 +6764,7 @@
       "release_date": "Apr 21, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.puzzle.carmatch",
       "found_date": "2026-07-27",
-      "velocity": 1746
+      "velocity": 629
     },
     {
       "app_id": "6764274054",
@@ -6791,7 +6816,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.jigdrop.puzzle",
       "found_date": "2026-07-25",
-      "velocity": 31
+      "velocity": 21
     },
     {
       "app_id": "com.abi.gem.loop",
@@ -6817,7 +6842,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.gem.loop",
       "found_date": "2026-07-25",
-      "velocity": 24
+      "velocity": 11
     },
     {
       "app_id": "com.red.hexaaway.android",
@@ -6842,7 +6867,7 @@
       "release_date": "Aug 7, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.red.hexaaway.android",
       "found_date": "2026-07-25",
-      "velocity": 5559
+      "velocity": 3836
     },
     {
       "app_id": "com.tripledot.blockssmashgame",
@@ -6851,7 +6876,7 @@
       "name": "Stack Smash - Block 3D Puzzle",
       "icon": "https://play-lh.googleusercontent.com/ZokGuQq95KXWg7Oj_Q-CTofEh8V4gci8t9zqd5bk_iy11QJq4Q9KDjWKsOJ1rab1A2WaeJTyrDk4nFdBv1P3",
       "installs": "1,000,000+",
-      "real_installs": 1172355,
+      "real_installs": 1189055,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/eYPRQpGuqMqRYyi4vHNuigU3GI-jfw83BO4KASoYDTkqvwcLLLb0WLo9fy6Hd6v2fckdBBhOBLDLdhsDK5fzHw",
@@ -6868,7 +6893,7 @@
       "release_date": "Jul 13, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockssmashgame",
       "found_date": "2026-07-25",
-      "velocity": 43422
+      "velocity": 46501
     },
     {
       "app_id": "6759648322",
@@ -6965,7 +6990,7 @@
       "release_date": "Dec 5, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.voxelcube.dropblock3d",
       "found_date": "2026-07-24",
-      "velocity": 625
+      "velocity": 364
     },
     {
       "app_id": "ai.peakup.android",
@@ -7040,7 +7065,7 @@
       "release_date": "Dec 20, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.daxko.club.automation.peak.sports.club",
       "found_date": "2026-07-24",
-      "velocity": 4
+      "velocity": 1
     },
     {
       "app_id": "jp.co.goodroid.hyper.puzzle.clothesmania",
@@ -7065,7 +7090,7 @@
       "release_date": "Jan 17, 2025",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.clothesmania",
       "found_date": "2026-07-24",
-      "velocity": 70
+      "velocity": 39
     },
     {
       "app_id": "com.tree.godown",
@@ -7074,7 +7099,7 @@
       "name": "DDDigger",
       "icon": "https://play-lh.googleusercontent.com/TyLmCTfrk8PSFabm3WClZwTDBtX5MVPpntoB5Y7QCfkzGCQbUac7XrNyPCVeXma0_LcTCfa3LrpZ3TRKQldW-w",
       "installs": "1,000,000+",
-      "real_installs": 4610406,
+      "real_installs": 4612776,
       "genre": "Casual",
       "shots": [
         "https://play-lh.googleusercontent.com/xGq6XV4_2EDe6FYrEnt8ho2uCdX3TXI3n2FUsmXMg67eyHLib3KHLadoP6Pf9jx_hS_HFoHumSDz4okjx-c6Aw",
@@ -7090,7 +7115,7 @@
       "release_date": "Jan 16, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.tree.godown",
       "found_date": "2026-07-24",
-      "velocity": 6555
+      "velocity": 8925
     },
     {
       "app_id": "com.tree.hybrid.routedefense",
@@ -7099,7 +7124,7 @@
       "name": "Tile Wars TD",
       "icon": "https://play-lh.googleusercontent.com/cyw4KouIof7iIRxzddJub4Uf7AOPi03QYu8o5nJ4ZhfVRljk1wlgcASYXXdIOAedLm80u_RtRcwIQR3iPt0p",
       "installs": "100,000+",
-      "real_installs": 112906,
+      "real_installs": 113596,
       "genre": "Strategy",
       "shots": [
         "https://play-lh.googleusercontent.com/a276yplD4QL4XTt2lOao9K8YNEUKhKXsCZF5-4S0aIZCsZFQkdQjdGyOPoeA3ODOwww0zzqdMKQXKLHgHFciInY",
@@ -7115,7 +7140,7 @@
       "release_date": "Apr 16, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tree.hybrid.routedefense",
       "found_date": "2026-07-24",
-      "velocity": 1810
+      "velocity": 2500
     },
     {
       "app_id": "com.flower.puzzle.blossom.sort.color",
@@ -7140,7 +7165,7 @@
       "release_date": "Mar 20, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.flower.puzzle.blossom.sort.color",
       "found_date": "2026-07-24",
-      "velocity": 1359
+      "velocity": 820
     },
     {
       "app_id": "com.tile2d.sorting.triple.puzzle.game",
@@ -7165,7 +7190,7 @@
       "release_date": "Jun 21, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tile2d.sorting.triple.puzzle.game",
       "found_date": "2026-07-24",
-      "velocity": 240
+      "velocity": 73
     },
     {
       "app_id": "com.gem.pop.pixel.color.sort.puzzle",
@@ -7190,7 +7215,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.gem.pop.pixel.color.sort.puzzle",
       "found_date": "2026-07-24",
-      "velocity": 4
+      "velocity": 1
     },
     {
       "app_id": "com.cakesort.food.puzzle",
@@ -7215,7 +7240,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.cakesort.food.puzzle",
       "found_date": "2026-07-24",
-      "velocity": 29
+      "velocity": 18
     },
     {
       "app_id": "com.block.flow.hole.jam",
@@ -7240,7 +7265,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.block.flow.hole.jam",
       "found_date": "2026-07-24",
-      "velocity": 3
+      "velocity": 1
     },
     {
       "app_id": "com.Polystation.BuildABabe",
@@ -7265,7 +7290,7 @@
       "release_date": "Oct 27, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.Polystation.BuildABabe",
       "found_date": "2026-07-24",
-      "velocity": 38137
+      "velocity": 23205
     },
     {
       "app_id": "com.technomagic.electriccity",
@@ -7292,7 +7317,7 @@
       "release_date": "Aug 20, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.technomagic.electriccity",
       "found_date": "2026-07-24",
-      "velocity": 2266
+      "velocity": 998
     },
     {
       "app_id": "com.gimica.triviamadness",
@@ -7317,7 +7342,7 @@
       "release_date": "Jun 28, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.triviamadness",
       "found_date": "2026-07-24",
-      "velocity": 2098
+      "velocity": 1256
     },
     {
       "app_id": "com.tile.bonanza.match.pair.master.object.block.puzzle",
@@ -7342,7 +7367,7 @@
       "release_date": "Dec 19, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.tile.bonanza.match.pair.master.object.block.puzzle",
       "found_date": "2026-07-24",
-      "velocity": 13
+      "velocity": 5
     },
     {
       "app_id": "com.superplaystudios.dicedreams",
@@ -7376,7 +7401,7 @@
       "release_date": "Dec 3, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams",
       "found_date": "2026-07-24",
-      "velocity": 26477
+      "velocity": 18558
     },
     {
       "app_id": "com.screenshake.dominodreams",
@@ -7409,7 +7434,7 @@
       "release_date": "Jan 10, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.screenshake.dominodreams",
       "found_date": "2026-07-24",
-      "velocity": 34781
+      "velocity": 25769
     },
     {
       "app_id": "com.superplaystudios.disneysolitairedreams",
@@ -7442,7 +7467,7 @@
       "release_date": "Apr 16, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams",
       "found_date": "2026-07-24",
-      "velocity": 21182
+      "velocity": 15084
     },
     {
       "app_id": "br.com.brsuper.superplayer",
@@ -7469,7 +7494,7 @@
       "release_date": "Oct 14, 2024",
       "url": "https://play.google.com/store/apps/details?id=br.com.brsuper.superplayer",
       "found_date": "2026-07-24",
-      "velocity": 8
+      "velocity": 7
     },
     {
       "app_id": "6783189461",
@@ -7610,7 +7635,7 @@
       "release_date": "Jun 16, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.s01.global",
       "found_date": "2026-07-22",
-      "velocity": 203470
+      "velocity": 119964
     },
     {
       "app_id": "com.gimica.slicepuzzle",
@@ -7635,7 +7660,7 @@
       "release_date": "May 27, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.slicepuzzle",
       "found_date": "2026-07-22",
-      "velocity": 876
+      "velocity": 508
     },
     {
       "app_id": "com.gimica.nonocross",
@@ -7660,7 +7685,7 @@
       "release_date": "Apr 8, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.gimica.nonocross",
       "found_date": "2026-07-22",
-      "velocity": 14104
+      "velocity": 4708
     },
     {
       "app_id": "com.zdk.puzzle.gp",
@@ -7693,7 +7718,7 @@
       "release_date": "Jan 14, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.zdk.puzzle.gp",
       "found_date": "2026-07-22",
-      "velocity": 11
+      "velocity": 6
     },
     {
       "app_id": "com.dimension.cloud.cube.gp",
@@ -7722,7 +7747,7 @@
       "release_date": "Feb 28, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.dimension.cloud.cube.gp",
       "found_date": "2026-07-22",
-      "velocity": 34
+      "velocity": 22
     },
     {
       "app_id": "com.rocketshipstudios.intothehole",
@@ -7747,7 +7772,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.rocketshipstudios.intothehole",
       "found_date": "2026-07-21",
-      "velocity": 3428
+      "velocity": 2125
     },
     {
       "app_id": "jp.co.goodroid.castle",
@@ -7772,7 +7797,7 @@
       "release_date": "Feb 4, 2021",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.castle",
       "found_date": "2026-07-20",
-      "velocity": 5
+      "velocity": 4
     },
     {
       "app_id": "com.playcrazzy.mysupermarket",
@@ -7798,7 +7823,7 @@
       "release_date": "Jul 9, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.playcrazzy.mysupermarket",
       "found_date": "2026-07-20",
-      "velocity": 25502
+      "velocity": 9466
     },
     {
       "app_id": "com.loop.clear.cube.free.card.puzzle.sort.match",
@@ -7823,7 +7848,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.loop.clear.cube.free.card.puzzle.sort.match",
       "found_date": "2026-07-19",
-      "velocity": 154331
+      "velocity": 64098
     },
     {
       "app_id": "com.spot.find.differences.brain.puzzle",
@@ -7848,7 +7873,7 @@
       "release_date": "Jan 21, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.spot.find.differences.brain.puzzle",
       "found_date": "2026-07-19",
-      "velocity": 1667
+      "velocity": 978
     },
     {
       "app_id": "com.peoplefun.wordcross",
@@ -7882,7 +7907,7 @@
       "release_date": "Jun 14, 2017",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross",
       "found_date": "2026-07-19",
-      "velocity": 56444
+      "velocity": 40689
     },
     {
       "app_id": "com.peoplefun.wordsearch",
@@ -7950,7 +7975,7 @@
       "release_date": "Aug 1, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsolitaire",
       "found_date": "2026-07-19",
-      "velocity": 12832
+      "velocity": 7504
     },
     {
       "app_id": "com.peoplefun.wordflowers",
@@ -7984,7 +8009,7 @@
       "release_date": "Feb 14, 2018",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordflowers",
       "found_date": "2026-07-19",
-      "velocity": 1154
+      "velocity": 708
     },
     {
       "app_id": "com.peoplefun.wordvistas",
@@ -8018,7 +8043,7 @@
       "release_date": "Nov 20, 2017",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordvistas",
       "found_date": "2026-07-19",
-      "velocity": 207
+      "velocity": 129
     },
     {
       "app_id": "games.echidna.wordblast",
@@ -8052,7 +8077,7 @@
       "release_date": "Oct 9, 2025",
       "url": "https://play.google.com/store/apps/details?id=games.echidna.wordblast",
       "found_date": "2026-07-19",
-      "velocity": 4115
+      "velocity": 2223
     },
     {
       "app_id": "com.peoplefun.blockscapes",
@@ -8061,7 +8086,7 @@
       "name": "Blockscapes - Block Puzzle",
       "icon": "https://play-lh.googleusercontent.com/gsTCdGa84IGefdvMJueSDQeTQuaIFXLNxuug9p4ENJCwsj6bwTrBaKIP9jd5i4gqA0QOTl1uGWUM6i0bH9Ha",
       "installs": "5,000,000+",
-      "real_installs": 7689340,
+      "real_installs": 7689386,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/_wvJAEr5IhNZa2YHRGml_GEUoYt-HY5m33gI0qIDBWvoE-Fe-3PYPzTo0wxUJO4b8xzf62qL6gb-CckKPtfFgA",
@@ -8086,7 +8111,7 @@
       "release_date": "Dec 18, 2019",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.blockscapes",
       "found_date": "2026-07-19",
-      "velocity": 203
+      "velocity": 164
     },
     {
       "app_id": "com.peoplefun.wordchums",
@@ -8095,7 +8120,7 @@
       "name": "Word Chums",
       "icon": "https://play-lh.googleusercontent.com/PdKXh6FAmYZjaS-JCtV_bmflscP0mGZEZXjei_aUZIwqd_OKIOZVA59auqqAoW6TAlSQ7iYVEi2qrm8dNLsj",
       "installs": "1,000,000+",
-      "real_installs": 3217258,
+      "real_installs": 3217358,
       "genre": "Word",
       "shots": [
         "https://play-lh.googleusercontent.com/LngsjzW5D7xU0LYhWN7A6IZ5-qBZstqN-V0PSmjluqpw2W6H9yByccfABgjcFowpzWjEWNKKDxugsj3wf02tKA",
@@ -8120,7 +8145,7 @@
       "release_date": "Jul 30, 2013",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordchums",
       "found_date": "2026-07-19",
-      "velocity": 362
+      "velocity": 316
     },
     {
       "app_id": "com.peoplefun.wordstacks",
@@ -8153,7 +8178,7 @@
       "release_date": "Oct 3, 2018",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordstacks",
       "found_date": "2026-07-19",
-      "velocity": 253
+      "velocity": 179
     },
     {
       "app_id": "com.peoplefun.bricksnballs",
@@ -8184,7 +8209,7 @@
       "release_date": "Mar 19, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.bricksnballs",
       "found_date": "2026-07-19",
-      "velocity": 5979
+      "velocity": 3912
     },
     {
       "app_id": "com.peoplefun.wordchamps",
@@ -8214,7 +8239,7 @@
       "release_date": "Jun 15, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordchamps",
       "found_date": "2026-07-19",
-      "velocity": 728
+      "velocity": 325
     },
     {
       "app_id": "6789428730",
@@ -8304,7 +8329,7 @@
       "release_date": "Feb 10, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmSecurityAirport",
       "found_date": "2026-07-18",
-      "velocity": 35994
+      "velocity": 14918
     },
     {
       "app_id": "com.idle.breaker.game",
@@ -8338,7 +8363,7 @@
       "release_date": "Jul 12, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.idle.breaker.game",
       "found_date": "2026-07-18",
-      "velocity": 4010
+      "velocity": 2577
     },
     {
       "app_id": "com.western.escape",
@@ -8372,7 +8397,7 @@
       "release_date": "Feb 12, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.western.escape",
       "found_date": "2026-07-18",
-      "velocity": 8620
+      "velocity": 5130
     },
     {
       "app_id": "com.NewFolderGames.IAmBird",
@@ -8406,7 +8431,7 @@
       "release_date": "Dec 20, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmBird",
       "found_date": "2026-07-18",
-      "velocity": 90895
+      "velocity": 39901
     },
     {
       "app_id": "com.age.sails",
@@ -8440,7 +8465,7 @@
       "release_date": "Nov 6, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.age.sails",
       "found_date": "2026-07-18",
-      "velocity": 5966
+      "velocity": 3517
     },
     {
       "app_id": "com.NewFolderGames.IAmSecurirty",
@@ -8474,7 +8499,7 @@
       "release_date": "Feb 15, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmSecurirty",
       "found_date": "2026-07-18",
-      "velocity": 124109
+      "velocity": 88145
     },
     {
       "app_id": "com.NewFolderGames.IAmMonkey",
@@ -8508,7 +8533,7 @@
       "release_date": "Oct 31, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmMonkey",
       "found_date": "2026-07-18",
-      "velocity": 151956
+      "velocity": 67230
     },
     {
       "app_id": "com.NewFolderGames.TaxiDriver",
@@ -8551,7 +8576,7 @@
       "name": "Frost World - Snow Survival",
       "icon": "https://play-lh.googleusercontent.com/H3LSpiBHE9GO5wt9oq0iEJIIxR033zYOSRCJu6OsXfnunu4LfQH53y7LVwOcfSMn09K-Gl-nYyvW-Mi2Rm0A",
       "installs": "10,000,000+",
-      "real_installs": 13401525,
+      "real_installs": 13423721,
       "genre": "Role Playing",
       "shots": [
         "https://play-lh.googleusercontent.com/sDYF9hkz-DMkwyJVcksbzY6OVCxbDZRd1XmpLGrCpsslCF_5M-FLduRfK4wiYgurGP63z_SwkhNtIVDdAwDGEA",
@@ -8576,7 +8601,7 @@
       "release_date": "Nov 29, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.winter.breaker",
       "found_date": "2026-07-18",
-      "velocity": 53770
+      "velocity": 75966
     },
     {
       "app_id": "com.NewFolderGames.IAmCat",
@@ -8610,7 +8635,7 @@
       "release_date": "Feb 22, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmCat",
       "found_date": "2026-07-18",
-      "velocity": 304335
+      "velocity": 136072
     },
     {
       "app_id": "com.vikings.game",
@@ -8644,7 +8669,7 @@
       "release_date": "Oct 29, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.vikings.game",
       "found_date": "2026-07-18",
-      "velocity": 899
+      "velocity": 472
     },
     {
       "app_id": "com.raptor.evolution",
@@ -8678,7 +8703,7 @@
       "release_date": "Aug 8, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.raptor.evolution",
       "found_date": "2026-07-18",
-      "velocity": 20043
+      "velocity": 12287
     },
     {
       "app_id": "com.kolka.magic",
@@ -8712,7 +8737,7 @@
       "release_date": "Jan 30, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.kolka.magic",
       "found_date": "2026-07-18",
-      "velocity": 944
+      "velocity": 607
     },
     {
       "app_id": "com.space.breaker.game",
@@ -8746,7 +8771,7 @@
       "release_date": "Sep 28, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.space.breaker.game",
       "found_date": "2026-07-18",
-      "velocity": 4308
+      "velocity": 2831
     },
     {
       "app_id": "com.NewFolderGames.IAmJanitor",
@@ -8779,7 +8804,7 @@
       "release_date": "Jun 20, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmJanitor",
       "found_date": "2026-07-18",
-      "velocity": 29200
+      "velocity": 17472
     },
     {
       "app_id": "com.estoty.game2048",
@@ -8812,7 +8837,7 @@
       "release_date": "Mar 11, 2014",
       "url": "https://play.google.com/store/apps/details?id=com.estoty.game2048",
       "found_date": "2026-07-18",
-      "velocity": 283
+      "velocity": 168
     },
     {
       "app_id": "com.insbraingames.peacetile.gp",
@@ -8846,7 +8871,7 @@
       "release_date": "Sep 26, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.insbraingames.peacetile.gp",
       "found_date": "2026-07-18",
-      "velocity": 1772
+      "velocity": 1085
     },
     {
       "app_id": "com.coin.sort.puzzle.relax.gp",
@@ -8880,7 +8905,7 @@
       "release_date": "Dec 9, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.coin.sort.puzzle.relax.gp",
       "found_date": "2026-07-18",
-      "velocity": 2576
+      "velocity": 1308
     },
     {
       "app_id": "com.mahjong.op.gp",
@@ -8889,7 +8914,7 @@
       "name": "Shanghai Mahjongg",
       "icon": "https://play-lh.googleusercontent.com/TWmkmi6kcrIYolwnfJkyq8pu-4Be_yqtD1h9u2cXsaBRBSEJxZPhDcCynaGFjBSgMQbJIIltkpNfXx7r3JHRVQ",
       "installs": "1,000,000+",
-      "real_installs": 3458353,
+      "real_installs": 3460121,
       "genre": "Board",
       "shots": [
         "https://play-lh.googleusercontent.com/Q4DGUkGKuEUkcytLP64XI2mJIMVxhzsF77oBfLvbYr386CI6J5BoIZX5Fsc4w_QiyHZyi3iQwGoDmDTVNHCEMOw",
@@ -8913,7 +8938,7 @@
       "release_date": "Jul 5, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.mahjong.op.gp",
       "found_date": "2026-07-18",
-      "velocity": 4927
+      "velocity": 6695
     },
     {
       "app_id": "com.mahjong.pyramid.catnap.gp",
@@ -8979,7 +9004,7 @@
       "release_date": "Mar 20, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.word.solitaire.op.gp",
       "found_date": "2026-07-18",
-      "velocity": 24
+      "velocity": 10
     },
     {
       "app_id": "com.jigsaw.palace.gp",
@@ -9005,7 +9030,7 @@
       "release_date": "Feb 4, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.jigsaw.palace.gp",
       "found_date": "2026-07-18",
-      "velocity": 268
+      "velocity": 171
     },
     {
       "app_id": "com.fluffydrop.op.gp",
@@ -9030,7 +9055,7 @@
       "release_date": "Mar 29, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.fluffydrop.op.gp",
       "found_date": "2026-07-18",
-      "velocity": 256386
+      "velocity": 151064
     },
     {
       "app_id": "com.fluffyfairygames.idleminertycoon",
@@ -9059,7 +9084,7 @@
       "release_date": "Jun 30, 2016",
       "url": "https://play.google.com/store/apps/details?id=com.fluffyfairygames.idleminertycoon",
       "found_date": "2026-07-18",
-      "velocity": 74869
+      "velocity": 51719
     },
     {
       "app_id": "com.luckyskeletonstudios.idlebanktycoon",
@@ -9088,7 +9113,7 @@
       "release_date": "Aug 16, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.luckyskeletonstudios.idlebanktycoon",
       "found_date": "2026-07-18",
-      "velocity": 64281
+      "velocity": 27762
     },
     {
       "app_id": "com.kolibrigames.idlerestauranttycoon",
@@ -9175,7 +9200,7 @@
       "release_date": "Jun 14, 2024",
       "url": "https://play.google.com/store/apps/details?id=com.loststarfish.idletrash",
       "found_date": "2026-07-18",
-      "velocity": 913
+      "velocity": 532
     },
     {
       "app_id": "com.catchycoconutgames.idlemailtycoon",
@@ -9203,7 +9228,7 @@
       "release_date": "May 6, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.catchycoconutgames.idlemailtycoon",
       "found_date": "2026-07-18",
-      "velocity": 1574
+      "velocity": 925
     },
     {
       "app_id": "com.fastpoodlegames.idletaxitycoon",
@@ -9230,7 +9255,7 @@
       "release_date": "Apr 19, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.fastpoodlegames.idletaxitycoon",
       "found_date": "2026-07-18",
-      "velocity": 728
+      "velocity": 398
     },
     {
       "app_id": "com.fancyelephant.idlemergetycoon",
@@ -9259,7 +9284,7 @@
       "release_date": "Sep 15, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.fancyelephant.idlemergetycoon",
       "found_date": "2026-07-18",
-      "velocity": 523
+      "velocity": 312
     },
     {
       "app_id": "com.twindeerarts.idlepiratetycoon",
@@ -9288,7 +9313,7 @@
       "release_date": "Sep 22, 2020",
       "url": "https://play.google.com/store/apps/details?id=com.twindeerarts.idlepiratetycoon",
       "found_date": "2026-07-18",
-      "velocity": 619
+      "velocity": 371
     },
     {
       "app_id": "com.fluffyfairygames.idlefactorytycoon",
@@ -9315,7 +9340,7 @@
       "release_date": "Nov 23, 2017",
       "url": "https://play.google.com/store/apps/details?id=com.fluffyfairygames.idlefactorytycoon",
       "found_date": "2026-07-18",
-      "velocity": 465
+      "velocity": 286
     },
     {
       "app_id": "com.excitedowlarts.idlehighschooltycoon",
@@ -9340,7 +9365,7 @@
       "release_date": "Jan 22, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.excitedowlarts.idlehighschooltycoon",
       "found_date": "2026-07-18",
-      "velocity": 1549
+      "velocity": 903
     },
     {
       "app_id": "6780401631",
@@ -9570,7 +9595,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.relic.digger",
       "found_date": "2026-07-16",
-      "velocity": 6
+      "velocity": 5
     },
     {
       "app_id": "com.joyboy.whereismyseat",
@@ -9597,7 +9622,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.joyboy.whereismyseat",
       "found_date": "2026-07-16",
-      "velocity": 12
+      "velocity": 7
     },
     {
       "app_id": "com.abi.honey.cube.color.pixel",
@@ -9624,7 +9649,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.abi.honey.cube.color.pixel",
       "found_date": "2026-07-16",
-      "velocity": 1427
+      "velocity": 802
     },
     {
       "app_id": "com.abi.colony.flow",
@@ -9633,7 +9658,7 @@
       "name": "Colony Flow!",
       "icon": "https://play-lh.googleusercontent.com/C4tx8KR7PGd4DaPJUJEjrUUSJaQlRaXCWdXv7KMZIkW0KjPD5asTITH9XjEaex0_dcQn6W0ZYiPWoqQa8oq7kA",
       "installs": "1,000,000+",
-      "real_installs": 1693713,
+      "real_installs": 1721965,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/2fXZDwOyqDh8cQ0q9mbulhnIgNNoGsZMIIhkTpUBlz0EHz9WqZZdPpMCDBEP2O2c7RUwQRQr93LtPtEEbZiHwQ",
@@ -9650,7 +9675,7 @@
       "release_date": "Jun 12, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.abi.colony.flow",
       "found_date": "2026-07-16",
-      "velocity": 70761
+      "velocity": 70348
     },
     {
       "app_id": "com.abi.mahgicblast",
@@ -9676,7 +9701,7 @@
       "release_date": "Jun 24, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.abi.mahgicblast",
       "found_date": "2026-07-16",
-      "velocity": 7
+      "velocity": 4
     },
     {
       "app_id": "com.hitappsgames.asmatch3",
@@ -9725,7 +9750,7 @@
       "release_date": "Jul 14, 2026",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.arrollcrossaway",
       "found_date": "2026-07-16",
-      "velocity": 162
+      "velocity": 88
     },
     {
       "app_id": "solitaire.patience.card.games.klondike.free",
@@ -9830,7 +9855,7 @@
       "release_date": "Jan 28, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.ludens.RockPush",
       "found_date": "2026-07-15",
-      "velocity": 2751
+      "velocity": 1820
     },
     {
       "app_id": "com.oakever.bubblepics",
@@ -9984,7 +10009,7 @@
       "release_date": "Nov 26, 2021",
       "url": "https://play.google.com/store/apps/details?id=com.word.block.puzzle.free.relax",
       "found_date": "2026-07-11",
-      "velocity": 4424
+      "velocity": 2550
     },
     {
       "app_id": "6761390628",
@@ -10036,7 +10061,7 @@
       "release_date": "Aug 15, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.luwukmeliana.profileperfect",
       "found_date": "2026-07-10",
-      "velocity": 23795
+      "velocity": 15511
     },
     {
       "app_id": "6785400656",
@@ -10088,7 +10113,7 @@
       "release_date": "Sep 25, 2023",
       "url": "https://play.google.com/store/apps/details?id=block.jigsaw.puzzle.games.wood.blocks.sudoku.free",
       "found_date": "2026-07-09",
-      "velocity": 13
+      "velocity": 10
     },
     {
       "app_id": "ball.sort.puzzle.color.sorting.puzzle.games.free.bubble",
@@ -10113,7 +10138,7 @@
       "release_date": "Jan 22, 2024",
       "url": "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.puzzle.games.free.bubble",
       "found_date": "2026-07-09",
-      "velocity": 40
+      "velocity": 23
     },
     {
       "app_id": "jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free",
@@ -10138,7 +10163,7 @@
       "release_date": "Sep 22, 2023",
       "url": "https://play.google.com/store/apps/details?id=jigsort.puzzles.jigsaw.puzzle.games.i.love.hue.free",
       "found_date": "2026-07-09",
-      "velocity": 1401
+      "velocity": 854
     },
     {
       "app_id": "blockpuzzle.game.block.puzzle",
@@ -10163,7 +10188,7 @@
       "release_date": "Jun 19, 2020",
       "url": "https://play.google.com/store/apps/details?id=blockpuzzle.game.block.puzzle",
       "found_date": "2026-07-09",
-      "velocity": 582
+      "velocity": 332
     },
     {
       "app_id": "water.sort.puzzle.color.sorting.game.free",
@@ -10188,7 +10213,7 @@
       "release_date": "Jan 13, 2022",
       "url": "https://play.google.com/store/apps/details?id=water.sort.puzzle.color.sorting.game.free",
       "found_date": "2026-07-09",
-      "velocity": 106
+      "velocity": 63
     },
     {
       "app_id": "solitaire.collection.klondike.card.games.free.game",
@@ -10214,7 +10239,7 @@
       "release_date": "Jan 13, 2023",
       "url": "https://play.google.com/store/apps/details?id=solitaire.collection.klondike.card.games.free.game",
       "found_date": "2026-07-09",
-      "velocity": 16393
+      "velocity": 6575
     },
     {
       "app_id": "jp.co.goodroid.hyper.busloop",
@@ -10318,7 +10343,7 @@
       "release_date": "Dec 12, 2014",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
       "found_date": "2026-07-07",
-      "velocity": 22148
+      "velocity": 15142
     },
     {
       "app_id": "jp.co.goodroid.hyper.tetoteto",
@@ -10383,7 +10408,7 @@
       "release_date": "Jul 23, 2025",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.puzzle.catseekscreensafari",
       "found_date": "2026-07-07",
-      "velocity": 530
+      "velocity": 248
     },
     {
       "app_id": "6761920469",
@@ -10492,7 +10517,7 @@
       "release_date": "Mar 4, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mwg.solitaire.relax",
       "found_date": "2026-07-02",
-      "velocity": 29
+      "velocity": 20
     },
     {
       "app_id": "6782096197",
@@ -10544,7 +10569,7 @@
       "release_date": "May 16, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.ig.color.loop",
       "found_date": "2026-06-30",
-      "velocity": 7
+      "velocity": 2
     },
     {
       "app_id": "com.furylion.makeup",
@@ -10569,7 +10594,7 @@
       "release_date": "Feb 14, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.furylion.makeup",
       "found_date": "2026-06-30",
-      "velocity": 2091
+      "velocity": 1339
     },
     {
       "app_id": "com.vottzapps.wordle",
@@ -10594,7 +10619,7 @@
       "release_date": "Feb 15, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle",
       "found_date": "2026-06-30",
-      "velocity": 27407
+      "velocity": 15747
     },
     {
       "app_id": "com.meemeegames.categorysort",
@@ -10621,7 +10646,7 @@
       "release_date": "Jan 6, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.meemeegames.categorysort",
       "found_date": "2026-06-30",
-      "velocity": 24499
+      "velocity": 24456
     },
     {
       "app_id": "com.gamebrain.hexasort",
@@ -10646,7 +10671,7 @@
       "release_date": "Jul 6, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
       "found_date": "2026-06-30",
-      "velocity": 86080
+      "velocity": 32213
     },
     {
       "app_id": "com.mahjong.master.solitaire.match.puzzle",
@@ -10655,7 +10680,7 @@
       "name": "Mahjong Master: Daily Match",
       "icon": "https://play-lh.googleusercontent.com/nUHFn87Lc2AifraSGdQH3DnwOZNzwEj25zYYk3qz3lsxsAa5p_RbXwCHZg38XpZMOcc4KQqlSMWJHfZiBMzErQ",
       "installs": "5,000,000+",
-      "real_installs": 9033656,
+      "real_installs": 9112751,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/S2hdXWDGDvyDeolUw7n2vFHrVURcnsxlMcQKBgPzNGB94yg-3_5oqkxlQgHpB3ih7P4Ab1l3naW6e2V9yKxDb6g",
@@ -10672,7 +10697,7 @@
       "release_date": "Jan 22, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.mahjong.master.solitaire.match.puzzle",
       "found_date": "2026-06-30",
-      "velocity": 214063
+      "velocity": 236248
     },
     {
       "app_id": "com.puzzle.bearknit",
@@ -10697,7 +10722,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.puzzle.bearknit",
       "found_date": "2026-06-29",
-      "velocity": 4
+      "velocity": 2
     },
     {
       "app_id": "and.brainworks.arrow3d",
@@ -10722,7 +10747,7 @@
       "release_date": "Jun 27, 2026",
       "url": "https://play.google.com/store/apps/details?id=and.brainworks.arrow3d",
       "found_date": "2026-06-29",
-      "velocity": 737
+      "velocity": 319
     },
     {
       "app_id": "ott.peakfightingondemand",
@@ -10747,7 +10772,7 @@
       "release_date": "May 5, 2023",
       "url": "https://play.google.com/store/apps/details?id=ott.peakfightingondemand",
       "found_date": "2026-06-29",
-      "velocity": 40
+      "velocity": 19
     },
     {
       "app_id": "com.wod.ag.global",
@@ -10797,7 +10822,7 @@
       "release_date": "Sep 23, 2022",
       "url": "https://play.google.com/store/apps/details?id=spider.solitaire.card.games.free.klondike.patience",
       "found_date": "2026-06-29",
-      "velocity": 23148
+      "velocity": 10228
     },
     {
       "app_id": "6768921423",
@@ -10846,7 +10871,7 @@
       "release_date": "Jan 8, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.puzzle.colorpipe",
       "found_date": "2026-06-28",
-      "velocity": 3
+      "velocity": 1
     },
     {
       "app_id": "net.peakgames.toonblast",
@@ -10855,7 +10880,7 @@
       "name": "Toon Blast",
       "icon": "https://play-lh.googleusercontent.com/ekfU_7pbR8Oj6vDY9JCznGiMwQm96gmatyBlv9MyvgPnNhmodMo1fZgrQu7NfQ9WY2K4DIxd7TyETGgXH2qq",
       "installs": "100,000,000+",
-      "real_installs": 132989451,
+      "real_installs": 133013700,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/vXIvIxqpDikdWI3-zs_01QW7tPxthRjMplnKCJNGsfugnvnIC4-OEw2x49aMPOqy2ncfTiUjx-h7tTHv33a3M8s",
@@ -10871,7 +10896,7 @@
       "release_date": "Aug 25, 2017",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast",
       "found_date": "2026-06-28",
-      "velocity": 61566
+      "velocity": 69063
     },
     {
       "app_id": "com.a25apps.HillClimber",
@@ -10946,7 +10971,7 @@
       "release_date": "Dec 21, 2023",
       "url": "https://play.google.com/store/apps/details?id=net.peakgames.match",
       "found_date": "2026-06-28",
-      "velocity": 162414
+      "velocity": 111270
     },
     {
       "app_id": "com.woodenblockpuzzle.casual.game",
@@ -10971,7 +10996,7 @@
       "release_date": "Dec 1, 2022",
       "url": "https://play.google.com/store/apps/details?id=com.woodenblockpuzzle.casual.game",
       "found_date": "2026-06-27",
-      "velocity": 887
+      "velocity": 494
     },
     {
       "app_id": "6776998222",
@@ -11045,7 +11070,7 @@
       "release_date": null,
       "url": "https://play.google.com/store/apps/details?id=com.hypermode.stackattack",
       "found_date": "2026-06-26",
-      "velocity": 62
+      "velocity": 24
     },
     {
       "app_id": "com.MadApper.StackEmUp",
@@ -11070,7 +11095,7 @@
       "release_date": "Oct 23, 2023",
       "url": "https://play.google.com/store/apps/details?id=com.MadApper.StackEmUp",
       "found_date": "2026-06-26",
-      "velocity": 31
+      "velocity": 17
     },
     {
       "app_id": "com.tripoly.ballloop.gp",
@@ -11095,7 +11120,7 @@
       "release_date": "May 13, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.tripoly.ballloop.gp",
       "found_date": "2026-06-26",
-      "velocity": 101
+      "velocity": 60
     },
     {
       "app_id": "com.crescivegames.tetrabus",
@@ -11120,7 +11145,7 @@
       "release_date": "Feb 3, 2025",
       "url": "https://play.google.com/store/apps/details?id=com.crescivegames.tetrabus",
       "found_date": "2026-06-26",
-      "velocity": 23
+      "velocity": 11
     },
     {
       "app_id": "com.slowmo.twinvolley",
@@ -11221,7 +11246,7 @@
       "release_date": "May 9, 2026",
       "url": "https://play.google.com/store/apps/details?id=com.roomperfect.global",
       "found_date": "2026-06-26",
-      "velocity": 26850
+      "velocity": 18100
     },
     {
       "app_id": "jp.co.goodroid.hyper.rope",
@@ -11249,7 +11274,7 @@
       "release_date": "Mar 7, 2024",
       "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.rope",
       "found_date": "2026-06-26",
-      "velocity": 1083
+      "velocity": 630
     },
     {
       "app_id": "bus.games.car.out.traffic.parking.jam.escape.puzzle",
@@ -11258,7 +11283,7 @@
       "name": "Car Parking Games: Bus Madness",
       "icon": "https://play-lh.googleusercontent.com/nbmVNGBwY2Det_2P1KviCSAOz3Pz3IYm5WubcRtMsoyvkJFnhtWCft4kx39UTeedjAN6HCK3TurC7Y_bnmO9ow",
       "installs": "1,000,000+",
-      "real_installs": 2328490,
+      "real_installs": 2345168,
       "genre": "Puzzle",
       "shots": [
         "https://play-lh.googleusercontent.com/ZN_FGFRBVd-UJdC5_jT7bk7xRq9BTK7XvY1OBCW-ejzNb8-TkSh0X7usZ6Mhi0qu3ApzJLMEmubH6aJQS5e1jQ",
@@ -11282,7 +11307,7 @@
       "release_date": "May 26, 2025",
       "url": "https://play.google.com/store/apps/details?id=bus.games.car.out.traffic.parking.jam.escape.puzzle",
       "found_date": "2026-06-26",
-      "velocity": 67481
+      "velocity": 45851
     },
     {
       "app_id": "find.differences.online.puzzle.games",
@@ -11315,7 +11340,7 @@
       "release_date": "Feb 8, 2021",
       "url": "https://play.google.com/store/apps/details?id=find.differences.online.puzzle.games",
       "found_date": "2026-06-26",
-      "velocity": 1565
+      "velocity": 765
     },
     {
       "app_id": "word.games.puzzle.offline.games",
@@ -12009,7 +12034,7 @@
         "https://play-lh.googleusercontent.com/T9lMeoPAGYtXzm_-MKLaX4m1zvAR07yGVBM1g6G_AyCQvc3BiaYZFqMtHLLdykTRDZnDOBb9Lw2JmFoybnZwBMk"
       ],
       "real_installs": 49643,
-      "velocity": 978
+      "velocity": 581
     },
     {
       "app_id": "com.abi.steam.it",
@@ -12084,7 +12109,7 @@
         "https://play-lh.googleusercontent.com/jRBqkudj-q7PISpOvZxJO0pAcqtElA3XU92ldAJmGN62UYFF5F3i43Mvsb8B_zndvzOV-HBqArGigLjG72Rh"
       ],
       "real_installs": 358161,
-      "velocity": 641
+      "velocity": 369
     },
     {
       "app_id": "com.whalergames.pirateraid",
@@ -12109,7 +12134,7 @@
         "https://play-lh.googleusercontent.com/1zIp8naEK7DXow19g9u9FMc32HnVxXPWpnQyu5ZydvFD7Y8BrF6Z0U-hoJSr3iIjLxhRE8LHqYNdbyK9mTaB0ls"
       ],
       "real_installs": 10805565,
-      "velocity": 10816
+      "velocity": 6061
     },
     {
       "app_id": "com.playstrom.tile.match",
@@ -12134,7 +12159,7 @@
         "https://play-lh.googleusercontent.com/oASnHXl61WHLocyAGPUXYWBcactzWnH1VgKOTlE8o5L2wP9Wy9qnB_zXiikpo6tSRYTqAANECvi9lujsYu8TTA"
       ],
       "real_installs": 3528464,
-      "velocity": 363
+      "velocity": 215
     },
     {
       "app_id": "com.tripledot.arrowsort",
