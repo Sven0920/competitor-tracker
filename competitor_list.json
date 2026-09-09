@@ -38212,12 +38212,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "com.hitappsgames.ascube": {
         "name": "Association Cube",
         "regions": [
@@ -38236,6 +38230,84 @@
         "name": "Shoot The Monster",
         "regions": [
             "vn"
+        ]
+    },
+    "1490423596": {
+        "name": "Paper.io 3D",
+        "regions": [
+            "vn"
+        ]
+    },
+    "1489188581": {
+        "name": "Dribble Hoops",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6802910325": {
+        "name": "Bee Flow!",
+        "regions": [
+            "ca",
+            "mx",
+            "tr",
+            "us",
+            "gb",
+            "au",
+            "br",
+            "id",
+            "ph"
+        ]
+    },
+    "6758054379": {
+        "name": "Meal Dash",
+        "regions": [
+            "ca",
+            "mx",
+            "tr",
+            "us",
+            "vn",
+            "gb",
+            "au",
+            "ph"
+        ]
+    },
+    "6802917824": {
+        "name": "Ant Bus",
+        "regions": [
+            "ca",
+            "mx",
+            "tr",
+            "us",
+            "vn",
+            "gb",
+            "au",
+            "br",
+            "id",
+            "ph"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "and.lhhpub.bus.flow.fever": {
+        "name": "Bus Flow Fever: Traffic Jam",
+        "regions": [
+            "ph"
+        ]
+    },
+    "and.lhhpub.car.crew": {
+        "name": "Car Crew: Color Jam",
+        "regions": [
+            "vn"
+        ]
+    },
+    "puzzle.snakes.puzzle.slithereat.gaming": {
+        "name": "Snake Puzzle: Slither to Eat",
+        "regions": [
+            "mx"
         ]
     }
 }
