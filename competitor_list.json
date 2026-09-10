@@ -38286,12 +38286,6 @@
             "ph"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "and.lhhpub.bus.flow.fever": {
         "name": "Bus Flow Fever: Traffic Jam",
         "regions": [
@@ -38308,6 +38302,18 @@
         "name": "Snake Puzzle: Slither to Eat",
         "regions": [
             "mx"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gimica.goodssorter": {
+        "name": "Goods Sorter",
+        "regions": [
+            "tr"
         ]
     }
 }
