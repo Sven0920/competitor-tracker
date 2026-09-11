@@ -38304,16 +38304,45 @@
             "mx"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "com.gimica.goodssorter": {
         "name": "Goods Sorter",
         "regions": [
             "tr"
+        ]
+    },
+    "1498982970": {
+        "name": "Wheel Smash",
+        "regions": [
+            "tr",
+            "us",
+            "br",
+            "ca",
+            "id",
+            "au",
+            "mx",
+            "ph",
+            "vn",
+            "gb"
+        ]
+    },
+    "6803055355": {
+        "name": "Card Jam Solitaire Puzzle",
+        "regions": [
+            "tr",
+            "br",
+            "ca",
+            "id",
+            "au",
+            "mx",
+            "ph",
+            "vn",
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
         ]
     }
 }
