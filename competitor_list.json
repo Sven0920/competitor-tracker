@@ -38344,5 +38344,26 @@
         "regions": [
             "vn"
         ]
+    },
+    "sorting.color.stuck.balls.block.tube.games": {
+        "name": "Match Ball Puzzle: Color Game",
+        "regions": [
+            "vn",
+            "br"
+        ]
+    },
+    "puzzle.shoot.a.cube": {
+        "name": "Shoot a Cube Puzzle!",
+        "regions": [
+            "ca",
+            "mx",
+            "us",
+            "gb",
+            "ph",
+            "id",
+            "tr",
+            "au",
+            "br"
+        ]
     }
 }
