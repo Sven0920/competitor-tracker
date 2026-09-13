@@ -38339,12 +38339,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "sorting.color.stuck.balls.block.tube.games": {
         "name": "Match Ball Puzzle: Color Game",
         "regions": [
@@ -38364,6 +38358,67 @@
             "tr",
             "au",
             "br"
+        ]
+    },
+    "6795585457": {
+        "name": "Sand Hole: Block Sort Jam",
+        "regions": [
+            "tr",
+            "au",
+            "id",
+            "br",
+            "vn",
+            "gb",
+            "mx",
+            "ca",
+            "us",
+            "ph"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gamepie.airpolice": {
+        "name": "HellCopter",
+        "regions": [
+            "tr",
+            "id",
+            "br",
+            "gb",
+            "mx",
+            "ca",
+            "us",
+            "ph"
+        ]
+    },
+    "com.grandgames.catblockjam": {
+        "name": "Block Out! - Color Sort Puzzle",
+        "regions": [
+            "tr",
+            "au",
+            "id",
+            "br",
+            "vn",
+            "gb",
+            "mx",
+            "ca",
+            "us",
+            "ph"
+        ]
+    },
+    "com.peakmobilitydxb.app": {
+        "name": "PEAK Mobility",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.gimica.fruitmergedrop": {
+        "name": "Fruit Merge Drop",
+        "regions": [
+            "tr"
         ]
     }
 }
