@@ -38375,12 +38375,6 @@
             "ph"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
-        "regions": [
-            "vn"
-        ]
-    },
     "com.gamepie.airpolice": {
         "name": "HellCopter",
         "regions": [
@@ -38419,6 +38413,18 @@
         "name": "Fruit Merge Drop",
         "regions": [
             "tr"
+        ]
+    },
+    "null": {
+        "name": "Tile Clear - Puzzle Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gimica.dontpop": {
+        "name": "Don't Pop!",
+        "regions": [
+            "vn"
         ]
     }
 }
