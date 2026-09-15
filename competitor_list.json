@@ -38415,14 +38415,324 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Tile Clear - Puzzle Game",
+    "com.gimica.dontpop": {
+        "name": "Don't Pop!",
         "regions": [
             "vn"
         ]
     },
-    "com.gimica.dontpop": {
-        "name": "Don't Pop!",
+    "com.abi.pixel.bus.sort": {
+        "name": "Pixel Bus Sort",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "tr",
+            "gb",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "and.lhhpub.cube.blast": {
+        "name": "Voxel Flow 3D: Cube Blast",
+        "regions": [
+            "ca",
+            "mx",
+            "au",
+            "us"
+        ]
+    },
+    "com.trail.game": {
+        "name": "Sky Trail",
+        "regions": [
+            "ca",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "br",
+            "mx"
+        ]
+    },
+    "com.easygames.resize": {
+        "name": "Re-Size-I‪t‬: Solve the Puzzle",
+        "regions": [
+            "br",
+            "mx"
+        ]
+    },
+    "com.jtsniper.game": {
+        "name": "Johnny Trigger - Sniper Game",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.evolution.hyper": {
+        "name": "Hyper Evolution",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.zm.gems": {
+        "name": "Gem Mosaic: 3D Sort Puzzle",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.peakcreditunion5056a.mobile": {
+        "name": "Peak Credit Union",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.peaksware.trainingpeaks": {
+        "name": "TrainingPeaks: Plan Train Lift",
+        "regions": [
+            "ca",
+            "gb",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.targeteducare": {
+        "name": "Target PEAK",
+        "regions": [
+            "br",
+            "mx",
+            "tr"
+        ]
+    },
+    "com.peakgymnasticsny.icp": {
+        "name": "Peak Gymnastics",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.metroville.global": {
+        "name": "Livetopia: Party!",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.sloth.domina_ovs.android": {
+        "name": "Gladiators Arena: Idle Tycoon",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.game5mobile.sticker": {
+        "name": "Sticker Book: Color By Number",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.MoodGames.CoinSort": {
+        "name": "Coin Sort",
+        "regions": [
+            "ca",
+            "au",
+            "us",
+            "gb"
+        ]
+    },
+    "com.bloom.sort": {
+        "name": "Bloom Sort",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.block.away": {
+        "name": "Block Buster - No Timer",
+        "regions": [
+            "ca",
+            "vn",
+            "us",
+            "gb",
+            "au",
+            "mx"
+        ]
+    },
+    "com.Machina.SortDash": {
+        "name": "Sort Dash: Color Match!",
+        "regions": [
+            "ca",
+            "vn",
+            "gb",
+            "au",
+            "br"
+        ]
+    },
+    "com.AppFore.BubbleWordJam": {
+        "name": "Bubble Word Jam",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.gurupuzzle.find.go.hidden.objects": {
+        "name": "Hidden Objects Game: Find & Go",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "tile.connect.onet.onnect.pairs.matching.game.free.puzzle": {
+        "name": "Tile Puzzle: Pair Match Games",
+        "regions": [
+            "ca",
+            "ph",
+            "us"
+        ]
+    },
+    "com.Born2Play.StackyDash": {
+        "name": "Stacky Dash",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.ISAAC.DOWNTHEHOLE": {
+        "name": "Down the Hole!",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.ValentinKlimenko.SnakeCrusher": {
+        "name": "Snake Crusher",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.friendsgamesincubator.drawtheline": {
+        "name": "Draw The Line 3D",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "br",
+            "mx"
+        ]
+    },
+    "com.muhammedeminaksoy.cloneball": {
+        "name": "Clone Ball",
+        "regions": [
+            "ca",
+            "ph",
+            "vn",
+            "us",
+            "tr",
+            "gb",
+            "id",
+            "au",
+            "mx"
+        ]
+    },
+    "jp.gl3inc.drawspinner": {
+        "name": "Draw Rumble",
+        "regions": [
+            "vn",
+            "tr"
+        ]
+    },
+    "com.gimica.aeroescape": {
+        "name": "Aero Escape",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.gimica.spacemerge": {
+        "name": "Astro Merge",
+        "regions": [
+            "vn"
+        ]
+    },
+    "io.supercent.toysrus": {
+        "name": "My Toy Shop!",
+        "regions": [
+            "id",
+            "au"
+        ]
+    },
+    "io.supercent.bulldozermasters": {
+        "name": "Bulldozer Master: Crush & Mine",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.actionfit.merge.cat.detective": {
+        "name": "Merge Cat Town : Mystery Merge",
         "regions": [
             "vn"
         ]
