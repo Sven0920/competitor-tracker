@@ -38736,5 +38736,39 @@
         "regions": [
             "vn"
         ]
+    },
+    "1487837982": {
+        "name": "Jewels Planet  - Match 3 Game",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6790866671": {
+        "name": "Tiki Smash!",
+        "regions": [
+            "br",
+            "tr",
+            "vn",
+            "us",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "ph",
+            "au"
+        ]
+    },
+    "and.lhhpub.hexa.bug.flow": {
+        "name": "Hexabug Flow: Pixel Color Sort",
+        "regions": [
+            "mx",
+            "us"
+        ]
+    },
+    "com.blockblast.lite": {
+        "name": "Block Blast Lite",
+        "regions": [
+            "id"
+        ]
     }
 }
