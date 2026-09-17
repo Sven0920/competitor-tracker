@@ -38770,5 +38770,187 @@
         "regions": [
             "id"
         ]
+    },
+    "6760893468": {
+        "name": "Idle Trash Masters",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "6803816169": {
+        "name": "Ant Wars !",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "6800587402": {
+        "name": "Hamster Squad : Idle RPG",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "6794163529": {
+        "name": "Hexdoku: Cat Logic Puzzle",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "6788287421": {
+        "name": "Tiny War: Kingdom Defense",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "br"
+        ]
+    },
+    "com.appadon.homapp": {
+        "name": "HOMApp",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.oakever.zigword": {
+        "name": "ZigWord: Calm Word Puzzle",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "com.zombie.slasher": {
+        "name": "Zombie Slasher: Survival RPG",
+        "regions": [
+            "ca"
+        ]
+    },
+    "events.grip.peakevents1180": {
+        "name": "PEAK Official Networking App",
+        "regions": [
+            "us"
+        ]
+    },
+    "io.peakfs.peakwallet": {
+        "name": "PeakWallet",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.sichtwerk.peakhunter": {
+        "name": "Peakhunter Global Summit Log",
+        "regions": [
+            "id",
+            "tr",
+            "mx"
+        ]
+    },
+    "com.classic.wood.block.puzzle.games": {
+        "name": "Blockrealm: Wood Block Puzzle",
+        "regions": [
+            "id",
+            "mx",
+            "ph",
+            "au",
+            "vn"
+        ]
+    },
+    "com.puzzle.knitmatch": {
+        "name": "Knit Match 3D: Sort Puzzle",
+        "regions": [
+            "id",
+            "tr",
+            "ca",
+            "mx",
+            "gb",
+            "ph",
+            "us",
+            "au",
+            "vn",
+            "br"
+        ]
+    },
+    "com.SaltCastleStudio.SodaInc": {
+        "name": "Soda Inc: Idle Tycoon",
+        "regions": [
+            "id",
+            "ca",
+            "gb",
+            "us",
+            "au",
+            "vn"
+        ]
+    },
+    "io.supercent.partygames": {
+        "name": "Streamer Survival Challenge",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.kolka.boostrider": {
+        "name": "Boost Rider: Car Racing Games",
+        "regions": [
+            "tr",
+            "br"
+        ]
+    },
+    "null": {
+        "name": "Royal Smash! - Physics Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.capsule.cat.aos": {
+        "name": "Catsule Out!",
+        "regions": [
+            "vn"
+        ]
     }
 }
