@@ -12558,7 +12558,7 @@
         ]
     },
     "null": {
-        "name": "Tile Clear - Puzzle Game",
+        "name": "Royal Smash! - Physics Puzzle",
         "regions": [
             "vn"
         ]
@@ -38941,14 +38941,73 @@
             "br"
         ]
     },
-    "null": {
-        "name": "Royal Smash! - Physics Puzzle",
+    "com.capsule.cat.aos": {
+        "name": "Catsule Out!",
         "regions": [
             "vn"
         ]
     },
-    "com.capsule.cat.aos": {
-        "name": "Catsule Out!",
+    "6737511323": {
+        "name": "SAKAMOTO DAYS デンジャラスパズル(サカパズ)",
+        "regions": [
+            "mx",
+            "ca",
+            "au"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "id",
+            "au",
+            "vn",
+            "gb"
+        ]
+    },
+    "unscrew.master.game3d.puzzle.color.jam": {
+        "name": "Unscrew Jam: Pin Nuts Puzzle",
+        "regions": [
+            "au"
+        ]
+    },
+    "io.supercent.brawlmafia": {
+        "name": "Mob Hunters : Idle RPG",
+        "regions": [
+            "us"
+        ]
+    },
+    "io.supercent.janeasmr": {
+        "name": "ASMR Rainbow Jelly",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.actionfit.stack.cat.sort.aos": {
+        "name": "Stack Cat Sort : Color Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.mobirix.match2": {
+        "name": "Match Blast",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.actionfit.plop.cat.aos": {
+        "name": "Plop Cat - Color Match Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.crayon.sort.aos": {
+        "name": "Crayon Sort!",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.actionfit.pocket.chip.sort.game.aos": {
+        "name": "Pocket Chip! Coin Sort Puzzle",
         "regions": [
             "vn"
         ]
