@@ -12558,9 +12558,12 @@
         ]
     },
     "null": {
-        "name": "Royal Smash! - Physics Puzzle",
+        "name": "Magic Sort!",
         "regions": [
-            "vn"
+            "id",
+            "au",
+            "vn",
+            "gb"
         ]
     },
     "com.staff.staff": {
@@ -38955,15 +38958,6 @@
             "au"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "id",
-            "au",
-            "vn",
-            "gb"
-        ]
-    },
     "unscrew.master.game3d.puzzle.color.jam": {
         "name": "Unscrew Jam: Pin Nuts Puzzle",
         "regions": [
@@ -39008,6 +39002,32 @@
     },
     "com.actionfit.pocket.chip.sort.game.aos": {
         "name": "Pocket Chip! Coin Sort Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6808449608": {
+        "name": "Category Word Swap",
+        "regions": [
+            "us",
+            "id",
+            "vn",
+            "gb",
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "ph",
+            "id",
+            "au",
+            "gb",
+            "vn"
+        ]
+    },
+    "com.pixel.puzzle.pack.sort.aos": {
+        "name": "Pack Rush!",
         "regions": [
             "vn"
         ]
