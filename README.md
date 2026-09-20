@@ -1,5 +1,9 @@
 # 📡 New Game Radar（竞品新游雷达）
 
+> 🧭 **接手 / 交给 Agent 请先读 [HANDOFF.md](HANDOFF.md)** —— 架构、数据结构、维护操作与已知坑。
+>
+>
+
 每天自动抓取关注的开发者在 **App Store** 和 **Google Play** 有没有新游上线，结果展示在网页看板上，打开即看。
 
 ## 在线看板
