@@ -12560,10 +12560,11 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
+            "ph",
             "id",
             "au",
-            "vn",
-            "gb"
+            "gb",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -39016,20 +39017,19 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "ph",
-            "id",
-            "au",
-            "gb",
-            "vn"
-        ]
-    },
     "com.pixel.puzzle.pack.sort.aos": {
         "name": "Pack Rush!",
         "regions": [
             "vn"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "au",
+            "gb",
+            "id",
+            "ph"
         ]
     }
 }
