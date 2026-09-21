@@ -12560,11 +12560,10 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "ph",
-            "id",
             "au",
             "gb",
-            "vn"
+            "id",
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -39023,13 +39022,65 @@
             "vn"
         ]
     },
+    "com.oakever.picsblast": {
+        "name": "Pics Blast: Drop Jigsaw Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "gb",
+            "id",
+            "br",
+            "ca",
+            "au"
+        ]
+    },
+    "com.webyerim.game.word.jam": {
+        "name": "Word Jam - Screw Puzzle",
+        "regions": [
+            "ca",
+            "au",
+            "id"
+        ]
+    },
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "au",
             "gb",
-            "id",
-            "ph"
+            "vn",
+            "au",
+            "id"
+        ]
+    },
+    "com.lilyxgame.zimo.upsidedown": {
+        "name": "Upside Down",
+        "regions": [
+            "us",
+            "ph",
+            "mx",
+            "tr",
+            "gb",
+            "br"
+        ]
+    },
+    "com.actionfit.moderntimes": {
+        "name": "Jewel Modern Times : match 3",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.actionfit.knit.block.loop": {
+        "name": "Cat Loop! : Knit block puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.drop.fruit.away.aos": {
+        "name": "Farm Drop",
+        "regions": [
+            "vn"
         ]
     }
 }
