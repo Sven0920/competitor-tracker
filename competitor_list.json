@@ -12560,10 +12560,10 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "au",
             "gb",
-            "id",
-            "ph"
+            "vn",
+            "au",
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -39045,15 +39045,6 @@
             "id"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "gb",
-            "vn",
-            "au",
-            "id"
-        ]
-    },
     "com.lilyxgame.zimo.upsidedown": {
         "name": "Upside Down",
         "regions": [
@@ -39081,6 +39072,15 @@
         "name": "Farm Drop",
         "regions": [
             "vn"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "id",
+            "gb",
+            "vn",
+            "au"
         ]
     }
 }
