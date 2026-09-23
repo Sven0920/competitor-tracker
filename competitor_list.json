@@ -12560,10 +12560,10 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
+            "id",
             "gb",
             "vn",
-            "au",
-            "id"
+            "au"
         ]
     },
     "com.staff.staff": {
@@ -39074,13 +39074,58 @@
             "vn"
         ]
     },
+    "6803536996": {
+        "name": "Block Blast Effect",
+        "regions": [
+            "us",
+            "br",
+            "ph",
+            "au",
+            "tr",
+            "gb",
+            "ca",
+            "mx",
+            "vn",
+            "id"
+        ]
+    },
+    "6806972220": {
+        "name": "Screw Shot: Bolt Puzzle 3D",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.oakever.hiddenfest": {
+        "name": "Hidden Fest: Words in Pictures",
+        "regions": [
+            "us",
+            "br",
+            "au",
+            "tr",
+            "gb",
+            "ca",
+            "mx",
+            "vn"
+        ]
+    },
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "id",
+            "br",
+            "au",
+            "ph",
+            "tr",
             "gb",
+            "ca",
             "vn",
-            "au"
+            "id"
+        ]
+    },
+    "com.gimica.blockarenapuzzle": {
+        "name": "Block Arena: Puzzle Duels",
+        "regions": [
+            "tr",
+            "vn"
         ]
     }
 }
