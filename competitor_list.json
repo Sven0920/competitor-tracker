@@ -12560,10 +12560,14 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "id",
+            "br",
+            "au",
+            "ph",
+            "tr",
             "gb",
+            "ca",
             "vn",
-            "au"
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -39108,24 +39112,248 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "br",
-            "au",
-            "ph",
-            "tr",
-            "gb",
-            "ca",
-            "vn",
-            "id"
-        ]
-    },
     "com.gimica.blockarenapuzzle": {
         "name": "Block Arena: Puzzle Duels",
         "regions": [
             "tr",
             "vn"
+        ]
+    },
+    "com.abi.makeoverlab": {
+        "name": "Makeover Lab: Cosplay Time",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.abi.capydoku.cube.puzzle3d": {
+        "name": "Capydoku: 3D Cube Puzzle",
+        "regions": [
+            "mx",
+            "ph",
+            "ca",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.jolly.tile.triple": {
+        "name": "Jolly Tiles: Triple Match",
+        "regions": [
+            "mx",
+            "ph",
+            "ca",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.abi.topic.drop": {
+        "name": "Topic Drop!",
+        "regions": [
+            "mx",
+            "ph",
+            "ca",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.uncosoft.wordpuzzle": {
+        "name": "Sand Blocks: Drop Puzzle",
+        "regions": [
+            "mx",
+            "ph",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.fubugames.endlesspuncher": {
+        "name": "Endless Puncher",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.oakever.shikaku": {
+        "name": "MeowBlock!",
+        "regions": [
+            "mx",
+            "ph",
+            "vn",
+            "br",
+            "tr",
+            "id"
+        ]
+    },
+    "and.pentoro.mahjong3d": {
+        "name": "Mahjong Twist 3D: Triple Match",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.zm.ameg": {
+        "name": "Association Match 4 Emoji Game",
+        "regions": [
+            "ca",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "id",
+            "au"
+        ]
+    },
+    "com.tripledot.wordbuilder": {
+        "name": "Word Tile Scapes",
+        "regions": [
+            "mx",
+            "ca",
+            "vn",
+            "gb",
+            "tr",
+            "id",
+            "au"
+        ]
+    },
+    "com.easybrain.find.puzzle.game": {
+        "name": "Bird Find - Logic Puzzle Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "mx",
+            "ph",
+            "ca",
+            "vn",
+            "gb",
+            "id",
+            "au"
+        ]
+    },
+    "com.treasurepeak.treasurepeak": {
+        "name": "Treasure Peak",
+        "regions": [
+            "us"
+        ]
+    },
+    "jp.co.goodroid.hyper.dropcategory": {
+        "name": "Catedrop: Card Puzzle",
+        "regions": [
+            "ph",
+            "ca",
+            "vn",
+            "id",
+            "au"
+        ]
+    },
+    "slide.match.mahjong.tile.connect.pair.puzzle.games": {
+        "name": "Slide Connect: Mahjong Match",
+        "regions": [
+            "mx",
+            "ca",
+            "vn",
+            "br",
+            "gb",
+            "tr",
+            "id",
+            "au"
+        ]
+    },
+    "com.wooden.blast.block.puzzle.games.brain.free": {
+        "name": "Wood Blast: Block Puzzle Games",
+        "regions": [
+            "mx",
+            "ca",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "au"
+        ]
+    },
+    "match.word.solitaire.associations.blockpuzzle": {
+        "name": "BlockWord: Word Associations",
+        "regions": [
+            "mx",
+            "ca",
+            "br",
+            "gb",
+            "tr",
+            "au"
+        ]
+    },
+    "hexa.sort.merge.stack.puzzle": {
+        "name": "Hexa Sort 3D: Color Puzzle",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.funcell.trashinc": {
+        "name": "Trash Tycoon Idle business",
+        "regions": [
+            "mx",
+            "ph",
+            "ca",
+            "vn",
+            "br",
+            "tr",
+            "id",
+            "au"
+        ]
+    },
+    "com.hibox.pickmeupidlegame": {
+        "name": "Pick me up - idle",
+        "regions": [
+            "mx",
+            "vn",
+            "br",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.dig.deep": {
+        "name": "Dig Deep",
+        "regions": [
+            "us",
+            "tr"
+        ]
+    },
+    "com.hyperpixelgames.farmtale": {
+        "name": "FarmTale",
+        "regions": [
+            "au"
+        ]
+    },
+    "com.jellyflow.colorpuzzle.gp": {
+        "name": "Dream Flow:Jelly Colony",
+        "regions": [
+            "id",
+            "ca"
+        ]
+    },
+    "com.grill.master.food.sort.match.puzzle": {
+        "name": "Grill Master: Food Sort",
+        "regions": [
+            "mx"
         ]
     }
 }
