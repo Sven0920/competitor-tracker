@@ -12560,14 +12560,13 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "br",
-            "au",
+            "mx",
             "ph",
-            "tr",
-            "gb",
             "ca",
             "vn",
-            "id"
+            "gb",
+            "id",
+            "au"
         ]
     },
     "com.staff.staff": {
@@ -39237,18 +39236,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "mx",
-            "ph",
-            "ca",
-            "vn",
-            "gb",
-            "id",
-            "au"
-        ]
-    },
     "com.treasurepeak.treasurepeak": {
         "name": "Treasure Peak",
         "regions": [
@@ -39354,6 +39341,66 @@
         "name": "Grill Master: Food Sort",
         "regions": [
             "mx"
+        ]
+    },
+    "6777958774": {
+        "name": "Tribal Clash",
+        "regions": [
+            "br",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "us",
+            "vn",
+            "tr",
+            "au",
+            "ph"
+        ]
+    },
+    "6806900906": {
+        "name": "Pairzzle",
+        "regions": [
+            "br",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "us",
+            "vn",
+            "tr",
+            "au",
+            "ph"
+        ]
+    },
+    "6803395850": {
+        "name": "Scrap Fit - Piece By Piece",
+        "regions": [
+            "br",
+            "mx",
+            "gb",
+            "id",
+            "ca",
+            "us",
+            "vn",
+            "tr",
+            "au",
+            "ph"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "gb",
+            "ph"
+        ]
+    },
+    "com.tree.hybrid.luckydefense": {
+        "name": "Lucky Heroes! : Defense Game",
+        "regions": [
+            "id",
+            "mx",
+            "vn"
         ]
     }
 }
