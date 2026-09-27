@@ -12558,10 +12558,12 @@
         ]
     },
     "null": {
-        "name": "Goods 3D Sorting: Match Games",
+        "name": "Magic Sort!",
         "regions": [
             "gb",
-            "ph"
+            "ph",
+            "vn",
+            "br"
         ]
     },
     "com.staff.staff": {
@@ -39407,10 +39409,10 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "gb",
             "ph",
-            "vn",
-            "br"
+            "br",
+            "gb",
+            "vn"
         ]
     }
 }
