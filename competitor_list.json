@@ -12560,10 +12560,10 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "gb",
             "ph",
-            "vn",
-            "br"
+            "br",
+            "gb",
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -39406,12 +39406,18 @@
             "br"
         ]
     },
+    "ig.com.fruit.qdc": {
+        "name": "Fruity Loop: Blend Sort",
+        "regions": [
+            "mx"
+        ]
+    },
     "null": {
         "name": "Magic Sort!",
         "regions": [
+            "gb",
             "ph",
             "br",
-            "gb",
             "vn"
         ]
     }
