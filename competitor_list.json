@@ -12560,9 +12560,9 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
+            "gb",
             "ph",
             "br",
-            "gb",
             "vn"
         ]
     },
@@ -39412,13 +39412,81 @@
             "mx"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
+    "com.abi.stamp.up.tap.match": {
+        "name": "Stamp Up! Tap Match",
         "regions": [
+            "ca",
+            "br",
+            "au",
+            "us",
+            "mx",
+            "tr",
             "gb",
             "ph",
+            "id"
+        ]
+    },
+    "com.fishy.jam.puzzle": {
+        "name": "Fishy Jam!",
+        "regions": [
+            "ca",
             "br",
+            "au",
+            "us",
+            "mx",
+            "tr",
+            "gb",
+            "ph",
+            "id"
+        ]
+    },
+    "com.fubugames.ballbreaker": {
+        "name": "Cracker Head",
+        "regions": [
+            "ca",
+            "br",
+            "mx",
+            "tr",
+            "gb",
+            "id",
             "vn"
+        ]
+    },
+    "com.oakever.pairzzle": {
+        "name": "Twindoku: Logic Game",
+        "regions": [
+            "mx",
+            "tr",
+            "id",
+            "vn"
+        ]
+    },
+    "me.peaklife": {
+        "name": "Peak Life: AI Vedic Astrology",
+        "regions": [
+            "gb",
+            "us",
+            "id",
+            "vn"
+        ]
+    },
+    "com.hotresort.global": {
+        "name": "Frozen Manor: Merge Mystery",
+        "regions": [
+            "au",
+            "id"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "ph"
+        ]
+    },
+    "com.microjoy.wordle.dordle.daily.word.guess.challenge.puzzle": {
+        "name": "Worde - With No Daily Limit",
+        "regions": [
+            "mx"
         ]
     }
 }
