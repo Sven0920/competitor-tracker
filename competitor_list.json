@@ -12558,12 +12558,9 @@
         ]
     },
     "null": {
-        "name": "Magic Sort!",
+        "name": "Goods 3D Sorting: Match Games",
         "regions": [
-            "gb",
-            "ph",
-            "br",
-            "vn"
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -39477,16 +39474,58 @@
             "id"
         ]
     },
-    "null": {
-        "name": "Goods 3D Sorting: Match Games",
-        "regions": [
-            "ph"
-        ]
-    },
     "com.microjoy.wordle.dordle.daily.word.guess.challenge.puzzle": {
         "name": "Worde - With No Daily Limit",
         "regions": [
             "mx"
+        ]
+    },
+    "6798071755": {
+        "name": "Rumble Beavers",
+        "regions": [
+            "ph",
+            "ca",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "mx",
+            "vn",
+            "br",
+            "au"
+        ]
+    },
+    "6780815076": {
+        "name": "Arrow Maze Out",
+        "regions": [
+            "ph",
+            "ca",
+            "gb",
+            "tr",
+            "us",
+            "id",
+            "mx",
+            "vn",
+            "br",
+            "au"
+        ]
+    },
+    "com.xdgames.bloxparty": {
+        "name": "Blox Party!",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.abi.theme.drop.card.puzzle": {
+        "name": "Category Drop: Sort Journey",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.tree.hybrid.geartank": {
+        "name": "Gear Truck!",
+        "regions": [
+            "us"
         ]
     }
 }
