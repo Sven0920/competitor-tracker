@@ -39527,5 +39527,65 @@
         "regions": [
             "us"
         ]
+    },
+    "6788402120": {
+        "name": "Blocked In: Color Sort Puzzle",
+        "regions": [
+            "au",
+            "br",
+            "us",
+            "gb",
+            "ph",
+            "ca",
+            "vn",
+            "id",
+            "mx",
+            "tr"
+        ]
+    },
+    "6797466421": {
+        "name": "Dream Bay - merge game",
+        "regions": [
+            "au",
+            "gb",
+            "ph",
+            "ca",
+            "id",
+            "mx",
+            "tr"
+        ]
+    },
+    "6772895198": {
+        "name": "Hidden Objects Game: Find & Go",
+        "regions": [
+            "au",
+            "br",
+            "us",
+            "gb",
+            "ph",
+            "ca",
+            "vn",
+            "id",
+            "mx",
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "br",
+            "ph"
+        ]
+    },
+    "app.peak.peakandroid": {
+        "name": "PEAK^",
+        "regions": [
+            "br",
+            "us",
+            "ph",
+            "id",
+            "mx",
+            "tr"
+        ]
     }
 }
