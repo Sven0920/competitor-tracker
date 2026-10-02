@@ -12558,8 +12558,9 @@
         ]
     },
     "null": {
-        "name": "Goods 3D Sorting: Match Games",
+        "name": "Magic Sort!",
         "regions": [
+            "br",
             "ph"
         ]
     },
@@ -39570,13 +39571,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "br",
-            "ph"
-        ]
-    },
     "app.peak.peakandroid": {
         "name": "PEAK^",
         "regions": [
@@ -39586,6 +39580,66 @@
             "id",
             "mx",
             "tr"
+        ]
+    },
+    "6786642612": {
+        "name": "Sand Drop - Color Puzzle",
+        "regions": [
+            "gb",
+            "mx",
+            "us",
+            "br",
+            "au",
+            "ph",
+            "ca"
+        ]
+    },
+    "com.ig.cardjam.solitaire": {
+        "name": "Card Jam: Tile Solitaire",
+        "regions": [
+            "tr",
+            "vn",
+            "gb",
+            "mx",
+            "us",
+            "au",
+            "ph",
+            "ca"
+        ]
+    },
+    "com.tripledot.puzzleguess": {
+        "name": "Puzzle Match Solitaire",
+        "regions": [
+            "au",
+            "vn",
+            "gb",
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "br",
+            "ph"
+        ]
+    },
+    "com.peakinternet.smarthome": {
+        "name": "PEAKZone",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.xs.fxxxx": {
+        "name": "Moo Blitz: Cow Logic Puzzle",
+        "regions": [
+            "ph",
+            "mx"
+        ]
+    },
+    "com.loop.sushi.bar.aos": {
+        "name": "Sushi Sort: Color Puzzle",
+        "regions": [
+            "vn"
         ]
     }
 }
