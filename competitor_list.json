@@ -39616,13 +39616,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "br",
-            "ph"
-        ]
-    },
     "com.peakinternet.smarthome": {
         "name": "PEAKZone",
         "regions": [
@@ -39640,6 +39633,32 @@
         "name": "Sushi Sort: Color Puzzle",
         "regions": [
             "vn"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "br",
+            "ph"
+        ]
+    },
+    "com.hollowdogs.piecebypiece": {
+        "name": "Scrap Fit - Piece By Piece",
+        "regions": [
+            "gb",
+            "vn",
+            "ca",
+            "tr",
+            "au",
+            "br"
+        ]
+    },
+    "com.gimica.trafficjam": {
+        "name": "Traffic Jam: Beat the Block",
+        "regions": [
+            "vn",
+            "tr",
+            "mx"
         ]
     }
 }
