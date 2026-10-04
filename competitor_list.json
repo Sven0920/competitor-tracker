@@ -39635,13 +39635,6 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "br",
-            "ph"
-        ]
-    },
     "com.hollowdogs.piecebypiece": {
         "name": "Scrap Fit - Piece By Piece",
         "regions": [
@@ -39659,6 +39652,67 @@
             "vn",
             "tr",
             "mx"
+        ]
+    },
+    "com.abi.stamp.flip": {
+        "name": "Stamp Flip: Category Puzzle",
+        "regions": [
+            "us",
+            "ca"
+        ]
+    },
+    "com.abi.chilldom": {
+        "name": "Chilldom",
+        "regions": [
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "tr",
+            "au",
+            "ca"
+        ]
+    },
+    "com.abi.card.category.drop": {
+        "name": "Card Drop: Category Puzzle",
+        "regions": [
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "tr",
+            "au",
+            "ca"
+        ]
+    },
+    "and.lhhpub.gravityjigsaw": {
+        "name": "JiGravity: Puzzle Picture",
+        "regions": [
+            "vn"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "br",
+            "vn",
+            "ph"
+        ]
+    },
+    "com.maxbet.wondercashcasino": {
+        "name": "Wonder Cash Casino Vegas Slots",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.actionfit.athena": {
+        "name": "Jewel Athena: Match 3 blast",
+        "regions": [
+            "vn"
         ]
     }
 }
