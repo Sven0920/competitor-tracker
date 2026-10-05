@@ -12561,6 +12561,7 @@
         "name": "Magic Sort!",
         "regions": [
             "br",
+            "vn",
             "ph"
         ]
     },
@@ -39695,14 +39696,6 @@
             "vn"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "br",
-            "vn",
-            "ph"
-        ]
-    },
     "com.maxbet.wondercashcasino": {
         "name": "Wonder Cash Casino Vegas Slots",
         "regions": [
@@ -39713,6 +39706,40 @@
         "name": "Jewel Athena: Match 3 blast",
         "regions": [
             "vn"
+        ]
+    },
+    "6811006356": {
+        "name": "Foodie Pop!",
+        "regions": [
+            "au",
+            "gb",
+            "us",
+            "br",
+            "mx",
+            "tr",
+            "ca",
+            "ph",
+            "id"
+        ]
+    },
+    "null": {
+        "name": "Magic Sort!",
+        "regions": [
+            "vn",
+            "br",
+            "ph"
+        ]
+    },
+    "co.peakessential.pe": {
+        "name": "P|E - Peak Essential",
+        "regions": [
+            "au",
+            "gb",
+            "us",
+            "br",
+            "tr",
+            "vn",
+            "ca"
         ]
     }
 }
