@@ -12560,8 +12560,8 @@
     "null": {
         "name": "Magic Sort!",
         "regions": [
-            "br",
             "vn",
+            "br",
             "ph"
         ]
     },
@@ -39722,14 +39722,6 @@
             "id"
         ]
     },
-    "null": {
-        "name": "Magic Sort!",
-        "regions": [
-            "vn",
-            "br",
-            "ph"
-        ]
-    },
     "co.peakessential.pe": {
         "name": "P|E - Peak Essential",
         "regions": [
@@ -39740,6 +39732,20 @@
             "tr",
             "vn",
             "ca"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "br",
+            "ph",
+            "id"
+        ]
+    },
+    "io.supercent.downhill": {
+        "name": "Downhill Racer",
+        "regions": [
+            "tr"
         ]
     }
 }
