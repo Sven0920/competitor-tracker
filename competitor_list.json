@@ -12558,11 +12558,11 @@
         ]
     },
     "null": {
-        "name": "Magic Sort!",
+        "name": "Tile Explorer - Triple Match",
         "regions": [
-            "vn",
             "br",
-            "ph"
+            "ph",
+            "id"
         ]
     },
     "com.staff.staff": {
@@ -39734,18 +39734,35 @@
             "ca"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "br",
-            "ph",
-            "id"
-        ]
-    },
     "io.supercent.downhill": {
         "name": "Downhill Racer",
         "regions": [
             "tr"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
+            "ph",
+            "vn"
+        ]
+    },
+    "com.coffee.sort.pack.color.puzzle.game": {
+        "name": "Coffee Sort: Pack Color",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.finalflow.cupblast": {
+        "name": "Cup Blast: Pop Puzzle",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.actionfit.fat.cat.eat.asmr.aos": {
+        "name": "Chonky Cat: Merge Survival",
+        "regions": [
+            "vn"
         ]
     }
 }
