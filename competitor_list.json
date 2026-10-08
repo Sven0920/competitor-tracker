@@ -12558,11 +12558,10 @@
         ]
     },
     "null": {
-        "name": "Tile Explorer - Triple Match",
+        "name": "Goods 3D Sorting: Match Games",
         "regions": [
-            "br",
             "ph",
-            "id"
+            "vn"
         ]
     },
     "com.staff.staff": {
@@ -39740,13 +39739,6 @@
             "tr"
         ]
     },
-    "null": {
-        "name": "Goods 3D Sorting: Match Games",
-        "regions": [
-            "ph",
-            "vn"
-        ]
-    },
     "com.coffee.sort.pack.color.puzzle.game": {
         "name": "Coffee Sort: Pack Color",
         "regions": [
@@ -39763,6 +39755,71 @@
         "name": "Chonky Cat: Merge Survival",
         "regions": [
             "vn"
+        ]
+    },
+    "6789191690": {
+        "name": "Knock And Drop",
+        "regions": [
+            "br",
+            "gb",
+            "us",
+            "mx"
+        ]
+    },
+    "6762608446": {
+        "name": "Sheep Jam - Escape Puzzle",
+        "regions": [
+            "ph",
+            "mx",
+            "gb",
+            "id",
+            "us",
+            "br",
+            "tr",
+            "ca",
+            "au"
+        ]
+    },
+    "6746182351": {
+        "name": "Sky Wired",
+        "regions": [
+            "ph",
+            "mx",
+            "gb",
+            "id",
+            "us",
+            "br",
+            "vn",
+            "tr",
+            "ca",
+            "au"
+        ]
+    },
+    "com.abi.stamp.it.card.sorting": {
+        "name": "Stamp It: Card Sorting",
+        "regions": [
+            "us"
+        ]
+    },
+    "null": {
+        "name": "Tile Explorer - Triple Match",
+        "regions": [
+            "br",
+            "id",
+            "ph"
+        ]
+    },
+    "com.hitappsgames.cardshift": {
+        "name": "Card Shift: Puzzle Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.pc.sandblast.sandout": {
+        "name": "Sand Out: Color Puzzle",
+        "regions": [
+            "vn",
+            "ph"
         ]
     }
 }
