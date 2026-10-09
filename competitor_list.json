@@ -12558,10 +12558,11 @@
         ]
     },
     "null": {
-        "name": "Goods 3D Sorting: Match Games",
+        "name": "Tile Explorer - Triple Match",
         "regions": [
-            "ph",
-            "vn"
+            "br",
+            "id",
+            "ph"
         ]
     },
     "com.staff.staff": {
@@ -39801,14 +39802,6 @@
             "us"
         ]
     },
-    "null": {
-        "name": "Tile Explorer - Triple Match",
-        "regions": [
-            "br",
-            "id",
-            "ph"
-        ]
-    },
     "com.hitappsgames.cardshift": {
         "name": "Card Shift: Puzzle Game",
         "regions": [
@@ -39819,6 +39812,26 @@
         "name": "Sand Out: Color Puzzle",
         "regions": [
             "vn",
+            "ph"
+        ]
+    },
+    "6809313152": {
+        "name": "Goose Away!",
+        "regions": [
+            "gb",
+            "au",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "br",
+            "tr"
+        ]
+    },
+    "null": {
+        "name": "Goods 3D Sorting: Match Games",
+        "regions": [
             "ph"
         ]
     }
