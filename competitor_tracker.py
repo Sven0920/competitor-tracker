@@ -27,6 +27,7 @@ ITUNES_LIMIT = 200     # lookup 默认只返回 50 款，大厂会漏
 NEW_GAME_MAX_AGE_DAYS = 180  # 上架超过这个天数的，不当作新游推送（补进基准库）
 NEW_PUBLISHER_UNKNOWN_THRESHOLD = 8  # 一次扫到这么多未知游戏，才视为「新加厂商建库」
 PLAY_REFRESH_MAX_FAILS = 8   # 连续刷新失败这么多次，判定被限流，停止后续拉取
+CORE_MARKETS = {"us", "gb", "ca", "au"}  # 软启动进入这些主力市场时再报一次
 CN_TZ = timezone(timedelta(hours=8))
 ITUNES_HEADERS = {"User-Agent": "competitor-tracker/1.0"}
 MONTHS = {m: i for i, m in enumerate(
@@ -66,6 +67,69 @@ def preferred_country(regions):
         if c in regs:
             return c
     return regs[0] if regs else "us"
+
+
+def note_known_sighting(sightings, app_id, country, platform, name, url, developer):
+    """已入库游戏本轮又被扫到：记下国家，供后面合并地区。"""
+    slot = sightings.setdefault(app_id, {
+        "regions": set(),
+        "platform": platform,
+        "name": name or "",
+        "url": url or "",
+        "developer": developer or "",
+    })
+    if country:
+        slot["regions"].add(str(country).lower())
+    if name and name not in ("未知",):
+        slot["name"] = name
+    if url:
+        slot["url"] = url
+    if developer:
+        slot["developer"] = developer
+    return slot
+
+
+def apply_region_sightings(known_games, sightings):
+    """把本轮看到的地区并进基准库。只增不减，半次失败不会把已有地区抹掉。
+
+    新出现 us / gb / ca / au 时记成「地区扩大」，不当作新游。
+    返回 (expansions, region_updates)。
+    """
+    expansions = []
+    updates = {}
+    for app_id, seen in sightings.items():
+        entry = known_games.get(app_id)
+        if not isinstance(entry, dict):
+            continue
+        prev = {str(r).lower() for r in (entry.get("regions") or []) if r}
+        now = {str(r).lower() for r in (seen.get("regions") or []) if r}
+        merged = prev | now
+        new_core = sorted((now - prev) & CORE_MARKETS)
+        entry["regions"] = sorted(merged)
+        if seen.get("name") and entry.get("name") in (None, "", "未知"):
+            entry["name"] = seen["name"]
+        updates[app_id] = list(entry["regions"])
+        if new_core:
+            expansions.append({
+                "app_id": app_id,
+                "developer": seen.get("developer") or "",
+                "platform": seen.get("platform") or "",
+                "name": seen.get("name") or entry.get("name") or app_id,
+                "url": seen.get("url") or "",
+                "regions": list(entry["regions"]),
+                "new_core": new_core,
+            })
+    return expansions, updates
+
+
+def apply_region_updates(games, updates):
+    """看板上已有的卡片同步最新地区，软启动标签才会跟着变。"""
+    if not updates:
+        return
+    for g in games:
+        regions = updates.get(g.get("app_id"))
+        if regions:
+            g["regions"] = list(regions)
 
 
 def with_retry(fn, tries=3, delay=1.0):
@@ -138,7 +202,7 @@ def load_data():
             pass
     return {"updated_at": None, "games": []}
 
-def save_data(found_records):
+def save_data(found_records, region_updates=None):
     """把本次发现的新游合并进 data.json（按 app_id 去重，保留最近 KEEP_DAYS 天）。"""
     today = now_cn("%Y-%m-%d")
     data = load_data()
@@ -152,6 +216,7 @@ def save_data(found_records):
     for g in data["games"]:
         if g.get("platform") == "iOS" and g.get("iap_info") in ("支持内购", "未见明细"):
             g["iap_info"] = "未知"
+    apply_region_updates(data["games"], region_updates)
     # 裁掉太旧的发现记录（日期按北京时间，和 found_date 对齐）
     cutoff = (datetime.now(CN_TZ) - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     data["games"] = [g for g in data["games"] if g.get("found_date", "") >= cutoff]
@@ -223,31 +288,12 @@ def update_velocity(data):
         json.dump(snaps, f, ensure_ascii=False)
     print(f"  [√] 装机量刷新 {refreshed} 款，失败 {failed} 款")
 
-def send_feishu_new_games(found_records):
-    """发现新游时推飞书卡片。webhook 从环境变量 FEISHU_WEBHOOK 读（不写进公开代码）。"""
-    webhook = os.environ.get("FEISHU_WEBHOOK")
-    if not webhook or not found_records:
-        return
-    groups = {}
-    for r in found_records:
-        groups.setdefault(r["developer"], []).append(r)
-    lines = []
-    for dev, games in groups.items():
-        lines.append(f"**🏢 {dev}**")
-        for g in games:
-            plat = "🍎" if g["platform"] == "iOS" else "🤖"
-            regions = ", ".join(x.upper() for x in (g.get("regions") or []))
-            soft = "us" not in [x.lower() for x in (g.get("regions") or [])]
-            tag = "🔥 Soft Launch" if soft else "✅ US"
-            genre = f" · {g['genre']}" if g.get("genre") else ""
-            lines.append(f"{plat} [{g['name']}]({g['url']}){genre} · {regions} {tag}")
-        lines.append("")
-    body = "\n".join(lines).strip()
-    payload = {
+def _feishu_card(title, body, template="blue"):
+    return {
         "msg_type": "interactive",
         "card": {
             "config": {"wide_screen_mode": True},
-            "header": {"title": {"tag": "plain_text", "content": f"🎯 New Game Radar · 发现 {len(found_records)} 款新游（{now_cn('%m/%d')}）"}, "template": "blue"},
+            "header": {"title": {"tag": "plain_text", "content": title}, "template": template},
             "elements": [
                 {"tag": "markdown", "content": body},
                 {"tag": "hr"},
@@ -255,6 +301,63 @@ def send_feishu_new_games(found_records):
             ],
         },
     }
+
+
+def _group_lines(records, line_for):
+    groups = {}
+    for r in records:
+        groups.setdefault(r.get("developer") or "未知厂商", []).append(r)
+    lines = []
+    for dev, games in groups.items():
+        lines.append(f"**🏢 {dev}**")
+        for g in games:
+            lines.append(line_for(g))
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def build_new_games_payload(found_records):
+    if not found_records:
+        return None
+
+    def line_for(g):
+        plat = "🍎" if g.get("platform") == "iOS" else "🤖"
+        regions = ", ".join(x.upper() for x in (g.get("regions") or []))
+        soft = "us" not in [x.lower() for x in (g.get("regions") or [])]
+        tag = "🔥 Soft Launch" if soft else "✅ US"
+        genre = f" · {g['genre']}" if g.get("genre") else ""
+        return f"{plat} [{g['name']}]({g['url']}){genre} · {regions} {tag}"
+
+    body = _group_lines(found_records, line_for)
+    title = f"🎯 New Game Radar · 发现 {len(found_records)} 款新游（{now_cn('%m/%d')}）"
+    return _feishu_card(title, body, "blue")
+
+
+def build_region_expansion_payload(records):
+    """已入库游戏新进入主力市场。单独一条，不和「发现新游」混在一起。"""
+    if not records:
+        return None
+    shown = records[:40]
+    extra = len(records) - len(shown)
+
+    def line_for(g):
+        plat = "🍎" if g.get("platform") == "iOS" else "🤖"
+        new_core = ", ".join(x.upper() for x in (g.get("new_core") or []))
+        regions = ", ".join(x.upper() for x in (g.get("regions") or []))
+        return f"{plat} [{g['name']}]({g['url']}) · 新进 {new_core} · 现有 {regions}"
+
+    body = _group_lines(shown, line_for)
+    if extra:
+        body += f"\n\n另有 {extra} 款，地区已写入基准库。"
+    title = f"🌍 New Game Radar · 地区扩大 {len(records)} 款进入主力市场（{now_cn('%m/%d')}）"
+    return _feishu_card(title, body, "orange")
+
+
+def post_feishu(payload, ok_message):
+    """webhook 从环境变量 FEISHU_WEBHOOK 读（不写进公开代码）。没有 webhook 就直接返回。"""
+    webhook = os.environ.get("FEISHU_WEBHOOK")
+    if not webhook or not payload:
+        return False
     try:
         resp = requests.post(
             webhook,
@@ -270,10 +373,21 @@ def send_feishu_new_games(found_records):
         code = result.get("code", result.get("StatusCode", result.get("Code", 0)))
         if code not in (0, "0", None):
             print("❌ 飞书推送失败:", result)
-        else:
-            print("✅ 已推送飞书新游卡片")
+            return False
+        print(ok_message)
+        return True
     except Exception as e:
         print("❌ 飞书推送失败:", e)
+        return False
+
+
+def send_feishu_new_games(found_records):
+    """发现新游时推飞书卡片。"""
+    post_feishu(build_new_games_payload(found_records), "✅ 已推送飞书新游卡片")
+
+
+def send_feishu_region_expansions(records):
+    post_feishu(build_region_expansion_payload(records), "✅ 已推送飞书地区扩大卡片")
 
 
 def classify_developers(target_developers, known_hits_by_dev, scanned_ios, scanned_android, is_first_run):
@@ -318,6 +432,7 @@ def main():
     found_records = []
     seen_ios_keys = set()
     known_hits_by_dev = {}
+    region_sightings = {}
     ios_fail = 0
     android_fail = 0
 
@@ -342,6 +457,12 @@ def main():
                         app_id = str(game.get("trackId"))
                         if app_id in known_games:
                             known_hits_by_dev.setdefault(custom_dev, set()).add(app_id)
+                            note_known_sighting(
+                                region_sightings, app_id, country, "iOS",
+                                game.get("trackName"),
+                                game.get("trackViewUrl") or f"https://apps.apple.com/app/id{app_id}",
+                                custom_dev,
+                            )
                             continue
                         if app_id not in scanned_ios_games:
                             scanned_ios_games[app_id] = {
@@ -379,6 +500,12 @@ def main():
                         app_id = game.get("appId")
                         if app_id in known_games:
                             known_hits_by_dev.setdefault(custom_dev, set()).add(app_id)
+                            note_known_sighting(
+                                region_sightings, app_id, country, "Android",
+                                game.get("title"),
+                                f"https://play.google.com/store/apps/details?id={app_id}",
+                                custom_dev,
+                            )
                             continue
                         if app_id not in scanned_android_games:
                             scanned_android_games[app_id] = {
@@ -395,6 +522,7 @@ def main():
                     print(f"  [!] Android 抓取失败 {custom_dev} {dev_name} {country}: {e}")
 
     print("\n🔍 正在进行基准线分析与数据比对...")
+    expansions, region_updates = apply_region_sightings(known_games, region_sightings)
     dev_status = classify_developers(
         TARGET_DEVELOPERS, known_hits_by_dev, scanned_ios_games, scanned_android_games, is_first_run
     )
@@ -472,11 +600,14 @@ def main():
         known_games[app_id] = {"name": base_data["name"], "regions": base_data["regions"]}
 
     save_history(known_games)
-    save_data(found_records)
+    save_data(found_records, region_updates)
 
     print("\n" + "=" * 60)
     if ios_fail or android_fail:
         print(f"⚠️ 本轮抓取失败：iOS {ios_fail} 次，Android {android_fail} 次（详见上方日志）")
+    if expansions:
+        print(f"🌍 {len(expansions)} 款已入库游戏进入主力市场（us/gb/ca/au）。")
+        send_feishu_region_expansions(expansions)
     if is_first_run:
         print(f"✅ 首次建库完毕！共记录 {len(known_games)} 款跨区游戏。")
     elif found_records:

@@ -9,6 +9,7 @@
 - **GitHub Actions** 每天北京时间约 10:17 自动运行 `competitor_tracker.py`（避开整点，降低 GitHub 漏跑概率；每日仅一次，避免重复飞书推送）
 - iOS 走 iTunes API（`sort=recent&limit=200`），Android 走 google-play-scraper，和基准库 `competitor_list.json` 比对找出新游
 - 上架超过 180 天的旧作不会当新游推送，只补进基准库
+- 已经在基准库里的游戏会继续合并商店地区（只增不减）。软启动新出现 us / gb / ca / au 时，再单独推一条飞书「地区扩大」，不当作新游
 - 新发现写入 `data.json` 并自动 commit，`index.html` 读取后展示（保留最近 120 天）
 - 看板里的安卓 7 天增速会每天重新拉取装机量；发现新游时推飞书（需配置 `FEISHU_WEBHOOK`）
 
