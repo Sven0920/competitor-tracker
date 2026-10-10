@@ -788,6 +788,43 @@ def send_feishu_region_expansions(records):
     post_feishu(build_region_expansion_payload(records), "✅ 已推送飞书地区扩大卡片")
 
 
+def scrape_is_incomplete(ios_fail, android_fail, play_guard=None):
+    """熔断，或 iOS / 安卓失败次数达到连续失败上限。健康的一天不发这条。"""
+    play_failed = play_guard.failed if play_guard is not None else 0
+    tripped = bool(play_guard and play_guard.tripped)
+    high = PLAY_REFRESH_MAX_FAILS
+    return tripped or ios_fail >= high or android_fail >= high or play_failed >= high
+
+
+def developers_missing_known_games(targets, known_hits_by_dev):
+    return sorted(name for name in (targets or {}) if not (known_hits_by_dev or {}).get(name))
+
+
+def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers):
+    lines = [f"iOS 失败 {ios_fail} 次，Android 失败 {android_fail} 次。"]
+    if tripped:
+        lines.append("Google Play 连续失败已熔断，后面的厂商没有继续抓。已经抓到的数据都保留着。")
+    lines.append("没有新游推送，也可能只是抓取停在半路，不等于今天没有新游。")
+    if missed_developers:
+        shown = list(missed_developers[:40])
+        extra = len(missed_developers) - len(shown)
+        names = "、".join(shown)
+        if extra:
+            names += f"，另有 {extra} 家"
+        lines.append("")
+        lines.append("**本轮没有扫到已知游戏的厂商：**")
+        lines.append(names)
+    title = f"⚠️ New Game Radar · 今日抓取不完整（{now_cn('%m/%d')}）"
+    return _feishu_card(title, "\n".join(lines), "red")
+
+
+def send_feishu_incomplete(ios_fail, android_fail, tripped, missed_developers):
+    post_feishu(
+        build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers),
+        "✅ 已推送飞书抓取不完整提醒",
+    )
+
+
 def classify_developers(target_developers, known_hits_by_dev, scanned_ios, scanned_android, is_first_run):
     """按本轮扫描结果判断厂商是新加名单还是老熟人。
 
@@ -1030,6 +1067,13 @@ def main():
             print("📥 本轮只有补录，不推飞书。")
     else:
         print("💤 本次监控的厂商均无新游发布。")
+    if scrape_is_incomplete(ios_fail, android_fail, play_guard):
+        missed = [] if is_first_run else developers_missing_known_games(TARGET_DEVELOPERS, known_hits_by_dev)
+        if missed:
+            print("⚠️ 今日抓取不完整，这些厂商没有扫到已知游戏：" + "、".join(missed))
+        else:
+            print("⚠️ 今日抓取不完整。没有新游推送不等于今天没有新游。")
+        send_feishu_incomplete(ios_fail, android_fail, play_guard.tripped, missed)
     print("=" * 60 + "\n")
 
 if __name__ == "__main__":

@@ -112,6 +112,36 @@ def _pagination_raw(apps, token):
     return ")]}'\n" + json.dumps(outer)
 
 
+class IncompleteScrapeTest(unittest.TestCase):
+    def test_quiet_day_is_not_an_incomplete_scrape(self):
+        guard = ct.PlayGuard()
+        self.assertFalse(ct.scrape_is_incomplete(0, 0, guard))
+        self.assertFalse(ct.scrape_is_incomplete(7, 7, guard))
+
+    def test_breaker_or_high_failures_name_the_missed_publishers(self):
+        guard = ct.PlayGuard()
+        guard.tripped = True
+        self.assertTrue(ct.scrape_is_incomplete(1, 1, guard))
+        self.assertTrue(ct.scrape_is_incomplete(8, 0, None))
+        missed = ct.developers_missing_known_games(
+            {"Homa": {}, "Peak": {}, "Voodoo": {}},
+            {"Homa": {"com.homa.old"}},
+        )
+        self.assertEqual(missed, ["Peak", "Voodoo"])
+        payload = ct.build_incomplete_payload(2, 8, True, missed)
+        body = payload["card"]["elements"][0]["content"]
+        title = payload["card"]["header"]["title"]["content"]
+        self.assertIn("今日抓取不完整", title)
+        self.assertIn("Peak", body)
+        self.assertIn("Voodoo", body)
+        self.assertNotIn("Homa", body)
+        self.assertIn("熔断", body)
+
+    def test_incomplete_alert_is_not_sent_without_webhook(self):
+        os.environ.pop("FEISHU_WEBHOOK", None)
+        self.assertFalse(ct.send_feishu_incomplete(8, 0, False, ["Peak"]))
+
+
 class FreshReleaseTest(unittest.TestCase):
     def test_recent_and_preorder_are_not_backfill(self):
         now = ct.datetime(2026, 10, 10, tzinfo=ct.timezone.utc)
