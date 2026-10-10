@@ -27,6 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 抓取竞品新游
+        # 抓取不完整时由脚本推飞书，这里仍要成功结束，后面的提交才能留下已经抓到的数据。
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: python competitor_tracker.py
