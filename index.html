@@ -57,6 +57,8 @@
   .g-name{font-size:17px;font-weight:600;margin:10px 0 6px;line-height:1.3}
   .g-name a{color:var(--ink);text-decoration:none}
   .g-name a:hover{color:var(--accent)}
+  .g-links{font-size:13px;margin:-2px 0 6px}
+  .g-links a{color:var(--accent);text-decoration:none;margin-right:12px}
   .g-info{font-size:13px;color:var(--sub);line-height:1.7}
   .g-info b{color:var(--ink);font-weight:600}
   .empty{text-align:center;color:var(--sub);padding:60px 20px;font-size:15px}
@@ -76,6 +78,21 @@
     </div>
     <select id="devSel"><option value="all">全部厂商</option></select>
     <select id="genreSel"><option value="all">全部品类</option></select>
+    <select id="signalSel">
+      <option value="all">全部信号</option>
+      <option value="soft">🔥 软启动</option>
+      <option value="hot">🔥 起量快</option>
+      <option value="pre">🔜 预售</option>
+      <option value="fresh">刚上架</option>
+      <option value="backfill">补录</option>
+    </select>
+    <select id="ageSel">
+      <option value="all">上架时间不限</option>
+      <option value="7">上架 7 天内</option>
+      <option value="14">上架 14 天内</option>
+      <option value="30">上架 30 天内</option>
+      <option value="90">上架 90 天内</option>
+    </select>
     <select id="sortSel">
       <option value="found_desc">最近发现 ↓</option>
       <option value="velocity_desc">增速 ↓（7天装机）</option>
@@ -85,7 +102,7 @@
       <option value="dev_az">厂商 A→Z</option>
       <option value="name_az">游戏名 A→Z</option>
     </select>
-    <input id="search" type="search" placeholder="搜索游戏名…">
+    <input id="search" type="search" placeholder="搜索游戏名或厂商…">
     <span class="count" id="count"></span>
   </div>
 
@@ -93,8 +110,9 @@
 </div>
 
 <script>
-let GAMES = [];
-let filter = { plat:"all", dev:"all", genre:"all", q:"", sort:"found_desc" };
+var GAMES = [];
+var HOT_IDS = new Set();
+var filter = { plat:"all", dev:"all", genre:"all", signal:"all", age:"all", q:"", sort:"found_desc" };
 
 // 上架日期解析：ISO("2026-08-19") 按 UTC、美式("Aug 19, 2026") 按本地时区，混排会产生 8 小时偏差
 // 统一归一到 UTC 的「日」，让同一天的 iOS / Android 真正等价
@@ -111,6 +129,7 @@ function parseDay(s){
 }
 const isPreorder = g => { const t = parseDay(g.release_date); return t !== null && t > Date.now(); };
 const FRESH_DAYS = 30; // 和脚本里的 FRESH_PUSH_DAYS 对齐：发现时上架已超过这个天数就是补录
+const HOT_RANK = 10;    // 起量快 = 当天 7 日增速前 10，不再用固定 10000
 function isBackfill(g){
   if(typeof g.backfill === "boolean") return g.backfill;
   const rel = parseDay(g.release_date);
@@ -119,20 +138,95 @@ function isBackfill(g){
   const ref = found === null ? Date.now() : found;
   return (ref - rel) / 86400000 > FRESH_DAYS;
 }
-// 无日期的一律排在最后（升降序都是）；绝不返回 NaN —— NaN 会让整个排序结果错乱
+function hasUs(g){
+  return (g.regions||[]).some(r => String(r).toLowerCase() === "us");
+}
+function normName(s){
+  return String(s||"").trim().toLowerCase().replace(/\s+/g, " ");
+}
+function hotAppIds(games){
+  const ranked = (games||[])
+    .filter(g => g.platform === "Android" && (g.velocity||0) > 0)
+    .sort((a,b) => (b.velocity||0) - (a.velocity||0) || String(a.app_id||"").localeCompare(String(b.app_id||"")));
+  return new Set(ranked.slice(0, HOT_RANK).map(g => g.app_id));
+}
+const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 10) || 0;
+
+function makeCard(sides){
+  const releaseTs = sides.map(s => parseDay(s.release_date)).filter(t => t !== null);
+  return {
+    name: sides[0].name,
+    developer: sides[0].developer || "",
+    sides,
+    found_date: sides.map(s => s.found_date||"").sort().pop() || "",
+    genres: [...new Set(sides.map(s => s.genre).filter(Boolean))],
+    backfill: sides.every(isBackfill),
+    preorder: sides.some(isPreorder),
+    hot: sides.some(s => HOT_IDS.has(s.app_id)),
+    soft: sides.some(s => !hasUs(s)),
+    newestRelease: releaseTs.length ? Math.max(...releaseTs) : null,
+    velocity: Math.max(0, ...sides.map(s => s.velocity||0)),
+    installs: Math.max(0, ...sides.map(installsNum)),
+  };
+}
+
+function mergeGames(games){
+  const groups = new Map();
+  for(const g of games || []){
+    const key = (g.developer||"") + "\0" + normName(g.name);
+    if(!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(g);
+  }
+  const cards = [];
+  for(const items of groups.values()){
+    const ios = items.filter(g => g.platform === "iOS");
+    const android = items.filter(g => g.platform === "Android");
+    if(ios.length && android.length){
+      const pick = list => list.slice().sort((a,b) => (b.found_date||"").localeCompare(a.found_date||""))[0];
+      const chosen = [pick(ios), pick(android)];
+      const used = new Set(chosen.map(g => g.app_id));
+      cards.push(makeCard(chosen));
+      items.filter(g => !used.has(g.app_id)).forEach(g => cards.push(makeCard([g])));
+    } else {
+      items.forEach(g => cards.push(makeCard([g])));
+    }
+  }
+  return cards;
+}
+
+function cardAgeDays(card, now){
+  if(card.newestRelease === null) return null;
+  return ((now || Date.now()) - card.newestRelease) / 86400000;
+}
+
+function cardMatches(card, f, now){
+  const q = f.q || "";
+  const ageLimit = f.age === "all" ? null : Number(f.age);
+  const age = cardAgeDays(card, now);
+  return (f.plat === "all" || card.sides.some(s => s.platform === f.plat)) &&
+    (f.dev === "all" || card.developer === f.dev) &&
+    (f.genre === "all" || card.sides.some(s => (s.genre||"") === f.genre)) &&
+    (!q || normName(card.name).includes(q) || normName(card.developer).includes(q)) &&
+    (f.signal === "all"
+      || (f.signal === "soft" && card.soft)
+      || (f.signal === "hot" && card.hot)
+      || (f.signal === "pre" && card.preorder)
+      || (f.signal === "fresh" && !card.backfill)
+      || (f.signal === "backfill" && card.backfill)) &&
+    (ageLimit === null || (age !== null && age <= ageLimit));
+}
+
 const byDate = dir => (a,b) => {
-  const x = parseDay(a.release_date), y = parseDay(b.release_date);
+  const x = a.newestRelease, y = b.newestRelease;
   if(x === null && y === null) return (a.found_date||"").localeCompare(b.found_date||"");
   if(x === null) return 1;
   if(y === null) return -1;
   return dir * (y - x) || (b.found_date||"").localeCompare(a.found_date||"");
 };
-const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 10) || 0;
-const HOT = 10000;  // 安卓 7 天装机增量达到此门槛标“🔥 起量快”
 const SORTERS = {
   found_desc:    (a,b) => (b.found_date||"").localeCompare(a.found_date||"") || (a.developer||"").localeCompare(b.developer||""),
   velocity_desc: (a,b) => (b.velocity||0) - (a.velocity||0),
-  installs_desc: (a,b) => installsNum(b) - installsNum(a),
+  installs_desc: (a,b) => (b.installs||0) - (a.installs||0),
   rel_desc:      byDate(1),
   rel_asc:       byDate(-1),
   dev_az:        (a,b) => (a.developer||"").localeCompare(b.developer||"") || (b.found_date||"").localeCompare(a.found_date||""),
@@ -142,56 +236,64 @@ const SORTERS = {
 const esc = s => String(s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 function regionTag(regions){
-  const live = (regions||[]).map(r=>r.toLowerCase()).includes("us");
+  const live = (regions||[]).map(r=>String(r).toLowerCase()).includes("us");
   return live
     ? '<span class="tag live">✅ US 上架</span>'
     : '<span class="tag soft">🔥 Soft Launch</span>';
 }
 
-function gameCard(g){
-  const hot = (g.velocity||0) >= HOT;
-  const shots = (g.shots||[]).filter(Boolean);
+function sideLine(g){
+  const regions = esc((g.regions||[]).map(r=>String(r).toUpperCase()).join(", ") || "—");
+  const stats = g.platform === "Android"
+    ? `📥 安装 <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7天 +${(g.velocity||0).toLocaleString()}</span>` : ""}`
+    : `⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`;
+  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats} &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b> &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b></div>`;
+}
+
+function gameCard(card){
+  const shots = card.sides.flatMap(s => (s.shots||[]).filter(Boolean)).slice(0, 8);
+  const icon = card.sides.map(s => s.icon).find(Boolean);
+  const platTags = card.sides.map(s =>
+    `<span class="plat ${s.platform==='iOS'?'ios':'android'}">${s.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>${regionTag(s.regions)}`
+  ).join("");
+  const nameHtml = card.sides.length === 1
+    ? `<a href="${esc(card.sides[0].url)}" target="_blank" rel="noopener">${esc(card.name)}</a>`
+    : esc(card.name);
+  const links = card.sides.length > 1
+    ? `<div class="g-links">${card.sides.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${s.platform==='iOS'?'App Store':'Google Play'}</a>`).join("")}</div>`
+    : "";
   return `
     <div class="game">
-      ${g.icon
-        ? `<img class="g-icon" src="${esc(g.icon)}" loading="lazy" alt="" onerror="this.outerHTML='<div class=&quot;g-icon ph&quot;>${g.platform==='iOS'?'🍎':'🤖'}</div>'">`
-        : `<div class="g-icon ph">${g.platform==='iOS'?'🍎':'🤖'}</div>`}
+      ${icon
+        ? `<img class="g-icon" src="${esc(icon)}" loading="lazy" alt="" onerror="this.outerHTML='<div class=&quot;g-icon ph&quot;>🎮</div>'">`
+        : `<div class="g-icon ph">🎮</div>`}
       <div class="g-body">
         <div class="g-top">
-          <span class="plat ${g.platform==='iOS'?'ios':'android'}">${g.platform==='iOS'?'🍎 iOS':'🤖 Android'}</span>
-          <span class="dev">${esc(g.developer)}</span>
-          ${g.genre ? `<span class="genre">${esc(g.genre)}</span>` : ''}
-          ${regionTag(g.regions)}
-          ${hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
-          ${isPreorder(g) ? '<span class="tag pre">🔜 预售</span>' : ''}
-          ${isBackfill(g) ? '<span class="tag back">补录</span>' : ''}
-          <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
+          ${platTags}
+          <span class="dev">${esc(card.developer)}</span>
+          ${card.genres.map(g => `<span class="genre">${esc(g)}</span>`).join("")}
+          ${card.hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
+          ${card.preorder ? '<span class="tag pre">🔜 预售</span>' : ''}
+          ${card.backfill ? '<span class="tag back">补录</span>' : ''}
+          <span class="found">🔎 发现 ${esc(card.found_date||"—")}</span>
         </div>
-        <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
-        <div class="g-info">
-          🌍 ${esc((g.regions||[]).map(r=>r.toUpperCase()).join(", "))}
-          ${g.platform==='Android'
-            ? `&nbsp;·&nbsp; 📥 安装 <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7天 +${(g.velocity||0).toLocaleString()}</span>` : ''}`
-            : `&nbsp;·&nbsp; ⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`}
-          &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>
-          &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")}
-          &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b>
-        </div>
+        <div class="g-name">${nameHtml}</div>
+        ${links}
+        ${card.sides.map(sideLine).join("")}
         ${shots.length ? `<button class="shotbtn" onclick="this.nextElementSibling.classList.toggle('open')">🖼 截图 (${shots.length})</button>
         <div class="shots">${shots.map(s=>`<img loading="lazy" src="${esc(s)}" alt="">`).join('')}</div>` : ''}
       </div>
     </div>`;
 }
 
+function visibleCards(){
+  return mergeGames(GAMES).filter(card => cardMatches(card, filter));
+}
+
 function render(){
   const list = document.getElementById('list');
-  let rows = GAMES.filter(g =>
-    (filter.plat==="all"  || g.platform===filter.plat) &&
-    (filter.dev==="all"   || g.developer===filter.dev) &&
-    (filter.genre==="all" || (g.genre||"")===filter.genre) &&
-    (!filter.q || (g.name||"").toLowerCase().includes(filter.q))
-  );
-  document.getElementById('count').textContent = rows.length ? rows.length + " 款" : "";
+  let rows = visibleCards();
+  document.getElementById('count').textContent = rows.length ? rows.length + " 张" : "";
 
   if(!rows.length){
     list.innerHTML = '<div class="empty">😴 没有符合条件的新游</div>';
@@ -209,16 +311,16 @@ function render(){
       groups[groups.length-1].items.push(g);
     }
     return groups.map(gr =>
-      `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} 款</div>${gr.items.map(gameCard).join("")}</div>`
+      `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} 张</div>${gr.items.map(gameCard).join("")}</div>`
     ).join("");
   }
 
   if(filter.sort === "found_desc"){
-    const fresh = rows.filter(g => !isBackfill(g));
-    const back = rows.filter(g => isBackfill(g));
+    const fresh = rows.filter(g => !g.backfill);
+    const back = rows.filter(g => g.backfill);
     const parts = [];
-    if(fresh.length) parts.push(`<div class="sectionhead">刚上架 · ${fresh.length} 款</div>${dayGroups(fresh)}`);
-    if(back.length) parts.push(`<div class="sectionhead">补录 · ${back.length} 款</div>${dayGroups(back)}`);
+    if(fresh.length) parts.push(`<div class="sectionhead">刚上架 · ${fresh.length} 张</div>${dayGroups(fresh)}`);
+    if(back.length) parts.push(`<div class="sectionhead">补录 · ${back.length} 张</div>${dayGroups(back)}`);
     list.innerHTML = parts.join("");
   } else {
     list.innerHTML = rows.map(gameCard).join("");
@@ -249,6 +351,8 @@ document.getElementById('platSeg').addEventListener('click', e => {
 });
 document.getElementById('devSel').addEventListener('change', e => { filter.dev = e.target.value; render(); });
 document.getElementById('genreSel').addEventListener('change', e => { filter.genre = e.target.value; render(); });
+document.getElementById('signalSel').addEventListener('change', e => { filter.signal = e.target.value; render(); });
+document.getElementById('ageSel').addEventListener('change', e => { filter.age = e.target.value; render(); });
 document.getElementById('sortSel').addEventListener('change', e => { filter.sort = e.target.value; render(); });
 document.getElementById('search').addEventListener('input', e => { filter.q = e.target.value.toLowerCase().trim(); render(); });
 
@@ -256,6 +360,7 @@ fetch('data.json?_=' + Date.now())
   .then(r => r.json())
   .then(data => {
     GAMES = data.games || [];
+    HOT_IDS = hotAppIds(GAMES);
     document.getElementById('meta').textContent =
       `共监控中 · 最近 120 天发现 ${GAMES.length} 款新游 · 数据更新于 ${data.updated_at || "—"}（每天自动）`;
     buildDevOptions();
