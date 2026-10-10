@@ -112,6 +112,37 @@ def _pagination_raw(apps, token):
     return ")]}'\n" + json.dumps(outer)
 
 
+class FreshReleaseTest(unittest.TestCase):
+    def test_recent_and_preorder_are_not_backfill(self):
+        now = ct.datetime(2026, 10, 10, tzinfo=ct.timezone.utc)
+        self.assertFalse(ct.is_backfill_release("2026-10-01", now=now))
+        self.assertFalse(ct.is_backfill_release("Oct 20, 2026", now=now))
+        self.assertFalse(ct.is_backfill_release("2026-09-11", now=now))  # 正好 29 天
+
+    def test_old_and_undated_are_backfill_but_ancient_stays_off_the_board(self):
+        now = ct.datetime(2026, 10, 10, tzinfo=ct.timezone.utc)
+        self.assertTrue(ct.is_backfill_release("2026-08-01", now=now))
+        self.assertTrue(ct.is_backfill_release(None, now=now))
+        self.assertTrue(ct.is_backfill_release("未知日期", now=now))
+        self.assertTrue(ct.is_stale_release("2020-01-01"))
+        self.assertFalse(ct.is_stale_release(None))
+        self.assertFalse(ct.is_stale_release("未知日期"))
+
+    def test_feishu_skips_backfill(self):
+        records = [
+            {"developer": "Homa", "platform": "iOS", "name": "New", "url": "https://a", "regions": ["us"], "genre": "Puzzle", "backfill": False},
+            {"developer": "Homa", "platform": "Android", "name": "Old", "url": "https://b", "regions": ["tr"], "backfill": True},
+            {"developer": "Peak", "platform": "Android", "name": "Undated", "url": "https://c", "regions": ["ph"], "backfill": True},
+        ]
+        payload = ct.build_new_games_payload(records)
+        body = payload["card"]["elements"][0]["content"]
+        self.assertIn("New", body)
+        self.assertNotIn("Old", body)
+        self.assertNotIn("Undated", body)
+        self.assertIn("发现 1 款", payload["card"]["header"]["title"]["content"])
+        self.assertIsNone(ct.build_new_games_payload([records[1]]))
+
+
 class DeveloperCatalogTest(unittest.TestCase):
     def test_parse_developer_page_and_token(self):
         html = _play_script("ds:3", _developer_ds(

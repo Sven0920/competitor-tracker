@@ -26,6 +26,7 @@ VELOCITY_WINDOW = 7    # 增速统计窗口（天）
 SHOTS_MAX = 4          # 每款最多存几张截图
 ITUNES_LIMIT = 200     # lookup 默认只返回 50 款，大厂会漏
 NEW_GAME_MAX_AGE_DAYS = 180  # 上架超过这个天数的，不当作新游推送（补进基准库）
+FRESH_PUSH_DAYS = 30          # 飞书只推上架不超过这么多天的；更老的进看板「补录」
 NEW_PUBLISHER_UNKNOWN_THRESHOLD = 8  # 一次扫到这么多未知游戏，才视为「新加厂商建库」
 PLAY_REFRESH_MAX_FAILS = 8   # 连续刷新失败这么多次，判定被限流，停止后续拉取
 CORE_MARKETS = {"us", "gb", "ca", "au"}  # 软启动进入这些主力市场时再报一次
@@ -54,11 +55,28 @@ def parse_release_day(s):
     return None
 
 
-def is_stale_release(s, max_age=NEW_GAME_MAX_AGE_DAYS):
+def release_age_days(s, now=None):
+    """上架距 now 的天数。解析不了返回 None；预售是负数。"""
     d = parse_release_day(s)
     if d is None:
+        return None
+    now = now or datetime.now(timezone.utc)
+    return (now - d).days
+
+
+def is_stale_release(s, max_age=NEW_GAME_MAX_AGE_DAYS):
+    age = release_age_days(s)
+    if age is None:
         return False
-    return (datetime.now(timezone.utc) - d).days > max_age
+    return age > max_age
+
+
+def is_backfill_release(s, now=None):
+    """没有可解析的上架日，或已经超过新鲜窗口。预售算刚上架。"""
+    age = release_age_days(s, now=now)
+    if age is None:
+        return True
+    return age > FRESH_PUSH_DAYS
 
 
 def preferred_country(regions):
@@ -597,7 +615,13 @@ def _group_lines(records, line_for):
     return "\n".join(lines).strip()
 
 
+def pushable_new_games(found_records):
+    """飞书只推刚上架。补录留在看板上。"""
+    return [r for r in (found_records or []) if not r.get("backfill")]
+
+
 def build_new_games_payload(found_records):
+    found_records = pushable_new_games(found_records)
     if not found_records:
         return None
 
@@ -836,6 +860,7 @@ def main():
                 "iap_info": game_data["iap_info"],
                 "release_date": game_data["release_date"],
                 "url": game_data["url"],
+                "backfill": is_backfill_release(game_data["release_date"]),
             })
         known_games[app_id] = {"name": game_data["name"], "regions": game_data["regions"]}
 
@@ -888,6 +913,7 @@ def main():
                     "iap_info": iap_info,
                     "release_date": release_date,
                     "url": base_data["url"],
+                    "backfill": is_backfill_release(release_date),
                 })
         known_games[app_id] = {"name": base_data["name"], "regions": base_data["regions"]}
 
@@ -900,11 +926,15 @@ def main():
     if expansions:
         print(f"🌍 {len(expansions)} 款已入库游戏进入主力市场（us/gb/ca/au）。")
         send_feishu_region_expansions(expansions)
+    fresh_records = pushable_new_games(found_records)
+    backfill_records = [r for r in found_records if r.get("backfill")]
     if is_first_run:
         print(f"✅ 首次建库完毕！共记录 {len(known_games)} 款跨区游戏。")
     elif found_records:
-        print(f"🚨 本次发现 {len(found_records)} 款新游，已写入 data.json。")
-        send_feishu_new_games(found_records)
+        print(f"🚨 本次写入 {len(found_records)} 款（刚上架 {len(fresh_records)}，补录 {len(backfill_records)}）。")
+        send_feishu_new_games(fresh_records)
+        if backfill_records and not fresh_records:
+            print("📥 本轮只有补录，不推飞书。")
     else:
         print("💤 本次监控的厂商均无新游发布。")
     print("=" * 60 + "\n")

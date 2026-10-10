@@ -46,6 +46,8 @@
   .tag.live{color:var(--android);background:#e9f6ee}
   .tag.hot{color:#fff;background:#ea580c}
   .tag.pre{color:#fff;background:#7c3aed}
+  .tag.back{color:#3f3f46;background:#e4e4e7}
+  .sectionhead{font-size:15px;font-weight:700;margin:8px 0 12px}
   .genre{font-size:12px;color:#6b21a8;background:#f3e8ff;padding:2px 8px;border-radius:6px}
   .vel{color:#ea580c;font-weight:600}
   .shotbtn{margin-top:10px;font-size:12px;color:var(--accent);background:none;border:0;cursor:pointer;padding:0}
@@ -108,6 +110,15 @@ function parseDay(s){
   return isNaN(t) ? null : t;
 }
 const isPreorder = g => { const t = parseDay(g.release_date); return t !== null && t > Date.now(); };
+const FRESH_DAYS = 30; // 和脚本里的 FRESH_PUSH_DAYS 对齐：发现时上架已超过这个天数就是补录
+function isBackfill(g){
+  if(typeof g.backfill === "boolean") return g.backfill;
+  const rel = parseDay(g.release_date);
+  const found = parseDay(g.found_date);
+  if(rel === null) return true;
+  const ref = found === null ? Date.now() : found;
+  return (ref - rel) / 86400000 > FRESH_DAYS;
+}
 // 无日期的一律排在最后（升降序都是）；绝不返回 NaN —— NaN 会让整个排序结果错乱
 const byDate = dir => (a,b) => {
   const x = parseDay(a.release_date), y = parseDay(b.release_date);
@@ -153,6 +164,7 @@ function gameCard(g){
           ${regionTag(g.regions)}
           ${hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
           ${isPreorder(g) ? '<span class="tag pre">🔜 预售</span>' : ''}
+          ${isBackfill(g) ? '<span class="tag back">补录</span>' : ''}
           <span class="found">🔎 发现 ${esc(g.found_date||"—")}</span>
         </div>
         <div class="g-name"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a></div>
@@ -188,17 +200,26 @@ function render(){
 
   rows = rows.slice().sort(SORTERS[filter.sort] || SORTERS.found_desc);
 
-  if(filter.sort === "found_desc"){
+  function dayGroups(items){
     const groups = [];
     let last = null;
-    for(const g of rows){
+    for(const g of items){
       const d = g.found_date || "未知日期";
       if(d !== last){ groups.push({d, items:[]}); last = d; }
       groups[groups.length-1].items.push(g);
     }
-    list.innerHTML = groups.map(gr =>
+    return groups.map(gr =>
       `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} 款</div>${gr.items.map(gameCard).join("")}</div>`
     ).join("");
+  }
+
+  if(filter.sort === "found_desc"){
+    const fresh = rows.filter(g => !isBackfill(g));
+    const back = rows.filter(g => isBackfill(g));
+    const parts = [];
+    if(fresh.length) parts.push(`<div class="sectionhead">刚上架 · ${fresh.length} 款</div>${dayGroups(fresh)}`);
+    if(back.length) parts.push(`<div class="sectionhead">补录 · ${back.length} 款</div>${dayGroups(back)}`);
+    list.innerHTML = parts.join("");
   } else {
     list.innerHTML = rows.map(gameCard).join("");
   }
