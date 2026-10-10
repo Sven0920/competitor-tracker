@@ -143,6 +143,99 @@ class FreshReleaseTest(unittest.TestCase):
         self.assertIsNone(ct.build_new_games_payload([records[1]]))
 
 
+class StorePriceAndRatingsTest(unittest.TestCase):
+    def test_us_listing_keeps_dollar_price(self):
+        def fake_app(app_id, lang, country):
+            self.assertEqual(country, "us")
+            return {"inAppProductPrice": "$0.99 - $4.99 per item", "realInstalls": 8, "installs": "10+"}
+
+        with mock.patch.object(ct, "app", fake_app):
+            details, iap = ct.android_store_details("com.x", ["ph"], ct.PlayGuard())
+        self.assertEqual(iap, "$0.99 - $4.99 per item")
+        self.assertEqual(details["realInstalls"], 8)
+
+    def test_missing_us_listing_is_marked_and_does_not_trip_breaker(self):
+        def fake_app(app_id, lang, country):
+            if country == "us":
+                raise ct.NotFoundError("no us listing")
+            return {"inAppProductPrice": "₱135.00 - ₱6,850.00 per item", "realInstalls": 2, "installs": "1+"}
+
+        guard = ct.PlayGuard()
+        with mock.patch.object(ct, "app", fake_app):
+            _details, iap = ct.android_store_details("com.x", ["ph"], guard)
+        self.assertTrue(iap.startswith("非美国商店价"))
+        self.assertIn("₱135.00", iap)
+        self.assertEqual(guard.failed, 0)
+
+    def test_play_error_does_not_relabel_a_local_price(self):
+        def fake_app(app_id, lang, country):
+            if country == "us":
+                raise RuntimeError("limited")
+            return {"inAppProductPrice": "₱10", "realInstalls": 1, "installs": "1+"}
+
+        guard = ct.PlayGuard()
+        with mock.patch.object(ct, "with_retry", lambda fn, tries=3, delay=1: fn()):
+            with mock.patch.object(ct, "app", fake_app):
+                _details, iap = ct.android_store_details("com.x", ["ph"], guard)
+        self.assertEqual(iap, "₱10")
+        self.assertEqual(guard.failed, 1)
+
+    def test_failed_refresh_keeps_existing_installs_and_price(self):
+        data = {"games": [{
+            "platform": "Android",
+            "app_id": "com.keep",
+            "real_installs": 50,
+            "installs": "50+",
+            "iap_info": "$0.99 - $9.99 per item",
+            "found_date": "2026-10-01",
+            "regions": ["ph"],
+        }]}
+        guard = ct.PlayGuard()
+
+        def fake_app(app_id, lang, country):
+            raise ct.NotFoundError("gone")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, "snaps.json")
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump({}, fh)
+            with mock.patch.object(ct, "INSTALLS_HISTORY_FILE", path):
+                with mock.patch.object(ct, "app", fake_app):
+                    ct.update_velocity(data, guard)
+        self.assertEqual(data["games"][0]["real_installs"], 50)
+        self.assertEqual(data["games"][0]["iap_info"], "$0.99 - $9.99 per item")
+
+    def test_ios_rating_refresh_does_not_guess_iap(self):
+        games = [
+            {"platform": "iOS", "app_id": "1", "ratings": 0, "iap_info": "未知"},
+            {"platform": "iOS", "app_id": "2", "ratings": 4, "iap_info": "未知"},
+            {"platform": "Android", "app_id": "a", "ratings": 9, "iap_info": "$1"},
+        ]
+
+        class Resp:
+            def json(self):
+                return {"results": [{
+                    "trackId": 1,
+                    "userRatingCount": 12,
+                    "features": ["iosUniversal"],
+                }]}
+
+        updated, failed = ct.refresh_ios_ratings(games, get=lambda url: Resp())
+        self.assertEqual((updated, failed), (1, 0))
+        self.assertEqual(games[0]["ratings"], 12)
+        self.assertEqual(games[0]["iap_info"], "未知")
+        self.assertNotIn("features", games[0])
+        self.assertEqual(games[1]["ratings"], 4)
+        self.assertEqual(games[2]["iap_info"], "$1")
+
+        def down(url):
+            raise RuntimeError("itunes down")
+
+        updated, failed = ct.refresh_ios_ratings(games, get=down)
+        self.assertEqual(games[0]["ratings"], 12)
+        self.assertEqual(failed, 1)
+
+
 class DeveloperCatalogTest(unittest.TestCase):
     def test_parse_developer_page_and_token(self):
         html = _play_script("ds:3", _developer_ds(

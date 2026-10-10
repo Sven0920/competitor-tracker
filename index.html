@@ -247,7 +247,9 @@ function sideLine(g){
   const stats = g.platform === "Android"
     ? `📥 安装 <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7天 +${(g.velocity||0).toLocaleString()}</span>` : ""}`
     : `⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`;
-  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats} &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b> &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b></div>`;
+  // 安卓包体几乎都是「因设备而异」，不再占一行。iOS 包体仍有用。
+  const size = g.platform === "Android" ? "" : ` &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>`;
+  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats}${size} &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b></div>`;
 }
 
 function gameCard(card){

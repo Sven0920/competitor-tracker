@@ -10,6 +10,7 @@ import time
 from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 from google_play_scraper import search, app
+from google_play_scraper.exceptions import NotFoundError
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.path.join(SCRIPT_DIR, "competitor_list.json")   # 基准库：已知游戏，用于判定“新”
@@ -156,6 +157,8 @@ def with_retry(fn, tries=3, delay=1.0):
     for i in range(tries):
         try:
             return fn()
+        except NotFoundError:
+            raise
         except Exception as e:
             last = e
             time.sleep(delay * (i + 1))
@@ -204,6 +207,8 @@ class PlayGuard:
         try:
             result = fn()
         except PlayStopped:
+            raise
+        except NotFoundError:
             raise
         except Exception:
             self.failure()
@@ -524,8 +529,10 @@ def save_data(found_records, region_updates=None, play_guard=None):
     data["games"].sort(key=lambda g: g.get("found_date", ""), reverse=True)
     data["updated_at"] = now_cn("%Y-%m-%d %H:%M")
     update_velocity(data, play_guard)   # 刷新安卓装机量并算增速
+    _, rating_fails = refresh_ios_ratings(data["games"])
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    return rating_fails
 
 def _load_snapshots():
     if os.path.exists(INSTALLS_HISTORY_FILE):
@@ -535,6 +542,86 @@ def _load_snapshots():
         except Exception:
             pass
     return {}
+
+NON_US_PRICE_MARK = "非美国商店价"
+
+
+def format_iap(price, us_listing):
+    """美国商店价原样保留。确认没有美国上架时，标成非美国商店价，不把比索当成美元。"""
+    text = str(price or "无内购").strip()
+    if us_listing:
+        return text
+    if text.startswith(NON_US_PRICE_MARK):
+        return text
+    return f"{NON_US_PRICE_MARK} · {text}"
+
+
+def android_store_details(app_id, regions, guard):
+    """详情和内购价优先向 us 要。us 没有这条上架时，用已看到的地区并标明不是美元。
+
+    请求失败返回 None，调用方保留原来的装机量和价格。商店 404 不计入熔断。
+    """
+    if not guard.allow():
+        raise PlayStopped("Google Play circuit open")
+    us_details = None
+    us_missing = False
+    try:
+        us_details = guard.call(lambda: with_retry(lambda: app(app_id, lang="en", country="us")))
+    except PlayStopped:
+        raise
+    except NotFoundError:
+        us_missing = True
+    except Exception:
+        us_details = None
+    if us_details is not None:
+        return us_details, format_iap(us_details.get("inAppProductPrice"), True)
+
+    country = preferred_country(regions)
+    local = None
+    if guard.allow() and (us_missing or country != "us"):
+        try:
+            local = guard.call(lambda: with_retry(lambda: app(app_id, lang="en", country=country)))
+        except PlayStopped:
+            raise
+        except NotFoundError:
+            local = None
+        except Exception:
+            local = None
+    if local is None:
+        return None
+    price = local.get("inAppProductPrice")
+    if us_missing:
+        price = format_iap(price, False)
+    return local, price or "无内购"
+
+
+def refresh_ios_ratings(games, get=None):
+    """每天批量刷新 iOS 评分数。失败保留原值。不从 features 猜内购。"""
+    getter = get or (lambda url: requests.get(url, headers=ITUNES_HEADERS, timeout=20))
+    ios = [g for g in games if g.get("platform") == "iOS" and g.get("app_id")]
+    updated, failed = 0, 0
+    for i in range(0, len(ios), 150):
+        chunk = ios[i:i + 150]
+        ids = ",".join(str(g["app_id"]) for g in chunk)
+        url = f"https://itunes.apple.com/lookup?id={ids}&country=us"
+        try:
+            resp = getter(url)
+            payload = resp.json() if hasattr(resp, "json") else resp
+            results = payload.get("results", []) if isinstance(payload, dict) else []
+        except Exception as e:
+            failed += 1
+            print(f"  [!] iOS 评分刷新失败: {e}")
+            continue
+        by_id = {str(row.get("trackId")): row for row in results if row.get("trackId") is not None}
+        for g in chunk:
+            hit = by_id.get(str(g["app_id"]))
+            if not hit or "userRatingCount" not in hit:
+                continue
+            g["ratings"] = hit.get("userRatingCount") or 0
+            updated += 1
+    print(f"  [√] iOS 评分刷新 {updated} 款，失败 {failed} 批")
+    return updated, failed
+
 
 def update_velocity(data, play_guard=None):
     """每天重新拉取安卓 realInstalls，写入快照后计算最近 VELOCITY_WINDOW 天增量。"""
@@ -554,18 +641,24 @@ def update_velocity(data, play_guard=None):
         cur = g.get("real_installs", 0) or 0
         if guard.allow():
             try:
-                country = preferred_country(g.get("regions"))
-                d = guard.call(lambda aid=app_id, c=country: with_retry(
-                    lambda: app(aid, lang="en", country=c)
-                ))
-                cur = d.get("realInstalls", 0) or 0
-                g["real_installs"] = cur
-                if d.get("installs"):
-                    g["installs"] = d.get("installs", "")
-                refreshed += 1
+                loaded = android_store_details(app_id, g.get("regions"), guard)
             except Exception as e:
+                loaded = None
                 failed += 1
                 print(f"  [!] 装机量刷新失败 {app_id}: {e}")
+            else:
+                if loaded is None:
+                    failed += 1
+                    print(f"  [!] 装机量刷新失败 {app_id}: 没有可用的商店详情")
+                else:
+                    d, iap = loaded
+                    cur = d.get("realInstalls", 0) or 0
+                    g["real_installs"] = cur
+                    if d.get("installs"):
+                        g["installs"] = d.get("installs", "")
+                    if iap:
+                        g["iap_info"] = iap
+                    refreshed += 1
         if not cur:
             continue
         series = [s for s in snaps.get(app_id, []) if s.get("d", "") >= cutoff]
@@ -876,25 +969,24 @@ def main():
                 print(f"  [!] Android 详情跳过 {app_id}（Play 已熔断，下轮再试，不写入基准库）")
                 continue
             try:
-                details = play_guard.call(lambda aid=app_id, c=preferred_country(base_data["regions"]): with_retry(
-                    lambda: app(aid, lang="en", country=c)
-                ))
+                loaded = android_store_details(app_id, base_data["regions"], play_guard)
+            except PlayStopped:
+                print(f"  [!] Android 详情跳过 {app_id}（Play 已熔断，下轮再试，不写入基准库）")
+                continue
+            if loaded is None:
+                print(f"  [!] Android 详情失败 {app_id}")
+                size, iap_info, release_date, installs = "未知", "未知", "未知日期", ""
+                real_installs, genre, shots = 0, "", []
+            else:
+                details, iap_info = loaded
                 base_data["name"] = details.get("title", base_data["name"])
                 base_data["icon"] = details.get("icon", base_data.get("icon", ""))
                 size = details.get("size", "因设备而异")
-                iap_info = details.get("inAppProductPrice", "无内购")
                 release_date = details.get("released", "未知日期")
                 installs = details.get("installs", "")
                 real_installs = details.get("realInstalls", 0) or 0
                 genre = details.get("genre", "")
                 shots = (details.get("screenshots") or [])[:SHOTS_MAX]
-            except PlayStopped:
-                print(f"  [!] Android 详情跳过 {app_id}（Play 已熔断，下轮再试，不写入基准库）")
-                continue
-            except Exception as e:
-                print(f"  [!] Android 详情失败 {app_id}: {e}")
-                size, iap_info, release_date, installs = "未知", "未知", "未知日期", ""
-                real_installs, genre, shots = 0, "", []
             if is_stale_release(release_date):
                 print(f"  [建库] 🤖 {base_data['name']} (上架超过 {NEW_GAME_MAX_AGE_DAYS} 天，忽略)")
             else:
@@ -918,7 +1010,8 @@ def main():
         known_games[app_id] = {"name": base_data["name"], "regions": base_data["regions"]}
 
     save_history(known_games)
-    save_data(found_records, region_updates, play_guard)
+    rating_fails = save_data(found_records, region_updates, play_guard) or 0
+    ios_fail += rating_fails
 
     print("\n" + "=" * 60)
     if ios_fail or android_fail:

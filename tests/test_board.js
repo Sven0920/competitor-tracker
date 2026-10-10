@@ -78,4 +78,10 @@ assert.ok(!week.some(c => c.sides.some(s => s.app_id === "other")));
 const byDev = cards.filter(c => cardMatches(c, { ...base, q: "peak" }, now));
 assert.ok(byDev.length >= 2 && byDev.every(c => c.developer === "Peak"));
 
+const cardHtml = sandbox.gameCard(merged);
+const sizeMarks = cardHtml.split("📦").length - 1;
+assert.strictEqual(sizeMarks, 1, "only the iOS side keeps a package-size line");
+assert.ok(cardHtml.includes("📥"));
+assert.ok(!cardHtml.includes("因设备而异"));
+
 console.log("board logic ok", cards.length, "cards");
