@@ -1,6 +1,10 @@
 """不访问 Google Play、iTunes 或飞书的单元测试。"""
+import json
 import os
+import tempfile
 import unittest
+from unittest import mock
+from urllib.parse import unquote
 
 import competitor_tracker as ct
 
@@ -64,6 +68,161 @@ class RegionTrackingTest(unittest.TestCase):
     def test_no_feishu_post_without_webhook(self):
         os.environ.pop("FEISHU_WEBHOOK", None)
         self.assertFalse(ct.post_feishu({"msg_type": "text"}, "should-not-print"))
+
+
+def _play_script(key, data):
+    payload = json.dumps(data)
+    # 真实页面是 sideChannel: {}});  多一个 } 就匹配不上库里的正则
+    suffix = "sideChannel: " + "{}}" + ");</script>"
+    return f"<script>AF_initDataCallback({{key: '{key}', hash: '1', data:{payload}, {suffix}"
+
+
+def _wrapped_app(app_id, title, developer, icon="https://example/icon"):
+    # 首屏卡片外面还有一层列表，字段在内层：id 在 [0][0][0]
+    record = [None] * 15
+    record[0] = [app_id]
+    record[1] = [None, None, None, [None, None, icon]]
+    record[3] = title
+    record[14] = developer
+    return [record]
+
+
+def _developer_ds(apps, token):
+    token_slot = [None, None, None, [None, token]]
+    cluster = [apps, token_slot]
+    level0 = [None] * 23
+    level0[22] = cluster
+    return [[None, [level0]]]
+
+
+def _flat_app(app_id, title, developer):
+    item = [None] * 13
+    item[2] = title
+    item[4] = [[[developer]]]
+    item[12] = [app_id]
+    return item
+
+
+def _pagination_raw(apps, token):
+    page = [None] * 8
+    page[0] = apps
+    page[7] = [None, token] if token else []
+    inner = [[page]]
+    outer = [["wrb.fr", "qnKhOb", json.dumps(inner), None, None]]
+    return ")]}'\n" + json.dumps(outer)
+
+
+class DeveloperCatalogTest(unittest.TestCase):
+    def test_parse_developer_page_and_token(self):
+        html = _play_script("ds:3", _developer_ds(
+            [_wrapped_app("com.homa.one", "One", "Homa")],
+            "T" * 24,
+        ))
+        apps, token = ct.parse_developer_page(html)
+        self.assertEqual(apps[0]["appId"], "com.homa.one")
+        self.assertEqual(apps[0]["title"], "One")
+        self.assertEqual(apps[0]["developer"], "Homa")
+        self.assertEqual(apps[0]["icon"], "https://example/icon")
+        self.assertEqual(token, "T" * 24)
+
+    def test_parse_pagination_page(self):
+        raw = _pagination_raw([_flat_app("com.homa.two", "Two", "Homa")], "U" * 24)
+        apps, token = ct.parse_developer_pagination(raw)
+        self.assertEqual([(a["appId"], a["title"], a["developer"]) for a in apps], [
+            ("com.homa.two", "Two", "Homa"),
+        ])
+        self.assertEqual(token, "U" * 24)
+
+    def test_catalog_prefers_developer_page_over_search(self):
+        html = _play_script("ds:3", _developer_ds(
+            [_wrapped_app("com.homa.one", "One", "Homa")],
+            None,
+        ))
+        searched = []
+        apps, source = ct.android_apps_for_country(
+            "Homa", "us", ct.PlayGuard(),
+            search_fn=lambda name, country: searched.append((name, country)) or [],
+            get=lambda url: html,
+        )
+        self.assertEqual(source, "developer")
+        self.assertEqual(searched, [])
+        self.assertEqual(apps[0]["appId"], "com.homa.one")
+        self.assertIn("id=Homa", ct.developer_page_url("Homa", "us"))
+
+    def test_empty_developer_page_falls_back_to_filtered_search(self):
+        html = _play_script("ds:3", _developer_ds([], None))
+
+        def search(name, country):
+            return [
+                {"appId": "com.homa.mine", "title": "Mine", "developer": "Homa", "icon": ""},
+                {"appId": "com.other.noise", "title": "Noise", "developer": "Other Studio", "icon": ""},
+            ]
+
+        apps, source = ct.android_apps_for_country(
+            "Homa", "ph", ct.PlayGuard(), search_fn=search, get=lambda url: html,
+        )
+        self.assertEqual(source, "search")
+        self.assertEqual([a["appId"] for a in apps], ["com.homa.mine"])
+
+    def test_pagination_failure_keeps_first_page(self):
+        html = _play_script("ds:3", _developer_ds(
+            [_wrapped_app("com.homa.one", "One", "Homa")],
+            "T" * 30,
+        ))
+
+        def post(url, body):
+            self.assertIn("qnKhOb", url)
+            decoded = json.loads(unquote(body[len("f.req="):]))
+            self.assertIn("T" * 30, decoded[0][0][1])
+            raise RuntimeError("rate limited")
+
+        guard = ct.PlayGuard()
+        apps = ct.fetch_developer_catalog("Homa", "us", guard, get=lambda url: html, post=post)
+        self.assertEqual([a["appId"] for a in apps], ["com.homa.one"])
+        self.assertEqual(guard.failed, 1)
+
+    def test_breaker_stops_later_play_calls(self):
+        guard = ct.PlayGuard(max_fails=2)
+        calls = {"get": 0, "search": 0}
+
+        def get(url):
+            calls["get"] += 1
+            raise RuntimeError("limited")
+
+        def search(name, country):
+            calls["search"] += 1
+            raise RuntimeError("limited")
+
+        with self.assertRaises(RuntimeError):
+            ct.android_apps_for_country("Homa", "us", guard, search_fn=search, get=get)
+        self.assertTrue(guard.tripped)
+        with self.assertRaises(ct.PlayStopped):
+            ct.android_apps_for_country("Peak", "us", guard, search_fn=search, get=get)
+        self.assertEqual(calls, {"get": 1, "search": 1})
+
+    def test_open_breaker_does_not_refresh_or_wipe_installs(self):
+        guard = ct.PlayGuard()
+        guard.tripped = True
+        data = {"games": [{
+            "platform": "Android",
+            "app_id": "com.keep",
+            "real_installs": 50,
+            "installs": "50+",
+            "found_date": "2026-10-01",
+            "regions": ["us"],
+        }]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = os.path.join(tmp, "snaps.json")
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump({"com.keep": [{"d": "2026-10-01", "v": 40}]}, f)
+            with mock.patch.object(ct, "INSTALLS_HISTORY_FILE", path):
+                with mock.patch.object(ct, "app", side_effect=AssertionError("should not call Play")):
+                    ct.update_velocity(data, guard)
+            with open(path, encoding="utf-8") as fh:
+                saved = json.load(fh)
+        self.assertEqual(data["games"][0]["real_installs"], 50)
+        self.assertIn("com.keep", saved)
+        self.assertGreaterEqual(data["games"][0]["velocity"], 0)
 
 
 if __name__ == "__main__":
