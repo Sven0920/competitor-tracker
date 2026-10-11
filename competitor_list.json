@@ -22771,10 +22771,12 @@
         "name": "Wood Block Crush",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "ph",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "jp.co.goodroid.hyper.lineshiftpuzzle": {
@@ -23670,8 +23672,8 @@
         "regions": [
             "au",
             "ph",
-            "vn",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "bus.games.car.out.traffic.parking.jam.escape.puzzle": {
@@ -32398,6 +32400,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32512,6 +32515,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32548,6 +32552,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32656,6 +32661,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -32677,6 +32683,7 @@
         "name": "Mad Smash",
         "regions": [
             "au",
+            "gb",
             "ph",
             "tr",
             "vn"
@@ -32687,6 +32694,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32698,6 +32706,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32711,6 +32720,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32879,6 +32889,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -32963,6 +32974,7 @@
         "name": "Dinosaur Universe",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -32978,6 +32990,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -33016,8 +33029,9 @@
     "com.fireshrike.rpg": {
         "name": "FANTASYxHUNTERS",
         "regions": [
+            "br",
             "ca",
-            "br"
+            "gb"
         ]
     },
     "com.hyperpixelgames.idlecruiseship": {
@@ -33026,6 +33040,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -33051,6 +33066,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -33073,6 +33089,7 @@
         "regions": [
             "au",
             "br",
+            "gb",
             "ph",
             "tr",
             "us"
@@ -33125,6 +33142,7 @@
         "regions": [
             "au",
             "br",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -33996,15 +34014,15 @@
     "com.mahjong.pyramid.catnap.gp": {
         "name": "Pyramid Mahjong",
         "regions": [
-            "gb",
-            "tr",
-            "mx",
-            "ca",
-            "us",
-            "ph",
-            "vn",
             "au",
-            "br"
+            "br",
+            "ca",
+            "gb",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.word.solitaire.op.gp": {
@@ -34410,6 +34428,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -35121,7 +35140,13 @@
         "name": "Crab Life: RPG Survival",
         "regions": [
             "au",
-            "ca"
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "tr",
+            "us"
         ]
     },
     "io.supercent.spinminer": {
@@ -35135,7 +35160,9 @@
     "com.Albus.AwesomePark": {
         "name": "Awesome Park : Idle Game",
         "regions": [
+            "br",
             "ca",
+            "gb",
             "id",
             "us"
         ]
@@ -36820,8 +36847,10 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -36850,6 +36879,7 @@
     "com.actionfit.atlantis": {
         "name": "Jewels Atlantis: Puzzle game",
         "regions": [
+            "au",
             "br",
             "id",
             "mx",
@@ -37241,6 +37271,7 @@
     "com.cat.away.jam.aos": {
         "name": "Cat Escape",
         "regions": [
+            "id",
             "ph",
             "us",
             "vn"
@@ -37381,6 +37412,7 @@
     "com.microjoy.nonogram.number.art.logic.sudoku.puzzle": {
         "name": "Nonogram - Number Art Puzzle",
         "regions": [
+            "mx",
             "ph"
         ]
     },
@@ -38052,6 +38084,7 @@
     "com.crazylabs.neon.light.maze": {
         "name": "Neon On!",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -38059,15 +38092,19 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
     "com.creativestarsgames.bombevolution": {
         "name": "Evolving Bombs!",
         "regions": [
+            "au",
+            "br",
             "gb",
             "id",
             "mx",
+            "tr",
             "vn"
         ]
     },
@@ -38155,6 +38192,9 @@
     "com.base.commander": {
         "name": "Base Commander",
         "regions": [
+            "br",
+            "gb",
+            "id",
             "us",
             "vn"
         ]
@@ -47308,7 +47348,10 @@
     "com.banpofri.tinycastleguardians": {
         "name": "Backpack Castle Heroes",
         "regions": [
+            "au",
             "br",
+            "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -47924,6 +47967,7 @@
     "com.jtsniper.game": {
         "name": "Johnny Trigger - Sniper Game",
         "regions": [
+            "ca",
             "id",
             "mx",
             "ph",
@@ -48228,6 +48272,8 @@
         "name": "My Toy Shop!",
         "regions": [
             "au",
+            "br",
+            "gb",
             "id",
             "ph",
             "tr",
@@ -48953,6 +48999,7 @@
     "com.dig.deep": {
         "name": "Dig Deep",
         "regions": [
+            "au",
             "ph",
             "tr",
             "us",
@@ -48963,6 +49010,8 @@
         "name": "FarmTale",
         "regions": [
             "au",
+            "br",
+            "gb",
             "id",
             "tr"
         ]
@@ -49134,6 +49183,7 @@
         "name": "Frozen Manor: Merge Mystery",
         "regions": [
             "au",
+            "br",
             "id"
         ]
     },
@@ -49205,6 +49255,7 @@
     "com.tree.hybrid.geartank": {
         "name": "Gear Truck!",
         "regions": [
+            "id",
             "us",
             "vn"
         ]
@@ -49548,10 +49599,15 @@
     "com.pc.sandblast.sandout": {
         "name": "Sand Out: Color Puzzle",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -49572,856 +49628,857 @@
     "1523404205": {
         "name": "Zen Jigsaw",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "studio.smartraven.mutantwars3d": {
         "name": "Monster Wars 3D: Mutant Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.nagastudio.giant.monster.run": {
         "name": "Kaiju Run - Dzilla Enemies",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.yorfstudio.sea": {
         "name": "Z Escape - Zombie Machine Gun",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.zombie.rescue": {
         "name": "Save the Town - Gatling Gun",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.emesh.symbiote.rush": {
         "name": "Symbiote Rush",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.studiorouleau.splitballs": {
         "name": "Split Balls 3D - Maze Bounce",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bulkybrains.mashuphero": {
         "name": "Mashup Hero: Superhero Games",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.borna.tapethrower": {
         "name": "Tape Thrower - Stickers Gun",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.popve.generationrush": {
         "name": "Fairy Rush: Genetic Fusion",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.popve.investrun": {
         "name": "Investment Run: Invest Fast",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.joyboy.tricky.twist.funny": {
         "name": "Tricky Twist 2: Brain Prank",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.kienpham.colorlink": {
         "name": "Boxy Slide!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.pixel.blast.shoot": {
         "name": "Pixel Blast Shoot",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.shikaku.cat.puzzle": {
         "name": "Shikaku Cats: Number Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.abi.foodpop": {
         "name": "Foodie Pop!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.amzg.sweet.cafe": {
         "name": "Sweety Cafe",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.joyboy.smash.bottle.asmr": {
         "name": "Angry Duck: Bottle Smash ASMR",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.sand.fest": {
         "name": "Sand Fest - Color Sort Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.abi.hungryblock": {
         "name": "Hungry Block!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.car.run.race3d": {
         "name": "Build A Car: Car Racing",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.chat.master.prank.master.game": {
         "name": "Chat Master: Prank Story",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.car.extremesounds.engine": {
         "name": "Extreme Car Sounds Simulator",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.joyboy.drink.packing": {
         "name": "Cozy Drink Match",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.xd.rainbow.craftsman": {
         "name": "Monster Craftsman Survivor 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wave.infinitecrafter": {
         "name": "Infinite Crafter (TD)",
         "regions": [
-            "us",
-            "tr"
+            "tr",
+            "us"
         ]
     },
     "tower.crusher": {
         "name": "Tower Crusher!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.rollic.magicio": {
         "name": "Magic.io: Spells & Zombies",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bytetyper.spiroartasmr": {
         "name": "Spiro Art ASMR",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.twodestudios.triviaclash": {
         "name": "Class Trivia",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.SuperDuperGames.BounceDefenders": {
         "name": "Bounce Defenders",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.gigantic.basedefense": {
         "name": "Base Defense!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wixot.pressurewashing": {
         "name": "Pressure Washing Run",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.hemzstudios.marbelgame": {
         "name": "Marble ASMR",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "games.noho.gungang": {
         "name": "Gun Gang",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.nanotribe.games.cashier3d": {
         "name": "Cashier 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wixot.coinroll": {
         "name": "Money Rush",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wixot.parkingmanagement": {
         "name": "Car Lot Management",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "happy.game.weaponup": {
         "name": "Trigger Up",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.HolagoGames.Softris": {
         "name": "Softris",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bytetyper.iwantpizza": {
         "name": "I Want Pizza",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.nanotribe.games.arrowfest": {
         "name": "Arrow Fest",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.duellogames.FlipperDunk": {
         "name": "Flipper Dunk",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.atreus.colorrunner": {
         "name": "Colors Runners!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.VitaGames.EngineASMR": {
         "name": "Engine Pistons ASMR",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.HeroGames.WoodShop": {
         "name": "Wood Shop",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.Silverzen.CarUp": {
         "name": "Car Up!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.luna.dynomaster": {
         "name": "Towing Race",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.fubugames.dropdigger": {
         "name": "Drop Digger",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.longhorn.cookmaster": {
         "name": "Dream Restaurant",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.luna.theyarecoming": {
         "name": "They Are Coming",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.longhorn.countmasterevo": {
         "name": "Crowd Evolution!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bytetyper.gemstack": {
         "name": "Gem Stack",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.uncosoft.mergehooks": {
         "name": "Merge Hooks",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.alfgames.smashwheel": {
         "name": "Wheel Smash",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.stolenpad.swordsmakers": {
         "name": "Swords Maker",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wixot.moneyland": {
         "name": "Moneyland",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.morii.smashrunner": {
         "name": "Smash Runner!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.CatpathStudios.JoustRun": {
@@ -50433,186 +50490,192 @@
     "com.xiaomo.lastextract": {
         "name": "Last Extract",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.voodoo.almanac": {
         "name": "The Almanac",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.OxtailGames.IdleSpaceRaces": {
         "name": "Galactic Merge Idle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.Partyup.GolfRoyale": {
         "name": "Golf Guys",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.cympl.cupsort": {
         "name": "HexaCoin Harmony - Merge tiles",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.mountaincreekgames.waterpower": {
         "name": "Water Power",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.norwichsidegames.tothemoon": {
         "name": "Moon Pioneer",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "md.petrupostolachi.trashventureidle": {
         "name": "Idle Trash Masters",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.cortex.shikaku": {
         "name": "Shikaku - Brain Workout",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.hypermode.hexdefense": {
         "name": "Hex Defense!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "games.rivvy.finalsurvivor": {
         "name": "Final Survivor",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.hegames.stacknsort": {
         "name": "Stack N Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.Spinbot.DungeonClaw": {
         "name": "Claw Heroes",
         "regions": [
+            "au",
+            "br",
+            "id",
+            "mx",
+            "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -50620,92 +50683,97 @@
     "com.MadApper.MrCactus": {
         "name": "Mr Cactus",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.NBS.multicardjam": {
         "name": "Multi Card Jam",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tapped.pinboquest": {
         "name": "Pinbo Quest",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "id",
-            "ph",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.funflare.sandjam": {
         "name": "Sand Jam",
         "regions": [
-            "us",
-            "gb"
+            "gb",
+            "us"
         ]
     },
     "com.aa.dontmixemup": {
         "name": "Salt & Pepper, Don't mix em up",
         "regions": [
-            "us",
-            "id",
+            "br",
             "gb",
-            "vn",
-            "ph"
+            "id",
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "com.gametator.dropsort": {
         "name": "Drop & Sort Jellyfish",
         "regions": [
+            "au",
             "br",
-            "mx",
-            "tr",
+            "ca",
+            "gb",
             "id",
+            "mx",
             "ph",
-            "vn",
-            "au"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.oxvgames.slinkyjam": {
         "name": "Spring Jam",
         "regions": [
-            "vn",
+            "id",
             "ph",
-            "id"
+            "vn"
         ]
     },
     "com.orbitalknight.ridiculousfreekick": {
         "name": "Crazy Kick! Fun Football game",
         "regions": [
             "br",
-            "mx",
-            "tr",
+            "ca",
             "gb",
-            "ca"
+            "mx",
+            "tr"
         ]
     },
     "com.CharityRun.game": {
@@ -50717,639 +50785,640 @@
     "com.oakever.molesweeper": {
         "name": "Molesweeper",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.oakever.traintrack": {
         "name": "Connect Tracks: Logic Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.oakever.akari": {
         "name": "MeowTrail",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.oakever.sortparade": {
         "name": "Sort Streak: Color Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "and.lihuhu.pixel.ball": {
         "name": "Pixel Hunt: Truck Flow Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lihuhu.beanbattle": {
         "name": "Bean Battle: Princess Rescue",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bliss.puzzle.game.image.association": {
         "name": "Word Solitaire: Train Journey",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.tapcubeout": {
         "name": "Tap Cube Out: Color Sort 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "and.lihuhu.jelly.loop": {
         "name": "Squishy Loop - Jelly Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.burst.flow": {
         "name": "Color Burst 3D: Voxel Blast",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.mahjong.crush": {
         "name": "Mahjong Tangle: Tile Sorting",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.ig.blockflow": {
         "name": "Color Loop",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "ig.com.fruit.match": {
         "name": "Fruit Match: Triple Match",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.coin.sort": {
         "name": "Coin Sort: Color Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.fruit.jam": {
         "name": "Fruit Jam",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.fruit.in.flow": {
         "name": "Fruit in Flow",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.sticker": {
         "name": "Sticker Sort Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.bee.colony": {
         "name": "Bee Colony: Screw Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.diamond.flow": {
         "name": "Jewel Flow!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.jewel.color.sort": {
         "name": "Jewel Art: Color Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.fish.up.match": {
         "name": "Fish Up!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "ig.com.bird.cube": {
         "name": "Bird Cube 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "ig.com.boat.jam": {
         "name": "Boat Out: Traffic Jam",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.hive.block.pixel.colony": {
         "name": "Hive Block: Pixel Colony",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.mahjong.sort": {
         "name": "Mahjong Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.supermarket.manager.simulator": {
         "name": "Manage Supermarket Simulator",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ig.supermarket.fashion.simulator": {
         "name": "Clothing Store Simulator",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.jura.monster.truck.stunt": {
         "name": "Monster Truck Stunt Racing",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.jura.motor.stunt.master": {
         "name": "GT Moto Stunt 3D: Driving Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playbrew.tanks": {
         "name": "Steelborn: Tank Idle RPG",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.grass.cut.game": {
         "name": "Grass Master – Cutting Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.deviloper.dungeon.adventure.card.battle.survival": {
         "name": "Dungeon&Deck: Roguelike RPG",
         "regions": [
-            "us",
-            "br"
+            "br",
+            "us"
         ]
     },
     "com.color.towerstack": {
         "name": "Color Tower – Stack Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "backpack.tower.defense": {
         "name": "Bag Block: TD Battle Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.guluohhole.game": {
         "name": "O! Hole! - Eating Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.cube.arrows": {
         "name": "Cube Way Out - Puzzle Escape",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playstrom.word.jigsort": {
         "name": "Word Jigsort – Associations",
         "regions": [
-            "us",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
+            "au",
+            "br",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "after.dark.gaem": {
         "name": "After Dark - Survival Tomb",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.game.merge.anything": {
         "name": "Merge Anything - Mutant Battle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.xten.starfall": {
         "name": "Chess Royale - Play and Learn",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playstrom.cubescontrol": {
         "name": "Cubes Control",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.starlight.collect3.gp": {
         "name": "Hidden Match City・Find Secrets",
         "regions": [
-            "us",
-            "br"
+            "br",
+            "us"
         ]
     },
     "com.cryptogram.word.puzzle.logic": {
         "name": "Word Code - Cryptogram Puzzle",
         "regions": [
-            "us",
-            "id",
-            "gb",
+            "au",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "us",
+            "vn"
         ]
     },
     "com.sugarscone.bloodinvasion": {
         "name": "Blood Invasion: Vampire RPG",
         "regions": [
-            "us",
+            "au",
+            "ca",
+            "gb",
             "mx",
             "ph",
-            "gb",
-            "ca",
-            "vn",
-            "au"
+            "us",
+            "vn"
         ]
     },
     "com.game.tilesort": {
         "name": "Tessora: Tile Sort Puzzle",
         "regions": [
-            "us",
-            "br"
+            "br",
+            "us"
         ]
     },
     "com.playstrom.mtd": {
@@ -51361,31 +51430,31 @@
     "com.heli.monsters": {
         "name": "Heli Monsters - Giant Hunter",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playstrom.card.lands": {
         "name": "Card Lands",
         "regions": [
-            "us",
-            "br"
+            "br",
+            "us"
         ]
     },
     "com.studio6.boomins": {
         "name": "Boomins",
         "regions": [
-            "us",
+            "br",
             "ca",
-            "br"
+            "us"
         ]
     },
     "com.hexa.glide": {
@@ -51397,35 +51466,35 @@
     "com.playstrom.drawonepart": {
         "name": "DOP: Draw One Part",
         "regions": [
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "vn"
         ]
     },
     "com.pd.thecook": {
         "name": "The Cook - 3D Cooking Game",
         "regions": [
-            "mx",
-            "tr",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "ph"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "vn"
         ]
     },
     "com.hwg.sos": {
         "name": "Brain Wash - Thinking Game",
         "regions": [
-            "gb",
             "au",
             "ca",
+            "gb",
             "ph"
         ]
     },
@@ -51433,40 +51502,40 @@
         "name": "CPI - Connect Puzzle Image",
         "regions": [
             "br",
-            "mx",
-            "tr",
-            "id",
             "gb",
-            "vn",
-            "ph"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "vn"
         ]
     },
     "com.t2p.dominoestourgame": {
         "name": "Dominoes Tour — Classic Domino",
         "regions": [
+            "au",
             "br",
-            "mx",
             "id",
+            "mx",
             "ph",
-            "vn",
-            "au"
+            "vn"
         ]
     },
     "com.arcade.mine": {
         "name": "Craft Valley - Building Game",
         "regions": [
-            "tr",
-            "id",
+            "au",
             "ca",
-            "vn",
-            "au"
+            "id",
+            "tr",
+            "vn"
         ]
     },
     "com.my.little.things": {
         "name": "Hidden Stuff",
         "regions": [
-            "gb",
-            "ca"
+            "ca",
+            "gb"
         ]
     },
     "com.matching.puzzle": {
@@ -51486,9 +51555,9 @@
     "com.hitappsgames.blockkitchen": {
         "name": "Block Chef - Cooking Puzzle",
         "regions": [
-            "us",
             "br",
-            "mx"
+            "mx",
+            "us"
         ]
     },
     "com.hitappsgames.mcm": {
@@ -51500,233 +51569,233 @@
     "com.tripledot.capydoku": {
         "name": "Capydoku",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.zm.jcs": {
         "name": "Kitty Pack: Cat Color Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.lumina": {
         "name": "Lumina",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.zm.nutspack": {
         "name": "Nuts Match: Sort puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.sushi.conveyor": {
         "name": "Sushi Flow",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.wordoku": {
         "name": "Wordoku - Word Puzzle Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.crosticword": {
         "name": "Code Word",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.blockorder": {
         "name": "Blocked In: Color Sort Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.zm.shole": {
         "name": "Sand Hole: Block Sort Jam",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.catman": {
         "name": "Pac-Cat",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.shikacat": {
         "name": "Shikacat",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.tilewordjam": {
         "name": "Bubble Word Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.snake": {
         "name": "Snake Adventure",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.fliporquit": {
         "name": "Flip or Hold",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.bingoassociations": {
         "name": "Bingo Associations",
         "regions": [
-            "ph",
-            "id"
+            "id",
+            "ph"
         ]
     },
     "com.easybrain.ludo.board.games": {
         "name": "Ludo Go! - Dice Board Games",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.easybrain.logic.riddle.puzzle": {
@@ -51738,1065 +51807,1107 @@
     "com.moonactive.dreambay": {
         "name": "Dream Bay",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.wa.cult.empire.tycoon.idle.game": {
         "name": "Idle Cult Empire - Evil Tycoon",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.alegrium.cong2": {
         "name": "Cash, Inc. Fame & Fortune Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.BeanstarGamesInc.WordGames": {
         "name": "Dingbats - Word Games & Trivia",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "co.gxgames.spa": {
         "name": "Serenity's Spa: Beauty Salon",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "merge.villa": {
         "name": "Merge Villa",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.MoodGames.CookSort": {
         "name": "Cook Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.fingersyoda.sanddrop": {
         "name": "Sand Drop",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.MachinaGames.CardQuest": {
         "name": "Card Shuffle Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "makeover.merge": {
         "name": "Makeover Merge",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "my.world.mine.craft.universe.simulator.strategy.games.free": {
         "name": "My Home Planet: Idle Explorer",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "woodoku.block.puzzle.games.sudoku.free.woody.classic": {
         "name": "Sudoblock®: Woody Block Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "parking.jam3d.traffic.jam.games.car.puzzle": {
         "name": "Parking Jam 3D - Car Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.gurupuzzle.differences.find.spot": {
         "name": "Differences II: Find & Spot It",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.gurupuzzle.loopy.doopy.sort": {
         "name": "Color Sort Puzzle: Loopy Doopy",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.gurupuzzle.ant.dragon": {
         "name": "Ants Eat Dragons - Color Match",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "car.escape.out.parking.jam.traffic.puzzle.games.free": {
         "name": "Parking Escape® - Car Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bubbleshooter.origin.classic.puzzle": {
         "name": "Bubble Shooter Tale: Ball Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.wordsolitaire.unscramble.word.card.game": {
         "name": "Word Solitaire-Unscramble Puz",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.maze.escape.puzzle": {
         "name": "Maze Escape: Tap Away Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.solitaire.word.match.puzzle.game": {
         "name": "Solitaire Word Match",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.number.match.puzzle.board.game": {
         "name": "Number Match-Ten Pairs",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.word.search.zen.word.find.puzzle.game": {
         "name": "Word Search Zen-Word Find",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.jigsortscapes.jigsaw.slide.solitaire.puzzle.game": {
         "name": "Jigsortscapes-Jigsaw Slide Puz",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.garden.word.search.find.puzzle.game": {
         "name": "Garden Word Search",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.water.sort.color.free.puzzle.game": {
         "name": "Water Sort-Color Match Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.arrow.out.color.line.brian.puzzle": {
         "name": "Arrow Rush: Water Color Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "cube.sudoku.block.puzzle": {
         "name": "Cubedoku: Sudoku n Minesweeper",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "jigsaw.recovery.puzzle.sort.game.match": {
         "name": "Jigsaw Puzzle: Art Jigsort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.find.hidden.objects.game.hunt.out": {
         "name": "Find It Out: Hidden Objects",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "adult.relax.jigsaw.hd.puzzle.game": {
         "name": "Jigsaw Puzzle: Daily Art Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.spot.difference.find.out.puzzle.games.free": {
         "name": "Find Differences: Find it Out!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.crabby.sheep.escape.out.jam.traffic.puzzle.block": {
         "name": "Sheep Jam - Escape Puzzle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.u14.backyardmaster": {
         "name": "Backyard Master",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.sniper.shooter.wild.ssw": {
         "name": "Sniper Shooter Wild",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.rlbttef.kvkpx": {
         "name": "Car Screw Escape",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.puf.colorsandsortgp": {
         "name": "Color Sand Sort",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.supersonic.triplescrewmatch": {
         "name": "Screw Triple Match",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.foursgames.camouflagesniper": {
         "name": "Camo Sniper",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.RBSSOFT.HyperMobile": {
         "name": "Chat Master!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.ISAAC.Autodiggers": {
         "name": "Auto Diggers",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.satbox.drawweapon3d": {
         "name": "Draw Weapon 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.xpup.arrowpuzzle2": {
         "name": "Arrow Maze Out",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.fineststudio.gunbuildrun": {
         "name": "Gun Build N Run",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.demin.emojipuzzle": {
         "name": "Emoji Puzzle!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.feofun.elementalmaster": {
         "name": "Elemental Master",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.montanastudios.blastmosaic": {
         "name": "Blast Mosaic",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.casualhit.ropeman": {
         "name": "Rope Man Run - Yarn Hero Game",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.gc.planeevolution": {
         "name": "Plane Evolution!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.dodotech.BoatEvolution": {
         "name": "Boat Evolution",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.GameLemo.ArmSimulator": {
         "name": "Arm Simulator",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.AiiACo.Ltd.CleanUpASMR": {
         "name": "Clean Up ASMR",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "jp.usaya.wormcar": {
         "name": "Worm Car",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.muratkul.stock": {
         "name": "Get Rich! 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.nepix.humanvehicle": {
         "name": "Human Vehicle",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "jp.icepop.steppuzzle": {
         "name": "Love Pins",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.xia.spiderking": {
         "name": "Spider King",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.blueberrygames.gameg": {
         "name": "String Art",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.Lexcorp.CatEvolution": {
         "name": "Cat Evolution",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.muhammedeminaksoy.maddogs": {
         "name": "Mad Dogs",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tcg.AgentGrapple": {
         "name": "Agent Grapple",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.AiiACo.Ltd.GettheSupercar3D": {
         "name": "Get the Supercar 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.u14.gp_flooringmaster": {
         "name": "Flooring Master",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.redtea.games.popdarts.android": {
         "name": "Sticky Darts",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.DVison.RocketsStack": {
         "name": "Rockets Stack",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.blackcandy.probuilder3d": {
         "name": "Pro Builder 3D",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.blackcandy.archersio": {
         "name": "Archers.io",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.noorgames.joinnumbers": {
         "name": "Join Numbers",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.blackcandy.escalators": {
         "name": "Escalators",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playgames.queenspuzzle": {
         "name": "Wildoku: Animal Sudoku",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
-            "vn",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.thrivegames.bashbest": {
         "name": "Tiki Smash!",
         "regions": [
-            "us",
+            "au",
             "br",
-            "mx",
-            "tr",
-            "ph",
-            "id",
-            "gb",
             "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "6761419783": {
+        "name": "Word Jam - Screw Puzzle",
+        "regions": [
             "vn",
+            "mx",
+            "gb",
+            "br",
+            "au",
+            "us",
+            "tr",
+            "ca",
+            "ph",
+            "id"
+        ]
+    },
+    "com.SaltCastleStudio.CannonCastle3D": {
+        "name": "Castle Rivals",
+        "regions": [
+            "ca",
+            "us",
+            "gb",
             "au"
+        ]
+    },
+    "e.g.com.voodoo.tribalClash": {
+        "name": "Tribal Clash",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.kadka.battle.forge": {
+        "name": "Battle Forge",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.mahjong.solitaire.tile.match.mahjongclub.onet.link.puzzle": {
+        "name": "Mahjong Solitaire - Tile Match",
+        "regions": [
+            "mx"
         ]
     }
 }
