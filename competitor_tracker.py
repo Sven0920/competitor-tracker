@@ -27,10 +27,13 @@ VELOCITY_WINDOW = 7    # 增速统计窗口（天）
 SHOTS_MAX = 4          # 每款最多存几张截图
 ITUNES_LIMIT = 200     # lookup 默认只返回 50 款，大厂会漏
 NEW_GAME_MAX_AGE_DAYS = 180  # 上架超过这个天数的，不当作新游推送（补进基准库）
-FRESH_PUSH_DAYS = 30          # 飞书只推上架不超过这么多天的；更老的进看板「补录」
+FRESH_PUSH_DAYS = 30          # 上架不超过这么多天的算刚上架；更老的进看板「补录」
 NEW_PUBLISHER_UNKNOWN_THRESHOLD = 8  # 一次扫到这么多未知游戏，才视为「新加厂商建库」
 PLAY_REFRESH_MAX_FAILS = 8   # 连续刷新失败这么多次，判定被限流，停止后续拉取
-CORE_MARKETS = {"us", "gb", "ca", "au"}  # 软启动进入这些主力市场时再报一次
+CORE_MARKETS = {"us", "gb", "ca", "au"}  # 软启动进入这些主力市场时记一次地区扩大
+# 飞书总开关。必须是布尔 True 才会发。日常任务不要传 FEISHU_WEBHOOK，
+# 这里也保持 False，所以 secret 还在也不会在每天的运行里误发。
+FEISHU_PUSH_ENABLED = False
 CN_TZ = timezone(timedelta(hours=8))
 ITUNES_HEADERS = {"User-Agent": "competitor-tracker/1.0"}
 MONTHS = {m: i for i, m in enumerate(
@@ -752,7 +755,9 @@ def build_region_expansion_payload(records):
 
 
 def post_feishu(payload, ok_message):
-    """webhook 从环境变量 FEISHU_WEBHOOK 读（不写进公开代码）。没有 webhook 就直接返回。"""
+    """飞书推送。总开关关闭时直接返回，不读 webhook，也不发请求。"""
+    if FEISHU_PUSH_ENABLED is not True:
+        return False
     webhook = os.environ.get("FEISHU_WEBHOOK")
     if not webhook or not payload:
         return False
@@ -780,12 +785,12 @@ def post_feishu(payload, ok_message):
 
 
 def send_feishu_new_games(found_records):
-    """发现新游时推飞书卡片。"""
-    post_feishu(build_new_games_payload(found_records), "✅ 已推送飞书新游卡片")
+    """发现新游时推飞书卡片。总开关关闭时不会发出。"""
+    return post_feishu(build_new_games_payload(found_records), "✅ 已推送飞书新游卡片")
 
 
 def send_feishu_region_expansions(records):
-    post_feishu(build_region_expansion_payload(records), "✅ 已推送飞书地区扩大卡片")
+    return post_feishu(build_region_expansion_payload(records), "✅ 已推送飞书地区扩大卡片")
 
 
 def scrape_is_incomplete(ios_fail, android_fail, play_guard=None):
@@ -819,7 +824,7 @@ def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers)
 
 
 def send_feishu_incomplete(ios_fail, android_fail, tripped, missed_developers):
-    post_feishu(
+    return post_feishu(
         build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers),
         "✅ 已推送飞书抓取不完整提醒",
     )
