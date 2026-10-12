@@ -2860,7 +2860,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.abi.matchroom": {
@@ -3047,7 +3048,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.abi.boat.craze.traffic.escape": {
@@ -14499,10 +14501,12 @@
             "br",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.oakever.solitairepicfun": {
@@ -23568,6 +23572,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -28536,7 +28541,16 @@
     "6760634004": {
         "name": "Seaside Secrets: Merge & Story",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6757919908": {
@@ -32478,6 +32492,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32541,6 +32556,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32577,6 +32593,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32599,6 +32616,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32612,6 +32630,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "mx",
             "ph",
             "tr",
@@ -32638,6 +32657,7 @@
         "regions": [
             "au",
             "ca",
+            "ph",
             "tr",
             "us",
             "vn"
@@ -32657,6 +32677,8 @@
         "name": "Tangram Heaven",
         "regions": [
             "au",
+            "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -32686,6 +32708,7 @@
             "gb",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -32734,6 +32757,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "mx",
             "ph",
             "tr",
@@ -32745,6 +32769,8 @@
         "name": "Mayan Marble Madness",
         "regions": [
             "id",
+            "mx",
+            "ph",
             "tr",
             "vn"
         ]
@@ -33089,6 +33115,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "ph",
             "tr",
@@ -33106,6 +33133,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "id",
             "tr",
             "us"
@@ -34785,6 +34813,7 @@
         "name": "Tile Block Jam - Puzzle Game",
         "regions": [
             "br",
+            "id",
             "mx",
             "ph",
             "vn"
@@ -36990,14 +37019,17 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.pilgrimsgames.p4": {
         "name": "Paper.io 4",
         "regions": [
-            "br"
+            "br",
+            "vn"
         ]
     },
     "com.thagiwara.aircraftmaster": {
@@ -37132,6 +37164,7 @@
     "space.sandbox.adventure": {
         "name": "Captain of Space: Planet Quest",
         "regions": [
+            "ca",
             "vn"
         ]
     },
@@ -38134,6 +38167,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -38193,6 +38227,7 @@
         "name": "Base Commander",
         "regions": [
             "br",
+            "ca",
             "gb",
             "id",
             "us",
@@ -47782,7 +47817,8 @@
     "puzzle.snakes.puzzle.slithereat.gaming": {
         "name": "Snake Puzzle: Slither to Eat",
         "regions": [
-            "mx"
+            "mx",
+            "tr"
         ]
     },
     "com.gimica.goodssorter": {
@@ -47967,6 +48003,7 @@
     "com.jtsniper.game": {
         "name": "Johnny Trigger - Sniper Game",
         "regions": [
+            "au",
             "ca",
             "id",
             "mx",
@@ -49019,8 +49056,9 @@
     "com.jellyflow.colorpuzzle.gp": {
         "name": "Dream Flow:Jelly Colony",
         "regions": [
+            "ca",
             "id",
-            "ca"
+            "vn"
         ]
     },
     "com.grill.master.food.sort.match.puzzle": {
@@ -49404,6 +49442,8 @@
     "com.gimica.trafficjam": {
         "name": "Traffic Jam: Beat the Block",
         "regions": [
+            "au",
+            "ca",
             "mx",
             "ph",
             "tr",
@@ -50769,6 +50809,7 @@
     "com.orbitalknight.ridiculousfreekick": {
         "name": "Crazy Kick! Fun Football game",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -51474,12 +51515,14 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
     "com.pd.thecook": {
         "name": "The Cook - 3D Cooking Game",
         "regions": [
+            "br",
             "ca",
             "gb",
             "id",
@@ -51527,6 +51570,8 @@
             "au",
             "ca",
             "id",
+            "mx",
+            "ph",
             "tr",
             "vn"
         ]
@@ -52871,31 +52916,41 @@
     "6761419783": {
         "name": "Word Jam - Screw Puzzle",
         "regions": [
-            "vn",
-            "mx",
-            "gb",
-            "br",
             "au",
-            "us",
-            "tr",
+            "br",
             "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
-            "id"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.SaltCastleStudio.CannonCastle3D": {
         "name": "Castle Rivals",
         "regions": [
+            "au",
             "ca",
-            "us",
             "gb",
-            "au"
+            "mx",
+            "us"
         ]
     },
     "e.g.com.voodoo.tribalClash": {
         "name": "Tribal Clash",
         "regions": [
-            "id"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.kadka.battle.forge": {
@@ -52908,6 +52963,44 @@
         "name": "Mahjong Solitaire - Tile Match",
         "regions": [
             "mx"
+        ]
+    },
+    "com.path.layers": {
+        "name": "Path Layers — Color Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.merchant.mike": {
+        "name": "Merchant Mike",
+        "regions": [
+            "gb"
+        ]
+    },
+    "com.playstrom.popus": {
+        "name": "Pop Us!",
+        "regions": [
+            "tr"
+        ]
+    },
+    "com.playstrom.color.pages": {
+        "name": "Color Page ASMR",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.moonactive.yarnit": {
+        "name": "Reef Busters",
+        "regions": [
+            "ph",
+            "gb",
+            "au",
+            "tr",
+            "mx",
+            "br",
+            "id",
+            "us",
+            "ca"
         ]
     }
 }
