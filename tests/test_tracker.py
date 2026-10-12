@@ -69,6 +69,33 @@ class RegionTrackingTest(unittest.TestCase):
         os.environ.pop("FEISHU_WEBHOOK", None)
         self.assertFalse(ct.post_feishu({"msg_type": "text"}, "should-not-print"))
 
+    def test_normal_run_does_not_call_feishu(self):
+        """日常任务即使带着 webhook，新品、地区扩大、抓取不完整都不发飞书。"""
+        self.assertIs(ct.FEISHU_PUSH_ENABLED, False)
+        new_games = [{
+            "developer": "Homa",
+            "platform": "iOS",
+            "name": "New",
+            "url": "https://a",
+            "regions": ["us"],
+            "genre": "Puzzle",
+            "backfill": False,
+        }]
+        expansions = [{
+            "developer": "Peak",
+            "platform": "Android",
+            "name": "Soft",
+            "url": "https://play/app",
+            "regions": ["tr", "us"],
+            "new_core": ["us"],
+        }]
+        with mock.patch.dict(os.environ, {"FEISHU_WEBHOOK": "https://example.invalid/hook"}):
+            with mock.patch.object(ct.requests, "post") as post:
+                self.assertFalse(ct.send_feishu_new_games(new_games))
+                self.assertFalse(ct.send_feishu_region_expansions(expansions))
+                self.assertFalse(ct.send_feishu_incomplete(8, 1, True, ["Peak"]))
+                post.assert_not_called()
+
 
 def _play_script(key, data):
     payload = json.dumps(data)
