@@ -2575,10 +2575,15 @@
         "name": "Tool Evolution: Mine & Evolve",
         "regions": [
             "au",
-            "us",
-            "ph",
+            "br",
             "ca",
-            "gb"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.cosmo.cube.blast.adventure.free": {
@@ -32531,6 +32536,7 @@
             "au",
             "ca",
             "gb",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -32569,6 +32575,7 @@
             "au",
             "ca",
             "gb",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -32667,6 +32674,7 @@
         "name": "Slide & Roll",
         "regions": [
             "au",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32768,6 +32776,8 @@
     "com.gimica.marblemadness": {
         "name": "Mayan Marble Madness",
         "regions": [
+            "au",
+            "ca",
             "id",
             "mx",
             "ph",
@@ -32917,6 +32927,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -33057,7 +33068,8 @@
         "regions": [
             "br",
             "ca",
-            "gb"
+            "gb",
+            "mx"
         ]
     },
     "com.hyperpixelgames.idlecruiseship": {
@@ -33068,6 +33080,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us"
@@ -33094,6 +33107,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -33170,8 +33184,10 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -34046,6 +34062,7 @@
             "br",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -34071,10 +34088,13 @@
     "com.jigsaw.palace.gp": {
         "name": "Jigsawpics Puzzle Gallery",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
+            "id",
             "mx",
+            "tr",
             "us",
             "vn"
         ]
@@ -34458,6 +34478,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -35174,6 +35195,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "tr",
             "us"
         ]
@@ -35182,6 +35204,7 @@
         "name": "Spin Miner: Idle Gold Tycoon",
         "regions": [
             "ca",
+            "mx",
             "ph",
             "tr"
         ]
@@ -35193,6 +35216,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "us"
         ]
     },
@@ -35594,6 +35618,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us"
@@ -36877,6 +36902,7 @@
             "au",
             "ca",
             "gb",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -38144,6 +38170,7 @@
     "com.gimica.busjam": {
         "name": "Bus Jam: Traffic Trouble",
         "regions": [
+            "mx",
             "tr",
             "vn"
         ]
@@ -38152,6 +38179,7 @@
         "name": "Meal Dash",
         "regions": [
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -38230,6 +38258,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "us",
             "vn"
         ]
@@ -42963,6 +42992,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -47742,12 +47772,30 @@
     "1490423596": {
         "name": "Paper.io 3D",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "1489188581": {
         "name": "Dribble Hoops",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -48310,8 +48358,10 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us"
@@ -48332,6 +48382,14 @@
     "1487837982": {
         "name": "Jewels Planet  - Match 3 Game",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
             "vn"
         ]
     },
@@ -49048,8 +49106,10 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
+            "mx",
             "tr"
         ]
     },
@@ -51544,6 +51604,7 @@
     "com.playstrom.puzzle.pics": {
         "name": "CPI - Connect Puzzle Image",
         "regions": [
+            "au",
             "br",
             "gb",
             "id",
@@ -51825,7 +51886,8 @@
         "name": "Bingo Associations",
         "regions": [
             "id",
-            "ph"
+            "ph",
+            "us"
         ]
     },
     "com.easybrain.ludo.board.games": {
@@ -52934,7 +52996,9 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
+            "ph",
             "us"
         ]
     },
@@ -52992,15 +53056,63 @@
     "com.moonactive.yarnit": {
         "name": "Reef Busters",
         "regions": [
-            "ph",
-            "gb",
             "au",
-            "tr",
-            "mx",
             "br",
+            "ca",
+            "gb",
             "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
+        ]
+    },
+    "1485247734": {
+        "name": "2048 Balls 3D",
+        "regions": [
+            "vn"
+        ]
+    },
+    "1484825317": {
+        "name": "Five Hoops",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6810588906": {
+        "name": "Loot Adventure - Battle Run",
+        "regions": [
+            "br",
+            "us"
+        ]
+    },
+    "6788504141": {
+        "name": "Block Chef - Cooking Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "6764591946": {
+        "name": "Marbles Maze",
+        "regions": [
+            "gb",
+            "id",
+            "mx",
+            "vn",
             "us",
-            "ca"
+            "ca",
+            "br",
+            "ph",
+            "tr",
+            "au"
+        ]
+    },
+    "com.tripledot.puzzlesort": {
+        "name": "Shape Out - Arrow Puzzle Game",
+        "regions": [
+            "ph",
+            "id",
+            "au"
         ]
     }
 }
