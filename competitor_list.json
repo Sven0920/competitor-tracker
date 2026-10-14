@@ -32098,8 +32098,9 @@
     "com.cocoplay.gymnastics": {
         "name": "Gymnastics Dream",
         "regions": [
-            "mx",
-            "ca"
+            "ca",
+            "gb",
+            "mx"
         ]
     },
     "com.crazylabs.twodots": {
@@ -33131,6 +33132,7 @@
             "br",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us"
@@ -36940,6 +36942,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -36959,6 +36962,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -47508,6 +47512,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us"
         ]
     },
@@ -48390,6 +48395,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -49507,6 +49513,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -50874,7 +50881,8 @@
             "ca",
             "gb",
             "mx",
-            "tr"
+            "tr",
+            "us"
         ]
     },
     "com.CharityRun.game": {
@@ -51499,6 +51507,7 @@
             "ca",
             "gb",
             "id",
+            "ph",
             "us",
             "vn"
         ]
@@ -51561,6 +51570,7 @@
     "com.hexa.glide": {
         "name": "Hexa Glide",
         "regions": [
+            "br",
             "us"
         ]
     },
@@ -52999,7 +53009,8 @@
             "id",
             "mx",
             "ph",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "e.g.com.voodoo.tribalClash": {
@@ -53070,12 +53081,30 @@
     "1485247734": {
         "name": "2048 Balls 3D",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "1484825317": {
         "name": "Five Hoops",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -53095,24 +53124,110 @@
     "6764591946": {
         "name": "Marbles Maze",
         "regions": [
+            "au",
+            "br",
+            "ca",
             "gb",
             "id",
             "mx",
-            "vn",
-            "us",
-            "ca",
-            "br",
             "ph",
             "tr",
-            "au"
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.puzzlesort": {
         "name": "Shape Out - Arrow Puzzle Game",
         "regions": [
-            "ph",
+            "au",
             "id",
-            "au"
+            "ph"
+        ]
+    },
+    "1482766542": {
+        "name": "Spiral Roll",
+        "regions": [
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "au",
+            "ca",
+            "us",
+            "id",
+            "gb",
+            "br"
+        ]
+    },
+    "1480638758": {
+        "name": "Pokey Ball",
+        "regions": [
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "au",
+            "ca",
+            "id",
+            "gb",
+            "br"
+        ]
+    },
+    "1479551182": {
+        "name": "Push'em all",
+        "regions": [
+            "vn"
+        ]
+    },
+    "1474598066": {
+        "name": "Bikes Hill",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6756877722": {
+        "name": "Portal Quest: Idle RPG",
+        "regions": [
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "au",
+            "ca",
+            "us",
+            "id",
+            "gb",
+            "br"
+        ]
+    },
+    "6756872944": {
+        "name": "Mama Rescue: Bang Bang Bang!",
+        "regions": [
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "au",
+            "ca",
+            "us",
+            "id",
+            "gb",
+            "br"
+        ]
+    },
+    "com.supersonic.bulldoku": {
+        "name": "Bulldoku: Dog Logic Puzzle",
+        "regions": [
+            "ph",
+            "vn",
+            "mx",
+            "tr",
+            "au",
+            "ca",
+            "us",
+            "id",
+            "gb",
+            "br"
         ]
     }
 }
