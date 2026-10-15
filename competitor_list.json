@@ -22784,6 +22784,7 @@
             "ca",
             "gb",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -28750,7 +28751,16 @@
     "6748462417": {
         "name": "Ant Kingdom: Wild RPG",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6748454899": {
@@ -32525,6 +32535,7 @@
         "name": "Pin Master - Nailed It!",
         "regions": [
             "au",
+            "ca",
             "gb",
             "ph",
             "us",
@@ -32665,6 +32676,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "ph",
             "tr",
             "us",
@@ -32783,6 +32795,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -32946,7 +32959,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "io.superbrick.minimartmaster": {
@@ -33019,7 +33033,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "io.supercent.linkedcubic": {
@@ -33033,7 +33048,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.TornadoBear.DinoKing": {
@@ -33084,7 +33100,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "io.supercent.hitrun": {
@@ -33122,7 +33139,8 @@
             "br",
             "id",
             "ph",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.corestudios.storemanagementidle": {
@@ -33133,15 +33151,20 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.funreal.corporatetycoon": {
         "name": "Office Life: Idle Tycoon Games",
         "regions": [
-            "br"
+            "br",
+            "gb",
+            "mx",
+            "ph"
         ]
     },
     "com.aredstudio.beachresort": {
@@ -33150,15 +33173,21 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
+            "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "dasi.prs3.hotelmanager": {
         "name": "Hotel Manager: Idle Tycoon",
         "regions": [
-            "br"
+            "br",
+            "gb",
+            "us"
         ]
     },
     "com.albus.newrollerdisco": {
@@ -34572,6 +34601,7 @@
         "name": "Nonocross",
         "regions": [
             "au",
+            "ca",
             "vn"
         ]
     },
@@ -34829,7 +34859,8 @@
     "com.gimica.triviamadness": {
         "name": "Trivia Madness",
         "regions": [
-            "tr"
+            "tr",
+            "us"
         ]
     },
     "com.tile.bonanza.match.pair.master.object.block.puzzle": {
@@ -35185,7 +35216,9 @@
     "com.spellbindgames.coastguardops": {
         "name": "Ocean Clash",
         "regions": [
-            "ca"
+            "au",
+            "ca",
+            "vn"
         ]
     },
     "studio.tg.crab.life": {
@@ -35205,21 +35238,29 @@
     "io.supercent.spinminer": {
         "name": "Spin Miner: Idle Gold Tycoon",
         "regions": [
-            "ca",
-            "mx",
-            "ph",
-            "tr"
-        ]
-    },
-    "com.Albus.AwesomePark": {
-        "name": "Awesome Park : Idle Game",
-        "regions": [
+            "au",
             "br",
             "ca",
             "gb",
             "id",
             "mx",
-            "us"
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "com.Albus.AwesomePark": {
+        "name": "Awesome Park : Idle Game",
+        "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "us",
+            "vn"
         ]
     },
     "com.hungry.piranhas": {
@@ -35623,7 +35664,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.car.dealer": {
@@ -35957,8 +35999,15 @@
     "com.gamemaker5.idlemafia": {
         "name": "Idle Mafia - Tycoon Manager",
         "regions": [
+            "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.brickjam.color.slide": {
@@ -37086,6 +37135,8 @@
     "io.supercent.pizzasimulator": {
         "name": "Pizza Simulator!",
         "regions": [
+            "au",
+            "ph",
             "us"
         ]
     },
@@ -37195,6 +37246,7 @@
         "name": "Captain of Space: Planet Quest",
         "regions": [
             "ca",
+            "gb",
             "vn"
         ]
     },
@@ -53147,30 +53199,30 @@
     "1482766542": {
         "name": "Spiral Roll",
         "regions": [
-            "ph",
-            "vn",
-            "mx",
-            "tr",
             "au",
+            "br",
             "ca",
-            "us",
-            "id",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "1480638758": {
         "name": "Pokey Ball",
         "regions": [
-            "ph",
-            "vn",
-            "mx",
-            "tr",
             "au",
+            "br",
             "ca",
-            "id",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "vn"
         ]
     },
     "1479551182": {
@@ -53188,46 +53240,106 @@
     "6756877722": {
         "name": "Portal Quest: Idle RPG",
         "regions": [
-            "ph",
-            "vn",
-            "mx",
-            "tr",
             "au",
+            "br",
             "ca",
-            "us",
-            "id",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6756872944": {
         "name": "Mama Rescue: Bang Bang Bang!",
         "regions": [
-            "ph",
-            "vn",
-            "mx",
-            "tr",
             "au",
+            "br",
             "ca",
-            "us",
-            "id",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.supersonic.bulldoku": {
         "name": "Bulldoku: Dog Logic Puzzle",
         "regions": [
-            "ph",
-            "vn",
-            "mx",
-            "tr",
             "au",
+            "br",
             "ca",
-            "us",
-            "id",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "6801607933": {
+        "name": "Idle Missile - Evolve Game",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "mx",
+            "ph",
+            "br",
+            "us",
+            "vn",
+            "tr",
+            "ca"
+        ]
+    },
+    "com.oakever.smashaway": {
+        "name": "Smash Away!",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "mx",
+            "ph",
+            "br",
+            "us",
+            "vn",
+            "tr",
+            "ca"
+        ]
+    },
+    "com.grandgames.arrowjam": {
+        "name": "Maze Out! - Tap Puzzle",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "mx",
+            "ph",
+            "br",
+            "us",
+            "vn",
+            "tr",
+            "ca"
+        ]
+    },
+    "com.COGInteractive.BalInHole": {
+        "name": "Marbles Maze",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "mx",
+            "ph",
+            "br",
+            "us",
+            "vn",
+            "tr",
+            "ca"
         ]
     }
 }
