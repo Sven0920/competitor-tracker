@@ -32108,6 +32108,7 @@
     "com.cocoplay.gymnastics": {
         "name": "Gymnastics Dream",
         "regions": [
+            "br",
             "ca",
             "gb",
             "mx"
@@ -35259,6 +35260,7 @@
             "gb",
             "id",
             "mx",
+            "tr",
             "us",
             "vn"
         ]
@@ -36987,6 +36989,8 @@
         "regions": [
             "au",
             "br",
+            "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -37007,7 +37011,10 @@
     "com.actionfit.sword": {
         "name": "Jewel Sword: Match 3 Blast",
         "regions": [
+            "au",
             "br",
+            "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -37386,8 +37393,13 @@
     "com.cat.away.jam.aos": {
         "name": "Cat Escape",
         "regions": [
+            "au",
+            "ca",
+            "gb",
             "id",
+            "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -47823,6 +47835,7 @@
     "com.shoot.monster.yns": {
         "name": "Shoot The Monster",
         "regions": [
+            "br",
             "vn"
         ]
     },
@@ -48433,6 +48446,7 @@
     "com.actionfit.merge.cat.detective": {
         "name": "Merge Cat Town : Mystery Merge",
         "regions": [
+            "br",
             "vn"
         ]
     },
@@ -48743,12 +48757,14 @@
     "com.mobirix.match2": {
         "name": "Match Blast",
         "regions": [
+            "br",
             "vn"
         ]
     },
     "com.actionfit.plop.cat.aos": {
         "name": "Plop Cat - Color Match Puzzle",
         "regions": [
+            "br",
             "vn"
         ]
     },
@@ -48829,6 +48845,7 @@
     "com.actionfit.moderntimes": {
         "name": "Jewel Modern Times : match 3",
         "regions": [
+            "id",
             "vn"
         ]
     },
@@ -51559,6 +51576,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "us",
             "vn"
@@ -51681,6 +51699,7 @@
         "regions": [
             "au",
             "br",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -51703,7 +51722,8 @@
         "name": "Hidden Stuff",
         "regions": [
             "ca",
-            "gb"
+            "gb",
+            "vn"
         ]
     },
     "com.matching.puzzle": {
@@ -53192,8 +53212,15 @@
         "name": "Shape Out - Arrow Puzzle Game",
         "regions": [
             "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "1482766542": {
@@ -53285,61 +53312,138 @@
     "6801607933": {
         "name": "Idle Missile - Evolve Game",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "br",
-            "us",
-            "vn",
             "tr",
-            "ca"
+            "us",
+            "vn"
         ]
     },
     "com.oakever.smashaway": {
         "name": "Smash Away!",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "br",
-            "us",
-            "vn",
             "tr",
-            "ca"
+            "us",
+            "vn"
         ]
     },
     "com.grandgames.arrowjam": {
         "name": "Maze Out! - Tap Puzzle",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "br",
-            "us",
-            "vn",
             "tr",
-            "ca"
+            "us",
+            "vn"
         ]
     },
     "com.COGInteractive.BalInHole": {
         "name": "Marbles Maze",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "br",
-            "us",
-            "vn",
             "tr",
-            "ca"
+            "us",
+            "vn"
+        ]
+    },
+    "6793433583": {
+        "name": "Cannon Storm: Ship Battle",
+        "regions": [
+            "us"
+        ]
+    },
+    "6793420940": {
+        "name": "Home Stories: Room Makeover",
+        "regions": [
+            "us"
+        ]
+    },
+    "and.lhhpub.mowmaster": {
+        "name": "Mow Master: Grass Cutting Game",
+        "regions": [
+            "mx",
+            "tr",
+            "ca",
+            "au",
+            "gb",
+            "br",
+            "ph",
+            "us",
+            "id"
+        ]
+    },
+    "com.bubble.fish.sort.puzzle": {
+        "name": "Bubble Fish: Sort Puzzle",
+        "regions": [
+            "mx",
+            "tr",
+            "ca",
+            "vn",
+            "au",
+            "gb",
+            "br",
+            "ph",
+            "us",
+            "id"
+        ]
+    },
+    "com.shotit.voxelpuzzle": {
+        "name": "Shoot It 3D: Voxel Puzzle",
+        "regions": [
+            "mx",
+            "tr",
+            "ca",
+            "vn",
+            "au",
+            "gb",
+            "br",
+            "ph",
+            "us",
+            "id"
+        ]
+    },
+    "com.supersonic.bouncemerge": {
+        "name": "Bounce Merge",
+        "regions": [
+            "mx",
+            "tr",
+            "ca",
+            "vn",
+            "au",
+            "gb",
+            "br",
+            "ph",
+            "us",
+            "id"
+        ]
+    },
+    "com.actionfit.toy.defense.aos": {
+        "name": "Toy Wars : Survivor TD",
+        "regions": [
+            "vn"
         ]
     }
 }
