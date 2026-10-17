@@ -18713,8 +18713,16 @@
     "6758211113": {
         "name": "Infinite Crafter (TD)",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "6758138698": {
@@ -22783,6 +22791,7 @@
             "br",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32406,6 +32415,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32419,6 +32429,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32446,6 +32457,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32472,6 +32484,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32498,6 +32511,7 @@
         "regions": [
             "au",
             "ca",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32549,6 +32563,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32576,6 +32591,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32588,6 +32604,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32601,6 +32618,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32614,6 +32632,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32651,6 +32670,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32678,6 +32698,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32689,6 +32710,7 @@
         "regions": [
             "au",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32728,6 +32750,7 @@
         "regions": [
             "au",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32740,6 +32763,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr",
             "us",
@@ -32803,6 +32827,7 @@
     "com.gimica.slamdunk": {
         "name": "Slam Dunk!",
         "regions": [
+            "id",
             "tr",
             "vn"
         ]
@@ -32810,6 +32835,7 @@
     "com.gimica.brickdoku": {
         "name": "Brickdoku",
         "regions": [
+            "id",
             "tr",
             "vn"
         ]
@@ -34594,6 +34620,7 @@
     "com.gimica.slicepuzzle": {
         "name": "Slice Puzzle",
         "regions": [
+            "id",
             "ph",
             "vn"
         ]
@@ -34860,6 +34887,8 @@
     "com.gimica.triviamadness": {
         "name": "Trivia Madness",
         "regions": [
+            "ca",
+            "id",
             "tr",
             "us"
         ]
@@ -36955,6 +36984,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -48420,6 +48450,7 @@
     "com.gimica.spacemerge": {
         "name": "Astro Merge",
         "regions": [
+            "id",
             "vn"
         ]
     },
@@ -50937,8 +50968,14 @@
     "com.oxvgames.slinkyjam": {
         "name": "Spring Jam",
         "regions": [
+            "au",
+            "br",
+            "ca",
             "id",
+            "mx",
             "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -51662,6 +51699,7 @@
     "com.pd.thecook": {
         "name": "The Cook - 3D Cooking Game",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -53076,11 +53114,13 @@
         "name": "Castle Rivals",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -53372,78 +53412,94 @@
     "6793433583": {
         "name": "Cannon Storm: Ship Battle",
         "regions": [
+            "br",
             "us"
         ]
     },
     "6793420940": {
         "name": "Home Stories: Room Makeover",
         "regions": [
+            "br",
             "us"
         ]
     },
     "and.lhhpub.mowmaster": {
         "name": "Mow Master: Grass Cutting Game",
         "regions": [
-            "mx",
-            "tr",
-            "ca",
             "au",
-            "gb",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
-            "us",
-            "id"
+            "tr",
+            "us"
         ]
     },
     "com.bubble.fish.sort.puzzle": {
         "name": "Bubble Fish: Sort Puzzle",
         "regions": [
-            "mx",
-            "tr",
-            "ca",
-            "vn",
             "au",
-            "gb",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
+            "tr",
             "us",
-            "id"
+            "vn"
         ]
     },
     "com.shotit.voxelpuzzle": {
         "name": "Shoot It 3D: Voxel Puzzle",
         "regions": [
-            "mx",
-            "tr",
-            "ca",
-            "vn",
             "au",
-            "gb",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
+            "tr",
             "us",
-            "id"
+            "vn"
         ]
     },
     "com.supersonic.bouncemerge": {
         "name": "Bounce Merge",
         "regions": [
-            "mx",
-            "tr",
-            "ca",
-            "vn",
             "au",
-            "gb",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
+            "tr",
             "us",
-            "id"
+            "vn"
         ]
     },
     "com.actionfit.toy.defense.aos": {
         "name": "Toy Wars : Survivor TD",
         "regions": [
             "vn"
+        ]
+    },
+    "com.abi.pixel.busters": {
+        "name": "Pixel Busters: Color Sort",
+        "regions": [
+            "mx",
+            "ph",
+            "br",
+            "au",
+            "tr",
+            "id",
+            "ca",
+            "gb",
+            "us"
         ]
     }
 }
