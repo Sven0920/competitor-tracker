@@ -32836,6 +32836,7 @@
         "name": "Brickdoku",
         "regions": [
             "id",
+            "ph",
             "tr",
             "vn"
         ]
@@ -33164,8 +33165,12 @@
         "regions": [
             "au",
             "br",
+            "ca",
+            "gb",
             "id",
+            "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -33227,7 +33232,8 @@
         "name": "Steal Master",
         "regions": [
             "br",
-            "ph"
+            "ph",
+            "tr"
         ]
     },
     "io.supercent.powerdig": {
@@ -35876,6 +35882,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -37282,8 +37289,10 @@
     "space.sandbox.adventure": {
         "name": "Captain of Space: Planet Quest",
         "regions": [
+            "br",
             "ca",
             "gb",
+            "mx",
             "vn"
         ]
     },
@@ -37424,6 +37433,7 @@
         "name": "Cat Escape",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -51627,6 +51637,7 @@
             "gb",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -51774,6 +51785,8 @@
     "com.war.no": {
         "name": "Army Defence",
         "regions": [
+            "id",
+            "ph",
             "tr",
             "vn"
         ]
@@ -53149,6 +53162,7 @@
     "com.mahjong.solitaire.tile.match.mahjongclub.onet.link.puzzle": {
         "name": "Mahjong Solitaire - Tile Match",
         "regions": [
+            "id",
             "mx"
         ]
     },
@@ -53167,6 +53181,7 @@
     "com.playstrom.popus": {
         "name": "Pop Us!",
         "regions": [
+            "mx",
             "tr"
         ]
     },
@@ -53491,15 +53506,47 @@
     "com.abi.pixel.busters": {
         "name": "Pixel Busters: Color Sort",
         "regions": [
-            "mx",
-            "ph",
-            "br",
             "au",
-            "tr",
-            "id",
+            "br",
             "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
             "us"
+        ]
+    },
+    "com.loot.adventure.idle": {
+        "name": "Loot Adventure - Battle Run",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.creauctopus.cinemaworld": {
+        "name": "My Cinema World",
+        "regions": [
+            "vn",
+            "ph"
+        ]
+    },
+    "com.peb.whackstack": {
+        "name": "Whack Stack!",
+        "regions": [
+            "ca",
+            "au",
+            "br",
+            "tr",
+            "id",
+            "gb",
+            "mx",
+            "us"
+        ]
+    },
+    "com.catlab.forge2global": {
+        "name": "King Smith : Blacksmith RPG",
+        "regions": [
+            "vn"
         ]
     }
 }
