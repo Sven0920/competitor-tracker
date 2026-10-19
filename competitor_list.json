@@ -51748,6 +51748,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
             "mx",
@@ -51760,6 +51761,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -51772,6 +51774,7 @@
         "regions": [
             "ca",
             "gb",
+            "id",
             "vn"
         ]
     },
@@ -53526,20 +53529,21 @@
     "com.creauctopus.cinemaworld": {
         "name": "My Cinema World",
         "regions": [
-            "vn",
-            "ph"
+            "ca",
+            "ph",
+            "vn"
         ]
     },
     "com.peb.whackstack": {
         "name": "Whack Stack!",
         "regions": [
-            "ca",
             "au",
             "br",
-            "tr",
-            "id",
+            "ca",
             "gb",
+            "id",
             "mx",
+            "tr",
             "us"
         ]
     },
@@ -53547,6 +53551,21 @@
         "name": "King Smith : Blacksmith RPG",
         "regions": [
             "vn"
+        ]
+    },
+    "and.lhhpub.bird.sort": {
+        "name": "Bird Sort: Nest Puzzle",
+        "regions": [
+            "vn",
+            "br",
+            "mx"
+        ]
+    },
+    "io.supercent.lucasball": {
+        "name": "Pop and Pour - Sparkling candy",
+        "regions": [
+            "au",
+            "tr"
         ]
     }
 }
