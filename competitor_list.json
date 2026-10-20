@@ -22762,11 +22762,12 @@
     "jp.co.goodroid.hyper.holeandgive": {
         "name": "Hole and Give",
         "regions": [
-            "ca",
             "au",
+            "ca",
             "gb",
             "ph",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "jp.co.goodroid.hyper.hexaaway": {
@@ -22792,6 +22793,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -32749,6 +32751,7 @@
         "name": "Mad Smash",
         "regions": [
             "au",
+            "ca",
             "gb",
             "id",
             "ph",
@@ -32804,6 +32807,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -32816,6 +32820,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -33240,7 +33245,8 @@
         "name": "Power Dig",
         "regions": [
             "au",
-            "br"
+            "br",
+            "ph"
         ]
     },
     "io.supercent.wonjung": {
@@ -34893,6 +34899,7 @@
     "com.gimica.triviamadness": {
         "name": "Trivia Madness",
         "regions": [
+            "au",
             "ca",
             "id",
             "tr",
@@ -37050,6 +37057,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
             "mx",
@@ -37062,9 +37070,15 @@
     "com.actionfit.convenisort": {
         "name": "Goods Fridge Sort : Sort Game",
         "regions": [
+            "au",
             "br",
+            "ca",
+            "gb",
+            "id",
             "mx",
+            "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -37289,10 +37303,14 @@
     "space.sandbox.adventure": {
         "name": "Captain of Space: Planet Quest",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
+            "id",
             "mx",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -38278,6 +38296,7 @@
     "com.gimica.busjam": {
         "name": "Bus Jam: Traffic Trouble",
         "regions": [
+            "id",
             "mx",
             "tr",
             "vn"
@@ -38286,6 +38305,7 @@
     "com.gimica.mealdash": {
         "name": "Meal Dash",
         "regions": [
+            "id",
             "tr",
             "us",
             "vn"
@@ -49110,11 +49130,12 @@
     "jp.co.goodroid.hyper.dropcategory": {
         "name": "Catedrop: Card Puzzle",
         "regions": [
-            "ph",
+            "au",
             "ca",
-            "vn",
+            "gb",
             "id",
-            "au"
+            "ph",
+            "vn"
         ]
     },
     "slide.match.mahjong.tile.connect.pair.puzzle.games": {
@@ -49234,6 +49255,7 @@
         "regions": [
             "ca",
             "id",
+            "mx",
             "vn"
         ]
     },
@@ -50214,8 +50236,16 @@
     "com.wave.infinitecrafter": {
         "name": "Infinite Crafter (TD)",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "tower.crusher": {
@@ -51727,7 +51757,8 @@
             "au",
             "ca",
             "gb",
-            "ph"
+            "ph",
+            "vn"
         ]
     },
     "com.playstrom.puzzle.pics": {
@@ -53543,6 +53574,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "tr",
             "us"
         ]
@@ -53556,9 +53588,16 @@
     "and.lhhpub.bird.sort": {
         "name": "Bird Sort: Nest Puzzle",
         "regions": [
-            "vn",
+            "au",
             "br",
-            "mx"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.supercent.lucasball": {
@@ -53566,6 +53605,56 @@
         "regions": [
             "au",
             "tr"
+        ]
+    },
+    "com.crescivegames.takeyourline": {
+        "name": "Take Your Line",
+        "regions": [
+            "au"
+        ]
+    },
+    "and.lhhpub.circle.flow": {
+        "name": "Twist Rings: Rotate Puzzle",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "mx",
+            "ph",
+            "us",
+            "gb",
+            "au",
+            "br"
+        ]
+    },
+    "and.brainworks.ufo.io": {
+        "name": "UFO.io - Alien Invader",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "mx",
+            "ph",
+            "us",
+            "gb",
+            "au",
+            "br",
+            "vn"
+        ]
+    },
+    "com.tripledot.beachsmash": {
+        "name": "Beach Smash",
+        "regions": [
+            "ca",
+            "id",
+            "tr",
+            "mx",
+            "ph",
+            "us",
+            "gb",
+            "au",
+            "br",
+            "vn"
         ]
     }
 }
