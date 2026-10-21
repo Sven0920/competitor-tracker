@@ -34172,7 +34172,16 @@
     "com.fluffydrop.op.gp": {
         "name": "Fluffy Drop",
         "regions": [
-            "mx"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.fluffyfairygames.idleminertycoon": {
@@ -34642,6 +34651,7 @@
         "regions": [
             "au",
             "ca",
+            "ph",
             "vn"
         ]
     },
@@ -34901,6 +34911,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "tr",
             "us"
@@ -48166,6 +48177,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "tr",
             "us",
             "vn"
@@ -48183,6 +48195,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -49783,6 +49796,7 @@
             "br",
             "gb",
             "mx",
+            "tr",
             "us"
         ]
     },
@@ -50919,6 +50933,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "id",
             "mx",
             "ph",
@@ -50982,10 +50997,13 @@
     "com.aa.dontmixemup": {
         "name": "Salt & Pepper, Don't mix em up",
         "regions": [
+            "au",
             "br",
             "gb",
             "id",
+            "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -51650,11 +51668,13 @@
         "name": "Word Code - Cryptogram Puzzle",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -51766,6 +51786,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
             "mx",
@@ -51806,6 +51827,8 @@
             "ca",
             "gb",
             "id",
+            "mx",
+            "ph",
             "vn"
         ]
     },
@@ -53196,8 +53219,16 @@
     "com.mahjong.solitaire.tile.match.mahjongclub.onet.link.puzzle": {
         "name": "Mahjong Solitaire - Tile Match",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "mx"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.path.layers": {
@@ -53616,45 +53647,99 @@
     "and.lhhpub.circle.flow": {
         "name": "Twist Rings: Rotate Puzzle",
         "regions": [
+            "au",
+            "br",
             "ca",
+            "gb",
             "id",
-            "tr",
             "mx",
             "ph",
-            "us",
-            "gb",
-            "au",
-            "br"
+            "tr",
+            "us"
         ]
     },
     "and.brainworks.ufo.io": {
         "name": "UFO.io - Alien Invader",
         "regions": [
-            "ca",
-            "id",
-            "tr",
-            "mx",
-            "ph",
-            "us",
-            "gb",
             "au",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "com.tripledot.beachsmash": {
         "name": "Beach Smash",
         "regions": [
-            "ca",
-            "id",
-            "tr",
-            "mx",
-            "ph",
-            "us",
-            "gb",
             "au",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
+        ]
+    },
+    "6815260519": {
+        "name": "Ludo Go! - Dice Board Games",
+        "regions": [
+            "mx",
+            "vn",
+            "us",
+            "gb",
+            "tr",
+            "br",
+            "id",
+            "ph",
+            "ca",
+            "au"
+        ]
+    },
+    "6756281416": {
+        "name": "Oki Squad: Idle Adventure",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.abi.pixel.pop.color.puzzle": {
+        "name": "Pixel Pop: Color Puzzle",
+        "regions": [
+            "mx",
+            "vn",
+            "us",
+            "gb",
+            "tr",
+            "br",
+            "id",
+            "ph",
+            "ca",
+            "au"
+        ]
+    },
+    "com.playstrom.bramaker": {
+        "name": "Bra Maker",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.hitappsgames.roomdoku": {
+        "name": "Roomdoku",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.hitappsgames.resonance": {
+        "name": "Asocio: Word Associations",
+        "regions": [
+            "us"
         ]
     }
 }
