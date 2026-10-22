@@ -48756,7 +48756,8 @@
     "io.supercent.partygames": {
         "name": "Streamer Survival Challenge",
         "regions": [
-            "id"
+            "id",
+            "vn"
         ]
     },
     "com.kolka.boostrider": {
@@ -50934,6 +50935,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -50999,6 +51001,7 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
             "mx",
@@ -53607,7 +53610,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.catlab.forge2global": {
@@ -53691,16 +53695,16 @@
     "6815260519": {
         "name": "Ludo Go! - Dice Board Games",
         "regions": [
-            "mx",
-            "vn",
-            "us",
-            "gb",
-            "tr",
+            "au",
             "br",
-            "id",
-            "ph",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6756281416": {
@@ -53712,16 +53716,16 @@
     "com.abi.pixel.pop.color.puzzle": {
         "name": "Pixel Pop: Color Puzzle",
         "regions": [
-            "mx",
-            "vn",
-            "us",
-            "gb",
-            "tr",
+            "au",
             "br",
-            "id",
-            "ph",
             "ca",
-            "au"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.playstrom.bramaker": {
@@ -53740,6 +53744,13 @@
         "name": "Asocio: Word Associations",
         "regions": [
             "us"
+        ]
+    },
+    "6814700730": {
+        "name": "Star Returns: Merge & Story",
+        "regions": [
+            "gb",
+            "ca"
         ]
     }
 }
