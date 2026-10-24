@@ -22898,6 +22898,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
             "tr"
         ]
@@ -32836,8 +32837,10 @@
     "com.gimica.slamdunk": {
         "name": "Slam Dunk!",
         "regions": [
+            "au",
             "id",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -49693,6 +49696,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "mx",
             "ph",
             "tr",
@@ -51101,6 +51105,7 @@
     "com.CharityRun.game": {
         "name": "Destiny Run",
         "regions": [
+            "tr",
             "vn"
         ]
     },
@@ -51841,6 +51846,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -53650,7 +53656,9 @@
         "name": "My Cinema World",
         "regions": [
             "ca",
+            "id",
             "ph",
+            "tr",
             "vn"
         ]
     },
@@ -53811,28 +53819,28 @@
     "6819211969": {
         "name": "Sand Truck",
         "regions": [
-            "us",
-            "br",
             "au",
-            "ph",
-            "mx",
-            "gb",
+            "br",
             "ca",
-            "id"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "us"
         ]
     },
     "6784086963": {
         "name": "Shoot It 3D: Voxel Puzzle",
         "regions": [
-            "us",
-            "br",
-            "id",
             "au",
-            "ph",
-            "mx",
-            "gb",
+            "br",
             "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -53866,15 +53874,15 @@
     "and.lhhpub.blastfest": {
         "name": "Blast Fest: Cannon Knockout 3D",
         "regions": [
-            "us",
-            "br",
-            "id",
             "au",
-            "ph",
-            "mx",
-            "gb",
+            "br",
             "ca",
-            "tr"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.studio6.toystore": {
@@ -53905,6 +53913,20 @@
         "name": "The Living Fortress : Idle TD",
         "regions": [
             "vn"
+        ]
+    },
+    "com.tripledot.stickyballs": {
+        "name": "Pop Fest",
+        "regions": [
+            "au",
+            "gb",
+            "mx",
+            "us",
+            "br",
+            "vn",
+            "id",
+            "tr",
+            "ph"
         ]
     }
 }
