@@ -35459,6 +35459,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -53860,15 +53861,15 @@
     "com.oakever.amaze3d": {
         "name": "Amaze Clear 3D: Arrow Cube",
         "regions": [
-            "us",
-            "br",
-            "id",
             "au",
-            "ph",
-            "mx",
-            "gb",
+            "br",
             "ca",
-            "tr"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.blastfest": {
@@ -53919,13 +53920,50 @@
         "name": "Pop Fest",
         "regions": [
             "au",
-            "gb",
-            "mx",
-            "us",
             "br",
-            "vn",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "com.tank.busters": {
+        "name": "Tank Busters: Cannon Battle",
+        "regions": [
+            "gb",
             "id",
             "tr",
+            "us",
+            "au",
+            "vn",
+            "ph",
+            "ca",
+            "mx"
+        ]
+    },
+    "com.tripledot.undercooked": {
+        "name": "Undercooked: Cooking Game",
+        "regions": [
+            "gb",
+            "id",
+            "tr",
+            "us",
+            "au",
+            "br",
+            "ph",
+            "vn",
+            "ca",
+            "mx"
+        ]
+    },
+    "com.tripledot.sortjam": {
+        "name": "Amaze Ring - Rotate Puzzle",
+        "regions": [
+            "id",
             "ph"
         ]
     }
