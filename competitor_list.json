@@ -32464,6 +32464,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -34659,6 +34660,7 @@
         "regions": [
             "au",
             "ca",
+            "id",
             "ph",
             "vn"
         ]
@@ -37074,9 +37076,15 @@
     "com.actionfit.merge.supermarket": {
         "name": "Merge Supermarket :Dream Merge",
         "regions": [
+            "au",
             "br",
+            "ca",
+            "gb",
+            "id",
             "mx",
+            "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -38335,6 +38343,7 @@
     "com.gimica.mealdash": {
         "name": "Meal Dash",
         "regions": [
+            "gb",
             "id",
             "tr",
             "us",
@@ -48527,7 +48536,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "io.supercent.bulldozermasters": {
@@ -49284,6 +49294,7 @@
             "br",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -53290,8 +53301,16 @@
     "com.path.layers": {
         "name": "Path Layers — Color Puzzle",
         "regions": [
+            "au",
             "br",
-            "us"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.merchant.mike": {
@@ -53709,7 +53728,8 @@
     "com.crescivegames.takeyourline": {
         "name": "Take Your Line",
         "regions": [
-            "au"
+            "au",
+            "gb"
         ]
     },
     "and.lhhpub.circle.flow": {
@@ -53855,7 +53875,8 @@
     "com.hypnocatstudio.fashionuniverse": {
         "name": "Fashion Universe",
         "regions": [
-            "id"
+            "id",
+            "tr"
         ]
     },
     "com.oakever.amaze3d": {
@@ -53901,6 +53922,7 @@
     "puzzle.color.sand.blocks": {
         "name": "Color Sand: Fill The Blocks",
         "regions": [
+            "au",
             "vn"
         ]
     },
@@ -53934,30 +53956,30 @@
     "com.tank.busters": {
         "name": "Tank Busters: Cannon Battle",
         "regions": [
+            "au",
+            "ca",
             "gb",
             "id",
+            "mx",
+            "ph",
             "tr",
             "us",
-            "au",
-            "vn",
-            "ph",
-            "ca",
-            "mx"
+            "vn"
         ]
     },
     "com.tripledot.undercooked": {
         "name": "Undercooked: Cooking Game",
         "regions": [
-            "gb",
-            "id",
-            "tr",
-            "us",
             "au",
             "br",
-            "ph",
-            "vn",
             "ca",
-            "mx"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.sortjam": {
