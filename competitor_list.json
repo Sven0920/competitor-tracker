@@ -53280,6 +53280,7 @@
     "com.kadka.battle.forge": {
         "name": "Battle Forge",
         "regions": [
+            "br",
             "us"
         ]
     },
@@ -53987,6 +53988,21 @@
         "regions": [
             "id",
             "ph"
+        ]
+    },
+    "6820982852": {
+        "name": "Ring Master Puzzle",
+        "regions": [
+            "us",
+            "br",
+            "au",
+            "ph",
+            "ca",
+            "gb",
+            "vn",
+            "mx",
+            "id",
+            "tr"
         ]
     }
 }
