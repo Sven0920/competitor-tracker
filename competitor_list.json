@@ -22671,6 +22671,7 @@
         "name": "Family Barn Tango",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -22767,7 +22768,9 @@
             "au",
             "ca",
             "gb",
+            "id",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -23697,6 +23700,11 @@
         "name": "Rope Color Match 3D",
         "regions": [
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
             "ph",
             "tr",
             "vn"
@@ -32123,10 +32131,13 @@
     "com.cocoplay.gymnastics": {
         "name": "Gymnastics Dream",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
-            "mx"
+            "id",
+            "mx",
+            "us"
         ]
     },
     "com.crazylabs.twodots": {
@@ -32560,6 +32571,7 @@
             "ca",
             "gb",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -32848,6 +32860,7 @@
     "com.gimica.brickdoku": {
         "name": "Brickdoku",
         "regions": [
+            "au",
             "id",
             "ph",
             "tr",
@@ -33124,6 +33137,7 @@
     "com.fireshrike.rpg": {
         "name": "FANTASYxHUNTERS",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -33245,8 +33259,11 @@
         "name": "Steal Master",
         "regions": [
             "br",
+            "id",
             "ph",
-            "tr"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.supercent.powerdig": {
@@ -33254,7 +33271,10 @@
         "regions": [
             "au",
             "br",
-            "ph"
+            "ca",
+            "id",
+            "ph",
+            "vn"
         ]
     },
     "io.supercent.wonjung": {
@@ -34652,6 +34672,7 @@
         "regions": [
             "id",
             "ph",
+            "tr",
             "vn"
         ]
     },
@@ -38343,6 +38364,7 @@
     "com.gimica.mealdash": {
         "name": "Meal Dash",
         "regions": [
+            "ca",
             "gb",
             "id",
             "tr",
@@ -38421,6 +38443,7 @@
     "com.base.commander": {
         "name": "Base Commander",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -48522,6 +48545,7 @@
         "name": "Astro Merge",
         "regions": [
             "id",
+            "tr",
             "vn"
         ]
     },
@@ -49486,7 +49510,10 @@
             "au",
             "br",
             "ca",
-            "id"
+            "gb",
+            "id",
+            "mx",
+            "us"
         ]
     },
     "com.microjoy.wordle.dordle.daily.word.guess.challenge.puzzle": {
@@ -49823,7 +49850,11 @@
     "io.supercent.downhill": {
         "name": "Downhill Racer",
         "regions": [
-            "tr"
+            "au",
+            "br",
+            "gb",
+            "tr",
+            "us"
         ]
     },
     "com.coffee.sort.pack.color.puzzle.game": {
@@ -53676,8 +53707,12 @@
     "com.creauctopus.cinemaworld": {
         "name": "My Cinema World",
         "regions": [
+            "au",
+            "br",
             "ca",
+            "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "vn"
@@ -53723,7 +53758,8 @@
         "name": "Pop and Pour - Sparkling candy",
         "regions": [
             "au",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "com.crescivegames.takeyourline": {
@@ -53924,6 +53960,8 @@
         "name": "Color Sand: Fill The Blocks",
         "regions": [
             "au",
+            "ca",
+            "gb",
             "vn"
         ]
     },
@@ -53993,16 +54031,93 @@
     "6820982852": {
         "name": "Ring Master Puzzle",
         "regions": [
-            "us",
-            "br",
             "au",
-            "ph",
+            "br",
             "ca",
             "gb",
-            "vn",
-            "mx",
             "id",
-            "tr"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "6812590373": {
+        "name": "HypeReels - Short Drama & TV",
+        "regions": [
+            "us",
+            "ph",
+            "au",
+            "gb",
+            "ca"
+        ]
+    },
+    "and.lihuhu.mow.mania": {
+        "name": "Mow Mania",
+        "regions": [
+            "us",
+            "ph",
+            "au",
+            "gb",
+            "tr",
+            "id",
+            "br",
+            "ca",
+            "mx"
+        ]
+    },
+    "and.lihuhu.jewels.haul": {
+        "name": "Jewel Haul: Truck Sort",
+        "regions": [
+            "us",
+            "ph",
+            "au",
+            "gb",
+            "tr",
+            "id",
+            "br",
+            "ca",
+            "mx"
+        ]
+    },
+    "com.hitappsgames.jigsawtile": {
+        "name": "Jigsaw Tile",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.tripledot.puzzleword": {
+        "name": "Sand Out - Drop Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.colorbird.sort.puzzle": {
+        "name": "Color Bird: Sort Puzzle",
+        "regions": [
+            "us",
+            "ph",
+            "au",
+            "gb",
+            "tr",
+            "id",
+            "br",
+            "ca",
+            "mx",
+            "vn"
+        ]
+    },
+    "com.blrequiem.gpfinalwar": {
+        "name": "Blade Requiem: Blood War",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.ngu.games.threekingdomoffense": {
+        "name": "Three Kingdoms : Conquest",
+        "regions": [
+            "vn"
         ]
     }
 }
