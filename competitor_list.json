@@ -22690,6 +22690,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "us"
         ]
@@ -32137,7 +32138,8 @@
             "gb",
             "id",
             "mx",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.crazylabs.twodots": {
@@ -32851,6 +32853,7 @@
         "name": "Slam Dunk!",
         "regions": [
             "au",
+            "ca",
             "id",
             "tr",
             "us",
@@ -33220,6 +33223,7 @@
     "com.funreal.corporatetycoon": {
         "name": "Office Life: Idle Tycoon Games",
         "regions": [
+            "au",
             "br",
             "gb",
             "mx",
@@ -33258,8 +33262,11 @@
     "io.supercent.stealmaster": {
         "name": "Steal Master",
         "regions": [
+            "au",
             "br",
+            "gb",
             "id",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -48812,7 +48819,11 @@
     "io.supercent.partygames": {
         "name": "Streamer Survival Challenge",
         "regions": [
+            "br",
+            "gb",
             "id",
+            "mx",
+            "us",
             "vn"
         ]
     },
@@ -49513,6 +49524,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "us"
         ]
     },
@@ -49853,6 +49865,7 @@
             "au",
             "br",
             "gb",
+            "mx",
             "tr",
             "us"
         ]
@@ -52173,6 +52186,7 @@
     "com.tripledot.bingoassociations": {
         "name": "Bingo Associations",
         "regions": [
+            "gb",
             "id",
             "ph",
             "us"
@@ -53905,6 +53919,8 @@
     "com.fikstrello.netfishing": {
         "name": "Net Fishing!",
         "regions": [
+            "br",
+            "mx",
             "us",
             "vn"
         ]
@@ -53996,6 +54012,7 @@
         "name": "Tank Busters: Cannon Battle",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -54046,39 +54063,39 @@
     "6812590373": {
         "name": "HypeReels - Short Drama & TV",
         "regions": [
-            "us",
-            "ph",
             "au",
+            "ca",
             "gb",
-            "ca"
+            "ph",
+            "us"
         ]
     },
     "and.lihuhu.mow.mania": {
         "name": "Mow Mania",
         "regions": [
-            "us",
-            "ph",
             "au",
-            "gb",
-            "tr",
-            "id",
             "br",
             "ca",
-            "mx"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lihuhu.jewels.haul": {
         "name": "Jewel Haul: Truck Sort",
         "regions": [
-            "us",
-            "ph",
             "au",
-            "gb",
-            "tr",
-            "id",
             "br",
             "ca",
-            "mx"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.hitappsgames.jigsawtile": {
@@ -54090,21 +54107,23 @@
     "com.tripledot.puzzleword": {
         "name": "Sand Out - Drop Puzzle",
         "regions": [
-            "id"
+            "au",
+            "id",
+            "ph"
         ]
     },
     "com.colorbird.sort.puzzle": {
         "name": "Color Bird: Sort Puzzle",
         "regions": [
-            "us",
-            "ph",
             "au",
-            "gb",
-            "tr",
-            "id",
             "br",
             "ca",
+            "gb",
+            "id",
             "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -54116,6 +54135,54 @@
     },
     "com.ngu.games.threekingdomoffense": {
         "name": "Three Kingdoms : Conquest",
+        "regions": [
+            "vn"
+        ]
+    },
+    "com.xdgames.shockemall": {
+        "name": "Shock 'Em All",
+        "regions": [
+            "ph",
+            "mx",
+            "br",
+            "vn",
+            "id",
+            "us",
+            "gb",
+            "tr",
+            "au",
+            "ca"
+        ]
+    },
+    "com.bus.traffic.flow.jam.puzzle": {
+        "name": "Bus Traffic Flow: Jam Puzzle",
+        "regions": [
+            "ph",
+            "mx",
+            "br",
+            "vn",
+            "id",
+            "us",
+            "gb",
+            "tr",
+            "au",
+            "ca"
+        ]
+    },
+    "io.supercent.beachamp2": {
+        "name": "Gangster Universe!",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.blockpuzzle.cat.gp.game": {
+        "name": "PawBlock! - Sort Color Puzzle",
+        "regions": [
+            "id"
+        ]
+    },
+    "com.actionfit.parking.cat.aos": {
+        "name": "Parking Cat!",
         "regions": [
             "vn"
         ]
