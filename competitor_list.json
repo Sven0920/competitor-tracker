@@ -22711,6 +22711,7 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -22903,6 +22904,7 @@
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
             "tr"
         ]
@@ -33872,7 +33874,14 @@
     "com.color.busfrenzy": {
         "name": "Bus Frenzy - Traffic Jam",
         "regions": [
+            "au",
+            "br",
             "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
             "vn"
         ]
     },
@@ -34690,6 +34699,7 @@
             "ca",
             "id",
             "ph",
+            "tr",
             "vn"
         ]
     },
@@ -37258,6 +37268,7 @@
         "name": "Pizza Simulator!",
         "regions": [
             "au",
+            "id",
             "ph",
             "us"
         ]
@@ -38700,6 +38711,7 @@
     "com.bluemango.blockjamgo.gp": {
         "name": "Block Nova",
         "regions": [
+            "br",
             "ca",
             "id"
         ]
@@ -49352,6 +49364,7 @@
     "com.jellyflow.colorpuzzle.gp": {
         "name": "Dream Flow:Jelly Colony",
         "regions": [
+            "br",
             "ca",
             "id",
             "mx",
@@ -54041,8 +54054,16 @@
     "com.tripledot.sortjam": {
         "name": "Amaze Ring - Rotate Puzzle",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6820982852": {
@@ -54108,8 +54129,15 @@
         "name": "Sand Out - Drop Puzzle",
         "regions": [
             "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.colorbird.sort.puzzle": {
@@ -54142,31 +54170,31 @@
     "com.xdgames.shockemall": {
         "name": "Shock 'Em All",
         "regions": [
-            "ph",
-            "mx",
-            "br",
-            "vn",
-            "id",
-            "us",
-            "gb",
-            "tr",
             "au",
-            "ca"
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.bus.traffic.flow.jam.puzzle": {
         "name": "Bus Traffic Flow: Jam Puzzle",
         "regions": [
-            "ph",
-            "mx",
-            "br",
-            "vn",
-            "id",
-            "us",
-            "gb",
-            "tr",
             "au",
-            "ca"
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.supercent.beachamp2": {
@@ -54183,6 +54211,78 @@
     },
     "com.actionfit.parking.cat.aos": {
         "name": "Parking Cat!",
+        "regions": [
+            "vn"
+        ]
+    },
+    "6812166638": {
+        "name": "Sort Parade: Color Puzzle",
+        "regions": [
+            "tr",
+            "vn",
+            "ca",
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "6792675360": {
+        "name": "My Train Defense",
+        "regions": [
+            "br",
+            "us"
+        ]
+    },
+    "and.lhhpub.toy.bubble.sort": {
+        "name": "Toy Bubble Sort: Match Puzzle",
+        "regions": [
+            "tr",
+            "ca",
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.tripledot.blockorder2048": {
+        "name": "Block Merge 2048",
+        "regions": [
+            "tr",
+            "vn",
+            "ca",
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.tripledot.craftysmash": {
+        "name": "Crafty Smash",
+        "regions": [
+            "tr",
+            "vn",
+            "ca",
+            "gb",
+            "br",
+            "id",
+            "mx",
+            "us",
+            "ph",
+            "au"
+        ]
+    },
+    "com.puzzle.blast.block.game": {
+        "name": "Block Pop!",
         "regions": [
             "vn"
         ]
