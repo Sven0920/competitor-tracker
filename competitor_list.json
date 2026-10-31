@@ -49054,6 +49054,7 @@
     "com.gimica.blockarenapuzzle": {
         "name": "Block Arena: Puzzle Duels",
         "regions": [
+            "au",
             "id",
             "tr",
             "vn"
@@ -49538,6 +49539,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us"
         ]
     },
@@ -51825,6 +51827,7 @@
     "com.playstrom.mtd": {
         "name": "My Train Defense",
         "regions": [
+            "br",
             "us"
         ]
     },
@@ -53934,6 +53937,7 @@
         "regions": [
             "br",
             "mx",
+            "ph",
             "us",
             "vn"
         ]
@@ -54218,16 +54222,16 @@
     "6812166638": {
         "name": "Sort Parade: Color Puzzle",
         "regions": [
-            "tr",
-            "vn",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
             "id",
             "mx",
-            "us",
             "ph",
-            "au"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6792675360": {
@@ -54240,50 +54244,106 @@
     "and.lhhpub.toy.bubble.sort": {
         "name": "Toy Bubble Sort: Match Puzzle",
         "regions": [
-            "tr",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
             "id",
             "mx",
-            "us",
             "ph",
-            "au"
+            "tr",
+            "us"
         ]
     },
     "com.tripledot.blockorder2048": {
         "name": "Block Merge 2048",
         "regions": [
-            "tr",
-            "vn",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
             "id",
             "mx",
-            "us",
             "ph",
-            "au"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.craftysmash": {
         "name": "Crafty Smash",
         "regions": [
-            "tr",
-            "vn",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
             "id",
             "mx",
-            "us",
             "ph",
-            "au"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.puzzle.blast.block.game": {
         "name": "Block Pop!",
         "regions": [
+            "vn"
+        ]
+    },
+    "6821832402": {
+        "name": "Amaze Clear 3D",
+        "regions": [
+            "us",
+            "br",
+            "ph",
+            "mx",
+            "id",
+            "tr",
+            "gb",
+            "ca",
+            "au",
+            "vn"
+        ]
+    },
+    "6803868696": {
+        "name": "Flip or Hold",
+        "regions": [
+            "us",
+            "br",
+            "ph",
+            "mx",
+            "id",
+            "tr",
+            "gb",
+            "ca",
+            "au",
+            "vn"
+        ]
+    },
+    "6822405897": {
+        "name": "Cube Jam 3D!",
+        "regions": [
+            "br",
+            "us",
+            "mx",
+            "tr",
+            "gb",
+            "ca"
+        ]
+    },
+    "com.ig.sand.bus": {
+        "name": "Bus Sand Fever",
+        "regions": [
+            "us",
+            "br",
+            "ph",
+            "mx",
+            "id",
+            "tr",
+            "gb",
+            "ca",
+            "au",
             "vn"
         ]
     }
