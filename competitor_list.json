@@ -51962,6 +51962,7 @@
     "com.matching.puzzle": {
         "name": "Merchant Puzzle – Triple Match",
         "regions": [
+            "br",
             "gb",
             "mx"
         ]
@@ -53399,7 +53400,8 @@
     "com.playstrom.color.pages": {
         "name": "Color Page ASMR",
         "regions": [
-            "id"
+            "id",
+            "tr"
         ]
     },
     "com.moonactive.yarnit": {
@@ -53936,8 +53938,10 @@
         "name": "Net Fishing!",
         "regions": [
             "br",
+            "ca",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -54294,30 +54298,30 @@
     "6821832402": {
         "name": "Amaze Clear 3D",
         "regions": [
-            "us",
-            "br",
-            "ph",
-            "mx",
-            "id",
-            "tr",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "6803868696": {
         "name": "Flip or Hold",
         "regions": [
-            "us",
-            "br",
-            "ph",
-            "mx",
-            "id",
-            "tr",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -54325,26 +54329,32 @@
         "name": "Cube Jam 3D!",
         "regions": [
             "br",
-            "us",
+            "ca",
+            "gb",
             "mx",
             "tr",
-            "gb",
-            "ca"
+            "us"
         ]
     },
     "com.ig.sand.bus": {
         "name": "Bus Sand Fever",
         "regions": [
-            "us",
-            "br",
-            "ph",
-            "mx",
-            "id",
-            "tr",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
+        ]
+    },
+    "io.supercent.smashdown": {
+        "name": "Smash Down: Blast It Away!",
+        "regions": [
+            "gb"
         ]
     }
 }
