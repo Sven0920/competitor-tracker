@@ -32856,6 +32856,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "tr",
             "us",
@@ -53939,6 +53940,7 @@
         "regions": [
             "br",
             "ca",
+            "id",
             "mx",
             "ph",
             "tr",
@@ -53999,6 +54001,7 @@
             "au",
             "ca",
             "gb",
+            "tr",
             "vn"
         ]
     },
@@ -54355,6 +54358,12 @@
         "name": "Smash Down: Blast It Away!",
         "regions": [
             "gb"
+        ]
+    },
+    "games.tower.defense": {
+        "name": "Last Survivors: Zombie Defense",
+        "regions": [
+            "us"
         ]
     }
 }
