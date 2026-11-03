@@ -22709,6 +22709,7 @@
         "name": "High Seas Hero: Dig & Build",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -37161,6 +37162,7 @@
         "name": "Drop the Cat!",
         "regions": [
             "br",
+            "mx",
             "vn"
         ]
     },
@@ -49831,6 +49833,7 @@
     "com.maxbet.wondercashcasino": {
         "name": "Wonder Cash Casino Vegas Slots",
         "regions": [
+            "gb",
             "us"
         ]
     },
@@ -51904,6 +51907,8 @@
             "au",
             "ca",
             "gb",
+            "id",
+            "mx",
             "ph",
             "vn"
         ]
@@ -53401,6 +53406,7 @@
     "com.playstrom.color.pages": {
         "name": "Color Page ASMR",
         "regions": [
+            "gb",
             "id",
             "tr"
         ]
@@ -53799,7 +53805,11 @@
         "name": "Take Your Line",
         "regions": [
             "au",
-            "gb"
+            "ca",
+            "gb",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "and.lhhpub.circle.flow": {
@@ -53938,6 +53948,7 @@
     "com.fikstrello.netfishing": {
         "name": "Net Fishing!",
         "regions": [
+            "au",
             "br",
             "ca",
             "id",
@@ -54363,6 +54374,104 @@
     "games.tower.defense": {
         "name": "Last Survivors: Zombie Defense",
         "regions": [
+            "us"
+        ]
+    },
+    "6824655215": {
+        "name": "TidyUp! Everything",
+        "regions": [
+            "br",
+            "ca"
+        ]
+    },
+    "6799829610": {
+        "name": "Shape Out - Arrow Puzzle Game",
+        "regions": [
+            "ph",
+            "id",
+            "au"
+        ]
+    },
+    "com.alien.shooter.galaxy.attack": {
+        "name": "Galaxy Attack: Shooting Game",
+        "regions": [
+            "ph",
+            "au",
+            "br",
+            "id",
+            "vn",
+            "mx",
+            "gb",
+            "tr",
+            "ca",
+            "us"
+        ]
+    },
+    "com.alien.shooter.galaxy.attack.premium": {
+        "name": "Galaxy Attack (Premium)",
+        "regions": [
+            "ph",
+            "au",
+            "br",
+            "id",
+            "vn",
+            "mx",
+            "gb",
+            "tr",
+            "ca",
+            "us"
+        ]
+    },
+    "com.joyboy.antblast": {
+        "name": "Ant Blast: Color Puzzle",
+        "regions": [
+            "ph",
+            "au",
+            "br",
+            "id",
+            "vn",
+            "mx",
+            "gb",
+            "tr",
+            "ca",
+            "us"
+        ]
+    },
+    "com.tripledot.blockflow": {
+        "name": "Smash Party! - 3D Puzzle",
+        "regions": [
+            "ph",
+            "au",
+            "br",
+            "id",
+            "vn",
+            "mx",
+            "gb",
+            "tr",
+            "ca",
+            "us"
+        ]
+    },
+    "com.tripledot.puzzlematch": {
+        "name": "Word Shuffle - Tile Puzzle",
+        "regions": [
+            "ph",
+            "id",
+            "au"
+        ]
+    },
+    "com.manerai.scaryhotdog": {
+        "name": "Scary Hot Dogs",
+        "regions": [
+            "ph",
+            "au",
+            "br",
+            "id",
+            "vn",
+            "mx",
+            "gb",
+            "tr",
+            "ca",
             "us"
         ]
     }
