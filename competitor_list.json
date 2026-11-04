@@ -49429,6 +49429,8 @@
     "com.tree.hybrid.luckydefense": {
         "name": "Lucky Heroes! : Defense Game",
         "regions": [
+            "au",
+            "br",
             "id",
             "mx",
             "tr",
@@ -53895,6 +53897,7 @@
     "com.playstrom.bramaker": {
         "name": "Bra Maker",
         "regions": [
+            "mx",
             "vn"
         ]
     },
@@ -53951,6 +53954,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -54381,98 +54385,160 @@
         "name": "TidyUp! Everything",
         "regions": [
             "br",
-            "ca"
+            "ca",
+            "us"
         ]
     },
     "6799829610": {
         "name": "Shape Out - Arrow Puzzle Game",
         "regions": [
-            "ph",
+            "au",
             "id",
-            "au"
+            "ph"
         ]
     },
     "com.alien.shooter.galaxy.attack": {
         "name": "Galaxy Attack: Shooting Game",
         "regions": [
-            "ph",
             "au",
             "br",
-            "id",
-            "vn",
-            "mx",
-            "gb",
-            "tr",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.alien.shooter.galaxy.attack.premium": {
         "name": "Galaxy Attack (Premium)",
         "regions": [
-            "ph",
             "au",
             "br",
-            "id",
-            "vn",
-            "mx",
-            "gb",
-            "tr",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.joyboy.antblast": {
         "name": "Ant Blast: Color Puzzle",
         "regions": [
-            "ph",
             "au",
             "br",
-            "id",
-            "vn",
-            "mx",
-            "gb",
-            "tr",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.blockflow": {
         "name": "Smash Party! - 3D Puzzle",
         "regions": [
-            "ph",
             "au",
             "br",
-            "id",
-            "vn",
-            "mx",
-            "gb",
-            "tr",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.puzzlematch": {
         "name": "Word Shuffle - Tile Puzzle",
         "regions": [
-            "ph",
+            "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "au"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.manerai.scaryhotdog": {
         "name": "Scary Hot Dogs",
         "regions": [
-            "ph",
             "au",
             "br",
-            "id",
-            "vn",
-            "mx",
-            "gb",
-            "tr",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "6767780608": {
+        "name": "Item Escape - Goods 3D Sorting",
+        "regions": [
+            "au",
+            "ca",
+            "br",
+            "tr",
+            "mx",
+            "ph",
+            "id",
+            "gb",
+            "vn"
+        ]
+    },
+    "com.cedargames.merge2focus": {
+        "name": "Star Returns: Merge & Story",
+        "regions": [
+            "ph",
+            "gb",
+            "ca",
+            "br"
+        ]
+    },
+    "com.tripledot.wordstreak": {
+        "name": "Word Streaks",
+        "regions": [
+            "au",
+            "ca",
+            "br",
+            "tr",
+            "us",
+            "mx",
+            "ph",
+            "id",
+            "gb",
+            "vn"
+        ]
+    },
+    "jp.co.goodroid.hyper.categoro": {
+        "name": "Categoro: Category Hunt",
+        "regions": [
+            "ca",
+            "tr",
+            "id",
+            "gb",
+            "vn"
+        ]
+    },
+    "com.actionfit.meowdoku3d.aos": {
+        "name": "Meowdoku 3D",
+        "regions": [
+            "vn"
         ]
     }
 }
