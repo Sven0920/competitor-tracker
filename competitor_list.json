@@ -18578,6 +18578,7 @@
         "regions": [
             "au",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -18603,21 +18604,31 @@
     "com.red.arrows.android": {
         "name": "Arrowscapes™ - Arrows Puzzle",
         "regions": [
-            "us",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
             "ph",
-            "ca"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.sweetfuirt.candy": {
         "name": "Sweet Fruit Candy",
         "regions": [
-            "us",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
             "ph",
-            "ca"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6779167923": {
@@ -22692,6 +22703,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us"
         ]
     },
@@ -32105,16 +32117,16 @@
     "com.AlexandrJanashvili.MultiMaze3D": {
         "name": "Multi Maze 3D",
         "regions": [
-            "ca",
-            "tr",
-            "ph",
-            "gb",
-            "us",
-            "id",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
             "mx",
-            "vn",
-            "br"
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.Nokobot.FrozenHoneyASMR": {
@@ -32148,7 +32160,8 @@
     "com.crazylabs.twodots": {
         "name": "2 For 2: Connect the Numbers",
         "regions": [
-            "ca"
+            "ca",
+            "gb"
         ]
     },
     "com.playvalve.ballsort": {
@@ -33231,7 +33244,8 @@
             "br",
             "gb",
             "mx",
-            "ph"
+            "ph",
+            "tr"
         ]
     },
     "com.aredstudio.beachresort": {
@@ -35068,7 +35082,14 @@
     "com.red.hexaaway.android": {
         "name": "Hexa Run - Block Puzzle",
         "regions": [
-            "au"
+            "au",
+            "br",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.tripledot.blockssmashgame": {
@@ -35763,8 +35784,14 @@
     "com.corestudios.shoppingempire": {
         "name": "Shopping Empire",
         "regions": [
+            "au",
+            "ca",
+            "gb",
+            "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.Albus.WaterParkBoys": {
@@ -38716,7 +38743,8 @@
         "regions": [
             "br",
             "ca",
-            "id"
+            "id",
+            "tr"
         ]
     },
     "1596246195": {
@@ -54491,37 +54519,38 @@
         "name": "Item Escape - Goods 3D Sorting",
         "regions": [
             "au",
-            "ca",
             "br",
-            "tr",
+            "ca",
+            "gb",
+            "id",
             "mx",
             "ph",
-            "id",
-            "gb",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "com.cedargames.merge2focus": {
         "name": "Star Returns: Merge & Story",
         "regions": [
-            "ph",
-            "gb",
+            "br",
             "ca",
-            "br"
+            "gb",
+            "ph"
         ]
     },
     "com.tripledot.wordstreak": {
         "name": "Word Streaks",
         "regions": [
             "au",
-            "ca",
             "br",
-            "tr",
-            "us",
+            "ca",
+            "gb",
+            "id",
             "mx",
             "ph",
-            "id",
-            "gb",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -54529,9 +54558,9 @@
         "name": "Categoro: Category Hunt",
         "regions": [
             "ca",
-            "tr",
-            "id",
             "gb",
+            "id",
+            "tr",
             "vn"
         ]
     },
@@ -54539,6 +54568,57 @@
         "name": "Meowdoku 3D",
         "regions": [
             "vn"
+        ]
+    },
+    "6824478895": {
+        "name": "Sand Draw Fill",
+        "regions": [
+            "us",
+            "tr",
+            "vn",
+            "gb",
+            "mx",
+            "ph",
+            "au",
+            "id",
+            "ca",
+            "br"
+        ]
+    },
+    "com.abi.marble.pop": {
+        "name": "Marble Pop: Block Blast",
+        "regions": [
+            "us",
+            "tr",
+            "vn",
+            "gb",
+            "mx",
+            "ph",
+            "au",
+            "id",
+            "ca",
+            "br"
+        ]
+    },
+    "com.foodie.fever.match.puzzle": {
+        "name": "Foodie Fever: Cooking Sort",
+        "regions": [
+            "us",
+            "tr",
+            "vn",
+            "gb",
+            "mx",
+            "ph",
+            "au",
+            "id",
+            "ca",
+            "br"
+        ]
+    },
+    "com.NokoGames.PortalQuest": {
+        "name": "Portal Quest!",
+        "regions": [
+            "tr"
         ]
     }
 }
