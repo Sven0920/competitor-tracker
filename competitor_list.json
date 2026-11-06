@@ -22704,7 +22704,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.centurygames.gm5.m3": {
@@ -32588,6 +32589,7 @@
             "au",
             "ca",
             "gb",
+            "mx",
             "ph",
             "tr",
             "us",
@@ -35084,12 +35086,14 @@
         "regions": [
             "au",
             "br",
+            "ca",
             "gb",
             "id",
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.blockssmashgame": {
@@ -35343,6 +35347,7 @@
         "regions": [
             "au",
             "ca",
+            "us",
             "vn"
         ]
     },
@@ -38415,6 +38420,7 @@
             "ca",
             "gb",
             "id",
+            "ph",
             "tr",
             "us",
             "vn"
@@ -47589,6 +47595,7 @@
     "com.gimica.jigsaw": {
         "name": "Artie's Jigsaw Adventure",
         "regions": [
+            "id",
             "tr"
         ]
     },
@@ -49396,10 +49403,12 @@
     "com.jellyflow.colorpuzzle.gp": {
         "name": "Dream Flow:Jelly Colony",
         "regions": [
+            "au",
             "br",
             "ca",
             "id",
             "mx",
+            "tr",
             "vn"
         ]
     },
@@ -54412,9 +54421,16 @@
     "6824655215": {
         "name": "TidyUp! Everything",
         "regions": [
+            "au",
             "br",
             "ca",
-            "us"
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6799829610": {
@@ -54557,9 +54573,13 @@
     "jp.co.goodroid.hyper.categoro": {
         "name": "Categoro: Category Hunt",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
             "id",
+            "mx",
+            "ph",
             "tr",
             "vn"
         ]
@@ -54573,51 +54593,86 @@
     "6824478895": {
         "name": "Sand Draw Fill",
         "regions": [
-            "us",
-            "tr",
-            "vn",
+            "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "au",
-            "id",
-            "ca",
-            "br"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.marble.pop": {
         "name": "Marble Pop: Block Blast",
         "regions": [
-            "us",
-            "tr",
-            "vn",
+            "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "au",
-            "id",
-            "ca",
-            "br"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.foodie.fever.match.puzzle": {
         "name": "Foodie Fever: Cooking Sort",
         "regions": [
-            "us",
-            "tr",
-            "vn",
+            "au",
+            "br",
+            "ca",
             "gb",
+            "id",
             "mx",
             "ph",
-            "au",
-            "id",
-            "ca",
-            "br"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.NokoGames.PortalQuest": {
         "name": "Portal Quest!",
         "regions": [
+            "tr"
+        ]
+    },
+    "com.ig.sea.sort": {
+        "name": "Sea Sort",
+        "regions": [
+            "ca",
+            "au",
+            "vn",
+            "gb",
+            "id",
+            "br",
+            "mx",
+            "us",
+            "ph",
+            "tr"
+        ]
+    },
+    "com.sniper.shoot.hide.game": {
+        "name": "Shoot & Hide",
+        "regions": [
+            "mx"
+        ]
+    },
+    "com.gimica.golfhop": {
+        "name": "Hop In One",
+        "regions": [
+            "id",
+            "tr"
+        ]
+    },
+    "com.gimica.ricochetgrove": {
+        "name": "Ricochet Grove",
+        "regions": [
+            "id",
             "tr"
         ]
     }
