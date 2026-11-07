@@ -54644,16 +54644,16 @@
     "com.ig.sea.sort": {
         "name": "Sea Sort",
         "regions": [
-            "ca",
             "au",
-            "vn",
+            "br",
+            "ca",
             "gb",
             "id",
-            "br",
             "mx",
-            "us",
             "ph",
-            "tr"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.sniper.shoot.hide.game": {
@@ -54673,6 +54673,34 @@
         "name": "Ricochet Grove",
         "regions": [
             "id",
+            "tr"
+        ]
+    },
+    "com.abi.scoopy.loop": {
+        "name": "Scoopy Loop",
+        "regions": [
+            "ca",
+            "us",
+            "ph",
+            "br",
+            "gb",
+            "id",
+            "au",
+            "mx",
+            "tr"
+        ]
+    },
+    "and.brainworks.hop.n.haul": {
+        "name": "Mover Flow: Color Sort Puzzle",
+        "regions": [
+            "ca",
+            "us",
+            "ph",
+            "br",
+            "gb",
+            "id",
+            "au",
+            "mx",
             "tr"
         ]
     }
