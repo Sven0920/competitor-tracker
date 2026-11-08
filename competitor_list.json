@@ -32154,6 +32154,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "us",
             "vn"
         ]
@@ -49406,6 +49407,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "tr",
@@ -49872,6 +49874,7 @@
     "com.maxbet.wondercashcasino": {
         "name": "Wonder Cash Casino Vegas Slots",
         "regions": [
+            "ca",
             "gb",
             "us"
         ]
@@ -54038,7 +54041,13 @@
     "com.studio6.toystore": {
         "name": "TidyUp! Toy Store",
         "regions": [
-            "us"
+            "au",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "com.easybrain.block.out.puzzle": {
@@ -54679,29 +54688,62 @@
     "com.abi.scoopy.loop": {
         "name": "Scoopy Loop",
         "regions": [
-            "ca",
-            "us",
-            "ph",
+            "au",
             "br",
+            "ca",
             "gb",
             "id",
-            "au",
             "mx",
-            "tr"
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.brainworks.hop.n.haul": {
         "name": "Mover Flow: Color Sort Puzzle",
         "regions": [
-            "ca",
-            "us",
-            "ph",
+            "au",
             "br",
+            "ca",
             "gb",
             "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
+        ]
+    },
+    "6825633226": {
+        "name": "Loop Smash 3D - Car Sort Game",
+        "regions": [
             "au",
             "mx",
-            "tr"
+            "ph",
+            "vn",
+            "id",
+            "us",
+            "tr",
+            "ca",
+            "br",
+            "gb"
+        ]
+    },
+    "com.game.pachinkorpg": {
+        "name": "Pachinko RPG",
+        "regions": [
+            "us"
+        ]
+    },
+    "jp.co.goodroid.hyper.ringsaway3D": {
+        "name": "Rings Away 3D",
+        "regions": [
+            "us"
+        ]
+    },
+    "jp.co.goodroid.hyper.jigsawblockpuzzle": {
+        "name": "Jigsaw Block  Puzzle!",
+        "regions": [
+            "ca"
         ]
     }
 }
