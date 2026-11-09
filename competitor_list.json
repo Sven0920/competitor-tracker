@@ -33498,7 +33498,8 @@
     "com.mahjong.solitaire.match.zen.tile.relax.daily.puzzle": {
         "name": "Mahjong Serenity - Match Pair",
         "regions": [
-            "br"
+            "br",
+            "id"
         ]
     },
     "com.rotatelab.cubeblast": {
@@ -38751,6 +38752,7 @@
             "br",
             "ca",
             "id",
+            "ph",
             "tr"
         ]
     },
@@ -49410,6 +49412,7 @@
             "gb",
             "id",
             "mx",
+            "ph",
             "tr",
             "vn"
         ]
@@ -49590,6 +49593,7 @@
     "com.microjoy.wordle.dordle.daily.word.guess.challenge.puzzle": {
         "name": "Worde - With No Daily Limit",
         "regions": [
+            "id",
             "mx"
         ]
     },
@@ -53782,6 +53786,7 @@
     "com.loot.adventure.idle": {
         "name": "Loot Adventure - Battle Run",
         "regions": [
+            "br",
             "us"
         ]
     },
@@ -54042,10 +54047,13 @@
         "name": "TidyUp! Toy Store",
         "regions": [
             "au",
+            "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -54272,7 +54280,8 @@
     "io.supercent.beachamp2": {
         "name": "Gangster Universe!",
         "regions": [
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.blockpuzzle.cat.gp.game": {
@@ -54717,15 +54726,15 @@
         "name": "Loop Smash 3D - Car Sort Game",
         "regions": [
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
             "mx",
             "ph",
-            "vn",
-            "id",
-            "us",
             "tr",
-            "ca",
-            "br",
-            "gb"
+            "us",
+            "vn"
         ]
     },
     "com.game.pachinkorpg": {
@@ -54744,6 +54753,27 @@
         "name": "Jigsaw Block  Puzzle!",
         "regions": [
             "ca"
+        ]
+    },
+    "com.BallGames.Woodturning": {
+        "name": "Woodturning",
+        "regions": [
+            "ca",
+            "au",
+            "gb",
+            "tr",
+            "vn",
+            "br",
+            "us",
+            "mx",
+            "ph",
+            "id"
+        ]
+    },
+    "io.whitesharx.nebula": {
+        "name": "Ratfall — Plague Survival",
+        "regions": [
+            "us"
         ]
     }
 }
