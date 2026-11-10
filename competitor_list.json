@@ -28688,8 +28688,16 @@
     "6754879992": {
         "name": "Shopping Empire",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "6754229880": {
@@ -32155,6 +32163,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -32163,7 +32172,8 @@
         "name": "2 For 2: Connect the Numbers",
         "regions": [
             "ca",
-            "gb"
+            "gb",
+            "tr"
         ]
     },
     "com.playvalve.ballsort": {
@@ -34981,8 +34991,10 @@
             "ca",
             "gb",
             "id",
+            "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.tile.bonanza.match.pair.master.object.block.puzzle": {
@@ -47642,6 +47654,7 @@
     "com.vm3.global": {
         "name": "Truck Star",
         "regions": [
+            "mx",
             "vn"
         ]
     },
@@ -48692,6 +48705,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -49098,6 +49112,7 @@
             "au",
             "id",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -54684,7 +54699,8 @@
         "name": "Hop In One",
         "regions": [
             "id",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "com.gimica.ricochetgrove": {
@@ -54758,20 +54774,69 @@
     "com.BallGames.Woodturning": {
         "name": "Woodturning",
         "regions": [
-            "ca",
             "au",
-            "gb",
-            "tr",
-            "vn",
             "br",
-            "us",
+            "ca",
+            "gb",
+            "id",
             "mx",
             "ph",
-            "id"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "io.whitesharx.nebula": {
         "name": "Ratfall — Plague Survival",
+        "regions": [
+            "us"
+        ]
+    },
+    "6775941016": {
+        "name": "Tiny Ride",
+        "regions": [
+            "ca",
+            "gb",
+            "tr",
+            "br",
+            "mx",
+            "ph",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.oakever.wordtile": {
+        "name": "Wordsect - Word Puzzle Games",
+        "regions": [
+            "vn",
+            "ca",
+            "gb",
+            "tr",
+            "br",
+            "mx",
+            "ph",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.combo.cubesmash": {
+        "name": "Cube Smash",
+        "regions": [
+            "ca",
+            "gb",
+            "tr",
+            "br",
+            "mx",
+            "ph",
+            "us",
+            "id",
+            "au"
+        ]
+    },
+    "com.easybrain.rings.out.game": {
+        "name": "Rings Out - Rotate Circles",
         "regions": [
             "us"
         ]
