@@ -28703,7 +28703,14 @@
     "6754229880": {
         "name": "Frozia: Eternal Frontier",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "6752780922": {
@@ -32885,6 +32892,7 @@
             "ca",
             "gb",
             "id",
+            "ph",
             "tr",
             "us",
             "vn"
@@ -38504,8 +38512,8 @@
     "com.mining.realmtycoon": {
         "name": "Goldvale Mines",
         "regions": [
-            "tr",
-            "au"
+            "au",
+            "tr"
         ]
     },
     "com.base.commander": {
@@ -38765,7 +38773,8 @@
             "ca",
             "id",
             "ph",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "1596246195": {
@@ -48611,6 +48620,7 @@
     "com.gimica.aeroescape": {
         "name": "Aero Escape",
         "regions": [
+            "tr",
             "vn"
         ]
     },
@@ -51892,8 +51902,16 @@
     "com.playstrom.mtd": {
         "name": "My Train Defense",
         "regions": [
+            "au",
             "br",
-            "us"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.heli.monsters": {
@@ -54329,8 +54347,15 @@
     "6792675360": {
         "name": "My Train Defense",
         "regions": [
+            "au",
             "br",
-            "us"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "and.lhhpub.toy.bubble.sort": {
@@ -54795,50 +54820,76 @@
     "6775941016": {
         "name": "Tiny Ride",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "tr",
-            "br",
+            "id",
             "mx",
             "ph",
-            "us",
-            "id",
-            "au"
+            "tr",
+            "us"
         ]
     },
     "com.oakever.wordtile": {
         "name": "Wordsect - Word Puzzle Games",
         "regions": [
-            "vn",
+            "au",
+            "br",
             "ca",
             "gb",
-            "tr",
-            "br",
+            "id",
             "mx",
             "ph",
+            "tr",
             "us",
-            "id",
-            "au"
+            "vn"
         ]
     },
     "com.combo.cubesmash": {
         "name": "Cube Smash",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "tr",
-            "br",
+            "id",
             "mx",
             "ph",
-            "us",
-            "id",
-            "au"
+            "tr",
+            "us"
         ]
     },
     "com.easybrain.rings.out.game": {
         "name": "Rings Out - Rotate Circles",
         "regions": [
             "us"
+        ]
+    },
+    "com.prjcttwo": {
+        "name": "Cash & Ammo: Card Battle CCG",
+        "regions": [
+            "br"
+        ]
+    },
+    "com.hitappsgames.wordshapes": {
+        "name": "Wordshapes",
+        "regions": [
+            "us"
+        ]
+    },
+    "puzzle.sand.sort.challenge": {
+        "name": "Sand Sorting Challenge",
+        "regions": [
+            "au",
+            "br",
+            "gb",
+            "tr",
+            "us",
+            "ca",
+            "id",
+            "mx",
+            "ph"
         ]
     }
 }
