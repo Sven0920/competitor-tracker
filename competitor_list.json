@@ -22782,6 +22782,7 @@
         "name": "Hole and Give",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
@@ -28706,9 +28707,11 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -35369,6 +35372,7 @@
         "regions": [
             "au",
             "ca",
+            "id",
             "us",
             "vn"
         ]
@@ -47664,6 +47668,7 @@
         "name": "Truck Star",
         "regions": [
             "mx",
+            "ph",
             "vn"
         ]
     },
@@ -48390,6 +48395,7 @@
     "com.metroville.global": {
         "name": "Livetopia: Party!",
         "regions": [
+            "ph",
             "vn"
         ]
     },
@@ -54354,6 +54360,7 @@
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -54793,6 +54800,7 @@
     "jp.co.goodroid.hyper.jigsawblockpuzzle": {
         "name": "Jigsaw Block  Puzzle!",
         "regions": [
+            "br",
             "ca"
         ]
     },
@@ -54869,7 +54877,8 @@
     "com.prjcttwo": {
         "name": "Cash & Ammo: Card Battle CCG",
         "regions": [
-            "br"
+            "br",
+            "mx"
         ]
     },
     "com.hitappsgames.wordshapes": {
@@ -54883,13 +54892,54 @@
         "regions": [
             "au",
             "br",
-            "gb",
-            "tr",
-            "us",
             "ca",
+            "gb",
             "id",
             "mx",
-            "ph"
+            "ph",
+            "tr",
+            "us"
+        ]
+    },
+    "6788703912": {
+        "name": "Undercooked: Cooking Game",
+        "regions": [
+            "tr",
+            "br",
+            "gb",
+            "ph",
+            "vn",
+            "ca",
+            "us",
+            "id",
+            "au",
+            "mx"
+        ]
+    },
+    "com.hitappsgames.factorysort": {
+        "name": "Batch Sort - Match 3 Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.tripledot.slide3d": {
+        "name": "Block Shift: Tap Out Puzzle",
+        "regions": [
+            "id",
+            "ph",
+            "au"
+        ]
+    },
+    "com.m521.global": {
+        "name": "Sizzleton: Merge & Cook",
+        "regions": [
+            "vn"
+        ]
+    },
+    "jp.co.goodroid.alarm.mafumafu": {
+        "name": "まふまふアラーム",
+        "regions": [
+            "br"
         ]
     }
 }
