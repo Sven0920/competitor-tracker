@@ -25,7 +25,7 @@ const sandbox = {
 vm.createContext(sandbox);
 vm.runInContext(script, sandbox);
 
-const { mergeGames, hotAppIds, cardMatches, applySupergenres, gameCard } = sandbox;
+const { mergeGames, hotAppIds, cardMatches, applySupergenres, gameCard, loadTitleAliases } = sandbox;
 const HOT_RANK = 10;
 const base = { plat: "all", dev: "all", genre: "all", signal: "all", age: "all", q: "", sort: "found_desc" };
 
@@ -103,5 +103,21 @@ const cube = arrowCards.find(c => c.name.startsWith("Cube Jam"));
 assert.ok(gameCard(cube).includes("3D Arrow"));
 assert.strictEqual(arrowCards.filter(c => cardMatches(c, { ...base, super: "3D Arrow" }, now)).length, 3);
 assert.ok(!arrowCards.some(c => c.name === "Arrow Jam!" && cardMatches(c, { ...base, super: "3D Arrow" }, now)));
+
+loadTitleAliases({
+  aliases: [{
+    developer: "Learnings",
+    name: "Amaze Clear 3D: Arrow Cube",
+    titles: ["Amaze Clear 3D", "Amaze Clear 3D: Arrow Cube"],
+  }],
+});
+const mergedAmaze = mergeGames(tagged).filter(c => c.developer === "Learnings");
+assert.strictEqual(mergedAmaze.length, 1, "iOS and Android Amaze Clear titles share one card");
+assert.strictEqual(mergedAmaze[0].sides.length, 2);
+assert.strictEqual(mergedAmaze[0].name, "Amaze Clear 3D: Arrow Cube");
+const amazeHtml = gameCard(mergedAmaze[0]);
+assert.ok(amazeHtml.includes("App Store") && amazeHtml.includes("Google Play"));
+assert.ok(cardMatches(mergedAmaze[0], { ...base, q: "amaze clear 3d" }, now));
+loadTitleAliases({ aliases: [] });
 
 console.log("board logic ok", cards.length, "cards");

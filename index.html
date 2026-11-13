@@ -114,6 +114,7 @@
 <script>
 var GAMES = [];
 var HOT_IDS = new Set();
+var TITLE_ALIASES = [];
 var filter = { plat:"all", dev:"all", genre:"all", super:"all", signal:"all", age:"all", q:"", sort:"found_desc" };
 
 // Release dates: ISO ("2026-08-19") is UTC, US-style ("Aug 19, 2026") is local.
@@ -149,6 +150,20 @@ function normName(s){
 function normTitle(s){
   return normName(s).replace(/[!！]+$/g, "").trim();
 }
+function loadTitleAliases(catalog){
+  TITLE_ALIASES = ((catalog && catalog.aliases) || []).map(group => ({
+    developer: normName(group.developer),
+    name: group.name || (group.titles || [])[0] || "",
+    titles: new Set((group.titles || []).map(normTitle)),
+  })).filter(group => group.developer && group.name && group.titles.size);
+}
+
+function aliasFor(developer, name){
+  const dev = normName(developer);
+  const title = normTitle(name);
+  return TITLE_ALIASES.find(group => group.developer === dev && group.titles.has(title)) || null;
+}
+
 function applySupergenres(games, catalog){
   const rules = ((catalog && catalog.genres) || []).map(g => ({
     name: g.name,
@@ -173,7 +188,7 @@ const installsNum = g => parseInt(String(g.installs||"").replace(/[^\d]/g,""), 1
 function makeCard(sides){
   const releaseTs = sides.map(s => parseDay(s.release_date)).filter(t => t !== null);
   return {
-    name: sides[0].name,
+    name: (aliasFor(sides[0].developer, sides[0].name) || {}).name || sides[0].name,
     developer: sides[0].developer || "",
     sides,
     found_date: sides.map(s => s.found_date||"").sort().pop() || "",
@@ -192,7 +207,9 @@ function makeCard(sides){
 function mergeGames(games){
   const groups = new Map();
   for(const g of games || []){
-    const key = (g.developer||"") + "\0" + normName(g.name);
+    const alias = aliasFor(g.developer, g.name);
+    const title = alias ? normTitle(alias.name) : normName(g.name);
+    const key = (g.developer||"") + "\0" + title;
     if(!groups.has(key)) groups.set(key, []);
     groups.get(key).push(g);
   }
@@ -226,7 +243,7 @@ function cardMatches(card, f, now){
     (f.dev === "all" || card.developer === f.dev) &&
     (f.genre === "all" || card.sides.some(s => (s.genre||"") === f.genre)) &&
     (!f.super || f.super === "all" || (card.supergenres||[]).includes(f.super)) &&
-    (!q || normName(card.name).includes(q) || normName(card.developer).includes(q)) &&
+    (!q || normName(card.name).includes(q) || card.sides.some(s => normName(s.name).includes(q)) || normName(card.developer).includes(q)) &&
     (f.signal === "all"
       || (f.signal === "soft" && card.soft)
       || (f.signal === "hot" && card.hot)
@@ -393,7 +410,9 @@ Promise.all([
   fetch('supergenres.json?_=' + Date.now()).then(r => r.json()).catch(() => ({ genres: [] })),
 ])
   .then(([data, catalog]) => {
-    GAMES = applySupergenres(data.games || [], catalog || { genres: [] });
+    const boardCatalog = catalog || { genres: [] };
+    loadTitleAliases(boardCatalog);
+    GAMES = applySupergenres(data.games || [], boardCatalog);
     HOT_IDS = hotAppIds(GAMES);
     const gameWord = GAMES.length === 1 ? "game" : "games";
     document.getElementById('meta').textContent =
