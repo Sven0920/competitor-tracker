@@ -47,6 +47,7 @@
   .tag.hot{color:#fff;background:#ea580c}
   .tag.pre{color:#fff;background:#7c3aed}
   .tag.back{color:#3f3f46;background:#e4e4e7}
+  .tag.super{color:#1e3a8a;background:#dbeafe}
   .sectionhead{font-size:15px;font-weight:700;margin:8px 0 12px}
   .genre{font-size:12px;color:#6b21a8;background:#f3e8ff;padding:2px 8px;border-radius:6px}
   .vel{color:#ea580c;font-weight:600}
@@ -78,6 +79,7 @@
     </div>
     <select id="devSel"><option value="all">All developers</option></select>
     <select id="genreSel"><option value="all">All genres</option></select>
+    <select id="superSel"><option value="all">All supergenres</option></select>
     <select id="signalSel">
       <option value="all">All signals</option>
       <option value="soft">🔥 Soft launch</option>
@@ -112,7 +114,7 @@
 <script>
 var GAMES = [];
 var HOT_IDS = new Set();
-var filter = { plat:"all", dev:"all", genre:"all", signal:"all", age:"all", q:"", sort:"found_desc" };
+var filter = { plat:"all", dev:"all", genre:"all", super:"all", signal:"all", age:"all", q:"", sort:"found_desc" };
 
 // Release dates: ISO ("2026-08-19") is UTC, US-style ("Aug 19, 2026") is local.
 // Normalize both to a UTC calendar day so the same iOS and Android date match.
@@ -144,6 +146,22 @@ function hasUs(g){
 function normName(s){
   return String(s||"").trim().toLowerCase().replace(/\s+/g, " ");
 }
+function normTitle(s){
+  return normName(s).replace(/[!！]+$/g, "").trim();
+}
+function applySupergenres(games, catalog){
+  const rules = ((catalog && catalog.genres) || []).map(g => ({
+    name: g.name,
+    titles: new Set((g.titles || []).map(normTitle)),
+    ids: new Set((g.app_ids || []).map(id => String(id))),
+  })).filter(g => g.name);
+  for(const game of games || []){
+    const title = normTitle(game.name);
+    const id = String(game.app_id || "");
+    game.supergenres = [...new Set(rules.filter(r => r.ids.has(id) || r.titles.has(title)).map(r => r.name))];
+  }
+  return games || [];
+}
 function hotAppIds(games){
   const ranked = (games||[])
     .filter(g => g.platform === "Android" && (g.velocity||0) > 0)
@@ -160,6 +178,7 @@ function makeCard(sides){
     sides,
     found_date: sides.map(s => s.found_date||"").sort().pop() || "",
     genres: [...new Set(sides.map(s => s.genre).filter(Boolean))],
+    supergenres: [...new Set(sides.flatMap(s => s.supergenres || []))],
     backfill: sides.every(isBackfill),
     preorder: sides.some(isPreorder),
     hot: sides.some(s => HOT_IDS.has(s.app_id)),
@@ -206,6 +225,7 @@ function cardMatches(card, f, now){
   return (f.plat === "all" || card.sides.some(s => s.platform === f.plat)) &&
     (f.dev === "all" || card.developer === f.dev) &&
     (f.genre === "all" || card.sides.some(s => (s.genre||"") === f.genre)) &&
+    (!f.super || f.super === "all" || (card.supergenres||[]).includes(f.super)) &&
     (!q || normName(card.name).includes(q) || normName(card.developer).includes(q)) &&
     (f.signal === "all"
       || (f.signal === "soft" && card.soft)
@@ -274,6 +294,7 @@ function gameCard(card){
           ${platTags}
           <span class="dev">${esc(card.developer)}</span>
           ${card.genres.map(g => `<span class="genre">${esc(g)}</span>`).join("")}
+          ${(card.supergenres||[]).map(g => `<span class="tag super">${esc(g)}</span>`).join("")}
           ${card.hot ? '<span class="tag hot">🔥 Rising fast</span>' : ''}
           ${card.preorder ? '<span class="tag pre">🔜 Pre-order</span>' : ''}
           ${card.backfill ? '<span class="tag back">Backfill</span>' : ''}
@@ -345,6 +366,14 @@ function buildGenreOptions(){
   });
 }
 
+function buildSuperOptions(catalog){
+  const sel = document.getElementById('superSel');
+  const names = [...new Set(((catalog && catalog.genres) || []).map(g => g.name).filter(Boolean))];
+  names.forEach(name => {
+    const o = document.createElement('option'); o.value=name; o.textContent=name; sel.appendChild(o);
+  });
+}
+
 document.getElementById('platSeg').addEventListener('click', e => {
   if(e.target.tagName!=='BUTTON') return;
   [...e.currentTarget.children].forEach(b=>b.classList.remove('on'));
@@ -353,21 +382,25 @@ document.getElementById('platSeg').addEventListener('click', e => {
 });
 document.getElementById('devSel').addEventListener('change', e => { filter.dev = e.target.value; render(); });
 document.getElementById('genreSel').addEventListener('change', e => { filter.genre = e.target.value; render(); });
+document.getElementById('superSel').addEventListener('change', e => { filter.super = e.target.value; render(); });
 document.getElementById('signalSel').addEventListener('change', e => { filter.signal = e.target.value; render(); });
 document.getElementById('ageSel').addEventListener('change', e => { filter.age = e.target.value; render(); });
 document.getElementById('sortSel').addEventListener('change', e => { filter.sort = e.target.value; render(); });
 document.getElementById('search').addEventListener('input', e => { filter.q = e.target.value.toLowerCase().trim(); render(); });
 
-fetch('data.json?_=' + Date.now())
-  .then(r => r.json())
-  .then(data => {
-    GAMES = data.games || [];
+Promise.all([
+  fetch('data.json?_=' + Date.now()).then(r => r.json()),
+  fetch('supergenres.json?_=' + Date.now()).then(r => r.json()).catch(() => ({ genres: [] })),
+])
+  .then(([data, catalog]) => {
+    GAMES = applySupergenres(data.games || [], catalog || { genres: [] });
     HOT_IDS = hotAppIds(GAMES);
     const gameWord = GAMES.length === 1 ? "game" : "games";
     document.getElementById('meta').textContent =
       `Tracking · ${GAMES.length} new ${gameWord} in the last 120 days · Updated ${data.updated_at || "—"} (daily)`;
     buildDevOptions();
     buildGenreOptions();
+    buildSuperOptions(catalog);
     render();
   })
   .catch(() => {

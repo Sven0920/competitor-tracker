@@ -1,0 +1,27 @@
+{
+  "genres": [
+    {
+      "name": "3D Arrow",
+      "titles": [
+        "Cube Jam 3D!",
+        "Amaze Clear 3D: Arrow Cube",
+        "Amaze Clear 3D",
+        "Cube Way Out - Puzzle Escape",
+        "Shape Out - Arrow Puzzle Game",
+        "Arrow 3D Puzzle",
+        "Arrow Puzzle 3D - Arrows Out"
+      ],
+      "app_ids": [
+        "6822405897",
+        "com.oakever.amaze3d",
+        "6821832402",
+        "com.cube.arrows",
+        "6788392863",
+        "6799829610",
+        "com.tripledot.puzzlesort",
+        "6802246821",
+        "com.easybrain.arrow.puzzle3d"
+      ]
+    }
+  ]
+}

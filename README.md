@@ -26,12 +26,13 @@ Push the change. It takes effect on the next run. You can also run it now from *
 - `index.html` — web board (GitHub Pages)
 - `competitor_tracker.py` — scraper
 - `targets.csv` — watchlist
+- `supergenres.json` — manual gameplay groups for the Supergenres filter. Store categories stay as they are. Add a name under `titles`, and the store id under `app_ids` when the iOS and Android titles differ.
 - `competitor_list.json` — baseline of known games (maintained automatically)
 - `data.json` — recently found games (generated automatically)
 - `installs_history.json` — daily Android install snapshots used for 7-day growth (generated automatically)
 - `.github/workflows/tracker.yml` — daily scheduled job
 
 ## Board
-Icons, search by genre / developer / game name, and filters for soft launch, rising fast, pre-order, and days since release. Matching iOS and Android titles from the same developer collapse into one card. Android installs and 7-day growth are shown. **Rising fast** marks only that day's top 10 by 7-day growth, not a fixed 10,000-install cutoff. iOS rating counts and store screenshots are included, with Just released and Backfill groups. Watched regions are the core markets us/ph/au/ca/gb plus the soft-launch test markets tr/br/vn/id/mx.
+Icons, search by genre / developer / game name, a Supergenres filter for finer gameplay groups, and filters for soft launch, rising fast, pre-order, and days since release. The first Supergenre is **3D Arrow**. Matching iOS and Android titles from the same developer collapse into one card. Android installs and 7-day growth are shown. **Rising fast** marks only that day's top 10 by 7-day growth, not a fixed 10,000-install cutoff. iOS rating counts and store screenshots are included, with Just released and Backfill groups. Watched regions are the core markets us/ph/au/ca/gb plus the soft-launch test markets tr/br/vn/id/mx.
 
 > Google Play sometimes rate-limits cloud IPs, so one developer can be missed on a given day. iTunes is steadier. When the circuit opens or failures hit 8, the log records "Scrape incomplete" and names developers whose known games were not seen. That notice is not sent to Feishu. The script still exits successfully so a partial run does not throw away data already collected.

@@ -25,7 +25,7 @@ const sandbox = {
 vm.createContext(sandbox);
 vm.runInContext(script, sandbox);
 
-const { mergeGames, hotAppIds, cardMatches } = sandbox;
+const { mergeGames, hotAppIds, cardMatches, applySupergenres, gameCard } = sandbox;
 const HOT_RANK = 10;
 const base = { plat: "all", dev: "all", genre: "all", signal: "all", age: "all", q: "", sort: "found_desc" };
 
@@ -83,5 +83,25 @@ const sizeMarks = cardHtml.split("📦").length - 1;
 assert.strictEqual(sizeMarks, 1, "only the iOS side keeps a package-size line");
 assert.ok(cardHtml.includes("📥"));
 assert.ok(!cardHtml.includes("Varies with device"));
+
+const catalog = {
+  genres: [{
+    name: "3D Arrow",
+    titles: ["Cube Jam 3D!", "Amaze Clear 3D: Arrow Cube", "Amaze Clear 3D"],
+    app_ids: ["com.oakever.amaze3d"],
+  }],
+};
+const tagged = applySupergenres([
+  { app_id: "1", platform: "iOS", developer: "Grand Games", name: "Cube Jam 3D!", genre: "Casual" },
+  { app_id: "com.oakever.amaze3d", platform: "Android", developer: "Learnings", name: "Amaze Clear 3D: Arrow Cube", genre: "Puzzle" },
+  { app_id: "2", platform: "iOS", developer: "Learnings", name: "Amaze Clear 3D", genre: "Casual" },
+  { app_id: "3", platform: "Android", developer: "Other", name: "Arrow Jam!", genre: "Puzzle" },
+], catalog);
+assert.strictEqual(JSON.stringify(tagged.map(g => g.supergenres)), JSON.stringify([["3D Arrow"], ["3D Arrow"], ["3D Arrow"], []]));
+const arrowCards = mergeGames(tagged);
+const cube = arrowCards.find(c => c.name.startsWith("Cube Jam"));
+assert.ok(gameCard(cube).includes("3D Arrow"));
+assert.strictEqual(arrowCards.filter(c => cardMatches(c, { ...base, super: "3D Arrow" }, now)).length, 3);
+assert.ok(!arrowCards.some(c => c.name === "Arrow Jam!" && cardMatches(c, { ...base, super: "3D Arrow" }, now)));
 
 console.log("board logic ok", cards.length, "cards");
