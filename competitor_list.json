@@ -33520,7 +33520,8 @@
         "name": "Mahjong Serenity - Match Pair",
         "regions": [
             "br",
-            "id"
+            "id",
+            "vn"
         ]
     },
     "com.rotatelab.cubeblast": {
@@ -35816,6 +35817,7 @@
         "name": "Shopping Empire",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "mx",
@@ -38428,6 +38430,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -38504,19 +38507,20 @@
     "dasi.prs2.lumberchopper": {
         "name": "Idle Lumber Chopper Empire Inc",
         "regions": [
-            "vn",
+            "br",
             "gb",
             "id",
-            "tr",
-            "ph",
             "mx",
-            "br"
+            "ph",
+            "tr",
+            "vn"
         ]
     },
     "com.mining.realmtycoon": {
         "name": "Goldvale Mines",
         "regions": [
             "au",
+            "br",
             "tr"
         ]
     },
@@ -49625,7 +49629,8 @@
         "name": "Worde - With No Daily Limit",
         "regions": [
             "id",
-            "mx"
+            "mx",
+            "vn"
         ]
     },
     "6798071755": {
@@ -50948,6 +50953,15 @@
     "com.CatpathStudios.JoustRun": {
         "name": "Joust Run",
         "regions": [
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -54326,6 +54340,7 @@
     "com.blockpuzzle.cat.gp.game": {
         "name": "PawBlock! - Sort Color Puzzle",
         "regions": [
+            "br",
             "id"
         ]
     },
@@ -54739,7 +54754,8 @@
         "name": "Ricochet Grove",
         "regions": [
             "id",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "com.abi.scoopy.loop": {
@@ -54904,16 +54920,16 @@
     "6788703912": {
         "name": "Undercooked: Cooking Game",
         "regions": [
-            "tr",
-            "br",
-            "gb",
-            "ph",
-            "vn",
-            "ca",
-            "us",
-            "id",
             "au",
-            "mx"
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.hitappsgames.factorysort": {
@@ -54925,9 +54941,9 @@
     "com.tripledot.slide3d": {
         "name": "Block Shift: Tap Out Puzzle",
         "regions": [
+            "au",
             "id",
-            "ph",
-            "au"
+            "ph"
         ]
     },
     "com.m521.global": {
@@ -54940,6 +54956,121 @@
         "name": "まふまふアラーム",
         "regions": [
             "br"
+        ]
+    },
+    "6826344584": {
+        "name": "War Factory: Merge & Battle",
+        "regions": [
+            "br",
+            "us"
+        ]
+    },
+    "com.abi.bustopia": {
+        "name": "Bustopia!",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "and.lhhpub.sand.drop.puzzle": {
+        "name": "Sand Drop Puzzle",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "and.lhhpub.farm.sweep": {
+        "name": "Farm Sweep: Black Hole Game",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "com.ig.bus.traffic.go": {
+        "name": "Bus Traffic Go!",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "vn",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "com.tripledot.bricksmash": {
+        "name": "Brick Smash",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "vn",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "com.tidy.fun.joygame": {
+        "name": "TidyFun - Pick & Match",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "vn",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "com.hole.frenzy.grow": {
+        "name": "Frenzy Hole: Hunt and Grow",
+        "regions": [
+            "br",
+            "au",
+            "us",
+            "vn",
+            "gb",
+            "ca",
+            "tr",
+            "mx",
+            "id",
+            "ph"
+        ]
+    },
+    "com.actionfit.escapetolove.mergecat.aos": {
+        "name": "Escape To Love : Merge Cat",
+        "regions": [
+            "vn"
         ]
     }
 }
