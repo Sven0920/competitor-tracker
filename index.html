@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,41 +68,41 @@
 <body>
 <div class="wrap">
   <h1 class="title">📡 New Game Radar</h1>
-  <p class="meta" id="meta">加载中…</p>
+  <p class="meta" id="meta">Loading…</p>
 
   <div class="bar">
     <div class="seg" id="platSeg">
-      <button data-p="all" class="on">全部</button>
+      <button data-p="all" class="on">All</button>
       <button data-p="iOS">🍎 iOS</button>
       <button data-p="Android">🤖 Android</button>
     </div>
-    <select id="devSel"><option value="all">全部厂商</option></select>
-    <select id="genreSel"><option value="all">全部品类</option></select>
+    <select id="devSel"><option value="all">All developers</option></select>
+    <select id="genreSel"><option value="all">All genres</option></select>
     <select id="signalSel">
-      <option value="all">全部信号</option>
-      <option value="soft">🔥 软启动</option>
-      <option value="hot">🔥 起量快</option>
-      <option value="pre">🔜 预售</option>
-      <option value="fresh">刚上架</option>
-      <option value="backfill">补录</option>
+      <option value="all">All signals</option>
+      <option value="soft">🔥 Soft launch</option>
+      <option value="hot">🔥 Rising fast</option>
+      <option value="pre">🔜 Pre-order</option>
+      <option value="fresh">Just released</option>
+      <option value="backfill">Backfill</option>
     </select>
     <select id="ageSel">
-      <option value="all">上架时间不限</option>
-      <option value="7">上架 7 天内</option>
-      <option value="14">上架 14 天内</option>
-      <option value="30">上架 30 天内</option>
-      <option value="90">上架 90 天内</option>
+      <option value="all">Any release date</option>
+      <option value="7">Released within 7 days</option>
+      <option value="14">Released within 14 days</option>
+      <option value="30">Released within 30 days</option>
+      <option value="90">Released within 90 days</option>
     </select>
     <select id="sortSel">
-      <option value="found_desc">最近发现 ↓</option>
-      <option value="velocity_desc">增速 ↓（7天装机）</option>
-      <option value="installs_desc">装机量 ↓（安卓）</option>
-      <option value="rel_desc">上架时间 ↓（新→旧）</option>
-      <option value="rel_asc">上架时间 ↑（旧→新）</option>
-      <option value="dev_az">厂商 A→Z</option>
-      <option value="name_az">游戏名 A→Z</option>
+      <option value="found_desc">Recently found</option>
+      <option value="velocity_desc">7-day installs</option>
+      <option value="installs_desc">Installs (Android)</option>
+      <option value="rel_desc">Release date (newest)</option>
+      <option value="rel_asc">Release date (oldest)</option>
+      <option value="dev_az">Developer A–Z</option>
+      <option value="name_az">Game name A–Z</option>
     </select>
-    <input id="search" type="search" placeholder="搜索游戏名或厂商…">
+    <input id="search" type="search" placeholder="Search game or developer…">
     <span class="count" id="count"></span>
   </div>
 
@@ -114,8 +114,8 @@ var GAMES = [];
 var HOT_IDS = new Set();
 var filter = { plat:"all", dev:"all", genre:"all", signal:"all", age:"all", q:"", sort:"found_desc" };
 
-// 上架日期解析：ISO("2026-08-19") 按 UTC、美式("Aug 19, 2026") 按本地时区，混排会产生 8 小时偏差
-// 统一归一到 UTC 的「日」，让同一天的 iOS / Android 真正等价
+// Release dates: ISO ("2026-08-19") is UTC, US-style ("Aug 19, 2026") is local.
+// Normalize both to a UTC calendar day so the same iOS and Android date match.
 const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
 function parseDay(s){
   s = String(s||"").trim();
@@ -128,8 +128,8 @@ function parseDay(s){
   return isNaN(t) ? null : t;
 }
 const isPreorder = g => { const t = parseDay(g.release_date); return t !== null && t > Date.now(); };
-const FRESH_DAYS = 30; // 和脚本里的 FRESH_PUSH_DAYS 对齐：发现时上架已超过这个天数就是补录
-const HOT_RANK = 10;    // 起量快 = 当天 7 日增速前 10，不再用固定 10000
+const FRESH_DAYS = 30; // Matches FRESH_PUSH_DAYS: older than this at discovery is backfill
+const HOT_RANK = 10;    // Rising fast = top 10 by 7-day install growth that day
 function isBackfill(g){
   if(typeof g.backfill === "boolean") return g.backfill;
   const rel = parseDay(g.release_date);
@@ -238,18 +238,18 @@ const esc = s => String(s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;',
 function regionTag(regions){
   const live = (regions||[]).map(r=>String(r).toLowerCase()).includes("us");
   return live
-    ? '<span class="tag live">✅ US 上架</span>'
-    : '<span class="tag soft">🔥 Soft Launch</span>';
+    ? '<span class="tag live">✅ Live in US</span>'
+    : '<span class="tag soft">🔥 Soft launch</span>';
 }
 
 function sideLine(g){
   const regions = esc((g.regions||[]).map(r=>String(r).toUpperCase()).join(", ") || "—");
   const stats = g.platform === "Android"
-    ? `📥 安装 <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7天 +${(g.velocity||0).toLocaleString()}</span>` : ""}`
-    : `⭐ 评分 <b>${(g.ratings||0).toLocaleString()}</b>`;
-  // 安卓包体几乎都是「因设备而异」，不再占一行。iOS 包体仍有用。
+    ? `📥 Installs <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7d +${(g.velocity||0).toLocaleString()}</span>` : ""}`
+    : `⭐ Ratings <b>${(g.ratings||0).toLocaleString()}</b>`;
+  // Android package size is almost always "varies by device", so it is omitted. iOS size stays.
   const size = g.platform === "Android" ? "" : ` &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>`;
-  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats}${size} &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 上架 <b>${esc(g.release_date||"—")}</b></div>`;
+  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats}${size} &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 Released <b>${esc(g.release_date||"—")}</b></div>`;
 }
 
 function gameCard(card){
@@ -274,15 +274,15 @@ function gameCard(card){
           ${platTags}
           <span class="dev">${esc(card.developer)}</span>
           ${card.genres.map(g => `<span class="genre">${esc(g)}</span>`).join("")}
-          ${card.hot ? '<span class="tag hot">🔥 起量快</span>' : ''}
-          ${card.preorder ? '<span class="tag pre">🔜 预售</span>' : ''}
-          ${card.backfill ? '<span class="tag back">补录</span>' : ''}
-          <span class="found">🔎 发现 ${esc(card.found_date||"—")}</span>
+          ${card.hot ? '<span class="tag hot">🔥 Rising fast</span>' : ''}
+          ${card.preorder ? '<span class="tag pre">🔜 Pre-order</span>' : ''}
+          ${card.backfill ? '<span class="tag back">Backfill</span>' : ''}
+          <span class="found">🔎 Found ${esc(card.found_date||"—")}</span>
         </div>
         <div class="g-name">${nameHtml}</div>
         ${links}
         ${card.sides.map(sideLine).join("")}
-        ${shots.length ? `<button class="shotbtn" onclick="this.nextElementSibling.classList.toggle('open')">🖼 截图 (${shots.length})</button>
+        ${shots.length ? `<button class="shotbtn" onclick="this.nextElementSibling.classList.toggle('open')">🖼 Screenshots (${shots.length})</button>
         <div class="shots">${shots.map(s=>`<img loading="lazy" src="${esc(s)}" alt="">`).join('')}</div>` : ''}
       </div>
     </div>`;
@@ -295,10 +295,10 @@ function visibleCards(){
 function render(){
   const list = document.getElementById('list');
   let rows = visibleCards();
-  document.getElementById('count').textContent = rows.length ? rows.length + " 张" : "";
+  document.getElementById('count').textContent = rows.length ? rows.length + (rows.length === 1 ? " game" : " games") : "";
 
   if(!rows.length){
-    list.innerHTML = '<div class="empty">😴 没有符合条件的新游</div>';
+    list.innerHTML = '<div class="empty">No games match these filters</div>';
     return;
   }
 
@@ -308,12 +308,12 @@ function render(){
     const groups = [];
     let last = null;
     for(const g of items){
-      const d = g.found_date || "未知日期";
+      const d = g.found_date || "Unknown date";
       if(d !== last){ groups.push({d, items:[]}); last = d; }
       groups[groups.length-1].items.push(g);
     }
     return groups.map(gr =>
-      `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} 张</div>${gr.items.map(gameCard).join("")}</div>`
+      `<div class="daygroup"><div class="dayhead">${esc(gr.d)} · ${gr.items.length} ${gr.items.length === 1 ? "game" : "games"}</div>${gr.items.map(gameCard).join("")}</div>`
     ).join("");
   }
 
@@ -321,8 +321,8 @@ function render(){
     const fresh = rows.filter(g => !g.backfill);
     const back = rows.filter(g => g.backfill);
     const parts = [];
-    if(fresh.length) parts.push(`<div class="sectionhead">刚上架 · ${fresh.length} 张</div>${dayGroups(fresh)}`);
-    if(back.length) parts.push(`<div class="sectionhead">补录 · ${back.length} 张</div>${dayGroups(back)}`);
+    if(fresh.length) parts.push(`<div class="sectionhead">Just released · ${fresh.length} ${fresh.length === 1 ? "game" : "games"}</div>${dayGroups(fresh)}`);
+    if(back.length) parts.push(`<div class="sectionhead">Backfill · ${back.length} ${back.length === 1 ? "game" : "games"}</div>${dayGroups(back)}`);
     list.innerHTML = parts.join("");
   } else {
     list.innerHTML = rows.map(gameCard).join("");
@@ -363,15 +363,16 @@ fetch('data.json?_=' + Date.now())
   .then(data => {
     GAMES = data.games || [];
     HOT_IDS = hotAppIds(GAMES);
+    const gameWord = GAMES.length === 1 ? "game" : "games";
     document.getElementById('meta').textContent =
-      `共监控中 · 最近 120 天发现 ${GAMES.length} 款新游 · 数据更新于 ${data.updated_at || "—"}（每天自动）`;
+      `Tracking · ${GAMES.length} new ${gameWord} in the last 120 days · Updated ${data.updated_at || "—"} (daily)`;
     buildDevOptions();
     buildGenreOptions();
     render();
   })
   .catch(() => {
-    document.getElementById('meta').textContent = '⚠️ 暂无数据（首次运行后会自动生成 data.json）';
-    document.getElementById('list').innerHTML = '<div class="empty">等待首次自动抓取…</div>';
+    document.getElementById('meta').textContent = '⚠️ No data yet. The first run creates data.json.';
+    document.getElementById('list').innerHTML = '<div class="empty">Waiting for the first automatic scrape…</div>';
   });
 </script>
 </body>

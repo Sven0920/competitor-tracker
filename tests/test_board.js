@@ -31,7 +31,7 @@ const base = { plat: "all", dev: "all", genre: "all", signal: "all", age: "all",
 
 const games = [
   { app_id: "ios1", platform: "iOS", developer: "Homa", name: "All in Hole", found_date: "2026-10-01", regions: ["us"], release_date: "2026-10-01", genre: "Puzzle", ratings: 10, url: "https://ios", backfill: false },
-  { app_id: "and1", platform: "Android", developer: "Homa", name: "All  in Hole", found_date: "2026-10-02", regions: ["tr"], release_date: "2026-10-02", genre: "Puzzle", installs: "1,000+", velocity: 100, url: "https://and", backfill: false },
+  { app_id: "and1", platform: "Android", developer: "Homa", name: "All  in Hole", found_date: "2026-10-02", regions: ["tr"], release_date: "2026-10-02", genre: "Puzzle", installs: "1,000+", velocity: 100, url: "https://and", size: "Varies with device", backfill: false },
   { app_id: "other", platform: "Android", developer: "Peak", name: "All in Hole", found_date: "2026-10-03", regions: ["us"], release_date: "2026-09-01", velocity: 50, backfill: true },
   { app_id: "pre", platform: "iOS", developer: "Peak", name: "Soon", found_date: "2026-10-09", regions: ["gb"], release_date: "2026-12-01", backfill: false },
 ];
@@ -82,6 +82,6 @@ const cardHtml = sandbox.gameCard(merged);
 const sizeMarks = cardHtml.split("📦").length - 1;
 assert.strictEqual(sizeMarks, 1, "only the iOS side keeps a package-size line");
 assert.ok(cardHtml.includes("📥"));
-assert.ok(!cardHtml.includes("因设备而异"));
+assert.ok(!cardHtml.includes("Varies with device"));
 
 console.log("board logic ok", cards.length, "cards");

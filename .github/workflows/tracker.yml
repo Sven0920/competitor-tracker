@@ -2,9 +2,9 @@ name: Daily Competitor Tracker
 
 on:
   schedule:
-    # GitHub 在整点 (:00) 最容易漏跑/延迟，所以避开整点。每天只跑一次。
-    - cron: '17 2 * * *'   # 每天 02:17 UTC ≈ 北京时间 10:17
-  workflow_dispatch:        # 也支持手动点一下立即跑
+    # GitHub is most likely to skip or delay a job that starts on the hour, so this stays off :00. Once a day.
+    - cron: '17 2 * * *'   # 02:17 UTC, about 10:17 China time
+  workflow_dispatch:        # Run it manually from the Actions tab
 
 permissions:
   contents: write
@@ -23,19 +23,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: 安装依赖
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: 抓取竞品新游
-        # 飞书推送已关闭。不要把 FEISHU_WEBHOOK 传进日常任务；仓库里的 secret 保留，但不使用。
-        # 抓取不完整时脚本仍要成功结束，后面的提交才能留下已经抓到的数据。
+      - name: Scrape new competitor games
+        # Feishu is off. Do not pass FEISHU_WEBHOOK into the daily job. The secret stays in the repo and is unused.
+        # An incomplete scrape must still succeed so the commit step can keep the data already collected.
         run: python competitor_tracker.py
 
-      - name: 提交结果
+      - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add competitor_list.json data.json installs_history.json
-          git diff --staged --quiet || git commit -m "data: 自动更新竞品新游 $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "data: update competitor games $(date -u +%Y-%m-%d)"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

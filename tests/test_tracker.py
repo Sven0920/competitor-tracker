@@ -1,4 +1,4 @@
-"""不访问 Google Play、iTunes 或飞书的单元测试。"""
+"""Unit tests that do not call Google Play, iTunes, or Feishu."""
 import json
 import os
 import tempfile
@@ -61,16 +61,16 @@ class RegionTrackingTest(unittest.TestCase):
         }])
         title = payload["card"]["header"]["title"]["content"]
         body = payload["card"]["elements"][0]["content"]
-        self.assertIn("地区扩大", title)
-        self.assertIn("新进 US", body)
-        self.assertNotIn("发现", title)
+        self.assertIn("expanded into core markets", title)
+        self.assertIn("New in US", body)
+        self.assertNotIn("Found", title)
 
     def test_no_feishu_post_without_webhook(self):
         os.environ.pop("FEISHU_WEBHOOK", None)
         self.assertFalse(ct.post_feishu({"msg_type": "text"}, "should-not-print"))
 
     def test_normal_run_does_not_call_feishu(self):
-        """日常任务即使带着 webhook，新品、地区扩大、抓取不完整都不发飞书。"""
+        """A normal run does not post new games, region expansions, or incomplete scrapes, even if a webhook is set."""
         self.assertIs(ct.FEISHU_PUSH_ENABLED, False)
         new_games = [{
             "developer": "Homa",
@@ -99,13 +99,13 @@ class RegionTrackingTest(unittest.TestCase):
 
 def _play_script(key, data):
     payload = json.dumps(data)
-    # 真实页面是 sideChannel: {}});  多一个 } 就匹配不上库里的正则
+    # A real page ends with sideChannel: {}}); one extra } misses the parser regex.
     suffix = "sideChannel: " + "{}}" + ");</script>"
     return f"<script>AF_initDataCallback({{key: '{key}', hash: '1', data:{payload}, {suffix}"
 
 
 def _wrapped_app(app_id, title, developer, icon="https://example/icon"):
-    # 首屏卡片外面还有一层列表，字段在内层：id 在 [0][0][0]
+    # First-page cards sit inside another list. The id is at [0][0][0].
     record = [None] * 15
     record[0] = [app_id]
     record[1] = [None, None, None, [None, None, icon]]
@@ -158,11 +158,11 @@ class IncompleteScrapeTest(unittest.TestCase):
         payload = ct.build_incomplete_payload(2, 8, True, missed)
         body = payload["card"]["elements"][0]["content"]
         title = payload["card"]["header"]["title"]["content"]
-        self.assertIn("今日抓取不完整", title)
+        self.assertIn("Scrape incomplete", title)
         self.assertIn("Peak", body)
         self.assertIn("Voodoo", body)
         self.assertNotIn("Homa", body)
-        self.assertIn("熔断", body)
+        self.assertIn("failure limit", body)
 
     def test_incomplete_alert_is_not_sent_without_webhook(self):
         os.environ.pop("FEISHU_WEBHOOK", None)
@@ -174,16 +174,17 @@ class FreshReleaseTest(unittest.TestCase):
         now = ct.datetime(2026, 10, 10, tzinfo=ct.timezone.utc)
         self.assertFalse(ct.is_backfill_release("2026-10-01", now=now))
         self.assertFalse(ct.is_backfill_release("Oct 20, 2026", now=now))
-        self.assertFalse(ct.is_backfill_release("2026-09-11", now=now))  # 正好 29 天
+        self.assertFalse(ct.is_backfill_release("2026-09-11", now=now))  # exactly 29 days
 
     def test_old_and_undated_are_backfill_but_ancient_stays_off_the_board(self):
         now = ct.datetime(2026, 10, 10, tzinfo=ct.timezone.utc)
         self.assertTrue(ct.is_backfill_release("2026-08-01", now=now))
         self.assertTrue(ct.is_backfill_release(None, now=now))
+        self.assertTrue(ct.is_backfill_release("Unknown date", now=now))
         self.assertTrue(ct.is_backfill_release("未知日期", now=now))
         self.assertTrue(ct.is_stale_release("2020-01-01"))
         self.assertFalse(ct.is_stale_release(None))
-        self.assertFalse(ct.is_stale_release("未知日期"))
+        self.assertFalse(ct.is_stale_release("Unknown date"))
 
     def test_feishu_skips_backfill(self):
         records = [
@@ -196,7 +197,7 @@ class FreshReleaseTest(unittest.TestCase):
         self.assertIn("New", body)
         self.assertNotIn("Old", body)
         self.assertNotIn("Undated", body)
-        self.assertIn("发现 1 款", payload["card"]["header"]["title"]["content"])
+        self.assertIn("Found 1 new", payload["card"]["header"]["title"]["content"])
         self.assertIsNone(ct.build_new_games_payload([records[1]]))
 
 
@@ -220,7 +221,7 @@ class StorePriceAndRatingsTest(unittest.TestCase):
         guard = ct.PlayGuard()
         with mock.patch.object(ct, "app", fake_app):
             _details, iap = ct.android_store_details("com.x", ["ph"], guard)
-        self.assertTrue(iap.startswith("非美国商店价"))
+        self.assertTrue(iap.startswith("Non-US store price"))
         self.assertIn("₱135.00", iap)
         self.assertEqual(guard.failed, 0)
 
@@ -264,8 +265,8 @@ class StorePriceAndRatingsTest(unittest.TestCase):
 
     def test_ios_rating_refresh_does_not_guess_iap(self):
         games = [
-            {"platform": "iOS", "app_id": "1", "ratings": 0, "iap_info": "未知"},
-            {"platform": "iOS", "app_id": "2", "ratings": 4, "iap_info": "未知"},
+            {"platform": "iOS", "app_id": "1", "ratings": 0, "iap_info": "Unknown"},
+            {"platform": "iOS", "app_id": "2", "ratings": 4, "iap_info": "Unknown"},
             {"platform": "Android", "app_id": "a", "ratings": 9, "iap_info": "$1"},
         ]
 
@@ -280,7 +281,7 @@ class StorePriceAndRatingsTest(unittest.TestCase):
         updated, failed = ct.refresh_ios_ratings(games, get=lambda url: Resp())
         self.assertEqual((updated, failed), (1, 0))
         self.assertEqual(games[0]["ratings"], 12)
-        self.assertEqual(games[0]["iap_info"], "未知")
+        self.assertEqual(games[0]["iap_info"], "Unknown")
         self.assertNotIn("features", games[0])
         self.assertEqual(games[1]["ratings"], 4)
         self.assertEqual(games[2]["iap_info"], "$1")

@@ -1,37 +1,37 @@
-# 📡 New Game Radar（竞品新游雷达）
+# 📡 New Game Radar
 
-每天自动抓取关注的开发者在 **App Store** 和 **Google Play** 有没有新游上线，结果展示在网页看板上，打开即看。
+Every day this checks whether watched developers shipped a new game on the **App Store** or **Google Play**, then shows the result on a web board.
 
-## 在线看板
+## Live board
 👉 https://sven0920.github.io/competitor-tracker/
 
-## 工作原理
-- **GitHub Actions** 每天北京时间约 10:17 自动运行 `competitor_tracker.py`（避开整点，降低 GitHub 漏跑概率；每日仅一次）。飞书推送已关闭，看板仍会更新
-- iOS 走 iTunes API（`sort=recent&limit=200`），Android 抓开发者自己的商店主页（翻页补全），打不开才退回搜索，和基准库 `competitor_list.json` 比对找出新游。Play 连续失败 8 次会停掉后面的请求，避免把后半段厂商扫空
-- 上架超过 180 天的旧作不会当新游推送，只补进基准库
-- 上架不超过 30 天的（含预售）记为刚上架。更老的、以及解析不出上架日期的，写入看板的「补录」分组。这些都不再推飞书
-- 已经在基准库里的游戏会继续合并商店地区（只增不减）。软启动新出现 us / gb / ca / au 时记为「地区扩大」，不当作新游，也不再推飞书
-- 新发现写入 `data.json` 并自动 commit，`index.html` 读取后展示（保留最近 120 天）
-- 看板里的安卓 7 天增速和内购价、iOS 评分数每天刷新。安卓内购固定向美国商店要价；没有美国上架时标成「非美国商店价」，不和美元混在一起。iOS 内购不从 features 猜测。安卓卡片不再显示包体（几乎都是「因设备而异」）。新品、地区扩大和抓取不完整都不再推飞书；`FEISHU_WEBHOOK` 仍留在仓库机密里，日常任务不读取
+## How it works
+- **GitHub Actions** runs `competitor_tracker.py` once a day at about 10:17 China time (02:17 UTC, off the hour so GitHub is less likely to skip it). Feishu alerts are off. The board still updates.
+- iOS uses the iTunes API (`sort=recent&limit=200`). Android opens each developer's own store page and follows pagination, and falls back to search only when that page cannot be opened. Results are compared with the baseline in `competitor_list.json`. After 8 Play failures in a row, later Play requests stop so the rest of the list is not wiped.
+- A title released more than 180 days ago is added to the baseline and is not treated as a new game.
+- A title released within 30 days, including pre-orders, is **Just released**. Older titles, and titles with no parseable release date, go in the **Backfill** group. Neither group is sent to Feishu.
+- Games already in the baseline keep gaining store regions. Regions are only added. A soft launch that newly appears in us / gb / ca / au is a **region expansion**, not a new game, and is not sent to Feishu.
+- New finds are written to `data.json` and committed. `index.html` reads that file and keeps the last 120 days.
+- The board refreshes Android 7-day install growth, Android IAP price, and iOS rating counts every day. Android IAP is priced from the US store. If there is no US listing, the price is marked **Non-US store price** so it is not mixed with US dollars. iOS IAP is not guessed from features. Android cards omit package size, which is almost always "varies by device". New games, region expansions, and incomplete scrapes are not sent to Feishu. `FEISHU_WEBHOOK` stays in the repository secrets and is not read by the daily job.
 
-## 改监控名单
-编辑 `targets.csv`，三列：`Developer,Android,iOS`
-- Developer：自定义厂商名（用于分组展示）
-- Android：Google Play 开发者名（用于打开该开发者的商店主页；主页抓不到时才按这个名字搜索）
-- iOS：App Store 的 artist/开发者 ID
+## Change the watchlist
+Edit `targets.csv`. Three columns: `Developer,Android,iOS`
+- Developer: the name used to group cards
+- Android: the Google Play developer name, used to open that developer's store page. Search uses this name only when the page cannot be scraped
+- iOS: the App Store artist / developer ID
 
-改完 push 即可，下次自动运行生效。也可在仓库 **Actions → Daily Competitor Tracker → Run workflow** 手动立即跑一次。
+Push the change. It takes effect on the next run. You can also run it now from **Actions → Daily Competitor Tracker → Run workflow**.
 
-## 文件
-- `index.html` — 网页看板（GitHub Pages）
-- `competitor_tracker.py` — 抓取脚本
-- `targets.csv` — 监控名单
-- `competitor_list.json` — 已知游戏基准库（自动维护）
-- `data.json` — 最近发现的新游（自动生成）
-- `installs_history.json` — 安卓装机量逐日快照，用于算 7 天增速（自动生成）
-- `.github/workflows/tracker.yml` — 每日定时任务
+## Files
+- `index.html` — web board (GitHub Pages)
+- `competitor_tracker.py` — scraper
+- `targets.csv` — watchlist
+- `competitor_list.json` — baseline of known games (maintained automatically)
+- `data.json` — recently found games (generated automatically)
+- `installs_history.json` — daily Android install snapshots used for 7-day growth (generated automatically)
+- `.github/workflows/tracker.yml` — daily scheduled job
 
-## 看板功能
-图标 · 品类 / 厂商 / 游戏名搜索 · 软启动、起量、预售、上架距今天数筛选 · 同名 iOS + Android 并成一张卡 · 安卓装机量与 7 天增速（🔥 起量快只标当天增速前 10，不再用固定 1 万）· iOS 评分数 · 商店截图预览 · 刚上架和补录分组。监控地区含 us/ph/au/ca/gb 主力市场 + tr/br/vn/id/mx 软启动测试市场。
+## Board
+Icons, search by genre / developer / game name, and filters for soft launch, rising fast, pre-order, and days since release. Matching iOS and Android titles from the same developer collapse into one card. Android installs and 7-day growth are shown. **Rising fast** marks only that day's top 10 by 7-day growth, not a fixed 10,000-install cutoff. iOS rating counts and store screenshots are included, with Just released and Backfill groups. Watched regions are the core markets us/ph/au/ca/gb plus the soft-launch test markets tr/br/vn/id/mx.
 
-> 说明：Google Play 在云端 IP 上偶尔会限流，个别厂商某天可能漏抓；iTunes 侧稳定。限流熔断或失败次数达到 8 次时，日志会记「今日抓取不完整」，并点名本轮一个已知游戏都没扫到的厂商。这条不再推飞书。脚本仍正常结束，避免半次失败把已有数据丢掉。
+> Google Play sometimes rate-limits cloud IPs, so one developer can be missed on a given day. iTunes is steadier. When the circuit opens or failures hit 8, the log records "Scrape incomplete" and names developers whose known games were not seen. That notice is not sent to Feishu. The script still exits successfully so a partial run does not throw away data already collected.

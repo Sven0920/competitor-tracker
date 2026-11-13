@@ -13,26 +13,45 @@ from google_play_scraper import search, app
 from google_play_scraper.exceptions import NotFoundError
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-HISTORY_FILE = os.path.join(SCRIPT_DIR, "competitor_list.json")   # 基准库：已知游戏，用于判定“新”
-TARGETS_FILE = os.path.join(SCRIPT_DIR, "targets.csv")            # 监控名单
-DATA_FILE = os.path.join(SCRIPT_DIR, "data.json")                # 给网页看板读的发现结果
-INSTALLS_HISTORY_FILE = os.path.join(SCRIPT_DIR, "installs_history.json")  # 安卓装机量逐日快照，用于算增速
+HISTORY_FILE = os.path.join(SCRIPT_DIR, "competitor_list.json")   # Known games, used to decide what is new
+TARGETS_FILE = os.path.join(SCRIPT_DIR, "targets.csv")            # Watchlist
+DATA_FILE = os.path.join(SCRIPT_DIR, "data.json")                # Discoveries shown on the board
+INSTALLS_HISTORY_FILE = os.path.join(SCRIPT_DIR, "installs_history.json")  # Daily Android install snapshots for growth
 
-# ================= 配置区 =================
-# us/ph/au/ca/gb 主力市场 + tr/br/vn/id/mx 常见软启动测试市场（更早抓到新品）
+# ================= Settings =================
+# us/ph/au/ca/gb are core markets. tr/br/vn/id/mx are common soft-launch test markets.
 TARGET_COUNTRIES = ["us", "ph", "au", "ca", "gb", "tr", "br", "vn", "id", "mx"]
-KEEP_DAYS = 120        # data.json 里保留最近多少天发现的新游
-SNAPSHOT_KEEP_DAYS = 35  # 装机量快照保留天数
-VELOCITY_WINDOW = 7    # 增速统计窗口（天）
-SHOTS_MAX = 4          # 每款最多存几张截图
-ITUNES_LIMIT = 200     # lookup 默认只返回 50 款，大厂会漏
-NEW_GAME_MAX_AGE_DAYS = 180  # 上架超过这个天数的，不当作新游推送（补进基准库）
-FRESH_PUSH_DAYS = 30          # 上架不超过这么多天的算刚上架；更老的进看板「补录」
-NEW_PUBLISHER_UNKNOWN_THRESHOLD = 8  # 一次扫到这么多未知游戏，才视为「新加厂商建库」
-PLAY_REFRESH_MAX_FAILS = 8   # 连续刷新失败这么多次，判定被限流，停止后续拉取
-CORE_MARKETS = {"us", "gb", "ca", "au"}  # 软启动进入这些主力市场时记一次地区扩大
-# 飞书总开关。必须是布尔 True 才会发。日常任务不要传 FEISHU_WEBHOOK，
-# 这里也保持 False，所以 secret 还在也不会在每天的运行里误发。
+KEEP_DAYS = 120        # How many days of discoveries to keep in data.json
+SNAPSHOT_KEEP_DAYS = 35  # How many days of install snapshots to keep
+VELOCITY_WINDOW = 7    # Install-growth window, in days
+SHOTS_MAX = 4          # Screenshots stored per game
+ITUNES_LIMIT = 200     # lookup returns 50 by default, which misses large catalogs
+NEW_GAME_MAX_AGE_DAYS = 180  # Older releases are added to the baseline and skipped
+FRESH_PUSH_DAYS = 30          # At most this old (including pre-orders) counts as just released; older goes to Backfill
+NEW_PUBLISHER_UNKNOWN_THRESHOLD = 8  # This many unknown games in one pass means a newly added developer
+PLAY_REFRESH_MAX_FAILS = 8   # Stop further Play requests after this many consecutive failures
+CORE_MARKETS = {"us", "gb", "ca", "au"}  # Entering one of these from a soft launch is a region expansion
+# Feishu master switch. Messages send only when this is the boolean True.
+# The daily job must not pass FEISHU_WEBHOOK. Leave this False so a stored secret cannot fire by accident.
+UNKNOWN = "Unknown"
+UNKNOWN_DATE = "Unknown date"
+UNKNOWN_SIZE = "Unknown size"
+NO_IAP = "No IAP"
+VARIES_WITH_DEVICE = "Varies with device"
+NON_US_PRICE_MARK = "Non-US store price"
+UNKNOWN_DEVELOPER = "Unknown developer"
+PLACEHOLDER_NAMES = {"未知", UNKNOWN}
+BLANK_RELEASE_DATES = {"未知日期", "未知", UNKNOWN_DATE, UNKNOWN}
+LEGACY_IAP = {"支持内购", "未见明细"}
+_LABEL_MAP = {
+    "未知": UNKNOWN,
+    "未知日期": UNKNOWN_DATE,
+    "未知大小": UNKNOWN_SIZE,
+    "因设备而异": VARIES_WITH_DEVICE,
+    "无内购": NO_IAP,
+    "支持内购": UNKNOWN,
+    "未见明细": UNKNOWN,
+}
 FEISHU_PUSH_ENABLED = False
 CN_TZ = timezone(timedelta(hours=8))
 ITUNES_HEADERS = {"User-Agent": "competitor-tracker/1.0"}
@@ -45,10 +64,32 @@ def now_cn(fmt):
     return datetime.now(timezone.utc).astimezone(CN_TZ).strftime(fmt)
 
 
+def english_label(value):
+    """Map stored Chinese labels to English. Store titles and prices pass through."""
+    if not isinstance(value, str):
+        return value
+    text = value.strip()
+    if text in _LABEL_MAP:
+        return _LABEL_MAP[text]
+    legacy = "非美国商店价"
+    if text.startswith(legacy):
+        rest = text[len(legacy):].lstrip(" ·")
+        return f"{NON_US_PRICE_MARK} · {rest}" if rest else NON_US_PRICE_MARK
+    if text.startswith(NON_US_PRICE_MARK):
+        return text
+    return value
+
+
+def normalize_game_labels(game):
+    for key in ("name", "size", "iap_info", "release_date"):
+        if key in game:
+            game[key] = english_label(game[key])
+
+
 def parse_release_day(s):
-    """把 iOS ISO 日期和 Android 美式日期都解析成 UTC 当天 00:00。解析不了返回 None。"""
+    """Parse an iOS ISO date or an Android US-style date to 00:00 UTC. None if it cannot be parsed."""
     s = str(s or "").strip()
-    if not s or s in ("未知日期", "未知"):
+    if not s or s in BLANK_RELEASE_DATES:
         return None
     m = re.match(r"^(\d{4})-(\d{1,2})-(\d{1,2})", s)
     if m:
@@ -60,7 +101,7 @@ def parse_release_day(s):
 
 
 def release_age_days(s, now=None):
-    """上架距 now 的天数。解析不了返回 None；预售是负数。"""
+    """Days since release. None if the date cannot be parsed. Pre-orders are negative."""
     d = parse_release_day(s)
     if d is None:
         return None
@@ -76,7 +117,7 @@ def is_stale_release(s, max_age=NEW_GAME_MAX_AGE_DAYS):
 
 
 def is_backfill_release(s, now=None):
-    """没有可解析的上架日，或已经超过新鲜窗口。预售算刚上架。"""
+    """True when the release date is missing or older than the fresh window. Pre-orders count as just released."""
     age = release_age_days(s, now=now)
     if age is None:
         return True
@@ -84,7 +125,7 @@ def is_backfill_release(s, now=None):
 
 
 def preferred_country(regions):
-    """详情请求优先用 us，避免内购价格变成土耳其里拉 / 越南盾。"""
+    """Prefer the US store for detail requests so IAP prices are not shown in lira or dong."""
     regs = [str(x).lower() for x in (regions or [])]
     for c in TARGET_COUNTRIES:
         if c in regs:
@@ -93,7 +134,7 @@ def preferred_country(regions):
 
 
 def note_known_sighting(sightings, app_id, country, platform, name, url, developer):
-    """已入库游戏本轮又被扫到：记下国家，供后面合并地区。"""
+    """A known game seen again this run. Record the country for the region merge."""
     slot = sightings.setdefault(app_id, {
         "regions": set(),
         "platform": platform,
@@ -103,7 +144,7 @@ def note_known_sighting(sightings, app_id, country, platform, name, url, develop
     })
     if country:
         slot["regions"].add(str(country).lower())
-    if name and name not in ("未知",):
+    if name and name not in PLACEHOLDER_NAMES:
         slot["name"] = name
     if url:
         slot["url"] = url
@@ -113,10 +154,10 @@ def note_known_sighting(sightings, app_id, country, platform, name, url, develop
 
 
 def apply_region_sightings(known_games, sightings):
-    """把本轮看到的地区并进基准库。只增不减，半次失败不会把已有地区抹掉。
+    """Merge regions seen this run into the baseline. Regions are only added, so a partial failure cannot erase them.
 
-    新出现 us / gb / ca / au 时记成「地区扩大」，不当作新游。
-    返回 (expansions, region_updates)。
+    A newly seen us / gb / ca / au is a region expansion, not a new game.
+    Returns (expansions, region_updates).
     """
     expansions = []
     updates = {}
@@ -129,7 +170,7 @@ def apply_region_sightings(known_games, sightings):
         merged = prev | now
         new_core = sorted((now - prev) & CORE_MARKETS)
         entry["regions"] = sorted(merged)
-        if seen.get("name") and entry.get("name") in (None, "", "未知"):
+        if seen.get("name") and entry.get("name") in (None, "", *PLACEHOLDER_NAMES):
             entry["name"] = seen["name"]
         updates[app_id] = list(entry["regions"])
         if new_core:
@@ -146,7 +187,7 @@ def apply_region_sightings(known_games, sightings):
 
 
 def apply_region_updates(games, updates):
-    """看板上已有的卡片同步最新地区，软启动标签才会跟着变。"""
+    """Copy the latest regions onto board cards so the soft-launch tag stays current."""
     if not updates:
         return
     for g in games:
@@ -174,16 +215,16 @@ DEV_MAX_PAGES = 20
 _SCRIPT_RE = re.compile(r"AF_initDataCallback[\s\S]*?</script")
 _KEY_RE = re.compile(r"(ds:.*?)'")
 _VALUE_RE = re.compile(r"data:([\s\S]*?), sideChannel: {}}\);<\/")
-# 翻页请求里 Play 用来挑字段的固定下标，和开发者页「查看更多」同一套
+# Fixed field indexes Play uses for pagination, the same set as the developer page "See more" request
 _CLUSTER_FIELDS = [96, 27, 4, 8, 57, 30, 110, 79, 11, 16, 49, 1, 3, 9, 12, 104, 55, 56, 51, 10, 34, 77]
 
 
 class PlayStopped(Exception):
-    """熔断已打开，调用方应停手并保留已有数据。"""
+    """The circuit is open. Callers should stop and keep the data they already have."""
 
 
 class PlayGuard:
-    """连续失败达到 PLAY_REFRESH_MAX_FAILS 后停止后续 Play 请求。"""
+    """Stop further Play requests after PLAY_REFRESH_MAX_FAILS consecutive failures."""
 
     def __init__(self, max_fails=PLAY_REFRESH_MAX_FAILS):
         self.max_fails = max_fails
@@ -202,7 +243,7 @@ class PlayGuard:
         self.failed += 1
         if self.consecutive >= self.max_fails and not self.tripped:
             self.tripped = True
-            print("  [!] Google Play 连续失败，停止后续 Play 请求（沿用已有数据）")
+            print("  [!] Google Play failed repeatedly. Stopping further Play requests and keeping existing data.")
 
     def call(self, fn):
         if self.tripped:
@@ -254,7 +295,7 @@ def _package_name(value):
 
 
 def parse_catalog_app(node):
-    """开发者页首屏卡片和搜索卡片同结构；翻页接口是另一套扁平结构。"""
+    """First-page developer cards match search cards. Pagination uses a flatter shape."""
     app_id = _package_name(dig(node, [0, 0, 0]))
     title = dig(node, [0, 3])
     developer = dig(node, [0, 14])
@@ -280,13 +321,13 @@ def parse_catalog_app(node):
 
 
 def parse_developer_page(html):
-    """从开发者商店主页取出本页应用和翻页 token。解析不到返回空列表。"""
+    """Read this page of apps and the next-page token from a developer store page. Empty list if parsing fails."""
     ds = parse_play_dataset(html).get("ds:3")
     if ds is None:
         return [], None
     for apps_path, token_path in (
-        ([0, 1, 0, 22, 0], [0, 1, 0, 22, 1, 3, 1]),  # /store/apps/developer?id=名字
-        ([0, 1, 0, 21, 0], [0, 1, 0, 21, 1, 3, 1]),  # /store/apps/dev?id=数字
+        ([0, 1, 0, 22, 0], [0, 1, 0, 22, 1, 3, 1]),  # /store/apps/developer?id=name
+        ([0, 1, 0, 21, 0], [0, 1, 0, 21, 1, 3, 1]),  # /store/apps/dev?id=numeric
     ):
         raw_apps = dig(ds, apps_path)
         if not isinstance(raw_apps, list) or not raw_apps:
@@ -378,7 +419,7 @@ def http_post(url, body):
 
 
 def fetch_developer_catalog(dev_name, country, guard, get=None, post=None):
-    """抓开发者商店主页并翻页补全。请求失败抛异常；页面正常但没有应用则返回空列表。"""
+    """Load a developer store page and follow pagination. A failed request raises. A valid empty page returns []."""
     getter = get or (lambda url: with_retry(lambda: http_get(url)))
     poster = post or (lambda url, body: with_retry(lambda: http_post(url, body)))
     html = guard.call(lambda: getter(developer_page_url(dev_name, country)))
@@ -394,7 +435,7 @@ def fetch_developer_catalog(dev_name, country, guard, get=None, post=None):
         except PlayStopped:
             break
         except Exception as e:
-            print(f"  [!] 开发者页翻页失败 {dev_name} {country}: {e}")
+            print(f"  [!] Developer page pagination failed for {dev_name} {country}: {e}")
             break
         more, token = parse_developer_pagination(raw)
         if not more:
@@ -408,7 +449,7 @@ def fetch_developer_catalog(dev_name, country, guard, get=None, post=None):
 
 
 def search_fallback_apps(dev_name, country, guard, search_fn=None):
-    """搜索只做兜底，仍用开发者名子串挡住短名字串台。"""
+    """Search is only a fallback. A developer-name substring filter blocks short-name collisions."""
     def default_search(name, store_country):
         return with_retry(lambda: search(name, lang="en", country=store_country, n_hits=60))
 
@@ -423,7 +464,7 @@ def search_fallback_apps(dev_name, country, guard, search_fn=None):
             continue
         kept.append({
             "appId": game.get("appId"),
-            "title": game.get("title") or "未知",
+            "title": game.get("title") or UNKNOWN,
             "developer": game_dev,
             "icon": game.get("icon") or "",
         })
@@ -431,7 +472,7 @@ def search_fallback_apps(dev_name, country, guard, search_fn=None):
 
 
 def android_apps_for_country(dev_name, country, guard, search_fn=None, get=None, post=None):
-    """先抓该开发者自己的商店列表；主页没有或打不开时才搜索。"""
+    """Use the developer's own store list first. Search only when that page is empty or unreachable."""
     if not guard.allow():
         raise PlayStopped("Google Play circuit open")
     try:
@@ -439,13 +480,13 @@ def android_apps_for_country(dev_name, country, guard, search_fn=None, get=None,
     except PlayStopped:
         raise
     except Exception as e:
-        print(f"  [!] 开发者页抓取失败 {dev_name} {country}: {e}")
+        print(f"  [!] Developer page fetch failed for {dev_name} {country}: {e}")
         catalog = []
     if catalog:
         return catalog, "developer"
     if not guard.allow():
         raise PlayStopped("Google Play circuit open")
-    print(f"  [i] Android 开发者页无结果，改用搜索兜底: {dev_name} {country}")
+    print(f"  [i] Android developer page had no results. Falling back to search: {dev_name} {country}")
     try:
         return search_fallback_apps(dev_name, country, guard, search_fn=search_fn), "search"
     except PlayStopped:
@@ -455,7 +496,7 @@ def android_apps_for_country(dev_name, country, guard, search_fn=None, get=None,
 def fetch_target_developers():
     targets = {}
     if not os.path.exists(TARGETS_FILE):
-        print(f"  [!] 未找到本地名单: {TARGETS_FILE}")
+        print(f"  [!] Watchlist not found: {TARGETS_FILE}")
         return targets
     try:
         with open(TARGETS_FILE, "r", encoding="utf-8-sig") as f:
@@ -474,9 +515,9 @@ def fetch_target_developers():
                         targets[custom_dev_name]["android"].append(android_id)
                     if ios_id and ios_id not in targets[custom_dev_name]["ios"]:
                         targets[custom_dev_name]["ios"].append(ios_id)
-        print(f"  [√] 名单加载成功！当前共监控 {len(targets)} 个独立厂商主体。")
+        print(f"  [√] Watchlist loaded. Tracking {len(targets)} developers.")
     except Exception as e:
-        print(f"  [x] 读取本地 CSV 失败: {e}")
+        print(f"  [x] Failed to read the local CSV: {e}")
     return targets
 
 def load_history():
@@ -490,7 +531,7 @@ def save_history(history_dict):
         json.dump(history_dict, f, indent=4, ensure_ascii=False)
 
 def ios_genre(game):
-    # iTunes 的 genres 形如 ['Games','Casual','Puzzle']，取后面更具体的子类
+    # iTunes genres look like ['Games','Casual','Puzzle']. Prefer the more specific later label.
     for g in (game.get("genres") or []):
         if g not in ("Games", "Entertainment"):
             return g
@@ -500,7 +541,7 @@ def bytes_to_mb(bytes_size):
     try:
         return f"{round(int(bytes_size) / (1024 * 1024), 1)} MB"
     except (TypeError, ValueError):
-        return "未知大小"
+        return UNKNOWN_SIZE
 
 def load_data():
     if os.path.exists(DATA_FILE):
@@ -512,7 +553,7 @@ def load_data():
     return {"updated_at": None, "games": []}
 
 def save_data(found_records, region_updates=None, play_guard=None):
-    """把本次发现的新游合并进 data.json（按 app_id 去重，保留最近 KEEP_DAYS 天）。"""
+    """Merge this run's new games into data.json. Deduplicate by app_id and keep the last KEEP_DAYS."""
     today = now_cn("%Y-%m-%d")
     data = load_data()
     existing_ids = {g.get("app_id") for g in data["games"]}
@@ -521,17 +562,18 @@ def save_data(found_records, region_updates=None, play_guard=None):
             rec["found_date"] = today
             data["games"].append(rec)
             existing_ids.add(rec["app_id"])
-    # iTunes lookup 的 features 不是内购字段，历史「支持内购」会误导
+    # iTunes lookup "features" is not an IAP field. Older guessed labels are cleared.
     for g in data["games"]:
-        if g.get("platform") == "iOS" and g.get("iap_info") in ("支持内购", "未见明细"):
-            g["iap_info"] = "未知"
+        normalize_game_labels(g)
+        if g.get("platform") == "iOS" and g.get("iap_info") in LEGACY_IAP:
+            g["iap_info"] = UNKNOWN
     apply_region_updates(data["games"], region_updates)
-    # 裁掉太旧的发现记录（日期按北京时间，和 found_date 对齐）
+    # Drop discoveries older than the window. Dates use China time, matching found_date.
     cutoff = (datetime.now(CN_TZ) - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     data["games"] = [g for g in data["games"] if g.get("found_date", "") >= cutoff]
     data["games"].sort(key=lambda g: g.get("found_date", ""), reverse=True)
     data["updated_at"] = now_cn("%Y-%m-%d %H:%M")
-    update_velocity(data, play_guard)   # 刷新安卓装机量并算增速
+    update_velocity(data, play_guard)   # Refresh Android installs and compute growth
     _, rating_fails = refresh_ios_ratings(data["games"])
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
@@ -546,12 +588,9 @@ def _load_snapshots():
             pass
     return {}
 
-NON_US_PRICE_MARK = "非美国商店价"
-
-
 def format_iap(price, us_listing):
-    """美国商店价原样保留。确认没有美国上架时，标成非美国商店价，不把比索当成美元。"""
-    text = str(price or "无内购").strip()
+    """Keep a US store price as returned. If there is no US listing, mark it so a peso price is not read as dollars."""
+    text = english_label(str(price or NO_IAP).strip())
     if us_listing:
         return text
     if text.startswith(NON_US_PRICE_MARK):
@@ -560,9 +599,9 @@ def format_iap(price, us_listing):
 
 
 def android_store_details(app_id, regions, guard):
-    """详情和内购价优先向 us 要。us 没有这条上架时，用已看到的地区并标明不是美元。
+    """Ask the US store first for details and the IAP price. If it is not listed there, use a seen region and mark the price as non-US.
 
-    请求失败返回 None，调用方保留原来的装机量和价格。商店 404 不计入熔断。
+    A failed request returns None so the caller keeps the previous installs and price. A store 404 does not trip the circuit.
     """
     if not guard.allow():
         raise PlayStopped("Google Play circuit open")
@@ -595,11 +634,11 @@ def android_store_details(app_id, regions, guard):
     price = local.get("inAppProductPrice")
     if us_missing:
         price = format_iap(price, False)
-    return local, price or "无内购"
+    return local, price or NO_IAP
 
 
 def refresh_ios_ratings(games, get=None):
-    """每天批量刷新 iOS 评分数。失败保留原值。不从 features 猜内购。"""
+    """Refresh iOS rating counts in batches. Keep the previous value on failure. Do not guess IAP from features."""
     getter = get or (lambda url: requests.get(url, headers=ITUNES_HEADERS, timeout=20))
     ios = [g for g in games if g.get("platform") == "iOS" and g.get("app_id")]
     updated, failed = 0, 0
@@ -613,7 +652,7 @@ def refresh_ios_ratings(games, get=None):
             results = payload.get("results", []) if isinstance(payload, dict) else []
         except Exception as e:
             failed += 1
-            print(f"  [!] iOS 评分刷新失败: {e}")
+            print(f"  [!] iOS rating refresh failed: {e}")
             continue
         by_id = {str(row.get("trackId")): row for row in results if row.get("trackId") is not None}
         for g in chunk:
@@ -622,12 +661,12 @@ def refresh_ios_ratings(games, get=None):
                 continue
             g["ratings"] = hit.get("userRatingCount") or 0
             updated += 1
-    print(f"  [√] iOS 评分刷新 {updated} 款，失败 {failed} 批")
+    print(f"  [√] Refreshed iOS ratings for {updated} games. Failed batches: {failed}.")
     return updated, failed
 
 
 def update_velocity(data, play_guard=None):
-    """每天重新拉取安卓 realInstalls，写入快照后计算最近 VELOCITY_WINDOW 天增量。"""
+    """Re-fetch Android realInstalls, store a snapshot, then compute growth over VELOCITY_WINDOW days."""
     today = now_cn("%Y-%m-%d")
     snaps = _load_snapshots()
     now = datetime.now(CN_TZ)
@@ -648,11 +687,11 @@ def update_velocity(data, play_guard=None):
             except Exception as e:
                 loaded = None
                 failed += 1
-                print(f"  [!] 装机量刷新失败 {app_id}: {e}")
+                print(f"  [!] Install refresh failed for {app_id}: {e}")
             else:
                 if loaded is None:
                     failed += 1
-                    print(f"  [!] 装机量刷新失败 {app_id}: 没有可用的商店详情")
+                    print(f"  [!] Install refresh failed for {app_id}: no store details available")
                 else:
                     d, iap = loaded
                     cur = d.get("realInstalls", 0) or 0
@@ -674,14 +713,14 @@ def update_velocity(data, play_guard=None):
             if s["d"] <= win_start:
                 base = s["v"]
         if base is None and series:
-            base = series[0]["v"]   # 历史不足窗口长度时，用最早一条
+            base = series[0]["v"]   # Shorter history uses the earliest snapshot
         g["velocity"] = max(0, cur - base) if base is not None else 0
 
     live_ids = {g["app_id"] for g in games}
     snaps = {k: v for k, v in snaps.items() if k in live_ids}
     with open(INSTALLS_HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(snaps, f, ensure_ascii=False)
-    print(f"  [√] 装机量刷新 {refreshed} 款，失败 {failed} 款")
+    print(f"  [√] Refreshed installs for {refreshed} games. Failed: {failed}.")
 
 def _feishu_card(title, body, template="blue"):
     return {
@@ -692,7 +731,7 @@ def _feishu_card(title, body, template="blue"):
             "elements": [
                 {"tag": "markdown", "content": body},
                 {"tag": "hr"},
-                {"tag": "note", "elements": [{"tag": "lark_md", "content": "完整看板 → https://sven0920.github.io/competitor-tracker/"}]},
+                {"tag": "note", "elements": [{"tag": "lark_md", "content": "Full board → https://sven0920.github.io/competitor-tracker/"}]},
             ],
         },
     }
@@ -701,7 +740,7 @@ def _feishu_card(title, body, template="blue"):
 def _group_lines(records, line_for):
     groups = {}
     for r in records:
-        groups.setdefault(r.get("developer") or "未知厂商", []).append(r)
+        groups.setdefault(r.get("developer") or UNKNOWN_DEVELOPER, []).append(r)
     lines = []
     for dev, games in groups.items():
         lines.append(f"**🏢 {dev}**")
@@ -712,7 +751,7 @@ def _group_lines(records, line_for):
 
 
 def pushable_new_games(found_records):
-    """飞书只推刚上架。补录留在看板上。"""
+    """Feishu only includes just-released games. Backfill stays on the board."""
     return [r for r in (found_records or []) if not r.get("backfill")]
 
 
@@ -730,12 +769,12 @@ def build_new_games_payload(found_records):
         return f"{plat} [{g['name']}]({g['url']}){genre} · {regions} {tag}"
 
     body = _group_lines(found_records, line_for)
-    title = f"🎯 New Game Radar · 发现 {len(found_records)} 款新游（{now_cn('%m/%d')}）"
+    title = f"🎯 New Game Radar · Found {len(found_records)} new game(s) ({now_cn('%m/%d')})"
     return _feishu_card(title, body, "blue")
 
 
 def build_region_expansion_payload(records):
-    """已入库游戏新进入主力市场。单独一条，不和「发现新游」混在一起。"""
+    """Known games that newly entered a core market. Sent on its own, separate from new-game alerts."""
     if not records:
         return None
     shown = records[:40]
@@ -745,17 +784,17 @@ def build_region_expansion_payload(records):
         plat = "🍎" if g.get("platform") == "iOS" else "🤖"
         new_core = ", ".join(x.upper() for x in (g.get("new_core") or []))
         regions = ", ".join(x.upper() for x in (g.get("regions") or []))
-        return f"{plat} [{g['name']}]({g['url']}) · 新进 {new_core} · 现有 {regions}"
+        return f"{plat} [{g['name']}]({g['url']}) · New in {new_core} · Now in {regions}"
 
     body = _group_lines(shown, line_for)
     if extra:
-        body += f"\n\n另有 {extra} 款，地区已写入基准库。"
-    title = f"🌍 New Game Radar · 地区扩大 {len(records)} 款进入主力市场（{now_cn('%m/%d')}）"
+        body += f"\n\n{extra} more title(s) had their regions written to the baseline."
+    title = f"🌍 New Game Radar · {len(records)} title(s) expanded into core markets ({now_cn('%m/%d')})"
     return _feishu_card(title, body, "orange")
 
 
 def post_feishu(payload, ok_message):
-    """飞书推送。总开关关闭时直接返回，不读 webhook，也不发请求。"""
+    """Post to Feishu. When the master switch is off, return without reading the webhook or sending a request."""
     if FEISHU_PUSH_ENABLED is not True:
         return False
     webhook = os.environ.get("FEISHU_WEBHOOK")
@@ -775,26 +814,26 @@ def post_feishu(payload, ok_message):
             result = {}
         code = result.get("code", result.get("StatusCode", result.get("Code", 0)))
         if code not in (0, "0", None):
-            print("❌ 飞书推送失败:", result)
+            print("❌ Feishu post failed:", result)
             return False
         print(ok_message)
         return True
     except Exception as e:
-        print("❌ 飞书推送失败:", e)
+        print("❌ Feishu post failed:", e)
         return False
 
 
 def send_feishu_new_games(found_records):
-    """发现新游时推飞书卡片。总开关关闭时不会发出。"""
-    return post_feishu(build_new_games_payload(found_records), "✅ 已推送飞书新游卡片")
+    """Post a Feishu card for new games. Nothing is sent while the master switch is off."""
+    return post_feishu(build_new_games_payload(found_records), "✅ Posted the Feishu new-game card")
 
 
 def send_feishu_region_expansions(records):
-    return post_feishu(build_region_expansion_payload(records), "✅ 已推送飞书地区扩大卡片")
+    return post_feishu(build_region_expansion_payload(records), "✅ Posted the Feishu region-expansion card")
 
 
 def scrape_is_incomplete(ios_fail, android_fail, play_guard=None):
-    """熔断，或 iOS / 安卓失败次数达到连续失败上限。健康的一天不发这条。"""
+    """True when the circuit is open or iOS / Android failures hit the consecutive-failure limit. A healthy day stays quiet."""
     play_failed = play_guard.failed if play_guard is not None else 0
     tripped = bool(play_guard and play_guard.tripped)
     high = PLAY_REFRESH_MAX_FAILS
@@ -806,35 +845,35 @@ def developers_missing_known_games(targets, known_hits_by_dev):
 
 
 def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers):
-    lines = [f"iOS 失败 {ios_fail} 次，Android 失败 {android_fail} 次。"]
+    lines = [f"iOS failed {ios_fail} time(s). Android failed {android_fail} time(s)."]
     if tripped:
-        lines.append("Google Play 连续失败已熔断，后面的厂商没有继续抓。已经抓到的数据都保留着。")
-    lines.append("没有新游推送，也可能只是抓取停在半路，不等于今天没有新游。")
+        lines.append("Google Play hit the failure limit and stopped. Developers after that point were not scraped. Data already collected is kept.")
+    lines.append("No new-game alert was sent. A stopped scrape does not mean there were no new games today.")
     if missed_developers:
         shown = list(missed_developers[:40])
         extra = len(missed_developers) - len(shown)
-        names = "、".join(shown)
+        names = ", ".join(shown)
         if extra:
-            names += f"，另有 {extra} 家"
+            names += f", plus {extra} more"
         lines.append("")
-        lines.append("**本轮没有扫到已知游戏的厂商：**")
+        lines.append("**Developers with no known game seen this run:**")
         lines.append(names)
-    title = f"⚠️ New Game Radar · 今日抓取不完整（{now_cn('%m/%d')}）"
+    title = f"⚠️ New Game Radar · Scrape incomplete ({now_cn('%m/%d')})"
     return _feishu_card(title, "\n".join(lines), "red")
 
 
 def send_feishu_incomplete(ios_fail, android_fail, tripped, missed_developers):
     return post_feishu(
         build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers),
-        "✅ 已推送飞书抓取不完整提醒",
+        "✅ Posted the Feishu incomplete-scrape alert",
     )
 
 
 def classify_developers(target_developers, known_hits_by_dev, scanned_ios, scanned_android, is_first_run):
-    """按本轮扫描结果判断厂商是新加名单还是老熟人。
+    """Decide whether each developer is newly added or already known, from this run's scan.
 
-    旧逻辑：本轮一个已知游戏都没扫到，就当成新厂商，所有未知游戏静默建库。
-    Google Play 限流时会把真正的新游吞掉。现在只有一次扫到大量未知游戏才建库。
+    The old rule treated a developer as new whenever no known game was seen, and silently baselined every unknown title.
+    Play rate limits then swallowed real launches. A developer is baselined only when one pass finds a large set of unknown games.
     """
     unknown_by_dev = {}
     for app_id, g in scanned_ios.items():
@@ -877,11 +916,11 @@ def main():
     android_fail = 0
     play_guard = PlayGuard()
 
-    print("\n🚀 开始跨地区抓取竞品数据...")
+    print("\n🚀 Scraping competitor releases across regions...")
     for custom_dev, accounts in TARGET_DEVELOPERS.items():
-        print(f"  ⏳ 正在检索厂商: {custom_dev}")
+        print(f"  ⏳ Checking developer: {custom_dev}")
 
-        # --- 抓取 iOS ---
+        # --- iOS ---
         for artist_id in accounts["ios"]:
             for country in TARGET_COUNTRIES:
                 key = (artist_id, country)
@@ -908,7 +947,7 @@ def main():
                         if app_id not in scanned_ios_games:
                             scanned_ios_games[app_id] = {
                                 "custom_dev": custom_dev,
-                                "name": game.get("trackName", "未知"),
+                                "name": game.get("trackName", UNKNOWN),
                                 "icon": game.get("artworkUrl100", ""),
                                 "ratings": game.get("userRatingCount", 0) or 0,
                                 "genre": ios_genre(game),
@@ -916,16 +955,16 @@ def main():
                                 "url": game.get("trackViewUrl", f"https://apps.apple.com/app/id{app_id}"),
                                 "release_date": game.get("releaseDate", "").split("T")[0],
                                 "size": bytes_to_mb(game.get("fileSizeBytes", 0)),
-                                "iap_info": "未知",
+                                "iap_info": UNKNOWN,
                                 "regions": set()
                             }
                         if app_id in scanned_ios_games:
                             scanned_ios_games[app_id]["regions"].add(country)
                 except Exception as e:
                     ios_fail += 1
-                    print(f"  [!] iOS 抓取失败 {custom_dev} {artist_id} {country}: {e}")
+                    print(f"  [!] iOS scrape failed for {custom_dev} {artist_id} {country}: {e}")
 
-        # --- 抓取 Android：开发者商店主页，搜索只做兜底 ---
+        # --- Android: developer store page, search only as a fallback ---
         if not play_guard.allow():
             continue
         for dev_name in accounts["android"]:
@@ -940,7 +979,7 @@ def main():
                     break
                 except Exception as e:
                     android_fail += 1
-                    print(f"  [!] Android 抓取失败 {custom_dev} {dev_name} {country}: {e}")
+                    print(f"  [!] Android scrape failed for {custom_dev} {dev_name} {country}: {e}")
                     continue
                 for game in results:
                     app_id = game.get("appId")
@@ -958,7 +997,7 @@ def main():
                     if app_id not in scanned_android_games:
                         scanned_android_games[app_id] = {
                             "custom_dev": custom_dev,
-                            "name": game.get("title", "未知"),
+                            "name": game.get("title", UNKNOWN),
                             "icon": game.get("icon", ""),
                             "url": f"https://play.google.com/store/apps/details?id={app_id}",
                             "regions": set()
@@ -966,20 +1005,20 @@ def main():
                     if app_id in scanned_android_games:
                         scanned_android_games[app_id]["regions"].add(country)
 
-    print("\n🔍 正在进行基准线分析与数据比对...")
+    print("\n🔍 Comparing this scan with the baseline...")
     expansions, region_updates = apply_region_sightings(known_games, region_sightings)
     dev_status = classify_developers(
         TARGET_DEVELOPERS, known_hits_by_dev, scanned_ios_games, scanned_android_games, is_first_run
     )
 
-    # 处理 iOS
+    # iOS
     for app_id, game_data in scanned_ios_games.items():
         c_dev = game_data.pop("custom_dev")
         game_data["regions"] = list(game_data["regions"])
         if dev_status[c_dev] == "new" or is_first_run:
-            print(f"  [建库] 🍎 {game_data['name']} (首次录入厂商 {c_dev}，存量静默保存)")
+            print(f"  [baseline] 🍎 {game_data['name']} (first pass for {c_dev}, saved quietly)")
         elif is_stale_release(game_data["release_date"]):
-            print(f"  [建库] 🍎 {game_data['name']} (上架超过 {NEW_GAME_MAX_AGE_DAYS} 天，忽略)")
+            print(f"  [baseline] 🍎 {game_data['name']} (released more than {NEW_GAME_MAX_AGE_DAYS} days ago, skipped)")
         else:
             found_records.append({
                 "app_id": app_id,
@@ -999,38 +1038,38 @@ def main():
             })
         known_games[app_id] = {"name": game_data["name"], "regions": game_data["regions"]}
 
-    # 处理 Android
+    # Android
     for app_id, base_data in scanned_android_games.items():
         c_dev = base_data.pop("custom_dev")
         base_data["regions"] = list(base_data["regions"])
         if dev_status[c_dev] == "new" or is_first_run:
-            print(f"  [建库] 🤖 {base_data['name']} (首次录入厂商 {c_dev}，极速静默保存)")
+            print(f"  [baseline] 🤖 {base_data['name']} (first pass for {c_dev}, saved quietly)")
         else:
-            # 只有对老熟人的新游戏，才去请求详情（耗时操作）
+            # Fetch details only for a new game from a developer we already know.
             if not play_guard.allow():
-                print(f"  [!] Android 详情跳过 {app_id}（Play 已熔断，下轮再试，不写入基准库）")
+                print(f"  [!] Skipped Android details for {app_id} (Play circuit open; retry next run; not written to the baseline)")
                 continue
             try:
                 loaded = android_store_details(app_id, base_data["regions"], play_guard)
             except PlayStopped:
-                print(f"  [!] Android 详情跳过 {app_id}（Play 已熔断，下轮再试，不写入基准库）")
+                print(f"  [!] Skipped Android details for {app_id} (Play circuit open; retry next run; not written to the baseline)")
                 continue
             if loaded is None:
-                print(f"  [!] Android 详情失败 {app_id}")
-                size, iap_info, release_date, installs = "未知", "未知", "未知日期", ""
+                print(f"  [!] Android details failed for {app_id}")
+                size, iap_info, release_date, installs = UNKNOWN_SIZE, UNKNOWN, UNKNOWN_DATE, ""
                 real_installs, genre, shots = 0, "", []
             else:
                 details, iap_info = loaded
                 base_data["name"] = details.get("title", base_data["name"])
                 base_data["icon"] = details.get("icon", base_data.get("icon", ""))
-                size = details.get("size", "因设备而异")
-                release_date = details.get("released", "未知日期")
+                size = english_label(details.get("size", VARIES_WITH_DEVICE))
+                release_date = english_label(details.get("released", UNKNOWN_DATE))
                 installs = details.get("installs", "")
                 real_installs = details.get("realInstalls", 0) or 0
                 genre = details.get("genre", "")
                 shots = (details.get("screenshots") or [])[:SHOTS_MAX]
             if is_stale_release(release_date):
-                print(f"  [建库] 🤖 {base_data['name']} (上架超过 {NEW_GAME_MAX_AGE_DAYS} 天，忽略)")
+                print(f"  [baseline] 🤖 {base_data['name']} (released more than {NEW_GAME_MAX_AGE_DAYS} days ago, skipped)")
             else:
                 found_records.append({
                     "app_id": app_id,
@@ -1057,27 +1096,27 @@ def main():
 
     print("\n" + "=" * 60)
     if ios_fail or android_fail:
-        print(f"⚠️ 本轮抓取失败：iOS {ios_fail} 次，Android {android_fail} 次（详见上方日志）")
+        print(f"⚠️ Scrape failures this run: iOS {ios_fail}, Android {android_fail} (see the log above)")
     if expansions:
-        print(f"🌍 {len(expansions)} 款已入库游戏进入主力市场（us/gb/ca/au）。")
+        print(f"🌍 {len(expansions)} known game(s) entered a core market (us/gb/ca/au).")
         send_feishu_region_expansions(expansions)
     fresh_records = pushable_new_games(found_records)
     backfill_records = [r for r in found_records if r.get("backfill")]
     if is_first_run:
-        print(f"✅ 首次建库完毕！共记录 {len(known_games)} 款跨区游戏。")
+        print(f"✅ Baseline created. Recorded {len(known_games)} games across regions.")
     elif found_records:
-        print(f"🚨 本次写入 {len(found_records)} 款（刚上架 {len(fresh_records)}，补录 {len(backfill_records)}）。")
+        print(f"🚨 Wrote {len(found_records)} game(s) (just released {len(fresh_records)}, backfill {len(backfill_records)}).")
         send_feishu_new_games(fresh_records)
         if backfill_records and not fresh_records:
-            print("📥 本轮只有补录，不推飞书。")
+            print("📥 This run only has backfill, so no Feishu alert is sent.")
     else:
-        print("💤 本次监控的厂商均无新游发布。")
+        print("💤 No new releases from the developers on the watchlist.")
     if scrape_is_incomplete(ios_fail, android_fail, play_guard):
         missed = [] if is_first_run else developers_missing_known_games(TARGET_DEVELOPERS, known_hits_by_dev)
         if missed:
-            print("⚠️ 今日抓取不完整，这些厂商没有扫到已知游戏：" + "、".join(missed))
+            print("⚠️ Scrape incomplete. These developers had no known game this run: " + ", ".join(missed))
         else:
-            print("⚠️ 今日抓取不完整。没有新游推送不等于今天没有新游。")
+            print("⚠️ Scrape incomplete. No new-game alert does not mean there were no new games today.")
         send_feishu_incomplete(ios_fail, android_fail, play_guard.tripped, missed)
     print("=" * 60 + "\n")
 
