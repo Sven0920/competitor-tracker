@@ -54968,109 +54968,145 @@
     "com.abi.bustopia": {
         "name": "Bustopia!",
         "regions": [
-            "br",
             "au",
-            "us",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.sand.drop.puzzle": {
         "name": "Sand Drop Puzzle",
         "regions": [
-            "br",
             "au",
-            "us",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.farm.sweep": {
         "name": "Farm Sweep: Black Hole Game",
         "regions": [
-            "br",
             "au",
-            "us",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.ig.bus.traffic.go": {
         "name": "Bus Traffic Go!",
         "regions": [
-            "br",
             "au",
-            "us",
-            "vn",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tripledot.bricksmash": {
         "name": "Brick Smash",
         "regions": [
-            "br",
             "au",
-            "us",
-            "vn",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.tidy.fun.joygame": {
         "name": "TidyFun - Pick & Match",
         "regions": [
-            "br",
             "au",
-            "us",
-            "vn",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.hole.frenzy.grow": {
         "name": "Frenzy Hole: Hunt and Grow",
         "regions": [
-            "br",
             "au",
-            "us",
-            "vn",
-            "gb",
+            "br",
             "ca",
-            "tr",
-            "mx",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.actionfit.escapetolove.mergecat.aos": {
         "name": "Escape To Love : Merge Cat",
         "regions": [
             "vn"
+        ]
+    },
+    "6812280962": {
+        "name": "Punch Hero!!",
+        "regions": [
+            "au",
+            "us",
+            "ph",
+            "br",
+            "vn",
+            "ca",
+            "id",
+            "tr",
+            "gb",
+            "mx"
+        ]
+    },
+    "6812579202": {
+        "name": "Cat Vacation: Idle Tycoon",
+        "regions": [
+            "gb",
+            "ca"
+        ]
+    },
+    "com.oakever.ring": {
+        "name": "Rolling Rings",
+        "regions": [
+            "ph",
+            "br",
+            "us"
+        ]
+    },
+    "com.superplaystudios.merge": {
+        "name": "Disney Merge Dreams",
+        "regions": [
+            "ph"
         ]
     }
 }
