@@ -35374,6 +35374,7 @@
             "au",
             "ca",
             "id",
+            "ph",
             "us",
             "vn"
         ]
@@ -54341,7 +54342,9 @@
         "name": "PawBlock! - Sort Color Puzzle",
         "regions": [
             "br",
-            "id"
+            "ca",
+            "id",
+            "ph"
         ]
     },
     "com.actionfit.parking.cat.aos": {
@@ -55077,29 +55080,29 @@
         "name": "Punch Hero!!",
         "regions": [
             "au",
-            "us",
-            "ph",
             "br",
-            "vn",
             "ca",
-            "id",
-            "tr",
             "gb",
-            "mx"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6812579202": {
         "name": "Cat Vacation: Idle Tycoon",
         "regions": [
-            "gb",
-            "ca"
+            "ca",
+            "gb"
         ]
     },
     "com.oakever.ring": {
         "name": "Rolling Rings",
         "regions": [
-            "ph",
             "br",
+            "ph",
             "us"
         ]
     },
@@ -55107,6 +55110,57 @@
         "name": "Disney Merge Dreams",
         "regions": [
             "ph"
+        ]
+    },
+    "com.pirateclash.warmaker": {
+        "name": "Cannon Storm: Ship Battle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.zm.bdp": {
+        "name": "Magic Drop: Water Sort Puzzle",
+        "regions": [
+            "tr",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "br",
+            "vn",
+            "us",
+            "gb",
+            "au"
+        ]
+    },
+    "com.bubble.bird.jam": {
+        "name": "Bubble Bird Jam",
+        "regions": [
+            "tr",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "br",
+            "vn",
+            "us",
+            "gb",
+            "au"
+        ]
+    },
+    "com.mahjong.sort.match.puzzle": {
+        "name": "Mahjong Sorting: Match Puzzle",
+        "regions": [
+            "tr",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "br",
+            "vn",
+            "us",
+            "gb",
+            "au"
         ]
     }
 }
