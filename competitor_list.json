@@ -55121,46 +55121,46 @@
     "com.zm.bdp": {
         "name": "Magic Drop: Water Sort Puzzle",
         "regions": [
-            "tr",
+            "au",
+            "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
-            "br",
-            "vn",
+            "tr",
             "us",
-            "gb",
-            "au"
+            "vn"
         ]
     },
     "com.bubble.bird.jam": {
         "name": "Bubble Bird Jam",
         "regions": [
-            "tr",
+            "au",
+            "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
-            "br",
-            "vn",
+            "tr",
             "us",
-            "gb",
-            "au"
+            "vn"
         ]
     },
     "com.mahjong.sort.match.puzzle": {
         "name": "Mahjong Sorting: Match Puzzle",
         "regions": [
-            "tr",
+            "au",
+            "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
-            "br",
-            "vn",
+            "tr",
             "us",
-            "gb",
-            "au"
+            "vn"
         ]
     }
 }
