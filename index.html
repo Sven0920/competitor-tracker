@@ -43,7 +43,6 @@
   .found{font-size:12px;color:var(--sub);background:var(--soft);border:1px solid var(--line);padding:2px 8px;border-radius:6px}
   .tag{font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px}
   .tag.soft{color:#fff;background:var(--soft-tag)}
-  .tag.live{color:var(--android);background:#e9f6ee}
   .tag.hot{color:#fff;background:#ea580c}
   .tag.pre{color:#fff;background:#7c3aed}
   .tag.back{color:#3f3f46;background:#e4e4e7}
@@ -273,10 +272,9 @@ const SORTERS = {
 const esc = s => String(s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 function regionTag(regions){
+  // US availability is already in the region line. The badge only marks a soft launch.
   const live = (regions||[]).map(r=>String(r).toLowerCase()).includes("us");
-  return live
-    ? '<span class="tag live">✅ Live in US</span>'
-    : '<span class="tag soft">🔥 Soft launch</span>';
+  return live ? "" : '<span class="tag soft">🔥 Soft launch</span>';
 }
 
 function sideLine(g){

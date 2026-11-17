@@ -83,6 +83,26 @@ const sizeMarks = cardHtml.split("📦").length - 1;
 assert.strictEqual(sizeMarks, 1, "only the iOS side keeps a package-size line");
 assert.ok(cardHtml.includes("📥"));
 assert.ok(!cardHtml.includes("Varies with device"));
+assert.ok(!cardHtml.includes("Live in US"), "a US listing does not repeat a live badge");
+assert.strictEqual((cardHtml.match(/Soft launch/g) || []).length, 1, "only the non-US side is marked soft launch");
+
+const bothUs = gameCard({
+  name: "Both Live",
+  developer: "Homa",
+  sides: [
+    { platform: "iOS", regions: ["us", "gb"], url: "https://ios", ratings: 1, release_date: "2026-10-01" },
+    { platform: "Android", regions: ["us"], url: "https://and", installs: "1,000+", velocity: 0, release_date: "2026-10-01" },
+  ],
+  genres: [],
+  supergenres: [],
+  hot: false,
+  preorder: false,
+  backfill: false,
+  found_date: "2026-10-01",
+});
+assert.ok(bothUs.includes("🍎 iOS") && bothUs.includes("🤖 Android"));
+assert.ok(!bothUs.includes("Live in US"));
+assert.ok(!bothUs.includes("Soft launch"));
 
 const catalog = {
   genres: [{
