@@ -346,6 +346,38 @@ class DeveloperCatalogTest(unittest.TestCase):
         self.assertEqual(source, "search")
         self.assertEqual([a["appId"] for a in apps], ["com.homa.mine"])
 
+    def test_spaced_developer_name_still_matches_search(self):
+        self.assertTrue(ct.developer_name_matches("Nebula Studio", "Nebula  Studio"))
+        self.assertTrue(ct.developer_name_matches("Dream Games", "Dream Games, Ltd."))
+        self.assertFalse(ct.developer_name_matches("Homa", "Other Studio"))
+
+    def test_404_retries_the_play_legal_name(self):
+        html = _play_script("ds:3", _developer_ds(
+            [_wrapped_app("com.dream.royal", "Royal Match", "Dream Games, Ltd.")],
+            None,
+        ))
+        fetched = []
+
+        def get(url):
+            fetched.append(url)
+            if "Ltd" in url:
+                return html
+            raise ct.NotFoundError(url)
+
+        def search(name, country):
+            return [
+                {"appId": "com.dream.royal", "title": "Royal Match", "developer": "Dream Games, Ltd.", "icon": ""},
+                {"appId": "com.other.noise", "title": "Noise", "developer": "Playflux", "icon": ""},
+            ]
+
+        apps, source = ct.android_apps_for_country(
+            "Dream Games", "us", ct.PlayGuard(), search_fn=search, get=get,
+        )
+        self.assertEqual(source, "developer")
+        self.assertEqual([a["appId"] for a in apps], ["com.dream.royal"])
+        self.assertTrue(any("Dream%20Games" in url and "Ltd" not in url for url in fetched))
+        self.assertTrue(any("Ltd" in url for url in fetched))
+
     def test_pagination_failure_keeps_first_page(self):
         html = _play_script("ds:3", _developer_ds(
             [_wrapped_app("com.homa.one", "One", "Homa")],
