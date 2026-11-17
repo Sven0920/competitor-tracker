@@ -394,6 +394,10 @@ def _looks_blocked(html):
 
 def http_get(url):
     resp = requests.get(url, headers={"User-Agent": "competitor-tracker/1.0"}, timeout=20)
+    # A missing developer page is not an outage. Counting it would open the circuit
+    # after a few unmatched names and skip the rest of the watchlist.
+    if resp.status_code == 404:
+        raise NotFoundError(resp.url)
     resp.raise_for_status()
     text = resp.text or ""
     if _looks_blocked(text):
@@ -448,17 +452,38 @@ def fetch_developer_catalog(dev_name, country, guard, get=None, post=None):
     return merged
 
 
-def search_fallback_apps(dev_name, country, guard, search_fn=None):
-    """Search is only a fallback. A developer-name substring filter blocks short-name collisions."""
-    def default_search(name, store_country):
-        return with_retry(lambda: search(name, lang="en", country=store_country, n_hits=60))
+def normalize_developer_name(name):
+    """Collapse spacing and case so 'Nebula  Studio' matches 'Nebula Studio'."""
+    return " ".join(str(name or "").casefold().split())
 
-    fn = search_fn or default_search
-    results = guard.call(lambda: fn(dev_name, country))
+
+def developer_name_matches(query, candidate):
+    """True when the watchlist name and the Play developer string refer to the same listing.
+
+    Play pages 404 unless the id is exact, and the legal name often adds ', Ltd.' or 'Inc.'.
+    """
+    left = normalize_developer_name(query)
+    right = normalize_developer_name(candidate)
+    return bool(left) and bool(right) and (left in right or right in left)
+
+
+def ranked_developer_names(query, results):
+    """Play developer strings from search hits, most frequent first."""
+    counts = {}
+    for game in results or []:
+        dev = str(game.get("developer") or "").strip()
+        if not developer_name_matches(query, dev):
+            continue
+        counts[dev] = counts.get(dev, 0) + 1
+    return [name for name, _count in sorted(counts.items(), key=lambda item: (-item[1], item[0]))]
+
+
+def filter_search_apps(dev_name, results):
+    """Keep search hits whose developer string matches the watchlist name."""
     kept = []
     for game in results or []:
         game_dev = game.get("developer") or ""
-        if dev_name.upper() not in game_dev.upper():
+        if not developer_name_matches(dev_name, game_dev):
             continue
         if not game.get("appId"):
             continue
@@ -471,8 +496,22 @@ def search_fallback_apps(dev_name, country, guard, search_fn=None):
     return kept
 
 
+def search_fallback_apps(dev_name, country, guard, search_fn=None):
+    """Search is only a fallback. A developer-name filter blocks short-name collisions."""
+    def default_search(name, store_country):
+        return with_retry(lambda: search(name, lang="en", country=store_country, n_hits=60))
+
+    fn = search_fn or default_search
+    results = guard.call(lambda: fn(dev_name, country))
+    return filter_search_apps(dev_name, results), results
+
+
 def android_apps_for_country(dev_name, country, guard, search_fn=None, get=None, post=None):
-    """Use the developer's own store list first. Search only when that page is empty or unreachable."""
+    """Use the developer's own store list first. Search only when that page is empty or unreachable.
+
+    A 404 usually means the watchlist spelling is not the Play page id. Search then supplies
+    the legal name, and that page is fetched so a new title outside the top search hits is kept.
+    """
     if not guard.allow():
         raise PlayStopped("Google Play circuit open")
     try:
@@ -488,9 +527,24 @@ def android_apps_for_country(dev_name, country, guard, search_fn=None, get=None,
         raise PlayStopped("Google Play circuit open")
     print(f"  [i] Android developer page had no results. Falling back to search: {dev_name} {country}")
     try:
-        return search_fallback_apps(dev_name, country, guard, search_fn=search_fn), "search"
+        kept, results = search_fallback_apps(dev_name, country, guard, search_fn=search_fn)
     except PlayStopped:
         raise
+    asked = normalize_developer_name(dev_name)
+    for alt in ranked_developer_names(dev_name, results):
+        if normalize_developer_name(alt) == asked or not guard.allow():
+            continue
+        print(f"  [i] Retrying developer page with the Play name: {alt} {country}")
+        try:
+            catalog = fetch_developer_catalog(alt, country, guard, get=get, post=post)
+        except PlayStopped:
+            raise
+        except Exception as e:
+            print(f"  [!] Developer page fetch failed for {alt} {country}: {e}")
+            continue
+        if catalog:
+            return catalog, "developer"
+    return kept, "search"
 
 
 def fetch_target_developers():
