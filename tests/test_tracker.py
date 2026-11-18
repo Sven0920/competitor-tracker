@@ -200,6 +200,84 @@ class FreshReleaseTest(unittest.TestCase):
         self.assertIn("Found 1 new", payload["card"]["header"]["title"]["content"])
         self.assertIsNone(ct.build_new_games_payload([records[1]]))
 
+    def test_both_stores_and_aliases_are_one_alert(self):
+        records = [
+            {"app_id": "1", "developer": "Learnings", "platform": "iOS", "name": "Amaze Clear 3D", "url": "https://ios", "regions": ["us"], "genre": "Puzzle", "backfill": False},
+            {"app_id": "2", "developer": "Learnings", "platform": "Android", "name": "Amaze Clear 3D: Arrow Cube", "url": "https://and", "regions": ["tr"], "backfill": False},
+            {"app_id": "3", "developer": "Peak", "platform": "Android", "name": "Amaze Clear 3D", "url": "https://peak", "regions": ["us"], "backfill": False},
+        ]
+        payload = ct.build_new_games_payload(records)
+        body = payload["card"]["elements"][0]["content"]
+        self.assertIn("Found 2 new", payload["card"]["header"]["title"]["content"])
+        self.assertIn("iOS", body)
+        self.assertIn("Android", body)
+        self.assertEqual(body.count("Amaze Clear 3D: Arrow Cube"), 1)
+        self.assertIn("Peak", body)
+
+    def test_release_dates_are_stored_as_iso(self):
+        self.assertEqual(ct.iso_release_date("Nov 16, 2026"), "2026-11-16")
+        self.assertEqual(ct.iso_release_date("2026-11-16"), "2026-11-16")
+        self.assertEqual(ct.iso_release_date("Unknown date"), "Unknown date")
+
+    def test_incomplete_run_holds_alerts_until_a_complete_run(self):
+        fresh = [{
+            "app_id": "1", "developer": "Homa", "platform": "iOS", "name": "New",
+            "url": "https://a", "regions": ["us"], "backfill": False,
+        }]
+        expansion = [{
+            "app_id": "2", "developer": "Peak", "platform": "Android", "name": "Soft",
+            "url": "https://p", "regions": ["tr", "us"], "new_core": ["us"],
+        }]
+        held = ct.alerts_for_run(fresh, expansion, True, None)
+        self.assertEqual(held["send_new"], [])
+        self.assertEqual(held["send_expansions"], [])
+        self.assertTrue(held["send_incomplete"])
+        self.assertEqual(held["pending_alerts"]["new_games"][0]["app_id"], "1")
+        self.assertEqual(held["pending_alerts"]["expansions"][0]["new_core"], ["us"])
+        released = ct.alerts_for_run([], [], False, held["pending_alerts"])
+        self.assertEqual(released["send_new"][0]["app_id"], "1")
+        self.assertEqual(released["send_expansions"][0]["app_id"], "2")
+        self.assertEqual(released["pending_alerts"], {"new_games": [], "expansions": []})
+        self.assertFalse(released["send_incomplete"])
+
+    def test_backfill_is_not_held_for_a_later_alert(self):
+        records = [{
+            "app_id": "old", "developer": "Homa", "platform": "Android", "name": "Old",
+            "url": "https://b", "regions": ["tr"], "backfill": True,
+        }]
+        held = ct.alerts_for_run(records, [], True, None)
+        self.assertEqual(held["pending_alerts"]["new_games"], [])
+
+    def test_record_run_keeps_the_game_list(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = os.path.join(directory, "data.json")
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump({"updated_at": "2026-11-17 19:01", "games": [{"app_id": "1"}]}, handle)
+            status = ct.build_run_status(8, 1, ct.PlayGuard(), ["Peak"], {"ABI": 3}, False, True)
+            with mock.patch.object(ct, "DATA_FILE", path):
+                ct.record_run(status, {"new_games": [{"app_id": "9"}], "expansions": []})
+            with open(path, encoding="utf-8") as handle:
+                saved = json.load(handle)
+        self.assertEqual(saved["games"], [{"app_id": "1"}])
+        self.assertFalse(saved["run"]["complete"])
+        self.assertEqual(saved["run"]["missed_developers"], ["Peak"])
+        self.assertEqual(saved["run"]["baselined_titles"], 3)
+        self.assertEqual(saved["pending_alerts"]["new_games"][0]["app_id"], "9")
+
+    def test_baseline_card_is_one_line(self):
+        payload = ct.build_baseline_payload({"ABI": 4, "Peak": 1})
+        body = payload["card"]["elements"][0]["content"]
+        self.assertIn("Quietly filed 5 existing", body)
+        self.assertIn("ABI (4)", body)
+        self.assertIsNone(ct.build_baseline_payload({}))
+
+    def test_incomplete_notice_says_alerts_are_held(self):
+        payload = ct.build_incomplete_payload(2, 8, True, ["Peak"], {"ABI": 2})
+        body = payload["card"]["elements"][0]["content"]
+        self.assertIn("held until a complete run", body)
+        self.assertIn("Quietly filed 2 existing", body)
+        self.assertIn("failure limit", body)
+
 
 class StorePriceAndRatingsTest(unittest.TestCase):
     def test_us_listing_keeps_dollar_price(self):

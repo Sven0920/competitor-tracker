@@ -80,10 +80,21 @@ def english_label(value):
     return value
 
 
+def iso_release_date(value):
+    """Store release dates as YYYY-MM-DD. Unparseable labels stay as they are."""
+    labeled = english_label(value)
+    parsed = parse_release_day(labeled)
+    if parsed is None:
+        return labeled
+    return parsed.strftime("%Y-%m-%d")
+
+
 def normalize_game_labels(game):
     for key in ("name", "size", "iap_info", "release_date"):
         if key in game:
             game[key] = english_label(game[key])
+    if game.get("release_date"):
+        game["release_date"] = iso_release_date(game["release_date"])
 
 
 def parse_release_day(s):
@@ -809,21 +820,198 @@ def pushable_new_games(found_records):
     return [r for r in (found_records or []) if not r.get("backfill")]
 
 
+def norm_name(value):
+    return re.sub(r"\s+", " ", str(value or "").strip().lower())
+
+
+def norm_title(value):
+    return norm_name(value).rstrip("!！").strip()
+
+
+def load_title_aliases():
+    """Same alias groups the board uses, so one game with two store titles is one alert."""
+    path = os.path.join(SCRIPT_DIR, "supergenres.json")
+    try:
+        with open(path, encoding="utf-8") as handle:
+            catalog = json.load(handle)
+    except (OSError, ValueError):
+        return []
+    groups = []
+    for group in catalog.get("aliases") or []:
+        developer = norm_name(group.get("developer"))
+        titles = {norm_title(title) for title in (group.get("titles") or []) if norm_title(title)}
+        name = group.get("name") or next(iter(group.get("titles") or []), "")
+        if developer and name and titles:
+            groups.append({"developer": developer, "name": name, "titles": titles})
+    return groups
+
+
+def alert_snapshot(record):
+    """Fields a held alert needs. Screenshots and install history stay on the board only."""
+    regions = record.get("regions") or []
+    if isinstance(regions, set):
+        regions = sorted(regions)
+    snapshot = {
+        "app_id": record.get("app_id"),
+        "developer": record.get("developer"),
+        "platform": record.get("platform"),
+        "name": record.get("name"),
+        "url": record.get("url"),
+        "regions": [str(region) for region in regions],
+        "genre": record.get("genre") or "",
+        "backfill": bool(record.get("backfill")),
+    }
+    if record.get("new_core"):
+        snapshot["new_core"] = [str(region) for region in record.get("new_core") or []]
+    return snapshot
+
+
+def _dedupe_alerts(records, expansion=False):
+    seen = set()
+    kept = []
+    for record in records or []:
+        if not isinstance(record, dict):
+            continue
+        core = tuple(record.get("new_core") or []) if expansion else ()
+        key = (str(record.get("app_id") or record.get("name") or ""), record.get("platform"), core)
+        if key in seen:
+            continue
+        seen.add(key)
+        kept.append(record)
+    return kept
+
+
+def alerts_for_run(found_records, expansions, incomplete, pending):
+    """Hold new-game and expansion alerts while a run is incomplete. A later complete run sends them.
+
+    The board still receives today's games either way. This only decides the alert queue.
+    """
+    pending = pending or {}
+    fresh = [alert_snapshot(record) for record in pushable_new_games(found_records)]
+    today_expansions = [alert_snapshot(record) for record in (expansions or [])]
+    held_new = _dedupe_alerts(list(pending.get("new_games") or []) + fresh)
+    held_expansions = _dedupe_alerts(list(pending.get("expansions") or []) + today_expansions, expansion=True)
+    if incomplete:
+        return {
+            "send_new": [],
+            "send_expansions": [],
+            "send_incomplete": True,
+            "pending_alerts": {"new_games": held_new, "expansions": held_expansions},
+        }
+    return {
+        "send_new": held_new,
+        "send_expansions": held_expansions,
+        "send_incomplete": False,
+        "pending_alerts": {"new_games": [], "expansions": []},
+    }
+
+
+def note_baseline(counts, developer, is_first_run, status):
+    """Count titles filed quietly for a developer added this run. The first-ever run is not a product alert."""
+    if is_first_run or status != "new":
+        return
+    counts[developer] = counts.get(developer, 0) + 1
+
+
+def build_run_status(ios_fail, android_fail, play_guard, missed, baselined_counts, is_first_run, incomplete):
+    counts = {} if is_first_run else dict(baselined_counts or {})
+    return {
+        "finished_at": now_cn("%Y-%m-%d %H:%M"),
+        "complete": not incomplete,
+        "ios_failures": ios_fail,
+        "android_failures": android_fail,
+        "play_circuit_open": bool(play_guard and play_guard.tripped),
+        "missed_developers": list(missed or []),
+        "baselined_titles": sum(counts.values()),
+        "baselined_developers": sorted(counts),
+    }
+
+
+def record_run(status, pending):
+    """Attach this run's outcome to data.json without touching the game list."""
+    data = load_data()
+    data["run"] = status
+    data["pending_alerts"] = pending or {"new_games": [], "expansions": []}
+    with open(DATA_FILE, "w", encoding="utf-8") as handle:
+        json.dump(data, handle, indent=2, ensure_ascii=False)
+
+
+def merge_new_game_alerts(records):
+    """Collapse the same developer's iOS and Android titles into one alert line."""
+    aliases = load_title_aliases()
+    groups = []
+    index = {}
+
+    def group_key(record):
+        developer = norm_name(record.get("developer"))
+        title = norm_title(record.get("name"))
+        for group in aliases:
+            if group["developer"] == developer and title in group["titles"]:
+                return (record.get("developer") or "", norm_title(group["name"]), group["name"])
+        return (record.get("developer") or "", title, record.get("name"))
+
+    for record in records:
+        developer, title, display = group_key(record)
+        key = (developer, title)
+        if key not in index:
+            index[key] = {"developer": developer, "name": display, "sides": []}
+            groups.append(index[key])
+        index[key]["sides"].append(record)
+    return groups
+
+
+def _alert_line(group):
+    sides = group["sides"]
+    platforms = []
+    if any(side.get("platform") == "iOS" for side in sides):
+        platforms.append("🍎 iOS")
+    if any(side.get("platform") == "Android" for side in sides):
+        platforms.append("🤖 Android")
+    links = []
+    for side in sides:
+        if not side.get("url"):
+            continue
+        label = "App Store" if side.get("platform") == "iOS" else "Google Play"
+        links.append(f"[{label}]({side['url']})")
+    regions = []
+    seen = set()
+    has_soft_side = False
+    for side in sides:
+        side_regions = [str(region) for region in (side.get("regions") or [])]
+        if "us" not in [region.lower() for region in side_regions]:
+            has_soft_side = True
+        for region in side_regions:
+            label = region.upper()
+            if label not in seen:
+                seen.add(label)
+                regions.append(label)
+    genre = next((side.get("genre") for side in sides if side.get("genre")), "")
+    genre_bit = f" · {genre}" if genre else ""
+    tag = "🔥 Soft Launch" if has_soft_side else "✅ US"
+    link_bit = f" · {', '.join(links)}" if links else ""
+    return f"{' · '.join(platforms)} {group['name']}{genre_bit}{link_bit} · {', '.join(regions) or '—'} {tag}"
+
+
 def build_new_games_payload(found_records):
     found_records = pushable_new_games(found_records)
-    if not found_records:
+    groups = merge_new_game_alerts(found_records)
+    if not groups:
         return None
 
-    def line_for(g):
-        plat = "🍎" if g.get("platform") == "iOS" else "🤖"
-        regions = ", ".join(x.upper() for x in (g.get("regions") or []))
-        soft = "us" not in [x.lower() for x in (g.get("regions") or [])]
-        tag = "🔥 Soft Launch" if soft else "✅ US"
-        genre = f" · {g['genre']}" if g.get("genre") else ""
-        return f"{plat} [{g['name']}]({g['url']}){genre} · {regions} {tag}"
+    body = _group_lines(groups, _alert_line)
+    title = f"🎯 New Game Radar · Found {len(groups)} new game(s) ({now_cn('%m/%d')})"
+    return _feishu_card(title, body, "blue")
 
-    body = _group_lines(found_records, line_for)
-    title = f"🎯 New Game Radar · Found {len(found_records)} new game(s) ({now_cn('%m/%d')})"
+
+def build_baseline_payload(by_developer):
+    """One line when a newly added developer is filed into the baseline instead of alerted title by title."""
+    counts = {name: count for name, count in (by_developer or {}).items() if count}
+    if not counts:
+        return None
+    total = sum(counts.values())
+    bits = [f"{name} ({count})" for name, count in sorted(counts.items())]
+    body = f"Quietly filed {total} existing title(s) for newly watched developers: {', '.join(bits)}."
+    title = f"📥 New Game Radar · Baseline only ({now_cn('%m/%d')})"
     return _feishu_card(title, body, "blue")
 
 
@@ -898,11 +1086,16 @@ def developers_missing_known_games(targets, known_hits_by_dev):
     return sorted(name for name in (targets or {}) if not (known_hits_by_dev or {}).get(name))
 
 
-def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers):
+def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers, baselined=None):
     lines = [f"iOS failed {ios_fail} time(s). Android failed {android_fail} time(s)."]
     if tripped:
         lines.append("Google Play hit the failure limit and stopped. Developers after that point were not scraped. Data already collected is kept.")
-    lines.append("No new-game alert was sent. A stopped scrape does not mean there were no new games today.")
+    lines.append("New-game and region-expansion alerts are held until a complete run. Games already collected stay on the board.")
+    lines.append("A stopped scrape does not mean there were no new games today.")
+    counts = {name: count for name, count in (baselined or {}).items() if count}
+    if counts:
+        total = sum(counts.values())
+        lines.append(f"Quietly filed {total} existing title(s) for newly watched developers.")
     if missed_developers:
         shown = list(missed_developers[:40])
         extra = len(missed_developers) - len(shown)
@@ -916,11 +1109,15 @@ def build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers)
     return _feishu_card(title, "\n".join(lines), "red")
 
 
-def send_feishu_incomplete(ios_fail, android_fail, tripped, missed_developers):
+def send_feishu_incomplete(ios_fail, android_fail, tripped, missed_developers, baselined=None):
     return post_feishu(
-        build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers),
+        build_incomplete_payload(ios_fail, android_fail, tripped, missed_developers, baselined),
         "✅ Posted the Feishu incomplete-scrape alert",
     )
+
+
+def send_feishu_baseline(by_developer):
+    return post_feishu(build_baseline_payload(by_developer), "✅ Posted the Feishu baseline card")
 
 
 def classify_developers(target_developers, known_hits_by_dev, scanned_ios, scanned_android, is_first_run):
@@ -963,6 +1160,7 @@ def main():
     scanned_ios_games = {}
     scanned_android_games = {}
     found_records = []
+    baselined_counts = {}
     seen_ios_keys = set()
     known_hits_by_dev = {}
     region_sightings = {}
@@ -1070,6 +1268,7 @@ def main():
         c_dev = game_data.pop("custom_dev")
         game_data["regions"] = list(game_data["regions"])
         if dev_status[c_dev] == "new" or is_first_run:
+            note_baseline(baselined_counts, c_dev, is_first_run, dev_status[c_dev])
             print(f"  [baseline] 🍎 {game_data['name']} (first pass for {c_dev}, saved quietly)")
         elif is_stale_release(game_data["release_date"]):
             print(f"  [baseline] 🍎 {game_data['name']} (released more than {NEW_GAME_MAX_AGE_DAYS} days ago, skipped)")
@@ -1097,6 +1296,7 @@ def main():
         c_dev = base_data.pop("custom_dev")
         base_data["regions"] = list(base_data["regions"])
         if dev_status[c_dev] == "new" or is_first_run:
+            note_baseline(baselined_counts, c_dev, is_first_run, dev_status[c_dev])
             print(f"  [baseline] 🤖 {base_data['name']} (first pass for {c_dev}, saved quietly)")
         else:
             # Fetch details only for a new game from a developer we already know.
@@ -1151,27 +1351,46 @@ def main():
     print("\n" + "=" * 60)
     if ios_fail or android_fail:
         print(f"⚠️ Scrape failures this run: iOS {ios_fail}, Android {android_fail} (see the log above)")
-    if expansions:
-        print(f"🌍 {len(expansions)} known game(s) entered a core market (us/gb/ca/au).")
-        send_feishu_region_expansions(expansions)
-    fresh_records = pushable_new_games(found_records)
-    backfill_records = [r for r in found_records if r.get("backfill")]
-    if is_first_run:
-        print(f"✅ Baseline created. Recorded {len(known_games)} games across regions.")
-    elif found_records:
-        print(f"🚨 Wrote {len(found_records)} game(s) (just released {len(fresh_records)}, backfill {len(backfill_records)}).")
-        send_feishu_new_games(fresh_records)
-        if backfill_records and not fresh_records:
-            print("📥 This run only has backfill, so no Feishu alert is sent.")
-    else:
-        print("💤 No new releases from the developers on the watchlist.")
-    if scrape_is_incomplete(ios_fail, android_fail, play_guard):
-        missed = [] if is_first_run else developers_missing_known_games(TARGET_DEVELOPERS, known_hits_by_dev)
+    incomplete = scrape_is_incomplete(ios_fail, android_fail, play_guard)
+    missed = [] if is_first_run or not incomplete else developers_missing_known_games(
+        TARGET_DEVELOPERS, known_hits_by_dev
+    )
+    decision = alerts_for_run(found_records, expansions, incomplete, load_data().get("pending_alerts"))
+    if incomplete:
+        held_new = len(decision["pending_alerts"]["new_games"])
+        held_regions = len(decision["pending_alerts"]["expansions"])
         if missed:
             print("⚠️ Scrape incomplete. These developers had no known game this run: " + ", ".join(missed))
         else:
-            print("⚠️ Scrape incomplete. No new-game alert does not mean there were no new games today.")
-        send_feishu_incomplete(ios_fail, android_fail, play_guard.tripped, missed)
+            print("⚠️ Scrape incomplete. Held alerts do not mean there were no new games today.")
+        print(f"⏸ Holding {held_new} new-game alert(s) and {held_regions} region alert(s) until a complete run.")
+        send_feishu_incomplete(
+            ios_fail, android_fail, play_guard.tripped, missed, None if is_first_run else baselined_counts
+        )
+    else:
+        if decision["send_expansions"]:
+            print(f"🌍 {len(decision['send_expansions'])} known game(s) entered a core market (us/gb/ca/au).")
+            send_feishu_region_expansions(decision["send_expansions"])
+        backfill_records = [r for r in found_records if r.get("backfill")]
+        if is_first_run:
+            print(f"✅ Baseline created. Recorded {len(known_games)} games across regions.")
+        elif found_records or decision["send_new"]:
+            fresh_count = len(pushable_new_games(found_records))
+            print(f"🚨 Wrote {len(found_records)} game(s) (just released {fresh_count}, backfill {len(backfill_records)}).")
+            send_feishu_new_games(decision["send_new"])
+            if backfill_records and not decision["send_new"]:
+                print("📥 This run only has backfill, so no Feishu alert is sent.")
+        else:
+            print("💤 No new releases from the developers on the watchlist.")
+        if baselined_counts and not is_first_run:
+            print(f"📥 Quietly filed {sum(baselined_counts.values())} existing title(s) for newly watched developers.")
+            send_feishu_baseline(baselined_counts)
+    record_run(
+        build_run_status(
+            ios_fail, android_fail, play_guard, missed, baselined_counts, is_first_run, incomplete
+        ),
+        decision["pending_alerts"],
+    )
     print("=" * 60 + "\n")
 
 if __name__ == "__main__":

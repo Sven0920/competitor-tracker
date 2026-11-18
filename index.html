@@ -18,7 +18,10 @@
   }
   .wrap{max-width:760px;margin:0 auto}
   .title{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:0 0 4px}
-  .meta{color:var(--sub);font-size:13px;margin:0 0 22px}
+  .meta{color:var(--sub);font-size:13px;margin:0 0 4px}
+  .run{color:var(--sub);font-size:13px;margin:0 0 18px;line-height:1.5}
+  .run.bad{color:var(--soft-tag)}
+  #exportBtn{font:inherit;font-size:13px;font-weight:600;padding:7px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);cursor:pointer}
   .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:22px}
   .seg{display:inline-flex;background:#e9e9ec;border-radius:10px;padding:3px}
   .seg button{border:0;background:transparent;padding:6px 14px;border-radius:8px;font-size:13px;font-weight:600;color:var(--sub);cursor:pointer}
@@ -69,6 +72,7 @@
 <div class="wrap">
   <h1 class="title">📡 New Game Radar</h1>
   <p class="meta" id="meta">Loading…</p>
+  <p class="run" id="run"></p>
 
   <div class="bar">
     <div class="seg" id="platSeg">
@@ -104,6 +108,7 @@
       <option value="name_az">Game name A–Z</option>
     </select>
     <input id="search" type="search" placeholder="Search game or developer…">
+    <button id="exportBtn" type="button">Export CSV</button>
     <span class="count" id="count"></span>
   </div>
 
@@ -142,6 +147,70 @@ function isBackfill(g){
 }
 function hasUs(g){
   return (g.regions||[]).some(r => String(r).toLowerCase() === "us");
+}
+function formatRelease(s){
+  const t = parseDay(s);
+  if(t === null) return s ? String(s) : "—";
+  const d = new Date(t);
+  const month = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(d.getUTCDate()).padStart(2, "0");
+  return d.getUTCFullYear() + "-" + month + "-" + day;
+}
+function iapLabel(g){
+  const raw = g && g.iap_info;
+  if(g && g.platform === "iOS" && (!raw || raw === "Unknown")) return "Not listed by the App Store";
+  return raw || "—";
+}
+function runStatusText(run){
+  if(!run || !run.finished_at) return "Run status starts with the next daily update.";
+  const when = run.finished_at + " (China time)";
+  const filed = (run.baselined_titles || 0) > 0
+    ? " Quietly filed " + run.baselined_titles + " existing titles from newly watched developers."
+    : "";
+  if(run.complete) return "Run complete at " + when + "." + filed;
+  const missed = run.missed_developers || [];
+  const shown = missed.slice(0, 8).join(", ");
+  const more = missed.length > 8 ? " and " + (missed.length - 8) + " more" : "";
+  const who = missed.length ? " No known game seen for " + shown + more + "." : "";
+  const why = run.play_circuit_open ? " Google Play stopped early." : "";
+  return "Run incomplete at " + when + "." + why +
+    " iOS failures " + (run.ios_failures || 0) + ", Android failures " + (run.android_failures || 0) + "." +
+    who + filed + " New-game alerts are held until a complete run.";
+}
+function csvCell(value){
+  const text = value == null ? "" : String(value);
+  if(/[",\n]/.test(text)) return '"' + text.replace(/"/g, '""') + '"';
+  return text;
+}
+function csvForCards(cards){
+  const header = ["Developer", "Game", "Platform", "Regions", "Release date", "Install range", "7-day installs", "IAP", "Link"];
+  const lines = [header.join(",")];
+  for(const card of cards || []){
+    for(const side of card.sides || []){
+      lines.push([
+        card.developer,
+        card.name,
+        side.platform,
+        (side.regions || []).join(" "),
+        formatRelease(side.release_date),
+        side.platform === "Android" ? (side.installs || "") : "",
+        side.platform === "Android" && (side.velocity || 0) > 0 ? String(side.velocity) : "",
+        iapLabel(side),
+        side.url || "",
+      ].map(csvCell).join(","));
+    }
+  }
+  return lines.join("\n");
+}
+function downloadCsv(){
+  const csv = csvForCards(visibleCards());
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "new-game-radar.csv";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
 }
 function normName(s){
   return String(s||"").trim().toLowerCase().replace(/\s+/g, " ");
@@ -280,11 +349,12 @@ function regionTag(regions){
 function sideLine(g){
   const regions = esc((g.regions||[]).map(r=>String(r).toUpperCase()).join(", ") || "—");
   const stats = g.platform === "Android"
-    ? `📥 Installs <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7d +${(g.velocity||0).toLocaleString()}</span>` : ""}`
+    ? `📥 Play range <b>${esc(g.installs||"—")}</b>${(g.velocity||0)>0 ? ` &nbsp;·&nbsp; 📈 <span class="vel">7d +${(g.velocity||0).toLocaleString()}</span>` : ""}`
     : `⭐ Ratings <b>${(g.ratings||0).toLocaleString()}</b>`;
   // Android package size is almost always "varies by device", so it is omitted. iOS size stays.
+  // Play "installs" are the store's public bucket, not an exact count. iOS does not list IAP the way Play does.
   const size = g.platform === "Android" ? "" : ` &nbsp;·&nbsp; 📦 <b>${esc(g.size||"—")}</b>`;
-  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats}${size} &nbsp;·&nbsp; 💰 ${esc(g.iap_info||"—")} &nbsp;·&nbsp; 🗓 Released <b>${esc(g.release_date||"—")}</b></div>`;
+  return `<div class="g-info">🌍 ${regions} &nbsp;·&nbsp; ${stats}${size} &nbsp;·&nbsp; 💰 ${esc(iapLabel(g))} &nbsp;·&nbsp; 🗓 Released <b>${esc(formatRelease(g.release_date))}</b></div>`;
 }
 
 function gameCard(card){
@@ -402,6 +472,7 @@ document.getElementById('signalSel').addEventListener('change', e => { filter.si
 document.getElementById('ageSel').addEventListener('change', e => { filter.age = e.target.value; render(); });
 document.getElementById('sortSel').addEventListener('change', e => { filter.sort = e.target.value; render(); });
 document.getElementById('search').addEventListener('input', e => { filter.q = e.target.value.toLowerCase().trim(); render(); });
+document.getElementById('exportBtn').addEventListener('click', downloadCsv);
 
 Promise.all([
   fetch('data.json?_=' + Date.now()).then(r => r.json()),
@@ -415,6 +486,9 @@ Promise.all([
     const gameWord = GAMES.length === 1 ? "game" : "games";
     document.getElementById('meta').textContent =
       `Tracking · ${GAMES.length} new ${gameWord} in the last 120 days · Updated ${data.updated_at || "—"} (daily)`;
+    const runEl = document.getElementById('run');
+    runEl.textContent = runStatusText(data.run);
+    runEl.classList.toggle('bad', !!(data.run && data.run.finished_at && !data.run.complete));
     buildDevOptions();
     buildGenreOptions();
     buildSuperOptions(catalog);
