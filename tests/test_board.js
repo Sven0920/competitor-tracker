@@ -140,4 +140,33 @@ assert.ok(amazeHtml.includes("App Store") && amazeHtml.includes("Google Play"));
 assert.ok(cardMatches(mergedAmaze[0], { ...base, q: "amaze clear 3d" }, now));
 loadTitleAliases({ aliases: [] });
 
+assert.strictEqual(sandbox.formatRelease("Nov 16, 2026"), "2026-11-16");
+assert.strictEqual(sandbox.formatRelease("2026-11-16"), "2026-11-16");
+assert.strictEqual(sandbox.formatRelease("Unknown date"), "Unknown date");
+assert.strictEqual(sandbox.iapLabel({ platform: "iOS", iap_info: "Unknown" }), "Not listed by the App Store");
+assert.strictEqual(sandbox.iapLabel({ platform: "Android", iap_info: "Non-US store price · $1.99" }), "Non-US store price · $1.99");
+assert.ok(sandbox.runStatusText(null).includes("next daily update"));
+const incomplete = sandbox.runStatusText({
+  finished_at: "2026-11-18 10:17",
+  complete: false,
+  ios_failures: 8,
+  android_failures: 1,
+  play_circuit_open: true,
+  missed_developers: ["Peak"],
+  baselined_titles: 0,
+});
+assert.ok(incomplete.includes("Run incomplete"));
+assert.ok(incomplete.includes("Peak"));
+assert.ok(incomplete.includes("held until a complete run"));
+assert.ok(sandbox.runStatusText({ finished_at: "2026-11-18 10:17", complete: true, baselined_titles: 4 }).includes("Quietly filed 4"));
+
+sandbox.GAMES = games;
+sandbox.filter = { ...base, dev: "Peak" };
+const csv = sandbox.csvForCards(sandbox.visibleCards());
+assert.ok(csv.startsWith("Developer,Game,Platform,Regions,Release date,Install range,7-day installs,IAP,Link"));
+assert.ok(csv.includes("Peak"));
+assert.ok(!csv.includes("Homa"));
+const peakCard = sandbox.gameCard(cards.find(c => c.developer === "Peak" && c.sides.some(s => s.app_id === "other")));
+assert.ok(peakCard.includes("Play range"));
+
 console.log("board logic ok", cards.length, "cards");
