@@ -55188,6 +55188,7 @@
     "6822405897": {
         "name": "Cube Jam 3D!",
         "regions": [
+            "au",
             "br",
             "ca",
             "gb",
@@ -58338,6 +58339,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -58467,45 +58469,45 @@
     "6818465459": {
         "name": "Tank Busters: Cannon Battle",
         "regions": [
-            "us",
-            "vn",
-            "br",
-            "mx",
-            "id",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "ph"
+            "us",
+            "vn"
         ]
     },
     "6827062772": {
         "name": "Waterway Connect -Logic Puzzle",
         "regions": [
-            "us",
-            "vn",
-            "br",
-            "mx",
-            "id",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "ph"
+            "us",
+            "vn"
         ]
     },
     "com.ig.tile.category.jam": {
         "name": "Tilegory Jam",
         "regions": [
-            "us",
-            "br",
-            "mx",
-            "id",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "ph"
+            "us"
         ]
     },
     "com.hitappsgames.jigsawjam": {
@@ -58517,26 +58519,134 @@
     "com.nep.tr.idle.cat.boxer": {
         "name": "Cat Boxer: Idle RPG",
         "regions": [
-            "us",
-            "vn",
-            "br",
-            "mx",
-            "id",
-            "gb",
-            "ca",
             "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "ph"
+            "us",
+            "vn"
         ]
     },
     "com.nep.tr.idle.punchmerge": {
         "name": "Knuckle Up: Idle Merge & Punch",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.actionfit.cat.sushi.aos": {
         "name": "Cat Sushi Bar",
+        "regions": [
+            "us"
+        ]
+    },
+    "6819161815": {
+        "name": "Twist Rings: Rotate Puzzle",
+        "regions": [
+            "id",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "6816987854": {
+        "name": "Say Games",
+        "regions": [
+            "us"
+        ]
+    },
+    "6809850938": {
+        "name": "Wildoku: Animal Sudoku",
+        "regions": [
+            "id",
+            "vn",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "6743708033": {
+        "name": "Loop Stack",
+        "regions": [
+            "id",
+            "vn",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.abi.cozy.sort": {
+        "name": "Cozy Sort: Tidy Room",
+        "regions": [
+            "id",
+            "vn",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "and.lhhpub.fishy.loop": {
+        "name": "Fishy Loop: Sort Puzzle",
+        "regions": [
+            "id",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "and.lhhpub.honey.bee.flow": {
+        "name": "Honey Bee Flow: Pixel Puzzle",
+        "regions": [
+            "id",
+            "us",
+            "ph",
+            "au",
+            "br",
+            "mx",
+            "ca",
+            "gb",
+            "tr"
+        ]
+    },
+    "com.magic.pixel.puzzle.pack.sort.aos": {
+        "name": "Magic Pack Man",
         "regions": [
             "us"
         ]
