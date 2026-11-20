@@ -54732,7 +54732,8 @@
         "name": "Fashion Universe",
         "regions": [
             "id",
-            "tr"
+            "tr",
+            "vn"
         ]
     },
     "com.oakever.amaze3d": {
@@ -58213,6 +58214,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -58507,7 +58509,8 @@
             "mx",
             "ph",
             "tr",
-            "us"
+            "us",
+            "vn"
         ]
     },
     "com.hitappsgames.jigsawjam": {
@@ -58555,15 +58558,15 @@
     "6819161815": {
         "name": "Twist Rings: Rotate Puzzle",
         "regions": [
-            "id",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "6816987854": {
@@ -58575,80 +58578,136 @@
     "6809850938": {
         "name": "Wildoku: Animal Sudoku",
         "regions": [
-            "id",
-            "vn",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6743708033": {
         "name": "Loop Stack",
         "regions": [
-            "id",
-            "vn",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.cozy.sort": {
         "name": "Cozy Sort: Tidy Room",
         "regions": [
-            "id",
-            "vn",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "and.lhhpub.fishy.loop": {
         "name": "Fishy Loop: Sort Puzzle",
         "regions": [
-            "id",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.honey.bee.flow": {
         "name": "Honey Bee Flow: Pixel Puzzle",
         "regions": [
-            "id",
-            "us",
-            "ph",
             "au",
             "br",
-            "mx",
             "ca",
             "gb",
-            "tr"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.magic.pixel.puzzle.pack.sort.aos": {
         "name": "Magic Pack Man",
         "regions": [
             "us"
+        ]
+    },
+    "6764271702": {
+        "name": "Rolling Together!",
+        "regions": [
+            "br",
+            "us"
+        ]
+    },
+    "6820001197": {
+        "name": "Snowbound Adventure",
+        "regions": [
+            "ph",
+            "id"
+        ]
+    },
+    "and.lhhpub.sand.bliss": {
+        "name": "Sand Bliss: Block Puzzle",
+        "regions": [
+            "au",
+            "ca",
+            "tr",
+            "mx",
+            "us",
+            "id",
+            "ph",
+            "gb",
+            "br"
+        ]
+    },
+    "com.playrix.frozenpeak": {
+        "name": "Snowbound Adventure",
+        "regions": [
+            "au",
+            "ca",
+            "tr",
+            "mx",
+            "us",
+            "id",
+            "ph"
+        ]
+    },
+    "com.fm3.global": {
+        "name": "Farmland Match",
+        "regions": [
+            "ph"
+        ]
+    },
+    "io.supercent.audioreels": {
+        "name": "Hype FM: Audio Drama Series",
+        "regions": [
+            "au",
+            "ca",
+            "us",
+            "ph",
+            "gb"
         ]
     }
 }
