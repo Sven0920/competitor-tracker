@@ -58664,22 +58664,27 @@
     "6820001197": {
         "name": "Snowbound Adventure",
         "regions": [
+            "au",
+            "ca",
+            "id",
+            "mx",
             "ph",
-            "id"
+            "tr",
+            "us"
         ]
     },
     "and.lhhpub.sand.bliss": {
         "name": "Sand Bliss: Block Puzzle",
         "regions": [
             "au",
+            "br",
             "ca",
-            "tr",
-            "mx",
-            "us",
-            "id",
-            "ph",
             "gb",
-            "br"
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.playrix.frozenpeak": {
@@ -58687,11 +58692,11 @@
         "regions": [
             "au",
             "ca",
-            "tr",
-            "mx",
-            "us",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "com.fm3.global": {
@@ -58705,9 +58710,58 @@
         "regions": [
             "au",
             "ca",
-            "us",
+            "gb",
             "ph",
-            "gb"
+            "us"
+        ]
+    },
+    "6829064646": {
+        "name": "UFO.io - Alien Invader",
+        "regions": [
+            "ca",
+            "gb",
+            "ph",
+            "us",
+            "id",
+            "tr",
+            "br",
+            "mx",
+            "au"
+        ]
+    },
+    "6757154702": {
+        "name": "Time Surfer Evolution",
+        "regions": [
+            "ca",
+            "gb",
+            "ph",
+            "us",
+            "id",
+            "tr",
+            "br",
+            "mx",
+            "au"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.peopleloop": {
+        "name": "People Loop",
+        "regions": [
+            "us"
+        ]
+    },
+    "loop.fruit.juice.sort.color.puzzle": {
+        "name": "Juice Loop: Color Jam Sort",
+        "regions": [
+            "ca",
+            "gb",
+            "ph",
+            "us",
+            "id",
+            "vn",
+            "tr",
+            "br",
+            "mx",
+            "au"
         ]
     }
 }
