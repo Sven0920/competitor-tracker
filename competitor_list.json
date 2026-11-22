@@ -55231,6 +55231,7 @@
     "games.tower.defense": {
         "name": "Last Survivors: Zombie Defense",
         "regions": [
+            "br",
             "us"
         ]
     },
@@ -58243,6 +58244,7 @@
             "mx",
             "ph",
             "tr",
+            "us",
             "vn"
         ]
     },
@@ -58448,6 +58450,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -58461,6 +58464,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -58718,29 +58722,29 @@
     "6829064646": {
         "name": "UFO.io - Alien Invader",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "ph",
-            "us",
             "id",
-            "tr",
-            "br",
             "mx",
-            "au"
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "6757154702": {
         "name": "Time Surfer Evolution",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "ph",
-            "us",
             "id",
-            "tr",
-            "br",
             "mx",
-            "au"
+            "ph",
+            "tr",
+            "us"
         ]
     },
     "jp.co.goodroid.hyper.puzzle.peopleloop": {
@@ -58752,16 +58756,16 @@
     "loop.fruit.juice.sort.color.puzzle": {
         "name": "Juice Loop: Color Jam Sort",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "ph",
-            "us",
             "id",
-            "vn",
-            "tr",
-            "br",
             "mx",
-            "au"
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     }
 }
