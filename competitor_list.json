@@ -55671,7 +55671,11 @@
         "name": "Cash & Ammo: Card Battle CCG",
         "regions": [
             "br",
-            "mx"
+            "id",
+            "mx",
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "com.hitappsgames.wordshapes": {
@@ -58766,6 +58770,47 @@
             "tr",
             "us",
             "vn"
+        ]
+    },
+    "com.playstrom.boarding.idle": {
+        "name": "Boarding Time: Passengers Idle",
+        "regions": [
+            "br",
+            "us",
+            "mx",
+            "vn",
+            "au",
+            "ca",
+            "gb",
+            "id",
+            "ph",
+            "tr"
+        ]
+    },
+    "com.game.whichthreadfirst": {
+        "name": "Which Thread First?",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.tummygames.dinosurf": {
+        "name": "Time Surfer Evolution",
+        "regions": [
+            "br",
+            "us",
+            "mx",
+            "au",
+            "ca",
+            "gb",
+            "id",
+            "ph",
+            "tr"
+        ]
+    },
+    "com.sushi.cat.loop.puzzle.aos": {
+        "name": "Sushi Cat Loop",
+        "regions": [
+            "us"
         ]
     }
 }
