@@ -55670,7 +55670,9 @@
     "com.prjcttwo": {
         "name": "Cash & Ammo: Card Battle CCG",
         "regions": [
+            "au",
             "br",
+            "ca",
             "id",
             "mx",
             "ph",
@@ -55723,8 +55725,15 @@
         "name": "Block Shift: Tap Out Puzzle",
         "regions": [
             "au",
+            "br",
+            "ca",
+            "gb",
             "id",
-            "ph"
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.m521.global": {
@@ -58775,16 +58784,16 @@
     "com.playstrom.boarding.idle": {
         "name": "Boarding Time: Passengers Idle",
         "regions": [
-            "br",
-            "us",
-            "mx",
-            "vn",
             "au",
+            "br",
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
-            "tr"
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.game.whichthreadfirst": {
@@ -58796,19 +58805,69 @@
     "com.tummygames.dinosurf": {
         "name": "Time Surfer Evolution",
         "regions": [
-            "br",
-            "us",
-            "mx",
             "au",
+            "br",
             "ca",
             "gb",
             "id",
+            "mx",
             "ph",
-            "tr"
+            "tr",
+            "us"
         ]
     },
     "com.sushi.cat.loop.puzzle.aos": {
         "name": "Sushi Cat Loop",
+        "regions": [
+            "us"
+        ]
+    },
+    "6828776437": {
+        "name": "Sushi Loop: Order up!",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.Konsordo.MissileEvolve": {
+        "name": "Missile Evolve-Evolution game",
+        "regions": [
+            "mx",
+            "gb",
+            "ca",
+            "us",
+            "au"
+        ]
+    },
+    "com.hexa.wars": {
+        "name": "Boom Busters: Island Battles",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.tripledot.colorflow": {
+        "name": "CuBee Flow",
+        "regions": [
+            "id",
+            "ph",
+            "au"
+        ]
+    },
+    "com.tripledot.sortflow": {
+        "name": "Car Loop - Sort Puzzle",
+        "regions": [
+            "id",
+            "ph",
+            "au"
+        ]
+    },
+    "com.nep.tr.tycoon3.idle.cat.miner": {
+        "name": "Cat Miner!",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.puzzle.cube.smash.aos": {
+        "name": "Pixel Cannon 3D: Color Puzzle",
         "regions": [
             "us"
         ]
