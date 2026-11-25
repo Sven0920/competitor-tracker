@@ -55673,6 +55673,7 @@
             "au",
             "br",
             "ca",
+            "gb",
             "id",
             "mx",
             "ph",
@@ -58831,11 +58832,11 @@
     "com.Konsordo.MissileEvolve": {
         "name": "Missile Evolve-Evolution game",
         "regions": [
-            "mx",
-            "gb",
+            "au",
             "ca",
-            "us",
-            "au"
+            "gb",
+            "mx",
+            "us"
         ]
     },
     "com.hexa.wars": {
@@ -58847,17 +58848,17 @@
     "com.tripledot.colorflow": {
         "name": "CuBee Flow",
         "regions": [
+            "au",
             "id",
-            "ph",
-            "au"
+            "ph"
         ]
     },
     "com.tripledot.sortflow": {
         "name": "Car Loop - Sort Puzzle",
         "regions": [
+            "au",
             "id",
-            "ph",
-            "au"
+            "ph"
         ]
     },
     "com.nep.tr.tycoon3.idle.cat.miner": {
@@ -58870,6 +58871,134 @@
         "name": "Pixel Cannon 3D: Color Puzzle",
         "regions": [
             "us"
+        ]
+    },
+    "6836779550": {
+        "name": "Skyscraper Simulator",
+        "regions": [
+            "br"
+        ]
+    },
+    "6818188230": {
+        "name": "CuBee Flow",
+        "regions": [
+            "id",
+            "au",
+            "ph"
+        ]
+    },
+    "6827537638": {
+        "name": "Scary Hot Dogs",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
+        ]
+    },
+    "6825337681": {
+        "name": "Peek a Pup! Logic Puzzle",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
+        ]
+    },
+    "com.abi.sandy.land": {
+        "name": "Sandy Land: Bus Sort Puzzle",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
+        ]
+    },
+    "com.abi.legendofsurvivors": {
+        "name": "Legend of Survivors",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
+        ]
+    },
+    "studio.craftplay.topics.connections.retro": {
+        "name": "TOPICS Connections Words",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.playstrom.keycap": {
+        "name": "My KeyCap — ASMR Clicker",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.hitappsgames.pixelfill": {
+        "name": "Pixel Ferry: Color Fill Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.nep.tr.puzzle.cubesplit": {
+        "name": "Cube Slice 3D: Cut Puzzle",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
+        ]
+    },
+    "com.nep.tr.tycoon.railwaytycoon": {
+        "name": "Railway Tycoon",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.nep.tr.hybrid.cg.dig": {
+        "name": "Idle DDDigger: RPG",
+        "regions": [
+            "ca",
+            "tr",
+            "gb",
+            "vn",
+            "id",
+            "us",
+            "mx",
+            "au",
+            "br",
+            "ph"
         ]
     }
 }
