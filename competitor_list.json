@@ -58835,8 +58835,11 @@
             "au",
             "ca",
             "gb",
+            "id",
             "mx",
-            "us"
+            "ph",
+            "us",
+            "vn"
         ]
     },
     "com.hexa.wars": {
@@ -58876,75 +58879,76 @@
     "6836779550": {
         "name": "Skyscraper Simulator",
         "regions": [
-            "br"
+            "br",
+            "us"
         ]
     },
     "6818188230": {
         "name": "CuBee Flow",
         "regions": [
-            "id",
             "au",
+            "id",
             "ph"
         ]
     },
     "6827537638": {
         "name": "Scary Hot Dogs",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "6825337681": {
         "name": "Peek a Pup! Logic Puzzle",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.sandy.land": {
         "name": "Sandy Land: Bus Sort Puzzle",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.abi.legendofsurvivors": {
         "name": "Legend of Survivors",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "studio.craftplay.topics.connections.retro": {
@@ -58968,16 +58972,16 @@
     "com.nep.tr.puzzle.cubesplit": {
         "name": "Cube Slice 3D: Cut Puzzle",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
-            "ph"
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "com.nep.tr.tycoon.railwaytycoon": {
@@ -58989,16 +58993,90 @@
     "com.nep.tr.hybrid.cg.dig": {
         "name": "Idle DDDigger: RPG",
         "regions": [
-            "ca",
-            "tr",
-            "gb",
-            "vn",
-            "id",
-            "us",
-            "mx",
             "au",
             "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "6823085361": {
+        "name": "Brick Smash - Puzzle Game",
+        "regions": [
+            "ca",
+            "gb",
+            "au",
+            "us",
+            "tr",
             "ph"
+        ]
+    },
+    "com.oakever.babaabye": {
+        "name": "BaBaa Bye!",
+        "regions": [
+            "id",
+            "ca",
+            "gb",
+            "br",
+            "mx",
+            "au",
+            "us",
+            "tr",
+            "ph",
+            "vn"
+        ]
+    },
+    "com.alexb.skyscraper": {
+        "name": "Skyscraper Simulator",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.easybrain.dice.merge.puzzle": {
+        "name": "Dice Merge - Drop Puzzle Game",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.nep.tr.idle.tap.harvest": {
+        "name": "TapTap Harvest! Idle Farm",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.nep.tr.hybrid.luckycoin": {
+        "name": "Cat-Ching!",
+        "regions": [
+            "id",
+            "ca",
+            "gb",
+            "br",
+            "mx",
+            "au",
+            "us",
+            "tr",
+            "ph",
+            "vn"
+        ]
+    },
+    "com.nep.tr.hybrid.blockarmy": {
+        "name": "Mine & Hire",
+        "regions": [
+            "id",
+            "ca",
+            "gb",
+            "br",
+            "mx",
+            "au",
+            "us",
+            "tr",
+            "ph",
+            "vn"
         ]
     }
 }
