@@ -55573,7 +55573,15 @@
     "com.game.pachinkorpg": {
         "name": "Pachinko RPG",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "jp.co.goodroid.hyper.ringsaway3D": {
@@ -56000,6 +56008,9 @@
     "com.hitappsgames.wordshift": {
         "name": "Word Shift Solitaire",
         "regions": [
+            "au",
+            "ca",
+            "gb",
             "us"
         ]
     },
@@ -58534,6 +58545,9 @@
     "com.hitappsgames.jigsawjam": {
         "name": "Jigsaw Jam Block",
         "regions": [
+            "au",
+            "ca",
+            "gb",
             "us"
         ]
     },
@@ -58833,11 +58847,13 @@
         "name": "Missile Evolve-Evolution game",
         "regions": [
             "au",
+            "br",
             "ca",
             "gb",
             "id",
             "mx",
             "ph",
+            "tr",
             "us",
             "vn"
         ]
@@ -59008,26 +59024,30 @@
     "6823085361": {
         "name": "Brick Smash - Puzzle Game",
         "regions": [
+            "au",
+            "br",
             "ca",
             "gb",
-            "au",
-            "us",
+            "id",
+            "mx",
+            "ph",
             "tr",
-            "ph"
+            "us",
+            "vn"
         ]
     },
     "com.oakever.babaabye": {
         "name": "BaBaa Bye!",
         "regions": [
-            "id",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
+            "id",
             "mx",
-            "au",
-            "us",
-            "tr",
             "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
@@ -59052,31 +59072,103 @@
     "com.nep.tr.hybrid.luckycoin": {
         "name": "Cat-Ching!",
         "regions": [
-            "id",
+            "au",
+            "br",
             "ca",
             "gb",
-            "br",
+            "id",
             "mx",
-            "au",
-            "us",
-            "tr",
             "ph",
+            "tr",
+            "us",
             "vn"
         ]
     },
     "com.nep.tr.hybrid.blockarmy": {
         "name": "Mine & Hire",
         "regions": [
-            "id",
+            "au",
+            "br",
             "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
+        ]
+    },
+    "com.easybrain.bolt.slide.game": {
+        "name": "Slide Out - Tap Block Puzzle",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.nep.tr.hybrid.captainmeow": {
+        "name": "Captain Meow : Bag Defense",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "tr",
+            "us",
             "br",
             "mx",
+            "vn",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.nep.tr.hybrid.splashgarden": {
+        "name": "Splash Garden : Pipe Defense",
+        "regions": [
+            "id",
             "au",
-            "us",
+            "gb",
             "tr",
-            "ph",
-            "vn"
+            "us",
+            "br",
+            "mx",
+            "vn",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.peb.liquidring": {
+        "name": "Liquid Rings!",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "tr",
+            "us",
+            "br",
+            "mx",
+            "vn",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.Cat.Fit.puzzle.aos": {
+        "name": "Cat Fit: Stretchy Cat Puzzle",
+        "regions": [
+            "id",
+            "au",
+            "gb",
+            "tr",
+            "us",
+            "br",
+            "mx",
+            "vn",
+            "ca",
+            "ph"
+        ]
+    },
+    "com.casual.sand.bomb.aos": {
+        "name": "Sand Bomb",
+        "regions": [
+            "us"
         ]
     }
 }
