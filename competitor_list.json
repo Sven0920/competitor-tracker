@@ -56429,7 +56429,16 @@
     "jp.co.goodroid.hyper.puzzle.wordblockout": {
         "name": "Spell Out!",
         "regions": [
-            "us"
+            "au",
+            "br",
+            "ca",
+            "gb",
+            "id",
+            "mx",
+            "ph",
+            "tr",
+            "us",
+            "vn"
         ]
     },
     "jp.co.goodroid.hyper.puzzle.sandfever": {
@@ -59108,67 +59117,137 @@
     "com.nep.tr.hybrid.captainmeow": {
         "name": "Captain Meow : Bag Defense",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
             "us",
-            "br",
-            "mx",
-            "vn",
-            "ca",
-            "ph"
+            "vn"
         ]
     },
     "com.nep.tr.hybrid.splashgarden": {
         "name": "Splash Garden : Pipe Defense",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
             "us",
-            "br",
-            "mx",
-            "vn",
-            "ca",
-            "ph"
+            "vn"
         ]
     },
     "com.peb.liquidring": {
         "name": "Liquid Rings!",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
             "us",
-            "br",
-            "mx",
-            "vn",
-            "ca",
-            "ph"
+            "vn"
         ]
     },
     "com.Cat.Fit.puzzle.aos": {
         "name": "Cat Fit: Stretchy Cat Puzzle",
         "regions": [
-            "id",
             "au",
+            "br",
+            "ca",
             "gb",
+            "id",
+            "mx",
+            "ph",
             "tr",
             "us",
-            "br",
-            "mx",
-            "vn",
-            "ca",
-            "ph"
+            "vn"
         ]
     },
     "com.casual.sand.bomb.aos": {
         "name": "Sand Bomb",
         "regions": [
             "us"
+        ]
+    },
+    "1551786310": {
+        "name": "Cafescapes: Match & Story",
+        "regions": [
+            "au",
+            "ca",
+            "ph",
+            "tr",
+            "mx",
+            "us",
+            "id"
+        ]
+    },
+    "6832553936": {
+        "name": "Slinky Kitty",
+        "regions": [
+            "us"
+        ]
+    },
+    "6818012389": {
+        "name": "Sand Gecko!",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.hitappsgames.blockdown": {
+        "name": "Block down!",
+        "regions": [
+            "us"
+        ]
+    },
+    "jp.co.goodroid.hyper.puzzle.yarncatch": {
+        "name": "Yarn Catch",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.gurupuzzle.merge.games.bubbles": {
+        "name": "Merge Games 2048 - M2 Bubbles",
+        "regions": [
+            "au",
+            "ca",
+            "gb",
+            "ph",
+            "tr",
+            "vn",
+            "mx",
+            "us",
+            "id",
+            "br"
+        ]
+    },
+    "com.puzzle.bubble.shot.aos": {
+        "name": "Bubble Shot 2048",
+        "regions": [
+            "us"
+        ]
+    },
+    "com.actionfit.differences": {
+        "name": "Find The Difference 3D",
+        "regions": [
+            "au",
+            "ca",
+            "ph",
+            "tr",
+            "mx",
+            "vn",
+            "id",
+            "br"
         ]
     }
 }
